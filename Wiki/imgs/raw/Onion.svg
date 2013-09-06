@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="Onion.png"
+   sodipodi:docname="Onion.svg"
    inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/Onion.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2337589"
-     inkscape:cx="465.01237"
-     inkscape:cy="722.87792"
+     inkscape:zoom="2.2904137"
+     inkscape:cx="383.92027"
+     inkscape:cy="563.46597"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,6 +55,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect6318"
+       width="658.15131"
+       height="495.23453"
+       x="42.147617"
+       y="198.06238" />
     <path
        sodipodi:type="arc"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.81193808000000001;stroke-miterlimit:4;stroke-opacity:0.21568628000000001;stroke-dasharray:none;fill-opacity:1"
@@ -322,7 +329,7 @@
          y="398.51041">NTO</tspan></text>
     <path
        style="fill:none;stroke:none"
-       d="m 324.97449,493.27602 c 39.60336,40.38 82.39347,39.70948 113.8906,0.67143"
+       d="m 324.97449,493.27602 c 39.60336,42.07898 82.39347,41.20968 113.8906,0.67143"
        id="path3781"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -332,5 +339,16 @@
        id="path3865"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="80.242584"
+       y="242.64159"
+       id="text6343"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6345"
+         x="80.242584"
+         y="242.64159">Onion-like meta model</tspan></text>
   </g>
 </svg>
