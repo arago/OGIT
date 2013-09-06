@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="Onion.svg">
+   sodipodi:docname="Onion.png"
+   inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/Onion.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,16 +28,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5971909"
-     inkscape:cx="455.44382"
-     inkscape:cy="517.79546"
+     inkscape:zoom="1.2337589"
+     inkscape:cx="465.01237"
+     inkscape:cy="722.87792"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1636"
      inkscape:window-height="1140"
-     inkscape:window-x="1678"
-     inkscape:window-y="22"
+     inkscape:window-x="1941"
+     inkscape:window-y="49"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -44,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -179,15 +182,23 @@
          sodipodi:role="line"
          x="73.355042"
          y="341.79849"
-         id="tspan3871">Semantics</tspan><tspan
+         id="tspan3871">Semantics:</tspan><tspan
          sodipodi:role="line"
          x="73.355042"
          y="358.04849"
-         id="tspan3873">Entities/Actions</tspan></text>
+         id="tspan3873">Entities/</tspan><tspan
+         sodipodi:role="line"
+         x="73.355042"
+         y="374.29849"
+         id="tspan5961">Node Types</tspan><tspan
+         sodipodi:role="line"
+         x="73.355042"
+         y="390.54849"
+         id="tspan5959">/Actions</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path3875"
-       d="M 322.61249,464.77332 164.67459,561.3325"
+       d="M 319.1737,475.66283 164.67459,561.3325"
        style="fill:none;stroke:#b30000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:nodetypes="cc" />
     <text
@@ -204,7 +215,11 @@
          y="576.53937"
          x="123.44807"
          sodipodi:role="line"
-         id="tspan3911">Types</tspan></text>
+         id="tspan3911">Type</tspan><tspan
+         y="592.78937"
+         x="123.44807"
+         sodipodi:role="line"
+         id="tspan5967">Details</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        style="fill:none;stroke:#b30000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -227,16 +242,19 @@
          id="tspan3902"
          y="296.27878"
          x="613.33057"
-         sodipodi:role="line">Node</tspan><tspan
+         sodipodi:role="line"></tspan><tspan
          y="312.52878"
          x="613.33057"
          sodipodi:role="line"
+         id="tspan5963"></tspan><tspan
+         y="328.77878"
+         x="613.33057"
+         sodipodi:role="line"
+         id="tspan5965">Node</tspan><tspan
+         y="345.02878"
+         x="613.33057"
+         sodipodi:role="line"
          id="tspan3909">Attributes</tspan></text>
-    <path
-       style="fill:none;stroke:#b30000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 352.55332,452.79699 151.94973,332.28513"
-       id="path3865"
-       inkscape:connector-curvature="0" />
     <text
        sodipodi:linespacing="125%"
        id="text3809"
@@ -306,6 +324,12 @@
        style="fill:none;stroke:none"
        d="m 324.97449,493.27602 c 39.60336,40.38 82.39347,39.70948 113.8906,0.67143"
        id="path3781"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#b30000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 351.40706,451.07759 151.94973,332.28513"
+       id="path3865"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
   </g>
