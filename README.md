@@ -1,4 +1,3 @@
-arago AG 
 Open Graph for IT Ontology Hub
 ================
 You can find more information about the workings of OGIT on the [Wiki](https://github.com/arago/graphIT-ontology/wiki)
@@ -12,6 +11,7 @@ This document describes the rough model implied and the methodology used to main
 ## Goals and Components 
 
 The platform has to fulfil several tasks:
+
 1.	store all historic and current data of the open graph of IT
 
 2.	make this data accessible though several low and high level APIs
@@ -117,6 +117,7 @@ The following action can be performed by an NTO Admin Contact
 5.	discuss changes to SN*A procedures with ontology board
 
 The following documents will be maintained by the NTO Admin Contacts:
+
 1.	Schema for NTO at pre defined URLs
 
 2.	Migration catalogue to move from version of the NTO schema to another
@@ -132,15 +133,23 @@ The admin contact for an NTO is not running contact platforms for changes built 
 ### NTO Tech Contact
 
 Tech Contacts for an NTO are publically visible ambassadors fort he NTO description. They maintain the attribute space  and can elevate best practice attributes to required attributes and free attributes to best practice attributes. They are responsible for communicating and discussing changes with users. They perform the following actions :
+
 1.	Maintain user contact
+
 2.	Operate user contact platform
+
 3.	Maintain mechanism for users to request attributes to be come part of best practices
+
 4.	Approve  or disapprove SNBA
+
 5.	Maintain SN*A mechanisms and descriptions
 
 Tech Contacts maintain the following documents:
+
 1.	SN*A definitions at predefined URLs
+
 2.	Procedure catalogue for SNBA requests describing the conditions under which an attribute will be added to the SNBA
+
 3.	Procedure catalogue for SNRA requests describing the conditions under with an attribute will be added to the SNRA list. 
 
 Tech Contacts can involve subject matter experts into their work and give them specific roles in their respective user communities. 
