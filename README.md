@@ -1,8 +1,5 @@
-graphIT-ontology
-================
-
 arago AG Open Graph for IT Ontology Hub
-
+================
 You can find more information about the workings of OGIT on the [Wiki](https://github.com/arago/graphIT-ontology/wiki)
 
 # arago Open Graph of IT
@@ -10,6 +7,20 @@ You can find more information about the workings of OGIT on the [Wiki](https://g
 The strategy of building a semantic representation of all IT and its interaction with business processes and people requires a sound data space as a foundation for computational evaluation of this enterprise space.
 Other approaches to create even a partial data space to cover IT like the IBM common data model have failed, because they required too much detail and did not allow any ambiguity or incorrectness. This is why arago has chosen a semantic model that allows varying levels of detail, accepts incorrectness and supports different classes of data is a way that will also allow proper handling from a computational perspective. 
 This document describes the rough model implied and the methodology used to maintain and extend the meta model behind the arago open graph of IT. 
+
+## Goals and Components 
+
+The platform has to fulfil several tasks:
+1.	store all historic and current data of the open graph of IT
+
+2.	make this data accessible though several low and high level APIs
+
+3.	make this data accessible from the outside though an access managed graph API
+
+4.	allow clients to perform complex queries on this data though the APIs
+
+5.	allow core clients to run on the platform with direct or low level API access to the data to maximize their performance.
+
 
 ## The Meta Model
 The foundation of the meta model is a 5 layer onion like definition of data spaces 
@@ -70,3 +81,74 @@ There are two kinds of data stored on the SGO level:
     Describes the type of connection and which entities can be connected by it. We do not use the term connection on purpose, because we want to ensure that new users coming from a relational approach should not be tempted to simply transfer their table model into semantic networks, but should know that a connection between two entities is something one entity does to or with another. Facebook calls these connection actions. We do not call it actions, because we have actionable knowledge and want to avoid misunderstandings. 
 
 Generally all entity and verb data is kept in all versions. This is achieved by defining an interval of validity. Each component that does not have a validity end set is currently valid. The modified attributes of a component can only be different from the validity interval data if attributes were added.  
+
+## NTO – Node Type Ontology
+
+For each entity there is a sub ontology defining the different kinds of the same entity.
+The differentiation between SGO and NTO is made to allow subject matter experts to deal with NTO definitions while strategic experts deal with the definition of the big picture. 
+
+NTO is for the subject matter experts and can go into greater detail. 
+
+Subject matter experts can chose to describe the NTO level as typology trees or as sub ontologies themselves.  The NTO is a typology behind an entity defined on the SGO level but it includes links to the attributes required, recommended or includable in the specifically defined type. This can follow an OO or single declaration approach. 
+
+Typically an NTO description will contain links to the attribute descriptions and an include facility for the free attributes which the user can then fill. 
+
+The NTO has to be self contained. This means the NTO can define its own sub ontology, but it cannot define new actions or entities on the SGO level. 
+For example using the SGO example when defining the sub ontology for fruit one might  create an ontology with the entity Fruit_Name and enumerate Banana, Apple, Orange and entities Skin and Actual_Fruit. These entities may have actions interconnecting each other but in order to move out of their NTO space they can only use the actions described on the SGO level. They can link into types of another NTO using these SGO actions however. 
+
+This restriction guarantees that a sub graph of an NTO object can always be traversed and the NTO can be represented just as attributes of the original entity. 
+
+An NTO Tech Contact can also opt to use an external well established definition for his sub entity. For example it might be desirable to use the “good relations” ontology for the commercial class entity. 
+
+### NTO Admin Contact
+
+The NTO Admin Contact is one or more persons chosen by the ontology board to maintain the administrative procedures for a sub ontology for a specific entity in the SGO. 
+The following action can be performed by an NTO Admin Contact
+
+1.	approve new node type 
+
+2.	change node type description -> only when migration path is clear
+
+3.	approve migration procedures
+
+4.	appoint tech contacts and subject matter experts involved in the NTO
+
+5.	discuss changes to SN*A procedures with ontology board
+
+The following documents will be maintained by the NTO Admin Contacts:
+1.	Schema for NTO at pre defined URLs
+
+2.	Migration catalogue to move from version of the NTO schema to another
+
+3.	List of subject matter experts and their roles involved in this NTO
+
+4.	Procedures for user engagement Tech Contacts for this NTO have to follow. 
+
+5.	Procedure document users must follow when dealing with attributes
+
+The admin contact for an NTO is not running contact platforms for changes built is published on such contact platforms for escalations. If the NTO relies on an external ontology the Admin Contacts are responsible for establishing and maintaining partnership relations with the entity defining the ontology used. 
+
+### NTO Tech Contact
+
+Tech Contacts for an NTO are publically visible ambassadors fort he NTO description. They maintain the attribute space  and can elevate best practice attributes to required attributes and free attributes to best practice attributes. They are responsible for communicating and discussing changes with users. They perform the following actions :
+1.	Maintain user contact
+2.	Operate user contact platform
+3.	Maintain mechanism for users to request attributes to be come part of best practices
+4.	Approve  or disapprove SNBA
+5.	Maintain SN*A mechanisms and descriptions
+
+Tech Contacts maintain the following documents:
+1.	SN*A definitions at predefined URLs
+2.	Procedure catalogue for SNBA requests describing the conditions under which an attribute will be added to the SNBA
+3.	Procedure catalogue for SNRA requests describing the conditions under with an attribute will be added to the SNRA list. 
+
+Tech Contacts can involve subject matter experts into their work and give them specific roles in their respective user communities. 
+
+Every time a tech contact approves or disapproves an SNBA this has to be reported to the ontology board. The decision has to be argued in short either verbally or by referencing to the appropriate section of the procedures approved by the ontology board. 
+
+## SNRA, SNBA, SNFA – Specific Node Attributes
+
+Each of these attribute sections describes attributes available or used with a well defined note type (SGO:NTO). The SNRA are always included and will be syntax checked by the open graph of IT access methodologies. The SNBA should be used and syntax checking for these is default but can be turned off and the SNFA are free and their definition can be included freely by the user. 
+
+The NTO Tech Contact has to provide means to include specific free attributes in a local instance of the whole ontology without touching the SGO, NTO, SNRA sections and without having to modify the SNBA section. 
+
