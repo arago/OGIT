@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -201,7 +201,7 @@
          sodipodi:role="line"
          x="73.355042"
          y="390.54849"
-         id="tspan5959">/Actions</tspan></text>
+         id="tspan5959">/Verbs</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path3875"
@@ -249,11 +249,11 @@
          id="tspan3902"
          y="296.27878"
          x="613.33057"
-         sodipodi:role="line"></tspan><tspan
+         sodipodi:role="line" /><tspan
          y="312.52878"
          x="613.33057"
          sodipodi:role="line"
-         id="tspan5963"></tspan><tspan
+         id="tspan5963" /><tspan
          y="328.77878"
          x="613.33057"
          sodipodi:role="line"
