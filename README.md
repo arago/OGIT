@@ -1,7 +1,7 @@
 # Welcome to the 'Open Graph for IT Ontology'
 ================
 
-# Aim of this repository
+# Targets of this repository
 
 The information provided here is aimed at implementor and vendors planning to use the Open Graph of IT. Here you'll find all information about implementing, contributing and integration the OGIT within a enterprise IT 
 environment.
