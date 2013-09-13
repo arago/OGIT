@@ -3,10 +3,10 @@
 
 # Targets of this repository
 
-The information provided here is aimed at implementor and vendors planning to use the Open Graph of IT. Here you'll find all information about implementing, contributing and integration the OGIT within a enterprise IT 
+The information provided here is aimed at implementor and vendors planning to use the **Open Graph of IT**. Here you'll find all information about implementing, contributing and integration the OGIT within a enterprise IT 
 environment.
 
-# Open Graph of IT
+# The Open Graph of IT (OGIT)
 
 The strategy of building a semantic representation of all IT and its interaction with business processes and people requires a sound data space as a foundation for computational evaluation of this enterprise space.
 Here you'll find an approach we call "OGIT - The Open Graph of IT", which will be the foundation of an 'IT version' of **Google's Knowledge Graph** oder Facebooks **Social Graph**. A specification that every interested
@@ -52,7 +52,7 @@ The foundation of the meta model is a 5 layer onion like definition of data spac
 
 # Contributing
 
-Please help us to grow the Open Graph of IT by contributing to this project. See our "Open Graph of IT Contribution Guide" for more details.
+Please help us to grow the **Open Graph of IT** by contributing to this project. See our "Open Graph of IT Contribution Guide" for more details.
 
 # License
 
