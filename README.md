@@ -1,20 +1,21 @@
-# Welcome to the 'Open Graph for IT Ontology'
+# Welcome to the 'Open Graph for IT' Ontology
 ================
 
 # Aim of this repository
 
-The information provided here is aimed at implementor and vendors planning to use the Open Graph of IT. Here you'll find all information about implementing, contributing and integration the OGIT within a enterprise IT 
-environment.
+The information provided here is aimed at implementor and vendors planning to use the Open Graph of IT. Here you'll find all information about implementing, contributing and integrating the OGIT within a enterprise IT environment.
 
-# Open Graph of IT
+# What is the Open Graph of IT (OGIT)?
 
 The strategy of building a semantic representation of all IT and its interaction with business processes and people requires a sound data space as a foundation for computational evaluation of this enterprise space.
-Here you'll find an approach we call "OGIT - The Open Graph of IT", which will be the foundation of an 'IT version' of **Google's Knowledge Graph** oder Facebooks **Social Graph**. A specification that every interested
-party is free to use and to extend utilizing an community-based process, we will be definig in the near future.
+
+Here you'll find an approach we call "OGIT - The Open Graph of IT", which will be the foundation of an 'IT version' of **Google's Knowledge Graph** oder Facebooks **Social Graph**. A specification that every interested party is free to use and to extend utilizing an community-based process, we will be definig in the near future.
+
+Please have a look at the [Basic Concepts section](https://github.com/arago/graphIT-ontology/wiki/Basic-Concepts) in the Wiki for deeper look at OGIT.
 
 ## Goals and Components of OGIT
 
-The OGIT platform has to fulfill several tasks:
+The OGIT platform will fulfill several tasks:
 
 1.	store all historic and current data of the open graph of IT
 
@@ -37,7 +38,6 @@ The foundation of the meta model is a 5 layer onion like definition of data spac
 **2.	Node Type Ontology – NTO**
     This level describes the sub ontology behind a specific node type, i.e. behind each entity defined on the SGO level there can be another ontology that represents the special needs of this node type. 
     Here is where subject matter expertise is put into the model on a semantic level. 
-    
 
 **3.	Specific Node Required Attributes – SNRA**
     Each node well defined by SGO and NTO will have a set of attributes that is specific to this unique type of node. The attributes required are a minimal set of attributes. In general the open Graph of IT can handle any data following the SGO,NTO typology, but the tools attached to the open graph of IT will only work properly if the SNRA definition is followed. 
@@ -48,11 +48,12 @@ The foundation of the meta model is a 5 layer onion like definition of data spac
 **5.	Specific Node Free Attributes – SNFA**
     The Free attribute space in every node is used by applications, users and organizations to add data structured according to their own needs, concepts and ideas. Data stored here uses the mechanisms of the open graph of IT for storage and the clients of the open graph of IT as tools, but does not count on any cross user reuse or platform wide distribution of effect, e.g. marketability. This section is also the source for best practices which will move up the chain into the SNBA section. As users use the same or similar attributes in the SNFA sections they will move into the SNBA section to become published and discussed in a platform wide distribution. 
 
-# 
 
-# Contributing
+# How can I contribute?
 
-Please help us to grow the Open Graph of IT by contributing to this project. See our "Open Graph of IT Contribution Guide" for more details.
+Please help us to grow the Open Graph of IT by contributing to this project. See our [Open Graph of IT Contribution Document](https://github.com/arago/graphIT-ontology/blob/master/CONTRIBUTING.md) for more details on submitting suggestions and starting discussions about OGIT.
+
+If you have general questions or need support please contact us at <ogit@arago.de>
 
 # License
 
