@@ -1,11 +1,18 @@
 # Welcome to the 'Open Graph for IT' Ontology
 ================
 
-# Aim of this repository
+# Targets of this repository
 
+<<<<<<< HEAD
 The information provided here is aimed at implementor and vendors planning to use the Open Graph of IT. Here you'll find all information about implementing, contributing and integrating the OGIT within a enterprise IT environment.
 
 # What is the Open Graph of IT (OGIT)?
+=======
+The information provided here is aimed at implementor and vendors planning to use the **Open Graph of IT**. Here you'll find all information about implementing, contributing and integration the OGIT within a enterprise IT 
+environment.
+
+# The Open Graph of IT (OGIT)
+>>>>>>> 2a71b1192babe87338f965c0e78b0da2768b35e5
 
 The strategy of building a semantic representation of all IT and its interaction with business processes and people requires a sound data space as a foundation for computational evaluation of this enterprise space.
 
@@ -53,7 +60,11 @@ The foundation of the meta model is a 5 layer onion like definition of data spac
 
 Please help us to grow the Open Graph of IT by contributing to this project. See our [Open Graph of IT Contribution Document](https://github.com/arago/graphIT-ontology/blob/master/CONTRIBUTING.md) for more details on submitting suggestions and starting discussions about OGIT.
 
+<<<<<<< HEAD
 If you have general questions or need support please contact us at <ogit@arago.de>
+=======
+Please help us to grow the **Open Graph of IT** by contributing to this project. See our "Open Graph of IT Contribution Guide" for more details.
+>>>>>>> 2a71b1192babe87338f965c0e78b0da2768b35e5
 
 # License
 
