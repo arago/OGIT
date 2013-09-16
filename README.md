@@ -1,12 +1,11 @@
 # Welcome to the 'Open Graph for IT' Ontology
-================
 
 # Targets of this repository
 
 The information provided here is aimed at implementor and vendors planning to use the Open Graph of IT. Here you'll find all information about implementing, contributing and integrating the OGIT within a enterprise IT environment.
 
 # What is the Open Graph of IT (OGIT)?
-=======
+
 The information provided here is aimed at implementor and vendors planning to use the **Open Graph of IT**. Here you'll find all information about implementing, contributing and integration the OGIT within a enterprise IT 
 environment.
 
@@ -52,7 +51,6 @@ The foundation of the meta model is a 5 layer onion like definition of data spac
 
 **5.	Specific Node Free Attributes – SNFA**
     The Free attribute space in every node is used by applications, users and organizations to add data structured according to their own needs, concepts and ideas. Data stored here uses the mechanisms of the open graph of IT for storage and the clients of the open graph of IT as tools, but does not count on any cross user reuse or platform wide distribution of effect, e.g. marketability. This section is also the source for best practices which will move up the chain into the SNBA section. As users use the same or similar attributes in the SNFA sections they will move into the SNBA section to become published and discussed in a platform wide distribution. 
-
 
 # How can I contribute?
 
