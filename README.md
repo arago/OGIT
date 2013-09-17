@@ -4,12 +4,7 @@
 
 The information provided here is aimed at implementor and vendors planning to use the Open Graph of IT. Here you'll find all information about implementing, contributing and integrating the OGIT within a enterprise IT environment.
 
-# What is the Open Graph of IT (OGIT)?
-
-The information provided here is aimed at implementor and vendors planning to use the **Open Graph of IT**. Here you'll find all information about implementing, contributing and integration the OGIT within a enterprise IT 
-environment.
-
-# The Open Graph of IT (OGIT)
+# What is the Open Graph of IT (OGIT)
 
 The strategy of building a semantic representation of all IT and its interaction with business processes and people requires a sound data space as a foundation for computational evaluation of this enterprise space.
 
@@ -33,7 +28,7 @@ The OGIT platform will fulfill several tasks:
 
 ## The Meta Model
 
-The foundation of the meta model is a 5 layer onion like definition of data spaces 
+The foundation of the OGIT meta model is a 5 layer *onion-like* definition of data spaces 
 
 **1.	Semantic Graph Ontology - SGO**
     This upper level defines entity types and actions possibly connecting two entities in the graph data model. This is where the highest level of semantics is described that governs the whole data platform. 
