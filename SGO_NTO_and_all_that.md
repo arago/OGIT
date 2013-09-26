@@ -1,7 +1,7 @@
-H2 Open GraphIT, SGO, NTO, and all that
+Open GraphIT, SGO, NTO, and all that
 ====
 
-H3 GraphIT type system
+### GraphIT type system
 
 Open GraphIT is a Graph representing the IT world in a __structured__ way.
 
@@ -25,7 +25,7 @@ That __type sytem__ is related to our Meta Model in the following way:
 
 In the following we usually simply refer to just SGO and NTO implicitly referrring to some of those __attribute__ classes as well.
  
-H3 Boundary between SGO and NTO
+### Boundary between SGO and NTO
 
 GraphIT is mostly based on the fixed part of the aforementioned type system. The type system ensure that stored data will follow the intended semantics.
 
@@ -45,7 +45,7 @@ We call this **NTO enablement**.
 
 NTO enablement will produce some glue between SGO defined types and NTO defined types. That's why each type belongs to one of the three following _scopes__:
 
-H4 "pure" SGO scope
+#### "pure" SGO scope
 
 Node and edge types that are part of the (growing) core type system are said to have (pure) SGO scope.
 
@@ -54,7 +54,7 @@ SGO node types can be used as is but in most cases only derived sub-types will b
 SGO node and edges types won't have an external schema. (to be more precise: no external schema will be used to validate data instances)
 
 
-H4 SGO/NTO scope
+#### SGO/NTO scope
 
 Node and egde types of 'SGO/NTO scope' form the boundary/glue between SGO and externally managed ontologies/schemas. Those types are usually defined as result of the [NTO enablement process].
 
@@ -66,7 +66,7 @@ in detail "NTO enablement" might consist of:
 + adding new edge types between the defined new node types.
 
 
-H4 "pure" NTO scope
+#### "pure" NTO scope
 
 By default the "content" of an NTO node will be stored in some node attribute (that's similar to a CLOB in the relational database world).
 
