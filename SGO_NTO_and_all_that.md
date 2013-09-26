@@ -1,4 +1,4 @@
-Alt-H2 Open GraphIT, SGO, NTO, and all that
+H2 Open GraphIT, SGO, NTO, and all that
 ====
 
 H3 GraphIT type system
