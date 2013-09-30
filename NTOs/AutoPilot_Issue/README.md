@@ -1,4 +1,5 @@
-### NTO: AutoPilot issue
+# NTO: AutoPilot issue
+-----
 
 ## General data
 
@@ -14,7 +15,7 @@
 
 </dl>
 
-# Schema
+### Schema
 
 XML schema is used:
 
@@ -22,16 +23,16 @@ XML schema is used:
 
 ## SGO enablement
 
-# referenced node types from other NTOs
+### referenced node types from other NTOs
 
 *  MARSNode
 
-# formal definition of SGO enablement
+### formal definition of SGO enablement
 
 [link to file]
 
 ## additional NTO mapping
 
-# formal definition of NTO mapping
+### formal definition of NTO mapping
 
 [link to file]
