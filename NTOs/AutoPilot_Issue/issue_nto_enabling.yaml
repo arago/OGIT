@@ -1,0 +1,52 @@
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+# Issue: NTO enabling part (connections to SGO and other enabled NTOs) 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+
+- nodeType:
+        name: "AutoPilotIssue"
+	description: "An issue is a formalized version of a task that is injected into aAE (AutoPilot Engine) via the Issue API. Such a task can be a change request, incident ticket, event, and so on."
+        parentNodeType: "SituationalNode"
+        schemaURI: "http://www.arago.de/IssueSchema"
+        schemaType: "XML schema"
+	schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueSchema.xsd"        
+        scope: SGO/NTO
+        attribute:
+              - name: "IssueFormalRepresentation"
+                type: string
+
+- edgeType:
+        name: "isCreatorNodeForIssue"
+        description: "from MARSNode an issue was associated with at creation time to Issue"
+        scope: SGO/NTO
+        inversefunctional: true
+        allowedConnection:
+              - tailNodeType: "MARSNode"
+                headNodeType: "AutoPilotIssue"
+
+- edgeType:
+        name: "isCurrentWorkerNodeOfIssue"
+        description: "from MARSNode an issue is currently associated with to Issue"
+        scope: SGO/NTO
+        functional: true
+        allowedConnection:
+              - tailNodeType: "AutoPilotIssue"
+                headNodeType: "MARSNode"
+
+- edgeType:
+        name: "wasCreatedOnMARSNode"
+        description: "from Issue to the MARSNode that issue was associated with at creation time"
+        scope: SGO/NTO
+        functional: true
+        allowedConnection:
+              - tailNodeType: "AutoPilotIssue"
+                headNodeType: "MARSNode"
+
+- edgeType:
+        name: "isAssociatedWithMARSNode"
+        description: "from Issue to the MARSNode that issue is currently associated with"
+        scope: SGO/NTO
+        inversefunctional: true
+        allowedConnection:
+              - tailNodeType: "AutoPilotIssue"
+                headNodeType: "MARSNode"
+

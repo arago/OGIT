@@ -25,14 +25,14 @@ XML schema is used:
 
 ### referenced node types from other NTOs
 
-*  MARSNode
+*  [MARSNode](../MARS)
 
 ### formal definition of SGO enablement
 
-[link to file]
+[issue_nto_enabling.yaml](issue_nto_enabling.yaml)
 
 ## additional NTO mapping
 
 ### formal definition of NTO mapping
 
-[link to file]
+[issue_nto_mapping.yaml](issue_nto_mapping.yaml)
