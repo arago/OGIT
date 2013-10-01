@@ -24,3 +24,5 @@ You can place extension requests for any "scope" we defined in ["SGO, NTO, and a
 | III a           | (pure) NTO | add some attribute to an existing (pure) NTO node type |
 | III b           | (pure) NTO | create a new node type with "(pure) NTO scope" |
 | III c           | (pure) NTO | create a new edge type with "(pure) NTO scope", i.e. can connect only nodes whose types belong to same NTO |
+
+In most cases a contribution will consist of several requests.
