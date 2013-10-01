@@ -1,0 +1,42 @@
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+# Issue: NTO mapping part (tranforming some internal structure to graph) 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+
+- nodeType:
+  name: "AutoPilotIssueHistoryEntry"
+  parentNodeType: "SituationalNode"
+  scope: NTO
+  schemaURI: "http://www.arago.de/IssueOutputSchema"
+  schemaType: "XML schema"
+  schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueOutputSchema.xsd"
+  allowAnyAttribute: true
+
+- edgeType:
+  name: "firstIssueHistoryEntry"
+  scope: NTO
+  inversefunctional: true
+  functional: true
+  allowedConnection:	
+  - tailNodeType: "AutoPilotIssue"
+    headNodeType: "AutoPilotIssueHistoryEntry"
+
+- edgeType:
+  name: "lastIssueHistoryEntry"
+  scope: NTO
+  inversefunctional: true
+  functional: true
+  allowedConnection:	
+  - tailNodeType: "AutoPilotIssue"
+    headNodeType: "AutoPilotIssueHistoryEntry"
+
+- edgeType:
+  name: "nextIssueHistoryEntry"
+  scope: NTO
+  inversefunctional: true
+  functional: true
+  allowedConnection:	
+  - tailNodeType: "AutoPilotIssueHistoryEntry"
+    headNodeType: "AutoPilotIssueHistoryEntry"
+
+
+  
