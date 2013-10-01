@@ -4,11 +4,11 @@
 
 - nodeType:
         name: "AutoPilotIssue"
-	description: "An issue is a formalized version of a task that is injected into aAE (AutoPilot Engine) via the Issue API. Such a task can be a change request, incident ticket, event, and so on."
+        description: "An issue is a formalized version of a task that is injected into aAE (AutoPilot Engine) via the Issue API. Such a task can be a change request, incident ticket, event, and so on."
         parentNodeType: "SituationalNode"
         schemaURI: "http://www.arago.de/IssueSchema"
         schemaType: "XML schema"
-	schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueSchema.xsd"        
+        schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueSchema.xsd"        
         scope: SGO/NTO
         attribute:
               - name: "IssueFormalRepresentation"
