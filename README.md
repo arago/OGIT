@@ -2,7 +2,7 @@
 
 # Targets of this repository
 
-The information provided here is aimed at implementor and vendors planning to use the Open Graph of IT. Here you'll find all information about implementing, contributing and integrating the OGIT within a enterprise IT environment.
+The information provided here is aimed at implementors and vendors planning to use the **Open Graph of IT**. Here you'll find all information about implementing, contributing and integrating the OGIT within a enterprise IT environment as well as best pratices and links to actual implementations of the OGIT.
 
 # What is the Open Graph of IT (OGIT)
 
@@ -14,17 +14,19 @@ Please have a look at the [Basic Concepts section](https://github.com/arago/grap
 
 ## Goals and Components of OGIT
 
+*** ++++ please edit ++++ ***
+
 The OGIT platform will fulfill several tasks:
 
-1.	store all historic and current data of the open graph of IT
+1.	Store all historic and current data of the open graph of IT
 
-2.	make this data accessible though several low and high level APIs
+2.	Make this data accessible though several low and high level APIs
 
-3.	make this data accessible from the outside though an access managed graph API
+3.	Make this data accessible from the outside though an access managed graph API
 
-4.	allow clients to perform complex queries on this data though the APIs
+4.	Allow clients to perform complex queries on this data though the APIs
 
-5.	allow core clients to run on the platform with direct or low level API access to the data to maximize their performance.
+5.	Allow core clients to run on the platform with direct or low level API access to the data to maximize their performance.
 
 ## The Meta Model
 
