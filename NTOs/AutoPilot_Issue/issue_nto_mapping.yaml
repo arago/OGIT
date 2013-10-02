@@ -8,6 +8,7 @@
   schemaURI: "http://www.arago.de/IssueOutputSchema"
   schemaVersion: "4.1"
   schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueOutputSchema.xsd" 
+  schemaMaintainer: "arago Institut für komplexes Datenmanagement AG" 
 
 - nodeType:
   name: "AutoPilotIssueHistoryEntry"
