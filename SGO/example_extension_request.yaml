@@ -1,0 +1,32 @@
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+# Example of SGO add-on suggestion
+# 
+# contains:
+# 1 new attribute (color)
+# 1 new node type using that attribute (Car)
+# 1 new edge type (isDrivenBy) allowing to connect node of the new node type 
+#   to node of some existing type (Person)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+
+- attributeType:
+  name: "color"
+  description: "the color of something"
+  scope: SGO
+  type: String
+
+- nodeType:
+  name: "Car"
+  description: "something you can drive"
+  parentNodeType: "FactualNode"
+  scope: SGO
+  attribute:
+  - name: "color"
+    mandatory: true
+
+- edgeType:
+  name: "isDrivenBy"
+  description: "points to node describing current driver"
+  scope: SGO
+  allowedConnection:
+  - tailNodeType: "Car"
+    headNodeType: "Person"

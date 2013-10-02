@@ -10,8 +10,8 @@
   schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueSchema.xsd" 
 
 - attributeType:
-  name: "IssueFormalRepresentation"
-  description "contains issue in XML representatin"
+  name: "issueFormalRepresentation"
+  description "contains issue in XML representation"
   type: String
 
 - nodeType:
@@ -21,7 +21,7 @@
         schema: "AutoPilotIssueSchema.4.1"
         scope: SGO/NTO
         attribute:
-              - name: "IssueFormalRepresentation"
+              - name: "issueFormalRepresentation"
                 mandatory: true
 
 - edgeType:
