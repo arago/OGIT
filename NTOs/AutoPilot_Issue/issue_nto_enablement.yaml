@@ -2,14 +2,6 @@
 # Issue: NTO enabling part (connections to SGO and other enabled NTOs) 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
-- schema:
-  name: "AutoPilotIssueSchema.4.1"
-  schemaType: "XMLSchema"
-  schemaURI: "http://www.arago.de/IssueSchema"
-  schemaVersion: "4.1"
-  schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueSchema.xsd"
-  schemaMaintainer: "arago Institut für komplexes Datenmanagement AG" 
-
 - attributeType:
   name: "issueFormalRepresentation"
   description "contains issue in XML representation"
