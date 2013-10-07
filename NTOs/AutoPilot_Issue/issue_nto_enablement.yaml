@@ -3,9 +3,9 @@
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
 - attributeType:
-  name: "issueFormalRepresentation"
-  description "contains issue in XML representation defined by IssueSchema"
-  type: String
+        name: "issueFormalRepresentation"
+        description "contains issue in XML representation defined by IssueSchema"
+        type: String
 
 - nodeType:
         name: "AutoPilotIssue"
