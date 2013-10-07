@@ -8,6 +8,6 @@ Instead of presenting some grammer definition we present an example [here](examp
 
 * upper camel case for node type identifiers
 * lower camel case for property names (edge type identifiers and attribute name)
-** _ (underscore) followed by lower camel case for internally managed properties (those that can be read but not written)
+  * _ (underscore) followed by lower camel case for internally managed properties (those that can be read but not written)
 
 
