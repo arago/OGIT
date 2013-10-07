@@ -59,4 +59,5 @@ Please help us to grow the **Open Graph of IT** by contributing to this project.
 
 # License
 
-The information here is released under the xxxxxx
+Please see [LICENSE.md](https://github.com/arago/graphIT-ontology/blob/master/) for information about the licensing.
+
