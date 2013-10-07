@@ -1,4 +1,4 @@
-# NTO: AutoPilot issue
+NTO: AutoPilot issue
 -----
 
 * other NTOs used/referenced
