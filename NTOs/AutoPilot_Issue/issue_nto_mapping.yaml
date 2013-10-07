@@ -4,6 +4,7 @@
 
 - nodeType:
   name: "AutoPilotIssueHistoryEntry"
+  description: "corresponds to element <HistoryEntry> from IssueOutputSchema"
   parentNodeType: "SituationalNode"
   scope: NTO
   schema: "AutoPilotIssueOutputSchema.4.1"
