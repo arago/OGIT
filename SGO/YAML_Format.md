@@ -82,7 +82,7 @@ means: Each node(entity) of type "Car" can be connected to any node(entity) of t
 
 * upper camel case for node type identifiers
 * lower camel case for property names (edge type identifiers and attribute name)
-** _ (underscore) followed by lower camel case for internally managed properties (those that can be read but not written)
+  * _ (underscore) followed by lower camel case for internally managed properties (those that can be read but not written)
 
 ## additional syntactic elements 
 
