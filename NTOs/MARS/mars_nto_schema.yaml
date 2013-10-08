@@ -7,5 +7,5 @@
   schemaType: "XMLSchema"
   schemaURI: "http://mars-o-matic.com"
   schemaVersion: "4.1"
-  schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/MARSSchema2013.xsd
+  schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/MARSSchema2013.xsd"
   schemaMaintainer: "arago Institut für komplexes Datenmanagement AG" 
