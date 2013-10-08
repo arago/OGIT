@@ -11,8 +11,7 @@
 - attributeType:
   name: "color"
   description: "the color of something"
-  scope: SGO
-  type: String
+  type: java.lang.String
 
 - nodeType:
   name: "Car"
