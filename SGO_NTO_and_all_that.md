@@ -5,6 +5,10 @@ Open GraphIT, SGO, NTO, and all that
 
 Open GraphIT is a Graph representing the IT world in a __structured__ way.
 
+> In the description of [basic concepts](wiki/Basic-Concepts) we used the terms "entity" and "verb" to emphasize the relationship to semantic web languages.
+>
+> On a more technical layer we will mainly deal with graphs. So here we tend to use more graph related terminology. Nevertheless "entity" can be considered just another synonym for "node"/"vertex". The same holds true for "verb" and "edge"
+
 Using more technical terms __structured__ means:
 
 * There will be type hierarchy for nodes
