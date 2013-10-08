@@ -3,7 +3,7 @@
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
 - nodeType:
-        name: "MARSNode"
+	name: "MARSNode"
         description: IT Objects will be representated in MARS Modell with MARS nodes 
         parentNodeType: "FactualNode"
         schema: "http://mars-o-matic.com"
