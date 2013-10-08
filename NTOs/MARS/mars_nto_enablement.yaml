@@ -51,7 +51,7 @@
   scope: NTO
   inversefunctional: false
   functional: false
-  allowedConnection:	
+  allowedConnection:
   - tailNodeType: "MARSMachineNode"
     headNodeType: "MARSSoftwareNode"
   - tailNodeType: "MARSSoftwareNode"
