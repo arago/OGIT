@@ -106,11 +106,15 @@ It's good practice to make the schema version part of **name** to allow more the
 
 The following additional settings can be used in a *nodeType* definition:
 
+| setting | meaning |
+| --- | --- |
 | *schema*      | defines schema this nodeType definition was derived from. value must refer to an already defined schema |
 | *allowAnyAttribute*      | if this is defined with value 'true' then for instances of that nodeType any attribute will be allowed. If not defined allowAnyAttribute=false is assume |
 
 
 ### edgeType
 
+| setting | meaning |
+| --- | --- |
 | *functional* | if set to value 'true' then each node (having a type which is an allowed tailNodeType for this edgeType) can have at most one (outgoing) edge of that type |
 | *inversefunctional* | if set to value 'true' then each node (having a type which is an allowed headNodeType for this edgeType) can have at most one (ingoing) edge of that type |
