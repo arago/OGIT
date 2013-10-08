@@ -3,15 +3,15 @@
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
 - nodeType:
-        name: "MARSNode"
-        description: IT Objects will be representated in MARS Modell with MARS nodes 
-        parentNodeType: "FactualNode"
-        schema: "http://mars-o-matic.com"
-        schemaType: "XML schema"        
-        scope: SGO/NTO
-        attribute:
-              - name: "MARSNodeFormalRepresentation"
-                type: string
+	name: "MARSNode"
+	description: IT Objects will be representated in MARS Modell with MARS nodes 
+	parentNodeType: "FactualNode"
+	schema: "http://mars-o-matic.com"
+	schemaType: "XML schema"        
+	scope: SGO/NTO
+	attribute:
+		- name: "MARSNodeFormalRepresentation"
+		  type: string
 
 - nodeType:
 	name: "MARSMachineNode"
