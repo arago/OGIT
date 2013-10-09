@@ -3,7 +3,7 @@
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
 - nodeType:
-	name: "MARSNode"
+  name: "MARSNode"
   description: IT Objects will be representated in MARS Modell with MARS nodes 
   parentNodeType: "FactualNode"
   schema: "http://mars-o-matic.com"
@@ -14,44 +14,44 @@
     type: string
 
 - nodeType:
-	name: "MARSMachineNode"
-	description: MachineNode is the lowest level of MARS model, MachineNode provides his capacities to SoftwareNodes, MachineNode can be a virtuel or a physical machine
+  name: "MARSMachineNode"
+  description: MachineNode is the lowest level of MARS model, MachineNode provides his capacities to SoftwareNodes, MachineNode can be a virtuel or a physical machine
   parentNodeType: "MARSNode"
   scope: NTO
   schema: "MARSSchema2013"
   allowAnyAttribute: true
 
 - nodeType:
-	name: "MARSSoftwareNode"
-	description: SoftwareNode combines one or more MachineNodes
- 	parentNodeType: "MARSNode"
-  scope: NTO
-  schema: "MARSSchema2013"
-  allowAnyAttribute: true
-
-- nodeType:
-	name: "MARSResourceNode"
-	description: ResourceNode combines SoftwareNodes to logical groups
+  name: "MARSSoftwareNode"
+  description: SoftwareNode combines one or more MachineNodes
   parentNodeType: "MARSNode"
   scope: NTO
   schema: "MARSSchema2013"
   allowAnyAttribute: true
 
 - nodeType:
-	name: "MARSApplicationNode"
-	description: ApplicationNode provides functions to user or business process, ApplicationNode exists of one or more SoftwareNodes
+  name: "MARSResourceNode"
+  description: ResourceNode combines SoftwareNodes to logical groups
+  parentNodeType: "MARSNode"
+  scope: NTO
+  schema: "MARSSchema2013"
+  allowAnyAttribute: true
+
+- nodeType:
+  name: "MARSApplicationNode"
+  description: ApplicationNode provides functions to user or business process, ApplicationNode exists of one or more SoftwareNodes
   parentNodeType: "MARSNode"
   scope: NTO
   schema: "MARSSchema2013"
   allowAnyAttribute: true
 
 - edgeType:
-	name: "isRelatedToOtherMARSNode"
-	description: Relation between MARSNodes
+  name: "isRelatedToOtherMARSNode"
+  description: Relation between MARSNodes
   scope: NTO
   inversefunctional: false
   functional: false
-  allowedConnection:	
+  allowedConnection:
   - tailNodeType: "MARSMachineNode"
     headNodeType: "MARSSoftwareNode"
   - tailNodeType: "MARSSoftwareNode"
