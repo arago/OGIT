@@ -3,9 +3,8 @@
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
 - attributeType:
-  name: "MARSNodeFormalRepresentation"
+  name: "marsNodeFormalRepresentation"
   description: "contains MARS in XML representation defined by MARSSchema2013"
-  type: String
 
 - nodeType:
   name: "MARSNode"
@@ -15,8 +14,7 @@
   schemaType: "XML schema"        
   scope: SGO/NTO
   attribute:
-  - name: "MARSNodeFormalRepresentation"
-    type: string
+  - name: "marsNodeFormalRepresentation"
 
 - nodeType:
   name: "MARSMachineNode"
