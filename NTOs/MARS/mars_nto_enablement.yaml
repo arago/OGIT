@@ -2,6 +2,11 @@
 # MARS: NTO enabling part (connections to SGO and other enabled NTOs) 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
+- attributeType:
+  name: "MARSNodeFormalRepresentation"
+  description: "contains MARS in XML representation defined by MARSSchema2013"
+  type: String
+
 - nodeType:
   name: "MARSNode"
   description: IT Objects will be representated in MARS Modell with MARS nodes 
