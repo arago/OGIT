@@ -2,6 +2,10 @@
 # MARS: NTO enabling part (connections to SGO and other enabled NTOs) 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
+- attributeType:
+  name: "marsNodeFormalRepresentation"
+  description: "contains MARS in XML representation defined by MARSSchema2013"
+
 - nodeType:
   name: "MARSNode"
   description: IT Objects will be representated in MARS Modell with MARS nodes 
@@ -10,8 +14,7 @@
   schemaType: "XML schema"        
   scope: SGO/NTO
   attribute:
-  - name: "MARSNodeFormalRepresentation"
-    type: string
+  - name: "marsNodeFormalRepresentation"
 
 - nodeType:
   name: "MARSMachineNode"
