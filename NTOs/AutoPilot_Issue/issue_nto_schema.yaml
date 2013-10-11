@@ -3,17 +3,17 @@
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
 - schema:
-  name: "AutoPilotIssueSchema.4.1"
-  schemaType: "XMLSchema"
-  schemaURI: "http://www.arago.de/IssueSchema"
-  schemaVersion: "4.1"
-  schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueSchema.xsd"
-  schemaMaintainer: "arago Institut für komplexes Datenmanagement AG" 
+    name: "AutoPilotIssueSchema.4.1"
+    schemaType: "XMLSchema"
+    schemaURI: "http://www.arago.de/IssueSchema"
+    schemaVersion: "4.1"
+    schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueSchema.xsd"
+    schemaMaintainer: "arago Institut für komplexes Datenmanagement AG" 
 
 - schema:
-  name: "AutoPilotIssueOutputSchema.4.1"
-  schemaType: "XMLSchema"
-  schemaURI: "http://www.arago.de/IssueOutputSchema"
-  schemaVersion: "4.1"
-  schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueOutputSchema.xsd" 
-  schemaMaintainer: "arago Institut für komplexes Datenmanagement AG" 
+    name: "AutoPilotIssueOutputSchema.4.1"
+    schemaType: "XMLSchema"
+    schemaURI: "http://www.arago.de/IssueOutputSchema"
+    schemaVersion: "4.1"
+    schemaLocation: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueOutputSchema.xsd" 
+    schemaMaintainer: "arago Institut für komplexes Datenmanagement AG" 

@@ -4,7 +4,7 @@
 
 - attributeType:
         name: "issueFormalRepresentation"
-        description "contains issue in XML representation defined by IssueSchema"
+        description: "contains issue in XML representation defined by IssueSchema"
         type: String
 
 - nodeType:
