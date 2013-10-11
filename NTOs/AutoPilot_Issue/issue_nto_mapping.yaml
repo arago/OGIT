@@ -3,39 +3,39 @@
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
 - nodeType:
-  name: "AutoPilotIssueHistoryEntry"
-  description: "corresponds to element <HistoryEntry> from IssueOutputSchema"
-  parentNodeType: "SituationalNode"
-  scope: NTO
-  schema: "AutoPilotIssueOutputSchema.4.1"
-  allowAnyAttribute: true
+    name: "AutoPilotIssueHistoryEntry"
+    description: "corresponds to element <HistoryEntry> from IssueOutputSchema"
+    parentNodeType: "SituationalNode"
+    scope: NTO
+    schema: "AutoPilotIssueOutputSchema.4.1"
+    allowAnyAttribute: true
 
 - edgeType:
-  name: "firstIssueHistoryEntry"
-  scope: NTO
-  inversefunctional: true
-  functional: true
-  allowedConnection:	
-  - tailNodeType: "AutoPilotIssue"
-    headNodeType: "AutoPilotIssueHistoryEntry"
+    name: "firstIssueHistoryEntry"
+    scope: NTO
+    inversefunctional: true
+    functional: true
+    allowedConnection:
+    - tailNodeType: "AutoPilotIssue"
+      headNodeType: "AutoPilotIssueHistoryEntry"
 
 - edgeType:
-  name: "lastIssueHistoryEntry"
-  scope: NTO
-  inversefunctional: true
-  functional: true
-  allowedConnection:	
-  - tailNodeType: "AutoPilotIssue"
-    headNodeType: "AutoPilotIssueHistoryEntry"
+    name: "lastIssueHistoryEntry"
+    scope: NTO
+    inversefunctional: true
+    functional: true
+    allowedConnection:
+    - tailNodeType: "AutoPilotIssue"
+      headNodeType: "AutoPilotIssueHistoryEntry"
 
 - edgeType:
-  name: "nextIssueHistoryEntry"
-  scope: NTO
-  inversefunctional: true
-  functional: true
-  allowedConnection:	
-  - tailNodeType: "AutoPilotIssueHistoryEntry"
-    headNodeType: "AutoPilotIssueHistoryEntry"
+    name: "nextIssueHistoryEntry"
+    scope: NTO
+    inversefunctional: true
+    functional: true
+    allowedConnection:
+    - tailNodeType: "AutoPilotIssueHistoryEntry"
+      headNodeType: "AutoPilotIssueHistoryEntry"
 
 
   

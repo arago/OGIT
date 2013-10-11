@@ -4,77 +4,77 @@
 # NOTE: add attributes for Person/Organization
 
 - nodeType:
-  name: "Person"
-  description: "represents a human identity"
-  parentNodeType: "Idenity"
-  scope: SGO	
+    name: "Person"
+    description: "represents a human identity"
+    parentNodeType: "Idenity"
+    scope: SGO
 
 - nodeType:
-  name: "Organization"
-  description: "an identity the represents an organization, company, or some other grouping of Person objects"
-  parentNodeType: "Idenity"
-  scope: SGO	
+    name: "Organization"
+    description: "an identity the represents an organization, company, or some other grouping of Person objects"
+    parentNodeType: "Idenity"
+    scope: SGO
 
 - edgeType:
-  name: "isMemberOfOrganization"
-  scope: SGO
-  allowedConnection:
-  - tailNodeType: "Person"
-    headNodeType: "Organization"
+    name: "isMemberOfOrganization"
+    scope: SGO
+    allowedConnection:
+    - tailNodeType: "Person"
+      headNodeType: "Organization"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 # ITSM Objects
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
 - nodeType:
-  name: "Event"
-  description: "any detectable or discernible occurrence that has significance for the management of the IT Infrastructure or the delivery of IT service and evaluation of the impact a deviation might cause to the services. see http://en.wikipedia.org/wiki/Event_Management_%28ITIL%29"
+    name: "Event"
+    description: "any detectable or discernible occurrence that has significance for the management of the IT Infrastructure or the delivery of IT service and evaluation of the impact a deviation might cause to the services. see http://en.wikipedia.org/wiki/Event_Management_%28ITIL%29"
 
 - nodeType: 
-  name: "Ticket"
-  description: "abstract super type for incident, problem, change,.."
-  parentNodeType: "SituationalNode"
-  scope: SGO	
+    name: "Ticket"
+    description: "abstract super type for incident, problem, change,.."
+    parentNodeType: "SituationalNode"
+    scope: SGO
 
 - nodeType:
-  name: "Incident"
-  description: "technical representation of an incident record as a ticket. An incident is an event that could lead to loss of, or disruption to, an organization's operations, services or functions. see http://en.wikipedia.org/wiki/Incident_management"
-  parentNodeType: "Ticket"
-  scope: SGO
+    name: "Incident"
+    description: "technical representation of an incident record as a ticket. An incident is an event that could lead to loss of, or disruption to, an organization's operations, services or functions. see http://en.wikipedia.org/wiki/Incident_management"
+    parentNodeType: "Ticket"
+    scope: SGO
 
 - nodeType:
-  name: "Problem"
-  description: "technical representation of a problem record as a ticket. see http://en.wikipedia.org/wiki/Problem_management"
-  parentNodeType: "Ticket"
-  scope: SGO
+    name: "Problem"
+    description: "technical representation of a problem record as a ticket. see http://en.wikipedia.org/wiki/Problem_management"
+    parentNodeType: "Ticket"
+    scope: SGO
 
 - nodeType:
-  name: "ChangeRequest"
-  description: "technical representation of a problem record as a ticket. see http://en.wikipedia.org/wiki/Change_management_%28ITSM%29"
-  parentNodeType: "Ticket"
-  scope: SGO
+    name: "ChangeRequest"
+    description: "technical representation of a problem record as a ticket. see http://en.wikipedia.org/wiki/Change_management_%28ITSM%29"
+    parentNodeType: "Ticket"
+    scope: SGO
 
 - nodeType:
-  name: "ServiceRequest"
-  description: "technical representation of a problem record as a ticket."
-  parentNodeType: "Ticket"
-  scope: SGO
+    name: "ServiceRequest"
+    description: "technical representation of a problem record as a ticket."
+    parentNodeType: "Ticket"
+    scope: SGO
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 # more  ITSM Objects
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 
 - nodeType:
-  name: "ConfigurationItem"
-  description: "see http://en.wikipedia.org/wiki/Configuration_item"
-  parentNodeType: "FactualNode"
-  scope: SGO	
+    name: "ConfigurationItem"
+    description: "see http://en.wikipedia.org/wiki/Configuration_item"
+    parentNodeType: "FactualNode"
+    scope: SGO
 
 - nodeType:
-  name: "Asset"
-  description: "see http://en.wikipedia.org/wiki/Asset_management"
-  parentNodeType: "FactualNode"
-  scope: SGO	
+    name: "Asset"
+    description: "see http://en.wikipedia.org/wiki/Asset_management"
+    parentNodeType: "FactualNode"
+    scope: SGO
 
 # NOTE: add relational edges between CI and Asset
 
