@@ -6,13 +6,13 @@
 - nodeType:
     name: "Person"
     description: "represents a human identity"
-    parentNodeType: "Idenity"
+    parentNodeType: "Identity"
     scope: SGO
 
 - nodeType:
     name: "Organization"
     description: "an identity the represents an organization, company, or some other grouping of Person objects"
-    parentNodeType: "Idenity"
+    parentNodeType: "Identity"
     scope: SGO
 
 - edgeType:
@@ -29,6 +29,8 @@
 - nodeType:
     name: "Event"
     description: "any detectable or discernible occurrence that has significance for the management of the IT Infrastructure or the delivery of IT service and evaluation of the impact a deviation might cause to the services. see http://en.wikipedia.org/wiki/Event_Management_%28ITIL%29"
+    parentNodeType: "SituationalNode"
+    scope: SGO
 
 - nodeType: 
     name: "Ticket"
