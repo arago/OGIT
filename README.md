@@ -51,11 +51,9 @@ The foundation of the OGIT meta model is a 5 layer *onion-like* definition of da
 
 # How can I contribute?
 
-Please help us to grow the Open Graph of IT by contributing to this project. See our [Open Graph of IT Contribution Document](https://github.com/arago/graphIT-ontology/blob/master/CONTRIBUTING.md) for more details on submitting suggestions and starting discussions about OGIT.
+Please help us to grow the **Open Graph of IT** by contributing to this project. See our [Open Graph of IT Contribution Document](https://github.com/arago/graphIT-ontology/blob/master/CONTRIBUTING.md) for more details on submitting suggestions and starting discussions about OGIT. 
 
 If you have general questions or need support please contact us at <ogit@arago.de>
-
-Please help us to grow the **Open Graph of IT** by contributing to this project. See our "Open Graph of IT Contribution Guide" for more details.
 
 # License
 
