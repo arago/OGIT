@@ -8,7 +8,7 @@
 
 - nodeType:
     name: "MARSNode"
-    description: IT Objects will be representated in MARS Modell with MARS nodes 
+    description: "IT Objects will be representated in MARS Modell with MARS nodes" 
     parentNodeType: "FactualNode"
     schema: "http://mars-o-matic.com"
     schemaType: "XML schema"        
@@ -18,7 +18,7 @@
 
 - nodeType:
     name: "MARSMachineNode"
-    description: MachineNode is the lowest level of MARS model, MachineNode provides his capacities to SoftwareNodes, MachineNode can be a virtuel or a physical machine
+    description: "MachineNode is the lowest level of MARS model, MachineNode provides his capacities to SoftwareNodes, MachineNode can be a virtual or a physical machine"
     parentNodeType: "MARSNode"
     scope: NTO
     schema: "MARSSchema2013"
@@ -26,7 +26,7 @@
 
 - nodeType:
     name: "MARSSoftwareNode"
-    description: SoftwareNode combines one or more MachineNodes
+    description: "SoftwareNode combines one or more MachineNodes"
     parentNodeType: "MARSNode"
     scope: NTO
     schema: "MARSSchema2013"
@@ -34,7 +34,7 @@
 
 - nodeType:
     name: "MARSResourceNode"
-    description: ResourceNode combines SoftwareNodes to logical groups
+    description: "ResourceNode combines SoftwareNodes to logical groups"
     parentNodeType: "MARSNode"
     scope: NTO
     schema: "MARSSchema2013"
@@ -42,7 +42,7 @@
 
 - nodeType:
     name: "MARSApplicationNode"
-    description: ApplicationNode provides functions to user or business process, ApplicationNode exists of one or more SoftwareNodes
+    description: "ApplicationNode provides functions to user or business process, ApplicationNode exists of one or more SoftwareNodes"
     parentNodeType: "MARSNode"
     scope: NTO
     schema: "MARSSchema2013"
@@ -50,7 +50,7 @@
 
 - edgeType:
     name: "isRelatedToOtherMARSNode"
-    description: Relation between MARSNodes
+    description: "Relation between MARSNodes"
     scope: NTO
     inversefunctional: false
     functional: false
