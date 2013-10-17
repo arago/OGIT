@@ -9,27 +9,30 @@ Here you'll find an approach we call "OGIT - The Open Graph of IT", which will b
 # 2. What is the Open Graph of IT (OGIT)
 
 ## Exec Summary
-The goal of the OGIT (Open Graph of IT) Ontology Framework is to build an open semantic representation of all IT and it's interactions with business process and people for providing a foundation for computational evaluation. The resulting knowledge graph allows to interconnect various IT Systems in the IT Operations and IT Management space. While previous approaches like the IBM Common Data Model (CDM) required too much
-details and did not allow any ambiguity and incorrectness, OGIT allows varying levels of details, accepts incorrectness and supports different classes of data to allow proper handling from a computational perspective. The ontology structure is designed for providing a common, best practice approach, thought giving great flexibility and extensibility for every implementor.
+The goal of the OGIT (Open Graph of IT) Ontology Framework is to build an open semantic representation of all IT and it's interactions with business process and people for providing a foundation for computational evaluation. The resulting knowledge graph allows to interconnect various IT Systems in the IT Operations and IT Management space. While previous approaches like the IBM Common Data Model (CDM) required too much details and did not allow any ambiguity and incorrectness, OGIT allows varying levels of details, accepts incorrectness and supports different classes of data to allow proper handling from a computational perspective. The ontology structure is designed for providing a common, best practice approach, thought giving great flexibility and extensibility for every implementor.
 
 ## Benefits
 
+..
+
 ## Basic Concepts of OGIT
 
-Please have a look at the [Basic Concepts section](https://github.com/arago/graphIT-ontology/wiki/Basic-Concepts) in the Wiki for deeper look at OGIT.
+Please have a look at the [Basic Concepts section](https://github.com/arago/graphIT-ontology/wiki/Basic-Concepts) in the Wiki for deeper look at OGIT and the concepts behind it.
 
-# 3. Getting startet
+# 3. Getting started
 
 ## Tutorial: Getting data
 
-- get an item
+See our tutorial [Getting Data](https://github.com/arago/graphIT-ontology.wiki.git) to find out how to get data from the OGIT Repository.
+
+For now we offer an API to
+
+- get an item and to
 - list items
-- where to go from here
 
 ## Putting something new
 
-- put something existing + where to go from here
-- how to take part in the ontology process + where to go from here
+See the tutorial [Putting something new](https://github.com/arago/graphIT-ontology.wiki.git). 
 
 # 4. FAQ
 
@@ -45,6 +48,8 @@ If you have general questions or need support please contact us at <ogit@arago.d
 
 ## APIs
 
+Please see the API documentation.
+
 ## Ontology items
 
 Find a reference of all items at the [Basic Concepts section]
@@ -56,7 +61,7 @@ See our [Open Graph of IT Contribution Document](https://github.com/arago/graphI
 
 ## Current Ontology items
 
-# License
+# 6. License
 
 Please see [LICENSE.md](https://github.com/arago/graphIT-ontology/blob/master/) for information about the licensing.
 
