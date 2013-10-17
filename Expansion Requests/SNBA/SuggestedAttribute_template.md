@@ -1,6 +1,6 @@
 # Suggested Attribute
 
-Name your file "AttributeName.md" and format it with the GitHub Wiki Syntax so it will be readable by all.
+Name your file "attributeName.md" and format it with the GitHub Wiki Syntax so it will be readable by all.
 
 ## Description
 

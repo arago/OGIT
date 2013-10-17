@@ -1,0 +1,21 @@
+- Schema:
+    id:   "the id of the schema"
+    name: "name of the schema"
+    description: "description of the schema"
+    valid-from: "date from when this schema is valid 2013-11-01 00:00:00"
+    valid-until: "date until this schema is valid 2014-11-01 00:00:00"
+    creator: "id of the user who created this schema"
+    deleter: "id of the user who made this schema obsolete"
+    created:  "2013-09-01"
+    modified: "2013-09-01"
+    admin-contact: "id of user"
+    tech-contact: "id of user"
+    uri: "uri of the schema"
+    url: "URL where the definition for this schema can be obtained"
+    version: "version of the schema"
+    type: "type of the schema (e.g. xsd)"
+    history:
+      - id: 1
+        date: "date of the change"
+        description: "description of the change"
+        modified-by: "id of the modifier"
