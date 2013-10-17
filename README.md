@@ -17,16 +17,16 @@ The goal of the OGIT (Open Graph of IT) Ontology Framework is to build an open s
 
 ## Basic Concepts of OGIT
 
-Please have a look at the [Basic Concepts section](wiki/Basic-Concepts) for a deeper look at OGIT and the concepts behind it.
+Please have a look at the [Basic Concepts section](../../wiki/Basic-Concepts) for a deeper look at OGIT and the concepts behind it.
 
 # 3. Getting started
 
-Please make sure, that you understand the [Basic Concepts section](wiki/Basic-Concepts).
+Please make sure, that you understand the [Basic Concepts section](../../wiki/Basic-Concepts).
 
 ## Working with GraphIT
 
-The first part of tutorial covers [how get get data out of GraphIT](wiki/wiki/Getting-Started-Part-1).
-The second one focuses on [creating and connection data in GraphIT](wiki/wiki/Getting-Started-Part-1).
+The first part of tutorial covers [how get get data out of GraphIT](../../wiki/Getting-Started-Part-1).
+The second one focuses on [creating and connection data in GraphIT](../../wiki/Getting-Started-Part-1).
 
 
 ## I want to contribute ...
@@ -41,11 +41,11 @@ If you have general questions or need support please contact us at <ogit@arago.d
 
 ## APIs
 
-Please see the [API documentation](wiki/API-Reference).
+Please see the [API documentation](../../wiki/API-Reference).
 
 ## Ontology items
 
-Find a reference of all items at the [Basic Concepts section](wiki/Basic-Concepts)
+Find a reference of all items at the [Basic Concepts section](../../wiki/Basic-Concepts)
 
 ## Ontology Process
 
