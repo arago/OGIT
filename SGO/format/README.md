@@ -1,4 +1,3 @@
-
 ### Overview
 
 This directory contains the following things:
@@ -13,8 +12,9 @@ This directory contains the following things:
     * the first letter of an entity must be uppercase
 
 * `verbs` the verb format
-    * the name of the file of the verb must be `verb`.yaml
+    * the name of the file of the verb must be `verb-id`.yaml
     * verbs with a `_` prefix are not writable and generated internally
+    * the first letter of a verb must be lowercase
 
 * `schemas`: the schema format
     * the name of the file of the entity is `Schema-id`.yaml
