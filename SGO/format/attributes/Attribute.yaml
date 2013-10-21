@@ -11,3 +11,8 @@
     admin-contact: "id of user"
     tech-contact: "id of user"
     url: "URL where the definition for this attribute can be obtained"
+    history:
+      - id: 1
+        date: "date of the change"
+        description: "description of the change"
+        modified-by: "id of the modifier"
