@@ -11,11 +11,7 @@
     admin-contact: ""
     tech-contact: ""
     uri: "http://mars-o-matic.com"
-<<<<<<< HEAD:NTO/AutoPilot_MARS/schema/AutoPilotMARSSchema2013.yaml
     url: "https://github.com/arago/autopilot-devel/blob/master/schemas/MARSSchema2013.xsd"
-=======
-    url: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/MARSSchema2013.xsd"
->>>>>>> 138c9dc0631c0b0a888da92e3e96e7dd5bf61d1b:NTO/AutoPilot_MARS/schema/AutoPilotMARSSchema2013.yaml
     version: "4.1"
     type: "xsd"
     history:
