@@ -11,6 +11,7 @@
     admin-contact: "id of user"
     tech-contact: "id of user"
     url: "URL where the definition for this attribute can be obtained"
+    conforms-to: "an established standard to which the described resource conforms"
     history:
       - id: 1
         date: "date of the change"

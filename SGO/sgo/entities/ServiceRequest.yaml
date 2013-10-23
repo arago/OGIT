@@ -12,6 +12,7 @@
     tech-contact: ""
     scope: "SGO"
     url: ""
+    conforms-to: ""
     parent: "Ticket"
     history:
       - id: 1

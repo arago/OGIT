@@ -1,7 +1,7 @@
 - Entity:
     id:   "Asset"
     name: "Asset"
-    description: "see http://en.wikipedia.org/wiki/Asset_management"
+    description: "An Resource or capability"
     valid-from: "2013-11-01 00:00:00"
     valid-until: "2014-11-01 00:00:00"
     creator: ""
@@ -12,6 +12,7 @@
     tech-contact: ""
     scope: "SGO"
     url: ""
+    conforms-to: "http://www.itil-officialsite.com/InternationalActivities/ITILGlossaries_2.aspx#English_2011_Glossary.pdf"
     parent: "Factual"
     history:
       - id: 1

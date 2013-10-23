@@ -1,7 +1,7 @@
 - Entity:
     id:   "Incident"
     name: "Incident"
-    description: "technical representation of an incident record as a ticket. An incident is an event that could lead to loss of, or disruption to, an organization's operations, services or functions. see http://en.wikipedia.org/wiki/Incident_management"
+    description: "An unplanned interruption to an IT service or reduction in the quality of an IT service.  An incident is an event that could lead to loss of, or disruption to, an organization's operations, services or functions. see http://en.wikipedia.org/wiki/Incident_management"
     valid-from: "2013-11-01 00:00:00"
     valid-until: "2014-11-01 00:00:00"
     creator: ""
@@ -12,6 +12,7 @@
     tech-contact: ""
     scope: "SGO"
     url: ""
+    conforms-to: "http://www.itil-officialsite.com/InternationalActivities/ITILGlossaries_2.aspx#English_2011_Glossary.pdf"
     parent: "Ticket"
     history:
       - id: 1
