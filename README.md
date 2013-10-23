@@ -53,6 +53,8 @@ See our [Open Graph of IT Contribution Document](CONTRIBUTING.md) for more detai
 
 ## Current Ontology items
 
+Please see the [Graphit-Ontology documentation](http://repo.tabtab.org/doxygen-graphit/index.html).
+
 # 6. License
 
 Please see [LICENSE.md](LICENSE.md) for information about the licensing.
