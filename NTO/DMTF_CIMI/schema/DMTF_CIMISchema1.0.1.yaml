@@ -10,7 +10,7 @@
     modified: "2013-10-01"
     admin-contact: ""
     tech-contact: ""
-    uri: "http://schemas.dmtf.org/cimi/1/DSP8009.xsd"
+    uri: "http://schemas.dmtf.org/cimi/"
     url: "http://schemas.dmtf.org/cimi/1/DSP8009.xsd"
     version: "1.0.1"
     type: "xsd"
