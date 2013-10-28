@@ -2,14 +2,18 @@
 
 Here you'll find the NTO enablement for DMTF CIMI - Cloud Infrastructure Management Interface.
 
-##CIMI Background
+##ITSMO Background
 
-The scope of the CIMI standard covers core IaaS functionality; it's about deploying and managing Machines, Volumes, Networks, Monitoring, etc. Once you've interfaced to the IaaS provider, the information you need to manage your cloud service can be discovered iteratively, including the metadata describing capabilities and resource constraints.
+IT Service Management Ontology (ITSMO) is a powerful vocabulary for describing all of the detail of IT Services in a way friendly to search engines, inventory applications, and browser extensions.
 
-The model behind CIMI describes: resources (systems or collections of resources managed as a whole, probably as an OVF file); machines (a computing resource with CPU and memory); volumes (storage); and networks (representing a layer 2 broadcast domain). It also describes "meters" (metrics for some useful property of something) and event logs.
+ITSMO is for everyone that wants to describe or publish an IT Service Catalog according with ITIL best practices, ISO 20000 standards and LinkedData W3C principles.
 
-Most developers will deal with the CIMI REST/HTTP-Based Protocol, the current interface binding to the model (others are expected later). This delivers standard HTTP status codes and supports JSON and XML serialization formats. 
+By adding few extra tags to your service description, you make sure that potential customers realize all the benefits of doing business with you, because their computers can find, explore and present your IT Service Catalog with ease.
 
-Description: [CIMI Model, v1.0.1](http://www.dmtf.org/sites/default/files/standards/documents/DSP0263_1.0.1.pdf)
+ITSMO it is based on open Semantic Web technologies; this enable computers to help you in managing IT service architectures: you can use semantic web tools to show the hidden dependency between services and between their components (processes, documents, software, hardware, people, etc.).
 
-Technical Whitepaper: [Tech Note](http://dmtf.org/sites/default/files/TechNoteCIMIv6_comments_10.31.12_0.pdf)
+ITSMO is tolerant with incomplete, missing and even wrong data. It helps you to get the best from what you have, helping you to manage risks and allowing to incrementally increase the quality of your data. It works with any mix of structured and unstructured data source, from expensive repository tools (CMDB) to uncontrolled sparse files.
+
+ITSMO is free, easy to extend and works together with other public vocabularies, like Dublin Core, GoodRelations, FOAF and with the forthcoming USDL to provide you a complete semantic framework for IT Service Providing business.
+
+Source: http://ontology.it/itsmo/v1/userguide/
