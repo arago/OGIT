@@ -1,6 +1,6 @@
 #This is CIMI Readme.md
 
-Here you'll find the NTO enablement for DMTF CIMI - Cloud Infrastructure Management Interface.
+Here you'll find the NTO enablement for ITSMO - ITSM Ontology V1
 
 ##ITSMO Background
 
