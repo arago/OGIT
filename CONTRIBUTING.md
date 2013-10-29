@@ -10,19 +10,20 @@ If you have any kind of question please contact us at <ogit@arago.de> .
 
 ## What to contribute
 
-You can place extension requests for any "scope" we defined in ["SGO, NTO, and all that"](SGO_NTO_and_all_that.md). Here the list of valid  requests:
+The requests fall into two base categories:
+* request to extend SGO
+* request to add/modify the NTO "enablement"
 
-| Request type ID | scope      | request content |
-| --------------: | :--------: | --------------- |
-| I a             | (pure) SGO | add some attribute to an existing (pure) SGO node type |
-| I b             | (pure) SGO | create a new node type with "(pure) SGO scope" (i.e. no NTO schema available or referenced) |
-| I c             | (pure) SGO | create a new edge type with "SGO or SGO/NTO scope" (i.e. between node types of "SGO scope" or "SGO/NTO scope") |
-| II a            | SGO/NTO    | create a new edge type with "SGO or SGO/NTO scope" (i.e. between node types of "SGO scope" or "SGO/NTO scope") |
-| II b            | SGO/NTO    | add some attribute to a node type with SGO/NTO scope |
-| II c            | SGO/NTO    | add/update NTO schema |
-| II d            | SGO/NTO    | add some edge type allowing to connect nodes with SGO/NTO scope (of this NTO) with nodes with either pure SGO scope or nodes with SGO/NTO scope (belonging to some other NTO) - almost same as "I c" |
-| III a           | (pure) NTO | add some attribute to an existing (pure) NTO node type |
-| III b           | (pure) NTO | create a new node type with "(pure) NTO scope" |
-| III c           | (pure) NTO | create a new edge type with "(pure) NTO scope", i.e. can connect only nodes whose types belong to same NTO |
+Here a list of typical requests:
 
-In most cases a contribution will consist of several requests.
+| Request type ID | scope | request content |
+| --------------: | :---: | --------------- |
+| I a             | SGO   | add some attribute to an existing SGO "entity" |
+| I b             | SGO   | add a new "entity" with SGO scope (i.e. no NTO schema available or referenced) |
+| II a            | n/a   | add a new "verb" |
+| II b            | n/a   | add a new "allowed" stanza to an existing "verb" (i.e. extend applicability of a "verb" |
+| III a           | NTO   | add some attribute to an existing NTO "entity" |
+| III b           | NTO   | add a new "entity" with NTO scope |
+| III c           | NTO   | add/update a "schema" entry |
+
+In most cases a contribution will consist of several such requests.
