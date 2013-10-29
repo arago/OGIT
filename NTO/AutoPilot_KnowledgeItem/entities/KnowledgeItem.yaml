@@ -12,7 +12,7 @@
     tech-contact: ""
     scope: "NTO"
     url: ""
-    schema: "KiSchema"
+    schema: "AutoPilotKISchema"
     parent: "ActionableNode"
     history:
       - id: 1
