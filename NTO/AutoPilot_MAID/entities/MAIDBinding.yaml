@@ -12,7 +12,7 @@
     tech-contact: ""
     scope: "NTO"
     url: ""
-    schema: "MAIDBindingSchema"
+    schema: "AutoPilotMAIDBindingSchema"
     parent: "FactualNode"
     history:
       - id: 1
