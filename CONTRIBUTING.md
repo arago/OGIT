@@ -24,7 +24,7 @@ NTO-Enablement means exposing some parts of your ontology/schema as 'entities' w
 
 The formal definition will use the same [YAML syntax](SGO/format/README.md) which is also used for SGO.
 
-There is one additional class of definitions which we don't need for SGO: [schema](SGO/format/schema/Schema.yaml). This creates a reference to the external schema/ontology the NTO enablement is based upon.
+There is one additional class of definitions which we don't need for SGO: [schema](SGO/format/schemas/Schema.yaml). This creates a reference to the external schema/ontology the NTO enablement is based upon.
 
 Enabling and NTO usually involved the following things:
 

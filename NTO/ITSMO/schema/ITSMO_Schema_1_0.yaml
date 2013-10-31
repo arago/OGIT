@@ -1,5 +1,5 @@
 - Schema:
-    id:   "ITSMO_Schema.1.0"
+    id:   "ITSMO_Schema_1_0"
     name: "ITSMO_Schema.1.0"
     description: |
       IT Service Management Ontology (ITSMO) is a standardized vocabulary (also known as "schema", "data dictionary", or "ontology") 
