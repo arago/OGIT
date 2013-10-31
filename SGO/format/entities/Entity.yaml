@@ -25,6 +25,4 @@
         - attribute id
       optional:
         - attribute id
-      best-practice:
-        - attribute id
 

@@ -19,6 +19,14 @@ The goal of the OGIT (Open Graph of IT) Ontology Framework is to build an open s
 
 Please have a look at the [Basic Concepts section](../../wiki/Basic-Concepts) for a deeper look at OGIT and the concepts behind it.
 
+Throughout the [Basic Concepts](../../wiki/Basic-Concepts) we used there 'node' and 'connection' in addition to 'entity' and 'verb'. The first two are from graph terminology whereas the latter ones are addressing the semantic aspects of our ontology. The different "languages" are interrelated as follows:
+
+
+> __entity__: defines the allowed 'node'/'vertex' types in the graph representation. Each 'vertex' in the graph will be an instance of a pre-defined __entity__
+
+> __verb__: defines the allowd 'edge'/'connection' types in the graph representation. Each 'edge' in the graph will be an instance of a pre-defined __verb__
+
+
 # 3. Getting started
 
 Please make sure, that you understand the [Basic Concepts section](../../wiki/Basic-Concepts).
