@@ -1,7 +1,7 @@
 - Schema:
-    id:   "AutoPilotIssueSchema.4.1"
-    name: "AutoPilotIssueSchema.4.1"
-    description: "AutoPilotIssueSchema.4.1"
+    id:   "AutoPilotIssueOutputSchema_4_1"
+    name: "AutoPilotIssueOutputSchema.4.1"
+    description: "AutoPilotIssueOutputSchema.4.1"
     valid-from: "2013-11-01 00:00:00"
     valid-until: "2014-11-01 00:00:00"
     creator: ""
@@ -10,8 +10,8 @@
     modified: "2013-09-01"
     admin-contact: ""
     tech-contact: ""
-    uri: "http://www.arago.de/IssueSchema"
-    url: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueSchema.xsd"
+    uri: "http://www.arago.de/IssueOutputSchema"
+    url: "https://github.com/arago/autopilot-devel/blob/release-4.1/schemas/IssueOutputSchema.xsd"
     version: "4.1"
     type: "xsd"
     history:
