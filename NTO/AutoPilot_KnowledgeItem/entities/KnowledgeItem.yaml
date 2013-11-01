@@ -13,7 +13,7 @@
     scope: "NTO"
     url: ""
     schema: "AutoPilotKISchema"
-    parent: "ActionableNode"
+    parent: "Actionable"
     history:
       - id: 1
         date: "2013-09-01"
