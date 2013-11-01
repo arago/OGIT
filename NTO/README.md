@@ -9,3 +9,6 @@ Currently the following NTOs have been enabled for Open GraphIT ontology:
 * [AutoPilot MARS](AutoPilot_MARS)
 * [AutoPilot Timeseries](AutoPilot_Timeseries)
 * [CIMI - Cloud Infrastructure Management Interface](DMTF_CIMI)
+
+
+The format used within the YAML files is described [here](../SGO/format/README.md)

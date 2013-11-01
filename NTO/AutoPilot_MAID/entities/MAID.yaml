@@ -12,7 +12,7 @@
     tech-contact: ""
     scope: "NTO"
     url: ""
-    schema: "MAIDSchema"
+    schema: "AutoPilotMAIDSchema"
     parent: "FactualNode"
     history:
       - id: 1

@@ -8,21 +8,38 @@ Feel free to use the [Github Fork/Pull mechanism](https://help.github.com/articl
 
 If you have any kind of question please contact us at <ogit@arago.de> .
 
-## What to contribute
+## Contributing to SGO
 
-You can place extension requests for any "scope" we defined in ["SGO, NTO, and all that"](SGO_NTO_and_all_that.md). Here the list of valid  requests:
+Change requests for SGO might include:
+* add some attribute to an existing SGO "entity"
+* add a new "entity" with SGO scope
+* add a new "verb"
+* add a new "allowed" stanza to an existing "verb" (i.e. extend applicability of a "verb")
 
-| Request type ID | scope      | request content |
-| --------------: | :--------: | --------------- |
-| I a             | (pure) SGO | add some attribute to an existing (pure) SGO node type |
-| I b             | (pure) SGO | create a new node type with "(pure) SGO scope" (i.e. no NTO schema available or referenced) |
-| I c             | (pure) SGO | create a new edge type with "SGO or SGO/NTO scope" (i.e. between node types of "SGO scope" or "SGO/NTO scope") |
-| II a            | SGO/NTO    | create a new edge type with "SGO or SGO/NTO scope" (i.e. between node types of "SGO scope" or "SGO/NTO scope") |
-| II b            | SGO/NTO    | add some attribute to a node type with SGO/NTO scope |
-| II c            | SGO/NTO    | add/update NTO schema |
-| II d            | SGO/NTO    | add some edge type allowing to connect nodes with SGO/NTO scope (of this NTO) with nodes with either pure SGO scope or nodes with SGO/NTO scope (belonging to some other NTO) - almost same as "I c" |
-| III a           | (pure) NTO | add some attribute to an existing (pure) NTO node type |
-| III b           | (pure) NTO | create a new node type with "(pure) NTO scope" |
-| III c           | (pure) NTO | create a new edge type with "(pure) NTO scope", i.e. can connect only nodes whose types belong to same NTO |
+The easiest way to do this is to provide new or updated YAML files according to the [specified syntax](SGO/format/README.md). 
 
-In most cases a contribution will consist of several requests.
+## Enable a new NTO
+
+NTO-Enablement means exposing some parts of your ontology/schema as 'entities' with 'attributes' and 'verbs' to define relationships.
+
+The formal definition will use the same [YAML syntax](SGO/format/README.md) which is also used for SGO.
+
+There is one additional class of definitions which we don't need for SGO: [schema](SGO/format/schemas/Schema.yaml). This creates a reference to the external schema/ontology the NTO enablement is based upon.
+
+Enabling and NTO usually involved the following things:
+
+* add schema defintion(s)
+* add attribute definitions if your NTO 'entities' need attributes which are not already there
+* add 'entity' definitions:
+  - set scope to 'NTO'
+  - set schema reference
+  - set parent (must point to an existing 'entity' definition)
+  - list 'mandatory' and 'optional' attributes
+* if you can reuse existing 'verbs'
+  - add new 'allowed' stanza if you want to allow your 'entity' as left or right side of that 'verb' (and this is not allowed by inheritance, yet)
+* if you need new a 'verb'
+  - add 'verb' definition
+  - add necessary 'allowed' stanzas
+
+Of course a change request might also be placed to add to an existing NTO enablement.
+

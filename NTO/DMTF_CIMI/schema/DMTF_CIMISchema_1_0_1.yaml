@@ -1,5 +1,5 @@
 - Schema:
-    id:   "DMTF_CIMISchema.1.0.1"
+    id:   "DMTF_CIMISchema_1_0_1"
     name: "DMTF_CIMISchema.1.0.1"
     description: |
      DMTF CIMI - Cloud Infrastructure Management Interface Schema Vers. 1.0.1
