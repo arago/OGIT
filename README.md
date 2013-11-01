@@ -24,7 +24,7 @@ Throughout the [Basic Concepts](../../wiki/Basic-Concepts) we used there 'node' 
 
 > __entity__: defines the allowed 'node'/'vertex' types in the graph representation. Each 'vertex' in the graph will be an instance of a pre-defined __entity__
 
-> __verb__: defines the allowd 'edge'/'connection' types in the graph representation. Each 'edge' in the graph will be an instance of a pre-defined __verb__
+> __verb__: defines the allowed 'edge'/'connection' types in the graph representation. Each 'edge' in the graph will be an instance of a pre-defined __verb__
 
 
 # 3. Getting started
