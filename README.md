@@ -65,5 +65,5 @@ Please see the [Graphit-Ontology documentation](http://repo.tabtab.org/doxygen-g
 
 # 6. License
 
-Please see (LICENSE.md) for information about the licensing.
+Please see [LICENSE.md](LICENSE.md) for information about the licensing.
 
