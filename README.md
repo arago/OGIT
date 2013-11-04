@@ -63,6 +63,10 @@ See our [Open Graph of IT Contribution Document](CONTRIBUTING.md) for more detai
 
 Please see the [Graphit-Ontology documentation](http://repo.tabtab.org/doxygen-graphit/index.html).
 
+## Standards Reference
+
+Please find a list of related standards at our [Standards Reference in our Wiki](https://github.com/arago/OGIT/wiki/Standards-Reference). If you find important standards missing from the list, please [open an Wiki issue](https://github.com/arago/OGIT/issues/new?title=Wiki:) to notify us about it.
+
 # 6. License
 
 Please see [LICENSE.md](LICENSE.md) for information about the licensing.
