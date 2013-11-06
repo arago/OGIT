@@ -3,8 +3,8 @@
 # 1. Syntax
 To produce an automatic documentation for the ontology from the source files (.yaml)
 the doxygen tool is used. Because yaml format is not supported from doxygen the files are
-converted to javadoc. So you have to use javadoc format. The doc file starts with "/*!" and 
-ends with "*/". All other lines have to start with "*".
+converted to javadoc. So you have to use javadoc format. The doc file starts with ```/*!``` and 
+ends with ```*/```. All other lines have to start with "*".
 The file extension is .txtdoc and have to store in the docs-Folder in OGIT.
 
 ## 1.1 Main Page
