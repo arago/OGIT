@@ -1,4 +1,4 @@
-![Logo](https://raw.github.com/arago/OGIT/master/docs/images/OGIT_Logo.jpeg)
+![Logo](https://github.com/arago/OGIT/raw/master/docs/images/OGIT_Logo.jpeg)
 # Welcome to the 'Open Graph for IT' Ontology
 
 # Overview
