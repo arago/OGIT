@@ -1,3 +1,4 @@
+
 # Welcome to the 'Open Graph for IT' Ontology
 
 # 1. Overview
