@@ -13,7 +13,7 @@
     scope: "NTO"
     url: ""
     schema: "AutoPilotMAIDSchema"
-    parent: "FactualNode"
+    parent: "Factual"
     history:
       - id: 1
         date: "2013-09-01"

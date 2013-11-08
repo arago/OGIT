@@ -19,6 +19,14 @@ The goal of the OGIT (Open Graph of IT) Ontology Framework is to build an open s
 
 Please have a look at the [Basic Concepts section](../../wiki/Basic-Concepts) for a deeper look at OGIT and the concepts behind it.
 
+Throughout the [Basic Concepts](../../wiki/Basic-Concepts) we used there 'node' and 'connection' in addition to 'entity' and 'verb'. The first two are from graph terminology whereas the latter ones are addressing the semantic aspects of our ontology. The different "languages" are interrelated as follows:
+
+
+> __entity__: defines the allowed 'node'/'vertex' types in the graph representation. Each 'vertex' in the graph will be an instance of a pre-defined __entity__
+
+> __verb__: defines the allowed 'edge'/'connection' types in the graph representation. Each 'edge' in the graph will be an instance of a pre-defined __verb__
+
+
 # 3. Getting started
 
 Please make sure, that you understand the [Basic Concepts section](../../wiki/Basic-Concepts).
@@ -54,6 +62,10 @@ See our [Open Graph of IT Contribution Document](CONTRIBUTING.md) for more detai
 ## Current Ontology items
 
 Please see the [Graphit-Ontology documentation](http://repo.tabtab.org/doxygen-graphit/index.html).
+
+## Standards Reference
+
+Please find a list of related standards at our [Standards Reference in our Wiki](https://github.com/arago/OGIT/wiki/Standards-Reference). If you find important standards missing from the list, please [open an Wiki issue](https://github.com/arago/OGIT/issues/new?title=Wiki:) to notify us about it.
 
 # 6. License
 
