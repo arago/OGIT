@@ -1,6 +1,6 @@
 - Attribute:
     id: "tier"
-    name: "Tier"
+    name: "tier"
     description: "description of the Tier (Serviceelement)"
     valid-from: "2013-11-01 00:00:00"
     valid-until: "2014-11-01 00:00:00"
