@@ -22,9 +22,9 @@
 
     attributes:
       mandatory:
+      optional:
         - tier
         - unitBasePrice
         - priceOrFactor
-      optional:
         - lowerLimit
         - upperLimit

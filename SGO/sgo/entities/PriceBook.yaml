@@ -22,7 +22,7 @@
 
     attributes:
       mandatory:
+      optional:
         - vendor
         - region
         - slaType
-      optional:
