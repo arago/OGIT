@@ -15,7 +15,8 @@ Please See the [Learn More Document](LEARN_MORE.md) for more information about t
 
 # 2. Try Out
 
-Please see the [API documentation](../../wiki/API-Reference) to find out how to work with OGIT. For additional information please look at the [Getting started documentation](https://github.com/Rjudas/OGIT.wiki.git)
+Please see the [API documentation](../../wiki/API-Reference) to find out how to work with OGIT. For additional information please look at the [Getting started - Part 1](https://github.com/arago/OGIT/wiki/Getting-Started-Part-1) to find
+out how to authenticate with and retrieve information from the OGIT database. Further information about how to store your own data in the OGIT database please have a look at out [Getting started - Part 2](https://github.com/arago/OGIT/wiki/Getting-Started-Part-2) tutorial.
 
 ----------- 
 
