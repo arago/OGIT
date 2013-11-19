@@ -1,6 +1,6 @@
 - Attribute:
     id: "priceOrFactor"
-    name: "PriceOrFactor"
+    name: "priceOrFactor"
     description: "describes a price or a price factor"
     valid-from: "2013-11-01 00:00:00"
     valid-until: "2014-11-01 00:00:00"

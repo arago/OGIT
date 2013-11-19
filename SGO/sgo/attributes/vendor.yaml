@@ -1,6 +1,6 @@
 - Attribute:
     id: "vendor"
-    name: "Vendor"
+    name: "vendor"
     description: "description of the vendor"
     valid-from: "2013-11-01 00:00:00"
     valid-until: "2014-11-01 00:00:00"
