@@ -9,13 +9,17 @@ To perceive a straightforward unique ID system for OGIT and vendor managed NTOs 
 
 NTO-IDs are derived from the a PURL in the format
 
-```http://www.purl.org/NTO_MAINTAINER/NTO_NAME/[entities|verbs|attributes|schema]/ITEM_NAME```
+```
+http://www.purl.org/NTO_MAINTAINER/NTO_NAME/[entities|verbs|attributes|schema]/ITEM_NAME
+```
 
 where ___NTO_MAINTAINER___ is a unique domain within the PURL system and ___NTO_NAME___ is a standard PURL, which can be managed by the individual NTO owner. 
 
 An example would be 
 
-```http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue```
+```
+http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
+```
 
 
 ##How To Use PURL
