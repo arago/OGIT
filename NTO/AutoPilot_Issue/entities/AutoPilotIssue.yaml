@@ -1,7 +1,7 @@
 - Entity:
     id:   "AutoPilotIssue"
     name: "AutoPilotIssue"
-    description: "An issue is a formalized version of a task that is injected into aAE (AutoPilot Engine) via the Issue API. Such a task can be a change request, incident ticket, event, and so on."
+    description: "Dynamic information exists within the arago Automation Engine (aAE) in the form of Issues otherwise referred to as Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with unique names. From the logical point of view Issues contain information about the change of states on a system. Issues can be injected into aAE from external systems e.g. Monitoring or result from the execution of a Knowledge Item. By comparing an Issue with the Issue Condition of a Knowledge Item aAE decides which Knowledge Items are are processed in which order. If multiple Knowledge Items can be applied to an Issue the KI with the more precisely defined IssueCondition is processed first."
     valid-from: "2013-11-01 00:00:00"
     valid-until: "2014-11-01 00:00:00"
     creator: ""
