@@ -21,4 +21,5 @@
 
     attributes:
       mandatory:
+        - email
       optional:    
