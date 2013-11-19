@@ -1,4 +1,3 @@
-
 List of enabled NTOs
 ====
 
@@ -22,4 +21,4 @@ NTO Entity Identifiers
 
 When proposing a new NTO, the field ID in each YAML file needs to contain an unique ID. Each NTO Maintainer is required to use the PURL (Persisten URL service) to create an unique identifier. 
 
-Please see the (ID Registration Document)[PURL_ID_Registration.md] for a detail documentation of the ID registration.
+Please see the [ID Registration Document](PURL_ID_Registration.md) for a detail documentation of the ID registration.
