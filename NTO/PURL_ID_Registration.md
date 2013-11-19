@@ -13,7 +13,7 @@ NTO-IDs are derived from the a PURL in the format
 http://www.purl.org/NTO_MAINTAINER/NTO_NAME/[entities|verbs|attributes|schema]/ITEM_NAME
 ```
 
-where ___NTO_MAINTAINER___ is a unique domain within the PURL system and ___NTO_NAME___ is a standard PURL, which can be managed by the individual NTO owner. 
+where *NTO_MAINTAINER* is a unique domain within the PURL system and *NTO_NAME* is a standard PURL, which can be managed by the individual NTO owner. 
 
 An example would be 
 
