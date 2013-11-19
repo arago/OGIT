@@ -12,7 +12,7 @@
     tech-contact: ""
     scope: "NTO"
     url: ""
-    schema: "AutoPilotIssueSchema.4.1"
+    schema: "AutoPilotIssueSchema_4_1"
     parent: "Situational"
     history:
       - id: 1
