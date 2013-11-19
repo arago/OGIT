@@ -2,7 +2,6 @@
 /// @{
 
     /*! \page IssueAPI Issue Processing
-     * ==============
      * An issue is a formalized version of a task that is injected into aAE 
      * (AutoPilot Engine) via the Issue API. Such a task can be a 
      * change request, incident ticket, event, and so on.
