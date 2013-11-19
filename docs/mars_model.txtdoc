@@ -1,0 +1,11 @@
+/// @addtogroup MARSNode MARSNode
+/// @{
+
+    /*! \page ModelAPI MARS Model
+     * The MARS model describes  and categorizes IT objects within a system and shows the relationships between these.
+     * The MARS model represents the relationships and dependencies of machine, application and software (software will be combined at a 1:1 dependency to the resources).
+     *
+     * \image html mars1.jpg
+     */
+
+///@}
