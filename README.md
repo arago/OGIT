@@ -15,8 +15,12 @@ Please See the [Learn More Document](LEARN_MORE.md) for more information about t
 
 # 2. Try Out
 
-Please see the [API documentation](../../wiki/API-Reference) to find out how to work with OGIT. For additional information please look at the [Getting started - Part 1](https://github.com/arago/OGIT/wiki/Getting-Started-Part-1) to find
-out how to authenticate with and retrieve information from the OGIT database. Further information about how to store your own data in the OGIT database please have a look at out [Getting started - Part 2](https://github.com/arago/OGIT/wiki/Getting-Started-Part-2) tutorial.
+Please see the [Beginners Tutorial](https://github.com/arago/OGIT/wiki/Graph-API-Tutorial) to find the first steps with OGIT and the OGIT API. 
+
+For additional information about how to work with OGIT please look at the [Getting started - Part 1](https://github.com/arago/OGIT/wiki/Getting-Started-Part-1) to find
+out how to authenticate with and retrieve information from the OGIT database. Further information about how to store your own data in the OGIT database please have a look at out [Getting started - Part 2](https://github.com/arago/OGIT/wiki/Getting-Started-Part-2).
+
+A complete reference for the OGIT API is found here: [API documentation](../../wiki/API-Reference) 
 
 ----------- 
 
@@ -38,7 +42,9 @@ If you have general questions or need support please contact us at <ogit@arago.d
 ## Current Ontology items
 
 Please see the [Graphit-Ontology documentation](http://repo.tabtab.org/doxygen-graphit/index.html) for a complete Documentation of all concepts currently covered by the OGIT ontology.   
-```Use the Username "openpilot" and the Password "GT8agf3!" (each without quotes) to access the documentation``
+```
+Use the Username "openpilot" and the Password "GT8agf3!" (each without quotes) to access the documentation
+```
 
 ## Standards Reference
 
