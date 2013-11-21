@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: AutoPilotIssue
+      - from: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
         to: MARSNode  
