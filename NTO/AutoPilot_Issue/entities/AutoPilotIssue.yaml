@@ -1,5 +1,5 @@
 - Entity:
-    id:   "http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue"
+    id:   AutoPilotIssue
     name: AutoPilotIssue
     description: | 
       Dynamic information exists within the arago Automation Engine (aAE) in the form of Issues otherwise referred to as 
