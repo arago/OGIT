@@ -27,7 +27,7 @@ http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
 
 ###Register a User or Group
 
-To administer PURLs it is necessary to create a "maintainer", which can be am individual or a group.
+To administer PURLs it is necessary to create a "maintainer", which can be an individual or a group.
 
 See [User Administration](http://www.purl.org/docs/#user) for detailed information about the management of individual users and the [Group Management section](http://www.purl.org/docs/#groupcreate) for furter information about the management of user groups.
 
