@@ -32,8 +32,10 @@ SPARQL | RDF query language | Open Standard | Semantic Web | W3C |
 UML | General purpose modelling Language | Industry Standard | Architecture | [OMG](http://www.omg.org) | [Overview](http://www.uml.org/#UML2.0)
 USDL | Service Descrition Language | Open Standard | Architecture | SAP Research | [Artifacts](http://www.internet-of-services.com/index.php?id=288&L=0)
 [XtreemOS](http://www.xtreemos.org/) | Open source grid operating system | Open Source Project | Cloud Management | Multiple contributors | [Overview](http://www.xtreemos.org/documentation-support)
+[XACML](http://xml.coverpages.org/xacml.html) | Access Control/IAM | Industry Standard | Architecture | OASIS | [Overview](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=xacml) 
 
 Possible **Types** are _Open Standard_, _Industry Standard_, _Commercial Standard_, _Best Practice Framework_, _Open Source Project_, _Research Project_   
 Valid **scopes** are _API_, _Architecture_, _Cloud Management_, _Internet of Things_, _ITSM_, _Semantic Web_, _Test Frameworks_, _W3C/XML_
+
 
 
