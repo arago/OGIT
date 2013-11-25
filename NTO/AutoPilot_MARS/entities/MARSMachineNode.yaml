@@ -1,5 +1,5 @@
 - Entity:
-    id:   MARSMachineNode
+    id:   http://www.purl.org/arago/AutoPilot_MARS/entities/MARSMachineNode
     name: MARSMachineNode
     description: | 
       A machine node is the lowest level technical node representing a physical or virtual hardware entity that 
