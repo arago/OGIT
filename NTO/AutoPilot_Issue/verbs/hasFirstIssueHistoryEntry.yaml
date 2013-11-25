@@ -20,4 +20,4 @@
     
     allowed:
       - from: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
-        to: AutoPilotIssueHistoryEntry  
+        to: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueHistoryEntry
