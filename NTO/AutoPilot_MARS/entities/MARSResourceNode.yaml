@@ -13,7 +13,7 @@
     scope: "NTO"
     url: ""
     schema: "AutoPilotMARSSchema2013"
-    parent: "MARSNode"
+    parent: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode
     history:
       - id: 1
         date: "2013-09-01"
