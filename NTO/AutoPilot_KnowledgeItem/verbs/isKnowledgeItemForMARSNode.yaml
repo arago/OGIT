@@ -20,4 +20,4 @@
     
     allowed:
       - from: "KnowledgeItem"
-        to: "MARSNode"
+        to: http://www.purl.org/arago/AutoPilot_Issue/entities/MARSNode
