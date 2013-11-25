@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/arago/AutoPilot_Issue/entities/MARSSoftwareNode
+    id:   http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
     name: MARSSoftwareNode
     description: |
       A software node represents software entities residing on one or more hardware nodes. 
@@ -17,7 +17,7 @@
     scope: NTO
     url: 
     schema: AutoPilotMARSSchema2013
-    parent: MARSNode
+    parent: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode
     history:
       - id: 1
         date: 2013-09-01
