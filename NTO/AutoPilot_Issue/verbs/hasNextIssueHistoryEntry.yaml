@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: AutoPilotIssueHistoryEntry
-        to: AutoPilotIssueHistoryEntry  
+      - from: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueHistoryEntry
+        to: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueHistoryEntry  
