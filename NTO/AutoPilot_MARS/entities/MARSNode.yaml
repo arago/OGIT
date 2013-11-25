@@ -1,5 +1,5 @@
 - Entity:
-    id:   MARSNode
+    id:   http://www.purl.org/arago/AutoPilot_Issue/entities/MARSNode
     name: MARSNode
     description: |
       IT Objects will be representated in MARS Modell with MARS nodes. 
