@@ -1,4 +1,4 @@
-/// @addtogroup AutoPilotIssue AutoPilotIssue
+/// @addtogroup http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue AutoPilotIssue
 /// @{
 
     /*! \page IssueAPI Issue Processing
