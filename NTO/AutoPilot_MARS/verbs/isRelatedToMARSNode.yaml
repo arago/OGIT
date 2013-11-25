@@ -19,13 +19,13 @@
         modified-by: ""
     
     allowed:
-      - from: "MARSMachineNode"
-        to: "MARSSoftwareNode"
-      - from: "MARSSoftwareNode"
-        to: "MARSMachineNode"
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSMachineNode
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSMachineNode
       - from: "MARSResourceNode"
-        to: "MARSSoftwareNode"
-      - from: "MARSSoftwareNode"
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
         to: "MARSResourceNode"
       - from: "MARSApplicationNode"
         to: "MARSResourceNode"
