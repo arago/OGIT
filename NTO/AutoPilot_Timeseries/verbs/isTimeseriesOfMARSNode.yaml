@@ -20,4 +20,4 @@
     
     allowed:
       - from: "Timeseries"
-        to: "MARSNode"
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode
