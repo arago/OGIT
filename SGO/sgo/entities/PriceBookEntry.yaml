@@ -24,8 +24,8 @@
     attributes:
       mandatory:
       optional:
-        - tier
-        - unitBasePrice
-        - priceOrFactor
-        - lowerLimit
-        - upperLimit
+        - http://www.purl.org/ogit/SGO/attributes/tier
+        - http://www.purl.org/ogit/SGO/attributes/unitBasePrice
+        - http://www.purl.org/ogit/SGO/attributes/priceOrFactor
+        - http://www.purl.org/ogit/SGO/attributes/lowerLimit
+        - http://www.purl.org/ogit/SGO/attributes/upperLimit
