@@ -27,7 +27,7 @@
         to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
       - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
         to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
-      - from: "MARSApplicationNode"
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSApplicationNode
         to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
       - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
-        to: "MARSApplicationNode" 
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSApplicationNode
