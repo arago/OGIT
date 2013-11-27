@@ -1,23 +1,26 @@
 - Entity:
-    id:   "Event"
-    name: "Event"
-    description: "any detectable or discernible occurrence that has significance for the management of the IT Infrastructure or the delivery of IT service and evaluation of the impact a deviation might cause to the services. see http://en.wikipedia.org/wiki/Event_Management_%28ITIL%29"
-    valid-from: "2013-11-01 00:00:00"
-    valid-until: "2014-11-01 00:00:00"
-    creator: ""
-    deleter: ""
-    created:  "2013-09-01"
-    modified: "2013-09-01"
-    admin-contact: ""
-    tech-contact: ""
-    scope: "SGO"
-    url: ""
-    parent: "Situational"
+    id:   http://www.purl.org/ogit/SGO/entities/Event
+    name: Event
+    description: |
+      any detectable or discernible occurrence that has significance for the management of the IT Infrastructure 
+      or the delivery of IT service and evaluation of the impact a deviation might cause to the services. 
+      see http://en.wikipedia.org/wiki/Event_Management_%28ITIL%29
+    valid-from: 2013-11-01 00:00:00
+    valid-until: 2014-11-01 00:00:00
+    creator: 
+    deleter: 
+    created:  2013-09-01
+    modified: 2013-09-01
+    admin-contact: 
+    tech-contact: 
+    scope: SGO
+    url: 
+    parent: http://www.purl.org/ogit/SGO/entities/Situational
     history:
       - id: 1
-        date: "2012-09-1"
-        description: "initial"
-        modified-by: ""
+        date: 2013-09-01
+        description: initial
+        modified-by: 
 
     attributes:
       mandatory:
