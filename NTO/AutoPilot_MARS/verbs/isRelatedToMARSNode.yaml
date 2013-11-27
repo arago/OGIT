@@ -23,11 +23,11 @@
         to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
       - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
         to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSMachineNode
-      - from: "MARSResourceNode"
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
         to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
       - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
-        to: "MARSResourceNode"
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
       - from: "MARSApplicationNode"
-        to: "MARSResourceNode"
-      - from: "MARSResourceNode"
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
         to: "MARSApplicationNode" 
