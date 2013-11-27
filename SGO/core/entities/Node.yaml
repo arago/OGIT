@@ -22,6 +22,6 @@
 
     attributes:
       mandatory:
-        - _id
-        - _type
+        - http://www.purl.org/ogit/SGO/attributes/_id
+        - http://www.purl.org/ogit/SGO/attributes/_type
       optional:
