@@ -22,5 +22,5 @@
 
     attributes:
       mandatory:
-        - email
+        - http://www.purl.org/ogit/SGO/attributes/email
       optional:    
