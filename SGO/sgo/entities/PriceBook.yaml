@@ -24,6 +24,6 @@
     attributes:
       mandatory:
       optional:
-        - vendor
-        - region
-        - slaType
+        - http://www.purl.org/ogit/SGO/attributes/vendor
+        - http://www.purl.org/ogit/SGO/attributes/region
+        - http://www.purl.org/ogit/SGO/attributes/slaType
