@@ -13,7 +13,7 @@
     scope: "NTO"
     url: "http://ontology.it/itsmo/v1/itsmo.html"
     schema: "ITSMO_Schema.1.0"
-    parent: "Factual"
+    parent: http://www.purl.org/ogit/SGO/entities/Factual
     history:
       - id: 1
         date: "2013-10-1"
