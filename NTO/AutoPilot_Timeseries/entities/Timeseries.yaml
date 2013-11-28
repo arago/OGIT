@@ -13,7 +13,7 @@
     scope: "NTO"
     url: ""
     schema: "AutoPilotTimeseriesSchema"
-    parent: "Situational"
+    parent: http://www.purl.org/ogit/SGO/entities/Situational
     history:
       - id: 1
         date: "2013-09-01"
