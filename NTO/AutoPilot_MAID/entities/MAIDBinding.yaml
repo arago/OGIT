@@ -13,7 +13,7 @@
     scope: "NTO"
     url: ""
     schema: "AutoPilotMAIDBindingSchema"
-    parent: "Factual"
+    parent: http://www.purl.org/ogit/SGO/entities/Factual
     history:
       - id: 1
         date: "2013-09-01"
