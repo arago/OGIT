@@ -13,7 +13,7 @@
     scope: "NTO"
     url: ""
     schema: "DMTF_CIMISchema.1.0.1"
-    parent: "Factual"
+    parent: http://www.purl.org/ogit/SGO/entities/Factual
     history:
       - id: 1
         date: "2013-10-1"
