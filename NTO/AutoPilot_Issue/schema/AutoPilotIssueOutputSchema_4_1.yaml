@@ -1,5 +1,5 @@
 - Schema:
-    id:   "AutoPilotIssueOutputSchema_4_1"
+    id:   http://www.purl.org/arago/AutoPilot_Issue/schema/AutoPilotIssueOutputSchema_4_1
     name: "AutoPilotIssueOutputSchema.4.1"
     description: "AutoPilotIssueOutputSchema.4.1"
     valid-from: "2013-11-01 00:00:00"
