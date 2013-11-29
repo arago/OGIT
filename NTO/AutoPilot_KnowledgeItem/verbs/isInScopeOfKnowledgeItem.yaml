@@ -1,5 +1,5 @@
 - Verb:
-    id: "isInScopeOfKnowledgeItem"
+    id: http://www.purl.org/arago/AutoPilot_KnowledgeItem/verbs/isInScopeOfKnowledgeItem
     name: "isInScopeOfKnowledgeItem"
     description: "edge from MARSNode to KnowledgeItem"
     valid-from: "2013-11-01 00:00:00"
