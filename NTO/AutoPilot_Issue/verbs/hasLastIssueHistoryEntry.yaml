@@ -1,5 +1,5 @@
 - Verb:
-    id: "hasLastIssueHistoryEntry"
+    id: http://www.purl.org/arago/AutoPilot_Issue/verbs/hasLastIssueHistoryEntry
     name: "hasLastIssueHistoryEntry"
     description: ""
     valid-from: "2013-11-01 00:00:00"
