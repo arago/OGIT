@@ -13,7 +13,7 @@
     tech-contact: 
     scope: NTO
     url: 
-    schema: AutoPilotIssueOutputSchema_4_1
+    schema: http://www.purl.org/arago/AutoPilot_Issue/schema/AutoPilotIssueOutputSchema_4_1
     parent: http://www.purl.org/ogit/SGO/entities/Situational
     history:
       - id: 1
