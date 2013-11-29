@@ -1,5 +1,5 @@
 - Verb:
-    id: "isTimeseriesOfMARSNode"
+    id: http://www.purl.org/arago/AutoPilot_Timeseries/verbs/isTimeseriesOfMARSNode
     name: "isTimeseriesOfMARSNode"
     description: "edge from Timeseries to associated MARSNode"
     valid-from: "2013-11-01 00:00:00"
