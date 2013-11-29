@@ -1,5 +1,5 @@
 - Verb:
-    id: "hasMAIDBinding"
+    id: http://www.purl.org/arago/AutoPilot_MAID/verbs/hasMAIDBinding
     name: "hasMAIDBinding"
     description: "edge from MAID to associated MAIDBinding"
     valid-from: "2013-11-01 00:00:00"
