@@ -1,5 +1,5 @@
 - Verb:
-    id: "isInScopeOfMAID"
+    id: http://www.purl.org/arago/AutoPilot_MAID/verbs/isInScopeOfMAID
     name: "isInScopeOfMAID"
     description: "edge from MARSNode to associated MAIDBinding"
     valid-from: "2013-11-01 00:00:00"
