@@ -1,5 +1,5 @@
 - Attribute:
-    id: "maidFormalRepresentation"
+    id: http://www.purl.org/arago/AutoPilot_MAID/attributes/maidFormalRepresentation
     name: "maidFormalRepresentation"
     description: "contains MAID in XML representation defined by MAIDSchema"
     valid-from: "2013-11-01 00:00:00"
