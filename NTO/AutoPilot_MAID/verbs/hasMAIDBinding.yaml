@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: "MAID"
-        to: "MAIDBinding"
+      - from: http://www.purl.org/arago/AutoPilot_MAID/entities/MAID
+        to: http://www.purl.org/arago/AutoPilot_MAID/entities/MAIDBinding
