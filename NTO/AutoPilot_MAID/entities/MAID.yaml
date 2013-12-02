@@ -1,5 +1,5 @@
 - Entity:
-    id:   "MAID"
+    id:   http://www.purl.org/arago/AutoPilot_MAID/entities/MAID
     name: "MAID"
     description: "Description of the MAID"
     valid-from: "2013-11-01 00:00:00"
@@ -12,7 +12,7 @@
     tech-contact: ""
     scope: "NTO"
     url: ""
-    schema: "AutoPilotMAIDSchema"
+    schema: http://www.purl.org/arago/AutoPilot_MAID/schema/AutoPilotMAIDSchema
     parent: http://www.purl.org/ogit/SGO/entities/Factual
     history:
       - id: 1
@@ -22,5 +22,5 @@
 
     attributes:
       mandatory:
-        - maidFormalRepresentation
+        - http://www.purl.org/arago/AutoPilot_MAID/attributes/maidFormalRepresentation
       optional:
