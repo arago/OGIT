@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: "KnowledgeItem"
+      - from: http://www.purl.org/arago/AutoPilot_Issue/entities/KnowledgeItem
         to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode
