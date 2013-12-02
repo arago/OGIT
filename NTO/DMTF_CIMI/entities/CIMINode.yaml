@@ -1,5 +1,5 @@
 - Entity:
-    id:   "CIMINode"
+    id:   http://www.purl.org/arago/DMTF_CIMI/entities/CIMINode
     name: "CIMINode"
     description: "IT Objects will be representated in CIMI Modell with CIMI nodes"
     valid-from: "2013-11-01 00:00:00"
@@ -12,7 +12,7 @@
     tech-contact: ""
     scope: "NTO"
     url: ""
-    schema: "DMTF_CIMISchema.1.0.1"
+    schema: http://www.purl.org/arago/DMTF_CIMI/schema/DMTF_CIMISchema_1_0_1
     parent: http://www.purl.org/ogit/SGO/entities/Factual
     history:
       - id: 1
