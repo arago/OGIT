@@ -1,5 +1,5 @@
 - Entity:
-    id:   "ITSMONode"
+    id:   http://www.purl.org/arago/ITSMO/entities/ITSMONode
     name: "ITSMONode"
     description: "ITSMO Node"
     valid-from: "2013-11-01 00:00:00"
@@ -12,7 +12,7 @@
     tech-contact: ""
     scope: "NTO"
     url: "http://ontology.it/itsmo/v1/itsmo.html"
-    schema: "ITSMO_Schema.1.0"
+    schema: http://www.purl.org/arago/ITSMO/schema/ITSMO_Schema_1_0
     parent: http://www.purl.org/ogit/SGO/entities/Factual
     history:
       - id: 1
