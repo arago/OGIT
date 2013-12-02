@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: "MAIDBinding"
+      - from: http://www.purl.org/arago/AutoPilot_MAID/entities/MAIDBinding
         to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode
