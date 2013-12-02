@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: "Timeseries"
-        to: "MAID"
+      - from: http://www.purl.org/arago/AutoPilot_Timeseries/entities/Timeseries
+        to: http://www.purl.org/arago/AutoPilot_MAID/entities/MAID
