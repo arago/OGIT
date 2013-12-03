@@ -1,5 +1,5 @@
 - Entity:
-    id:   MARSNode
+    id:   http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode
     name: MARSNode
     description: |
       IT Objects will be representated in MARS Modell with MARS nodes. 
@@ -17,8 +17,8 @@
     tech-contact: 
     scope: NTO
     url: 
-    schema: AutoPilotMARSSchema2013
-    parent: Factual
+    schema: http://www.purl.org/arago/AutoPilot_MARS/schema/AutoPilotMARSSchema2013
+    parent: http://www.purl.org/ogit/SGO/entities/Factual
     history:
       - id: 1
         date: 2013-09-01
@@ -27,5 +27,5 @@
 
     attributes:
       mandatory:
-        - marsNodeFormalRepresentation
+        - http://www.purl.org/arago/AutoPilot_MARS/attributes/marsNodeFormalRepresentation
       optional:

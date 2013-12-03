@@ -1,5 +1,5 @@
 - Attribute:
-    id: "issueFormalRepresentation"
+    id: http://www.purl.org/arago/AutoPilot_Issue/attributes/issueFormalRepresentation
     name: "issueFormalRepresentation"
     description: "contains issue in XML representation defined by IssueSchema"
     valid-from: "2013-11-01 00:00:00"

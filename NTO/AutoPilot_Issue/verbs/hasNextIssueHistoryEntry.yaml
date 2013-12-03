@@ -1,5 +1,5 @@
 - Verb:
-    id: "hasNextIssueHistoryEntry"
+    id: http://www.purl.org/arago/AutoPilot_Issue/verbs/hasNextIssueHistoryEntry
     name: "hasNextIssueHistoryEntry"
     description: ""
     valid-from: "2013-11-01 00:00:00"
@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: AutoPilotIssueHistoryEntry
-        to: AutoPilotIssueHistoryEntry  
+      - from: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueHistoryEntry
+        to: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueHistoryEntry  

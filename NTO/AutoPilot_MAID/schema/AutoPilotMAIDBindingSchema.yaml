@@ -1,5 +1,5 @@
 - Schema:
-    id:   "AutoPilotMAIDBindingSchema"
+    id:   http://www.purl.org/arago/AutoPilot_MAID/schema/AutoPilotMAIDBindingSchema
     name: "AutoPilotMAIDBindingSchema"
     description: "AutoPilotMAIDBindingSchema"
     valid-from: "2013-11-01 00:00:00"

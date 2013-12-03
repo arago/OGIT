@@ -1,5 +1,5 @@
 - Verb:
-    id: "definesBindingForMAID"
+    id: http://www.purl.org/arago/AutoPilot_MAID/verbs/definesBindingForMAID
     name: "definesBindingForMAID"
     description: "edge from MAIDBinding to associated MAID"
     valid-from: "2013-11-01 00:00:00"
@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: "MAIDBinding"
-        to: "MAID"
+      - from: http://www.purl.org/arago/AutoPilot_MAID/entities/MAIDBinding
+        to: http://www.purl.org/arago/AutoPilot_MAID/entities/MAID

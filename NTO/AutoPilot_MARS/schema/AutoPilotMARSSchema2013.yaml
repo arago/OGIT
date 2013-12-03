@@ -1,5 +1,5 @@
 - Schema:
-    id:   "AutoPilotMARSSchema2013"
+    id:   http://www.purl.org/arago/AutoPilot_MARS/schema/AutoPilotMARSSchema2013
     name: "AutoPilotMARSSchema2013"
     description: "AutoPilotMARSSchema2013"
     valid-from: "2013-11-01 00:00:00"

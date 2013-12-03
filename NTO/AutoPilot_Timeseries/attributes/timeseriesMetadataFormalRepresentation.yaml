@@ -1,5 +1,5 @@
 - Attribute:
-    id: "timeseriesMetadataFormalRepresentation"
+    id: http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesMetadataFormalRepresentation
     name: "timeseriesMetadataFormalRepresentation"
     description: "contains Timeseries in XML representation defined by TimeseriesSchema"
     valid-from: "2013-11-01 00:00:00"

@@ -1,5 +1,5 @@
 - Verb:
-    id: "hasTimeseries"
+    id: http://www.purl.org/arago/AutoPilot_Timeseries/verbs/hasTimeseries
     name: "hasTimeseries"
     description: "edge from MARSNode to associated Timeseries"
     valid-from: "2013-11-01 00:00:00"
@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: "MARSNode"
-        to: "Timeseries"
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode
+        to: http://www.purl.org/arago/AutoPilot_Timeseries/entities/Timeseries

@@ -1,5 +1,5 @@
 - Verb:
-    id: "isCreatedOnMARSNode"
+    id: http://www.purl.org/arago/AutoPilot_Issue/verbs/isCreatedOnMARSNode
     name: "isCreatedOnMARSNode"
     description: "the MARSNode this issue was associated with at creation time. MARSNode equals with the one defined by attribute 'NodeID' from IssueOutputSchema."
     valid-from: "2013-11-01 00:00:00"
@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: AutoPilotIssue
-        to: MARSNode  
+      - from: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode 

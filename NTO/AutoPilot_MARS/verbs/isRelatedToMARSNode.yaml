@@ -1,5 +1,5 @@
 - Verb:
-    id: "isRelatedToMARSNode"
+    id: http://www.purl.org/arago/AutoPilot_MARS/verbs/isRelatedToMARSNode
     name: "isRelatedToMARSNode"
     description: "Relation between MARSNodes"
     valid-from: "2013-11-01 00:00:00"
@@ -19,15 +19,15 @@
         modified-by: ""
     
     allowed:
-      - from: "MARSMachineNode"
-        to: "MARSSoftwareNode"
-      - from: "MARSSoftwareNode"
-        to: "MARSMachineNode"
-      - from: "MARSResourceNode"
-        to: "MARSSoftwareNode"
-      - from: "MARSSoftwareNode"
-        to: "MARSResourceNode"
-      - from: "MARSApplicationNode"
-        to: "MARSResourceNode"
-      - from: "MARSResourceNode"
-        to: "MARSApplicationNode" 
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSMachineNode
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSMachineNode
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSApplicationNode
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSResourceNode
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSApplicationNode

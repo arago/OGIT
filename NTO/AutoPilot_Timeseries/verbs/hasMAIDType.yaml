@@ -1,5 +1,5 @@
 - Verb:
-    id: "hasMAIDType"
+    id: http://www.purl.org/arago/AutoPilot_Timeseries/verbs/hasMAIDType
     name: "hasMAIDType"
     description: "edge from Timeseries to associated MAID"
     valid-from: "2013-11-01 00:00:00"
@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: "Timeseries"
-        to: "MAID"
+      - from: http://www.purl.org/arago/AutoPilot_Timeseries/entities/Timeseries
+        to: http://www.purl.org/arago/AutoPilot_MAID/entities/MAID

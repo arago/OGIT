@@ -1,5 +1,5 @@
 - Verb:
-    id: "isCurrentWorkerNodeOfIssue"
+    id: http://www.purl.org/arago/AutoPilot_Issue/verbs/isCurrentWorkerNodeOfIssue
     name: "isCurrentWorkerNodeOfIssue"
     description: "the MARSNode this issue is currently associated. MARSNode equals with the one defined by attribute 'CurrentNodeID' from IssueOutputSchema."
     valid-from: "2013-11-01 00:00:00"
@@ -19,5 +19,5 @@
         modified-by: ""
     
     allowed:
-      - from: AutoPilotIssue
-        to: MARSNode  
+      - from: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode  

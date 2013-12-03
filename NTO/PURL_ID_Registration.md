@@ -27,15 +27,15 @@ http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
 
 ###Register a User or Group
 
-To administer PURLs it is necessary to create a "maintainer", which can be am individual or a group.
+To administer PURLs it is necessary to create a "maintainer", which can be an individual or a group.
 
-See [User Administration](http://www.purl.org/docs/user) for detailed information about the management of individual users and the [Group Management section](http://www.purl.org/docs/groupcreate) for furter information about the management of user groups.
+See [User Administration](http://www.purl.org/docs/#user) for detailed information about the management of individual users and the [Group Management section](http://www.purl.org/docs/#groupcreate) for furter information about the management of user groups.
 
 ###Create a Domain
 
 Individual PURLs are hosted inside a domain. The domain denotes the top level structure and there is designed to be a unique identifier. Therefore all domain creation requests are subject to a verification process, which may take up to 48 hours to complete.
 
-For more Information see [Domain Creation](http://www.purl.org/docs/domaincreate) .
+For more Information see [Domain Creation](http://www.purl.org/docs/#domaincreate) .
 
 PURL Domains are used as as identifier for the NTO Maintainer
 
