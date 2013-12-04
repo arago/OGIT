@@ -49,7 +49,7 @@ h4 {
     height:180px;
     padding:0px;
     border:0px solid #ff3300;
-    background: url('headerbg.jpg') no-repeat;
+    background: url('./headerbg.jpg') no-repeat;
 }        
 
 
@@ -305,7 +305,7 @@ h4 {
 }
 
 .ui-resizable-e {
-    background:url("ftv2splitbar.png") repeat scroll right center transparent;
+    background:url("./ftv2splitbar.png") repeat scroll right center transparent;
     cursor:e-resize;
     height:100%;
     right:0;
@@ -457,7 +457,7 @@ a.el {
     font-size: 0.6em;
     font-weight: normal;
     padding-left:20px;
-    background: url('backlinkimg.png') 2px 6px no-repeat;
+    background: url('./backlinkimg.png') 2px 6px no-repeat;
 }
 
 a.code, a.code:visited, a.line, a.line:visited {
@@ -1412,7 +1412,7 @@ div.toc {
 }
 
 div.toc li {
-    background: url("bdwn.png") no-repeat scroll 0 5px transparent;
+    background: url("./bdwn.png") no-repeat scroll 0 5px transparent;
     font: 10px/1.2 Verdana,DejaVu Sans,Geneva,sans-serif;
     margin-top: 5px;
     padding-left: 10px;
@@ -1669,14 +1669,14 @@ tr.heading h2 {
 @media screen and (max-width: 1100px)  {
     
     #titlearea{
-    background: url('headerbg_small.jpg') no-repeat;
+    background: url('./headerbg_small.jpg') no-repeat;
     }
 }
 
 @media screen and (max-width: 700px)  {
     
     #titlearea{
-     background: url('headerbg_smaller.jpg') no-repeat;
+     background: url('./headerbg_smaller.jpg') no-repeat;
     }
     
 }
@@ -1684,7 +1684,7 @@ tr.heading h2 {
     
     #titlearea{
      height:116px;
-     background: url('headerbg_smallest.jpg') no-repeat;
+     background: url('./headerbg_smallest.jpg') no-repeat;
     }
     
 }
