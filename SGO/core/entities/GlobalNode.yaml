@@ -4,9 +4,9 @@
     description: |
       Global knowledge describes long lasting meta definitions such as the ontology and sub ontologies itself, 
       policies governing a specific environment etc.\n
-      Volatility: extremely low\n
-      Validity: virtually infinite\n
-      Correctness: high
+      \b Volatility: extremely low\n
+      \b Validity: virtually infinite\n
+      \b Correctness: high
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
