@@ -4,7 +4,6 @@
     description: |
       Global knowledge describing long lasting meta definitions such as the ontology and sub ontologies itself, 
       policies governing a specific environment etc.
-        
         Volatility: extremely low
         Validity: virtually infinite
         Correctness: high
