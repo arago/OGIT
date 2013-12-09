@@ -2,7 +2,12 @@
     id:   http://www.purl.org/ogit/SGO/entities/Global
     name: Global
     description: |
-      global node
+      Global knowledge describing long lasting meta definitions such as the ontology and sub ontologies itself, 
+      policies governing a specific environment etc.
+        
+        Volatility: extremely low
+        Validity: virtually infinite
+        Correctness: high
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
