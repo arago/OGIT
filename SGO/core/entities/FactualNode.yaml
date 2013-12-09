@@ -2,7 +2,11 @@
     id:   http://www.purl.org/ogit/SGO/entities/Factual
     name: Factual
     description: |
-      factual node
+      Factual knowledge describes an actual state of the world such as the IT actually provisioned or planned, 
+      the contracts in existence, etc. 
+        Volatility: low
+        Validity: long
+        Correctness: low
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
