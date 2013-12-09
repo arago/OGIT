@@ -3,7 +3,7 @@
     name: Global
     description: |
       Global knowledge describes long lasting meta definitions such as the ontology and sub ontologies itself, 
-      policies governing a specific environment etc.\n
+      policies governing a specific environment etc.\n\n
       \b Volatility: extremely low\n
       \b Validity: virtually infinite\n
       \b Correctness: high
