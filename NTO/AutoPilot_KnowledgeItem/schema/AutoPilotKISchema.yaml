@@ -2,7 +2,8 @@
     id:  http://www.purl.org/arago/AutoPilot_KnowledgeItem/schema/AutoPilotKISchema
     name: AutoPilotKISchema
     description: |
-      AutoPilotKISchema
+      The AutoPilotKISchema describes the syntax of a KnowledgeItem. The whole syntax can found
+      under https://github.com/arago/autopilot-devel/blob/master/schemas/KiSchema.xsd.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
