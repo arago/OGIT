@@ -278,10 +278,7 @@ h4 {
     overflow:hidden;
 }
 
-#nav-tree {
-    padding: 0px 0px;
-    background-color: #FAFAFF; 
-}
+
 
 #doc-content {
     overflow:auto;
@@ -329,7 +326,9 @@ h4 {
     background-repeat:repeat-x;
     background-color: #f2f2f2;
     -webkit-overflow-scrolling : touch; /* iOS 5+ */
-
+    padding: 0px 0px;
+    background-color: #FAFAFF; 
+    overflow-y:scroll;
 }
 
 #nav-sync {
