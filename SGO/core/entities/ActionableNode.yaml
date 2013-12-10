@@ -2,7 +2,12 @@
     id:   http://www.purl.org/ogit/SGO/entities/Actionable
     name: Actionable
     description: |
-      actionable node
+      Actionable knowledge describes different kind of possible activities and decisions like commands that 
+      can be executed, reactions to regulatory demands, etc.\n\n 
+      \b Volatility: high\n
+      \b Validity: virtually infinite\n 
+      \b Correctness: high
+
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
