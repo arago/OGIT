@@ -2,7 +2,11 @@
     id:   http://www.purl.org/ogit/SGO/entities/Situational
     name: Situational
     description: |
-      situational node
+      Situational knowledge defines a situation of the current state of a model like monitoring data, events, KPIs, etc.\n\n 
+      \b Volatility: very high\n
+      \b Validity: very low\n
+      \b Correctness: very high\n
+
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
