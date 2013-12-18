@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/SGO/attributes/_id
     name: _id
     description: |
-      unique identifier
+      The unique identifier. The id is generated automatically from the Graphit service.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
