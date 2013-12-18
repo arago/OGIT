@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/SGO/attributes/_type
     name: _type
     description: |
-      id of the type of the entity
+      The id of the type of the entity. This attribute is a mandatory attribute of the entity Node. 
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
