@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/SGO/verbs/_owns
     name: _owns
     description: |
-      the owner of a node
+      The owner of a node. This verb is generated internally.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
