@@ -1,7 +1,8 @@
 - Verb:
     id: http://www.purl.org/ogit/SGO/verbs/_deleted
     name: _deleted
-    description: the deleter of a node
+    description: |
+      The deleter of a node. This verb is generated internally.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
