@@ -47,9 +47,8 @@ h4 {
     border:0px solid #000;
 }
 #titlearea{
-    height:180px;
+    height:70px;
     padding:0px;
-    border:0px solid #ff3300;
     background: url('./headerbg.jpg') no-repeat;
 }        
 
@@ -1665,7 +1664,7 @@ tr.heading h2 {
 
 /*doxygen.css*//*doxygen.css*//*doxygen.css*//*doxygen.css*//*doxygen.css*/
 
-
+/*
 @media screen and (max-width: 1100px)  {
     
     #titlearea{
@@ -1688,4 +1687,4 @@ tr.heading h2 {
     }
     
 }
-
+*/
