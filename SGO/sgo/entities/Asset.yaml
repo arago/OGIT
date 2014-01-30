@@ -2,7 +2,10 @@
     id:   http://www.purl.org/ogit/SGO/entities/Asset
     name: Asset
     description: |
-      An Resource or capability
+      (ITIL Service Strategy) Any resource or capability. The assets of a service provider include anything 
+      that could contribute to the delivery of a service. Assets can be one of the following types: management, 
+      organization, process, knowledge, people, information, applications, infrastructure or financial capital. 
+      See also customer asset; service asset; strategic asset.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
