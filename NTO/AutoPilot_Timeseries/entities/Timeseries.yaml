@@ -2,7 +2,8 @@
     id:   http://www.purl.org/arago/AutoPilot_Timeseries/entities/Timeseries
     name: Timeseries
     description: |
-      A time series is the history of one certain aspect of a MARS node. It consists of data points and meta data.
+      A time series is a sequence of data points, measured typically at successive points in time spaced at uniform 
+      time intervals.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
