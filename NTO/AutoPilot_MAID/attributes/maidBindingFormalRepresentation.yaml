@@ -1,13 +1,14 @@
 - Attribute:
     id: http://www.purl.org/arago/AutoPilot_MAID/attributes/maidBindingFormalRepresentation
-    name: "maidBindingFormalRepresentation"
-    description: "contains MAIDBinding in XML representation defined by MAIDBindingSchema"
-    valid-from: "2013-11-01 00:00:00"
-    valid-until: "2014-11-01 00:00:00"
-    creator: ""
-    deleter: ""
-    created:  "2013-09-01"
-    modified: "2013-09-01"
-    admin-contact: ""
-    tech-contact: ""
-    url: ""
+    name: maidBindingFormalRepresentation
+    description: |
+      Contains a MAIDBinding in XML representation defined by MAIDBindingSchema.
+    valid-from: 2013-11-01 00:00:00
+    valid-until: 2014-11-01 00:00:00
+    creator: 
+    deleter: 
+    created:  2013-09-01
+    modified: 2013-09-01
+    admin-contact: 
+    tech-contact: 
+    url: 
