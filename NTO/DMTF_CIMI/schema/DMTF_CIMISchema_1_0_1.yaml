@@ -1,36 +1,38 @@
 - Schema:
     id:   http://www.purl.org/arago/DMTF_CIMI/schema/DMTF_CIMISchema_1_0_1
-    name: "DMTF_CIMISchema.1.0.1"
+    name: DMTF_CIMISchema.1.0.1
     description: |
-     DMTF CIMI - Cloud Infrastructure Management Interface Schema Vers. 1.0.1
+     DMTF CIMI - Cloud Infrastructure Management Interface Schema Vers. 1.0.1\n\n
      
      CIMI addresses the management of the lifecycle of infrastructure provided by a Provider (cloud server). 
      CIMI does not extend beyond infrastructure management to the control of the applications and services that the 
-     Consumer (cloud client) chooses to run on the infrastructure provided as a service by the Provider.
+     Consumer (cloud client) chooses to run on the infrastructure provided as a service by the Provider.\n\n
      
-     The CIMI Model is documented in Chapter 5 of the CIMI standard (DMTF Paper DSP0263) and consists of 58 resources organized into
+     The CIMI Model is documented in Chapter 5 of the CIMI standard (DMTF Paper DSP0263) and consists of 58 resources 
+     organized into\n\n
 
-     Cloud Entry Point – the starting point for finding all the other resources as well as the capabilities of this particular cloud 
-     Machine Resources – resources associated with the compute infrastructure 
-     Volume Resources – resources associated with the storage infrastructure 
-     Network Resources – resource associated with the networking infrastructure 
-     System Resources – the resources related to aggregate relationships of Machines, Volumes and Networks 
-     Monitoring Resources – the resources associated with metering and eventing of resources 
+     Cloud Entry Point – the starting point for finding all the other resources as well as the capabilities of this 
+     particular cloud\n 
+     Machine Resources – resources associated with the compute infrastructure\n 
+     Volume Resources – resources associated with the storage infrastructure\n 
+     Network Resources – resource associated with the networking infrastructure\n 
+     System Resources – the resources related to aggregate relationships of Machines, Volumes and Networks\n 
+     Monitoring Resources – the resources associated with metering and eventing of resources\n 
     
-    valid-from: "2013-11-01 00:00:00"
-    valid-until: "2014-11-01 00:00:00"
-    creator: ""
-    deleter: ""
-    created:  "2013-10-01"
-    modified: "2013-10-01"
-    admin-contact: ""
-    tech-contact: ""
-    uri: "http://schemas.dmtf.org/cimi/1"
-    url: "http://schemas.dmtf.org/cimi/1/DSP8009.xsd"
-    version: "1.0.1"
-    type: "xsd"
+    valid-from: 2013-11-01 00:00:00
+    valid-until: 2014-11-01 00:00:00
+    creator: 
+    deleter: 
+    created:  2013-10-01
+    modified: 2013-10-01
+    admin-contact: 
+    tech-contact: 
+    uri: http://schemas.dmtf.org/cimi/1
+    url: http://schemas.dmtf.org/cimi/1/DSP8009.xsd
+    version: 1.0.1
+    type: xsd
     history:
       - id: 1
-        date: "2013-10-01"
-        description: "initial"
-        modified-by: ""
+        date: 2013-10-01
+        description: initial
+        modified-by: 
