@@ -1,13 +1,14 @@
 - Attribute:
     id: http://www.purl.org/arago/DMTF_CIMI/attributes/cimiNodeFormalRepresentation
-    name: "cimiNodeFormalRepresentation"
-    description: "contains CIMI Node Content in XML representation defined by CIMI"
-    valid-from: "2013-11-01 00:00:00"
-    valid-until: "2014-11-01 00:00:00"
-    creator: ""
-    deleter: ""
-    created:  "2013-11-01"
-    modified: "2013-11-01"
-    admin-contact: ""
-    tech-contact: ""
-    url: ""
+    name: cimiNodeFormalRepresentation
+    description: |
+      Contains a CIMI Node Content in XML representation defined by CIMI.
+    valid-from: 2013-11-01 00:00:00
+    valid-until: 2014-11-01 00:00:00
+    creator: 
+    deleter: 
+    created:  2013-11-01
+    modified: 2013-11-01
+    admin-contact: 
+    tech-contact: 
+    url: 
