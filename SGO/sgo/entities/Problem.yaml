@@ -2,7 +2,9 @@
     id:   http://www.purl.org/ogit/SGO/entities/Problem
     name: Problem
     description: |
-      technical representation of a problem record as a ticket.
+      (ITIL Service Operation) A cause of one or more incidents. The cause is not usually known at the time a problem 
+      record is created, and the problem management process is responsible for further investigation.
+      Technical representation of a problem record as a ticket.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
