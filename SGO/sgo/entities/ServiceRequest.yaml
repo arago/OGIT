@@ -2,7 +2,11 @@
     id:   http://www.purl.org/ogit/SGO/entities/ServiceRequest
     name: ServiceRequest
     description: |
-      technical representation of a problem record as a ticket.
+      (ITIL Service Operation) A formal request from a user for something to be provided – for example, a request 
+      for information or advice; to reset a password; or to install a workstation for a new user. Service requests 
+      are managed by the request fulfilment process, usually in conjunction with the service desk. Service requests 
+      may be linked to a request for change as part of fulfilling the request.technical representation of a problem 
+      record as a ticket.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
