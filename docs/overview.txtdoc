@@ -6,13 +6,14 @@
  * The strategy of building a semantic representation of all IT and its interaction with business processes and 
  * people requires a sound data space as a foundation for computational evaluation of this enterprise space.\n
  * Here you'll find an approach we call "OGIT - The Open Graph of IT", which will be the foundation of an 
- * 'IT version' of Google's Knowledge Graph oder Facebook's Social Graph. A specification that every interested 
- * party is free to use and to extend utilizing an community-based process.
+ * 'IT version' of \b Google's \b Knowledge \b Graph oder Facebook's \b Social \b Graph. A specification that every 
+ * interested party is free to use and to extend utilizing an community-based process.
  * 
  * \image html OGIT.jpg
  *
  * The current ontology
  * -------------------- 
+ * The current Open Graph of IT Ontology is shown in the following image.  
  *
  * \image html ontology.jpg
  *
