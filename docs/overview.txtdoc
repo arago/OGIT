@@ -1,8 +1,8 @@
 /*! \mainpage Overview
  * 
  *
- * What is OGIT?
- * ---------------------
+ * # What is OGIT?
+ * 
  * The strategy of building a semantic representation of all IT and its interaction with business processes and 
  * people requires a sound data space as a foundation for computational evaluation of this enterprise space.\n
  * Here you'll find an approach we call "OGIT - The Open Graph of IT", which will be the foundation of an 
@@ -11,15 +11,15 @@
  *
  * \image html OGIT.jpg
  *
- * The current ontology
- * -------------------- 
+ * # The current ontology
+ *  
  * The current Open Graph of IT Ontology is shown in the following image.  
  *
  * \image html ontology.jpg
  *
  * - - -
- * OGIT: basic working concept
- * -------------------------------
+ * # OGIT: basic working concept
+ * 
  * ## Introduction
  *
  * The goal of the _OGIT (Open Graph of IT) Ontology Framework_ is to build an open semantic representation of all IT and it's interactions with business process and people for providing a foundation for computational evaluation. The resulting knowledge graph allows to interconnect various IT Systems in the IT Operations and IT Management space. While previous approaches like the [IBM Common Data Model (CDM)](https://www.ibm.com/developerworks/mydeveloperworks/groups/service/html/communityview?communityUuid=e1effee6-69a2-4c91-90aa-347f79d0030e) required too much details and did not allow any ambiguity and incorrectness, OGIT allows varying levels of details, accepts incorrectness and supports different classes of data to allow proper handling from a computational perspective. The ontology structure is designed for providing a common, best practice approach, thought giving great flexibility and extensibility for every implementor.  
@@ -28,7 +28,7 @@
  *
  * The best way to describe the meta model is to see it as a 5 layer onion to describe the data spaces within OGIT:
  * 
- * ![Onion like Meta model](https://github.com/arago/graphIT-ontology/raw/master/Wiki/imgs/Onion.png)
+ * \image html Onion.png
  *
  * ### 1. SGO - Semantic Graph Ontology
  * 
@@ -54,7 +54,7 @@
  *
  * ## The Ontology layers in details
  * 
- * ![OGIT Structure](https://github.com/arago/graphIT-ontology/raw/master/Wiki/imgs/OGIT_Structure_0.2.png)
+ * \image html OGIT_Structure_0.2.png
  * 
  *
  * ### SGO - Semantic Graph Ontology
@@ -63,13 +63,13 @@
  *
  * ______ | Global Knowledge | Factual Knowledge | Actionable Knowledge|Situational Knowledge
  * ------ | --------------- | --------------- | --------------- | --------------- | 
- * _Description_ | long lasting meta definitions | actual state of the world | possible activities and decisions | current state of the model
- * _Examples_ | the ontology itself, governing policies | actual IT provisioned, contracts | commands, reactions to regul. demands | monitoring data, events, KPIs
- * _Volatility_ | extremely low | low | high | very high
- * _Validity_ | virtually infinite | long | virtually infinite | verly low
- * _Correctness_ | high | low | high | very high
+ * Description | long lasting meta definitions | actual state of the world | possible activities and decisions | current state of the model
+ * Examples | the ontology itself, governing policies | actual IT provisioned, contracts | commands, reactions to regul. demands | monitoring data, events, KPIs
+ * Volatility | extremely low | low | high | very high
+ * Validity | virtually infinite | long | virtually infinite | verly low
+ * Correctness | high | low | high | very high
  *
- * The ontology definition is stored in the global knowledge part itself, following a "build yourself" approach in terms of data, structure and platform. While the top layers _'BigBang'_ and _'Global, Factual, Actionable, Situational knowlege'_ are fixed, the further hierarchy constructed below these must follow these simple principles:
+ * The ontology definition is stored in the global knowledge part itself, following a "build yourself" approach in terms of data, structure and platform. While the top layers _BigBang_ and _Global, Factual, Actionable, Situational knowlege_ are fixed, the further hierarchy constructed below these must follow these simple principles:
  *
  * a. Any child type will inherit any categorizing 'attributes' from its ancestor types. A 'verb' which can be used with some type can also be used with all descendent types.  
  *
@@ -87,13 +87,13 @@
  *
  * Describes the kind of data that is stored under this category.
  * 
- * _[Entity record definition](https://github.com/arago/graphIT-ontology/wiki/SGO---Entity-Record-Definion)_
+ * [Entity record definition](https://github.com/arago/graphIT-ontology/wiki/SGO---Entity-Record-Definion)
  *
  * **Verbs**
  *
  * Describes the type of _connection*_ and which other entities can be connected by it. 
  *
- * _[Verb record definition](https://github.com/arago/graphIT-ontology/wiki/SGO---Verb-Record-Definition)_
+ * [Verb record definition](https://github.com/arago/graphIT-ontology/wiki/SGO---Verb-Record-Definition)
  *
  * **Examples**
  *
@@ -107,7 +107,7 @@
  * 2.	`contains`:   	`Fruit` -> `Ingredient`  
  * 3.	`contains`:	`Plant` -> `Ingredient`  
  * 
- * _*_ _Connections_
+ * * _Connections_
  *
  * _We do not use the term connection on purpose, because we want to ensure that new users coming from a relational approach should not be tempted to simply transfer their table model into semantic networks, but should know that a connection between two entities is something one entity does to or with another. Facebook calls these connections actions. We do not call it actions, because we have actionable knowledge and want to avoid misunderstandings._ 
  *
