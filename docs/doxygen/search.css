@@ -1,0 +1,265 @@
+/*---------------- Search Box */
+
+#FSearchBox {
+    float: left;
+}
+
+#MSearchBox {
+    white-space : nowrap;
+    position: absolute;
+    float: none;
+    display: inline;
+    margin-top: 8px;
+    right: 10px;
+    width: 200px;
+    z-index: 102;
+    background-color: white;
+}
+
+#MSearchBox .left
+{
+    display:block;
+    position:absolute;
+    left:10px;
+    width:20px;
+    height:19px;
+/*    background:url('search_l.png') no-repeat;*/
+    background-position:right;
+}
+
+#MSearchSelect {
+    display:block;
+    position:absolute;
+    width:20px;
+    height:21px;
+    padding-left:4px;
+    padding-right:4px;
+    background:#fff;
+    float:left;
+}
+
+.left #MSearchSelect {
+    left:4px;
+}
+
+.right #MSearchSelect {
+    right:5px;
+}
+
+#MSearchField {
+    float:right;
+    display:block;
+    position:absolute;
+    height:19px;
+/*    background:url('search_m.png') repeat-x;*/
+    border:none;
+    width:150px;
+    margin-left:30px;
+    padding-left:4px;
+    color: #909090;
+    outline: none;
+}
+
+#FSearchBox #MSearchField {
+    margin-left:15px;
+}
+
+#MSearchBox .right {
+    display:block;
+    position:absolute;
+    right:5px;
+    top:2px;
+    width:20px;
+    height:19px;
+/*    background:url('search_r.png') no-repeat;*/
+    background-position:left;
+}
+
+#MSearchClose {
+    display: none;
+    position: absolute;
+    top: 4px;
+    background : none;
+    border: none;
+    margin: 0px 4px 0px 0px;
+    padding: 0px 0px;
+    outline: none;
+}
+
+.left #MSearchClose {
+    left: 6px;
+}
+
+.right #MSearchClose {
+    right: 2px;
+}
+
+.MSearchBoxActive #MSearchField {
+    color: #000000;
+}
+
+
+#MSearchSelectWindow {
+    display: none;
+    position: absolute;
+    left: 0; 
+    top: 0;
+    border: 1px solid #777;
+    border-top:0px;
+    background-color: #fff;
+    z-index: 1;
+    padding:5px;   
+}
+
+.SelectItem {
+    padding-left:  2px;
+    padding-right: 12px;
+    border: 0px;
+}
+/*
+span.SelectionMark {
+    margin-right: 4px;
+     family: monospace;
+    outline-style: none;
+    text-decoration: none;
+}
+*/
+a.SelectItem {
+    display: block;
+    outline-style: none;
+    color: #333; 
+    text-decoration: none;
+    padding-left:  9px;
+    padding-right: 12px;
+    font-size:0.8em;
+}
+
+a.SelectItem:focus,
+a.SelectItem:active {
+    color: #000000; 
+    outline-style: none;
+    text-decoration: none;
+}
+
+a.SelectItem:hover {
+    color: #777;
+
+}
+
+
+iframe#MSearchResults {
+    width: 60ex;
+    height: 15em;
+}
+
+#MSearchResultsWindow {
+    display: none;
+    position: absolute;
+    left: 0; top: 0;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+
+
+#SRIndex {
+    clear:both; 
+    padding-bottom: 15px;
+}
+
+.SREntry {
+    padding-left: 1ex;
+}
+
+.SRPage .SREntry {
+    padding: 1px 5px;
+}
+
+body.SRPage {
+    margin: 5px 2px;
+}
+
+.SRChildren {
+    padding-left: 3ex; padding-bottom: .5em 
+}
+
+.SRPage .SRChildren {
+    display: none;
+}
+
+.SRSymbol {
+    font-size: 0.8em;
+    padding:3px;
+    color: #010101;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.SRSymbol:hover {
+    color: #777;
+}
+
+a.SRScope {
+    display: block;
+    color: #425E97; 
+    text-decoration: none;
+    outline: none;
+}
+
+a.SRSymbol:focus, a.SRSymbol:active,
+a.SRScope:focus, a.SRScope:active {
+    text-decoration: underline;
+}
+
+span.SRScope {
+    padding-left: 4px;
+}
+
+.SRPage .SRStatus {
+    padding: 2px 5px;
+}
+
+.SRResult {
+    display: none;
+}
+
+DIV.searchresults {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.searchresult {
+    background-color: #F0F3F8;
+}
+
+.pages b {
+   color: white;
+   padding: 5px 5px 3px 5px;
+   
+   background-repeat: repeat-x;
+   text-shadow: 0 1px 1px #000000;
+}
+
+.pages {
+    line-height: 17px;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.hl {
+     weight: bold;
+}
+
+#searchresults {
+    margin-bottom: 20px;
+}
+
+.searchpages {
+    margin-top: 10px;
+}
+
+
+/**/
+
