@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/SGO/attributes/unitBasePrice
     name: unitBasePrice
     description: |
-      describes the unit base price
+      Describes the unit base price.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
