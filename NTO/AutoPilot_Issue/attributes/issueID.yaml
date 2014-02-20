@@ -1,0 +1,14 @@
+- Attribute:
+    id: http://www.purl.org/arago/AutoPilot_Issue/attributes/issueID
+    name: issueID
+    description: |
+      Contains the unique issue id
+    valid-from: 2013-11-01 00:00:00
+    valid-until: 2014-11-01 00:00:00
+    creator: 
+    deleter: 
+    created:  2013-09-01
+    modified: 2013-09-01
+    admin-contact: 
+    tech-contact: 
+    url: 
