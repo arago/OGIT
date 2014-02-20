@@ -27,3 +27,4 @@
         - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesValueReference
         - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesMetadataFormalRepresentation
       optional:
+        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesID

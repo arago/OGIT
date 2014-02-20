@@ -1,6 +1,6 @@
 - Entity:
-    id: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
-    name: AutoPilotIssue
+    id: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueData
+    name: AutoPilotIssueData
     description: | 
       Dynamic information exists within the arago Automation Engine (aAE) in the form of Issues otherwise referred to as 
       Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with 
@@ -13,8 +13,8 @@
     valid-until: 2014-11-01 00:00:00
     creator: 
     deleter: 
-    created:  2013-09-01
-    modified: 2013-09-01
+    created:  2014-01-01
+    modified: 2014-01-01
     admin-contact: 
     tech-contact: 
     scope: NTO
@@ -32,3 +32,4 @@
         - http://www.purl.org/arago/AutoPilot_Issue/attributes/issueFormalRepresentation
       optional:
         - http://www.purl.org/arago/AutoPilot_Issue/attributes/issueID
+      allow_arbitrary: true
