@@ -28,4 +28,5 @@
     attributes:
       mandatory:
         - http://www.purl.org/arago/AutoPilot_MARS/attributes/marsNodeFormalRepresentation
+        - http://www.purl.org/arago/AutoPilot_MARS/attributes/marsNodeID
       optional:
