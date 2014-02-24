@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/ogit/SGO/attributes/_id
-    "name: _id
+    name: _id
     description: |
       The unique identifier. The id is generated automatically from the Graphit service. This attribute is a mandatory
       attribute of the entity Node.
