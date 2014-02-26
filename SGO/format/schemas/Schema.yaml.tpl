@@ -1,6 +1,5 @@
 - Schema:
     id:   "the id of the schema"
-    name: "name of the schema"
     description: "description of the schema"
     valid-from: "date from when this schema is valid 2013-11-01 00:00:00"
     valid-until: "date until this schema is valid 2014-11-01 00:00:00"

@@ -1,6 +1,5 @@
 - Verb:
     id: "id of the verb, e.g. likes"
-    name: "name of the verb"
     description: "description of the verb"
     valid-from: "date from when this verb is valid 2013-11-01 00:00:00"
     valid-until: "date until this verb is valid 2014-11-01 00:00:00"
@@ -11,6 +10,7 @@
     admin-contact: "id of user"
     tech-contact: "id of user"
     url: "URL where the definition for this verb can be obtained"
+    cardinality: the cardinality of the verb (may be "one" or "many". it is "many" by default)    
     
     history:
       - id: 1
