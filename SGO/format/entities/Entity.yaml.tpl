@@ -21,6 +21,7 @@
         modified-by: "id of the modifier"
 
     attributes:
+      any: false
       mandatory:
         - attribute id
       optional:

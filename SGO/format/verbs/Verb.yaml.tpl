@@ -11,6 +11,7 @@
     admin-contact: "id of user"
     tech-contact: "id of user"
     url: "URL where the definition for this verb can be obtained"
+    cardinality: the cardinality of the verb (may be "one" or "many". it is "many" by default)    
     
     history:
       - id: 1
