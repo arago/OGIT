@@ -1,5 +1,6 @@
 - Entity:
     id:   "the id of the entity"
+    name: "name of the entity"
     description: "description of the entity"
     valid-from: "date from when this entity is valid 2013-11-01 00:00:00"
     valid-until: "date until this entity is valid 2014-11-01 00:00:00"
