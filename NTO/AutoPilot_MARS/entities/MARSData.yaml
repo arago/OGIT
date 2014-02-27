@@ -24,4 +24,4 @@
     attributes:
       mandatory:
       optional:
-      allow_arbitrary: true
+      any: true
