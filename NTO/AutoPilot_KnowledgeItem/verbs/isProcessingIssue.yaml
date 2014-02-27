@@ -1,8 +1,8 @@
 - Verb:
-    id: http://www.purl.org/arago/AutoPilot_Issue/verbs/isSubIssueDataOf
-    name: isSubIssueDataOf
+    id: http://www.purl.org/arago/AutoPilot_KnowledgeItem/verbs/isProcessingIssue
+    name: isProcessingIssue
     description: |
-      The dynamic working data representation of this issue
+      An issue that is (or has been) processed by this knowledge item.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
@@ -20,5 +20,5 @@
         modified-by: 
     
     allowed:
-      - from: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueData
-        to: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueData
+      - from: http://www.purl.org/arago/AutoPilot_KnowledgeItem/entities/KnowledgeItem
+        to: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
