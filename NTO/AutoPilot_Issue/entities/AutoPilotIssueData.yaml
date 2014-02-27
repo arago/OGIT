@@ -32,4 +32,4 @@
         - http://www.purl.org/arago/AutoPilot_Issue/attributes/issueFormalRepresentation
       optional:
         - http://www.purl.org/arago/AutoPilot_Issue/attributes/issueID
-      allow_arbitrary: true
+      any: true
