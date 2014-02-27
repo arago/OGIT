@@ -2,7 +2,7 @@
     id: http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementName
     name: historyElementName
     description: |
-      Contains the unique issue id
+      Contains the name of the KI element executed
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 

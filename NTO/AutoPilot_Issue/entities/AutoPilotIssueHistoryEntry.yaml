@@ -23,4 +23,9 @@
 
     attributes:
       mandatory:
+        - http://www.purl.org/arago/AutoPilot_KnowledgeItem/attributes/knowledgeItemID
+          http://www.purl.org/arago/AutoPilot_MARS/attributes/marsNodeID
+          http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementName
+          http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementMessage
+          http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementLogLevel
       optional:

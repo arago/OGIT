@@ -2,7 +2,7 @@
     id: http://www.purl.org/arago/AutoPilot_Issue/attributes/historyLogLevel
     name: historyLogLevel
     description: |
-      Contains the unique issue id
+      Contains the numeric loglevel of the history entry
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
