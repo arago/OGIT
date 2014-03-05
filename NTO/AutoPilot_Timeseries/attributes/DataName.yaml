@@ -1,8 +1,8 @@
 - Attribute:
-    id: http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesID
-    name: timeseriesID
+    id: http://www.purl.org/arago/AutoPilot_Timeseries/attributes/DataName
+    name: DataName
     description: |
-      Contains the unique timeseries id.
+      Contains the unique timeseries name within the MAID.
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 

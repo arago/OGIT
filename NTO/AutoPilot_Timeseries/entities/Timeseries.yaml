@@ -24,7 +24,11 @@
 
     attributes:
       mandatory:
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesValueReference
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesMetadataFormalRepresentation
+        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/DisplayName
+        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/DataName
       optional:
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesID
+        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/InstanceID
+        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/KeyValueStore.StoredFrom
+        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/KeyValueStore.StoredTo
+        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesValueReference
+      any: true
