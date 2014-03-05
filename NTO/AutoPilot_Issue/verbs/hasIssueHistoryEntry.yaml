@@ -1,6 +1,6 @@
 - Verb:
-    id: http://www.purl.org/arago/AutoPilot_Issue/verbs/hasLastIssueHistoryEntry
-    name: hasLastIssueHistoryEntry
+    id: http://www.purl.org/arago/AutoPilot_Issue/verbs/hasIssueHistoryEntry
+    name: hasIssueHistoryEntry
     description: |
       Edge from AutoPilotIssue to associated AutoPilotIssueHistoryEntry.
     valid-from: 2013-11-01 00:00:00
@@ -21,4 +21,4 @@
     
     allowed:
       - from: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssue
-        to: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueHistoryEntry  
+        to: http://www.purl.org/arago/AutoPilot_Issue/entities/AutoPilotIssueHistoryEntry
