@@ -1,6 +1,6 @@
 - Attribute:
-    id: http://www.purl.org/arago/AutoPilot_Issue/attributes/historyTimestamp
-    name: historyTimestamp
+    id: http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementTimestamp
+    name: historyElementTimestamp
     description: |
       Contains the timestamp in milliseconds since epoch of the history entry
     valid-from: 2013-11-01 00:00:00
