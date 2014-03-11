@@ -1,6 +1,6 @@
 - Attribute:
-    id: http://www.purl.org/arago/AutoPilot_Issue/attributes/historyLogLevel
-    name: historyLogLevel
+    id: http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementLogLevel
+    name: historyElementLogLevel
     description: |
       Contains the numeric loglevel of the history entry
     valid-from: 2013-11-01 00:00:00
