@@ -28,5 +28,4 @@
     attributes:
       mandatory:
         - http://www.purl.org/arago/AutoPilot_KnowledgeItem/attributes/knowledgeItemFormalRepresentation
-        - http://www.purl.org/arago/AutoPilot_KnowledgeItem/attributes/knowledgeItemID
       optional:
