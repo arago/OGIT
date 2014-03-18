@@ -29,7 +29,5 @@
 
     attributes:
       mandatory:
-        - http://www.purl.org/arago/AutoPilot_Issue/attributes/issueFormalRepresentation
       optional:
-        - http://www.purl.org/arago/AutoPilot_Issue/attributes/issueID
       any: true
