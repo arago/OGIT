@@ -20,6 +20,8 @@
         modified-by: 
     
     allowed:
+      - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSNode
+        to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSData
       - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSMachineNode
         to: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSData
       - from: http://www.purl.org/arago/AutoPilot_MARS/entities/MARSSoftwareNode
