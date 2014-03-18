@@ -34,6 +34,5 @@
 
     attributes:
       mandatory:
-        - http://www.purl.org/arago/AutoPilot_MAID/attributes/maidID
         - http://www.purl.org/arago/AutoPilot_MAID/attributes/maidFormalRepresentation
       optional:
