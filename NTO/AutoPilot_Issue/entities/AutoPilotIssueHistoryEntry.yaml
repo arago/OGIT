@@ -28,5 +28,5 @@
         - http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementName
         - http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementMessage
         - http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementLogLevel
-        - http://www.purl.org/arago/AutoPilot_Issue/attributes/historyTimestamp
+        - http://www.purl.org/arago/AutoPilot_Issue/attributes/historyElementTimestamp
       optional:
