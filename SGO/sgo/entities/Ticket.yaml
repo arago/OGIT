@@ -1,25 +1,25 @@
 - Entity:
-    id:   http://www.purl.org/ogit/SGO/entities/Ticket
+    id:   http://www.purl.org/ogit/Ticket
     name: Ticket
     description: |
       Abstract super type for incident, problem, change,..
     valid-from: 2013-11-01 00:00:00
-    valid-until: 2014-11-01 00:00:00
-    creator: 
+    valid-until:
+    creator: Peter Larem
     deleter: 
     created:  2013-09-01
     modified: 2013-09-01
-    admin-contact: 
-    tech-contact: 
+    admin-contact: arago AG
+    tech-contact: arago AG
     scope: SGO
     url: 
     conforms-to: 
-    parent: http://www.purl.org/ogit/SGO/entities/Situational
+    parent: http://www.purl.org/ogit/Situational
     history:
       - id: 1
         date: 2013-09-01
         description: initial
-        modified-by: 
+        modified-by: Peter Larem
 
     attributes:
       mandatory:
