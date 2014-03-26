@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.org/ogit/SGO/verbs/_deleted
+    id: http://www.purl.org/ogit/_deleted
     name: _deleted
     description: |
       The deleter of a node. This verb is generated internally.
@@ -20,5 +20,5 @@
         modified-by: 
     
     allowed:
-      - from: http://www.purl.org/ogit/SGO/entities/Identity
-        to: http://www.purl.org/ogit/SGO/entities/Node
+      - from: http://www.purl.org/ogit/Identity
+        to: http://www.purl.org/ogit/Node
