@@ -23,6 +23,6 @@
 
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/SGO/attributes/_id
-        - http://www.purl.org/ogit/SGO/attributes/_type
+        - http://www.purl.org/ogit/_id
+        - http://www.purl.org/ogit/_type
       optional:
