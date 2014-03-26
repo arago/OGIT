@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/ogit/SGO/entities/Global
+    id:   http://www.purl.org/ogit/Global
     name: Global
     description: |
       Global knowledge describes long lasting meta definitions such as the ontology and sub ontologies itself, 
