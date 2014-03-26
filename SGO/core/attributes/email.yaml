@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/SGO/attributes/email
+    id: http://www.purl.org/ogit/email
     name: email
     description: |
       An email address.
