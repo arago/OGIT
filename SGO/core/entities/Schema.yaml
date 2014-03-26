@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/ogit/SGO/entities/Schema
+    id:   http://www.purl.org/ogit/Schema
     name: Schema
     description: |
       A schema within graphit.
