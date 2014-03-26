@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/ogit/SGO/entities/Node
+    id:   http://www.purl.org/ogit/Node
     name: Node
     description: |
       The root node, the 'Big Bang'. The nodes Global, Factual, Actionable and Situational build with this Node the
