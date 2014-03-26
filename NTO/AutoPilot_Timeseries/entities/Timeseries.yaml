@@ -1,34 +1,34 @@
 - Entity:
-    id:   http://www.purl.org/arago/AutoPilot_Timeseries/entities/Timeseries
+    id:   http://www.purl.org/arago/Timeseries
     name: Timeseries
     description: |
       A time series is a sequence of data points, measured typically at successive points in time spaced at uniform 
       time intervals.
     valid-from: 2013-11-01 00:00:00
-    valid-until: 2014-11-01 00:00:00
-    creator: 
+    valid-until:
+    creator: Peter Larem
     deleter: 
     created:  2013-09-01
     modified: 2013-09-01
-    admin-contact: 
-    tech-contact: 
+    admin-contact: arago AG
+    tech-contact: arago AG
     scope: NTO
     url: 
-    schema: http://www.purl.org/arago/AutoPilot_Timeseries/schema/AutoPilotTimeseriesSchema
-    parent: http://www.purl.org/ogit/SGO/entities/Situational
+    schema: http://www.purl.org/arago/AutoPilotTimeseriesSchema
+    parent: http://www.purl.org/ogit/Situational
     history:
       - id: 1
         date: 2013-09-01
         description: initial
-        modified-by: 
+        modified-by: Peter Larem
 
     attributes:
       mandatory:
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/DisplayName
+        - http://www.purl.org/arago/DisplayName
       optional:
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/DataName
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/InstanceID
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/KeyValueStore.StoredFrom
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/KeyValueStore.StoredTo
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/timeseriesValueReference
+        - http://www.purl.org/arago/DataName
+        - http://www.purl.org/arago/InstanceID
+        - http://www.purl.org/arago/KeyValueStore.StoredFrom
+        - http://www.purl.org/arago/KeyValueStore.StoredTo
+        - http://www.purl.org/arago/timeseriesValueReference
       any: true
