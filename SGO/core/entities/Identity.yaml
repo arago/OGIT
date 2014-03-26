@@ -13,7 +13,7 @@
     tech-contact: 
     scope: SGO
     url: 
-    parent: http://www.purl.org/ogit/SGO/entities/Global
+    parent: http://www.purl.org/ogit/Global
     history:
       - id: 1
         date: 2013-09-01
@@ -22,5 +22,5 @@
 
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/SGO/attributes/email
+        - http://www.purl.org/ogit/email
       optional:    
