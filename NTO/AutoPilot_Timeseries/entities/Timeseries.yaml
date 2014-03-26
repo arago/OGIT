@@ -25,8 +25,8 @@
     attributes:
       mandatory:
         - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/DisplayName
-        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/DataName
       optional:
+        - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/DataName
         - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/InstanceID
         - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/KeyValueStore.StoredFrom
         - http://www.purl.org/arago/AutoPilot_Timeseries/attributes/KeyValueStore.StoredTo
