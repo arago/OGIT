@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/SGO/attributes/_id
+    id: http://www.purl.org/ogit/_id
     name: _id
     description: |
       The unique identifier. The id is generated automatically from the Graphit service. This attribute is a mandatory
