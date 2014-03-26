@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/ogit/SGO/entities/Identity
+    id:   http://www.purl.org/ogit/Identity
     name: Identity
     description: |
       An identity within graphit.
