@@ -1,5 +1,5 @@
 - Schema:
-    id:   http://www.purl.org/arago/DMTF_CIMI/schema/DMTF_CIMISchema_1_0_1
+    id:   http://www.purl.org/arago/DMTF_CIMISchema_1_0_1
     name: DMTF_CIMISchema.1.0.1
     description: |
      DMTF CIMI - Cloud Infrastructure Management Interface Schema Vers. 1.0.1\n\n
@@ -20,13 +20,13 @@
      Monitoring Resources – the resources associated with metering and eventing of resources\n 
     
     valid-from: 2013-11-01 00:00:00
-    valid-until: 2014-11-01 00:00:00
-    creator: 
+    valid-until:
+    creator: Peter Larem
     deleter: 
     created:  2013-10-01
     modified: 2013-10-01
-    admin-contact: 
-    tech-contact: 
+    admin-contact: arago AG
+    tech-contact: arago AG
     uri: http://schemas.dmtf.org/cimi/1
     url: http://schemas.dmtf.org/cimi/1/DSP8009.xsd
     version: 1.0.1
@@ -35,4 +35,4 @@
       - id: 1
         date: 2013-10-01
         description: initial
-        modified-by: 
+        modified-by: Peter Larem
