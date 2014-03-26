@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/ogit/SGO/entities/Actionable
+    id:   http://www.purl.org/ogit/Actionable
     name: Actionable
     description: |
       Actionable knowledge describes different kind of possible activities and decisions like commands that 
