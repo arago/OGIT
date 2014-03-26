@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/SGO/attributes/_type
+    id: http://www.purl.org/ogit/_type
     name: _type
     description: |
       The id of the type of the entity. This attribute is a mandatory attribute of the entity Node. 
