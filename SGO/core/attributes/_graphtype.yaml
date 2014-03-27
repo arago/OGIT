@@ -1,8 +1,8 @@
 - Attribute:
-    id: http://www.purl.org/ogit/_type
-    name: _type
+    id: http://www.purl.org/ogit/_graphtype
+    name: _graphtype
     description: |
-      [internally generated] The id of the type of the entity.
+      [internally generated] A virtual property which helps differentiating between graph objects. Values are "edge" or "vertex".
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 

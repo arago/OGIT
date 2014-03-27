@@ -1,8 +1,8 @@
 - Attribute:
-    id: http://www.purl.org/ogit/_type
-    name: _type
+    id: http://www.purl.org/ogit/_modified-on
+    name: _modified-on
     description: |
-      [internally generated] The id of the type of the entity.
+      [internally generated] A timestamp in ms when the node was modified
     valid-from: 2013-11-01 00:00:00
     valid-until: 2014-11-01 00:00:00
     creator: 
