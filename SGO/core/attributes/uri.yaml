@@ -1,10 +1,10 @@
 - Attribute:
     id: http://www.purl.org/ogit/uri
-    name: content
+    name: uri
     description: |
       A string holding an URI
     valid-from: 2014-03-28 00:00:00
-    valid-until: 2014-11-01 00:00:00
+    valid-until:
     creator: arago AG
     deleter: 
     created:  2014-03-27
