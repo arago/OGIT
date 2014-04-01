@@ -28,6 +28,7 @@
         - http://www.purl.org/ogit/_owner
         - http://www.purl.org/ogit/_modified-on
         - http://www.purl.org/ogit/_graphtype
+        - http://www.purl.org/ogit/_is-deleted
         - http://www.purl.org/ogit/_deleted-on
         - http://www.purl.org/ogit/_creator
         - http://www.purl.org/ogit/_created-on
