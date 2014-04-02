@@ -32,4 +32,5 @@
       optional:
         - http://www.purl.org/arago/modificationTime
         - http://www.purl.org/arago/creationTime
+        - http://www.purl.org/arago/objectName
       any: true
