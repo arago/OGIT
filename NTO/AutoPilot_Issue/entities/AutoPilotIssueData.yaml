@@ -30,4 +30,6 @@
     attributes:
       mandatory:
       optional:
+        - http://www.purl.org/arago/modificationTime
+        - http://www.purl.org/arago/creationTime
       any: true

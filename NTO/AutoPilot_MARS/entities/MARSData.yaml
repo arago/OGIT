@@ -24,4 +24,6 @@
     attributes:
       mandatory:
       optional:
+        - http://www.purl.org/arago/creationTime
+        - http://www.purl.org/arago/modificationTime
       any: true
