@@ -1,0 +1,13 @@
+- Attribute:
+    id: http://www.purl.org/arago/knowledgeItemDescription
+    name: knowledgeItemDescription
+    description: |
+      Contains a KnowledgeItem description.
+    valid-from: 2013-11-01 00:00:00
+    valid-until:
+    creator: Miroslaw Glusiuk
+    deleter: 
+    created:  2013-09-01
+    modified: 2013-09-01
+    admin-contact: arago AG
+    tech-contact: arago AG
