@@ -18,7 +18,6 @@
     admin-contact: arago AG
     tech-contact: arago AG
     scope: NTO
-    url: 
     schema: http://www.purl.org/arago/AutoPilotIssueSchema_4_1
     parent: http://www.purl.org/ogit/Situational
     history:
