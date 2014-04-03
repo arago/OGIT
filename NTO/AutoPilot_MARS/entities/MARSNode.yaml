@@ -16,7 +16,6 @@
     admin-contact: arago AG
     tech-contact: arago AG
     scope: NTO
-    url: 
     schema: http://www.purl.org/arago/AutoPilotMARSSchema2013
     parent: http://www.purl.org/ogit/Factual
     history:
