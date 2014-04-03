@@ -19,7 +19,6 @@
     admin-contact: arago AG
     tech-contact: arago AG
     scope: NTO
-    url: 
     schema: http://www.purl.org/arago/DMTF_CIMISchema_1_0_1
     parent: http://www.purl.org/ogit/Factual
     history:
