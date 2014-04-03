@@ -11,7 +11,6 @@
     admin-contact: "id of user"
     tech-contact: "id of user"
     scope: "SGO or NTO"
-    url: "URL where the definition for this entity can be obtained"
     parent: "id of parent entity"
     schema: "id of the schema"
     history:
