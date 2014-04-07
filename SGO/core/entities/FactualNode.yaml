@@ -1,7 +1,7 @@
 - Entity:
     id:   http://www.purl.org/ogit/Factuaal
     name: Factual"
-    description: |
+    "descr  iption: |
       Factual knowledge describes an actual state of the world such as the IT actually provisioned or planned, 
       the contracts in existence, etc.\n\n 
       \b Volatility: low\n
