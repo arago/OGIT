@@ -1,13 +1,13 @@
 - Attribute:
-    id: "upperLimit"
-    name: "upperLimit"
-    description: "the upper limit of a range"
-    valid-from: "2013-11-01 00:00:00"
-    valid-until: "2014-11-01 00:00:00"
-    creator: ""
-    deleter: ""
-    created:  "2013-11-01"
-    modified: "2013-11-01"
-    admin-contact: ""
-    tech-contact: ""
-    url: ""
+    id: http://www.purl.org/ogit/upperLimit
+    name: upperLimit
+    description: |
+      The upper limit of a range.
+    valid-from: 2013-11-01 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2013-11-01
+    modified: 2013-11-01
+    admin-contact: arago AG
+    tech-contact: arago AG

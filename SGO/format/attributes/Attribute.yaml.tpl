@@ -10,8 +10,8 @@
     modified: "2013-09-01"
     admin-contact: "id of user"
     tech-contact: "id of user"
-    url: "URL where the definition for this attribute can be obtained"
     conforms-to: "an established standard to which the described resource conforms"
+    regex: "optional java regexp to match the provided value, see http://docs.oracle.com/javase/tutorial/essential/regex/"
     history:
       - id: 1
         date: "date of the change"

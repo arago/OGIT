@@ -1,26 +1,34 @@
 - Entity:
-    id:   "Node"
-    name: "Node"
-    description: "root node"
-    valid-from: "2013-11-01 00:00:00"
-    valid-until: "2014-11-01 00:00:00"
-    creator: ""
-    deleter: ""
-    created:  "2013-09-01"
-    modified: "2013-09-01"
-    admin-contact: ""
-    tech-contact: ""
-    scope: "SGO"
-    url: ""
+    id:   http://www.purl.org/ogit/Node
+    name: Node
+    description: |
+      The root node, the 'Big Bang'. The nodes Global, Factual, Actionable and Situational build with this Node the
+      top level of the SGO.
+    valid-from: 2013-11-01 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2013-09-01
+    modified: 2013-09-01
+    admin-contact: arago AG
+    tech-contact: arago AG
+    scope: SGO
     
     history:
       - id: 1
-        date: "2012-09-1"
-        description: "initial"
-        modified-by: ""
+        date: 2013-09-01
+        description: initial
+        modified-by: Peter Larem
 
     attributes:
       mandatory:
-        - _id
-        - _type
+        - http://www.purl.org/ogit/_id
+        - http://www.purl.org/ogit/_type
+        - http://www.purl.org/ogit/_owner
+        - http://www.purl.org/ogit/_modified-on
+        - http://www.purl.org/ogit/_graphtype
+        - http://www.purl.org/ogit/_is-deleted
+        - http://www.purl.org/ogit/_deleted-on
+        - http://www.purl.org/ogit/_creator
+        - http://www.purl.org/ogit/_created-on
       optional:

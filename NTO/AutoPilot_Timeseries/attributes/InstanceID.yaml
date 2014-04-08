@@ -1,0 +1,13 @@
+- Attribute:
+    id: http://www.purl.org/arago/InstanceID
+    name: InstanceID
+    description: |
+      Contains the unique instance of a MAID/MARSNode timeseries.
+    valid-from: 2013-11-01 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2013-09-01
+    modified: 2013-09-01
+    admin-contact: arago AG
+    tech-contact: arago AG

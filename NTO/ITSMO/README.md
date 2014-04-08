@@ -1,4 +1,4 @@
-#This is CIMI Readme.md
+#This is ITSMO Readme.md
 
 Here you'll find the NTO enablement for ITSMO - ITSM Ontology V1
 

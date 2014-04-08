@@ -10,7 +10,7 @@
     modified: "2013-09-01"
     admin-contact: "id of user"
     tech-contact: "id of user"
-    url: "URL where the definition for this verb can be obtained"
+    cardinality: the cardinality of the verb (one2one, one2many, many2one, many2many. if unspecified, the default is many2many)    
     
     history:
       - id: 1

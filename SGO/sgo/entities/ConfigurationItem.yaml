@@ -1,23 +1,29 @@
 - Entity:
-    id:   "ConfigurationItem"
-    name: "ConfigurationItem"
-    description: "see http://en.wikipedia.org/wiki/Configuration_item"
-    valid-from: "2013-11-01 00:00:00"
-    valid-until: "2014-11-01 00:00:00"
-    creator: ""
-    deleter: ""
-    created:  "2013-09-01"
-    modified: "2013-09-01"
-    admin-contact: ""
-    tech-contact: ""
-    scope: "SGO"
-    url: ""
-    parent: "Factual"
+    id:   http://www.purl.org/ogit/ConfigurationItem
+    name: ConfigurationItem
+    description: |
+      The term configuration item or CI refers to the fundamental structural unit of a configuration management 
+      system. Examples of CIs include individual requirements documents, software, models, and plans. The Configuration 
+      management system oversees the life of the CIs through a combination of process and tools by implementing and 
+      enabling the fundamental elements of identification, change management, status accounting, and audits. 
+      The objective of this system is to avoid the introduction of errors related to lack of testing as well as 
+      incompatibilities with other CIs.
+      (see http://en.wikipedia.org/wiki/Configuration_item)
+    valid-from: 2013-11-01 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2013-09-01
+    modified: 2013-09-01
+    admin-contact: arago AG
+    tech-contact: arago AG
+    scope: SGO
+    parent: http://www.purl.org/ogit/Factual
     history:
       - id: 1
-        date: "2012-09-1"
-        description: "initial"
-        modified-by: ""
+        date: 2013-09-01
+        description: initial
+        modified-by: Peter Larem
 
     attributes:
       mandatory:
