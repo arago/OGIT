@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/ogit/ontology-scope
-    name: description
+    name: ontology-scope
     description: |
       Either "SGO" or "NTO"
     valid-from: 2014-04-16 00:00:00
