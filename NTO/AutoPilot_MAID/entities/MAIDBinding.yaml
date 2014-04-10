@@ -22,5 +22,5 @@
 
     attributes:
       mandatory:
-        - http://www.purl.org/arago/maidFormalRepresentation
+        - http://www.purl.org/arago/maidBindingFormalRepresentation
       optional:
