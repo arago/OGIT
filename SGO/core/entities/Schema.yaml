@@ -22,9 +22,14 @@
         date: 2014-03-27
         description: attributes URI, content added
         modified-by: fotto
+      - id: 3
+        date: 2014-04-14
+        description: attribute information added
+        modified-by: FCO
 
     attributes:
       mandatory:
         - http://www.purl.org/ogit/uri
         - http://www.purl.org/ogit/content
       optional:    
+        - http://www.purl.org/ogit/information
