@@ -15,7 +15,3 @@ This directory contains the following things:
     * to define a new verb create a file named __Verb-id__.yaml
     * verbs with a `_` prefix are not writable and generated internally
     * the first letter of a verb must be lowercase
-
-* `schemas/Schema.yaml`: commented template for a schema defintion (mainly used for NTO)
-    * to define a new schema create a file named __Schema-id__.yaml
-    * the first letter of an schema name must be uppercase
