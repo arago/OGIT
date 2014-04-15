@@ -27,7 +27,6 @@
     tech-contact: arago AG
     scope: NTO
     url: http://ontology.it/itsmo/v1/itsmo.html
-    schema: http://www.purl.org/arago/ITSMO_Schema_1_0
     parent: http://www.purl.org/ogit/Factual
     history:
       - id: 1
