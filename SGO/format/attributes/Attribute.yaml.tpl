@@ -10,8 +10,8 @@
     modified: "2013-09-01"
     admin-contact: "id of user"
     tech-contact: "id of user"
-    conforms-to: "an established standard to which the described resource conforms"
-    regex: "optional java regexp to match the provided value, see http://docs.oracle.com/javase/tutorial/essential/regex/"
+    validation-type: "validation type"
+    validation-parameter: "validation parameter"
     history:
       - id: 1
         date: "date of the change"
