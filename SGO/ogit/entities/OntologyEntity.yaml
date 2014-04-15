@@ -1,0 +1,25 @@
+- Entity:
+    id:   http://www.purl.org/ogit/OntologyEntity
+    name: OntologyEntity
+    description: |
+      represents any Entity definition from OGI
+    valid-from: 2014-04-16 00:00:00
+    valid-until:
+    creator: FCO
+    deleter: 
+    created:  2014-04-10
+    modified: 2014-04-10
+    admin-contact: arago AG
+    tech-contact: arago AG
+    scope: SGO
+    parent: http://www.purl.org/ogit/Ontology
+    history:
+      - id: 1
+        date: 2014-04-10
+        description: initial
+        modified-by: FCO
+
+    attributes:
+      mandatory:
+      optional:
+        - http://www.purl.org/ogit/ontology-scope

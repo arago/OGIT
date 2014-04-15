@@ -1,0 +1,18 @@
+- Attribute:
+    id: http://www.purl.org/ogit/information
+    name: information
+    description: |
+      Contains some informative string. Alternative to description attribute.
+    valid-from: 2014-04-16 00:00:00
+    valid-until: 
+    creator: FCO
+    deleter: 
+    created:  2014-04-14
+    modified: 2014-04-14
+    admin-contact: arago AG
+    tech-contact: arago AG
+    history:
+      - id: 1
+        date: 2014-04-14
+        description: initial
+        modified-by: FCO
