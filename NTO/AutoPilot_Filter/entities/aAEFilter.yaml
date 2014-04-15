@@ -13,7 +13,6 @@
     admin-contact: arago AG
     tech-contact: arago AG
     scope: NTO
-    schema: http://www.purl.org/arago/aAEFilterSchema
     parent: http://www.purl.org/ogit/Factual
     history:
       - id: 1

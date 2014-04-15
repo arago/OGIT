@@ -16,7 +16,6 @@
     admin-contact: arago AG
     tech-contact: arago AG
     scope: NTO
-    schema: http://www.purl.org/arago/AutoPilotKISchema
     parent: http://www.purl.org/ogit/Actionable
     history:
       - id: 1

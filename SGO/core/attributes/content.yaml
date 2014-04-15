@@ -11,8 +11,14 @@
     modified: 2014-03-27
     admin-contact: ogit@arago.de
     tech-contact: ogit@arago.de
+    validation-type:
+    validation-parameter:
     history:
       - id: 1
         date: 2014-03-27
         description: initial
         modified-by: fotto
+      - id: 2
+        date: 2014-04-15
+        description: add validation-type, validation-parameter
+        modified-by: Peter Larem

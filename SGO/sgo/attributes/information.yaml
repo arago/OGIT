@@ -11,8 +11,14 @@
     modified: 2014-04-14
     admin-contact: arago AG
     tech-contact: arago AG
+    validation-type:
+    validation-parameter:
     history:
       - id: 1
         date: 2014-04-14
         description: initial
         modified-by: FCO
+      - id: 2
+        date: 2014-04-15
+        description: add validation-type, validation-parameter
+        modified-by: Peter Larem
