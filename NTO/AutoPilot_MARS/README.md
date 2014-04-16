@@ -16,4 +16,4 @@ The MARS model builds upon four basic types of objects with a single type of rel
 Basically the objects which are in fact called “nodes” represent both views - the business perspective and the 
 technical view. The technical components are modeled in the machine and software layers while the application 
 and resource layers describe the business view of the IT environment.
-The MARS-Schema can found under https://github.com/arago/MARS-Schema/blob/master/schemas/MARSSchema2013.xsd.
+The whole syntax can found under https://github.com/arago/MARS-Schema/blob/master/schemas/MARSSchema2013.xsd.
