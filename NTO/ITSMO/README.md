@@ -17,3 +17,10 @@ ITSMO is tolerant with incomplete, missing and even wrong data. It helps you to 
 ITSMO is free, easy to extend and works together with other public vocabularies, like Dublin Core, GoodRelations, FOAF and with the forthcoming USDL to provide you a complete semantic framework for IT Service Providing business.
 
 Source: http://ontology.it/itsmo/v1/userguide/
+
+
+## Schema
+
+IT Service Management Ontology (ITSMO) is a standardized vocabulary (also known as "schema", "data dictionary", 
+or "ontology") for annotating IT Services. ITSMO tries to be consistent with ITIL® v3 glossary (2011 edition) 
+and its semantics. The whole syntax can found under http://ontology.it/itsmo/v1/itsmo.owl.

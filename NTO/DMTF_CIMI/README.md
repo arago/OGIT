@@ -13,3 +13,24 @@ Most developers will deal with the CIMI REST/HTTP-Based Protocol, the current in
 Description: [CIMI Model, v1.0.1](http://www.dmtf.org/sites/default/files/standards/documents/DSP0263_1.0.1.pdf)
 
 Technical Whitepaper: [Tech Note](http://dmtf.org/sites/default/files/TechNoteCIMIv6_comments_10.31.12_0.pdf)
+
+
+##Schema
+
+DMTF CIMI - Cloud Infrastructure Management Interface Schema Vers. 1.0.1\n\n
+
+CIMI addresses the management of the lifecycle of infrastructure provided by a Provider (cloud server). 
+CIMI does not extend beyond infrastructure management to the control of the applications and services that the 
+Consumer (cloud client) chooses to run on the infrastructure provided as a service by the Provider.\n\n
+   
+The CIMI Model is documented in Chapter 5 of the CIMI standard (DMTF Paper DSP0263) and consists of 58 resources 
+organized into\n\n
+
+Cloud Entry Point – the starting point for finding all the other resources as well as the capabilities of this 
+particular cloud\n 
+Machine Resources – resources associated with the compute infrastructure\n 
+Volume Resources – resources associated with the storage infrastructure\n 
+Network Resources – resource associated with the networking infrastructure\n 
+System Resources – the resources related to aggregate relationships of Machines, Volumes and Networks\n 
+Monitoring Resources – the resources associated with metering and eventing of resources\n 
+The whole syntax can found under http://schemas.dmtf.org/cimi/1/DSP8009.xsd.
