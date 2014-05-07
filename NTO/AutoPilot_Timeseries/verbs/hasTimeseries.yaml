@@ -19,5 +19,5 @@
         modified-by: Peter Larem
     
     allowed:
-      - from: http://www.purl.org/arago/MARSNode
+      - from: http://www.purl.org/ogit/Node
         to: http://www.purl.org/arago/Timeseries
