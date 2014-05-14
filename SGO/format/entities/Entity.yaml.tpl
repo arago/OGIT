@@ -12,7 +12,6 @@
     tech-contact: "id of user"
     scope: "SGO or NTO"
     parent: "id of parent entity"
-    schema: "id of the schema"
     history:
       - id: 1
         date: "date of the change"
