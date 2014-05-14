@@ -1,8 +1,8 @@
 - Attribute:
-    id: http://www.purl.org/ogit/ontology-valid-to
-    name: ontology-valid-to
+    id: http://www.purl.org/ogit/ontology-valid-until
+    name: ontology-valid-until
     description: |
-      the "valid-to" attribute as defined in OGIT yaml files
+      the "valid-until" attribute as defined in OGIT yaml files
     valid-from: 2014-05-14 00:00:00
     valid-until: 
     creator: Peter Larem
