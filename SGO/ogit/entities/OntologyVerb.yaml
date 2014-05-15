@@ -11,7 +11,6 @@
     modified: 2014-04-14
     admin-contact: arago AG
     tech-contact: arago AG
-    scope: SGO
     parent: http://www.purl.org/ogit/Ontology
     history:
       - id: 1
@@ -22,3 +21,4 @@
     attributes:
       mandatory:
       optional:
+        - http://www.purl.org/ogit/ontology-cardinality
