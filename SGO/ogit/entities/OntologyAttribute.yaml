@@ -22,3 +22,5 @@
     attributes:
       mandatory:
       optional:
+        - http://www.purl.org/ogit/ontology-validation-type
+        - http://www.purl.org/ogit/ontology-validation-parameter
