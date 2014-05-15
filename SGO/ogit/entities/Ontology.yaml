@@ -18,10 +18,22 @@
         date: 2014-04-10
         description: initial
         modified-by: FCO
+      - id: 2
+        date: 2014-05-15
+        description: editing attributes
+        modified-by: Peter Larem
 
     attributes:
       mandatory:
+        - http://www.purl.org/ogit/ontology-id
         - http://www.purl.org/ogit/ontology-type
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/ontology-name
+        - http://www.purl.org/ogit/ontology-valid-from
+        - http://www.purl.org/ogit/ontology-creator
+        - http://www.purl.org/ogit/ontology-modified
+        - http://www.purl.org/ogit/ontology-admin-contact
+        - http://www.purl.org/ogit/ontology-tech-contact
       optional:
+        - http://www.purl.org/ogit/ontology-valid-from
+        - http://www.purl.org/ogit/ontology-deleter

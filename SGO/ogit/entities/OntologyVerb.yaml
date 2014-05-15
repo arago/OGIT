@@ -1,0 +1,24 @@
+- Entity:
+    id:   http://www.purl.org/ogit/OntologyVerb
+    name: OntologyVerb
+    description: |
+      represents any Verb definition from OGIT
+    valid-from: 2014-05-14 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2014-05-14
+    modified: 2014-04-14
+    admin-contact: arago AG
+    tech-contact: arago AG
+    parent: http://www.purl.org/ogit/Ontology
+    history:
+      - id: 1
+        date: 2014-05-14
+        description: initial
+        modified-by: Peter Larem
+
+    attributes:
+      mandatory:
+      optional:
+        - http://www.purl.org/ogit/ontology-cardinality
