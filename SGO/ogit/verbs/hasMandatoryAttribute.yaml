@@ -1,6 +1,6 @@
 - Verb:
-    id: http://www.purl.org/ogit/hasMandatoryAttributes
-    name: hasMandatoryAttributes
+    id: http://www.purl.org/ogit/hasMandatoryAttribute
+    name: hasMandatoryAttribute
     description: |
       Connection between the entity und attribute node.
     valid-from: 2014-05-15 00:00:00
