@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/Pricing/currency
+    name: currency
+    description: 'a currency code according to ISO 4217'
+    admin-contact: 'International Organization for Standardization (ISO)'
+    tech-contact: 'arago AG'
+    created: 2014-05-27
+    creator: FCO
+    deleter: ''
+    modified: 2014-05-27
+    valid-from: 2014-06-01
+    valid-until: 
+    validation-parameter: ''
+    validation-type: ''
+
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO
