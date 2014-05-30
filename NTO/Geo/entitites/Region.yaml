@@ -1,0 +1,25 @@
+- Entity:
+    id: http://www.purl.org/ogit/Geo/Region
+    name: Region
+    description: 'A region is always something that has a certain geographic extension (a country, a county,  ) whereas ogit/gr/Location usually refers to specific place usually having an address'
+    admin-contact: 'arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-05-27
+    creator: FCO
+    deleter: ''
+    modified: 2014-05-27
+    parent: http://www.purl.org/ogit/Global
+    scope: NTO
+    valid-from: 2014-06-01
+    valid-until: 
+
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description
+
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO
