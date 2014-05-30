@@ -16,7 +16,8 @@
     history:
       - id: 1
         date: 2014-05-27
-        description: intitial version: no attributes defined, yet
+        description: |
+          intitial version: no attributes defined, yet
         modified-by: FCO
 
     attributes:
