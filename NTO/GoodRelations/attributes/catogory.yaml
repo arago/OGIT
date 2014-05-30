@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/gr/category
+    name: category
+    description: 'used to categorize things.
+    see http://purl.org/goodrelations/v1#category'
+    admin-contact: 'E-Business and Web Science Research Group'
+    tech-contact: 'arago AG'
+    created: 2014-05-27
+    creator: FCO
+    deleter: ''
+    modified: 2014-05-27
+    valid-from: 2014-06-01
+    valid-until: 
+    validation-parameter: ''
+    validation-type: ''
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO

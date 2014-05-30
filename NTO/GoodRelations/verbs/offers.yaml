@@ -1,0 +1,25 @@
+- Verb:
+    id: http://www.purl.org/ogit/gr/offers
+    name: offers
+    description: 'links a BusinessEntity with an Offering
+    see http://purl.org/goodrelations/v1#offers'
+    admin-contact: 'E-Business and Web Science Research Group'
+    tech-contact: 'arago AG'
+    cardinality: one2many
+    created: 2014-05-27
+    creator: FCO
+    deleter: ''
+    modified: 2014-05-27
+    valid-from: 2014-06-01
+    valid-until: 
+
+    allowed:
+      -
+        from: http://www.purl.org/ogit/gr/BusinessEntity
+        to: http://www.purl.org/ogit/gr/Offering
+
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO
