@@ -14,6 +14,11 @@
     scope: NTO
     valid-from: 2014-06-01
     valid-until: 
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: intitial version: only a minimal set of attributes added
+        modified-by: FCO
 
     attributes:
       mandatory:
@@ -25,9 +30,4 @@
         - http://www.purl.org/ogit/gr/validThrough
         - http://www.purl.org/ogit/gr/catogory
 
-    history:
-      - id: 1
-        date: 2014-05-27
-        description: intitial version: only a minimal set of attributes added
-        modified-by: FCO
-
+    
