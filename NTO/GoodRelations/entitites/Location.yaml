@@ -1,0 +1,26 @@
+- Entity:
+    id: http://www.purl.org/ogit/gr/Location
+    name: Location
+    description: 'a place where some some service is offered or requested. In many cases this will be related to a an address of a BusinessEntity
+    see http://purl.org/goodrelations/v1#Location'
+    admin-contact: 'E-Business and Web Science Research Group'
+    tech-contact: 'arago AG'
+    created: 2014-05-27
+    creator: FCO
+    deleter: ''
+    modified: 2014-05-27
+    parent: http://www.purl.org/ogit/Global
+    scope: SGO
+    valid-from: 2014-06-01
+    valid-until: 
+
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/name
+
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version: only a minimal set of attributes added'
+        modified-by: FCO
