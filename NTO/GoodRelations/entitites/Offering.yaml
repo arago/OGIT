@@ -20,7 +20,6 @@
         description: intitial version: only a minimal set of attributes added
         modified-by: FCO
 
-
     attributes:
       mandatory:
         - http://www.purl.org/ogit/description
