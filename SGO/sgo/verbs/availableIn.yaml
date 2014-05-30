@@ -1,0 +1,21 @@
+- Verb:
+    id: http://www.purl.org/ogit/availableIn
+    name: availableIn
+    description: 'indicate that something can be found / taken from somewhere'
+    admin-contact: 'arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-05-27
+    creator: FCO
+    deleter: ''
+    modified: 2014-05-27
+    valid-from: 2014-06-01
+    valid-until: 
+    allowed:
+      -
+        from: http://www.purl.org/ogit/gr/Offering
+        to: http://www.purl.org/ogit/geo/region
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO
