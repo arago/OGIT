@@ -16,7 +16,7 @@
     history:
       - id: 1
         date: 2014-05-27
-        description: 'intitial version'
+        description: intitial version
         modified-by: FCO
 
     allowed:
