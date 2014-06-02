@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITService/requirementId
     name: requirementId
-    description: ''
+    description: 'IDs of the corresponding requirements that lead to the parameter creation.'
     admin-contact: 'arago AG'
     tech-contact: 'arago AG'
     created: 2014-05-27
@@ -18,3 +18,7 @@
         date: 2014-05-27
         description: 'intitial version'
         modified-by: FCO
+      - id: 2
+        date: 2014-06-02
+        description: 'added description'
+        modified-by: CO
