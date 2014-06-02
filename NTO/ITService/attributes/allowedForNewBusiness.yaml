@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITService/allowedForNewBusiness
     name: allowedForNewBusiness
-    description: ''
+    description: 'If flag is true, the service will be offered in a store to new users for order. If flag is false, the service will only be available to users with already existing instances.'
     admin-contact: 'arago AG'
     tech-contact: 'arago AG'
     created: 2014-05-27
@@ -18,3 +18,7 @@
         date: 2014-05-27
         description: 'intitial version'
         modified-by: FCO
+      - id: 2
+        date: 2014-06-02
+        description: 'added description'
+        modified-by: CO
