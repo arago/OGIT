@@ -14,12 +14,19 @@
     scope: SGO
     conforms-to:
     parent: http://www.purl.org/ogit/Factual
+
+    attributes:
+      any: true
+      mandatory:
+      optional:
+
     history:
       - id: 1
         date: 2013-09-01
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2014-06-08
+        description: allow any attribute
+        modified-by: FCO
 
-    attributes:
-      mandatory:
-      optional:
