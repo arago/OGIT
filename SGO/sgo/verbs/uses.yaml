@@ -12,7 +12,8 @@
     valid-from: 2014-06-01
     valid-until: 
     allowed:
-
+	- from: http://www.purl.org/ogit/CustomApplicationData
+	- to: http://www.purl.org/ogit/CustomApplicationData
     history:
       - id: 1
         date: 2014-05-27
