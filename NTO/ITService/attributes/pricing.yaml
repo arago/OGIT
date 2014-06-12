@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITService/pricing
     name: pricing
-    description: 'Contains a JSON with a pricesheet as a BLOB'
+    description: 'Contains a complete pricesheet in JSON format'
     admin-contact: 'arago AG'
     tech-contact: 'arago AG'
     created: 2014-05-27
