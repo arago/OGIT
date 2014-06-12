@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITService/isRequired
     name: isRequired
-    description: ''
+    description: 'True if the value has to be specified for the Service to be provisioned'
     admin-contact: 'arago AG'
     tech-contact: 'arago AG'
     created: 2014-05-27
