@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITService/lengthOfReportingPeriod
     name: lengthOfReportingPeriod
-    description: 'Period when the report attribute gets pushed to a front end where a client could track the use of his services. In hours'
+    description: 'Period in which the attribute is reported. In hour'
     admin-contact: 'arago AG'
     tech-contact: 'arago AG'
     created: 2014-05-27
