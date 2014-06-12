@@ -1,8 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITService/granularity
     name: granularity
-
-    description: ''
+    description: 'Smallest value increment of a Parameter'
     admin-contact: 'arago AG'
     tech-contact: 'arago AG'
     created: 2014-05-27
