@@ -10,6 +10,7 @@
     modified: 2014-05-27
     valid-from: 2014-06-01
     valid-until: 
+    cardinality: one2one
 
     allowed:
       -
