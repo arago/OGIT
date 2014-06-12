@@ -1,2 +1,3 @@
 # Ignoring the following types
+**/*~
 .DS_Store
