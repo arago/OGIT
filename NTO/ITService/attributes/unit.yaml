@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITService/unit
     name: unit
-    description: ''
+    description: 'Unit of measurement of some value'
     admin-contact: 'arago AG'
     tech-contact: 'arago AG'
     created: 2014-05-27
