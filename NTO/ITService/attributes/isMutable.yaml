@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITService/isMutable
     name: isMutable
-    description: ''
+    description: 'True if the value can be changed after Service is provisioned'
     admin-contact: 'arago AG'
     tech-contact: 'arago AG'
     created: 2014-05-27
