@@ -16,7 +16,7 @@
 
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/id
+        - http://www.purl.org/ogit/ITService/id
 
     history:
       - id: 1
