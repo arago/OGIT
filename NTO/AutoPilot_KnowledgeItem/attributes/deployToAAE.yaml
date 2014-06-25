@@ -1,6 +1,6 @@
 - Attribute:
-    id: http://www.purl.org/arago/deploy
-    name: deploy
+    id: http://www.purl.org/arago/deployToAAE
+    name: deployToAAE
     description: |
       Boolean value, true if the KnowledgeItem can deploy into arago autopilot engine.
     valid-from: 2014-06-25 00:00:00
