@@ -26,6 +26,8 @@
     attributes:
       mandatory:
         - http://www.purl.org/arago/knowledgeItemFormalRepresentation
+        - http://www.purl.org/arago/deployToAAE
+        - http://www.purl.org/ogit/isValid
       optional:
         - http://www.purl.org/arago/modificationTime
         - http://www.purl.org/arago/creationTime
