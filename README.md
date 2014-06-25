@@ -1,4 +1,4 @@
-![Logo](https://github.com/arago/OGIT/raw/master/docs/images/OGIT_Logo.jpg)
+![Logo](/docs/images/OGIT_Logo.jpg)
 # Welcome to the 'Open Graph for IT' Ontology
 
 # Overview
@@ -38,7 +38,7 @@ If you have general questions or need support please contact us at <ogit@arago.d
 
 ## Current Ontology items
 
-Please see the [Graphit-Ontology documentation](http://repo.tabtab.org/doxygen-graphit/index.html) for a complete Documentation of all concepts currently covered by the OGIT ontology.   
+Please see the [Graphit-Ontology documentation](https://autopilot.co/dev/doxygen-graphit/) for a complete Documentation of all concepts currently covered by the OGIT ontology.   
 ```
 Use the Username "openpilot" and the Password "GT8agf3!" (each without quotes) to access the documentation
 ```

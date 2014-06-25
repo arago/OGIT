@@ -2,7 +2,8 @@
     id:   http://www.purl.org/ogit/OntologyEntity
     name: OntologyEntity
     description: |
-      represents any Entity definition from OGI
+      represents any Entity definition from OGIT
+      whenever there is a Schema describing/restricting the entity's content there will be "isUsedBy" link from Schema to OntologyEntity
     valid-from: 2014-04-16 00:00:00
     valid-until:
     creator: FCO
@@ -22,6 +23,10 @@
         date: 2014-05-15
         description: editing attributes
         modified-by: Peter Larem
+      - id: 3
+        date: 2014-05-30
+        description: description updated
+        modified-by: FCO
 
     attributes:
       mandatory:

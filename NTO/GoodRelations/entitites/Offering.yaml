@@ -1,0 +1,34 @@
+- Entity:
+    id: http://www.purl.org/ogit/gr/Offering
+    name: Offering
+    description: |
+      Defines a product or service that is provided or sought by a BusinessEntity.
+      see http://purl.org/goodrelations/v1#Offering
+    admin-contact: E-Business and Web Science Research Group
+    tech-contact: arago AG
+    created: 2014-05-27
+    creator: FCO
+    deleter: 
+    modified: 2014-05-27
+    parent: http://www.purl.org/ogit/Factual
+    scope: NTO
+    valid-from: 2014-06-01
+    valid-until: 
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: |
+          intitial version: only a minimal set of attributes added
+        modified-by: FCO
+
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/name
+      optional:
+        - http://www.purl.org/ogit/gr/serialNumber
+        - http://www.purl.org/ogit/gr/validFrom
+        - http://www.purl.org/ogit/gr/validThrough
+        - http://www.purl.org/ogit/gr/category
+
+    

@@ -22,7 +22,6 @@
 
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/si-unit
       optional:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description

@@ -1,0 +1,23 @@
+- Verb:
+    id: http://www.purl.org/ogit/gr/hasPriceSpecification
+    name: hasPriceSpecification
+    description: |
+      Links an Offering to a PriceSpecification
+      see http://purl.org/goodrelations/v1#hasPriceSpecification
+    admin-contact: E-Business and Web Science Research Group
+    tech-contact: arago AG
+    created: 2014-05-27
+    creator: FCO
+    deleter: 
+    modified: 2014-05-27
+    valid-from: 2014-06-01
+    valid-until: 
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: intitial version
+        modified-by: FCO
+
+    allowed:
+      - from: http://www.purl.org/ogit/gr/Offering
+        to: http://www.purl.org/ogit/gr/PriceSpecification

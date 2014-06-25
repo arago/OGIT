@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITService/isMutable
+    name: isMutable
+    description: 'True if the value can be changed after Service is provisioned'
+    admin-contact: 'arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-05-27
+    creator: FCO
+    deleter: ''
+    modified: 2014-05-27
+    valid-from: 2014-06-01
+    valid-until: 
+    validation-parameter: ''
+    validation-type: ''
+
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO

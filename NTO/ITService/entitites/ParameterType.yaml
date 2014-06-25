@@ -1,0 +1,27 @@
+- Entity:
+    id: http://www.purl.org/ogit/ITService/ParameterType
+    name: ParameterType
+    description: 'allows to define more details about the values of a Parameter
+
+    the Parameter will be linked to a ParameterType by the "uses" relationship. Each Parameter can have only one those connection'
+    admin-contact: 'arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-05-27
+    creator: FCO
+    deleter: ''
+    modified: 2014-05-27
+    parent: http://www.purl.org/ogit/Factual
+    scope: NTO
+    valid-from: 2014-06-01
+    valid-until: 
+
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/ITService/enumValues
+
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO
