@@ -22,5 +22,5 @@
     attributes:
       mandatory:
         - http://www.purl.org/ogit/description
-        - http://www.purl.org/arago/taskNumber
+        - http://www.purl.org/ogit/positionNumber
       optional:
