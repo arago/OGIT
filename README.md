@@ -30,7 +30,7 @@ Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT
 
 1. [Read more](LEARN_MORE.md) about the motivation for OGIT
 
-2. [Concepts](./wiki/Basic-Concepts) behind OGIT ontology
+2. [Concepts](../../wiki/Basic-Concepts) behind OGIT ontology
 
 3. [Ontology documentation](https://autopilot.co/dev/doxygen-graphit) - updated on daily basis
 
@@ -38,7 +38,7 @@ Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT
 
 5. [Contribute](CONTRIBUTING.md) to OGIT ontology
 
-6. [Try it out](./wiki/Graph-API-Tutorial)
+6. [Try it out](../../wiki/Graph-API-Tutorial)
 
 7. [Developer resources](https://autopilot.co/dev)
   - [GraphIT API reference](https://autopilot.co/dev/docs/graphit_rest_api.html)
