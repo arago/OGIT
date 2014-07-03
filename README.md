@@ -11,9 +11,9 @@ _Open Graph of IT_ aims to become the 'IT version' of **Google's Knowledge Graph
 
 Hence we need a common language for IT entities and relationships between them.
 
-The _OGIT ontology project_ targets to provide such common language by defining an ontology for the _Graph of IT_.
+The _OGIT ontology project_ targets to provide a such common language by defining an ontology for the _Graph of IT_.
 
-_OGIT ontology project_ is not hosting place for a specification. It also
+_OGIT ontology project_ is not only hosting place for a specification. It also
  provides a platform for domain experts to contribute to the ontology. 
 One of the basic principles is: _evolution over standardization_
 
