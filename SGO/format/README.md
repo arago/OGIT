@@ -8,7 +8,7 @@ Requirements for _Attribute_ definitions:
 * the (base) name of an attribute will be camel case (minus '-' is allowed)
 * each _Attribute_ should be defined in a separate YAML file named like the (base) name of that attribute
   * file name should be `<attribute-name>.yaml`
-  * file will be placed into __attributes__ sub-folder of context folder
+  * file will be placed into `attributes` sub-folder of context folder
 
 Requirements for _Entity_ definitions:
 * the first letter of each entity (base) name must be upper case 
