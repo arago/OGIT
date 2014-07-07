@@ -34,7 +34,7 @@ Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT
 
 3. [Ontology documentation](https://autopilot.co/dev/doxygen-graphit) - updated on daily basis
 
-4. [Technical representation](entities_verbs_and_all_that.md) of OGIT ontology
+4. [Technical representation](../../wiki/OGIT-ontology-details) of OGIT ontology
 
 5. [Contribute](CONTRIBUTING.md) to OGIT ontology
 
