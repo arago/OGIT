@@ -23,6 +23,6 @@ This list will evolve along with OGIT. Feel free to [suggest](CONTRIBUTING.md) a
 ### Where to go from here?
 
   - Read the [OGIT Concepts](../../wiki/Basic-Concepts) 
-  - Read about [technical representation of the ontology](entities_verbs_and_all_that.md) of OGIT ontology
+  - Read about [Ontology details](../../wiki/OGIT-ontology-details) of OGIT ontology
 
 Find more links on [main page](REAME.md)
