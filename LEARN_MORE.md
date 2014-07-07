@@ -25,4 +25,4 @@ This list will evolve along with OGIT. Feel free to [suggest](CONTRIBUTING.md) a
   - Read the [OGIT Concepts](../../wiki/Basic-Concepts) 
   - Read about [Ontology details](../../wiki/OGIT-ontology-details) of OGIT ontology
 
-Find more links on [main page](REAME.md)
+Find more links on [main page](README.md)
