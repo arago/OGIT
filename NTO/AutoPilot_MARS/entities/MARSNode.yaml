@@ -22,8 +22,13 @@
         date: 2013-09-01
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2014-07-07
+        description: added marsNodeType
+        modified-by: Spyridon Travlos
 
     attributes:
       mandatory:
         - http://www.purl.org/arago/marsNodeFormalRepresentation
       optional:
+        -http://www.purl.org/arago/marsNodeType
