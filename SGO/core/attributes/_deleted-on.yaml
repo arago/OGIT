@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/_deleted-on
+    name: _deleted-on
+    description: |
+      [internally generated] Timestamp in ms when the node was deleted
+    valid-from: 2013-11-01 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2013-09-01
+    modified: 2013-09-01
+    admin-contact: arago AG
+    tech-contact: arago AG
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2013-09-01
+        description: initial
+        modified-by: Peter Larem

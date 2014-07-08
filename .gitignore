@@ -1,0 +1,4 @@
+# Ignoring the following types
+.DS_Store
+# for Emacs
+*~

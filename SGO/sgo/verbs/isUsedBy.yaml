@@ -1,0 +1,29 @@
+- Verb:
+    id: http://www.purl.org/ogit/isUsedBy
+    name: isUsedBy
+    description: |
+      this relationship indicates the some entity is used by some other.
+      before using this relationship you should consider using the term "used" instead of "isUsedBy" 
+    valid-from: 2014-04-16 00:00:00
+    valid-until:
+    creator: FCO
+    deleter: 
+    created:  2014-04-16
+    modified: 2014-04-16
+    admin-contact: arago AG
+    tech-contact: arago AG
+    
+    history:
+      - id: 1
+        date: 2014-04-16
+        description: initial
+        modified-by: FCO
+      - id: 2
+        date: 2014-05-30
+        description: description updated
+        modified-by: FCO
+    
+    allowed:
+      - from: http://www.purl.org/ogit/Schema
+        to: http://www.purl.org/ogit/OntologyEntity
+

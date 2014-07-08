@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg4029"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="OGIT_Structure.svg">
+  <defs
+     id="defs3">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4695"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4677"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4674"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective4583" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.79188024"
+     inkscape:cx="-306.02715"
+     inkscape:cy="556.22531"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1575"
+     inkscape:window-height="1119"
+     inkscape:window-x="1787"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6188" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6316"
+       width="721.0686"
+       height="883.97205"
+       x="12.205076"
+       y="27.903332"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165341;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6141"
+       width="483.39722"
+       height="240.30606"
+       x="86.032013"
+       y="637.63507"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165341;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6145"
+       width="137.879"
+       height="41.781208"
+       x="411.39844"
+       y="660.26874"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="711.61285"
+       x="410.91794"
+       height="43.507053"
+       width="137.879"
+       id="rect6184"
+       style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165329;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6186"
+       width="137.879"
+       height="42.92424"
+       x="411.11957"
+       y="764.36578"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5953"
+       width="65.365082"
+       height="38.725815"
+       x="385.24557"
+       y="427.74231"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(1.0033352,0.99667589)"
+       xml:space="preserve"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="385.72296"
+       y="442.94437"
+       id="text5955"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="385.72296"
+         y="442.94437"
+         id="tspan5957">Changes</tspan></text>
+    <rect
+       y="443.70212"
+       x="362.03244"
+       height="38.725815"
+       width="65.365082"
+       id="rect5947"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5949"
+       y="458.9574"
+       x="362.58698"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       transform="scale(1.0033352,0.99667589)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan5951"
+         y="458.9574"
+         x="362.58698"
+         sodipodi:role="line"
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">Incidents</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5915"
+       width="65.365082"
+       height="38.725815"
+       x="339.26306"
+       y="462.50314"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(1.0033352,0.99667589)"
+       xml:space="preserve"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="339.89328"
+       y="477.82117"
+       id="text5917"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="339.89328"
+         y="477.82117"
+         id="tspan5923">Events</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:37.48471832px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="664.44257"
+       y="438.30591"
+       id="text4603"
+       sodipodi:linespacing="125%"
+       transform="scale(0.999995,1.000005)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4605"
+         x="664.44257"
+         y="438.30591"
+         style="font-size:31.71783829px;text-align:center;text-anchor:middle">NTO</tspan></text>
+    <rect
+       y="128.04947"
+       x="272.90616"
+       height="69.96946"
+       width="117.31154"
+       id="rect4609"
+       style="fill:#000000;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4611"
+       y="171.1844"
+       x="274.64835"
+       style="font-size:34.52888107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="171.1844"
+         x="274.64835"
+         id="tspan4613"
+         sodipodi:role="line"
+         style="font-size:26.56067657px">BigBang</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4615"
+       width="117.31154"
+       height="69.96946"
+       x="51.620972"
+       y="280.28806"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:25.73708916px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="54.787632"
+       y="305.08737"
+       id="text4617"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         id="tspan4619"
+         x="54.787632"
+         y="305.08737">Global</tspan><tspan
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="54.787632"
+         y="330.10953"
+         id="tspan4667">Knowledge</tspan></text>
+    <rect
+       y="280.28806"
+       x="192.4261"
+       height="69.96946"
+       width="117.31154"
+       id="rect4639"
+       style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4641"
+       y="305.68594"
+       x="197.07004"
+       style="font-size:25.73708916px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="305.68594"
+         x="197.07004"
+         id="tspan4643"
+         sodipodi:role="line"
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">Factual</tspan><tspan
+         y="330.7081"
+         x="197.07004"
+         sodipodi:role="line"
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan4665">Knowledge</tspan><tspan
+         y="355.73029"
+         x="197.07004"
+         sodipodi:role="line"
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan4663" /></text>
+    <rect
+       y="280.28806"
+       x="335.47687"
+       height="69.96946"
+       width="117.31154"
+       id="rect4645"
+       style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4647"
+       y="305.08737"
+       x="341.98413"
+       style="font-size:25.73708916px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="305.08737"
+         x="341.98413"
+         id="tspan4649"
+         sodipodi:role="line"
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">Situational</tspan><tspan
+         y="330.10953"
+         x="341.98413"
+         sodipodi:role="line"
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan4661">Knowledge</tspan><tspan
+         y="355.13171"
+         x="341.98413"
+         sodipodi:role="line"
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan4659" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4651"
+       width="117.31154"
+       height="69.96946"
+       x="476.28198"
+       y="280.28806"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:25.73708916px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="480.93265"
+       y="305.68594"
+       id="text4653"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         id="tspan4655"
+         x="480.93265"
+         y="305.68594">Actionable</tspan><tspan
+         style="font-size:20.01773643px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="480.93265"
+         y="330.7081"
+         id="tspan4657">Knowledge</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path5855"
+       d="M 391.71473,274.35886 339.7069,203.57779"
+       style="fill:none;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Lend)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Lend)"
+       d="m 258.138,273.72421 54.51697,-67.71673"
+       id="path5857"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path5859"
+       d="M 126.56464,274.09598 294.64936,202.94314"
+       style="fill:none;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Lend)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Lend)"
+       d="M 511.49332,274.78508 366.99526,203.57779"
+       id="path5861"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 634.82996,383.36571 -617.797626,0"
+       id="path5867"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       y="208.04343"
+       x="633.92633"
+       id="image5889"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAAAbCAYAAAAwNaIgAAAABHNCSVQICAgIfAhkiAAABuVJREFU
+WIXlWUtMU00bfttyMYHor0SkpUQhaWSBhKTVqkToAlHSekk0IrowYljIwkSUuMAY4Q/BS+LShAgm
+XohG0Y0ghHJpKrWgVLnEqJS2FkSrlGqxYBXa5998nPRIpeccyLf5n2SSOZ2Z53nnPe903pkjAgAK
+gclkonv37pHD4SC73U5Op5Oio6NpzZo1tHr1akpOTialUklKpZJUKhVJpVLii97eXtLr9WQwGGh0
+dJTcbjfNzMyQVCqllJQUSklJIblcThqNhvLz80kikfDWICICQGazmVpaWqirq4s+ffpEX79+JQCU
+mJhIMpmMNBoNFRQUUHZ2NolEonA0XYR/0NfXh927d4OIeBU+aG1thVqt5sWflJSEsrIy9Pf389Lq
+6OiASqXirKNUKtHe3h6OqpMAwGKxYMWKFbwdxNVJs7OzKC0tFcTPVysYDKK8vFywRnl5OYLBINtJ
+k5OT2LBhA9MpLi4OJ06cQHt7O6xWK6anp+Hz+eB0OvHq1Ss8efIEFy9ehE6ng1QqjWj03NwcCgoK
+WIbExsaiuLgY165dQ3NzM0ZGRuD3++FyuTAwMIDa2loUFhYiLi6Ol5OCwSCKiopYY2JiYnDs2DE8
+fPgQdrsdP378wPT0NBwOBx49eoTjx48jNjaWNaaoqCjUUZ1UWVnJCu3h4WFOb4wrzp07xzIgOzsb
+b9++5TTW4/GgpqYGCQkJnJx05coVllZeXh5sNlvEcQ6HA7t27WKNvXr16nxzJ+3Zs4dpaGxs5GQ8
+V5hMJohEIoa/urr6z1DmBJfLhQMHDizaZ3BwEFFRUYzW4cOH8fv3b84as7OzOHr0KDM+OjoaQ0ND
+ANBJMpmMaZiYmOA9gcWg0+kYbrVaLchBXBG6zBITE+H1enlzTE1NYd26dQzPkSNHAKCT5kOZiPDx
+48dlM9pqtbKiqLu7e9m4/8TY2Bgrim7cuCGYq66ujuGJioqC1Wo1UU5ODvNjfX39shl+/fp1hnfv
+3r3LxhsOoRPLyspCIBAQzBUIBJCVlRX63/RWrFaraR5lZWXU3NxMywGj0cjUt23btiycXLR0Oh2J
+xWLBXGKxmHQ6HfP87Nmz/4grKipILpcTEZHX6yWdTkcqlYoqKyvJYDDQz58/BYm9efOGqaelpQk2
+mgv6+/uZukKhWDJfKMe7d+/iCQCMRiOkUmnY5EoikWDjxo0oLCzEzZs38eXLF05hG7oh9PX1CQ5/
+LkhOTma0zGbzkvmeP38eugn4meTD6/Xi1KlTETNvkUiErVu3oqOjY1GhUB6Px8PJuMV050skLbfb
+zcMd4eF2u0MT37kFqjMzM2hqasLJkyeRnp4OsVj8V2eVlJTA5/NFNPzfdNLk5CQPd4TH5ORkqJMC
+EdPYmZkZ9PT04NKlS8jPz0dMTAzL6JKSkrDjQpfbixcvOBkn1EmhWj09PZy0FoPZbA6/3LjCZrPh
+4MGDLMNbW1sX9Nu0aRPT3tDQsCSjIzkpMzOTab99+/aStADg1q1bDJ9CofjBe69MS0ujBw8ekFar
+ZX5raGhY0C8jI4Opj4yM8JXhhczMTKY+PDy8ZD6r1crU09PTfYISCpFIRBUVFcxz6BY8j5ycHKbe
+3d0tRIYzcnNzmXpTUxMFg0HBXMFgkJUr7tix4zvv5TYPr9fLhGR8fPyCdpvNxjqWNDc3Cw5/irDc
+RkdHIZFIluVYUl9fv/BYIpTMYrEwZCqVKmyfffv2ha5t/Pr1S5BWJCcBQGFh4bIccJOSkhYecAVZ
+DeD8+fMRd7je3l5WNJWWlsLv9/PW4uKk169fL/tVyeDgIAB0UkZGBqqrqzldTs3jzp07rMkvdjC+
+cOECa5IKhQJtbW2ctcbGxjg5CQBqampYffPy8mC32yNqfPjwYfFLt9CGLVu2oKqqCnfv3oXRaITT
+6YTf78f4+DhevnyJuro6bN68mUW2c+dOzM3N/dWAQCCA/fv3L8h3tFotqqqqcP/+fVgsFkxNTcHr
+9eL9+/cwGo2ora2FRqNhvYxITgoGgzh06BCr//z1bWNjI+x2O3w+H3N9+/jxYxQXF0e+vv3TeD4l
+NTWVU4YbCARw9uxZwTpEhPXr1+Pp06ectE6fPi1Y58yZMws/BAghWrlyJcrLy/H58+eIRofCYDBA
+o9HwfhGXL1/+6/Hnb9Dr9VAqlZx1lEol9Hp9OKpOkcvlwtDQEM0Xq9VKHo+Hvn//Tt++fSORSERy
+uZz5aJiZmUnFxcW0atUqEoqBgQFqa2ujrq4ustvt5Ha7yev1Unx8PCUkJFBqaipt376dNBoN5ebm
+Cr4fAkAmk4laWlrIYDDQ+Pg4TUxMEBHR2rVrSSaTUW5uLmm12kU/TooA/FfwbP8/YP8f+G6lg9+P
+RosAAAAASUVORK5CYII=
+"
+       height="24.431234"
+       width="66.054153"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="481.06461"
+       x="313.12604"
+       height="38.725815"
+       width="65.365082"
+       id="rect5892"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5894"
+       y="496.44449"
+       x="314.43985"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       transform="scale(1.0033352,0.99667589)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan5898"
+         y="496.44449"
+         x="314.43985"
+         sodipodi:role="line"
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">Monitoring</tspan><tspan
+         y="510.33997"
+         x="314.43985"
+         sodipodi:role="line"
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan5913">Data</tspan></text>
+    <rect
+       y="439.23279"
+       x="227.66959"
+       height="38.725815"
+       width="65.365082"
+       id="rect5988"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5994"
+       width="65.365082"
+       height="38.725815"
+       x="204.45642"
+       y="455.19257"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(1.0033594,0.99665185)"
+       xml:space="preserve"
+       style="font-size:17.1474781px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="170.35046"
+       y="487.77206"
+       id="text6008"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:13.33692837px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="170.35046"
+         y="487.77206"
+         id="tspan6094" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6014"
+       width="65.365082"
+       height="38.725815"
+       x="102.10118"
+       y="427.74231"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(1.0033352,0.99667589)"
+       xml:space="preserve"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="103.51964"
+       y="442.94437"
+       id="text6016"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="103.51964"
+         y="442.94437"
+         id="tspan6018">...</tspan></text>
+    <rect
+       y="443.70212"
+       x="78.888046"
+       height="38.725815"
+       width="65.365082"
+       id="rect6020"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6022"
+       y="458.9574"
+       x="80.383621"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       transform="scale(1.0033352,0.99667589)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan6024"
+         y="458.9574"
+         x="80.383621"
+         sodipodi:role="line"
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">...</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6026"
+       width="65.365082"
+       height="38.725815"
+       x="56.11866"
+       y="462.50314"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(1.0033352,0.99667589)"
+       xml:space="preserve"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="57.689934"
+       y="477.82117"
+       id="text6028"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="57.689934"
+         y="477.82117"
+         id="tspan6030">Thresholds</tspan></text>
+    <rect
+       y="481.06461"
+       x="29.981636"
+       height="38.725815"
+       width="65.365082"
+       id="rect6032"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6034"
+       y="496.44449"
+       x="32.236557"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       transform="scale(1.0033352,0.99667589)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan6036"
+         y="496.44449"
+         x="32.236557"
+         sodipodi:role="line"
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">Monitoring</tspan><tspan
+         y="510.33997"
+         x="32.236557"
+         sodipodi:role="line"
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan6038">Policies</tspan></text>
+    <rect
+       y="427.74231"
+       x="542.82153"
+       height="38.725815"
+       width="65.365082"
+       id="rect6040"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6042"
+       y="442.94437"
+       x="542.77515"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       transform="scale(1.0033352,0.99667589)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan6044"
+         y="442.94437"
+         x="542.77515"
+         sodipodi:role="line"
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">...</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6046"
+       width="65.365082"
+       height="38.725815"
+       x="519.60846"
+       y="443.70212"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(1.0033352,0.99667589)"
+       xml:space="preserve"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="519.63922"
+       y="458.9574"
+       id="text6048"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="519.63922"
+         y="458.9574"
+         id="tspan6050">....</tspan></text>
+    <rect
+       y="462.50314"
+       x="496.83905"
+       height="38.725815"
+       width="65.365082"
+       id="rect6052"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6054"
+       y="477.82117"
+       x="496.94543"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       transform="scale(1.0033352,0.99667589)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan6056"
+         y="477.82117"
+         x="496.94543"
+         sodipodi:role="line"
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">How to do?</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6058"
+       width="65.365082"
+       height="38.725815"
+       x="470.702"
+       y="481.06461"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(1.0033352,0.99667589)"
+       xml:space="preserve"
+       style="font-size:14.29249096px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="471.49203"
+       y="496.44449"
+       id="text6060"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="471.49203"
+         y="496.44449"
+         id="tspan6121">What to</tspan><tspan
+         style="font-size:11.11638355px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="471.49203"
+         y="510.33997"
+         id="tspan6125">do?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="258.96878"
+       y="451.71216"
+       id="text6098"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6100"
+         x="258.96878"
+         y="451.71216" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.83555126px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="208.88789"
+       y="471.75583"
+       id="text6113"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6115"
+         x="208.88789"
+         y="471.75583">IT-</tspan><tspan
+         sodipodi:role="line"
+         x="208.88789"
+         y="485.30026"
+         id="tspan6117">Landscape</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.16854382px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="233.76514"
+       y="452.13501"
+       id="text6127"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6129"
+         x="233.76514"
+         y="452.13501"
+         style="font-size:11.08560371px">...</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 201.75189,500.57012 86.79631,633.8004"
+       id="path6131"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 269.87068,502.21161 294.9523,131.29394"
+       id="path6133"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6135"
+       d="m 138.70779,570.49626 -120.854748,0"
+       style="fill:none;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6137"
+       y="642.73584"
+       x="672.35815"
+       style="font-size:37.48471832px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="scale(0.999995,1.000005)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:31.71783829px;text-align:center;text-anchor:middle"
+         y="642.73584"
+         x="672.35815"
+         id="tspan6139"
+         sodipodi:role="line">SN*A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.83555126px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="414.6911"
+       y="674.2052"
+       id="text6149"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6151"
+         x="414.6911"
+         y="674.2052">Required Attributes</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6176"
+       y="725.54797"
+       x="414.21054"
+       style="font-size:10.83555126px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="725.54797"
+         x="414.21054"
+         id="tspan6178"
+         sodipodi:role="line">Best Practice Attributes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.83555126px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="414.4122"
+       y="778.91583"
+       id="text6180"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9999758,1.0000242)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6182"
+         x="414.4122"
+         y="778.91583">Free Attributes</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.95793974;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path6190"
+       sodipodi:cx="125.32831"
+       sodipodi:cy="679.16235"
+       sodipodi:rx="18.102978"
+       sodipodi:ry="18.102978"
+       d="m 143.43129,679.16235 a 18.102978,18.102978 0 1 1 -36.20596,0 18.102978,18.102978 0 1 1 36.20596,0 z"
+       transform="matrix(0.90485145,0,0,0.90486053,68.38267,66.30286)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.90485145,0,0,0.90486053,139.28702,120.49664)"
+       d="m 143.43129,679.16235 a 18.102978,18.102978 0 1 1 -36.20596,0 18.102978,18.102978 0 1 1 36.20596,0 z"
+       sodipodi:ry="18.102978"
+       sodipodi:rx="18.102978"
+       sodipodi:cy="679.16235"
+       sodipodi:cx="125.32831"
+       id="path6192"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.95793974;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.95793974;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path6194"
+       sodipodi:cx="125.32831"
+       sodipodi:cy="679.16235"
+       sodipodi:rx="18.102978"
+       sodipodi:ry="18.102978"
+       d="m 143.43129,679.16235 a 18.102978,18.102978 0 1 1 -36.20596,0 18.102978,18.102978 0 1 1 36.20596,0 z"
+       transform="matrix(0.90485145,0,0,0.90486053,42.747233,152.82794)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.90485145,0,0,0.90486053,124.64976,185.58928)"
+       d="m 143.43129,679.16235 a 18.102978,18.102978 0 1 1 -36.20596,0 18.102978,18.102978 0 1 1 36.20596,0 z"
+       sodipodi:ry="18.102978"
+       sodipodi:rx="18.102978"
+       sodipodi:cy="679.16235"
+       sodipodi:cx="125.32831"
+       id="path6196"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.95793974;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 198.69381,686.4382 43.13263,34.80055"
+       id="path6198"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 178.10779,697.71162 -18.62547,51.95574"
+       id="path6202"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 249.17859,751.13781 -9.31273,32.34979"
+       id="path6204"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6206"
+       width="29.408615"
+       height="8.8226728"
+       x="130.0737"
+       y="664.87164"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="677.12537"
+       x="130.0737"
+       height="8.8226728"
+       width="29.408615"
+       id="rect6208"
+       style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6210"
+       width="29.408615"
+       height="8.8226728"
+       x="130.0737"
+       y="689.37909"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="794.27087"
+       x="261.43219"
+       height="8.8226728"
+       width="29.408615"
+       id="rect6212"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6214"
+       width="29.408615"
+       height="8.8226728"
+       x="261.43219"
+       y="806.5246"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="818.77832"
+       x="261.43219"
+       height="8.8226728"
+       width="29.408615"
+       id="rect6216"
+       style="fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6218"
+       width="29.408615"
+       height="8.8226728"
+       x="276.13651"
+       y="717.31757"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="729.57129"
+       x="276.13651"
+       height="8.8226728"
+       width="29.408615"
+       id="rect6220"
+       style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="756.52942"
+       x="106.05667"
+       height="8.8226728"
+       width="29.408615"
+       id="rect6224"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 635.65067,570.49626 -209.18104,0"
+       id="path6230"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.76312828px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="631.50629"
+       y="668.06506"
+       id="text6232"
+       sodipodi:linespacing="125%"
+       transform="scale(0.999995,1.000005)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6234"
+         x="631.50629"
+         y="668.06506">Specific Node</tspan><tspan
+         sodipodi:role="line"
+         x="631.50629"
+         y="682.76898"
+         id="tspan6236">Attributes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.76312828px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="527.8045"
+       y="696.23376"
+       id="text6238"
+       sodipodi:linespacing="125%"
+       transform="scale(0.999995,1.000005)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6240"
+         x="527.8045"
+         y="696.23376"
+         style="font-size:21.7165432px;font-weight:bold;-inkscape-font-specification:Sans Bold">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.76312828px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="527.8045"
+       y="748.0799"
+       id="text6257"
+       sodipodi:linespacing="125%"
+       transform="scale(0.999995,1.000005)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6259"
+         x="527.8045"
+         y="748.0799"
+         style="font-size:21.7165432px;font-weight:bold;-inkscape-font-specification:Sans Bold">B</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6261"
+       y="799.8504"
+       x="527.8045"
+       style="font-size:11.76312828px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="scale(0.999995,1.000005)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:21.7165432px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         y="799.8504"
+         x="527.8045"
+         id="tspan6263"
+         sodipodi:role="line">F</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6265"
+       y="462.04465"
+       x="631.50629"
+       style="font-size:11.76312828px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="scale(0.999995,1.000005)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan6269"
+         y="462.04465"
+         x="631.50629"
+         sodipodi:role="line">Node Type</tspan><tspan
+         y="476.74857"
+         x="631.50629"
+         sodipodi:role="line"
+         id="tspan6273">Details</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.76312828px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="631.50629"
+       y="256.0242"
+       id="text6275"
+       sodipodi:linespacing="125%"
+       transform="scale(0.999995,1.000005)"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan6279"
+         sodipodi:role="line"
+         x="631.50629"
+         y="256.0242">Node Types</tspan><tspan
+         sodipodi:role="line"
+         x="631.50629"
+         y="270.72812"
+         id="tspan6283">(Entities/Actions)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="38.433224"
+       y="63.619648"
+       id="text6293"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Volumes/Data/Users/roland/graphIT-ontology/Wiki/imgs/raw/OGIT_Structure.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6295"
+         x="38.433224"
+         y="63.619648"
+         style="font-size:20px">Structure of OGIT Ontology</tspan></text>
+  </g>
+</svg>

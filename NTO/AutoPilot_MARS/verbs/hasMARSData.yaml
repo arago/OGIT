@@ -1,0 +1,31 @@
+- Verb:
+    id: http://www.purl.org/arago/hasMARSData
+    name: hasMARSData
+    description: |
+      Relation to dynamically changing live node represantation tree used be arago AutoPilot
+    valid-from: 2013-11-01 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2013-09-01
+    modified: 2013-09-01
+    admin-contact: arago AG
+    tech-contact: arago AG
+    
+    history:
+      - id: 1
+        date: 2013-09-01
+        description: initial
+        modified-by: Peter Larem
+    
+    allowed:
+      - from: http://www.purl.org/arago/MARSNode
+        to: http://www.purl.org/arago/MARSData
+      - from: http://www.purl.org/arago/MARSMachineNode
+        to: http://www.purl.org/arago/MARSData
+      - from: http://www.purl.org/arago/MARSSoftwareNode
+        to: http://www.purl.org/arago/MARSData
+      - from: http://www.purl.org/arago/MARSResourceNode
+        to: http://www.purl.org/arago/MARSData
+      - from: http://www.purl.org/arago/MARSApplicationNode
+        to: http://www.purl.org/arago/MARSData

@@ -1,0 +1,23 @@
+- Verb:
+    id: http://www.purl.org/ogit/hasTimeseries
+    name: hasTimeseries
+    description: |
+      Every Node can own Timeseries.
+    valid-from: 2014-05-09 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2014-05-09
+    modified: 2014-05-09
+    admin-contact: arago AG
+    tech-contact: arago AG
+    
+    history:
+      - id: 1
+        date: 2014-05-09
+        description: initial
+        modified-by: Peter Larem
+    
+    allowed:
+      - from: http://www.purl.org/ogit/Node
+        to: http://www.purl.org/ogit/Timeseries

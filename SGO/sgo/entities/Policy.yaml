@@ -1,0 +1,25 @@
+- Entity:
+    id:   http://www.purl.org/ogit/Policy
+    name: Policy
+    description: |
+      A Policy that governs data access in GraphIT. It is connected and applied to Organizations
+    valid-from: 2014-04-04 00:00:00
+    valid-until:
+    creator: arago AG
+    deleter: 
+    created:  2014-04-04
+    modified: 2014-04-04
+    admin-contact: ogit@arago.de
+    tech-contact: ogit@arago.de
+    scope: SGO
+    parent: http://www.purl.org/ogit/Global
+    history:
+      - id: 1
+        date: 2014-04-04
+        description: initial
+        modified-by: Stefan Pitz
+
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/content
+      optional:    

@@ -1,0 +1,24 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITService/isCapacityAvailable
+    name: isCapacityAvailable
+    description: 'If the flag is true, then service can be ordered by new instance. If the flag is false, the service cannot temporarily be ordered due to capacity reasons.'
+    admin-contact: 'arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-05-27
+    creator: FCO
+    deleter: ''
+    modified: 2014-05-27
+    valid-from: 2014-06-01
+    valid-until: 
+    validation-parameter: ''
+    validation-type: ''
+
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO
+      - id: 2
+        date: 2014-06-02
+        description: 'added description'
+        modified-by: CO

@@ -1,0 +1,29 @@
+- Verb:
+    id: http://www.purl.org/ogit/contains
+    name: contains
+    description: |
+      This relationship indicates that something is part of something else, whereby one child can belong to only one parent object.
+      see also "includes"
+    cardinality: one2many
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-05-27
+    creator: FCO
+    deleter: 
+    modified: 2014-05-27
+    valid-from: 2014-06-01
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/Catalog/Catalog
+        to: http://www.purl.org/ogit/Catalog/Item
+      - from: http://www.purl.org/arago/TaskList
+        to: http://www.purl.org/arago/Task
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO
+      - id: 2
+        date: 2014-06-26
+        description: 'add a connection'
+        modified-by: Peter Larem
