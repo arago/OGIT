@@ -7,7 +7,7 @@ _Open Graph of IT_ aims to build a semantic representation of all IT and its int
 
 Such an endeavour requires a sound data space as a foundation for computational evaluation of this enterprise space. 
 
-_Open Graph of IT_ aims to become the 'IT version' of **Google's Knowledge Graph** oder Facebook's **Social Graph**.
+_Open Graph of IT_ aims to become the 'IT version' of **Google's Knowledge Graph** or Facebook's **Social Graph**.
 
 Hence we need a common language for IT entities and relationships between them.
 
