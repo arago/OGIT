@@ -1,0 +1,35 @@
+- Entity:
+     id:   http://www.purl.org/swproject/Task
+     name: Task
+     description: A task is the smallest unit of work in a Software Project
+     valid-from: 2014-10-06 00:00:00
+     valid-until: 
+     creator: Spyridon Travlos
+     deleter: 
+     created:  2014-10-06
+     modified: 2014-19-06
+     admin-contact: arago AG
+     tech-contact: arago AG
+     scope: NTO
+     parent: http://www.purl.org/ogit/Global
+     history:
+      - id: 1
+        date: 2014-10-06
+        description: initial
+        modified-by: Spyridon Travlos
+
+     attributes:
+       mandatory:
+          - http://www.purl.org/ogit/name
+          - http://www.purl.org/ogit/uri
+          - http://www.purl.org/swproject/start_date
+          - http://www.purl.org/swproject/end_date
+          - http://www.purl.org/swproject/hours_spent
+          - http://www.purl.org/swproject/size
+          - http://www.purl.org/swproject/size_estimated
+          - http://www.purl.org/swproject/status
+          - http://www.purl.org/swproject/challenge
+          - http://www.purl.org/swproject/priority
+          - http://www.purl.org/swproject/size_adjusted
+          - http://www.purl.org/swproject/due_date
+          - http://www.purl.org/ogit/description
