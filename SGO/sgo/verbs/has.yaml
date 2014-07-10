@@ -7,15 +7,23 @@
     created: 2014-05-27
     creator: FCO
     deleter: ''
-    modified: 2014-05-27
+    modified: 2014-07-10
     valid-from: 2014-06-01
     valid-until: 
     allowed:
       -
         from: http://www.purl.org/ogit/ITService/Parameter
         to: http://www.purl.org/ogit/ITService/ParameterType
+      -
+        from: http://www.purl.org/ogit/arago/MARSModel
+        to: http://www.purl.org/ogit/arago/MARSNode
+
     history:
       - id: 1
         date: 2014-05-27
         description: 'intitial version'
+        modified-by: FCO
+      - id: 2
+        date: 2014-07-10
+        description: 'new allowed section added'
         modified-by: FCO
