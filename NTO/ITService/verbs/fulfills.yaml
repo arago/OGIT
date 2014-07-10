@@ -1,6 +1,6 @@
 - Verb:
-    id: http://www.purl.org/ogit/fullfills
-    name: fullfills
+    id: http://www.purl.org/ogit/fulfills
+    name: fulfills
     description: |
       Description of fullfills.
     admin-contact: arago AG
