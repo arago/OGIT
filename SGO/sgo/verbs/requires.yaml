@@ -14,7 +14,8 @@
       -
         from: http://www.purl.org/ogit/Catalog/Item
         to: http://www.purl.org/ogit/Catalog/Item
-    history:
+	      from: http://www.purl.org/swproject/Task
+        to: http://www.purl.org/ogit/swproject/Task
       - id: 1
         date: 2014-05-27
         description: 'intitial version'
