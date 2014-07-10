@@ -1,9 +1,10 @@
 - Entity:
     id: http://www.purl.org/ogit/ITService/Parameter
     name: Parameter
-    description: 'used to attach parameter to a Service template.'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    description: |
+      Used to attach parameter to a Service template.
+    admin-contact: arago AG
+    tech-contact: arago AG
     created: 2014-05-27
     creator: FCO
     deleter: ''

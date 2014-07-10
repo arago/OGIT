@@ -1,13 +1,13 @@
 - Entity:
     id: http://www.purl.org/ogit/ITService/Action
     name: Action
-    description: 'defines Actions on Services.
-    a Service is connected to the available Actions by the "supports" relationship'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    description: |
+      Defines Actions on Services. A Service is connected to the available Actions by the "supports" relationship.
+    admin-contact: arago AG
+    tech-contact: arago AG
     created: 2014-05-27
     creator: FCO
-    deleter: ''
+    deleter: 
     modified: 2014-05-27
     parent: http://www.purl.org/ogit/Catalog/Item
     scope: NTO
@@ -15,6 +15,7 @@
     valid-until: 
 
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/ogit/ITService/id
 
