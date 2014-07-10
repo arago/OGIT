@@ -1,14 +1,14 @@
 - Entity:
     id: http://www.purl.org/ogit/ITService/Offering
     name: Offering
-    description: 'this is a concrete offering for a Service from the Catalog. It provides details about which gr/BusinessEntity is offering, where (Geo/Region) the offer is valid together with pricing information.
-
-    Each offering might have one or more implementation templates attached to it. An implementation template will be a tree of MARS nodes the root of which is connected to the Offering via the "implements" relationship'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    description: |
+      This is a concrete offering for a Service from the Catalog. It provides details about which gr/BusinessEntity is offering, where (Geo/Region) the offer is valid together with pricing information.
+      Each offering might have one or more implementation templates attached to it. An implementation template will be a tree of MARS nodes the root of which is connected to the Offering via the "implements" relationship.
+    admin-contact: arago AG
+    tech-contact: arago AG
     created: 2014-05-27
     creator: FCO
-    deleter: ''
+    deleter: 
     modified: 2014-06-12
     parent: http://www.purl.org/ogit/gr/Offering
     scope: NTO
@@ -16,6 +16,7 @@
     valid-until: 
 
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/ogit/ITService/id
         - http://www.purl.org/ogit/version
