@@ -12,12 +12,11 @@
     valid-from: 2014-06-01
     valid-until: 
     allowed:
-      -
-        from: http://www.purl.org/ogit/gr/Offering
+      - from: http://www.purl.org/ogit/gr/Offering
         to: http://www.purl.org/ogit/Catalog/Item
-	      from: http://www.purl.org/swproject/Release
+      - from: http://www.purl.org/swproject/Release
         to: http://www.purl.org/swproject/Milestone
-	      from: http://www.purl.org/swproject/Milestone
+      - from: http://www.purl.org/swproject/Milestone
         to: http://www.purl.org/swproject/Task
     history:
       - id: 1
