@@ -1,22 +1,21 @@
 - Verb:
     id: http://www.purl.org/ogit/has
     name: has
-    description: 'very general reationship. similar to "contains"'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    description: |
+      Very general reationship. similar to "contains".
+    admin-contact: arago AG
+    tech-contact: arago AG
     created: 2014-05-27
     creator: FCO
-    deleter: ''
+    deleter: 
     modified: 2014-07-10
     valid-from: 2014-06-01
     valid-until: 
     allowed:
-      -
-        from: http://www.purl.org/ogit/ITService/Parameter
+      - from: http://www.purl.org/ogit/ITService/Parameter
         to: http://www.purl.org/ogit/ITService/ParameterType
-      -
-        from: http://www.purl.org/ogit/arago/MARSModel
-        to: http://www.purl.org/ogit/arago/MARSNode
+      - from: http://www.purl.org/arago/MARSModel
+        to: http://www.purl.org/arago/MARSNode
 
     history:
       - id: 1
