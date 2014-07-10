@@ -1,12 +1,13 @@
 - Entity:
     id: http://www.purl.org/ogit/ITService/Service
     name: Service
-    description: 'a single service template in the catalog'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    description: |
+      A single service template in the catalog.
+    admin-contact: arago AG
+    tech-contact: arago AG
     created: 2014-05-27
     creator: FCO
-    deleter: ''
+    deleter: 
     modified: 2014-06-12
     parent: http://www.purl.org/ogit/Catalog/Item
     scope: NTO
@@ -14,6 +15,7 @@
     valid-until: 
 
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/ogit/ITService/id
         - http://www.purl.org/ogit/uri
