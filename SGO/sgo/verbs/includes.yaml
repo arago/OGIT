@@ -16,9 +16,9 @@
         from: http://www.purl.org/ogit/gr/Offering
         to: http://www.purl.org/ogit/Catalog/Item
 	      from: http://www.purl.org/swproject/Release
-        to: http://www.purl.org/ogit/swproject/Milestone
+        to: http://www.purl.org/swproject/Milestone
 	      from: http://www.purl.org/swproject/Milestone
-        to: http://www.purl.org/ogit/swproject/Task
+        to: http://www.purl.org/swproject/Task
     history:
       - id: 1
         date: 2014-05-27
