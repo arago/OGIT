@@ -2,18 +2,18 @@
     id:   http://www.purl.org/ogit/SWProject/challenge
     name: challenge
     description: Challenge of a Task
-    valid-from: 2014-10-06 00:00:00
+    valid-from: 2014-06-10 00:00:00
     valid-until: 
     creator: Spyridon Travlos
     deleter: 
-    created:  2014-10-06
-    modified: 2013-10-06
+    created:  2014-06-10
+    modified: 2014-06-10
     admin-contact: arago AG
     tech-contact: arago AG
     validation-type:
     validation-parameter: 
     history:
       - id: 1
-        date: 2014-10-06
+        date: 2014-06-10
         description: initial
         modified-by: Spyridon Travlos
