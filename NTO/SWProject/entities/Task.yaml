@@ -2,19 +2,19 @@
      id:   http://www.purl.org/ogit/SWProject/Task
      name: Task
      description: A task is the smallest unit of work in a Software Project
-     valid-from: 2014-10-06 00:00:00
+     valid-from: 2014-06-10 00:00:00
      valid-until: 
      creator: Spyridon Travlos
      deleter: 
-     created:  2014-10-06
-     modified: 2014-19-06
+     created:  2014-06-10
+     modified: 2014-06-19
      admin-contact: arago AG
      tech-contact: arago AG
      scope: NTO
      parent: http://www.purl.org/ogit/Global
      history:
       - id: 1
-        date: 2014-10-06
+        date: 2014-06-10
         description: initial
         modified-by: Spyridon Travlos
 
