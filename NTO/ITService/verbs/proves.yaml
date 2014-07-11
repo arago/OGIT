@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.org/ogit/proves
+    id: http://www.purl.org/ogit/ITService/proves
     name: proves
     description: |
       One entity can "prove" another.
