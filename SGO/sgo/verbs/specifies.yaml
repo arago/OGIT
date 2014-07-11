@@ -12,7 +12,7 @@
     valid-from: 2014-07-11
     valid-until: 
     allowed:
-      - from: http://www.purl.org/ITService/Offering
+      - from: http://www.purl.org/ogit/ITService/Offering
         to: http://www.purl.org/arago/MARSModel
     history:
       - id: 1
