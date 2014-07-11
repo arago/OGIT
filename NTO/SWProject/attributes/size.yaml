@@ -1,5 +1,5 @@
 - Attribute:
-    id:   http://www.purl.org/swproject/size
+    id:   http://www.purl.org/ogit/SWProject/size
     name: size
     description: Size of a Task
     valid-from: 2014-10-06 00:00:00

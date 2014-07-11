@@ -1,5 +1,5 @@
 - Verb:
-     id:   http://www.purl.org/swproject/categorizedBy
+     id:   http://www.purl.org/ogit/SWProject/categorizedBy
      name: categorizedBy
      description: A task is categorized by an artifact
      valid-from: 2014-10-06 00:00:00
@@ -17,5 +17,5 @@
         modified-by: Spyridon Travlos
 
      allowed:
-        - from: http://www.purl.org/swproject/Task 
-          to: http://www.purl.org/swproject/Artifact
+        - from: http://www.purl.org/ogit/SWProject/Task 
+          to: http://www.purl.org/ogit/SWProject/Artifact

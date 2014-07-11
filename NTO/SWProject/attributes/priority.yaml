@@ -1,5 +1,5 @@
 - Attribute:
-    id:   http://www.purl.org/swproject/priority
+    id:   http://www.purl.org/ogit/SWProject/priority
     name: priority
     description: priority for rike
     valid-from: 2014-10-06 00:00:00

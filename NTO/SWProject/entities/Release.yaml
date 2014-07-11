@@ -1,5 +1,5 @@
 - Entity:
-     id:   http://www.purl.org/swproject/Release
+     id:   http://www.purl.org/ogit/SWProject/Release
      name: Release
      description: A Release of a Software Project
      valid-from: 2014-10-06 00:00:00
@@ -21,7 +21,7 @@
      attributes:
        mandatory:
           - http://www.purl.org/ogit/name
-          - http://www.purl.org/swproject/end_date
-          - http://www.purl.org/swproject/size_estimated
-          - http://www.purl.org/swproject/real_size
-          - http://www.purl.org/swproject/hours_spent
+          - http://www.purl.org/ogit/SWProject/end_date
+          - http://www.purl.org/ogit/SWProject/size_estimated
+          - http://www.purl.org/ogit/SWProject/real_size
+          - http://www.purl.org/ogit/SWProject/hours_spent

@@ -1,5 +1,5 @@
 - Entity:
-     id:   http://www.purl.org/swproject/Task
+     id:   http://www.purl.org/ogit/SWProject/Task
      name: Task
      description: A task is the smallest unit of work in a Software Project
      valid-from: 2014-10-06 00:00:00
@@ -22,14 +22,14 @@
        mandatory:
           - http://www.purl.org/ogit/name
           - http://www.purl.org/ogit/uri
-          - http://www.purl.org/swproject/start_date
-          - http://www.purl.org/swproject/end_date
-          - http://www.purl.org/swproject/hours_spent
-          - http://www.purl.org/swproject/size
-          - http://www.purl.org/swproject/size_estimated
-          - http://www.purl.org/swproject/status
-          - http://www.purl.org/swproject/challenge
-          - http://www.purl.org/swproject/priority
-          - http://www.purl.org/swproject/size_adjusted
-          - http://www.purl.org/swproject/due_date
+          - http://www.purl.org/ogit/SWProject/start_date
+          - http://www.purl.org/ogit/SWProject/end_date
+          - http://www.purl.org/ogit/SWProject/hours_spent
+          - http://www.purl.org/ogit/SWProject/size
+          - http://www.purl.org/ogit/SWProject/size_estimated
+          - http://www.purl.org/ogit/SWProject/status
+          - http://www.purl.org/ogit/SWProject/challenge
+          - http://www.purl.org/ogit/SWProject/priority
+          - http://www.purl.org/ogit/SWProject/size_adjusted
+          - http://www.purl.org/ogit/SWProject/due_date
           - http://www.purl.org/ogit/description

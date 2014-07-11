@@ -1,5 +1,5 @@
 - Attribute:
-    id:   http://www.purl.org/swproject/due_date
+    id:   http://www.purl.org/ogit/SWProject/due_date
     name: due_date
     description: The due date of a work unit
     valid-from: 2014-10-06 00:00:00

@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/swproject/Artifact
+    id:   http://www.purl.org/ogit/SWProject/Artifact
     name: Artifact
     description: Artifact is the category to which each release or milestone of a software project belongs to
     valid-from: 2014-10-06 00:00:00

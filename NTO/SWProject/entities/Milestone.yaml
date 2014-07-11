@@ -1,5 +1,5 @@
 - Entity:
-     id:   http://www.purl.org/swproject/Milestone
+     id:   http://www.purl.org/ogit/SWProject/Milestone
      name: Milestone
      description: A milestone is a collection of tasks leading to a goal in the software development process
      valid-from: 2014-10-06 00:00:00
@@ -21,6 +21,6 @@
      attributes:
        mandatory:
           - http://www.purl.org/ogit/name
-          - http://www.purl.org/swproject/due_date
+          - http://www.purl.org/ogit/SWProject/due_date
           - http://www.purl.org/ogit/uri 
-          - http://www.purl.org/swproject/performance
+          - http://www.purl.org/ogit/SWProject/performance

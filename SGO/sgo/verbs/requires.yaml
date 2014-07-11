@@ -14,8 +14,8 @@
       -
         from: http://www.purl.org/ogit/Catalog/Item
         to: http://www.purl.org/ogit/Catalog/Item
-        from: http://www.purl.org/swproject/Task
-        to: http://www.purl.org/ogit/swproject/Task
+        from: http://www.purl.org/ogit/SWProject/Task
+        to: http://www.purl.org/ogit/ogit/SWProject/Task
     history:
       - id: 1
         date: 2014-05-27

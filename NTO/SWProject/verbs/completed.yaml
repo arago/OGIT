@@ -1,5 +1,5 @@
 - Verb:
-     id:   http://www.purl.org/swproject/completed
+     id:   http://www.purl.org/ogit/SWProject/completed
      name: completes
      description: A Person finished working on a Task
      valid-from: 2014-10-06 00:00:00
@@ -18,4 +18,4 @@
 
      allowed:
         - from: http://www.purl.org/ogit/Person
-          to: http://www.purl.org/swproject/Task
+          to: http://www.purl.org/ogit/SWProject/Task
