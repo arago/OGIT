@@ -1,5 +1,5 @@
 - Verb:
-     id:   http://www.purl.org/swproject/rated
+     id:   http://www.purl.org/ogit/SWProject/rated
      name: rates
      description: A person can rate a Task created by someone else
      valid-from: 2014-10-06 00:00:00
@@ -18,4 +18,4 @@
 
      allowed:
         - from: http://www.purl.org/ogit/Person
-          to: http://www.purl.org/swproject/Task
+          to: http://www.purl.org/ogit/SWProject/Task

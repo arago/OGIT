@@ -1,5 +1,5 @@
 - Attribute:
-    id:   http://www.purl.org/swproject/performance
+    id:   http://www.purl.org/ogit/SWProject/performance
     name: performance
     description: performance of unit of work
     valid-from: 2014-10-06 00:00:00

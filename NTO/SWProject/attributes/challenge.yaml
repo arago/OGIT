@@ -1,5 +1,5 @@
 - Attribute:
-    id:   http://www.purl.org/swproject/challenge
+    id:   http://www.purl.org/ogit/SWProject/challenge
     name: challenge
     description: Challenge of a Task
     valid-from: 2014-10-06 00:00:00
