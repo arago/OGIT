@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.or/ogit/ITService/fulfills
+    id: http://www.purl.org/ogit/ITService/fulfills
     name: fulfills
     description: |
       Description of fulfills.
