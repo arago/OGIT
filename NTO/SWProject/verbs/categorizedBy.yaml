@@ -1,7 +1,7 @@
 - Verb:
      id:   http://www.purl.org/ogit/SWProject/categorizedBy
      name: categorizedBy
-     description: A task is categorized by an artifact
+     description: An is artifact categorizes a Task
      valid-from: 2014-10-06 00:00:00
      valid-until: 
      creator: Spyridon Travlos
@@ -17,5 +17,5 @@
         modified-by: Spyridon Travlos
 
      allowed:
-        - from: http://www.purl.org/ogit/SWProject/Task 
-          to: http://www.purl.org/ogit/SWProject/Artifact
+        - from: http://www.purl.org/ogit/SWProject/Artifact
+          to: http://www.purl.org/ogit/SWProject/Task
