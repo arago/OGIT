@@ -1,5 +1,5 @@
 - Attribute:
-    id:   http://www.purl.org/ogit/SWProject/size_estimated
+    id:   http://www.purl.org/ogit/SWProject/estimated_size
     name: size_estimated
     description: the estimated size of a task
     valid-from: 2014-06-10 00:00:00
