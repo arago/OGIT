@@ -36,6 +36,6 @@
         - http://www.purl.org/arago/marsNodeFormalRepresentation
       optional:
         - http://www.purl.org/arago/marsNodeType
-	- http://www.purl.org/arago/marsNodeMonitoringStatus
+        - http://www.purl.org/arago/marsNodeMonitoringStatus
         - http://www.purl.org/arago/marsNodeName
 
