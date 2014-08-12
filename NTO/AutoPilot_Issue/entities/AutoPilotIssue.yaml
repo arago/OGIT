@@ -35,6 +35,6 @@
         - http://www.purl.org/arago/issueFormalRepresentation
       optional:
         - http://www.purl.org/arago/issueID
-	- http://www.purl.org/arago/issueState
-	- http://www.purl.org/arago/issueSubject
-	- http://www.purl.org/arago/issueETIME
+        - http://www.purl.org/arago/issueState
+        - http://www.purl.org/arago/issueSubject
+        - http://www.purl.org/arago/issueETIME
