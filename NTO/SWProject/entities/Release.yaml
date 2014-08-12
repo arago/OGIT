@@ -22,6 +22,6 @@
        mandatory:
           - http://www.purl.org/ogit/name
           - http://www.purl.org/ogit/SWProject/end_date
-          - http://www.purl.org/ogit/SWProject/estimated_size
+          - http://www.purl.org/ogit/SWProject/size_estimated
           - http://www.purl.org/ogit/SWProject/real_size
           - http://www.purl.org/ogit/SWProject/hours_spent
