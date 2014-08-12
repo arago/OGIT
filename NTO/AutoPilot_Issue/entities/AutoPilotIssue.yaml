@@ -14,7 +14,7 @@
     creator: Peter Larem
     deleter: 
     created:  2013-09-01
-    modified: 2013-09-01
+    modified: 2013-08-12
     admin-contact: arago AG
     tech-contact: arago AG
     scope: NTO
@@ -24,9 +24,17 @@
         date: 2013-09-01
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2014-08-12
+        description: added attributes
+        modified-by: Spyridon Travlos
+
 
     attributes:
       mandatory:
         - http://www.purl.org/arago/issueFormalRepresentation
       optional:
         - http://www.purl.org/arago/issueID
+	- http://www.purl.org/arago/issueState
+	- http://www.purl.org/arago/issueSubject
+	- http://www.purl.org/arago/issueETIME

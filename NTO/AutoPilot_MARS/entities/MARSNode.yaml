@@ -26,9 +26,16 @@
         date: 2014-07-07
         description: added marsNodeType
         modified-by: Spyridon Travlos
+      - id: 3
+        date: 2014-08-12
+        description: added attributes
+        modified-by: Spyridon Travlos
 
     attributes:
       mandatory:
         - http://www.purl.org/arago/marsNodeFormalRepresentation
       optional:
         - http://www.purl.org/arago/marsNodeType
+	- http://www.purl.org/arago/marsNodeMonitoringStatus
+        - http://www.purl.org/arago/marsNodeName
+
