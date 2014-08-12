@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/arago/marsNodeMonitoringStatus
-    name: marsNodeType
+    name: marsNodeMonitoringStatus
     description: |
       Contains The Monitoring Status of a Mars Node. Should be one of Unknown, Normal, Warning, Critical    
     valid-from: 2014-08-11 00:00:00

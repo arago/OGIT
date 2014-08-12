@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/arago/issueETIME
-    name: issueID
+    name: issueETIME
     description: |
       Contains the ETIME of an Issue.
     valid-from: 2014-08-11 00:00:00

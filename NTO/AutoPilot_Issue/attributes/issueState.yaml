@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/arago/issueState
-    name: issueID
+    name: issueState
     description: |
       Contains the state of an Issue. Should be one of PROCESSING, EJECTED, RESOLVED, RESOLVED_EXTERNAL
     valid-from: 2014-08-11 00:00:00

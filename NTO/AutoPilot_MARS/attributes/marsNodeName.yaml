@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/arago/marsNodeName
-    name: marsNodeType
+    name: marsNodeName
     description: |
       Contains the name of a Mars Node. 
     valid-from: 2014-08-11 00:00:00

@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/arago/issueSubject
-    name: issueID
+    name: issueSubject
     description: |
       Contains the subject of an issue issue
     valid-from: 2014-08-11 00:00:00
