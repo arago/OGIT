@@ -22,3 +22,4 @@
       mandatory:
           - http://www.purl.org/ogit/name
           - http://www.purl.org/ogit/uri
+          - http://www.purl.org/ogit/SWProject/identifier
