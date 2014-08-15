@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/createdAt
+    id: http://www.purl.org/ogit/ITSM/createdAt
     name: createdAt
     description: |
       Defines a point in time when some ITSM entity was created.
