@@ -25,5 +25,6 @@
         - http://www.purl.org/ogit/gr/validFrom
         - http://www.purl.org/ogit/gr/validTo
         - http://www.purl.org/ogit/ITSM/licenseSubject
-	- http://www.purl.org/ogit/ITSM/licenseKey
+        - http://www.purl.org/ogit/ITSM/licenseKey
+        - http://www.purl.org/ogit/ITSM/createdAt
 
