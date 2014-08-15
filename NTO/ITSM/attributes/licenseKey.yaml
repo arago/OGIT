@@ -3,7 +3,7 @@
     name: licenseKey
     description: |
       A string containing the actual license
-    admin-contact: 
+    admin-contact: arago AG
     tech-contact: arago AG
     created: 2014-08-15
     creator: FCO
