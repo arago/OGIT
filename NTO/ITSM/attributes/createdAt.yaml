@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/createdAt
+    name: createdAt
+    description: |
+      Defines a point in time when some ITSM entity was created.
+      the format is described at http://purl.org/goodrelations/v1#validFrom
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-08-15
+    creator: FCO
+    deleter: 
+    modified: 2014-08-15
+    valid-from: 2014-08-15
+    valid-until: 
+    validation-parameter: 
+    validation-type: 
+    history:
+      - id: 1
+        date: 2014-08-15
+        description: intitial version
+        modified-by: FCO
