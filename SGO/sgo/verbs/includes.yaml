@@ -14,10 +14,6 @@
     allowed:
       - from: http://www.purl.org/ogit/gr/Offering
         to: http://www.purl.org/ogit/Catalog/Item
-      - from: http://www.purl.org/ogit/SWProject/Release
-        to: http://www.purl.org/ogit/SWProject/Milestone
-      - from: http://www.purl.org/ogit/SWProject/Milestone
-        to: http://www.purl.org/ogit/SWProject/Task
     history:
       - id: 1
         date: 2014-05-27

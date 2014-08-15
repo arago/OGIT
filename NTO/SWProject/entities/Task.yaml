@@ -37,3 +37,5 @@
           - http://www.purl.org/ogit/SWProject/size_adjusted
           - http://www.purl.org/ogit/SWProject/due_date
           - http://www.purl.org/ogit/description
+          - http://www.purl.org/ogit/SWProject/task_user
+
