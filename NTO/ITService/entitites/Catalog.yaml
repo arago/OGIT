@@ -1,17 +1,23 @@
 - Entity:
     id: http://www.purl.org/ogit/ITService/Catalog
     name: Catalog
-    description: 'the catalog of all available service template defintions'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    description: |
+      The catalog of all available service template defintions.
+    admin-contact: arago AG
+    tech-contact: arago AG
     created: 2014-05-27
     creator: FCO
-    deleter: ''
+    deleter: 
     modified: 2014-05-27
     parent: http://www.purl.org/ogit/Catalog/Catalog
     scope: NTO
     valid-from: 2014-06-01
-    valid-until: 
+    valid-until:
+    
+    attributes:
+      any: true
+      mandatory:
+      optional:
 
     history:
       - id: 1
