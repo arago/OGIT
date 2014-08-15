@@ -1,0 +1,24 @@
+- Verb:
+    id: http://www.purl.org/ogit/belongsTo
+    name: belongsTo
+    description: |
+      In a way the opposite of 'has' with some importent difference. One entity can belong only to one other.
+    cardinality: many2one
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-08-15
+    creator: FCO
+    deleter: 
+    modified: 2014-08-15
+    valid-from: 2014-08-16
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/GraphIT/Client
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/ITSM/License
+        to: http://www.purl.org/ogit/GraphIT/Client
+    history:
+      - id: 1
+        date: 2014-08-15
+        description: 'intitial version'
+        modified-by: FCO

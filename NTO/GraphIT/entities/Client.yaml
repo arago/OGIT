@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Application
-    name: Application
+    id:   http://www.purl.org/ogit/GraphIT/Client
+    name: Client
     description: |
-      Unlike software assets 'Application' refers to an application which is interacting with A Policy that governs data access in GraphIT. It is connected and applied to Organizations
+      This defines client applications working with GraphIT. This can be used to define relationsships between those applications and other entities, e.g. those which were created by that application.
     valid-from: 2014-08-16 00:00:00
     valid-until:
     creator: arago AG
@@ -25,4 +25,4 @@
       optional:    
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/function
-        - http://www.purl.org/ogit/status
+
