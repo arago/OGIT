@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/status
+    name: status
+    description: |
+      Will contain some string indication a status of some entity.
+      At this level of specification no list of values is specified. However, applications using this attribute are expected to allow only a fixed list of values that seems usefual in the application's semantic context
+    valid-from: 2014-08-16 00:00:00
+    valid-until: 
+    creator: FCO
+    deleter: 
+    created:  2014-08-15
+    modified: 2014-08-15
+    admin-contact: arago AG
+    tech-contact: arago AG
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2014-08-15
+        description: initial
+        modified-by: FCO
