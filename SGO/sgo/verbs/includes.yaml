@@ -1,13 +1,14 @@
 - Verb:
     id: http://www.purl.org/ogit/includes
     name: includes
-    description: 'this relationship indicates that something is part of something else.
-    Unlike "contains" here we allow an entity being part of several others'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    description: |
+      This relationship indicates that something is part of something else.
+      Unlike "contains" here we allow an entity being part of several others.
+    admin-contact: arago AG
+    tech-contact: arago AG
     created: 2014-05-27
     creator: FCO
-    deleter: ''
+    deleter: 
     modified: 2014-08-15
     valid-from: 2014-06-01
     valid-until: 
@@ -19,9 +20,9 @@
     history:
       - id: 1
         date: 2014-05-27
-        description: 'intitial version'
+        description: intitial version
         modified-by: FCO
-      - id: 3
+      - id: 2
         date: 2014-08-15
-        description: 'ogit/Organization added'
+        description: ogit/Organization added
         modified-by: FCO
