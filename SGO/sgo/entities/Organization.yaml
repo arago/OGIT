@@ -5,6 +5,7 @@
       An identity that represents an organization, company, or some other grouping of Person objects.
       Entities of this type should be created with a predefined ID. Those IDs should be named like a domain name, i.e.
       a concatention of some strings separated with a dot. if organization data is created from a LDAP then a mapping 
+      like "cn=John Doe,dc=example,dc=com" => "john_doe.example.com" should be employed.
     valid-from: 2013-11-01 00:00:00
     valid-until:
     creator: Peter Larem
