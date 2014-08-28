@@ -22,8 +22,13 @@
         date: 2014-08-27
         description: initial
         modified-by: RGL
+      - id: 3
+        date: 2014-08-29
+        description: allow any attribute
+        modified-by: FCO
 
     attributes:
+      any: true
       mandatory:
       optional:    
         - http://www.purl.org/ogit/gr/validFrom
