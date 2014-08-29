@@ -3,10 +3,10 @@
     name: ServiceTask
     description: |
       Service tasks are those done by software. These are program functions applied automatically as a process executes. BPMN normally assumes that this function is provided as web service,
-					though it can be another implementation. The service task is a component of process-oriented implementation integration, which explains why it is so similar in concept to Service-Oriented
-					Architecture (SOA). Typical examples from the world of implementation integration are: The credit rating provided by a rating agency, obtained as XML through HTTP during a credit check;
-					Booking an invoice received as EDIFACT through X.400 in SAP R/3;
-					The offer of substandard goods by an online auction house, as a web service.
+      though it can be another implementation. The service task is a component of process-oriented implementation integration, which explains why it is so similar in concept to Service-Oriented
+      Architecture (SOA). Typical examples from the world of implementation integration are: The credit rating provided by a rating agency, obtained as XML through HTTP during a credit check;
+      ooking an invoice received as EDIFACT through X.400 in SAP R/3;
+      The offer of substandard goods by an online auction house, as a web service.
     valid-from: 2014-08-29 00:00:00
     valid-until:
     creator: Peter Larem
