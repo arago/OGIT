@@ -15,6 +15,10 @@
         to: http://www.purl.org/ogit/Catalog/Item
       - from: http://www.purl.org/ogit/SWProject/Task
         to: http://www.purl.org/ogit/SWProject/Task
+      - from: http://www.purl.org/ogit/BPMN/ProcessPool
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/BPMN/ProcessPool
+        to: http://www.purl.org/ogit/Organization
     history:
       - id: 1
         date: 2014-05-27

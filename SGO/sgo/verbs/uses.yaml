@@ -14,8 +14,14 @@
     allowed:
       - from: http://www.purl.org/ogit/CustomApplicationData
         to: http://www.purl.org/ogit/CustomApplicationData
+      - from: http://www.purl.org/ogit/BPMN/Process
+        to: http://www.purl.org/ogit/BPMN/DataObject
     history:
       - id: 1
         date: 2014-05-27
         description: 'intitial version'
         modified-by: FCO
+      - id: 2
+        date: 2014-08-29
+        description: 'add connection'
+        modified-by: Peter Larem

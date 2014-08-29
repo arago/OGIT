@@ -1,0 +1,20 @@
+- Verb:
+    id: http://www.purl.org/ogit/BPMN/write
+    name: write
+    description: 'this relationship indicates that a business process can write data to a data store'
+    admin-contact: 'arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-08-29
+    creator: Peter Larem
+    deleter: ''
+    modified: 2014-08-29
+    valid-from: 2014-08-29
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/BPMN/Process
+        to: http://www.purl.org/ogit/BPMN/DataStore
+    history:
+      - id: 1
+        date: 2014-08-29
+        description: 'intitial version'
+        modified-by: Peter Larem
