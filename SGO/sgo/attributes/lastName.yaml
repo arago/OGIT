@@ -3,7 +3,7 @@
     name: lastName
     description: |
       Last name of a person
-    valid-from: 2014-09-92 00:00:00
+    valid-from: 2014-09-02 00:00:00
     valid-until: 
     creator: FCO
     deleter: 
