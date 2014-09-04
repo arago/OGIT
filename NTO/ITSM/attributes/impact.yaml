@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/impact
+    id: http://www.purl.org/ogit/ITSM/impact
     name: impact
     description: |
       Will contain the impact of a ticket. The actual semantics might depend on the ticket type (Incident, Service Request, ...)
