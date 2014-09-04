@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/description
+    id: http://www.purl.org/ogit/ITSM/description
     name: description
     description: |
       Will contain the long description of a ticket
