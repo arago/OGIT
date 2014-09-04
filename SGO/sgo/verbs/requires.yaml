@@ -15,9 +15,9 @@
         to: http://www.purl.org/ogit/Catalog/Item
       - from: http://www.purl.org/ogit/SWProject/Task
         to: http://www.purl.org/ogit/SWProject/Task
-      - from: http://www.purl.org/ogit/BPMN/ProcessPool
+      - from: http://www.purl.org/ogit/BPMN2/ProcessPool
         to: http://www.purl.org/ogit/Person
-      - from: http://www.purl.org/ogit/BPMN/ProcessPool
+      - from: http://www.purl.org/ogit/BPMN2/ProcessPool
         to: http://www.purl.org/ogit/Organization
     history:
       - id: 1
