@@ -1,0 +1,23 @@
+- Verb:
+    id: http://www.purl.org/ogit/affectedBy
+    name: affectedBy
+    description: |
+      The relationship indicates that one entity is or was affected by some other entity
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-15
+    creator: FCO
+    deleter: 
+    modified: 2014-09-04
+    valid-from: 2014-09-04
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/arago/MARSNode
+        to: http://www.purl.org/ogit/ITSM/Ticket
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ITSM/Ticket
+    history:
+      - id: 1
+        date: 2014-09-04
+        description: 'intitial version'
+        modified-by: FCO

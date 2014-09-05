@@ -24,7 +24,6 @@
         date: 2014-08-15
         description: 'intitial version'
         modified-by: FCO
-    history:
       - id: 2
         date: 2014-08-27
         description: 'added LicenseToken to Organization'

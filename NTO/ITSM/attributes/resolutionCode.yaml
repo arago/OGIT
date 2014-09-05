@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/resolutionCode
+    name: resolutionCode
+    resolutionCode: |
+      Will contain an optional resolution code that may be provied during incident resolving along with the solution description
+    valid-from: 2014-09-15 00:00:00
+    valid-until: 
+    creator: FCO
+    deleter: 
+    created:  2014-09-04
+    modified: 2014-09-04
+    admin-contact: arago AG
+    tech-contact: arago AG
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2014-09-04
+        resolutionCode: initial
+        modified-by: FCO

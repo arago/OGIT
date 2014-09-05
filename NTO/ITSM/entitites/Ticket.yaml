@@ -28,6 +28,7 @@
         - http://www.purl.org/ogit/ITSM/impact
         - http://www.purl.org/ogit/ITSM/urgency
         - http://www.purl.org/ogit/ITSM/priority
+        - http://www.purl.org/ogit/ITSM/createdAt
         - http://www.purl.org/ogit/ITSM/openedAt
         - http://www.purl.org/ogit/ITSM/closedAt
         - http://www.purl.org/ogit/ITSM/lastUpdatedAt
