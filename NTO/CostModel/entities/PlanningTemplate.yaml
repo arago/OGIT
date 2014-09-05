@@ -1,0 +1,25 @@
+- Entity:
+    id:   http://www.purl.org/CostModel/PlanningTemplate
+    name: PlanningTemplate
+    description: |
+      A Planning Template is an estimated planning of cost elements referring to an Implementation Template and a Planning Parameter. It will consist of a recursive set of sub-templates, connected through the edge 'has', where each one of them will represent a service.
+    valid-from: 2014-09-15 00:00:00
+    valid-until:
+    creator: CO
+    deleter: 
+    created:  2014-09-05
+    modified: 2014-09-05
+    admin-contact: ogit@arago.de
+    tech-contact: ogit@arago.de
+    scope: NTO
+    parent: http://www.purl.org/ogit/Global
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: initial
+        modified-by: CO
+
+    attributes:
+      any: true
+      mandatory:
+      optional:

@@ -1,0 +1,22 @@
+- Verb:
+    id: http://www.purl.org/ogit/plansCostsFor
+    name: plansCostsFor
+    description: |
+      verb showing which planning template corresponds to which mars model (vendor implementation template)
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-05
+    creator: CO
+    deleter: 
+    modified: 2014-09-05
+    valid-from: 2014-09-05
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/CostModel/PlanningTemplate
+        to: http://www.purl.org/arago/MARSModel
+     history:
+      - id: 1
+        date: 2014-09-05
+        description: 'intitial version'
+        modified-by: CO
+    
