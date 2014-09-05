@@ -1,0 +1,32 @@
+- Entity:
+    id:   http://www.purl.org/ogit/Network/Card
+    name: Incident
+    description: |
+      Physical Networking Module to be fittet into an Enclosure
+    valid-from: 2014-09-15 00:00:00
+    valid-until:
+    creator: RJ
+    deleter: 
+    created:  2014-09-05
+    modified: 2014-09-05
+    admin-contact: ogit@arago.de
+    tech-contact: ogit@arago.de
+    scope: NTO
+    parent: http://www.purl.org/ogit/Network
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: initial
+        modified-by: RJ
+
+    attributes:
+      any: true
+      mandatory:
+        - http://www.purl.org/ogit/Network/Card/Id
+      optional:
+        - http://www.purl.org/ogit/Network/Card/AssetId
+        - http://www.purl.org/ogit/Network/Card/Contact
+        - http://www.purl.org/ogit/Network/Card/Location
+
+
+
