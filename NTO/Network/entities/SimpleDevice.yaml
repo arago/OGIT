@@ -2,7 +2,7 @@
     id:   http://www.purl.org/ogit/Network/SimpleDevice
     name: SimpleDevice
     description: |
-      Standalone Networking Device, Physical or virtualâ
+      Standalone Networking Device, Physical or virtual
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ
