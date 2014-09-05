@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/ITService/Service
     name: Service
     description: |
-      A single service template in the catalog.
+      A technology service item, which combined or not with other technology services can constitute a service offering.
     admin-contact: arago AG
     tech-contact: arago AG
     created: 2014-05-27
@@ -30,3 +30,7 @@
         date: 2014-06-12
         description: 'attribute list updated'
         modified-by: FCO
+      - id: 3
+        date: 2014-09-05
+        description: 'description updated'
+        modified-by: Peter Larem
