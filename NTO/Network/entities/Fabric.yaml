@@ -12,7 +12,7 @@
     admin-contact: ogit@arago.de
     tech-contact: ogit@arago.de
     scope: NTO
-    parent: http://www.purl.org/ogit/Network
+    parent: http://www.purl.org/ogit/Factual
     history:
       - id: 1
         date: 2014-09-05
@@ -22,10 +22,9 @@
     attributes:
       any: true
       mandatory:
-        - http://www.purl.org/ogit/Network/Fabric/Id
+        - http://www.purl.org/ogit/Network/id
       optional:
-        - http://www.purl.org/ogit/Network/Fabric/AssetId
-        - http://www.purl.org/ogit/Network/Fabric/Contact
-        - http://www.purl.org/ogit/Network/Fabric/Location
+        - http://www.purl.org/ogit/Network/assetId
+        - http://www.purl.org/ogit/contact
 
 

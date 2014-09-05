@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Enclosure
-    name: Enclosure
+    id:   http://www.purl.org/ogit/Network/Port
+    name: Port
     description: |
-      Networking Enclosure is a physical Entity hosing Physical Networking Devices
+      A physical or logical Network Port
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ
@@ -26,6 +26,6 @@
       optional:
         - http://www.purl.org/ogit/Network/assetId
         - http://www.purl.org/ogit/contact
-  
+
 
 
