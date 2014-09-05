@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Card
-    name: Card
+    id:   http://www.purl.org/ogit/Network/Shelf
+    name: Shelf
     description: |
-      Physical Networking Module to be fitted into an Enclosure
+      Shelf is a physical entity inside a enclosure housing Cards
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

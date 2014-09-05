@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Card
-    name: Card
+    id:   http://www.purl.org/ogit/Network/Endpoint
+    name: Endpoint
     description: |
-      Physical Networking Module to be fitted into an Enclosure
+      Network Endpoint is a physical or virtual computing device
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

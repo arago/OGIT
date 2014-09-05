@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Card
-    name: Card
+    id:   http://www.purl.org/ogit/Network/Link
+    name: Link
     description: |
-      Physical Networking Module to be fitted into an Enclosure
+      Link is a logical connection between interfaces
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

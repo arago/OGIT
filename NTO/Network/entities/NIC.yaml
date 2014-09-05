@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Card
-    name: Card
+    id:   http://www.purl.org/ogit/Network/NIC
+    name: NIC
     description: |
-      Physical Networking Module to be fitted into an Enclosure
+      Network Interface Card - Physical/Virtual Circuit allowing an endpoint to connect to a network 
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Card
-    name: Card
+    id:   http://www.purl.org/ogit/Network/Policy
+    name: Policy
     description: |
-      Physical Networking Module to be fitted into an Enclosure
+      Policy defines usage pattern for Interfaces
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ
