@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITSM/solution
     name: solution
-    solution: |
+    description: |
       Will contain the solution description that is usually provided during incident resolving
     valid-from: 2014-09-15 00:00:00
     valid-until: 
