@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/Pricing/amount
+    name: amount
+    description: 'the amount to pay'
+    admin-contact: ;arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-09-05
+    creator: FCO
+    deleter: ''
+    modified: 2014-09-05
+    valid-from: 2014-09-15
+    valid-until: 
+    validation-parameter: ''
+    validation-type: ''
+
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: 'intitial version'
+        modified-by: FCO

@@ -24,6 +24,6 @@
       mandatory:
         - http://www.purl.org/ogit/ITSM/changeStatus
       optional:
-        - http://www.purl.org/ogit/ITSM/requestedAt
+
 
 
