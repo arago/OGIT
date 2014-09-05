@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/ITService/Parameter
     name: Parameter
     description: |
-      Used to attach parameter to a Service template.
+      Defines an attribute for an entity, for example: service, action, ticket, sla...
     admin-contact: arago AG
     tech-contact: arago AG
     created: 2014-05-27
@@ -36,3 +36,7 @@
         date: 2014-06-12
         description: 'attribute list updated'
         modified-by: FCO
+      - id: 3
+        date: 2014-09-05
+        description: 'description updated'
+        modified-by: Peter Larem
