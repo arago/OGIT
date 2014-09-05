@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.org/ogit/ITService/reportedOn
+    id: http://www.purl.org/ogit/ITSM/reportedOn
     name: reportedOn
     description: |
       Indicates where a failure situation was initially observed. In case an incident record is created from an event management system this relationship points to the entitiy that represents the monitored device/endpoint.
