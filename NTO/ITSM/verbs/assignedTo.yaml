@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.org/ogit/ITService/assignedTo
+    id: http://www.purl.org/ogit/ITSM/assignedTo
     name: assignedTo
     description: |
       Indicates who a ticket is assigned to
