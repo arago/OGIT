@@ -20,6 +20,7 @@
         modified-by: FCO
 
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/ogit/ITSM/incidentStatus
       optional:
