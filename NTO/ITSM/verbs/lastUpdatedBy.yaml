@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.org/ogit/ITService/lastUpdatedBy
+    id: http://www.purl.org/ogit/ITSM/lastUpdatedBy
     name: lastUpdatedBy
     description: |
       Indicates who applied the last update to a ticket
