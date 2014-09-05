@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/ITService/Catalog
     name: Catalog
     description: |
-      The catalog of all available service template defintions.
+      Catalog of all client requirements for Services as a basis for Pricebook creation. 
+      Also Catalog of all the offerings from all Pricebooks from all vendors.
     admin-contact: arago AG
     tech-contact: arago AG
     created: 2014-05-27
@@ -24,3 +25,7 @@
         date: 2014-05-27
         description: 'intitial version'
         modified-by: FCO
+      - id: 2
+        date: 2014-09-05
+        description: 'update description'
+        modified-by: Peter Larem
