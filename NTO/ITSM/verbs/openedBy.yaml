@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.org/ogit/ITService/openedBy
+    id: http://www.purl.org/ogit/ITSM/openedBy
     name: openedBy
     description: |
       Indicates who created/opened a ticket
