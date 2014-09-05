@@ -16,9 +16,12 @@
         to: http://www.purl.org/ogit/ITService/ParameterType
       - from: http://www.purl.org/arago/MARSModel
         to: http://www.purl.org/arago/MARSNode
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/CostModel/CostElement
+      - from: http://www.purl.org/CostModel/PlanningTemplate
+        to: http://www.purl.org/CostModel/PlanningTemplate
       - from: http://www.purl.org/ogit/Contract
         to: http://www.purl.org/ogit/ITService/SLA
-
     history:
       - id: 1
         date: 2014-05-27

@@ -1,0 +1,21 @@
+- Verb:
+    id: http://www.purl.org/CostModel/consitsOf
+    name: consitsOf
+    description: |
+      verb  associating a distribution for the percentage of a cost element of which consists another cost element
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-05
+    creator: CO
+    deleter: 
+    modified: 2014-09-05
+    valid-from: 2014-09-15
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/CostModel/Distribution
+        to: http://www.purl.org/CostModel/CostElement
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: intitial version
+        modified-by: CO

@@ -14,8 +14,14 @@
     allowed:
       - from: http://www.purl.org/ogit/ITService/Offering
         to: http://www.purl.org/arago/MARSModel
+      - from: http://www.purl.org/CostModel/PlanningParameter
+        to: http://www.purl.org/ogit/ITService/Parameter
     history:
       - id: 1
         date: 2014-07-11
         description: intitial version
+        modified-by: Peter Larem
+      - id: 2
+        date: 2014-09-05
+        description: add connection
         modified-by: Peter Larem
