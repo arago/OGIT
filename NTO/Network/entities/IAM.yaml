@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Interface
-    name: Interface
+    id:   http://www.purl.org/ogit/Network/IAM
+    name: IAM
     description: |
-      Logical Interface
+      Identity and Access Management 1_Template.yaml
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

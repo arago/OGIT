@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Interface
-    name: Interface
+    id:   http://www.purl.org/ogit/Network/IDS_IPS
+    name: IDS_IPS
     description: |
-      Logical Interface
+      Intrution Detection and Intrusion Prevention System
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

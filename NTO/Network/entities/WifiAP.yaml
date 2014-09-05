@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Interface
-    name: Interface
+    id:   http://www.purl.org/ogit/Network/WifiAP
+    name: WifiAP
     description: |
-      Logical Interface
+      Device offering wireless/radio networking services
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

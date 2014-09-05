@@ -24,7 +24,6 @@
       mandatory:
         - http://www.purl.org/ogit/Network/id
       optional:
-        - http://www.purl.org/ogit/Network/assetId
         - http://www.purl.org/ogit/contact
 
 

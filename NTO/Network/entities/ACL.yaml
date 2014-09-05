@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Interface
-    name: Interface
+    id:   http://www.purl.org/ogit/Network/ACL
+    name: ACL
     description: |
-      Logical Interface
+      Access Control List
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

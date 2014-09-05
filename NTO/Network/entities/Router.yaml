@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Interface
-    name: Interface
+    id:   http://www.purl.org/ogit/Network/Router
+    name: Router
     description: |
-      Logical Interface
+      Networking Device for forwarding data packet between networks
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ
@@ -25,6 +25,3 @@
         - http://www.purl.org/ogit/Network/id
       optional:
         - http://www.purl.org/ogit/contact
-
-
-
