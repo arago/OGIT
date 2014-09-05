@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.org/ogit/ITService/closedBy
+    id: http://www.purl.org/ogit/ITSM/closedBy
     name: closedBy
     description: |
       Indicates who closed a ticket
