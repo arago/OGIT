@@ -20,7 +20,7 @@
         to: http://www.purl.org/ogit/ITSM/Ticket
       -
         from: http://www.purl.org/ogit/ITService/Parameter
-        to: http://www.purl.org/ogit/ITSM/SLA
+        to: http://www.purl.org/ogit/ITService/SLA
     history:
       - id: 1
         date: 2014-05-27
