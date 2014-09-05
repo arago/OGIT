@@ -1,10 +1,10 @@
 - Attribute:
-    id: http://www.purl.org/ogit/openedAt
-    name: openedAt
+    id: http://www.purl.org/ogit/reportedAt
+    name: reportedAt
     description: |
-      Will defined the time when a ticket was created/opened.
+      Will defined the time when something was actually reported.
       The values must be combined date and time with time zone designator according to ISO 8601
-      For most tickets there is no real difference between creation and opened time. In case such a distinction is relevant the "createdAt" attribute can be used.
+      Reported time is used in incident management. In most cases the reported time equals the time when the incident is created. In some cases, e.g. the incident is created after the helpdesk has already worked on some request before it was decided to create an incident, the reported time might differ from ticket creation/opening time.
     valid-from: 2014-09-15 00:00:00
     valid-until: 
     creator: FCO
