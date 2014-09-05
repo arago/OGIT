@@ -17,7 +17,7 @@
       - from: http://www.purl.org/arago/MARSModel
         to: http://www.purl.org/arago/MARSNode
       - from: http://www.purl.org/ogit/Contract
-        to: http://www.purl.org/ogit/ITSM/SLA
+        to: http://www.purl.org/ogit/ITService/SLA
 
     history:
       - id: 1
