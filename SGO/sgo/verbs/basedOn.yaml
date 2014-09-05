@@ -1,0 +1,23 @@
+- Verb:
+    id: http://www.purl.org/ogit/basedOn
+    name: basedOn
+    description: |
+      indicates that some entity is based some other.
+      This might mean the entity was produced using the other as input or it was derived from the other.
+    admin-contact: 'arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-09-05
+    creator: FCO
+    deleter: ''
+    modified: 2014-09-05
+    valid-from: 2014-09-15
+    valid-until: 
+    allowed:
+      -
+        from: http://www.purl.org/ogit/Pricing/Invoice
+        to: http://www.purl.org/ogit/ITService/Report
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: 'intitial version'
+        modified-by: FCO
