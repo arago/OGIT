@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITSM/resolutionCode
     name: resolutionCode
-    resolutionCode: |
+    description: |
       Will contain an optional resolution code that may be provied during incident resolving along with the solution description
     valid-from: 2014-09-15 00:00:00
     valid-until: 
