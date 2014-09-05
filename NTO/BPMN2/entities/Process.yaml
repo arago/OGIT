@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/ogit/BPMN/Process
+    id:   http://www.purl.org/ogit/BPMN2/Process
     name: Process
     description: |
       Business Process Model and Notation (BPMN) is a graphical representation for specifying business processes in a business process model. It is also known as Business Process Modeling Notation.

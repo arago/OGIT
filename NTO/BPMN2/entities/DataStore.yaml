@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/BPMN/ProcessLane
-    name: ProcessLane
+    id:   http://www.purl.org/ogit/BPMN2/DataStore
+    name: DataStore
     description: |
-      There MUST one or more Lanes within a Pool. If there is only one Lane, then that Lane shares the name of the Pool and only the Pool name is displayed. If there is more than one Lane, then each Lane has to have its own name and all names are displayed.
+      A DataStore is a place where the process can read or write data, e.g., a database or filing cabinet. It persists beyond the lifetime of the process instance.
     valid-from: 2014-08-29 00:00:00
     valid-until:
     creator: Peter Larem
@@ -12,7 +12,7 @@
     admin-contact: ogit@arago.de
     tech-contact: ogit@arago.de
     scope: NTO
-    parent: http://www.purl.org/ogit/BPMN/Process
+    parent: http://www.purl.org/ogit/BPMN2/Process
     history:
       - id: 1
         date: 2014-08-29

@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/BPMN/ProcessPool
-    name: ProcessPool
+    id:   http://www.purl.org/ogit/BPMN2/DataObject
+    name: DataObject
     description: |
-      A Pool represents a Participant in a Process. It is also acts as a ”swimlane” and a graphical container for partitioning a set of activities from other Pools, usually in the context of B2B situations.
+      Data Objects are considered Artifacts because they do not have any direct effect on the Sequence Flow or Message Flow of the Process, but they do provide information about what activities require to be performed and/or what they produce.
     valid-from: 2014-08-29 00:00:00
     valid-until:
     creator: Peter Larem
@@ -12,7 +12,7 @@
     admin-contact: ogit@arago.de
     tech-contact: ogit@arago.de
     scope: NTO
-    parent: http://www.purl.org/ogit/BPMN/Process
+    parent: http://www.purl.org/ogit/BPMN2/Process
     history:
       - id: 1
         date: 2014-08-29

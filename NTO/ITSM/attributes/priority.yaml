@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/priority
+    id: http://www.purl.org/ogit/ITSM/priority
     name: priority
     description: |
       Will contain the priority of a ticket. The actual semantics might depend on the ticket type (Incident, Service Request, ...)

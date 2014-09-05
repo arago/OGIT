@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/urgency
+    id: http://www.purl.org/ogit/ITSM/urgency
     name: urgency
     description: |
       Will contain the urgency of a ticket. The actual semantics might depend on the ticket type (Incident, Service Request, ...)
