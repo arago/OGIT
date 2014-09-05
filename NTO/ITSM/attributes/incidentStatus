@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/incidentStatus
+    id: http://www.purl.org/ogit/ITSM/incidentStatus
     name: incidentStatus
     description: |
       defines the status of an incident record
