@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/IAM
-    name: IAM
+    id:   http://www.purl.org/ogit/Network/Slot
+    name: Slot
     description: |
-      Identity and Access Management
+      Slot is a physical entity inside a Shelf housing Cards
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

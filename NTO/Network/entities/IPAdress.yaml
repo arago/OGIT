@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/IAM
-    name: IAM
+    id:   http://www.purl.org/ogit/Network/IPAdress
+    name: IPAdress
     description: |
-      Identity and Access Management
+      IPAdress-Adress is per network unique identifier for IP-Devices
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

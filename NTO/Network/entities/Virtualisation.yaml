@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/IDS_IPS
-    name: IDS_IPS
+    id:   http://www.purl.org/ogit/Network/Virtualisation
+    name: Virtualisation
     description: |
-      Intrution Detection and Intrusion Prevention System
+      Virtualisation Component
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ
@@ -24,7 +24,8 @@
       mandatory:
         - http://www.purl.org/ogit/Network/id
       optional:
+        - http://www.purl.org/ogit/Network/assetId
         - http://www.purl.org/ogit/contact
-
+  
 
 

@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/IAM
-    name: IAM
+    id:   http://www.purl.org/ogit/Network/IDS-IPS
+    name: IDS-IPS
     description: |
-      Identity and Access Management
+      Intrution Detection and Intrusion Prevention System
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

@@ -2,7 +2,7 @@
     id:   http://www.purl.org/ogit/Network/Shelf
     name: Shelf
     description: |
-      Shelf is a physical entity inside a enclosure housing Cards
+      Shelf is a physical entity inside a enclosure, each enclosure can house one to many shelfs
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

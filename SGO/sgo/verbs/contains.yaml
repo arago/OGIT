@@ -28,6 +28,13 @@
         to: http://www.purl.org/ogit/ITSM/License
       - from: http://www.purl.org/ogit/Contract
         to: http://www.purl.org/ogit/ITService/SLA
+      - from: http://www.purl.org/ogit/Network/Fabric
+        to: http://www.purl.org/ogit/Network/SimpleDevice 
+      - from: http://www.purl.org/ogit/Network/Fabric
+        to: http://www.purl.org/ogit/Network/Card
+      - from: http://www.purl.org/ogit/Network/Enclosure
+        to: http://www.purl.org/ogit/Network/Shelf
+      
     history:
       - id: 1
         date: 2014-05-27
@@ -38,6 +45,10 @@
         description: 'add a connection'
         modified-by: Peter Larem
       - id: 3
-        date: 2014-09-09
+        date: 2014-09-05
         description: 'add a connection'
         modified-by: Peter Larem
+      - id: 4
+        date: 2014-09-05
+        description: 'add a connection for network'
+        modified-by: Roland Judas
