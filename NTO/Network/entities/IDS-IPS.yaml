@@ -1,6 +1,6 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/IDS-IPS
-    name: IDS-IPS
+    id:   http://www.purl.org/ogit/Network/IDSIPS
+    name: IDSIPS
     description: |
       Intrution Detection and Intrusion Prevention System
     valid-from: 2014-09-15 00:00:00
