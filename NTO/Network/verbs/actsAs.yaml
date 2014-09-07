@@ -21,7 +21,7 @@
       - from: http://www.purl.org/ogit/Network/SimpleDevice
         to: http://www.purl.org/ogit/Network/IAM
       - from: http://www.purl.org/ogit/Network/SimpleDevice
-        to: http://www.purl.org/ogit/Network/IDS-IPS
+        to: http://www.purl.org/ogit/Network/IDSIPS
       - from: http://www.purl.org/ogit/Network/SimpleDevice
         to: http://www.purl.org/ogit/Network/Loadbalancer
       - from: http://www.purl.org/ogit/Network/Card
@@ -33,7 +33,7 @@
       - from: http://www.purl.org/ogit/Network/Card
         to: http://www.purl.org/ogit/Network/IAM
       - from: http://www.purl.org/ogit/Network/Card
-        to: http://www.purl.org/ogit/Network/IDS-IPS
+        to: http://www.purl.org/ogit/Network/IDSIPS
       - from: http://www.purl.org/ogit/Network/Card
         to: http://www.purl.org/ogit/Network/Loadbalancer
     history:
