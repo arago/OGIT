@@ -1,6 +1,6 @@
 - Verb:
-    id: http://www.purl.org/ogit/Pricing/accounts
-    name: accounts
+    id: http://www.purl.org/ogit/Pricing/bills
+    name: bills
     description: |
       Releationship from an invoice to the entity that is invoiced
     admin-contact: arago AG

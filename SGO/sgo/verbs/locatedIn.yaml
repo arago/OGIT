@@ -22,7 +22,7 @@
         to: http://www.purl.org/ogit/gr/Location
       -
         from: http://www.purl.org/arago/MARSResourceNode
-        to: http://www.purl.org/ogit/gr/Location
+        to: http://www.purl.org/ogit/Geo/Region
     history:
       - id: 1
         date: 2014-05-27
