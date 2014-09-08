@@ -16,8 +16,15 @@
       -
         from: http://www.purl.org/ogit/Pricing/Invoice
         to: http://www.purl.org/ogit/ITService/Report
+      -
+        from: http://www.purl.org/arago/MARSMachineNode
+        to: http://www.purl.org/arago/MARSApplicationNode
     history:
       - id: 1
         date: 2014-09-05
         description: 'intitial version'
+        modified-by: FCO
+      - id: 2
+        date: 2014-09-05
+        description: 'allowed connections added'
         modified-by: FCO
