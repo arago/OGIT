@@ -1,6 +1,6 @@
 - Verb:
-    id: http://www.purl.org/CostModel/consitsOf
-    name: consitsOf
+    id: http://www.purl.org/CostModel/consistsOf
+    name: consistsOf
     description: |
       verb  associating a distribution for the percentage of a cost element of which consists another cost element
     admin-contact: arago AG
