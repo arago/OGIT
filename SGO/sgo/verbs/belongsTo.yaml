@@ -13,8 +13,6 @@
     valid-from: 2014-08-16
     valid-until: 
     allowed:
-      - from: http://www.purl.org/ogit/Role
-        to: http://www.purl.org/ogit/Organization
       - from: http://www.purl.org/ogit/GraphIT/Client
         to: http://www.purl.org/ogit/Organization
       - from: http://www.purl.org/ogit/ITSM/License
