@@ -1,0 +1,26 @@
+- Verb:
+    id: http://www.purl.org/ogit/Network/isAppliedTo
+    name: isAppliedTo
+    description: |
+      verb showing that an local configuration entity is logically applied to one or more other entities
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-05
+    creator: Roland Judas
+    deleter: 
+    modified: 2014-09-05
+    valid-from: 2014-09-05
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/Network/Filter
+        to: http://www.purl.org/ogit/Network/Policy
+      - from: http://www.purl.org/ogit/Network/ACL
+        to: http://www.purl.org/ogit/Network/Policy
+      - from: http://www.purl.org/ogit/Network/Policy
+        to: http://www.purl.org/ogit/Network/Interface
+        
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: intitial version
+        modified-by: Roland Judas

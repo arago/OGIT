@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Component
-    name: Component
+    id:   http://www.purl.org/ogit/Network/Filter
+    name: Filter
     description: |
-      Parent Networking Component
+      Filter is a security measure restricting usage
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

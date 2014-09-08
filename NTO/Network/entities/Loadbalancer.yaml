@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Component
-    name: Component
+    id:   http://www.purl.org/ogit/Network/Loadbalancer
+    name: Loadbalancer
     description: |
-      Parent Networking Component
+      Distributes Network loads between multiple endpoints/hosts
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

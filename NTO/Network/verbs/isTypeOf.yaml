@@ -1,0 +1,33 @@
+- Verb:
+    id: http://www.purl.org/ogit/Network/isTypeOf
+    name: isTypeOf
+    description: |
+      verb showing that an entity implents functions of another entity
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-05
+    creator: Roland Judas
+    deleter: 
+    modified: 2014-09-05
+    valid-from: 2014-09-05
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Component
+      - from: http://www.purl.org/ogit/Network/Card
+        to: http://www.purl.org/ogit/Network/Component
+      - from: http://www.purl.org/ogit/Network/Fabric
+        to: http://www.purl.org/ogit/Network/Component
+      - from: http://www.purl.org/ogit/Network/Virtualisation
+        to: http://www.purl.org/ogit/Network/Component
+      - from: http://www.purl.org/ogit/Network/Storage
+        to: http://www.purl.org/ogit/Network/Component
+      - from: http://www.purl.org/ogit/Network/Enclosure
+        to: http://www.purl.org/ogit/Network/Component
+      - from: http://www.purl.org/ogit/Network/Shelf
+        to: http://www.purl.org/ogit/Network/Component
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: intitial version
+        modified-by: Roland Judas

@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Component
-    name: Component
+    id:   http://www.purl.org/ogit/Network/FCHBA
+    name: FCHBA
     description: |
-      Parent Networking Component
+      Fibre Channel Host Bus Adapter, Physical/Virtual Circuit allowing an endpoint to connect to a network 
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ
@@ -24,6 +24,7 @@
       mandatory:
         - http://www.purl.org/ogit/Network/id
       optional:
+        - http://www.purl.org/ogit/Network/assetId
         - http://www.purl.org/ogit/contact
 
 

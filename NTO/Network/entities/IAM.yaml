@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Component
-    name: Component
+    id:   http://www.purl.org/ogit/Network/IAM
+    name: IAM
     description: |
-      Parent Networking Component
+      Identity and Access Management
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

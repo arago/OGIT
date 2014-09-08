@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Component
-    name: Component
+    id:   http://www.purl.org/ogit/Network/MAC
+    name: MAC
     description: |
-      Parent Networking Component
+      MAC-Adress is a globally unique identifier for Ethernet Adapters
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ
@@ -25,6 +25,3 @@
         - http://www.purl.org/ogit/Network/id
       optional:
         - http://www.purl.org/ogit/contact
-
-
-

@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Component
-    name: Component
+    id:   http://www.purl.org/ogit/Network/PortChannel
+    name: PortChannel
     description: |
-      Parent Networking Component
+      A Portchannel bundles two or more physical or logical Network Ports
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/Component
-    name: Component
+    id:   http://www.purl.org/ogit/Network/Link
+    name: Link
     description: |
-      Parent Networking Component
+      Link is a logical connection between interfaces
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

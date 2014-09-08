@@ -2,7 +2,7 @@
     id:   http://www.purl.org/ogit/Network/Card
     name: Card
     description: |
-      Physical Networking Module to be fittet into an Enclosure
+      Physical Networking Module to be fitted into an Enclosure
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ
