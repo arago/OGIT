@@ -12,6 +12,8 @@
     valid-from: 2014-06-01
     valid-until: 
     allowed:
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Role
       - from: http://www.purl.org/ogit/ITService/Parameter
         to: http://www.purl.org/ogit/ITService/ParameterType
       - from: http://www.purl.org/arago/MARSModel
@@ -48,3 +50,7 @@
         date: 2014-07-10
         description: 'new allowed sections added for network'
         modified-by: RJ
+      - id: 4
+        date: 2014-09-08
+        description: 'new allowed section added'
+        modified-by: FCO
