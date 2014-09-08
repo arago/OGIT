@@ -14,6 +14,8 @@
     allowed:
       - from: http://www.purl.org/ogit/Contract
         to: http://www.purl.org/ogit/Penalty
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Role
       - from: http://www.purl.org/ogit/ITService/SLA
         to: http://www.purl.org/ogit/Penalty
     history:

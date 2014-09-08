@@ -13,12 +13,16 @@
     valid-from: 2014-08-16
     valid-until: 
     allowed:
+      - from: http://www.purl.org/ogit/Role
+        to: http://www.purl.org/ogit/Organization
       - from: http://www.purl.org/ogit/GraphIT/Client
         to: http://www.purl.org/ogit/Organization
       - from: http://www.purl.org/ogit/ITSM/License
         to: http://www.purl.org/ogit/GraphIT/Client
       - from: http://www.purl.org/ogit/ITSM/LicenseToken
         to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/ITService/SLA
+        to: http://www.purl.org/ogit/ITService/Service
     history:
       - id: 1
         date: 2014-08-15
@@ -28,3 +32,7 @@
         date: 2014-08-27
         description: 'added LicenseToken to Organization'
         modified-by: RGL
+      - id: 3
+        date: 2014-09-08
+        description: 'new allowed section added'
+        modified-by: FCO
