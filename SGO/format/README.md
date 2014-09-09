@@ -19,7 +19,7 @@ Requirements for _Entity_ definitions:
 
 Requirements for `Verb` definitions:
 * the first letter of each verb (base) name must be lower case 
-* the (base) name of a verb will be camel case, [a-z][a-zA-Z0-9]*
+* the (base) name of a verb will be camel case, i.e. [a-z][a-zA-Z0-9]*
 * internal verbs (read only for applications) are prefixed with an underscore ('_')
 * each _Verb_ should be defined in a separate YAML file named like the (base) name of that verb
   * file name should be `<verb-name>.yaml`
