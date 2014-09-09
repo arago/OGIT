@@ -1,0 +1,23 @@
+- Verb:
+    id: http://www.purl.org/ogit/ITSM/requestedBy
+    name: requestedBy
+    description: |
+      Indicates by whom something was requested.
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-09
+    creator: FCO
+    deleter: 
+    modified: 2014-09-09
+    valid-from: 2014-09-15
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/ITSM/ChangeRequest
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ITSM/LicenseRequest
+        to: http://www.purl.org/ogit/Person
+    history:
+      - id: 1
+        date: 2014-09-09
+        description: intitial version
+        modified-by: FCO

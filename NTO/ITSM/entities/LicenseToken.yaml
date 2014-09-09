@@ -2,7 +2,8 @@
     id:   http://www.purl.org/ogit/ITSM/LicenseToken
     name: LicenseToken
     description: |
-      This serves as a placeholder for a client instance during the license request process and should be replaced afterwards by a client node.
+      This serves as a placeholder for pre-approved license request it will be subsituted by a real license throughout the licence request process.
+      This will created by a license admin and communicated to potential licence requesters. 
     valid-from: 2014-08-28 00:00:00
     valid-until:
     creator: RGL
