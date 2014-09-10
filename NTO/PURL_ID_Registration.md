@@ -7,19 +7,20 @@ To perceive a straightforward unique ID system for OGIT and vendor managed NTOs 
 
 ##Format of URL
 
-NTO-IDs are derived from the a PURL in the format
+Each ontology element, i.e. each attribute, verb, and entity has a PURL as unique ID. The general format of those PURLs are
 
 ```
-http://www.purl.org/NTO_MAINTAINER/ITEM_NAME
+http://www.purl.org/<namespace>/<itemname>
 ```
 
-where *NTO_MAINTAINER* is a unique domain within the PURL system, which can be managed by the individual NTO owner. 
-
-An example would be 
-
+For example:
 ```
+http://www.purl.org/ogit/has
+http://www.purl.org/ogit/gr/category
 http://www.purl.org/arago/AutoPilotIssue
 ```
+
+As seen in the examples a namespace can have sub namespaces. In www.purl.org those namespaces are called _domains_. We recommended to not use more than two layers of domains.
 
 
 ##How To Use PURL
@@ -37,9 +38,14 @@ Individual PURLs are hosted inside a domain. The domain denotes the top level st
 
 For more Information see [Domain Creation](http://www.purl.org/docs/#domaincreate) .
 
-PURL Domains are used as as identifier for the NTO Maintainer
+PURL Domains have a maintainer and an optional list of writers. With a few exceptions there is a one-to-one relationship between those domains, namespaces, and NTOs. 
+
+Hence, the maintainers and writers for a domain are considered the maintainers of that NTO.
 
 ###Create PURLs
 
-PURLs are used to create a unique identifier for elements in the OGIT structure. The first level of PURLs below a PURL-domain is used to denote the NTO name. The second level denotes the ontology item type, which could be either an entity, a verb, an attribute or a schema. With the third level the item name is described. 
+PURLs are used to create a unique identifier for elements in the OGIT structure. If you are maintainer and/or writer of the PURL domain corresponding to the OGIT ontology namespace you're working on, The recommended procedure is as follows:
+- register the PURL for a new ontology element
+- define the ontology element using the registered PURL as ontology elmenent ID
+This way any ID conflicts are prevented.
 
