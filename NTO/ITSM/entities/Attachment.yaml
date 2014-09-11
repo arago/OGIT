@@ -1,0 +1,29 @@
+- Entity:
+    id:   http://www.purl.org/ogit/ITSM/Attachment
+    name: Attachment
+    description: |
+      This entity defines file attachments a ticket might have.
+    valid-from: 2014-09-15 00:00:00
+    valid-until:
+    creator: FCO
+    deleter: 
+    created:  2014-09-11
+    modified: 2014-09-11
+    admin-contact: ogit@arago.de
+    tech-contact: ogit@arago.de
+    scope: NTO
+    parent: http://www.purl.org/ogit/Factual
+    history:
+      - id: 1
+        date: 2014-09-10
+        description: initial
+        modified-by: FCO
+
+    attributes:
+      any: true
+      mandatory:
+        - http://www.purl.org/ogit/ITSM/name
+        - http://www.purl.org/ogit/url
+      optional:
+
+
