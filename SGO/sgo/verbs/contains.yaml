@@ -34,7 +34,15 @@
         to: http://www.purl.org/ogit/Network/Card
       - from: http://www.purl.org/ogit/Network/Enclosure
         to: http://www.purl.org/ogit/Network/Shelf
-      
+      - from: http://www.purl.org/ogit/DCIM/Section
+        to: http://www.purl.org/ogit/DCIM/Rack
+      - from: http://www.purl.org/ogit/DCIM/Rack
+        to: http://www.purl.org/ogit/DCIM/Device
+      - from: http://www.purl.org/ogit/DCIM/Rack
+        to: http://www.purl.org/ogit/DCIM/PDU
+      - from: http://www.purl.org/ogit/DCIM/Section
+        to: http://www.purl.org/ogit/DCIM/Rack      
+             
     history:
       - id: 1
         date: 2014-05-27
@@ -52,3 +60,7 @@
         date: 2014-09-05
         description: 'add a connection for network'
         modified-by: Roland Judas
+      - id: 5
+        date: 2014-09-11
+        description: 'add a connection for DCIM'
+        modified-by: Roland Judas        

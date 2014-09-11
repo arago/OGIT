@@ -16,6 +16,8 @@
         to: http://www.purl.org/ogit/Network/NIC
       - from: http://www.purl.org/ogit/Network/Port
         to: http://www.purl.org/ogit/Network/FCHBA
+      - from: http://www.purl.org/ogit/DCIM/Device
+        to: http://www.purl.org/ogit/DCIM/PDU
     history:
       - id: 1
         date: 2014-09-05
@@ -25,4 +27,7 @@
         date: 2014-09-11
         description: 'Moved from NTO/Network to SGO'
         modified-by: Roland Judas
-      
+      - id: 3
+        date: 2014-09-11
+        description: 'Added allowed Section DCIM'
+        modified-by: Roland Judas    

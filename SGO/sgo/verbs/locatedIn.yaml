@@ -11,21 +11,25 @@
     valid-from: 2014-06-01
     valid-until: 
     allowed:
-      -
-        from: http://www.purl.org/ogit/gr/BusinessEntity
+      - from: http://www.purl.org/ogit/gr/BusinessEntity
         to: http://www.purl.org/ogit/Geo/Region
-      -
-        from: http://www.purl.org/ogit/gr/BusinessEntity
+      - from: http://www.purl.org/ogit/gr/BusinessEntity
         to: http://www.purl.org/ogit/gr/Location
-      -
-        from: http://www.purl.org/ogit/ITSM/Asset
+      - from: http://www.purl.org/ogit/ITSM/Asset
         to: http://www.purl.org/ogit/gr/Location
-      -
-        from: http://www.purl.org/arago/MARSResourceNode
+      - from: http://www.purl.org/arago/MARSResourceNode
         to: http://www.purl.org/ogit/Geo/Region
-      -
-        from: http://www.purl.org/ogit/gr/Location
+      - from: http://www.purl.org/ogit/gr/Location
         to: http://www.purl.org/ogit/Geo/Region
+      - from: http://www.purl.org/ogit/DCIM/Datacenter
+        to: http://www.purl.org/ogit/gr/Location
+      - from: http://www.purl.org/ogit/DCIM/Section
+        to: http://www.purl.org/ogit/gr/Location
+      - from: http://www.purl.org/ogit/DCIM/Room
+        to: http://www.purl.org/ogit/gr/Location
+      - from: http://www.purl.org/ogit/DCIM/Rack
+        to: http://www.purl.org/ogit/gr/Location     
+ 
     history:
       - id: 1
         date: 2014-05-27
