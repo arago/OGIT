@@ -32,6 +32,9 @@
         - http://www.purl.org/ogit/ITSM/scheduledStartAt
         - http://www.purl.org/ogit/ITSM/scheduledFinishAt
         - http://www.purl.org/ogit/ITSM/actualEffort
+        - http://www.purl.org/ogit/ITSM/fallbackPlan
+        - http://www.purl.org/ogit/ITSM/testPlan
+        - http://www.purl.org/ogit/ITSM/implementationPlan
 
 
 

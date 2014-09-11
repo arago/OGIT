@@ -34,5 +34,6 @@
         - http://www.purl.org/ogit/ITSM/lastUpdatedAt
         - http://www.purl.org/ogit/ITSM/externalTicketSource
         - http://www.purl.org/ogit/ITSM/externalTicketID
+        - http://www.purl.org/ogit/ITSM/reportedSource
 
 
