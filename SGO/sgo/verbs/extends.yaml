@@ -16,8 +16,36 @@
     allowed:
       - from: http://www.purl.org/ogit/Node
         to: http://www.purl.org/ogit/Node
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/WifiAP
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Router
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Switch
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/IAM
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/IDSIPS
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Loadbalancer
+      - from: http://www.purl.org/ogit/Network/Card
+        to: http://www.purl.org/ogit/Network/WifiAP
+      - from: http://www.purl.org/ogit/Network/Card
+        to: http://www.purl.org/ogit/Network/Router
+      - from: http://www.purl.org/ogit/Network/Card
+        to: http://www.purl.org/ogit/Network/Switch
+      - from: http://www.purl.org/ogit/Network/Card
+        to: http://www.purl.org/ogit/Network/IAM
+      - from: http://www.purl.org/ogit/Network/Card
+        to: http://www.purl.org/ogit/Network/IDSIPS
+      - from: http://www.purl.org/ogit/Network/Card
+        to: http://www.purl.org/ogit/Network/Loadbalancer  
     history:
       - id: 1
         date: 2014-09-10
         description: 'intitial version'
         modified-by: FCO
+      - id: 2
+        date: 2014-09-12
+        description: 'Added Network edges'
+        modified-by: RJ
