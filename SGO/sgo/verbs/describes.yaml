@@ -22,6 +22,15 @@
         to: http://www.purl.org/ogit/ITService/SLA
       - from: http://www.purl.org/ogit/ITSM/Asset
         to: http://www.purl.org/arago/MARSNode
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/ogit/Network/Fabric
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/ogit/Network/SimpleDevice
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/ogit/Network/Card
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/ogit/Network/Enclosure
+                     
     history:
       - id: 1
         date: 2014-05-27
@@ -35,3 +44,7 @@
         date: 2014-09-08
         description: 'add connection'
         modified-by: FCO
+      - id: 4
+        date: 2014-09-11
+        description: 'add connection'
+        modified-by: RJ
