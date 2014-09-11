@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/IPAdress
-    name: IPAdress
+    id:   http://www.purl.org/ogit/Network/IPAddress
+    name: IPAddress
     description: |
-      IPAdress-Adress is per network unique identifier for IP-Devices
+      IPAddress-Adress is per network unique identifier for IP-Devices
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

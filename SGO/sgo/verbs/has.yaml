@@ -31,7 +31,7 @@
       - from: http://www.purl.org/ogit/Network/NIC
         to: http://www.purl.org/ogit/Network/MAC
       - from: http://www.purl.org/ogit/Network/Interface
-        to: http://www.purl.org/ogit/Network/IPAdress 
+        to: http://www.purl.org/ogit/Network/IPAddress 
       - from: http://www.purl.org/ogit/Network/Endpoint
         to: http://www.purl.org/ogit/Network/Interface 
       - from: http://www.purl.org/ogit/Network/Endpoint
