@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/ITSM/requestedBy
     name: requestedBy
     description: |
-      Indicates by whom something was requested.
+      Indicates by whom something, e.g. a ChangeRequest, was requested.
+      This might be different from the person who created the ticket (ogit/ITSM/opendBy) in case the reporter is calling a service desk and the ticket will be opened by help desk staff.
+      Sometimes also named as "caller". This Person or entity must be kept informed about relevant updates of the ticket.
     admin-contact: arago AG
     tech-contact: arago AG
     created: 2014-09-09

@@ -32,4 +32,7 @@
         - http://www.purl.org/ogit/ITSM/openedAt
         - http://www.purl.org/ogit/ITSM/closedAt
         - http://www.purl.org/ogit/ITSM/lastUpdatedAt
+        - http://www.purl.org/ogit/ITSM/externalTicketSource
+        - http://www.purl.org/ogit/ITSM/externalTicketID
+
 
