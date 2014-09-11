@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/reportedSource
+    name: reportedSource
+    description: |
+      Can be used to define how a ticket was communicated. It could define some kind of communication channel ("ServiceDesk", "Email") or, e.g. for Incident records, it might define that the ticket was produced automatically from an event management system.
+    valid-from: 2014-09-15 00:00:00
+    valid-until: 
+    creator: FCO
+    deleter: 
+    created:  2014-09-11
+    modified: 2014-09-1
+    admin-contact: arago AG
+    tech-contact: arago AG
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2014-09-11
+        description: initial
+        modified-by: FCO

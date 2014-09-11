@@ -27,6 +27,7 @@
       optional:
         - http://www.purl.org/ogit/ITSM/reportedAt
         - http://www.purl.org/ogit/ITSM/solution
+        - http://www.purl.org/ogit/ITSM/resolutionCode
         - http://www.purl.org/ogit/ITSM/rootCause
         - http://www.purl.org/ogit/ITSM/workAround
 

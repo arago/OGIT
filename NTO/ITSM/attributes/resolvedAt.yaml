@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/resolvedAt
+    name: resolvedAt
+    description: |
+      Can be used for incident or problem tickets when it is necessary to distinguish between the ticket resolving and ticket closure (closedAt)
+      The values must be combined date and time with time zone designator according to ISO 8601
+    valid-from: 2014-09-15 00:00:00
+    valid-until: 
+    creator: FCO
+    deleter: 
+    created:  2014-09-11
+    modified: 2014-09-11
+    admin-contact: arago AG
+    tech-contact: arago AG
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2014-09-11
+        description: initial
+        modified-by: FCO
