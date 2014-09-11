@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.org/ogit/Network/connectsTo
+    id: http://www.purl.org/ogit/ogit/connectsTo
     name: connectsTo
     description: |
       verb showing that an entity is physically/Virtually connecting to one other entity
@@ -21,3 +21,8 @@
         date: 2014-09-05
         description: intitial version
         modified-by: Roland Judas
+      - id: 2
+        date: 2014-09-11
+        description: 'Moved from NTO/Network to SGO'
+        modified-by: Roland Judas
+      
