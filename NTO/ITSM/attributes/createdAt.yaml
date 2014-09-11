@@ -4,7 +4,7 @@
     description: |
       Defines a point in time when some ITSM entity was created.
       The values must be combined date and time with time zone designator according to ISO 8601
-      For tickets usually "openedAt" will be used unless there is a case when the distinction between creation time and reaching the some "open" status is relevant.
+      For tickets usually "openedAt" will be used unless there is a case when the distinction between creation time and reaching some "open" status is relevant.
     admin-contact: arago AG
     tech-contact: arago AG
     created: 2014-08-15

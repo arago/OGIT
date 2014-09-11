@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/ITSM/assignedTo
     name: assignedTo
     description: |
-      Indicates who a ticket is assigned to
+      Indicates who a ticket is assigned to. The referenced entity is considered responsible for that ticket
     admin-contact: arago AG
     tech-contact: arago AG
     created: 2014-09-03

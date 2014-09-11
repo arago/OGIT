@@ -24,6 +24,15 @@
       mandatory:
         - http://www.purl.org/ogit/ITSM/changeStatus
       optional:
+        - http://www.purl.org/ogit/ITSM/changeRisk
+        - http://www.purl.org/ogit/ITSM/actualStartAt
+        - http://www.purl.org/ogit/ITSM/actualFinishAt
+        - http://www.purl.org/ogit/ITSM/targetStartAt
+        - http://www.purl.org/ogit/ITSM/targetFinishAt
+        - http://www.purl.org/ogit/ITSM/scheduledStartAt
+        - http://www.purl.org/ogit/ITSM/scheduledFinishAt
+        - http://www.purl.org/ogit/ITSM/actualEffort
+
 
 
 
