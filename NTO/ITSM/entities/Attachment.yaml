@@ -22,7 +22,7 @@
     attributes:
       any: true
       mandatory:
-        - http://www.purl.org/ogit/ITSM/name
+        - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/url
       optional:
 
