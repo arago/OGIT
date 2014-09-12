@@ -2,7 +2,6 @@
     id:   http://www.purl.org/ogit/BPMN2/ParallelGateway
     name: ParallelGateway
     description: |
-      \b Parallel Gateway\n\n 
       Gateways can also be used to model concurrency in a process. The most straightforward gateway to introduce concurrency 
       in a process model is the Parallel Gateway, which allows forking into multiple paths of execution or joining multiple 
       incoming paths of execution.\n
