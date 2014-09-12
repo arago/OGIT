@@ -2,7 +2,6 @@
     id:   http://www.purl.org/ogit/BPMN2/EventBasedGateway
     name: EventBasedGateway
     description: |
-      \b EventBasedGateway\n\n 
       The event-based Gateway allows you to make a decision based on events. Each outgoing sequence flow of the gateway needs 
       to be connected to an intermediate catching event. When process execution reaches an event-based Gateway, the gateway 
       acts like a wait state: execution is suspended. In addition, for each outgoing sequence flow, an event subscription is 
