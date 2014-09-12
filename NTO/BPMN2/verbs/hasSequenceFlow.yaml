@@ -1,6 +1,6 @@
 - Verb:
-    id: http://www.purl.org/ogit/BPMN2/sequenceFlows
-    name: sequenceFlows
+    id: http://www.purl.org/ogit/BPMN2/hasSequenceFlow
+    name: hasSequenceFlow
     description: |
       A sequence flow is the connector between two elements of a process. After an element is visited during process execution, 
       all outgoing sequence flows will be followed. This means that the default nature of BPMN 2.0 is to be parallel: 
