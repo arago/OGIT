@@ -22,13 +22,13 @@
     attributes:
       any: true
       mandatory:
-        - http://www.purl.org/ogit/eventID
-        - http://www.purl.org/ogit/eventMessage
-        - http://www.purl.org/ogit/eventNodeID
-        - http://www.purl.org/ogit/eventCreatedAt
+        - http://www.purl.org/ogit/ITSM/eventID
+        - http://www.purl.org/ogit/ITSM/eventMessage
+        - http://www.purl.org/ogit/ITSM/eventNodeID
+        - http://www.purl.org/ogit/ITSM/eventCreatedAt
       optional:
-        - http://www.purl.org/ogit/eventStatus
-        - http://www.purl.org/ogit/eventSeverity
+        - http://www.purl.org/ogit/ITSM/eventStatus
+        - http://www.purl.org/ogit/ITSM/eventSeverity
 
 
 
