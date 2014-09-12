@@ -33,4 +33,5 @@
     attributes:
       any: no
       mandatory:
+        - http://www.purl.org/ogit/BPMN2/functionality
       optional:
