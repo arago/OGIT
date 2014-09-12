@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/eventID
+    name: eventID
+    description: |
+      Defines the unique identifier for an event.
+      Existing event management systems migh use different names for this (e.g. "ServerSerial" in Netcool Omnibus)
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-12
+    creator: FCO
+    deleter: 
+    modified: 2014-09-12
+    valid-from: 2014-09-15
+    valid-until: 
+    validation-parameter: 
+    validation-type: 
+    history:
+      - id: 1
+        date: 2014-09-12
+        description: intitial version
+        modified-by: FCO

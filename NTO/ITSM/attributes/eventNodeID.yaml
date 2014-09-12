@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/eventNodeID
+    name: eventNodeID
+    description: |
+      Identifies the source of an event, i.e. identifies the monitoring endpoint which caused the event creation.
+      This could be an artifical identifier or some "natural" ID like hostname or IP address.
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-12
+    creator: FCO
+    deleter: 
+    modified: 2014-09-12
+    valid-from: 2014-09-15
+    valid-until: 
+    validation-parameter: 
+    validation-type: 
+    history:
+      - id: 1
+        date: 2014-09-12
+        description: intitial version
+        modified-by: FCO
