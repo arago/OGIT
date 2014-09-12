@@ -8,7 +8,11 @@ Currently the following NTOs have been enabled for Open GraphIT ontology:
 * [AutoPilot MAID](AutoPilot_MAID)
 * [AutoPilot MARS](AutoPilot_MARS)
 * [AutoPilot Timeseries](AutoPilot_Timeseries)
-* [CIMI - Cloud Infrastructure Management Interface](DMTF_CIMI)
+* [BPMN2](BPMN2)
+* [ITService](ITService)
+* [DCIM](DCIM)
+* [Network](Network)
+* [Kanban](Kanban)
 * [Service](Service)
 
 
