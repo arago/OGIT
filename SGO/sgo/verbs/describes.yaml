@@ -30,7 +30,14 @@
         to: http://www.purl.org/ogit/Network/Card
       - from: http://www.purl.org/ogit/ITSM/Asset
         to: http://www.purl.org/ogit/Network/Enclosure
-                     
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/ogit/DCIM/Cooling     
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/ogit/DCIM/Rack 
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/ogit/DCIM/Device 
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/ogit/DCIM/PDU         
     history:
       - id: 1
         date: 2014-05-27
@@ -46,5 +53,5 @@
         modified-by: FCO
       - id: 4
         date: 2014-09-11
-        description: 'add connection'
+        description: 'add connections Network/DCIM'
         modified-by: RJ

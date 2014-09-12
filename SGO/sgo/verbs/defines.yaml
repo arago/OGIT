@@ -22,6 +22,12 @@
         to: http://www.purl.org/ogit/Network/Component
       - from: http://www.purl.org/ogit/Network/SimpleDevice
         to: http://www.purl.org/ogit/Network/Component
+      - from: http://www.purl.org/ogit/DCIM/Server
+        to: http://www.purl.org/ogit/DCIM/Device
+      - from: http://www.purl.org/ogit/DCIM/Storage
+        to: http://www.purl.org/ogit/DCIM/Device        
+      - from: http://www.purl.org/ogit/DCIM/UPS
+        to: http://www.purl.org/ogit/DCIM/Device        
     history:
       - id: 1
         date: 2014-09-05

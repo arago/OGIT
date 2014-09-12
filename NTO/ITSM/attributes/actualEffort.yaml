@@ -13,7 +13,7 @@
     valid-from: 2014-09-15
     valid-until: 
     validation-parameter: regex
-    validation-type: "^(\d+:\d\d)$"
+    validation-type: '^(\d+:\d\d)$'
     history:
       - id: 1
         date: 2014-09-11
