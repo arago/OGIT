@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/eventCreatedAt
+    name: eventCreatedAt
+    description: |
+      Defines a point in time when an event was recorded.
+      The value will be defined as the number of milliseconds after epoch.
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-12
+    creator: FCO
+    deleter: 
+    modified: 2014-09-12
+    valid-from: 2014-09-15
+    valid-until: 
+    validation-parameter: regex
+    validation-type: '^\d+$'
+    history:
+      - id: 1
+        date: 2014-09-12
+        description: intitial version
+        modified-by: FCO
