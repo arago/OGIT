@@ -18,6 +18,14 @@
         to: http://www.purl.org/ogit/Organization
       - from: http://www.purl.org/ogit/ITSM/Ticket
         to: http://www.purl.org/ogit/ITService/Service
+      - from: http://www.purl.org/ogit/ITSM/ChangeTask
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ITSM/ChangeTask
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/ITSM/ApprovalTask
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ITSM/ApprovalTask
+        to: http://www.purl.org/ogit/Organization
     history:
       - id: 1
         date: 2014-09-03
