@@ -1,6 +1,6 @@
 - Attribute:
-    id: http://www.purl.org/ogit/ITSM/changeStatus
-    name: changeStatus
+    id: http://www.purl.org/ogit/ITSM/approvalStatus
+    name: approvalStatus
     description: |
       defines the status of an ApprovalTask
     valid-from: 2014-09-15
