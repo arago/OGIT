@@ -1,6 +1,6 @@
-- Attribute:
-    id: http://www.purl.org/ogit/ITSM/changeStatus
-    name: changeStatus
+- id:
+    Attribute: http://www.purl.org/ogit/ITSM/taskStatus
+    name: taskStatus
     description: |
       defines the status of a ChangeTask
     valid-from: 2014-09-15
