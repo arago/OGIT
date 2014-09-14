@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/taskName
+    name: taskName
+    description: |
+      Will contain the human readable form of task ID. It some cases it might be equal to taskID or to some short description (summary) of the task
+    valid-from: 2014-09-15
+    valid-until: 
+    creator: FCO
+    deleter: 
+    created:  2014-09-14
+    modified: 2014-09-14
+    admin-contact: arago AG
+    tech-contact: arago AG
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2014-09-14
+        description: initial
+        modified-by: FCO

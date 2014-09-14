@@ -25,6 +25,7 @@
         - http://www.purl.org/ogit/ITSM/ticketID
       optional:
         - http://www.purl.org/ogit/ITSM/description
+        - http://www.purl.org/ogit/ITSM/subStatus
         - http://www.purl.org/ogit/ITSM/impact
         - http://www.purl.org/ogit/ITSM/urgency
         - http://www.purl.org/ogit/ITSM/priority
