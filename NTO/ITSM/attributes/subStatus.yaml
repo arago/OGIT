@@ -1,5 +1,5 @@
 - Attribute:
-    id: http://www.purl.org/ogit/subStatus
+    id: http://www.purl.org/ogit/ITSM/subStatus
     name: subStatus
     description: |
       unlike the other status fields this one allows arbitrary values. It can be used to define status values not allowed by  incidentStatus, changeStatus, ...
