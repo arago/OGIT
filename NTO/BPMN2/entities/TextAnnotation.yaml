@@ -3,8 +3,8 @@
     name: TextAnnotation
     description: |
       We use annotations to supplement our diagrams. Annotations can contain almost anything you find useful, and
-			you can connect them to other elements with associations. Usually, we use annotations to provide insight on
-			the execution of tasks.
+      you can connect them to other elements with associations. Usually, we use annotations to provide insight on
+      the execution of tasks.
     valid-from: 2014-09-15
     valid-until:
     creator: Peter Larem
