@@ -23,6 +23,6 @@
     attributes:
       any: no
       mandatory:
-        - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/name
       optional:
+        - http://www.purl.org/ogit/description
