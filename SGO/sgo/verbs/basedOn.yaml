@@ -19,6 +19,9 @@
       -
         from: http://www.purl.org/arago/MARSMachineNode
         to: http://www.purl.org/arago/MARSApplicationNode
+      -
+        from: http://www.purl.org/ogit/ITService/Report
+        to: http://www.purl.org/ogit/ITService/Service
     history:
       - id: 1
         date: 2014-09-05
@@ -26,5 +29,9 @@
         modified-by: FCO
       - id: 2
         date: 2014-09-05
+        description: 'allowed connections added'
+        modified-by: FCO
+      - id: 3
+        date: 2014-09-18
         description: 'allowed connections added'
         modified-by: FCO
