@@ -18,8 +18,12 @@
         date: 2014-08-15
         description: initial
         modified-by: FCO
-
+      - id: 2
+        date: 2014-09-18
+        description: allow all attributes
+        modified-by: RGL  
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/ogit/name
       optional:    
