@@ -1,0 +1,29 @@
+- Verb:
+    id: http://www.purl.org/ogit/ITSM/reportedBy
+    name: reportedBy
+    description: |
+      Indicates by whom a ticket was intially reported.
+      This might be different from the person who created the ticket (ogit/ITSM/opendBy) in case the reporter is calling a service desk and the ticket will be opened by help desk staff.
+      Sometimes also named as "caller". This Person or entity must be kept informed about relevant updates of the ticket.
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-09
+    creator: FCO
+    deleter: 
+    modified: 2014-09-09
+    valid-from: 2014-09-15
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/ITSM/Incident
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ITSM/Problem
+        to: http://www.purl.org/ogit/Person
+    history:
+      - id: 1
+        date: 2014-09-09
+        description: intitial version
+        modified-by: FCO
+      - id: 2
+        date: 2014-09-10
+        description: added to allow list
+        modified-by: FCO

@@ -1,0 +1,23 @@
+- Verb:
+    id: http://www.purl.org/ogit/Network/groups
+    name: groups
+    description: |
+      verb showing that two or more network entities are group to one locigal entity
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-05
+    creator: Roland Judas
+    deleter: 
+    modified: 2014-09-05
+    valid-from: 2014-09-05
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/Network/VLAN
+        to: http://www.purl.org/ogit/Network/Port
+      - from: http://www.purl.org/ogit/Network/PortChannel
+        to: http://www.purl.org/ogit/Network/Port
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: intitial version
+        modified-by: Roland Judas

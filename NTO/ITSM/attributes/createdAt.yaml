@@ -1,0 +1,22 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/createdAt
+    name: createdAt
+    description: |
+      Defines a point in time when some ITSM entity was created.
+      The values must be combined date and time with time zone designator according to ISO 8601
+      For tickets usually "openedAt" will be used unless there is a case when the distinction between creation time and reaching some "open" status is relevant.
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-08-15
+    creator: FCO
+    deleter: 
+    modified: 2014-08-15
+    valid-from: 2014-08-15
+    valid-until: 
+    validation-parameter: 
+    validation-type: 
+    history:
+      - id: 1
+        date: 2014-08-15
+        description: intitial version
+        modified-by: FCO

@@ -21,6 +21,10 @@
      attributes:
        mandatory:
           - http://www.purl.org/ogit/name
+          - http://www.purl.org/ogit/SWProject/identifier
+          - http://www.purl.org/ogit/SWProject/task_artifact
+          - http://www.purl.org/ogit/SWProject/task_milestone
+       optional:
           - http://www.purl.org/ogit/uri
           - http://www.purl.org/ogit/SWProject/start_date
           - http://www.purl.org/ogit/SWProject/end_date
@@ -33,3 +37,5 @@
           - http://www.purl.org/ogit/SWProject/size_adjusted
           - http://www.purl.org/ogit/SWProject/due_date
           - http://www.purl.org/ogit/description
+          - http://www.purl.org/ogit/SWProject/task_user
+

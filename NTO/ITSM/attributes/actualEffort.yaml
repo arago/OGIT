@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/actualEffort
+    name: actualEffort
+    description: |
+      Defines how much time was spent on the actual work for a change, task, or similar entity.
+      The values is expected to be in format HH:MM, e.g. 1:00 for 1 hour effort.
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-11
+    creator: FCO
+    deleter: 
+    modified: 2014-09-11
+    valid-from: 2014-09-15
+    valid-until: 
+    validation-parameter: regex
+    validation-type: '^(\d+:\d\d)$'
+    history:
+      - id: 1
+        date: 2014-09-11
+        description: intitial version
+        modified-by: FCO

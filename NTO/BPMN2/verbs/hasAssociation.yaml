@@ -1,0 +1,26 @@
+- Verb:
+    id: http://www.purl.org/ogit/BPMN2/hasAssociation
+    name: hasAssociation
+    description: |
+      An Association is represented with a dotted line. It is used to associate an Artifact or text to a Flow Object, and can 
+      indicate some directionality using an open arrowhead (toward the artifact to represent a result, from the artifact to 
+      represent an input, and both to indicate it is read and updated). No directionality is used when the Artifact or text is 
+      associated with a sequence or message flow (as that flow already shows the direction).
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-12
+    creator: Peter Larem
+    deleter: 
+    modified: 2014-09-12
+    valid-from: 2014-09-12
+    valid-until: 
+    allowed:
+    - from: http://www.purl.org/ogit/BPMN2/Process
+      to: http://www.purl.org/ogit/BPMN2/TextAnnotation
+    - from: http://www.purl.org/ogit/BPMN2/Process
+      to: http://www.purl.org/ogit/BPMN2/Group
+    history:
+      - id: 1
+        date: 2014-08-12
+        description: 'intitial version'
+        modified-by: Peter Larem

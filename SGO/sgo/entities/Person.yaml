@@ -18,8 +18,14 @@
         date: 2013-09-01
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2014-09-01
+        description: some attributes added
+        modified-by: FCO
         
 
     attributes:
       mandatory:
       optional:
+        - http://www.purl.org/ogit/firstName
+        - http://www.purl.org/ogit/lastName

@@ -1,0 +1,22 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ITSM/openedAt
+    name: openedAt
+    description: |
+      Will defined the time when a ticket was created/opened.
+      The values must be combined date and time with time zone designator according to ISO 8601
+      For most tickets there is no real difference between creation and opened time. In case such a distinction is relevant the "createdAt" attribute can be used.
+    valid-from: 2014-09-15 00:00:00
+    valid-until: 
+    creator: FCO
+    deleter: 
+    created:  2014-09-03
+    modified: 2014-09-03
+    admin-contact: arago AG
+    tech-contact: arago AG
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2014-09-03
+        description: initial
+        modified-by: FCO

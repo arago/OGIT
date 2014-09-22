@@ -1,0 +1,22 @@
+- Verb:
+    id: http://www.purl.org/ogit/createdBy
+    name: createdBy
+    description: |
+      indicates that some entity was produced by some other.
+    admin-contact: 'arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-09-05
+    creator: FCO
+    deleter: ''
+    modified: 2014-09-05
+    valid-from: 2014-09-15
+    valid-until: 
+    allowed:
+      -
+        from: http://www.purl.org/ogit/ITService/Report
+        to: http://www.purl.org/ogit/ITService/Service
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: 'intitial version'
+        modified-by: FCO

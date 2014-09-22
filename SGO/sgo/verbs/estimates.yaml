@@ -1,0 +1,21 @@
+- Verb:
+    id: http://www.purl.org/ogit/estimates
+    name: estimates
+    description: |
+      a business entity (e.g. a bank) estimates and then attributes a budget to the budget entity, which is connected to the entity person, to which the budget is allocated
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-05
+    creator: CO
+    deleter: 
+    modified: 2014-09-05
+    valid-from: 2014-09-15
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/gr/BusinessEntity
+        to: http://www.purl.org/CostModel/Budget
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: intitial version
+        modified-by: CO

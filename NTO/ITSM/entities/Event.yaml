@@ -1,0 +1,35 @@
+- Entity:
+    id:   http://www.purl.org/ogit/ITSM/Event
+    name: Event
+    description: |
+      This entity defines event records as produced by event management systems.
+    valid-from: 2014-09-15 00:00:00
+    valid-until:
+    creator: FCO
+    deleter: 
+    created:  2014-09-12
+    modified: 2014-09-12
+    admin-contact: ogit@arago.de
+    tech-contact: ogit@arago.de
+    scope: NTO
+    parent: http://www.purl.org/ogit/Situational
+    history:
+      - id: 1
+        date: 2014-09-12
+        description: initial
+        modified-by: FCO
+
+    attributes:
+      any: true
+      mandatory:
+        - http://www.purl.org/ogit/ITSM/eventID
+        - http://www.purl.org/ogit/ITSM/eventMessage
+        - http://www.purl.org/ogit/ITSM/eventNodeID
+        - http://www.purl.org/ogit/ITSM/eventCreatedAt
+      optional:
+        - http://www.purl.org/ogit/ITSM/eventStatus
+        - http://www.purl.org/ogit/ITSM/eventSeverity
+
+
+
+

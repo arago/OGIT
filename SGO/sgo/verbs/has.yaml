@@ -12,11 +12,44 @@
     valid-from: 2014-06-01
     valid-until: 
     allowed:
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Role
       - from: http://www.purl.org/ogit/ITService/Parameter
         to: http://www.purl.org/ogit/ITService/ParameterType
       - from: http://www.purl.org/arago/MARSModel
         to: http://www.purl.org/arago/MARSNode
-
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/CostModel/CostElement
+      - from: http://www.purl.org/CostModel/PlanningTemplate
+        to: http://www.purl.org/CostModel/PlanningTemplate
+      - from: http://www.purl.org/ogit/Network/Shelf
+        to: http://www.purl.org/ogit/Network/Slot
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Port
+      - from: http://www.purl.org/ogit/Network/Card
+        to: http://www.purl.org/ogit/Network/Port        
+      - from: http://www.purl.org/ogit/Network/NIC
+        to: http://www.purl.org/ogit/Network/MAC
+      - from: http://www.purl.org/ogit/Network/Interface
+        to: http://www.purl.org/ogit/Network/IPAddress 
+      - from: http://www.purl.org/ogit/Network/Endpoint
+        to: http://www.purl.org/ogit/Network/Interface 
+      - from: http://www.purl.org/ogit/Network/Endpoint
+        to: http://www.purl.org/ogit/Network/FCHBA 
+      - from: http://www.purl.org/ogit/DCIM/Datacenter
+        to: http://www.purl.org/ogit/DCIM/Building
+      - from: http://www.purl.org/ogit/DCIM/Building
+        to: http://www.purl.org/ogit/DCIM/Room
+      - from: http://www.purl.org/ogit/DCIM/Room
+        to: http://www.purl.org/ogit/DCIM/Section
+      - from: http://www.purl.org/ogit/DCIM/Room
+        to: http://www.purl.org/ogit/DCIM/Sensor
+      - from: http://www.purl.org/ogit/DCIM/Rack
+        to: http://www.purl.org/ogit/DCIM/Sensor
+      - from: http://www.purl.org/ogit/DCIM/Device
+        to: http://www.purl.org/ogit/DCIM/Sensor
+      - from: http://www.purl.org/ogit/DCIM/Section
+        to: http://www.purl.org/ogit/DCIM/Sensor                        
     history:
       - id: 1
         date: 2014-05-27
@@ -26,3 +59,15 @@
         date: 2014-07-10
         description: 'new allowed section added'
         modified-by: FCO
+      - id: 3
+        date: 2014-07-10
+        description: 'new allowed sections added for network'
+        modified-by: RJ
+      - id: 4
+        date: 2014-09-08
+        description: 'new allowed section added'
+        modified-by: FCO
+      - id: 5
+        date: 2014-09-11
+        description: 'new allowed section added for DCIM'
+        modified-by: RJ

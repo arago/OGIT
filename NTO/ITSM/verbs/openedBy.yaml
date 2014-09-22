@@ -1,0 +1,28 @@
+- Verb:
+    id: http://www.purl.org/ogit/ITSM/openedBy
+    name: openedBy
+    description: |
+      Indicates who created/opened a ticket
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-03
+    creator: FCO
+    deleter: 
+    modified: 2014-09-03
+    valid-from: 2014-09-15
+    valid-until: 
+    cardinality: many2one
+    allowed:
+      - from: http://www.purl.org/ogit/ITSM/Ticket
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ITSM/Ticket
+        to: http://www.purl.org/ogit/ITService/Service
+    history:
+      - id: 1
+        date: 2014-09-03
+        description: intitial version
+        modified-by: FCO
+      - id: 2
+        date: 2014-09-05
+        description: add connection
+        modified-by: Peter Larem

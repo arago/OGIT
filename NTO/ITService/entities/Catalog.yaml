@@ -1,0 +1,31 @@
+- Entity:
+    id: http://www.purl.org/ogit/ITService/Catalog
+    name: Catalog
+    description: |
+      Catalog of all client requirements for Services as a basis for Pricebook creation. 
+      Also Catalog of all the offerings from all Pricebooks from all vendors.
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-05-27
+    creator: FCO
+    deleter: 
+    modified: 2014-05-27
+    parent: http://www.purl.org/ogit/Catalog/Catalog
+    scope: NTO
+    valid-from: 2014-06-01
+    valid-until:
+    
+    attributes:
+      any: true
+      mandatory:
+      optional:
+
+    history:
+      - id: 1
+        date: 2014-05-27
+        description: 'intitial version'
+        modified-by: FCO
+      - id: 2
+        date: 2014-09-05
+        description: 'update description'
+        modified-by: Peter Larem

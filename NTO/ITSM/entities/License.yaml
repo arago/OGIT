@@ -1,0 +1,40 @@
+- Entity:
+    id:   http://www.purl.org/ogit/ITSM/License
+    name: License
+    description: |
+      This entity type allows to store license information or actual licenses.
+    valid-from: 2014-08-16 00:00:00
+    valid-until:
+    creator: arago AG
+    deleter: 
+    created:  2014-08-15
+    modified: 2014-08-27
+    admin-contact: ogit@arago.de
+    tech-contact: ogit@arago.de
+    scope: NTO
+    parent: http://www.purl.org/ogit/Global
+    history:
+      - id: 1
+        date: 2014-08-15
+        description: initial
+        modified-by: FCO
+      - id: 2
+        date: 2014-08-27
+        description: initial
+        modified-by: RGL
+      - id: 3
+        date: 2014-08-29
+        description: allow any attribute
+        modified-by: FCO
+
+    attributes:
+      any: true
+      mandatory:
+      optional:    
+        - http://www.purl.org/ogit/gr/validFrom
+        - http://www.purl.org/ogit/gr/validThrough
+        - http://www.purl.org/ogit/ITSM/licenseSubject
+        - http://www.purl.org/ogit/ITSM/licenseKey
+        - http://www.purl.org/ogit/ITSM/createdAt
+        - http://www.purl.org/ogit/ITSM/licenseType
+

@@ -1,0 +1,22 @@
+- Attribute:
+    id: http://www.purl.org/ogit/function
+    name: function
+    description: |
+      This is more specific then 'description' and will be used to as a short string indication what some entity does/provides. Applies to 'Organisation', 'Application', ...
+      At this level of specification it is still a free from string.
+      However, unlike 'description', it is expected to contain some list of fixed values.
+    valid-from: 2014-08-16 00:00:00
+    valid-until: 
+    creator: FCO
+    deleter: 
+    created:  2014-08-15
+    modified: 2014-08-15
+    admin-contact: arago AG
+    tech-contact: arago AG
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2014-08-15
+        description: initial
+        modified-by: FCO

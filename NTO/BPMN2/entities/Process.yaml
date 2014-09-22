@@ -1,0 +1,28 @@
+- Entity:
+    id:   http://www.purl.org/ogit/BPMN2/Process
+    name: Process
+    description: |
+      Business Process Model and Notation (BPMN) is a graphical representation for specifying business processes in a business process model. It is also known as Business Process Modeling Notation.
+      Business Process Management Initiative (BPMI) developed BPMN, which has been maintained by the Object Management Group since the two organizations merged in 2005. As of March 2011, the current version of BPMN is 2.0. 
+    valid-from: 2014-08-29 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter:
+    created:  2014-08-29
+    modified: 2014-08-29
+    admin-contact: ogit@arago.de
+    tech-contact: ogit@arago.de
+    scope: NTO
+    parent: http://www.purl.org/ogit/Global
+    history:
+      - id: 1
+        date: 2014-08-29
+        description: initial
+        modified-by: Peter Larem
+
+    attributes:
+      any: no
+      mandatory:
+        - http://www.purl.org/ogit/name
+      optional:
+        - http://www.purl.org/ogit/description

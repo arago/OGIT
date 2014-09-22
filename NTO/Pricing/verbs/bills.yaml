@@ -1,0 +1,21 @@
+- Verb:
+    id: http://www.purl.org/ogit/Pricing/bills
+    name: bills
+    description: |
+      Releationship from an invoice to the entity that is invoiced
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-09-05
+    creator: FCO
+    deleter: 
+    modified: 2014-09-05
+    valid-from: 2014-09-15
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/Pricing/Invoice
+        to: http://www.purl.org/ogit/ITService/Order
+    history:
+      - id: 1
+        date: 2014-09-05
+        description: intitial version
+        modified-by: FCO
