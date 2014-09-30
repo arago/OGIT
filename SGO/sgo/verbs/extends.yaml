@@ -14,8 +14,6 @@
     valid-from: 2014-09-11
     valid-until: 
     allowed:
-      - from: http://www.purl.org/ogit/Node
-        to: http://www.purl.org/ogit/Node
       - from: http://www.purl.org/ogit/Network/SimpleDevice
         to: http://www.purl.org/ogit/Network/WifiAP
       - from: http://www.purl.org/ogit/Network/SimpleDevice
@@ -49,3 +47,7 @@
         date: 2014-09-12
         description: 'Added Network edges'
         modified-by: RJ
+      - id: 2
+        date: 2014-09-30
+        description: 'Node->extends->Node removed'
+        modified-by: FCO
