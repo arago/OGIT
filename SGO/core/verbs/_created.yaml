@@ -21,3 +21,5 @@
     allowed:
       - from: http://www.purl.org/ogit/Identity
         to: http://www.purl.org/ogit/Node
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Node
