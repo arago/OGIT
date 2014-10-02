@@ -17,7 +17,13 @@
         date: 2014-05-27
         description: intitial version
         modified-by: FCO
+      - id: 2
+        date: 2014-10-02
+        description: add connection
+        modified-by: PL
 
     allowed:
       - from: http://www.purl.org/ogit/gr/Offering
         to: http://www.purl.org/ogit/gr/PriceSpecification
+      - from: http://www.purl.org/ogit/ITService/Parameter
+        to: http://www.purl.org/ogit/Pricing/PriceSpecification
