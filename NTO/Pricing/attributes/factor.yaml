@@ -1,0 +1,22 @@
+- Attribute:
+    id: http://www.purl.org/ogit/Pricing/factor
+    name: factor
+    description: |
+      A factor will be multiplied to the source of the price. The source can either be an attribute of the service offering, 
+      the service offering itself or all services including the current service offering node.
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-10-02
+    creator: PL
+    deleter: 
+    modified: 2014-10-02
+    valid-from: 2014-10-02
+    valid-until: 
+    validation-parameter: 
+    validation-type: 
+
+    history:
+      - id: 1
+        date: 2014-10-02
+        description: 'intitial version'
+        modified-by: PL
