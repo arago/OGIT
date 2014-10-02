@@ -37,7 +37,9 @@
       - from: http://www.purl.org/ogit/ITSM/Asset
         to: http://www.purl.org/ogit/DCIM/Device 
       - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/ogit/DCIM/PDU         
+        to: http://www.purl.org/ogit/DCIM/PDU     
+      - from: http://www.purl.org/ogit/ITService/Parameter
+        to: http://www.purl.org/ogit/ITService/Offering  
     history:
       - id: 1
         date: 2014-05-27
@@ -55,3 +57,7 @@
         date: 2014-09-11
         description: 'add connections Network/DCIM'
         modified-by: RJ
+      - id: 5
+        date: 2014-10-02
+        description: 'add connection'
+        modified-by: PL
