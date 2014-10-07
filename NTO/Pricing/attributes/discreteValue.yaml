@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/Pricing/discreteValue
+    name: discreteValue
+    description: |
+      Concrete value for the pricing element
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-10-07
+    creator: PL
+    deleter: 
+    modified: 2014-10-07
+    valid-from: 2014-10-07
+    valid-until: 
+    validation-parameter: 
+    validation-type: 
+
+    history:
+      - id: 1
+        date: 2014-10-07
+        description: 'intitial version'
+        modified-by: PL
