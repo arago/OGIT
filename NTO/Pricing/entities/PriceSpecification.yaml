@@ -23,9 +23,14 @@
         - http://www.purl.org/ogit/Pricing/price
         - http://www.purl.org/ogit/Pricing/range
         - http://www.purl.org/ogit/Pricing/timeUnitSeconds
+        - http://www.purl.org/ogit/Pricing/discreteValue
 
     history:
       - id: 1
         date: 2014-10-02
         description: 'intitial version'
+        modified-by: PL
+      - id: 2
+        date: 2014-10-07
+        description: 'add attribute'
         modified-by: PL
