@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/ITService/pricing
     name: pricing
-    description: 'Contains a complete pricesheet in JSON format'
+    description: |
+      Contains the reference to the pricesheet, namely priceSheetUUID
     admin-contact: 'arago AG'
     tech-contact: 'arago AG'
     created: 2014-05-27
@@ -21,4 +22,8 @@
       - id: 2
         date: 2014-06-02
         description: 'added description'
+        modified-by: CO
+      - id: 3
+        date: 2014-10-07
+        description: 'change description'
         modified-by: CO
