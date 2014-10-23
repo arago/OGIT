@@ -26,6 +26,16 @@
         to: http://www.purl.org/ogit/ITService/Order
       - from: http://www.purl.org/ogit/ITSM/Event
         to: http://www.purl.org/ogit/ITService/Order
+      - from: http://www.purl.org/ogit/ITSM/Incident
+        to: http://www.purl.org/ogit/ITSM/Incident
+      - from: http://www.purl.org/ogit/ITSM/Incident
+        to: http://www.purl.org/ogit/ITSM/Problem
+      - from: http://www.purl.org/ogit/ITSM/Incident
+        to: http://www.purl.org/ogit/ITSM/ChangeRequest
+      - from: http://www.purl.org/ogit/ITSM/ChangeRequest
+        to: http://www.purl.org/arago/MARSNode
+      - from: http://www.purl.org/ogit/ITSM/Event
+        to: http://www.purl.org/arago/MARSNode
     history:
       - id: 1
         date: 2014-09-04
@@ -37,5 +47,9 @@
         modified-by: PL
       - id: 3
         date: 2014-10-20
+        description: 'add connection'
+        modified-by: PL
+      - id: 4
+        date: 2014-10-23
         description: 'add connection'
         modified-by: PL
