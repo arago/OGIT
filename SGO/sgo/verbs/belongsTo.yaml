@@ -29,6 +29,8 @@
         to: http://www.purl.org/ogit/ITSM/Ticket
       - from: http://www.purl.org/ogit/ITSM/ApprovalTask
         to: http://www.purl.org/ogit/ITSM/Ticket
+      - from: http://www.purl.org/ogit/ITSM/Asset
+        to: http://www.purl.org/ogit/Organization
     history:
       - id: 1
         date: 2014-08-15
@@ -50,3 +52,7 @@
         date: 2014-09-11
         description: 'new allowed for Attachment'
         modified-by: FCO
+      - id: 6
+        date: 2014-10-27
+        description: 'added Asset to Organization'
+        modified-by: PL
