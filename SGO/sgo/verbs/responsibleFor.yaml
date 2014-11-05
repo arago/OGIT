@@ -1,0 +1,22 @@
+- Verb:
+    id: http://www.purl.org/ogit/responsibleFor
+    name: responsibleFor
+    description: |
+      indicates which entities are responsible for each other entities
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-11-05
+    creator: Peter Larem
+    deleter: 
+    modified: 2014-11-05
+    valid-from: 2014-11-05
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Software/Application
+
+    history:
+      - id: 1
+        date: 2014-11-05
+        description: 'intitial version'
+        modified-by: Peter Larem
