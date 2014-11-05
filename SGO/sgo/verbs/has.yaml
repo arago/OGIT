@@ -50,6 +50,8 @@
         to: http://www.purl.org/ogit/DCIM/Sensor
       - from: http://www.purl.org/ogit/DCIM/Section
         to: http://www.purl.org/ogit/DCIM/Sensor                        
+      - from: http://www.purl.org/ogit/MARSTemplate
+        to: http://www.purl.org/arago/MARSNode                        
     history:
       - id: 1
         date: 2014-05-27
@@ -71,3 +73,7 @@
         date: 2014-09-11
         description: 'new allowed section added for DCIM'
         modified-by: RJ
+      - id: 6
+        date: 2014-11-05
+        description: 'new allowed connection'
+        modified-by: PL
