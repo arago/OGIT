@@ -12,8 +12,6 @@
     valid-from: 2014-11-05
     valid-until: 
     allowed:
-      - from: http://www.purl.org/ogit/Software/Data
-        to: http://www.purl.org/ogit/Software/Connection
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/Person
       - from: http://www.purl.org/ogit/Organization
