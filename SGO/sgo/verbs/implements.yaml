@@ -32,7 +32,11 @@
         date: 2014-07-22
         description: 'change the allowed connection'
         modified-by: Peter Larem
-      - id: 3
+      - id: 4
         date: 2014-10-07
         description: 'change the allowed connection'
         modified-by: CO
+      - id: 5
+        date: 2014-11-05
+        description: 'change the allowed connection'
+        modified-by: PL
