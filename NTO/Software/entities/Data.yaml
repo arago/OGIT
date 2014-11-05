@@ -1,0 +1,24 @@
+- Entity:
+    id:   http://www.purl.org/ogit/Software/Data
+    name: Data
+    description: |
+      Data transmitted between two components via connection.
+    valid-from: 2014-11-05 00:00:00
+    valid-until:
+    creator: PL
+    deleter: 
+    created:  2014-11-05
+    modified: 2014-11-05
+    admin-contact: ogit@arago.de
+    tech-contact: ogit@arago.de
+    scope: NTO
+    parent: http://www.purl.org/ogit/Factual
+    history:
+      - id: 1
+        date: 2014-11-05
+        description: initial
+        modified-by: PL
+
+    attributes:
+      mandatory:
+      optional:
