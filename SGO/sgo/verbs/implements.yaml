@@ -16,6 +16,8 @@
         to: http://www.purl.org/ogit/ITService/Order
       - from: http://www.purl.org/arago/MARSModel
         to: http://www.purl.org/ogit/ITService/Offering
+      - from: http://www.purl.org/ogit/ITService/Service    
+        to: http://www.purl.org/ogit/Software/Application
         
     history:
       - id: 1
