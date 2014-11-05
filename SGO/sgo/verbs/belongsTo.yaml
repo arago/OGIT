@@ -31,6 +31,10 @@
         to: http://www.purl.org/ogit/ITSM/Ticket
       - from: http://www.purl.org/ogit/ITSM/Asset
         to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Software/Application
+        to: http://www.purl.org/ogit/ITService/SLA
+      - from: http://www.purl.org/ogit/Contract
+        to: http://www.purl.org/ogit/Organization
     history:
       - id: 1
         date: 2014-08-15
@@ -55,4 +59,8 @@
       - id: 6
         date: 2014-10-27
         description: 'added Asset to Organization'
+        modified-by: PL
+      - id: 7
+        date: 2014-11-05
+        description: 'add new allowed connections'
         modified-by: PL
