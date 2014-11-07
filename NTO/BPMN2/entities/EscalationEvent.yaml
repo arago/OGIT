@@ -21,6 +21,6 @@
         modified-by: Peter Larem
 
     attributes:
-      any: no
+      any: yes
       mandatory:
       optional:
