@@ -33,7 +33,7 @@
         modified-by: Peter Larem
 
     attributes:
-      any: no
+      any: yes
       mandatory:
         - http://www.purl.org/ogit/BPMN2/functionality
       optional:
