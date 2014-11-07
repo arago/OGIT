@@ -19,10 +19,14 @@
         date: 2014-08-29
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2014-11-07
+        description: change attributes
+        modified-by: Peter Larem
 
     attributes:
-      any: no
+      any: yes
       mandatory:
-        - http://www.purl.org/ogit/name
       optional:
+        - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
