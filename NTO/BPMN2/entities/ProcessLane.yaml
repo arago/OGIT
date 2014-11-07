@@ -20,8 +20,6 @@
         modified-by: Peter Larem
 
     attributes:
-      any: no
+      any: yes
       mandatory:
-        - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/name
       optional:
