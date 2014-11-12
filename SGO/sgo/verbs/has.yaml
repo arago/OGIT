@@ -51,7 +51,10 @@
       - from: http://www.purl.org/ogit/DCIM/Section
         to: http://www.purl.org/ogit/DCIM/Sensor                        
       - from: http://www.purl.org/ogit/MARSTemplate
-        to: http://www.purl.org/arago/MARSNode                        
+        to: http://www.purl.org/arago/MARSNode                      
+      - from: http://www.purl.org/ogit/MARSTemplate
+        to: http://www.purl.org/ogit/MARSTemplateNode                   
+    
     history:
       - id: 1
         date: 2014-05-27
@@ -75,5 +78,9 @@
         modified-by: RJ
       - id: 6
         date: 2014-11-05
+        description: 'new allowed connection'
+        modified-by: PL
+      - id: 7
+        date: 2014-11-12
         description: 'new allowed connection'
         modified-by: PL
