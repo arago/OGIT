@@ -1,0 +1,24 @@
+- Verb:
+    id: http://www.purl.org/ogit/isRelatedToMARSTemplateNode
+    name: isRelatedToMARSTemplateNode
+    description: |
+      Relation between MARSTemplateNode's. The MARSTemplate should only allow connections between MaschineNode and SoftwareNode, 
+      SoftwareNode and ResourceNode, ResourceNode and ApplicationNode. 
+    valid-from: 2014-11-17 00:00:00
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2014-11-17
+    modified: 2014-11-17
+    admin-contact: arago AG
+    tech-contact: arago AG
+    
+    allowed:
+      - from: http://www.purl.org/ogit/MARSTemplateNode
+        to: http://www.purl.org/ogit/MARSTemplateNode
+
+    history:
+      - id: 1
+        date: 2014-11-17
+        description: initial
+        modified-by: Peter Larem
