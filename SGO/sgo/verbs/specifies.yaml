@@ -13,7 +13,7 @@
     valid-until: 
     allowed:
       - from: http://www.purl.org/ogit/ITService/Offering
-        to: http://www.purl.org/arago/MARSModel
+        to: http://www.purl.org/ogit/MARSTemplate
       - from: http://www.purl.org/CostModel/PlanningParameter
         to: http://www.purl.org/ogit/ITService/Parameter
     history:
@@ -24,4 +24,8 @@
       - id: 2
         date: 2014-09-05
         description: add connection
+        modified-by: Peter Larem
+      - id: 3
+        date: 2014-11-17
+        description: change connection
         modified-by: Peter Larem
