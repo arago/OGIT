@@ -22,4 +22,5 @@
     attributes:
       any: yes
       mandatory:
+        - http://www.purl.org/ogit/Software/componentID
       optional:
