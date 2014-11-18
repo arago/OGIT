@@ -1,0 +1,23 @@
+- Verb:
+    id: http://www.purl.org/ogit/receivesFrom
+    name: receivesFrom
+    description: |
+      an entity receives data from another entity 
+    cardinality: one2many
+    admin-contact: arago AG
+    tech-contact: arago AG
+    created: 2014-11-18
+    creator: PL
+    deleter: 
+    modified: 2014-11-18
+    valid-from: 2014-11-18
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/Software/Connection
+        to: http://www.purl.org/ogit/Software/Component
+
+    history:
+      - id: 1
+        date: 2014-11-18
+        description: 'intitial version'
+        modified-by: PL
