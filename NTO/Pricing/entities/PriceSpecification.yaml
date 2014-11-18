@@ -19,11 +19,13 @@
       mandatory:
       optional:
         - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/Pricing/factor
         - http://www.purl.org/ogit/Pricing/price
         - http://www.purl.org/ogit/Pricing/range
         - http://www.purl.org/ogit/Pricing/timeUnitSeconds
         - http://www.purl.org/ogit/Pricing/discreteValue
+        - http://www.purl.org/ogit/Pricing/target
+        - http://www.purl.org/ogit/Pricing/targetAttribute
+        - http://www.purl.org/ogit/Pricing/value
 
     history:
       - id: 1
@@ -32,5 +34,9 @@
         modified-by: PL
       - id: 2
         date: 2014-10-07
+        description: 'add attribute'
+        modified-by: PL
+      - id: 3
+        date: 2014-11-18
         description: 'add attribute'
         modified-by: PL
