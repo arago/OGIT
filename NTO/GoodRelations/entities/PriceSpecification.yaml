@@ -21,6 +21,7 @@
         modified-by: FCO
 
     attributes:
+      any: true
       mandatory:
       optional:
       
