@@ -41,8 +41,10 @@
       - from: http://www.purl.org/ogit/DCIM/Rack
         to: http://www.purl.org/ogit/DCIM/PDU
       - from: http://www.purl.org/ogit/DCIM/Section
-        to: http://www.purl.org/ogit/DCIM/Rack      
-             
+        to: http://www.purl.org/ogit/DCIM/Rack
+      - from: http://www.purl.org/arago/AutoPilotIssue
+        to: http://www.purl.org/arago/Subitem
+
     history:
       - id: 1
         date: 2014-05-27
@@ -64,3 +66,7 @@
         date: 2014-09-11
         description: 'add a connection for DCIM'
         modified-by: Roland Judas        
+      - id: 6
+        date: 2014-11-19
+        description: 'add a connection'
+        modified-by: Peter Larem
