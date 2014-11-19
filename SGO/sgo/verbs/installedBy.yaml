@@ -12,8 +12,8 @@
     valid-from: 2014-11-19
     valid-until: 
     allowed:
-      - from: http://www.purl.org/ogit/Person
-        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/Software/Application
+        to: http://www.purl.org/ogit/Person
 
     history:
       - id: 1
