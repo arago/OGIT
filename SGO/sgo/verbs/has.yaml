@@ -51,8 +51,12 @@
       - from: http://www.purl.org/ogit/DCIM/Section
         to: http://www.purl.org/ogit/DCIM/Sensor                        
       - from: http://www.purl.org/ogit/MARSTemplate
-        to: http://www.purl.org/ogit/MARSTemplateNode                   
-    
+        to: http://www.purl.org/ogit/MARSTemplateNode
+      - from: http://www.purl.org/arago/KnowledgeItem
+        to: http://www.purl.org/arago/Trigger
+      - from: http://www.purl.org/arago/Subitem
+        to: http://www.purl.org/arago/Trigger
+        
     history:
       - id: 1
         date: 2014-05-27
@@ -85,4 +89,8 @@
       - id: 8
         date: 2014-11-17
         description: 'delete allowed connection'
+        modified-by: PL
+      - id: 9
+        date: 2014-11-19
+        description: 'new allowed connection'
         modified-by: PL
