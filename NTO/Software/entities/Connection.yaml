@@ -20,5 +20,6 @@
         modified-by: PL
 
     attributes:
+      any: true
       mandatory:
       optional:
