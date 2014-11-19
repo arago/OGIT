@@ -22,4 +22,6 @@
     attributes:
       mandatory:
         - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/mode
       optional:
+        - http://www.purl.org/ogit/value
