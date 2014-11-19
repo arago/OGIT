@@ -20,5 +20,6 @@
         modified-by: Peter Larem
 
     attributes:
+      any: true
       mandatory:
       optional:
