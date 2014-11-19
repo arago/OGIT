@@ -54,8 +54,8 @@
         to: http://www.purl.org/ogit/MARSTemplateNode
       - from: http://www.purl.org/arago/KnowledgeItem
         to: http://www.purl.org/arago/Trigger
-      - from: http://www.purl.org/arago/Subitem
-        to: http://www.purl.org/arago/Trigger
+      - from: http://www.purl.org/arago/Trigger
+        to: http://www.purl.org/arago/Subitem
         
     history:
       - id: 1
