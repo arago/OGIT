@@ -1,0 +1,25 @@
+- Entity:
+    id:   http://www.purl.org/arago/Subitem
+    name: Subitem
+    description: |
+      Item (e.g. Request) or subitem to search for within the issues , which triggers the Trigger
+    valid-from: 2014-11-19
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2014-11-19
+    modified: 2014-11-19
+    admin-contact: arago AG
+    tech-contact: arago AG
+    scope: NTO
+    parent: http://www.purl.org/ogit/Actionable
+    history:
+      - id: 1
+        date: 2014-11-19
+        description: initial
+        modified-by: Peter Larem
+
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/name
+      optional:
