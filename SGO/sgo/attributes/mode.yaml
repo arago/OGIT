@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/mode
+    name: mode
+    description: |
+      Contains the type of filter for the value contained in the entity "Attribute" and corresponding to one of the following strings: 
+      eq, ne, lt, le, gt, ge, exists, notexists, string, notstring, regex, notregex
+    admin-contact: 'arago AG'
+    tech-contact: 'arago AG'
+    created: 2014-11-19
+    creator: PL
+    deleter: ''
+    modified: 2014-11-19
+    valid-from: 2014-11-19
+    valid-until: 
+    validation-parameter: ''
+    validation-type: ''
+    history:
+      - id: 1
+        date: 2014-11-19
+        description: 'intitial version'
+        modified-by: PL
