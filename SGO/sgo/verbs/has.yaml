@@ -56,7 +56,9 @@
         to: http://www.purl.org/arago/Trigger
       - from: http://www.purl.org/arago/Trigger
         to: http://www.purl.org/arago/Subitem
-        
+      - from: http://www.purl.org/arago/Subitem
+        to: http://www.purl.org/arago/Attribute
+
     history:
       - id: 1
         date: 2014-05-27
