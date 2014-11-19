@@ -1,0 +1,27 @@
+- Entity:
+    id:   http://www.purl.org/arago/Attribute
+    name: Attribute
+    description: |
+      Contains key-value pairs (together with mode) found inside Issue subitems.
+    valid-from: 2014-11-19
+    valid-until:
+    creator: Peter Larem
+    deleter: 
+    created:  2014-11-19
+    modified: 2014-11-19
+    admin-contact: arago AG
+    tech-contact: arago AG
+    scope: NTO
+    parent: http://www.purl.org/ogit/Actionable
+    history:
+      - id: 1
+        date: 2014-11-19
+        description: initial
+        modified-by: Peter Larem
+
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/key
+        - http://www.purl.org/ogit/value
+        - http://www.purl.org/ogit/mode
+      optional:
