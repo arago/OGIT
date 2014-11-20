@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/ogit/VCard
+    id:   http://www.purl.org/ogit/gr/VCard
     name: VCard
     description: |
       vCard is a specification developed by the IETF for the description of people and organisations. Recently, vCard has been 
