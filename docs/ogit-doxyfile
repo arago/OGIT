@@ -1228,6 +1228,8 @@ SERVER_BASED_SEARCH    = YES
 
 EXTERNAL_SEARCH        = YES
 
+SEARCHENGINE_URL       = https://graphit.co/cgi-bin/doxysearch.cgi
+
 #---------------------------------------------------------------------------
 # configuration options related to the LaTeX output
 #---------------------------------------------------------------------------
