@@ -14,6 +14,8 @@
     allowed:
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/Role
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/gr/VCard
       - from: http://www.purl.org/ogit/ITService/Parameter
         to: http://www.purl.org/ogit/ITService/ParameterType
       - from: http://www.purl.org/arago/MARSModel
@@ -94,5 +96,9 @@
         modified-by: PL
       - id: 9
         date: 2014-11-19
+        description: 'new allowed connection'
+        modified-by: PL
+      - id: 10
+        date: 2014-11-20
         description: 'new allowed connection'
         modified-by: PL
