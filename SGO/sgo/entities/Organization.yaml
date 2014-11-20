@@ -27,6 +27,10 @@
         date: 2014-08-25
         description: parent changed
         modified-by: FCO
+      - id: 4
+        date: 2014-11-20
+        description: email attribute added
+        modified-by: FCO
 
     attributes:
       mandatory:
@@ -35,3 +39,4 @@
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/function
         - http://www.purl.org/ogit/status
+        - http://www.purl.org/ogit/email
