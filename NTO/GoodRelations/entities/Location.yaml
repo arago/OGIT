@@ -22,8 +22,10 @@
         modified-by: FCO
 
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/name
+      optional:
 
     
