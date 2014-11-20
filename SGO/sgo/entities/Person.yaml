@@ -29,3 +29,5 @@
       optional:
         - http://www.purl.org/ogit/firstName
         - http://www.purl.org/ogit/lastName
+        - http://www.purl.org/ogit/phone
+        - http://www.purl.org/ogit/mobilePhone
