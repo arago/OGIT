@@ -24,7 +24,7 @@
       mandatory:
         - http://www.purl.org/ogit/DCIM/id
       optional:
-        - http://www.purl.org/ogit/contact
+ 
 
 
 

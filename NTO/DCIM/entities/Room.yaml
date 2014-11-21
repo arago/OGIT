@@ -23,8 +23,9 @@
       any: true
       mandatory:
         - http://www.purl.org/ogit/DCIM/id
+        - http://www.purl.org/ogit/DCIM/BuildingID
       optional:
-        - http://www.purl.org/ogit/contact
+        - http://www.purl.org/ogit/DCIM/Capacity
 
 
 

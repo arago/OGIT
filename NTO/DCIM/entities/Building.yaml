@@ -23,12 +23,10 @@
       any: true
       mandatory:
         - http://www.purl.org/ogit/DCIM/id
-        - http://www.purl.org/ogit/DCIM/BuildingID
         - http://www.purl.org/ogit/DCIM/DatacenterID
-        - http://www.purl.org/ogit/DCIM/Capacity
-        
+                
       optional:
-        - http://www.purl.org/ogit/contact
+        - http://www.purl.org/ogit/DCIM/Capacity
 
 
 

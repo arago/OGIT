@@ -24,7 +24,9 @@
       mandatory:
         - http://www.purl.org/ogit/DCIM/id
       optional:
-        - http://www.purl.org/ogit/contact
+        - http://www.purl.org/ogit/DCIM/RackID
+        - http://www.purl.org/ogit/DCIM/RoomID
+        - http://www.purl.org/ogit/DCIM/SectionID
 
 
 

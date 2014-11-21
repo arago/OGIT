@@ -8,14 +8,20 @@
     created: 2014-09-11
     creator: Roland Judas
     deleter: 
-    modified: 2014-09-11
+    modified: 2014-11-21
     valid-from: 2014-09-05
     valid-until: 
     allowed:
       - from: http://www.purl.org/ogit/DCIM/Device
         to: http://www.purl.org/ogit/DCIM/PDU
+      - from: http://www.purl.org/ogit/DCIM/Device
+        to: http://www.purl.org/ogit/DCIM/UPS
     history:
       - id: 1
         date: 2014-09-11
         description: intitial version
+        modified-by: Roland Judas
+      - id: 2
+        date: 2014-11-21
+        description: Added Connection
         modified-by: Roland Judas

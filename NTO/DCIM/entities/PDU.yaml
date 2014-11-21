@@ -24,8 +24,13 @@
       mandatory:
         - http://www.purl.org/ogit/DCIM/id
         - http://www.purl.org/ogit/DCIM/CapacityPDU
+        - http://www.purl.org/ogit/DCIM/RackID
       optional:
-        - http://www.purl.org/ogit/contact
-
+        - http://www.purl.org/ogit/DCIM/Capacity
+        - http://www.purl.org/ogit/DCIM/Brand
+        - http://www.purl.org/ogit/DCIM/Model
+        - http://www.purl.org/ogit/DCIM/PurchaseDate
+        - http://www.purl.org/ogit/DCIM/MoveProductionDate
+        - http://www.purl.org/ogit/DCIM/EndOfWarranty
 
 
