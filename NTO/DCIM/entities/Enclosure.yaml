@@ -1,8 +1,8 @@
 - Entity:
-    id:   http://www.purl.org/ogit/DCIM/Enclosure
-    name: Enclosure
+    id:   http://www.purl.org/ogit/DCIM/Brand
+    name: Brand
     description: |
-      A physical Enclosure containing Datacenter Components 
+      Brand / Manufacturer of a component 
     valid-from: 2014-09-15 00:00:00
     valid-until:
     creator: RJ

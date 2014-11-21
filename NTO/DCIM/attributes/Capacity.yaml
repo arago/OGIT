@@ -1,7 +1,7 @@
 - Attribute:
-    id: http://www.purl.org/ogit/DCIM/CapacityPDU
-    name: CapacityPDU
-    description: 'Capacity of a PDU (Power Distribution Unit)'
+    id: http://www.purl.org/ogit/DCIM/Capacity
+    name: Capacity
+    description: 'General Capacity of a Building/Datacenter'
     admin-contact: ''
     tech-contact: 'arago AG'
     created: 2014-11-21
