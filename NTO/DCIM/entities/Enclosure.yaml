@@ -1,5 +1,5 @@
 - Entity:
-    id:   http://www.purl.org/ogit/DCIM/Brand
+    id:   http://www.purl.org/ogit/DCIM/Enclosure
     name: Brand
     description: |
       Brand / Manufacturer of a component 
