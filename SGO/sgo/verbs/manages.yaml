@@ -29,7 +29,9 @@
       - from: http://www.purl.org/ogit/gr/BusinessEntity
         to: http://www.purl.org/ogit/DCIM/Device
       - from: http://www.purl.org/ogit/gr/BusinessEntity
-        to: http://www.purl.org/ogit/DCIM/Rack   
+        to: http://www.purl.org/ogit/DCIM/Rack  
+      - from: http://www.purl.org/ogit/gr/BusinessEntity
+        to: http://www.purl.org/ogit/DCIM/Cooling 
         
     history:
       - id: 1

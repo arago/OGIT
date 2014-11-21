@@ -26,6 +26,8 @@
         to: http://www.purl.org/ogit/DCIM/Device
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/DCIM/Rack 
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/DCIM/Cooling
         
     history:
       - id: 1
@@ -36,3 +38,4 @@
         date: 2014-11-21
         description: 'Added person to DCIM Hardware Components'
         modified-by: Roland Judas
+

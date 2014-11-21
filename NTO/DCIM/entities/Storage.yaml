@@ -24,7 +24,11 @@
       mandatory:
         - http://www.purl.org/ogit/DCIM/id
       optional:
- 
+        - http://www.purl.org/ogit/DCIM/Brand
+        - http://www.purl.org/ogit/DCIM/Model
+        - http://www.purl.org/ogit/DCIM/PurchaseDate
+        - http://www.purl.org/ogit/DCIM/MoveProductionDate
+        - http://www.purl.org/ogit/DCIM/EndOfWarranty
 
 
 
