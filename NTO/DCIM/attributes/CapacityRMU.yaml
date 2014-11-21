@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/DCIM/CapacityRMU
     name: CapacityRMU
-    description: 'Capacity of of RMU's (Rack Mount Units) of a rack'
+    description: |
+      Capacity of of RMU's (Rack Mount Units) of a rack
     admin-contact: ''
     tech-contact: 'arago AG'
     created: 2014-11-21
