@@ -1,4 +1,4 @@
-NTO: AutoPilot Timeseries
+NTO: BPMN2
 -----
 
 This directory contains the definition of the Business Process Model and Notation (BPMN) 2.0 NTOs.
