@@ -19,7 +19,7 @@
       - from: http://www.purl.org/ogit/Organization
         to: http://www.purl.org/ogit/Software/Application
       - from: http://www.purl.org/ogit/gr/BusinessEntity
-      - to: http://www.purl.org/ogit/DCIM/Building
+        to: http://www.purl.org/ogit/DCIM/Building
       - from: http://www.purl.org/ogit/gr/BusinessEntity
         to: http://www.purl.org/ogit/DCIM/Datacenter
       - from: http://www.purl.org/ogit/gr/BusinessEntity
