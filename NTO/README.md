@@ -10,6 +10,7 @@ Currently the following NTOs have been enabled for Open GraphIT ontology:
 * [AutoPilot MAID](AutoPilot_MAID)
 * [AutoPilot MARS](AutoPilot_MARS)
 * [AutoPilot Timeseries](AutoPilot_Timeseries)
+* [AutoPilot View](AutoPilot_View)
 * [BPMN2](BPMN2)
 * [Catalog](Catalog)
 * [CostModel](CostModel)
