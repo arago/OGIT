@@ -29,6 +29,7 @@
       optional:
         - http://www.purl.org/ogit/ITSM/eventStatus
         - http://www.purl.org/ogit/ITSM/eventSeverity
+        - http://www.purl.org/ogit/ITSM/subStatus
 
 
 
