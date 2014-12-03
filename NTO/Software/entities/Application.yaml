@@ -22,4 +22,8 @@
     attributes:
       any: true
       mandatory:
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/version
       optional:
+        - http://www.purl.org/ogit/url
