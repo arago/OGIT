@@ -25,5 +25,6 @@
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/url
       optional:
+        - http://www.purl.org/ogit/ITService/id
 
 
