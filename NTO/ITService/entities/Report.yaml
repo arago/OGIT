@@ -19,6 +19,7 @@
       mandatory:
       optional:
         - http://www.purl.org/ogit/version
+        - http://www.purl.org/ogit/ITService/id
 
     history:
       - id: 1
@@ -29,3 +30,7 @@
         date: 2014-09-18
         description: 'attribute added'
         modified-by: FCO
+      - id: 3
+        date: 2014-12-11
+        description: 'attribute added'
+        modified-by: PL
