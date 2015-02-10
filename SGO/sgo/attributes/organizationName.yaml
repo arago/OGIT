@@ -1,6 +1,6 @@
 - Attribute:
-    id: http://www.purl.org/ogit/organization
-    name: organization
+    id: http://www.purl.org/ogit/organizationName
+    name: organizationName
     description: |
       Can be used in cases if the organization information should be stored as string (instead of using an edge pointing to an Organization)
     valid-from: 2015-02-10 00:00:00
