@@ -22,6 +22,10 @@
         date: 2014-09-01
         description: some attributes added
         modified-by: FCO
+      - id: 3
+        date: 2015-02-10
+        description: some attributes added
+        modified-by: FCO
         
 
     attributes:
@@ -29,3 +33,6 @@
       optional:
         - http://www.purl.org/ogit/firstName
         - http://www.purl.org/ogit/lastName
+        - http://www.purl.org/ogit/title
+        - http://www.purl.org/ogit/alternativeName
+        - http://www.purl.org/ogit/organization

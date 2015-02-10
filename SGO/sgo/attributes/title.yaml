@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/title
+    name: title
+    description: |
+      Title of any kind. In the context of a Person this can be a courtesy title, an academic title, or a job tilte
+    valid-from: 2015-02-10 00:00:00
+    valid-until: 
+    creator: FCO
+    deleter: 
+    created:  2015-02-10
+    modified: 2015-02-10
+    admin-contact: arago AG
+    tech-contact: arago AG
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2015-02-10
+        description: initial
+        modified-by: FCO
