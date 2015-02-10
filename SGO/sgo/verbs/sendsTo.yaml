@@ -4,8 +4,8 @@
     description: |
       an entity sends data to another entity
     cardinality: many2one
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-11-18
     creator: PL
     deleter: 

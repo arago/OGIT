@@ -3,8 +3,8 @@
     name: Action
     description: |
       Defines Actions on Services. A Service is connected to the available Actions by the "supports" relationship.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-05-27
     creator: FCO
     deleter: 

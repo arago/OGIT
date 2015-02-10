@@ -8,8 +8,8 @@
      Or to define some dependency of actions to be done.
      The application managing such dependency graphs is responsible to prevent cyclic dependencies. 
     cardinality: many2one
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-08-27
     creator: RGL
     deleter:

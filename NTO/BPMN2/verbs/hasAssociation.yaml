@@ -6,8 +6,8 @@
       indicate some directionality using an open arrowhead (toward the artifact to represent a result, from the artifact to 
       represent an input, and both to indicate it is read and updated). No directionality is used when the Artifact or text is 
       associated with a sequence or message flow (as that flow already shows the direction).
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-12
     creator: Peter Larem
     deleter: 

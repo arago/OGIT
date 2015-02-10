@@ -4,8 +4,8 @@
     description: |
       In a way the opposite of 'has' with some importent difference. One entity can belong only to one other.
     cardinality: many2one
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-08-15
     creator: FCO
     deleter: 

@@ -4,8 +4,8 @@
     description: |
       Some event management systems manage a status field. This attribute can be used to store it.
       It is undefined whether the value is a string or an integer.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-12
     creator: FCO
     deleter: 

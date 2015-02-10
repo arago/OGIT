@@ -3,8 +3,8 @@
     name: governs
     description: |
       verb showing which policy is enforced for which service
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-05
     creator: Peter Larem
     deleter: 

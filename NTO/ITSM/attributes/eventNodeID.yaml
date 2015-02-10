@@ -4,8 +4,8 @@
     description: |
       Identifies the source of an event, i.e. identifies the monitoring endpoint which caused the event creation.
       This could be an artifical identifier or some "natural" ID like hostname or IP address.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-12
     creator: FCO
     deleter: 

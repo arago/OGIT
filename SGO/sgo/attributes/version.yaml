@@ -2,8 +2,8 @@
     id: http://www.purl.org/ogit/version
     name: version
     description: 'any string representation of version information. no restrictions are imposed on that base attribute'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-05-27
     creator: FCO
     deleter: ''

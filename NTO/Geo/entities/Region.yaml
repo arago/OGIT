@@ -2,8 +2,8 @@
     id: http://www.purl.org/ogit/Geo/Region
     name: Region
     description: 'A region is always something that has a certain geographic extension (a country, a county,  ) whereas ogit/gr/Location usually refers to specific place usually having an address'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-05-27
     creator: FCO
     deleter: ''

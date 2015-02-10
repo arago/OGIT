@@ -3,8 +3,8 @@
     name: groups
     description: |
       verb showing that two or more network entities are group to one locigal entity
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-05
     creator: Roland Judas
     deleter: 

@@ -3,8 +3,8 @@
     name: reportsTo
     description: |
       verb allowing to define which entity reports to which other entity
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-11-05
     creator: Peter Larem
     deleter: 

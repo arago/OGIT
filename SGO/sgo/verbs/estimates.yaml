@@ -3,8 +3,8 @@
     name: estimates
     description: |
       a business entity (e.g. a bank) estimates and then attributes a budget to the budget entity, which is connected to the entity person, to which the budget is allocated
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-05
     creator: CO
     deleter: 

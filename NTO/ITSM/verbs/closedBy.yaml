@@ -3,8 +3,8 @@
     name: closedBy
     description: |
       Indicates who closed a ticket
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-03
     creator: FCO
     deleter: 

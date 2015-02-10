@@ -3,8 +3,8 @@
     name: transferredVia
     description: |
       allows to connect entities through which a transfer of information is possible
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-11-05
     creator: PL
     deleter: 

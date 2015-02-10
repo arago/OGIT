@@ -4,8 +4,8 @@
     description: |
       an entity receives data from another entity 
     cardinality: one2many
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-11-18
     creator: PL
     deleter: 

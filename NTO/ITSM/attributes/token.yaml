@@ -3,8 +3,8 @@
     name: token
     description: |
       A unique randomly created ID to make communication between customer and arago possible during the process of requesting a license
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-08-27
     creator: RGL
     deleter:

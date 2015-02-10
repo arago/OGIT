@@ -4,8 +4,8 @@
     description: |
       Defines the unique identifier for an event.
       Existing event management systems migh use different names for this (e.g. "ServerSerial" in Netcool Omnibus)
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-12
     creator: FCO
     deleter: 

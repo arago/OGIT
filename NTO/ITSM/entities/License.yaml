@@ -5,7 +5,7 @@
       This entity type allows to store license information or actual licenses.
     valid-from: 2014-08-16 00:00:00
     valid-until:
-    creator: arago AG
+    creator: arago GmbH
     deleter: 
     created:  2014-08-15
     modified: 2014-08-27

@@ -4,8 +4,8 @@
     description: |
       Defines how much time was spent on the actual work for a change, task, or similar entity.
       The values is expected to be in format HH:MM, e.g. 1:00 for 1 hour effort.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-11
     creator: FCO
     deleter: 

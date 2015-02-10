@@ -9,8 +9,8 @@
     deleter: 
     created:  2014-09-10
     modified: 2014-09-10
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     validation-type: regex
     validation-parameter: "^(New|Assigned|Pending|Resolved|Closed)$"
     history:

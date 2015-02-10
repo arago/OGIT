@@ -3,8 +3,8 @@
     name: Catalog
     description: 'Any kind of catalog. Might contain products, services, books, ..
     it is more general than http://ontology.it/itsmo/v1#Catalogue'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-05-27
     creator: FCO
     deleter: ''

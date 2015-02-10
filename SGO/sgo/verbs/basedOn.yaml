@@ -4,8 +4,8 @@
     description: |
       indicates that some entity is based some other.
       This might mean the entity was produced using the other as input or it was derived from the other.
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-09-05
     creator: FCO
     deleter: ''

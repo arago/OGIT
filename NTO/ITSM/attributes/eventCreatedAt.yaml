@@ -4,8 +4,8 @@
     description: |
       Defines a point in time when an event was recorded.
       The value will be defined as the number of milliseconds after epoch.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-12
     creator: FCO
     deleter: 

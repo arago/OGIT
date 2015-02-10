@@ -3,8 +3,8 @@
     name: Invoice
     description: |
       models an invoice for something else
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-05
     creator: FCO
     deleter: 

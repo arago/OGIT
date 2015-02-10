@@ -3,8 +3,8 @@
     name: amount
     description: |
       the amount to pay
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-09-05
     creator: FCO
     deleter: ''

@@ -3,8 +3,8 @@
     name: affectedBy
     description: |
       The relationship indicates that one entity is or was affected by some other entity
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-15
     creator: FCO
     deleter: 

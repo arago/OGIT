@@ -3,8 +3,8 @@
     name: supervisedBy
     description: |
       Indicates who is accountable for ticket. Depending on change type this connects the ticket with Change coordinator, Incident Manager, or something similar.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-11
     creator: FCO
     deleter: 

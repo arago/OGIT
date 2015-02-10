@@ -4,8 +4,8 @@
     description: |
       Indicates where a failure situation was initially observed. In case an incident record is created from an event management system this relationship points to the entitiy that represents the monitored device/endpoint.
       We call it "reportedOn" instead of "observedOn" to account for the close relation to "reportedAt", "reportedBy"
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-04
     creator: FCO
     deleter: 

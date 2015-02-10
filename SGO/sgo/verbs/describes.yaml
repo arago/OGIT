@@ -2,8 +2,8 @@
     id: http://www.purl.org/ogit/describes
     name: describes
     description: 'this relationship allows to associate additional information with an entity. The "described" node can have many "describing" nodes, but a "describing" node will "describe" only one other'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     cardinality: many2one
     created: 2014-05-27
     creator: FCO

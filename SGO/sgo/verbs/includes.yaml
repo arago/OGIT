@@ -4,8 +4,8 @@
     description: |
       This relationship indicates that something is part of something else.
       Unlike "contains" here we allow an entity being part of several others.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-05-27
     creator: FCO
     deleter: 

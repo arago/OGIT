@@ -3,8 +3,8 @@
     name: appearsAs
     description: 'the relationship connects two entities representing the same thing in different contexts'
     cardinality: one2one
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-05-27
     creator: FCO
     deleter: ''

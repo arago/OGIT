@@ -3,8 +3,8 @@
     name: inserts
     description: |
       verb showing that an entity is being physically inserted into one other entity
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-05
     creator: Roland Judas
     deleter: 

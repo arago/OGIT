@@ -3,8 +3,8 @@
     name: pricing
     description: |
       Contains the reference to the pricesheet, namely priceSheetUUID
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-05-27
     creator: FCO
     deleter: ''

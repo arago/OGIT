@@ -5,7 +5,7 @@
       Links a BusinessEntity with an Offering
       see http://purl.org/goodrelations/v1#offers
     admin-contact: E-Business and Web Science Research Group
-    tech-contact: arago AG
+    tech-contact: arago GmbH
     cardinality: one2many
     created: 2014-05-27
     creator: FCO

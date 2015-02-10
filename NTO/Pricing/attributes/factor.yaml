@@ -4,8 +4,8 @@
     description: |
       A factor will be multiplied to the source of the price. The source can either be an attribute of the service offering, 
       the service offering itself or all services including the current service offering node.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-10-02
     creator: PL
     deleter: 

@@ -3,8 +3,8 @@
     name: Service
     description: |
       A technology service item, which combined or not with other technology services can constitute a service offering.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-05-27
     creator: FCO
     deleter: 

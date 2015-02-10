@@ -2,8 +2,8 @@
     id: http://www.purl.org/ogit/BPMN2/read
     name: read
     description: 'this relationship indicates that a business process can read data from a data store'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-08-29
     creator: Peter Larem
     deleter: ''

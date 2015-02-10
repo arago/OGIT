@@ -6,8 +6,8 @@
       It includes among others details about which gr/BusinessEntity (Vendor) is providing the offer, for which region (Geo/Region) 
       the offer is valid, pricing information (contains the associated pricesheet as BLOB). Each offering might have one or more 
       vendor implementation templates (MarsNode_Template) associated to it.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-05-27
     creator: FCO
     deleter: 

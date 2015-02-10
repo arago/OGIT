@@ -4,8 +4,8 @@
     description: |
       Indicates that one ticket was created during the processing of another one.
       E.g. an error situation during change execution might lead to a new incident ticket
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-08
     creator: FCO
     deleter: 

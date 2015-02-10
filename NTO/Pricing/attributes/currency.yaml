@@ -3,7 +3,7 @@
     name: currency
     description: 'a currency code according to ISO 4217'
     admin-contact: 'International Organization for Standardization (ISO)'
-    tech-contact: 'arago AG'
+    tech-contact: 'arago GmbH'
     created: 2014-05-27
     creator: FCO
     deleter: ''

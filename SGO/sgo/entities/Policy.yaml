@@ -5,7 +5,7 @@
       A Policy that governs data access in GraphIT. It is connected and applied to Organizations
     valid-from: 2014-04-04 00:00:00
     valid-until:
-    creator: arago AG
+    creator: arago GmbH
     deleter: 
     created:  2014-04-04
     modified: 2014-04-04

@@ -5,7 +5,7 @@
       This defines client applications working with GraphIT. This can be used to define relationsships between those applications and other entities, e.g. those which were created by that application.
     valid-from: 2014-08-16 00:00:00
     valid-until:
-    creator: arago AG
+    creator: arago GmbH
     deleter: 
     created:  2014-08-15
     modified: 2014-08-15

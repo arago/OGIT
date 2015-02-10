@@ -4,8 +4,8 @@
     description: |
       Defines a point in time when the work on a change, task, or similar entity was actually finished.
       The values must be combined date and time with time zone designator according to ISO 8601
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-11
     creator: FCO
     deleter: 

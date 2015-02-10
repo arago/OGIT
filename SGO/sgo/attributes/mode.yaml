@@ -4,8 +4,8 @@
     description: |
       Contains the type of filter for the value contained in the entity "Attribute" and corresponding to one of the following strings: 
       eq, ne, lt, le, gt, ge, exists, notexists, string, notstring, regex, notregex
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-11-19
     creator: PL
     deleter: ''

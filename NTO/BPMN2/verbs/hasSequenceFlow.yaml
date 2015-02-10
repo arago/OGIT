@@ -5,8 +5,8 @@
       A sequence flow is the connector between two elements of a process. After an element is visited during process execution, 
       all outgoing sequence flows will be followed. This means that the default nature of BPMN 2.0 is to be parallel: 
       two outgoing sequence flows will create two separate, parallel paths of execution.
-    admin-contact: arago AG
-    tech-contact: arago AG
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-12
     creator: Peter Larem
     deleter: 

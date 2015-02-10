@@ -3,8 +3,8 @@
     name: value
     description: |
       contains a value of a key / value pair
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-11-19
     creator: PL
     deleter: ''

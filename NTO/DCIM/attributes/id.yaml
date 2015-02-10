@@ -2,8 +2,8 @@
     id: http://www.purl.org/ogit/DCIM/id
     name: id
     description: 'id of a DCIM component'
-    admin-contact: 'arago AG'
-    tech-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
+    tech-contact: 'arago GmbH'
     created: 2014-09-05
     creator: RJ
     deleter: ''

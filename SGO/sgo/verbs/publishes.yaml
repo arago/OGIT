@@ -3,14 +3,14 @@
     name: publishes
     description: 'this relationship indicates that some entity publishes or has published something else.
     It is assumed that an entity can be published only by one other entity'
-    admin-contact: 'arago AG'
+    admin-contact: 'arago GmbH'
     cardinality: one2many
     created: 2014-05-27
     creator: FCO
     deleter: ''
     modified: 2014-05-27
     name: publishes
-    tech-contact: 'arago AG'
+    tech-contact: 'arago GmbH'
     valid-from: 2014-06-01
     valid-until: 
     allowed:
