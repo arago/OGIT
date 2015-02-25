@@ -17,8 +17,6 @@
         to: http://www.purl.org/ogit/gr/Location
       - from: http://www.purl.org/ogit/ITSM/Asset
         to: http://www.purl.org/ogit/gr/Location
-      - from: http://www.purl.org/arago/MARSResourceNode
-        to: http://www.purl.org/ogit/Geo/Region
       - from: http://www.purl.org/ogit/gr/Location
         to: http://www.purl.org/ogit/Geo/Region
       - from: http://www.purl.org/ogit/DCIM/Datacenter
