@@ -22,15 +22,3 @@
     allowed:
       - from: http://www.purl.org/arago/MARSNode
         to: http://www.purl.org/arago/MARSNode
-      - from: http://www.purl.org/arago/MARSMachineNode
-        to: http://www.purl.org/arago/MARSSoftwareNode
-      - from: http://www.purl.org/arago/MARSSoftwareNode
-        to: http://www.purl.org/arago/MARSMachineNode
-      - from: http://www.purl.org/arago/MARSResourceNode
-        to: http://www.purl.org/arago/MARSSoftwareNode
-      - from: http://www.purl.org/arago/MARSSoftwareNode
-        to: http://www.purl.org/arago/MARSResourceNode
-      - from: http://www.purl.org/arago/MARSApplicationNode
-        to: http://www.purl.org/arago/MARSResourceNode
-      - from: http://www.purl.org/arago/MARSResourceNode
-        to: http://www.purl.org/arago/MARSApplicationNode
