@@ -13,9 +13,7 @@
     valid-until: 
     allowed:
       - from: http://www.purl.org/ogit/Software/Component
-        to: http://www.purl.org/arago/MARSSoftwareNode
-      - from: http://www.purl.org/ogit/Software/Component
-        to: http://www.purl.org/arago/MARSMachineNode
+        to: http://www.purl.org/arago/MARSNode
         
     history:
       - id: 1
