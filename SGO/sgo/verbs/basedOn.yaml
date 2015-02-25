@@ -17,9 +17,6 @@
         from: http://www.purl.org/ogit/Pricing/Invoice
         to: http://www.purl.org/ogit/ITService/Report
       -
-        from: http://www.purl.org/arago/MARSMachineNode
-        to: http://www.purl.org/arago/MARSApplicationNode
-      -
         from: http://www.purl.org/ogit/ITService/Report
         to: http://www.purl.org/ogit/ITService/Service
     history:
