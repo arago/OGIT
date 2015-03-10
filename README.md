@@ -43,7 +43,7 @@ Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT
 7. [Try it out](../../wiki/Using-the-Ontology)
 
 8. [Developer resources](https://autopilot.co/dev) (registration required)
-  - [GraphIT API reference](https://autopilot.co/dev/docs/graphit_rest_api.html)
+  - [GraphIT API reference](https://autopilot.co/docs/5.1.1/html/content/5.1.1-reference-graphit-admin-rest-interface.html)
 
 ## Getting Support
 
