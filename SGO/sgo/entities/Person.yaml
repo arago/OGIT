@@ -29,6 +29,7 @@
         
 
     attributes:
+      any: true
       mandatory:
       optional:
         - http://www.purl.org/ogit/firstName
