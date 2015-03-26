@@ -1,0 +1,23 @@
+- Attribute:
+    id: http://www.purl.org/ogit/access-control
+    name: access-control
+    description: |
+      The access control level of this Node. Value could mean different things to different
+      applications / policies. Initial intent is that policies would treat "public-read"
+      (inspired by Amazon AWS S3 ACLs) to mean anyone would have read-only access to this
+      node.
+    valid-from: 2015-03-26 00:00:00
+    valid-until:
+    creator: Chris Walker
+    deleter:
+    created:  2015-03-26
+    modified: 2015-03-26
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2015-03-26
+        description: initial inception
+        modified-by: Chris Walker
