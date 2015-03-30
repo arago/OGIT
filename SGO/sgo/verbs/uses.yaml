@@ -44,6 +44,8 @@
         to: http://www.purl.org/ogit/Software/Component
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Software/Application    
         
     history:
       - id: 1
