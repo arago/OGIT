@@ -1,6 +1,6 @@
 - Attribute:
-    id: http://www.purl.org/ogit/access-control
-    name: access-control
+    id: http://www.purl.org/ogit/AccessControl
+    name: AccessControl
     description: |
       The access control level of this Node. Value could mean different things to different
       applications / policies. Initial intent is that policies would treat "public-read"
