@@ -3,9 +3,10 @@
 This directory contains commented template files for the different ontology elements: _Attribute_, _Entity_, _Verb_
 
 General requirements:
-	*	Names of namespace shouldn't contain organization names, but instead consist on a generalization. E.g. instead arago/ -> automation/
-  * The only possibility of having data stored in GraphIT not using the global ontology is strongly discouraged due to low performance but possible within the isolated  customaplicationdata/ namespace under customaplicationdata/appID 
- * Other companies are encouraged to take responsibility for an NTO, e.g. 'ogit/Forum' 
+ * Other companies are encouraged to take responsibility for an NTO, e.g. 'ogit/Forum'
+ * Names of namespaces shouldn't contain organization names, but instead consist on a generalization. E.g. instead arago/ -> automation/
+   * Although for namespaces semantical names are preferred, it's possible to group entities under one namespace, which name could be meant more organizational-wise, rather than semantical. This is done due to the division of responsibility forthcoming from first requirement. 
+ * The only possibility of having data stored in GraphIT not using the global ontology is strongly discouraged due to low performance but possible within the isolated  customaplicationdata/ namespace under customaplicationdata/appID 
  * All entities should be allowed to have free attributes
  * There should not be any inheritance
 
@@ -25,6 +26,7 @@ Requirements for _Entity_ definitions:
   * file will be placed into `entities` sub-folder of context folder
 
 Requirements for `Verb` definitions:
+* Verbs connecting two entities of different NTO's are only allowed after careful consideration of the OGIT Board
 * the first letter of each verb (base) name must be lower case 
 * the (base) name of a verb will be camel case, i.e. [a-z][a-zA-Z]*
 * verbs should tendentially be used in their third person, e.g.: transfers
