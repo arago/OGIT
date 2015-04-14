@@ -6,7 +6,7 @@ General requirements:
  * Other companies are encouraged to take responsibility for an NTO, e.g. 'ogit/Forum'
  * Names of namespaces shouldn't contain organization names, but instead consist on a generalization. E.g. instead arago/ -> automation/
    * Although for namespaces semantical names are preferred, it's possible to group entities under one namespace, which name could be meant more organizational-wise, rather than semantical. This is done due to the division of responsibility forthcoming from first requirement. 
- * The only possibility of having data stored in GraphIT not using the global ontology is strongly discouraged due to low performance but possible within the isolated  customaplicationdata/ namespace under customaplicationdata/appID 
+ * The only possibility of having data stored in GraphIT not using the global ontology is strongly discouraged due to low performance but possible within the isolated  ogit/CustomApplicationData/ namespace under ogit/CustomApplicationData/appID 
  * All entities should be allowed to have free attributes
  * There should not be any inheritance
 
