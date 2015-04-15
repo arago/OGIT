@@ -1,0 +1,24 @@
+- Verb:
+    id: http://www.purl.org/ogit/comments
+    name: comments
+    description: |
+      e.g. comments a ticket or a comment itself.
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    created: 2015-04-15
+    creator: IP
+    deleter: ''
+    modified: 2015-04-15
+    valid-from: 2015-04-15
+    valid-until: 
+    allowed:
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/ITSM/Ticket
+    history:
+      - id: 1
+        date: 2015-04-15
+        description: intitial version
+        modified-by: IP
+      
