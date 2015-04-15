@@ -2,9 +2,9 @@
     id: http://www.purl.org/ogit/createdBy
     name: createdBy
     description: |
-      indicates that some entity was produced by some other.
-    admin-contact: 'arago GmbH'
-    tech-contact: 'arago GmbH'
+      Indicates that some entity was produced by some other.
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     created: 2014-09-05
     creator: FCO
     deleter: ''
@@ -12,11 +12,16 @@
     valid-from: 2014-09-15
     valid-until: 
     allowed:
-      -
-        from: http://www.purl.org/ogit/ITService/Report
+      - from: http://www.purl.org/ogit/ITService/Report
         to: http://www.purl.org/ogit/ITService/Service
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Person
     history:
       - id: 1
         date: 2014-09-05
-        description: 'intitial version'
+        description: intitial version
         modified-by: FCO
+      - id: 2
+        date: 2015-04-15
+        description: add new connection from Comment to Person
+        modified-by: IP
