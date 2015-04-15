@@ -40,7 +40,7 @@ Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT
 
 6. [Contribute](CONTRIBUTING.md) to OGIT ontology
 
-7. [Guidelines] () of OGIT ontology 
+7. [Guidelines] (SGO/format/README.md) of OGIT ontology 
 
 8. [Try it out](../../wiki/Using-the-Ontology)
 
