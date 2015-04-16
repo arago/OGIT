@@ -22,6 +22,6 @@
     attributes:
       any: true
       mandatory:
-        - http://www.purl.org/ogit/body
+        - http://www.purl.org/ogit/content
       optional:
         - http://www.purl.org/ogit/ITSM/lastUpdatedAt
