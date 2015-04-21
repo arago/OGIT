@@ -3,12 +3,11 @@
 This directory contains commented template files for the different ontology elements: _Attribute_, _Entity_, _Verb_
 
 General requirements:
- * Other companies are encouraged to take responsibility for an NTO, e.g. 'ogit/Forum'
- * All SGO's will start with "ogit/" and will not have a namespace
- * All NTO's will start with "ogit/Namespace"
-    * There should be only one namespace for NTO's, e.g. ogit/Forum/Profile and not ogit/Forum/Website/Profile
- * Names of namespaces shouldn't contain organization names, but instead consist on a generalization. E.g. instead arago/ -> automation/
-   * Although for namespaces semantical names are preferred, it's possible to group entities under one namespace, which name could be meant more organizational-wise, rather than semantical. This is done due to the division of responsibility forthcoming from first requirement. E.g.: ogit/Forum/Profile, where Profile - semantical name of the entity and Forum - organizational name for the namespace
+ * Other companies are encouraged to take responsibility for an NTO, which name would have semantical meaning, e.g. 'ogit/Forum'
+ * All SGO's will just start with "ogit/" which would be followed by the entity/verb/attribute name
+ * All NTO's will start with "ogit/NTOName/", where NTOName should have a semantical meaning
+    * Subsequential division of an NTO into sub-NTO's is not possible, e.g. ogit/Forum/Profile and not ogit/Forum/Website/Profile
+ * Names of NTO's shouldn't contain organization names, but instead consist on a generalization. E.g. instead arago/ -> automation/
  * The only possibility of having data stored in GraphIT not using the global ontology is strongly discouraged due to low performance but possible within the isolated  ogit/CustomApplicationData/ namespace under ogit/CustomApplicationData/appID 
  * All entities should be allowed to have free attributes
  * There will be no inheritance
@@ -22,6 +21,7 @@ Requirements for _Attribute_ definitions:
   * file will be placed into `attributes` sub-folder of context folder
 
 Requirements for _Entity_ definitions:
+* NTO's define specialization in a certain area and could therefore contain more precise entities of a more general concept, e.g. BusinessProcess/EscalationEvent, BusinessProcess/MessageEvent
 * the first letter of each entity (base) name must be upper case 
 * the (base) name of an entity will be camel case, i.e. [A-Z][a-zA-Z]*
 * each _Entity_ should be defined in a separate YAML file named like the (base) name of that entity
