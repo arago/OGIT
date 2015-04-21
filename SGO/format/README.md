@@ -4,11 +4,14 @@ This directory contains commented template files for the different ontology elem
 
 General requirements:
  * Other companies are encouraged to take responsibility for an NTO, e.g. 'ogit/Forum'
+ * All SGO's will start with "ogit/" and will not have a namespace
+ * All NTO's will start with "ogit/Namespace"
+    * There should be only one namespace for NTO's, e.g. ogit/Forum/Profile and not ogit/Forum/Website/Profile
  * Names of namespaces shouldn't contain organization names, but instead consist on a generalization. E.g. instead arago/ -> automation/
    * Although for namespaces semantical names are preferred, it's possible to group entities under one namespace, which name could be meant more organizational-wise, rather than semantical. This is done due to the division of responsibility forthcoming from first requirement. E.g.: ogit/Forum/Profile, where Profile - semantical name of the entity and Forum - organizational name for the namespace
  * The only possibility of having data stored in GraphIT not using the global ontology is strongly discouraged due to low performance but possible within the isolated  ogit/CustomApplicationData/ namespace under ogit/CustomApplicationData/appID 
  * All entities should be allowed to have free attributes
- * There should not be any inheritance
+ * There will be no inheritance
 
 Requirements for _Attribute_ definitions:
 * the first letter of each attribute (base) name must be lower case
