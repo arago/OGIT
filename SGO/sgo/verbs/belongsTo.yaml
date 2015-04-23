@@ -35,6 +35,8 @@
         to: http://www.purl.org/ogit/ITService/SLA
       - from: http://www.purl.org/ogit/Contract
         to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/arago/MARSNode
+        to: http://www.purl.org/ogit/Set
     history:
       - id: 1
         date: 2014-08-15
@@ -62,5 +64,9 @@
         modified-by: PL
       - id: 7
         date: 2014-11-05
+        description: 'add new allowed connections'
+        modified-by: PL
+      - id: 7
+        date: 2015-04-23
         description: 'add new allowed connections'
         modified-by: PL
