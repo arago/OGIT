@@ -1,0 +1,19 @@
+- Attribute:
+    id: http://www.purl.org/ogit/Forum/username
+    name: username
+    description: "A unique username for a memebr of a Forum"
+    valid-from: "2015-04-27"
+    valid-until:
+    creator: Chris Walker
+    deleter:
+    created:  2015-03-26
+    modified: 2015-03-26
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type:
+    validation-parameter:
+    history:
+      - id: 1
+        date: 2015-04-27
+        description: initial inception
+        modified-by: cwalker@arago.de

@@ -1,0 +1,21 @@
+- Verb:
+    id: "http://www.purl.org/ogit/Forum/isWinnerOf"
+    name: "isWinnerOf"
+    description: "assoicates the entity that has won something with the thing that was won"
+    valid-from: "2015-04-23"
+    valid-until:
+    creator: "cwalker@arago.de"
+    deleter:
+    created:  "2015-04-23"
+    modified: "2015-04-23"
+    admin-contact: "arago GmbH"
+    tech-contact: "arago GmbH"
+    cardinality: "many2many"
+    history:
+      - id: 1
+        date: "2015-04-23"
+        description: "Initial Creation"
+        modified-by: "cwalker@arago.de"
+    allowed:
+      - from: "http://www.purl.org/ogit/Forum/Profile"
+        to: "http://www.purl.org/ogit/Forum/Award"

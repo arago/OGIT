@@ -1,0 +1,29 @@
+- Verb:
+    id: http://www.purl.org/ogit/mentions
+    name: mentions
+    description: |
+        This verb was envisaged to represent the *Social Media* menaing of the word mention (or
+        the Twitter-ism *at-mention*). However it simple represents that one entity mentions another,
+        for example cross-references in documentation would also be a valid use-case.
+
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    created: 2015-04-27
+    creator: cwalker@arago.de
+    deleter:
+    modified: 2015-04-27
+    valid-from: 2015-04-27
+    valid-until:
+    allowed:
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Profile
+
+    history:
+      - id: 1
+        date: 2015-04-27
+        description: intitial inception
+        modified-by: cwalker@arago.de
