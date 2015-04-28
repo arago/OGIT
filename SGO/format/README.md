@@ -31,11 +31,12 @@ Requirements for _Entity_ definitions:
   * file name should be `<entity-name>.yaml`
   * file will be placed into `entities` sub-folder of context folder
 
-Requirements for `Verb` definitions:
+Requirements for _Verb_ definitions:
 * Verbs connecting two entities of different NTO's are only allowed after careful consideration of the OGIT Board
 * the first letter of each verb (base) name must be lower case 
 * the (base) name of a verb will be camel case, i.e. [a-z][a-zA-Z]*
 * verbs should tendentially be used in their third person, e.g.: transfers
+* Passive verb forms should be avoided, e.g. _causes_ and not _causedBy_ .
 * no use of auxiliary verbs like "has***”, instead a word describing the semantic meaning should be used e.g. instead of having Profile -> has Settings, we could have Profile -> configures Settings
 * Not allowed, even for NTO's: The usage of verbs which also identify the Entity at the out end of the edge, e.g. Forum/subscribesToProfile.
 * internal verbs (read only for applications) are prefixed with an underscore ('_')
