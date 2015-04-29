@@ -44,6 +44,8 @@
         to: http://www.purl.org/ogit/DCIM/Rack
       - from: http://www.purl.org/arago/AutoPilotIssue
         to: http://www.purl.org/arago/Subitem
+      - from: http://www.purl.org/ogit/Configuration
+        to: http://www.purl.org/ogit/Device
 
     history:
       - id: 1
