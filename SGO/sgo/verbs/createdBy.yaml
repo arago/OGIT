@@ -16,7 +16,7 @@
         to: http://www.purl.org/ogit/ITService/Service
       - from: http://www.purl.org/ogit/Comment
         to: http://www.purl.org/ogit/Person
-      - from: http://www.purl.org/ogit/Collection
+      - from: http://www.purl.org/ogit/Set
         to: http://www.purl.org/ogit/Forum/Profile
       - from: http://www.purl.org/ogit/Comment
         to: http://www.purl.org/ogit/Forum/Profile
@@ -41,7 +41,7 @@
       - id: 3
         date: 2015-04-27
         description: |
-            - Added Connection for `ogit/Collection` -> `ogit/Forum/Profile`
+            - Added Connection for `ogit/Set` -> `ogit/Forum/Profile`
             - Added Connection for `ogit/Comment` -> `ogit/Forum/Profile`
             - Added Connection for `arago/KnowledgeItem` -> `ogit/Forum/Profile`
             - Added Connection for `ogit/Forum/Post` -> `ogit/Forum/Profile`

@@ -48,7 +48,7 @@
         to: http://www.purl.org/ogit/Device
       - from: http://www.purl.org/ogit/Forum/Topic
         to: http://www.purl.org/ogit/Forum/Post
-      - from: http://www.purl.org/ogit/Collection
+      - from: http://www.purl.org/ogit/Set
         to: http://www.purl.org/arago/KnowledgeItem
 
     history:
@@ -80,5 +80,5 @@
         date: 2015-04-28
         description: |
           - Added a connection from `ogit/Forum/Topic` -> `ogit/Forum/Post`
-          - Added a connection from `ogit/Collection` -> `arago/KnowledgeItem`
+          - Added a connection from `ogit/Set` -> `arago/KnowledgeItem`
 

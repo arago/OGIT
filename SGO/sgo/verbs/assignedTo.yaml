@@ -17,7 +17,7 @@
       - from: http://www.purl.org/CostModel/CostElement
         to: http://www.purl.org/ogit/MARSTemplateNode
       - from: http://www.purl.org/ogit/Forum/Tag
-        to: http://www.purl.org/ogit/Collection
+        to: http://www.purl.org/ogit/Set
       - from: http://www.purl.org/ogit/Forum/Tag
         to: http://www.purl.org/ogit/Forum/Post
       - from: http://www.purl.org/ogit/Forum/Tag
@@ -35,8 +35,8 @@
       - id: 3
         date: 2015-04-27
         description: |
-            - Added Connection for `arago/KnowledgeItem` -> `ogit/Collection`
-            - Added Connection for `ogit/Forum/Tag` -> `ogit/Collection`
+            - Added Connection for `arago/KnowledgeItem` -> `ogit/Set`
+            - Added Connection for `ogit/Forum/Tag` -> `ogit/Set`
             - Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/Post`
             - Added Connection for `ogit/Forum/Tag` -> `arago/KnowledgeItem`
 
