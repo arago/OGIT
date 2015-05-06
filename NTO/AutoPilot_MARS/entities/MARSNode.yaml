@@ -32,6 +32,7 @@
         modified-by: Spyridon Travlos
 
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/arago/marsNodeFormalRepresentation
       optional:
