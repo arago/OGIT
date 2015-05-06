@@ -2,8 +2,7 @@
     id: http://www.purl.org/ogit/ITService/Catalog
     name: Catalog
     description: |
-      Catalog of all client requirements for Services as a basis for Pricebook creation. 
-      Also Catalog of all the offerings from all Pricebooks from all vendors.
+      Any kind of catalog which could be offered by an Organization (e.g. corresponding to a vendor). Might contain products, services, books, etc.
     admin-contact: arago GmbH
     tech-contact: arago GmbH
     created: 2014-05-27
