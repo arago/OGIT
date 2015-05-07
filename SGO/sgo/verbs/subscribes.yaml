@@ -1,0 +1,32 @@
+- Verb:
+    id: http://www.purl.org/ogit/subscribes
+    name: subscribes
+    description: |
+        A subscription by an entity to another. Implies that one entity is interested in something
+        the other can offer.
+
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    created: 2015-04-27
+    creator: cwalker@arago.de
+    deleter:
+    modified: 2015-04-27
+    valid-from: 2015-04-27
+    valid-until:
+    allowed:
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/arago/KnowledgeItem
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Set
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Profile
+
+    history:
+      - id: 1
+        date: 2015-04-27
+        description: intitial inception
+    modified-by: cwalker@arago.de

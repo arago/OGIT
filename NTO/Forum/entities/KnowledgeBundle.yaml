@@ -1,0 +1,24 @@
+- Entity:
+    id:   "http://www.purl.org/ogit/Forum/KnowledgeBundle"
+    name: "KnowledgeBundle"
+    description: "A grouping of `arago/KnowledgeItem`s into a package."
+    valid-from: "2015-04-27"
+    valid-until:
+    creator: "cwalker@arago.de"
+    deleter:
+    created:  "2015-04-27"
+    modified: "2015-04-27"
+    admin-contact: "arago GmbH"
+    tech-contact: "arago GmbH"
+    scope: "NTO"
+    parent: "http://www.purl.org/ogit/Global"
+    history:
+      - id: 1
+        date: "2015-04-27"
+        description: "Initial Creation"
+        modified-by: "cwalker@arago.de"
+
+    attributes:
+      any: true
+      mandatory:
+        - "http://www.purl.org/ogit/name"

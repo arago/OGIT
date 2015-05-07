@@ -1,0 +1,26 @@
+- Verb:
+    id: http://www.purl.org/ogit/identifies
+    name: identifies
+    description: |
+      One entity identifies another. For example a canonical reference might be identified by
+      several other references to the same entity.
+
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    created: 2015-04-27
+    creator: cwalker@arago.de
+    deleter:
+    modified: 2015-04-27
+    valid-from: 2015-04-27
+    valid-until:
+    allowed:
+      - from: http://www.purl.org/ogit/Forum/ShortId
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/ShortId
+        to: http://www.purl.org/arago/KnowledgeItem
+
+    history:
+      - id: 1
+        date: 2015-04-27
+        description: intitial inception
+        modified-by: cwalker@arago.de

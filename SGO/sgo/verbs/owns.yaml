@@ -7,10 +7,10 @@
     tech-contact: arago GmbH
     created: 2014-09-08
     creator: FCO
-    deleter: 
+    deleter:
     modified: 2014-09-08
     valid-from: 2014-09-15
-    valid-until: 
+    valid-until:
     allowed:
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/ITService/Service
@@ -18,6 +18,15 @@
         to: http://www.purl.org/ogit/Software/Application
       - from: http://www.purl.org/ogit/Organization
         to: http://www.purl.org/ogit/ITSM/Asset
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Set
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/FeedEntry
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Notification
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Topic
+
     history:
       - id: 1
         date: 2014-09-08
@@ -31,4 +40,12 @@
         date: 2014-11-05
         description: add new connection
         modified-by: PL
+      - id: 4
+        date: 2015-04-27
+        description: |
+          - Added Connection for `ogit/Forum/Profile` -> `ogit/Set`
+          - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/FeedEntry`
+          - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Notification`
+          - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 
+        modified-by: cwalker@arago.de
