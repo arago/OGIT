@@ -2,8 +2,14 @@
 
 This directory contains commented template files for the different ontology elements: _Attribute_, _Entity_, _Verb_
 
-General requirements:
+OGIT Ontology Guidelines:
+
  * The only namespace used in OGIT is "ogit/"
+ * It should be possible to integrate OGIT with a different ontology under "other/" namespace
+    * Condition: everything after "ogit/" and "other/"  should have unique names, wether it's the NTO or entity name
+    * Relations between "other/" and "ogit/" have to be OGIT-Board approved
+ * It should be possible to migrate some "other/" into OGIT ontology  under "ogit/"
+    *Condition: everything after "ogit/" and "other/"  should have unique names, wether it's the NTO or entity name
  * Other companies are encouraged to take responsibility for an NTO, e.g. 'ogit/Forum'
  * NTO name is the grouping name, which does not necessarily have a semantical meaning
  * NTO/​Entity/Attribute/Verb names should be unique
