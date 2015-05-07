@@ -2,7 +2,10 @@
     id:   "http://www.purl.org/ogit/Forum/Banner"
     name: "Banner"
     description: |
-        Standout content, i.e. a header, or part of a carousel.
+        Standout content, i.e. a header, hero-unit or part of a carousel.
+        Examples:
+            http://getbootstrap.com/examples/carousel/ (a carousel of banners)
+            http://getbootstrap.com/examples/jumbotron/ (the content at the top is a banner)
 
     valid-from: "2015-04-27"
     valid-until:

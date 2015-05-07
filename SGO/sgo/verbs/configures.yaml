@@ -13,7 +13,7 @@
     valid-from: 2015-04-27
     valid-until:
     allowed:
-      - from: http://www.purl.org/ogit/Forum/Settings
+      - from: http://www.purl.org/ogit/Forum/Configuration
         to: http://www.purl.org/ogit/Forum/Profile
 
     history:

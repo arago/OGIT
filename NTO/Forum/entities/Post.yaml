@@ -23,5 +23,4 @@
     attributes:
       any: true
       mandatory:
-        - "http://www.purl.org/ogit/title"
         - "http://www.purl.org/ogit/content"

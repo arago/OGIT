@@ -14,9 +14,9 @@
     valid-from: 2015-04-27
     valid-until:
     allowed:
-      - from: http://www.purl.org/ogit/Forum/ShortLink
+      - from: http://www.purl.org/ogit/Forum/ShortId
         to: http://www.purl.org/ogit/Forum/Post
-      - from: http://www.purl.org/ogit/Forum/ShortLink
+      - from: http://www.purl.org/ogit/Forum/ShortId
         to: http://www.purl.org/arago/KnowledgeItem
 
     history:

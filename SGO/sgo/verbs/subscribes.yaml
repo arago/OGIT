@@ -1,6 +1,6 @@
 - Verb:
-    id: http://www.purl.org/ogit/subscribesTo
-    name: subscribesTo
+    id: http://www.purl.org/ogit/subscribes
+    name: subscribes
     description: |
         A subscription by an entity to another. Implies that one entity is interested in something
         the other can offer.

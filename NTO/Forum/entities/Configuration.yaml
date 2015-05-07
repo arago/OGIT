@@ -1,7 +1,7 @@
 - Entity:
-    id:   "http://www.purl.org/ogit/Forum/ShortLink"
-    name: "ShortLink"
-    description: "A Reference to another Entity, used to track access via a specific channel"
+    id:   "http://www.purl.org/ogit/Forum/Configuration"
+    name: "Configuration"
+    description: "Configuration Data. No Schema - all free attributes"
     valid-from: "2015-04-23"
     valid-until:
     creator: "cwalker@arago.de"
@@ -20,7 +20,3 @@
 
     attributes:
       any: true
-      mandatory:
-        - "http://www.purl.org/ogit/name"
-        - "http://www.purl.org/ogit/function"
-

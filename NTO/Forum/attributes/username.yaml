@@ -1,7 +1,7 @@
 - Attribute:
     id: http://www.purl.org/ogit/Forum/username
     name: username
-    description: "A unique username for a memebr of a Forum"
+    description: "A unique username for a member of a Forum"
     valid-from: "2015-04-27"
     valid-until:
     creator: Chris Walker

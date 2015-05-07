@@ -1,7 +1,10 @@
 - Verb:
-    id: "http://www.purl.org/ogit/Forum/isWinnerOf"
-    name: "isWinnerOf"
-    description: "assoicates the entity that has won something with the thing that was won"
+    id: "http://www.purl.org/ogit/Forum/wins"
+    name: "wins"
+    description: |
+        Associates the entity that has won something with the thing that was won. Despite the present
+        tense used in the verb, this almost always will refer to some that *was* won in the past.
+
     valid-from: "2015-04-23"
     valid-until:
     creator: "cwalker@arago.de"

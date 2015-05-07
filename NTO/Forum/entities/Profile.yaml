@@ -26,4 +26,3 @@
       mandatory:
         - "http://www.purl.org/ogit/Forum/username"
         - "http://www.purl.org/ogit/name"
-        - "http://www.purl.org/ogit/Forum/avatarURL"
