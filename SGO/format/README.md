@@ -6,10 +6,10 @@ OGIT Ontology Guidelines:
 
  * The only namespace used in OGIT is "ogit/"
  * It should be possible to integrate OGIT with a different ontology under "other/" namespace
-    * Condition: everything after "ogit/" and "other/"  should have unique names, wether it's the NTO or entity name
+    * Condition: everything after "ogit/" and "other/"  should have unique NTO/entity/verb/attribute names
     * Relations between "other/" and "ogit/" have to be OGIT-Board approved
  * It should be possible to migrate some "other/" into OGIT ontology  under "ogit/"
-    *Condition: everything after "ogit/" and "other/"  should have unique names, wether it's the NTO or entity name
+    *Condition: everything after "ogit/" and "other/"  should have unique NTO/entity/verb/attribute names
  * Other companies are encouraged to take responsibility for an NTO, e.g. 'ogit/Forum'
  * NTO name is the grouping name, which does not necessarily have a semantical meaning
  * NTO/​Entity/Attribute/Verb names should be unique
@@ -18,7 +18,7 @@ OGIT Ontology Guidelines:
     * Subsequential division of an NTO into sub-NTO's is not possible, e.g. ogit/Forum/Profile and not ogit/Forum/Website/Profile
  * Names of NTO's shouldn't contain organization names, but instead consist on a generalization. E.g. instead arago/ -> automation/
  * The only possibility of having data stored in GraphIT not using the global ontology is strongly discouraged due to low performance but possible within the isolated  ogit/CustomApplicationData/ namespace under ogit/CustomApplicationData/appID 
- * All entities should be allowed to have free attributes
+ * All entities will be allowed to have free attributes
  * There will be no inheritance
 
 Requirements for _Attribute_ definitions:
@@ -50,4 +50,4 @@ Requirements for _Verb_ definitions:
   * file name should be `<verb-name>.yaml`
   * file will be placed into `verbs` sub-folder of context folder
 
-Since some of the requirements came into place in April 2015, some of the implemented ontology elements are being reviewed in order to comply to them.
+Since some of the requirements came into place in May 2015, some of the implemented ontology elements are being reviewed in order to comply to them.
