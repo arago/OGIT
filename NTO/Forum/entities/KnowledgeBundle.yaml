@@ -22,3 +22,5 @@
       any: true
       mandatory:
         - "http://www.purl.org/ogit/name"
+      optional:
+        - "http://www.purl.org/ogit/accessControl"

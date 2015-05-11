@@ -21,7 +21,7 @@
       - from: http://www.purl.org/ogit/Forum/Reply
         to: http://www.purl.org/ogit/Forum/Post
       - from: http://www.purl.org/ogit/Forum/Reply
-        to: http://www.purl.org/ogit/Set
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
 
     history:
       - id: 1

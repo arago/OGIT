@@ -48,7 +48,7 @@
         to: http://www.purl.org/ogit/Device
       - from: http://www.purl.org/ogit/Forum/Topic
         to: http://www.purl.org/ogit/Forum/Post
-      - from: http://www.purl.org/ogit/forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
         to: http://www.purl.org/arago/KnowledgeItem
 
     history:

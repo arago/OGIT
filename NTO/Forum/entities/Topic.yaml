@@ -27,4 +27,5 @@
       mandatory:
         - "http://www.purl.org/ogit/title"
         - "http://www.purl.org/ogit/description"
+      optional:
         - "http://www.purl.org/ogit/accessControl"
