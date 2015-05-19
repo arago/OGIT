@@ -1,74 +1,117 @@
 - Verb:
     id: http://www.purl.org/ogit/contains
     name: contains
-    description: |
-      This relationship indicates that something is part of something else, whereby one child can belong to only one parent object.
-      see also "includes"
-    cardinality: one2many
+    description: "This relationship indicates that something is part of something\
+      \ else.\rsee also \"includes\""
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    created: 2014-05-27
-    creator: FCO
-    deleter: 
-    modified: 2014-05-27
-    valid-from: 2014-06-01
-    valid-until: 
-    allowed:
-      - from: http://www.purl.org/ogit/Catalog/Catalog
-        to: http://www.purl.org/ogit/Catalog/Item
-      - from: http://www.purl.org/arago/TaskList
-        to: http://www.purl.org/arago/Task
-      - from: http://www.purl.org/ogit/SWProject/Release
-        to: http://www.purl.org/ogit/SWProject/Milestone
-      - from: http://www.purl.org/ogit/SWProject/Milestone
-        to: http://www.purl.org/ogit/SWProject/Task
-      - from: http://www.purl.org/ogit/BPMN2/ProcessPool
-        to: http://www.purl.org/ogit/BPMN2/ProcessLane
-      - from: http://www.purl.org/ogit/Contract
-        to: http://www.purl.org/ogit/ITSM/License
-      - from: http://www.purl.org/ogit/Contract
-        to: http://www.purl.org/ogit/ITService/SLA
-      - from: http://www.purl.org/ogit/Network/Fabric
-        to: http://www.purl.org/ogit/Network/SimpleDevice 
-      - from: http://www.purl.org/ogit/Network/Fabric
-        to: http://www.purl.org/ogit/Network/Card
-      - from: http://www.purl.org/ogit/Network/Enclosure
-        to: http://www.purl.org/ogit/Network/Shelf
-      - from: http://www.purl.org/ogit/DCIM/Section
-        to: http://www.purl.org/ogit/DCIM/Rack
-      - from: http://www.purl.org/ogit/DCIM/Rack
-        to: http://www.purl.org/ogit/DCIM/Device
-      - from: http://www.purl.org/ogit/DCIM/Rack
-        to: http://www.purl.org/ogit/DCIM/PDU
-      - from: http://www.purl.org/ogit/DCIM/Section
-        to: http://www.purl.org/ogit/DCIM/Rack
-      - from: http://www.purl.org/arago/AutoPilotIssue
-        to: http://www.purl.org/arago/Subitem
-      - from: http://www.purl.org/ogit/Configuration
-        to: http://www.purl.org/ogit/Device
-
     history:
-      - id: 1
-        date: 2014-05-27
-        description: 'intitial version'
-        modified-by: FCO
-      - id: 2
-        date: 2014-06-26
-        description: 'add a connection'
-        modified-by: Peter Larem
-      - id: 3
-        date: 2014-09-05
-        description: 'add a connection'
-        modified-by: Peter Larem
-      - id: 4
-        date: 2014-09-05
-        description: 'add a connection for network'
-        modified-by: Roland Judas
-      - id: 5
-        date: 2014-09-11
-        description: 'add a connection for DCIM'
-        modified-by: Roland Judas        
-      - id: 6
-        date: 2014-11-19
-        description: 'add a connection'
-        modified-by: Peter Larem
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    allowed:
+    - {from: 'http://www.purl.org/ogit/Automation/Issue', to: 'http://www.purl.org/ogit/Automation/Item'}
+    - {from: 'http://www.purl.org/ogit/Automation/KnowledgeItem', to: 'http://www.purl.org/ogit/automation/Trigger'}
+    - {from: 'http://www.purl.org/ogit/Automation/MARSModel', to: 'http://www.purl.org/ogit/Automation/MARSNode'}
+    - {from: 'http://www.purl.org/ogit/Automation/Item', to: 'http://www.purl.org/ogit/Automation/Item'}
+    - {from: 'http://www.purl.org/ogit/Automation/Item', to: 'http://www.purl.org/ogit/Automation/KnowledgeItemAttribute'}
+    - {from: 'http://www.purl.org/ogit/TaskList', to: 'http://www.purl.org/ogit/Task'}
+    - {from: 'http://www.purl.org/ogit/automation/Trigger', to: 'http://www.purl.org/ogit/Automation/Item'}
+    - {from: 'http://www.purl.org/ogit/Cost/CostDistribution', to: 'http://www.purl.org/ogit/Cost/CostElement'}
+    - {from: 'http://www.purl.org/ogit/Cost/PlanningTemplate', to: 'http://www.purl.org/ogit/Cost/PlanningTemplate'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/CancelEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/CancelEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/CompensationEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/CompensationEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ConditionalEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ConditionalEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/DataObject', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/DataObject', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/DataStore', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/DataStore', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ErrorEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ErrorEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/EscalationEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/EscalationEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/EventBasedGateway', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/EventBasedGateway', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ExclusiveGateway', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ExclusiveGateway', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/InclusiveGateway', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/InclusiveGateway', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/LinkEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/LinkEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/MessageEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/MessageEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/MultipleEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/MultipleEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/NoneEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/NoneEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ParallelGateway', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ParallelGateway', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ProcessLane', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ProcessLane', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ProcessPool', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ProcessPool', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ProcessPool', to: 'http://www.purl.org/ogit/BusinessProcess/ProcessLane'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/SignalEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/SignalEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/TerminationEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/TerminationEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/TimerEvent', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/TimerEvent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/Software/Application'}
+    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/Contract', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
+    - {from: 'http://www.purl.org/ogit/Contract', to: 'http://www.purl.org/ogit/License'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Building', to: 'http://www.purl.org/ogit/Datacenter/Room'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Building', to: 'http://www.purl.org/ogit/Datacenter/Datacenter'}
+    - {from: 'http://www.purl.org/ogit/Device', to: 'http://www.purl.org/ogit/Datacenter/Sensor'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Rack', to: 'http://www.purl.org/ogit/Device'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Rack', to: 'http://www.purl.org/ogit/Datacenter/PowerDistributionUnit'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Rack', to: 'http://www.purl.org/ogit/Datacenter/Sensor'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Room', to: 'http://www.purl.org/ogit/Datacenter/Section'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Room', to: 'http://www.purl.org/ogit/Datacenter/Sensor'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Room', to: 'http://www.purl.org/ogit/Datacenter/Cooling'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Room', to: 'http://www.purl.org/ogit/Datacenter/Rack'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Section', to: 'http://www.purl.org/ogit/Datacenter/Rack'}
+    - {from: 'http://www.purl.org/ogit/Datacenter/Section', to: 'http://www.purl.org/ogit/Datacenter/Sensor'}
+    - {from: 'http://www.purl.org/ogit/Catalog', to: 'http://www.purl.org/ogit/CatalogItem'}
+    - {from: 'http://www.purl.org/ogit/ServiceManagement/Offering', to: 'http://www.purl.org/ogit/Cost/CostElement'}
+    - {from: 'http://www.purl.org/ogit/ServiceManagement/Offering', to: 'http://www.purl.org/ogit/CatalogItem'}
+    - {from: 'http://www.purl.org/ogit/ServiceManagement/Offering', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
+    - {from: 'http://www.purl.org/ogit/Automation/MARSModelTemplate', to: 'http://www.purl.org/ogit/Automation/MARSNodeTemplate'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/Port'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkEnclosure', to: 'http://www.purl.org/ogit/Network/Shelf'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkEndpoint', to: 'http://www.purl.org/ogit/Network/FCHBA'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkEndpoint', to: 'http://www.purl.org/ogit/Network/NetworkInterface'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkFabric', to: 'http://www.purl.org/ogit/Network/NetworkCard'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkFabric', to: 'http://www.purl.org/ogit/Network/SimpleDevice'}
+    - {from: 'http://www.purl.org/ogit/Network/NIC', to: 'http://www.purl.org/ogit/Network/MACAddress'}
+    - {from: 'http://www.purl.org/ogit/Network/Shelf', to: 'http://www.purl.org/ogit/Network/Slot'}
+    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/Port'}
+    - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/Organization'}
+    - {from: 'http://www.purl.org/ogit/Software/Application', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/Software/SoftwareComponent', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+    - {from: 'http://www.purl.org/ogit/ServiceManagement/Offering', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Contract'}

@@ -1,20 +1,16 @@
 - Attribute:
     id: http://www.purl.org/ogit/id
     name: id
-    description: |
-      General id.
+    description: General id.
+    validation-type: ''
+    validation-parameter: ''
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    created: 2015-04-29
-    creator: PL
-    deleter: 
-    modified: 2015-04-29
-    valid-from: 2015-04-29
-    valid-until: 
-    validation-parameter: 
-    validation-type: 
     history:
-      - id: 1
-        date: 2015-04-29
-        description: 'intitial version'
-        modified-by: PL
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}

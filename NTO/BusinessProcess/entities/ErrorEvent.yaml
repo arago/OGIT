@@ -1,0 +1,26 @@
+- Entity:
+    id: http://www.purl.org/ogit/BusinessProcess/ErrorEvent
+    name: ErrorEvent
+    description: "Entitiy to store potential process errors as a step toward \reliminating\
+      \ them, or as part of modeling escalation processes. In BPMN, error events are\
+      \ represented by a flash symbol.\rThe BPMN specification does not specify what\
+      \ an error may be, the modeler has to decide that.\rAn error is a serious event\
+      \ in BPMN, so if catching, it can be modeled only as an attached intermediate\
+      \ event. \rThis means that an error during task execution must be handled in\
+      \ a specific way: As a throwing event, it can be modeled \ronly at the end of\
+      \ a process path so that the participant knows the process has failed. The parent\
+      \ process should likewise \rrecognize the failure."
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes:
+      mandatory: ['http://www.purl.org/ogit/name', 'http://www.purl.org/ogit/description']

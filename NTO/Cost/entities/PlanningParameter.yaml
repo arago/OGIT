@@ -1,0 +1,20 @@
+- Entity:
+    id: http://www.purl.org/ogit/Cost/PlanningParameter
+    name: PlanningParameter
+    description: 'A Planning Parameter describes a Planning Template. It will contain
+      a concrete value of a Parameter and the statistics derived from the expected
+      distribution as attributes. For a general overview: see the NTO description
+      on github.'
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes: {}

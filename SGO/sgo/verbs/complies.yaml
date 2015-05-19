@@ -1,0 +1,22 @@
+- Verb:
+    id: http://www.purl.org/ogit/complies
+    name: complies
+    description: Indicates wether one entity should comply to another.
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    allowed:
+    - {from: 'http://www.purl.org/ogit/ServiceManagement/Service', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
+    - {from: 'http://www.purl.org/ogit/Network/AccessControlList', to: 'http://www.purl.org/ogit/Network/NetworkSetting'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkFilter', to: 'http://www.purl.org/ogit/Network/NetworkSetting'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkInterface', to: 'http://www.purl.org/ogit/Network/NetworkSetting'}
+    - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/Policy'}
+    - {from: 'http://www.purl.org/ogit/Person', to: 'http://www.purl.org/ogit/Role'}
+    - {from: 'http://www.purl.org/ogit/Software/Application', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}

@@ -1,0 +1,16 @@
+- Attribute:
+    id: http://www.purl.org/ogit/isMutable
+    name: isMutable
+    description: True if the value can be changed. E.g. after a service is provisioned.
+    validation-type: ''
+    validation-parameter: ''
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}

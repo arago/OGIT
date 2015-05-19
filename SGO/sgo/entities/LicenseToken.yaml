@@ -1,0 +1,22 @@
+- Entity:
+    id: http://www.purl.org/ogit/LicenseToken
+    name: LicenseToken
+    description: "This serves as a placeholder for pre-approved license request it\
+      \ will be subsituted by a real license throughout the licence request process.\r\
+      This will created by a license admin and communicated to potential licence requesters."
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes:
+      mandatory: ['http://www.purl.org/ogit/description', 'http://www.purl.org/ogit/validFrom',
+        'http://www.purl.org/ogit/expirationDate', 'http://www.purl.org/ogit/licenseType',
+        'http://www.purl.org/ogit/token', 'http://www.purl.org/ogit/ServiceManagement/licenseTokenStatus']

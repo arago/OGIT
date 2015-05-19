@@ -1,53 +1,26 @@
 - Verb:
     id: http://www.purl.org/ogit/extends
     name: extends
-    description: |
-      For security reasons you might put some attributes of an entity type into a another entity type. 
-      Whenever you do this that new entity should linked to the existing with the the "extends" relationship.
-    cardinality: many2one
+    description: Indicates if one entity extends another one
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    created: 2014-09-10
-    creator: FCO
-    deleter: 
-    modified: 2014-09-10
-    valid-from: 2014-09-11
-    valid-until: 
-    allowed:
-      - from: http://www.purl.org/ogit/Network/SimpleDevice
-        to: http://www.purl.org/ogit/Network/WifiAP
-      - from: http://www.purl.org/ogit/Network/SimpleDevice
-        to: http://www.purl.org/ogit/Network/Router
-      - from: http://www.purl.org/ogit/Network/SimpleDevice
-        to: http://www.purl.org/ogit/Network/Switch
-      - from: http://www.purl.org/ogit/Network/SimpleDevice
-        to: http://www.purl.org/ogit/Network/IAM
-      - from: http://www.purl.org/ogit/Network/SimpleDevice
-        to: http://www.purl.org/ogit/Network/IDSIPS
-      - from: http://www.purl.org/ogit/Network/SimpleDevice
-        to: http://www.purl.org/ogit/Network/Loadbalancer
-      - from: http://www.purl.org/ogit/Network/Card
-        to: http://www.purl.org/ogit/Network/WifiAP
-      - from: http://www.purl.org/ogit/Network/Card
-        to: http://www.purl.org/ogit/Network/Router
-      - from: http://www.purl.org/ogit/Network/Card
-        to: http://www.purl.org/ogit/Network/Switch
-      - from: http://www.purl.org/ogit/Network/Card
-        to: http://www.purl.org/ogit/Network/IAM
-      - from: http://www.purl.org/ogit/Network/Card
-        to: http://www.purl.org/ogit/Network/IDSIPS
-      - from: http://www.purl.org/ogit/Network/Card
-        to: http://www.purl.org/ogit/Network/Loadbalancer  
     history:
-      - id: 1
-        date: 2014-09-10
-        description: 'intitial version'
-        modified-by: FCO
-      - id: 2
-        date: 2014-09-12
-        description: 'Added Network edges'
-        modified-by: RJ
-      - id: 2
-        date: 2014-09-30
-        description: 'Node->extends->Node removed'
-        modified-by: FCO
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    allowed:
+    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/IDSIPS'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/Loadbalancer'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/Router'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/Switch'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/WifiAccessPoint'}
+    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/Slot'}
+    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/IDSIPS'}
+    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/Loadbalancer'}
+    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/Router'}
+    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/Switch'}
+    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/WifiAccessPoint'}

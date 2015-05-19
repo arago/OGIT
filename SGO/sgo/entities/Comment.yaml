@@ -1,27 +1,17 @@
 - Entity:
-    id:  http://www.purl.org/ogit/Comment
+    id: http://www.purl.org/ogit/Comment
     name: Comment
-    description: |
-      Defines comments for a ticket, issue or another type of entity. Also known as WorkLog, ChangeLog or HistoryEntry.
-    valid-from: 2015-04-15 00:00:00
-    valid-until:
-    creator: IP
-    deleter: 
-    created:  2015-04-15
-    modified: 2015-04-15
+    description: Defines comments for a ticket, issue or another type of entity. Also known as WorkLog, ChangeLog or HistoryEntry.
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    scope: SGO
-    parent: http://www.purl.org/ogit/Global
+    parent: http://www.purl.org/ogit/Node
     history:
-      - id: 1
-        date: 2015-04-15
-        description: initial
-        modified-by: IP
-  
-    attributes:
-      any: true
-      mandatory:
-        - http://www.purl.org/ogit/content
-      optional:
-        - http://www.purl.org/ogit/ITSM/lastUpdatedAt
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes: {}

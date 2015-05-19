@@ -1,0 +1,18 @@
+- Entity:
+    id: http://www.purl.org/ogit/BusinessProcess/ProcessLane
+    name: ProcessLane
+    description: Entity to represent a ProcessLane of a business process. There must be one or more Lanes within a Pool. If there is only one Lane, then that Lane shares the name of the Pool and only the Pool name is displayed. If there is more than one Lane, then each Lane has to have its own name and all names are displayed.
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes:
+      mandatory: ['http://www.purl.org/ogit/name', 'http://www.purl.org/ogit/description']

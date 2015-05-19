@@ -1,39 +1,17 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Ontology
+    id: http://www.purl.org/ogit/Ontology
     name: Ontology
-    description: |
-      represents any Ontology object (Entity, Verb, Attribute)
-    valid-from: 2014-04-16 00:00:00
-    valid-until:
-    creator: FCO
-    deleter: 
-    created:  2014-04-10
-    modified: 2014-04-10
+    description: represents any Ontology object (Entity, Verb, Attribute)
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    scope: SGO
-    parent: http://www.purl.org/ogit/Global
+    parent: http://www.purl.org/ogit/Node
     history:
-      - id: 1
-        date: 2014-04-10
-        description: initial
-        modified-by: FCO
-      - id: 2
-        date: 2014-05-15
-        description: editing attributes
-        modified-by: Peter Larem
-
-    attributes:
-      mandatory:
-        - http://www.purl.org/ogit/ontology-id
-        - http://www.purl.org/ogit/ontology-type
-        - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/ontology-name
-        - http://www.purl.org/ogit/ontology-valid-from
-        - http://www.purl.org/ogit/ontology-creator
-        - http://www.purl.org/ogit/ontology-modified
-        - http://www.purl.org/ogit/ontology-admin-contact
-        - http://www.purl.org/ogit/ontology-tech-contact
-      optional:
-        - http://www.purl.org/ogit/ontology-valid-from
-        - http://www.purl.org/ogit/ontology-deleter
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes: {}

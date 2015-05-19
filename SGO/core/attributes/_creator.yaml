@@ -1,20 +1,17 @@
 - Attribute:
     id: http://www.purl.org/ogit/_creator
     name: _creator
-    description: |
-      [internally generated] The id of the identity who created the node or edge
-    valid-from: 2013-11-01 00:00:00
-    valid-until:
+    description: '[internally generated] The id of the identity who created the node
+      or edge'
+    validation-type: ''
+    validation-parameter: ''
+    valid-from: '2015-05-19'
+    valid-until: ''
     creator: Peter Larem
-    deleter: 
-    created:  2013-09-01
-    modified: 2013-09-01
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    validation-type:
-    validation-parameter:
     history:
-      - id: 1
-        date: 2013-09-01
-        description: initial
-        modified-by: Peter Larem
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}

@@ -1,20 +1,16 @@
 - Attribute:
     id: http://www.purl.org/ogit/_modified-by
     name: _modified-by
-    description: |
-      [internally generated] The id of the identity who did the modification
-    valid-from: 2014-09-22 00:00:00
-    valid-until:
+    description: '[internally generated] The id of the identity who did the modification'
+    validation-type: ''
+    validation-parameter: ''
+    valid-from: '2015-05-19'
+    valid-until: ''
     creator: Peter Larem
-    deleter: 
-    created:  2014-09-22
-    modified: 2014-09-22
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    validation-type:
-    validation-parameter:
     history:
-      - id: 1
-        date: 2014-09-22
-        description: initial
-        modified-by: Peter Larem
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}

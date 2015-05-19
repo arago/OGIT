@@ -1,0 +1,20 @@
+- Entity:
+    id: http://www.purl.org/ogit/License
+    name: License
+    description: This entity type allows to store license information or actual licenses.
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes:
+      mandatory: ['http://www.purl.org/ogit/validFrom', 'http://www.purl.org/ogit/expirationDate',
+        'http://www.purl.org/ogit/subject', 'http://www.purl.org/ogit/licenseKey',
+        'http://www.purl.org/ogit/createdAt', 'http://www.purl.org/ogit/licenseType']

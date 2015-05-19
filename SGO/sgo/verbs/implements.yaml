@@ -1,46 +1,17 @@
 - Verb:
     id: http://www.purl.org/ogit/implements
     name: implements
-    description: |
-      Defines that something provides the implementation for something else.
+    description: Defines that an entity provides the implementation for another entity.
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    created: 2014-05-27
-    creator: FCO
-    deleter: 
-    modified: 2014-05-27
-    valid-from: 2014-06-01
-    valid-until: 
-    allowed:
-      - from: http://www.purl.org/arago/MARSModel
-        to: http://www.purl.org/ogit/ITService/Order
-      - from: http://www.purl.org/ogit/ITService/Service    
-        to: http://www.purl.org/ogit/Software/Application
-      - from: http://www.purl.org/ogit/MARSTemplate
-        to: http://www.purl.org/ogit/ITService/Order
-        
     history:
-      - id: 1
-        date: 2014-05-27
-        description: 'intitial version'
-        modified-by: FCO
-      - id: 2
-        date: 2014-07-11
-        description: 'change MARSNode to MARSModel'
-        modified-by: Peter Larem
-      - id: 3
-        date: 2014-07-22
-        description: 'change the allowed connection'
-        modified-by: Peter Larem
-      - id: 4
-        date: 2014-10-07
-        description: 'change the allowed connection'
-        modified-by: CO
-      - id: 5
-        date: 2014-11-05
-        description: 'change the allowed connection'
-        modified-by: PL
-      - id: 6
-        date: 2014-11-17
-        description: 'change the allowed connection'
-        modified-by: PL
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    allowed:
+    - {from: 'http://www.purl.org/ogit/Automation/MARSModel', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
+    - {from: 'http://www.purl.org/ogit/ServiceManagement/Service', to: 'http://www.purl.org/ogit/Software/Application'}

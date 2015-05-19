@@ -1,0 +1,23 @@
+- Entity:
+    id: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+    name: ChangeRequest
+    description: This entity type defines a change request ticket
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes:
+      mandatory: ['http://www.purl.org/ogit/risk', 'http://www.purl.org/ogit/ServiceManagement/changeStatus',
+        'http://www.purl.org/ogit/startAt', 'http://www.purl.org/ogit/finishAt', 'http://www.purl.org/ogit/ServiceManagement/targetStartAt',
+        'http://www.purl.org/ogit/ServiceManagement/targetFinishAt', 'http://www.purl.org/ogit/ServiceManagement/scheduledStartAt',
+        'http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt', 'http://www.purl.org/ogit/effort',
+        'http://www.purl.org/ogit/ServiceManagement/fallbackPlan', 'http://www.purl.org/ogit/ServiceManagement/testPlan',
+        'http://www.purl.org/ogit/ServiceManagement/implementationPlan']

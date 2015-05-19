@@ -1,0 +1,31 @@
+- Entity:
+    id: http://www.purl.org/ogit/BusinessProcess/EventBasedGateway
+    name: EventBasedGateway
+    description: "The event-based Gateway allows you to make a decision based on events.\
+      \ Each outgoing sequence flow of the gateway needs \rto be connected to an intermediate\
+      \ catching event. When process execution reaches an event-based Gateway, the\
+      \ gateway \racts like a wait state: execution is suspended. In addition, for\
+      \ each outgoing sequence flow, an event subscription is \rcreated.\\n\rNote\
+      \ the sequence flows running out of an event-based Gateway are different than\
+      \ ordinary sequence flows. These sequence \rflows are never actually \"executed\"\
+      . On the contrary, they allow the process engine to determine which events an\
+      \ execution \rarriving at an event-based Gateway needs to subscribe to. The\
+      \ following restrictions apply:\\n\rAn event-based Gateway must have two or\
+      \ more outgoing sequence flows.\\n\rAn event-based Gateway may only be connected\
+      \ to elements of the type intermediateCatchEvent. (Receive Tasks after an \r\
+      event-based Gateway are not supported by the engine yet.)\\n\rAn intermediateCatchEvent\
+      \ connected to an event-based Gateway must have a single incoming sequence flow."
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes:
+      mandatory: ['http://www.purl.org/ogit/name', 'http://www.purl.org/ogit/description']

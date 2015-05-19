@@ -1,0 +1,18 @@
+- Entity:
+    id: http://www.purl.org/ogit/BusinessProcess/NoneEvent
+    name: NoneEvent
+    description: A NoneEvent is an event without any catching or throwing activity, which could be used for a waiting mechanism in BPMN2.
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes:
+      mandatory: ['http://www.purl.org/ogit/name', 'http://www.purl.org/ogit/description']

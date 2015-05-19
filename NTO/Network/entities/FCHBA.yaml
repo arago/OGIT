@@ -1,31 +1,18 @@
 - Entity:
-    id:   http://www.purl.org/ogit/Network/FCHBA
+    id: http://www.purl.org/ogit/Network/FCHBA
     name: FCHBA
-    description: |
-      Fibre Channel Host Bus Adapter, Physical/Virtual Circuit allowing an endpoint to connect to a network 
-    valid-from: 2014-09-15 00:00:00
-    valid-until:
-    creator: RJ
-    deleter: 
-    created:  2014-09-05
-    modified: 2014-09-05
-    admin-contact: ogit@arago.de
-    tech-contact: ogit@arago.de
+    description: Fibre Channel Host Bus Adapter, Physical/Virtual Circuit allowing an endpoint to connect to a network.
     scope: NTO
-    parent: http://www.purl.org/ogit/Factual
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
     history:
-      - id: 1
-        date: 2014-09-05
-        description: initial
-        modified-by: RJ
-
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
     attributes:
-      any: true
-      mandatory:
-        - http://www.purl.org/ogit/Network/id
-      optional:
-        - http://www.purl.org/ogit/Network/assetId
-        - http://www.purl.org/ogit/contact
-
-
-
+      mandatory: ['http://www.purl.org/ogit/id']

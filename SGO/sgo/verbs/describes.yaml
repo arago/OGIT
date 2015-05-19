@@ -1,76 +1,30 @@
 - Verb:
     id: http://www.purl.org/ogit/describes
     name: describes
-    description: 'this relationship allows to associate additional information with an entity. The "described" node can have many "describing" nodes, but a "describing" node will "describe" only one other'
-    admin-contact: 'arago GmbH'
-    tech-contact: 'arago GmbH'
-    cardinality: many2one
-    created: 2014-05-27
-    creator: FCO
+    description: This relationship allows to associate additional information with an entity. The "described" node can have many "describing" nodes.
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
     deleter: ''
-    modified: 2014-05-27
-    valid-from: 2014-06-01
-    valid-until: 
-    allowed:
-      - from: http://www.purl.org/ogit/Catalog/ItemOption
-        to: http://www.purl.org/ogit/Catalog/Item
-      - from: http://www.purl.org/ogit/ITService/Parameter
-        to: http://www.purl.org/ogit/ITSM/Ticket
-      - from: http://www.purl.org/ogit/ITService/Parameter
-        to: http://www.purl.org/CostModel/CostElement
-      - from: http://www.purl.org/ogit/ITService/Parameter
-        to: http://www.purl.org/ogit/ITService/SLA
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/arago/MARSNode
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/ogit/Network/Fabric
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/ogit/Network/SimpleDevice
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/ogit/Network/Card
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/ogit/Network/Enclosure
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/ogit/DCIM/Cooling     
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/ogit/DCIM/Rack 
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/ogit/DCIM/Device 
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/ogit/DCIM/PDU     
-      - from: http://www.purl.org/ogit/ITService/Parameter
-        to: http://www.purl.org/ogit/ITService/Offering  
-      - from: http://www.purl.org/ogit/ITSM/Asset
-        to: http://www.purl.org/arago/MARSNode
-      - from: http://www.purl.org/ogit/ITService/Parameter
-        to: http://www.purl.org/ogit/ITService/Service
-        
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     history:
-      - id: 1
-        date: 2014-05-27
-        description: 'intitial version'
-        modified-by: FCO
-      - id: 2
-        date: 2014-09-05
-        description: 'add connection'
-        modified-by: PL
-      - id: 3
-        date: 2014-09-08
-        description: 'add connection'
-        modified-by: FCO
-      - id: 4
-        date: 2014-09-11
-        description: 'add connections Network/DCIM'
-        modified-by: RJ
-      - id: 5
-        date: 2014-10-02
-        description: 'add connection'
-        modified-by: PL
-      - id: 6
-        date: 2014-11-05
-        description: 'add connection'
-        modified-by: PL
-      - id: 7
-        date: 2014-11-17
-        description: 'add connection'
-        modified-by: PL
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    allowed:
+    - {from: 'http://www.purl.org/ogit/Parameter', to: 'http://www.purl.org/ogit/Cost/CostElement'}
+    - {from: 'http://www.purl.org/ogit/Parameter', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
+    - {from: 'http://www.purl.org/ogit/Parameter', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
+    - {from: 'http://www.purl.org/ogit/Parameter', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Automation/MARSNode'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Datacenter/Cooling'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Device'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Datacenter/PowerDistributionUnit'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Datacenter/Rack'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Automation/MARSNodeTemplate'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Network/NetworkCard'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Network/NetworkEnclosure'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Network/NetworkFabric'}
+    - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Network/SimpleDevice'}
+    - {from: 'http://www.purl.org/ogit/Parameter', to: 'http://www.purl.org/ogit/CatalogItem'}

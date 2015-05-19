@@ -1,0 +1,19 @@
+- Entity:
+    id: http://www.purl.org/ogit/Event
+    name: Event
+    description: This entity defines any type of event records, e.g. ITSM/produced by event management systems, Business Process etc.
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes:
+      mandatory: ['http://www.purl.org/ogit/status', 'http://www.purl.org/ogit/description',
+        'http://www.purl.org/ogit/severity']

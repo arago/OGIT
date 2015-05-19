@@ -1,20 +1,16 @@
 - Attribute:
     id: http://www.purl.org/ogit/addressLocality
     name: addressLocality
-    description: |
-      The locality. For example, Frankfurt am Main
-    valid-from: 2014-11-20
-    valid-until: 
+    description: The locality belonging to an address. For example, Frankfurt am Main
+    validation-type: ''
+    validation-parameter: ''
+    valid-from: '2015-05-19'
+    valid-until: ''
     creator: Peter Larem
-    deleter: 
-    created:  2014-11-20
-    modified: 2014-11-20
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    validation-type:
-    validation-parameter:
     history:
-      - id: 1
-        date: 2014-11-20
-        description: initial
-        modified-by: Peter Larem
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}

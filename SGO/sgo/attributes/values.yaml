@@ -1,19 +1,16 @@
 - Attribute:
     id: http://www.purl.org/ogit/values
     name: values
-    description: 'can be used to represent a list values. It will handled as a string. How to actually encode a list of value is left to the semantics of the entities using this attribute'
-    admin-contact: 'arago GmbH'
-    tech-contact: 'arago GmbH'
-    created: 2014-05-27
-    creator: FCO
-    deleter: ''
-    modified: 2014-05-27
-    valid-from: 2014-06-01
-    valid-until: 
-    validation-parameter: ''
+    description: Represents a list of values. How to actually encode a list of values is left to the semantics of the entities using this attribute.
     validation-type: ''
+    validation-parameter: ''
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
     history:
-      - id: 1
-        date: 2014-05-27
-        description: 'intitial version'
-        modified-by: FCO
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}

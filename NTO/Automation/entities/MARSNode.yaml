@@ -1,0 +1,24 @@
+- Entity:
+    id: http://www.purl.org/ogit/Automation/MARSNode
+    name: MARSNode
+    description: "IT Objects will be representated in MARS Modell with MARS nodes.\
+      \ \rThe MARS model builds upon four basic types of objects with a single type\
+      \ of relationship. Basically the objects \rwhich are in fact called _��_��nodes_�\
+      �_Ν represent both views - the business perspective and the technical view.\
+      \ \rThe technical components are modeled in the machine and software layers\
+      \ while the application and resource layers \rdescribe the business view of\
+      \ the IT environment."
+    scope: NTO
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    parent: http://www.purl.org/ogit/Node
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    attributes:
+      mandatory: ['http://www.purl.org/ogit/Automation/marsNodeType', 'http://www.purl.org/ogit/name']

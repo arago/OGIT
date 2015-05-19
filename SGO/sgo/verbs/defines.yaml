@@ -1,39 +1,19 @@
 - Verb:
     id: http://www.purl.org/ogit/defines
     name: defines
-    description: |
-      general relationship indicating that some entitiy defines some other. Similar to basedOn but in the other direction
+    description: General relationship indicating that some entitiy defines some other.
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    created: 2014-09-05
-    creator: FCO
-    deleter: 
-    modified: 2014-09-05
-    valid-from: 2014-09-15
-    valid-until: 
-    allowed:
-      - from: http://www.purl.org/ogit/Contract
-        to: http://www.purl.org/ogit/Penalty
-      - from: http://www.purl.org/ogit/Organization
-        to: http://www.purl.org/ogit/Role
-      - from: http://www.purl.org/ogit/Network/Fabric
-        to: http://www.purl.org/ogit/Network/Component
-      - from: http://www.purl.org/ogit/Network/Enclosure
-        to: http://www.purl.org/ogit/Network/Component
-      - from: http://www.purl.org/ogit/Network/SimpleDevice
-        to: http://www.purl.org/ogit/Network/Component
-      - from: http://www.purl.org/ogit/DCIM/Server
-        to: http://www.purl.org/ogit/DCIM/Device
-      - from: http://www.purl.org/ogit/DCIM/Storage
-        to: http://www.purl.org/ogit/DCIM/Device        
-      - from: http://www.purl.org/ogit/DCIM/UPS
-        to: http://www.purl.org/ogit/DCIM/Device        
     history:
-      - id: 1
-        date: 2014-09-05
-        description: 'intitial version'
-        modified-by: FCO
-      - id: 2
-        date: 2014-09-11
-        description: 'Added Network and DCIM Section'
-        modified-by: RJ
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    allowed:
+    - {from: 'http://www.purl.org/ogit/Automation/MAID', to: 'http://www.purl.org/ogit/Timeseries'}
+    - {from: 'http://www.purl.org/ogit/Contract', to: 'http://www.purl.org/ogit/Penalty'}
+    - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
+    - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/Role'}

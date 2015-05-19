@@ -1,23 +1,16 @@
 - Verb:
     id: http://www.purl.org/ogit/governs
     name: governs
-    description: |
-      verb showing which policy is enforced for which service
+    description: Verb showing if an entity governs/enforces another one.
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    created: 2014-09-05
-    creator: Peter Larem
-    deleter: 
-    modified: 2014-09-05
-    valid-from: 2014-09-15
-    valid-until: 
-    allowed:
-      - from: http://www.purl.org/ogit/Policy
-        to: http://www.purl.org/ogit/ITService/Service
-
     history:
-      - id: 1
-        date: 2014-09-05
-        description: 'intitial version'
-        modified-by: Peter Larem
-  
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    allowed:
+    - {from: 'http://www.purl.org/ogit/Policy', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}

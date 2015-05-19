@@ -1,24 +1,16 @@
 - Attribute:
     id: http://www.purl.org/ogit/unit
     name: unit
-    description: |
-      defines a unit of measure according to http://unitsofmeasure.org/ucum.html
-      we encourage to use the curly braces syntax to specify unit annotations, 
-      especially when dealing with non-units (like counters)
-      if the values are non-numeric, which is not covered by the referenced
-      stanard, we suggest to use the annotation {STRING}
-    valid-from: 2014-06-27 00:00:00
-    valid-until: 
-    creator: FCO
-    deleter: 
-    created:  2014-06-27
-    modified: 2014-06-27
+    description: Unit of measurement of some value.
+    validation-type: ''
+    validation-parameter: ''
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    validation-type:
-    validation-parameter:
     history:
-      - id: 1
-        date: 2014-06-27
-        description: initial
-        modified-by: FCO
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
