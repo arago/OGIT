@@ -15,7 +15,6 @@
     allowed:
     - {from: 'http://www.purl.org/ogit/Automation/Issue', to: 'http://www.purl.org/ogit/Automation/History'}
     - {from: 'http://www.purl.org/ogit/Automation/Issue', to: 'http://www.purl.org/ogit/Timeseries'}
-    - {from: 'http://www.purl.org/arago/AutoPilotIssueData', to: 'http://www.purl.org/ogit/Timeseries'}
     - {from: 'http://www.purl.org/ogit/Question', to: 'http://www.purl.org/ogit/Timeseries'}
     - {from: 'http://www.purl.org/ogit/Automation/History', to: 'http://www.purl.org/ogit/Timeseries'}
     - {from: 'http://www.purl.org/ogit/Automation/KnowledgeItem', to: 'http://www.purl.org/ogit/Timeseries'}
