@@ -17,7 +17,7 @@
     - {from: 'http://www.purl.org/ogit/Datacenter/Datacenter', to: 'http://www.purl.org/ogit/Location'}
     - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/Location'}
     - {from: 'http://www.purl.org/ogit/Location', to: 'http://www.purl.org/ogit/Region'}
-    - {from: 'http://www.purl.org/ogit/gr/Vcard', to: 'http://www.purl.org/ogit/Location'}
+    - {from: 'http://www.purl.org/ogit/Vcard', to: 'http://www.purl.org/ogit/Location'}
     - {from: 'http://www.purl.org/ogit/ServiceManagement/Offering', to: 'http://www.purl.org/ogit/Location'}
     - {from: 'http://www.purl.org/ogit/Asset', to: 'http://www.purl.org/ogit/Location'}
     - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/Location'}
