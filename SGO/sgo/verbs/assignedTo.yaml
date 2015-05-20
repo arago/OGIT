@@ -4,9 +4,9 @@
     description: |
       Verb expressing which entity could be assigned to which another entity.
     valid-from: 2015-05-21
-    valid-until: 
+    valid-until:
     creator: Peter Larem
-    deleter: 
+    deleter:
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
@@ -107,8 +107,23 @@
         to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
       - from: http://www.purl.org/ogit/Role
         to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: 'http://www.purl.org/ogit/Forum/Tag'
+        to: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'
+      - from: 'http://www.purl.org/ogit/Forum/Tag'
+        to: 'http://www.purl.org/ogit/Forum/Post'
+      - from: 'http://www.purl.org/ogit/Forum/Tag'
+        to: 'http://www.purl.org/ogit/Automation/KnowledgeItem'
+
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-20
+        description: |
+          - Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeBundle`
+          - Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/Post`
+          - Added Connection for `ogit/Forum/Tag` -> `ogit/Automation/KnowledgeItem`
+
+        modified-by: cwalker@arago.de

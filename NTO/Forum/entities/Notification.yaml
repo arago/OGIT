@@ -1,0 +1,25 @@
+- Entity:
+    id:   "http://www.purl.org/ogit/Forum/Notification"
+    name: "Notification"
+    description: |
+        A marker that something of interest has happened. The entity is likely used to track the
+        generation of the notification and whether the intended recipient has seen it, rather than
+        containing the content directly.
+
+    valid-from: "2015-04-27"
+    valid-until:
+    creator: "cwalker@arago.de"
+    deleter:
+    created:  "2015-04-27"
+    modified: "2015-04-27"
+    admin-contact: "arago GmbH"
+    tech-contact: "arago GmbH"
+    scope: "NTO"
+    parent: "http://www.purl.org/ogit/Node"
+    history:
+      - id: 1
+        date: "2015-04-27"
+        description: "Initial Creation"
+        modified-by: "cwalker@arago.de"
+
+    attributes: {}
