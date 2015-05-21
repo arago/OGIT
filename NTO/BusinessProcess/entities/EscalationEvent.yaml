@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/BusinessProcess/EscalationEvent
     name: EscalationEvent
     description: |
-      Entity to store an escalation event in BPMN 2.0. Mainly, it shows communication between parent and sub-processes. We discuss it in here TODO with the help of an example.
+      Entity to store an escalation event in BPMN 2.0. Mainly, it shows communication between parent and sub-processes. 
+      We discuss it in here TODO with the help of an example.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
