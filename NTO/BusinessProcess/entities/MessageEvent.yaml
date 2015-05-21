@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/BusinessProcess/MessageEvent
     name: MessageEvent
     description: |
-      Entity to store an instantiated message event. Sooner or later, most processes require communication, which can be represented in BPMN by means of the message event. In terms of BPMN2 modelling it can bel recognized as a small envelope. The meaning of "message" in BPMN is not restricted to letters, e-mails, or calls. Any action that refers to a specific addressee and represents or contains information for the addressee is a message.
+      Entity to store an instantiated message event. Sooner or later, most processes require communication, which can be represented in BPMN by means of the message event. 
+      In terms of BPMN2 modelling it can bel recognized as a small envelope. The meaning of "message" in BPMN is not restricted to letters, e-mails, or calls. 
+      Any action that refers to a specific addressee and represents or contains information for the addressee is a message.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
