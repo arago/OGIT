@@ -1,18 +1,24 @@
 - Entity:
     id: http://www.purl.org/ogit/BusinessProcess/SendTask
     name: SendTask
-    description: The Send Tasks from BPMN2 are technical, and the process engine executes them. Therefore, they mainly are used for calling web services asynchronously through message queues.
-    scope: NTO
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      The Send Tasks from BPMN2 are technical, and the process engine executes them. Therefore, they mainly are used for calling web services asynchronously through message queues.
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
+    scope: NTO
     parent: http://www.purl.org/ogit/Node
-    history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
     attributes:
-      mandatory: ['http://www.purl.org/ogit/name', 'http://www.purl.org/ogit/description']
+      optional:
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

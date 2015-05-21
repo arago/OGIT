@@ -1,24 +1,38 @@
 - Entity:
     id: http://www.purl.org/ogit/ServiceManagement/Order
     name: Order
-    description: Defines an order.
-    scope: NTO
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      Defines an order.
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
+    scope: NTO
     parent: http://www.purl.org/ogit/Node
-    history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
     attributes:
-      mandatory: ['http://www.purl.org/ogit/description', 'http://www.purl.org/ogit/ServiceManagement/subStatus',
-        'http://www.purl.org/ogit/impact', 'http://www.purl.org/ogit/urgency', 'http://www.purl.org/ogit/priority',
-        'http://www.purl.org/ogit/createdAt', 'http://www.purl.org/ogit/openedAt',
-        'http://www.purl.org/ogit/closedAt', 'http://www.purl.org/ogit/lastUpdatedAt',
-        'http://www.purl.org/ogit/ServiceManagement/externalTicketSource', 'http://www.purl.org/ogit/ServiceManagement/externalTicketId',
-        'http://www.purl.org/ogit/ServiceManagement/reportedSource', 'http://www.purl.org/ogit/project',
-        'http://www.purl.org/ogit/summary']
+      mandatory:
+        - http://www.purl.org/ogit/id
+      optional:
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/ServiceManagement/subStatus
+        - http://www.purl.org/ogit/impact
+        - http://www.purl.org/ogit/urgency
+        - http://www.purl.org/ogit/priority
+        - http://www.purl.org/ogit/createdAt
+        - http://www.purl.org/ogit/openedAt
+        - http://www.purl.org/ogit/closedAt
+        - http://www.purl.org/ogit/lastUpdatedAt
+        - http://www.purl.org/ogit/ServiceManagement/externalTicketSource
+        - http://www.purl.org/ogit/ServiceManagement/externalTicketId
+        - http://www.purl.org/ogit/ServiceManagement/reportedSource
+        - http://www.purl.org/ogit/project
+        - http://www.purl.org/ogit/summary
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

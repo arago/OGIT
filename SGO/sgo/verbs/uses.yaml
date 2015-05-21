@@ -1,188 +1,366 @@
 - Verb:
     id: http://www.purl.org/ogit/uses
     name: uses
-    description: This relationship indicates that some entity is used by some other.
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      This relationship indicates that some entity is used by some other.
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    cardinality:
     allowed:
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/Contract'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/ServiceManagement/Report'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/Asset'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/License'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/ServiceManagement/Ticket'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/Price/Invoice'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/CancelEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/CancelEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/CompensationEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/CompensationEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ConditionalEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ConditionalEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/DataObject', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/DataStore', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/DataStore', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ErrorEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ErrorEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/EscalationEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/EscalationEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/EventBasedGateway', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/EventBasedGateway', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ExclusiveGateway', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ExclusiveGateway', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InclusiveGateway', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InclusiveGateway', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/Contract'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Report'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/Asset'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/License'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Ticket'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/Price/Invoice'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/LinkEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/LinkEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/Contract'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/ServiceManagement/Report'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/Asset'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/License'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/ServiceManagement/Ticket'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/Price/Invoice'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ManualTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/MessageEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/MessageEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/MultipleEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/MultipleEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/NoneEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/NoneEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ParallelGateway', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ParallelGateway', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ProcessLane', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ProcessLane', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ProcessPool', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ProcessPool', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/Contract'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Report'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/Asset'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/License'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/ServiceManagement/Ticket'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/Price/Invoice'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ReceiveTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/Contract'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/ServiceManagement/Report'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/Asset'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/License'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/ServiceManagement/Ticket'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/Price/Invoice'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ScriptTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/Contract'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/ServiceManagement/Report'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/Asset'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/License'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/ServiceManagement/Ticket'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/Price/Invoice'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SendTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/Contract'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/ServiceManagement/Report'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/Asset'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/License'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/ServiceManagement/Ticket'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/Price/Invoice'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/ServiceTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SignalEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/SignalEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/TerminationEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/TerminationEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/TimerEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/TimerEvent', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/Contract'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/ServiceManagement/Report'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/Asset'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/License'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/ServiceManagement/Ticket'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/Price/Invoice'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UndefinedTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataStore'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/BusinessProcess/DataObject'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/Contract'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/ServiceManagement/Offering'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/ServiceManagement/Order'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/ServiceManagement/Report'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/ServiceManagement/SLA'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/Asset'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/License'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/ServiceManagement/Ticket'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/Price/Invoice'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/BusinessProcess/UserTask', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
-    - {from: 'http://www.purl.org/ogit/CustomApplicationData', to: 'http://www.purl.org/ogit/CustomApplicationData'}
-    - {from: 'http://www.purl.org/ogit/ServiceManagement/Report', to: 'http://www.purl.org/ogit/Timeseries'}
-    - {from: 'http://www.purl.org/ogit/ServiceManagement/ChangeRequest', to: 'http://www.purl.org/ogit/ServiceManagement/ChangeRequest'}
-    - {from: 'http://www.purl.org/ogit/OntologyEntity', to: 'http://www.purl.org/ogit/Schema'}
-    - {from: 'http://www.purl.org/ogit/Person', to: 'http://www.purl.org/ogit/Cost/Budget'}
-    - {from: 'http://www.purl.org/ogit/Person', to: 'http://www.purl.org/ogit/Software/Application'}
-    - {from: 'http://www.purl.org/ogit/Software/SoftwareComponent', to: 'http://www.purl.org/ogit/Automation/MARSNode'}
-    - {from: 'http://www.purl.org/ogit/Software/SoftwareConnection', to: 'http://www.purl.org/ogit/Software/SoftwareComponent'}
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/ServiceManagement/Report
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/Price/Invoice
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/BusinessProcess/CancelEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/CancelEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/CompensationEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/CompensationEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ConditionalEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ConditionalEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/DataObject
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/DataStore
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/DataStore
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ErrorEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ErrorEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/EscalationEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/EscalationEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/EventBasedGateway
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/EventBasedGateway
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ExclusiveGateway
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ExclusiveGateway
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/InclusiveGateway
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/InclusiveGateway
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Report
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/Price/Invoice
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/BusinessProcess/LinkEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/LinkEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/ServiceManagement/Report
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/Price/Invoice
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/BusinessProcess/MessageEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/MessageEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/MultipleEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/MultipleEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/NoneEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/NoneEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ParallelGateway
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ParallelGateway
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ProcessLane
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ProcessLane
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ProcessPool
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ProcessPool
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Report
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/Price/Invoice
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/ServiceManagement/Report
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/Price/Invoice
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/ServiceManagement/Report
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/Price/Invoice
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/ServiceManagement/Report
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/Price/Invoice
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/BusinessProcess/SignalEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/SignalEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/TerminationEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/TerminationEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/TimerEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/TimerEvent
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/ServiceManagement/Report
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/Price/Invoice
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataStore
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/DataObject
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/ServiceManagement/Report
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/Price/Invoice
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/CustomApplicationData
+        to: http://www.purl.org/ogit/CustomApplicationData
+      - from: http://www.purl.org/ogit/ServiceManagement/Report
+        to: http://www.purl.org/ogit/Timeseries
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/OntologyEntity
+        to: http://www.purl.org/ogit/Schema
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Cost/Budget
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/Software/SoftwareComponent
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/Software/SoftwareConnection
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

@@ -1,19 +1,27 @@
 - Entity:
     id: http://www.purl.org/ogit/Software/Application
     name: Application
-    description: Represents any type of software application
-    scope: NTO
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      Represents any type of software application
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
+    scope: NTO
     parent: http://www.purl.org/ogit/Node
-    history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
     attributes:
-      mandatory: ['http://www.purl.org/ogit/url', 'http://www.purl.org/ogit/description',
-        'http://www.purl.org/ogit/version']
+      mandatory:
+        - http://www.purl.org/ogit/name
+      optional:
+        - http://www.purl.org/ogit/url
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/version
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

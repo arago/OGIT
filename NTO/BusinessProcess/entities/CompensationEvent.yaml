@@ -1,22 +1,24 @@
 - Entity:
     id: http://www.purl.org/ogit/BusinessProcess/CompensationEvent
     name: CompensationEvent
-    description: "Entity to store a compensation event. We execute tasks in our processes\
-      \ that sometimes have to be canceled later under certain circumstances.\\n\r\
-      Typical examples are:\\n\rBooking a train or airline ticket\\n\rReserving a\
-      \ rental car\\n\rCharging a credit card\\n\rCommissioning a service provider\\\
-      n"
-    scope: NTO
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      Entity to store a compensation event. We execute tasks in our processes that sometimes have to be canceled later under certain circumstances.\nTypical examples are:\nBooking a train or airline ticket\nReserving a rental car\nCharging a credit card\nCommissioning a service provider\n
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
+    scope: NTO
     parent: http://www.purl.org/ogit/Node
-    history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
     attributes:
-      mandatory: ['http://www.purl.org/ogit/name', 'http://www.purl.org/ogit/description']
+      optional:
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

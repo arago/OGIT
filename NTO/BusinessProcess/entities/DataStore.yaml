@@ -1,17 +1,20 @@
 - Entity:
     id: http://www.purl.org/ogit/BusinessProcess/DataStore
     name: DataStore
-    description: A DataStore is a place where the process can read or write data, e.g., a database or filing cabinet. It persists beyond the lifetime of the process instance.
-    scope: NTO
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      A DataStore is a place where the process can read or write data, e.g., a database or filing cabinet. It persists beyond the lifetime of the process instance.
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
+    scope: NTO
     parent: http://www.purl.org/ogit/Node
     history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
-    attributes: {}
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

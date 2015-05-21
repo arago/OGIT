@@ -1,16 +1,22 @@
 - Verb:
     id: http://www.purl.org/ogit/triggers
     name: triggers
-    description: This relationship indicates that one entity triggers some other.
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      This relationship indicates that one entity triggers some other.
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    cardinality:
     allowed:
-    - {from: 'http://www.purl.org/ogit/ServiceManagement/SLA', to: 'http://www.purl.org/ogit/Penalty'}
+      - from: http://www.purl.org/ogit/ServiceManagement/SLA
+        to: http://www.purl.org/ogit/Penalty
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

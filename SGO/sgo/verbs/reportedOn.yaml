@@ -1,24 +1,30 @@
 - Verb:
     id: http://www.purl.org/ogit/reportedOn
     name: reportedOn
-    description: "Indicates where a failure situation was initially observed. In case\
-      \ an incident record is created from an event management system this relationship\
-      \ points to the entitiy that represents the monitored device/endpoint.\rWe call\
-      \ it \"reportedOn\" instead of \"observedOn\" to account for the close relation\
-      \ to \"reportedAt\", \"reportedBy\""
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      Indicates where a failure situation was initially observed. In case an incident record is created from an event management system this relationship points to the entitiy that represents the monitored device/endpoint.We call it "reportedOn" instead of "observedOn" to account for the close relation to "reportedAt", "reportedBy"
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    cardinality:
     allowed:
-    - {from: 'http://www.purl.org/ogit/ServiceManagement/Order', to: 'http://www.purl.org/ogit/Automation/MARSNode'}
-    - {from: 'http://www.purl.org/ogit/ServiceManagement/ChangeRequest', to: 'http://www.purl.org/ogit/Automation/MARSNode'}
-    - {from: 'http://www.purl.org/ogit/ServiceManagement/Incident', to: 'http://www.purl.org/ogit/Automation/MARSNode'}
-    - {from: 'http://www.purl.org/ogit/ServiceManagement/Problem', to: 'http://www.purl.org/ogit/Automation/MARSNode'}
-    - {from: 'http://www.purl.org/ogit/ServiceManagement/Ticket', to: 'http://www.purl.org/ogit/Automation/MARSNode'}
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/Ticket
+        to: http://www.purl.org/ogit/Automation/MARSNode
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

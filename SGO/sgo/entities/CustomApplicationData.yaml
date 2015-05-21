@@ -1,17 +1,20 @@
 - Entity:
     id: http://www.purl.org/ogit/CustomApplicationData
     name: CustomApplicationData
-    description: Entity to store custom application data, a storage place not connected to any other entity and therefore isolated from the global ontology. The storage of data through this entity is discouraged due to low performance.
-    scope: NTO
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      Entity to store custom application data, a storage place not connected to any other entity and therefore isolated from the global ontology. The storage of data through this entity is discouraged due to low performance.
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
+    scope: SGO
     parent: http://www.purl.org/ogit/Node
     history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
-    attributes: {}
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

@@ -1,26 +1,42 @@
 - Verb:
     id: http://www.purl.org/ogit/extends
     name: extends
-    description: Indicates if one entity extends another one
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      Indicates if one entity extends another one
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    cardinality:
     allowed:
-    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/IDSIPS'}
-    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/Loadbalancer'}
-    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/Router'}
-    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/Switch'}
-    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/WifiAccessPoint'}
-    - {from: 'http://www.purl.org/ogit/Network/NetworkCard', to: 'http://www.purl.org/ogit/Network/Slot'}
-    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/IDSIPS'}
-    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/Loadbalancer'}
-    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/Router'}
-    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/Switch'}
-    - {from: 'http://www.purl.org/ogit/Network/SimpleDevice', to: 'http://www.purl.org/ogit/Network/WifiAccessPoint'}
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/IDSIPS
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/Loadbalancer
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/Router
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/Switch
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/WifiAccessPoint
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/Slot
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/IDSIPS
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Loadbalancer
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Router
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Switch
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/WifiAccessPoint
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

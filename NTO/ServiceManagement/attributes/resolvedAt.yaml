@@ -1,19 +1,20 @@
 - Attribute:
     id: http://www.purl.org/ogit/ServiceManagement/resolvedAt
     name: resolvedAt
-    description: "Datetime indicating when a ticket was resolved. Can be used for\
-      \ incident or problem tickets when it is necessary to distinguish between the\
-      \ ticket resolving and ticket closure (closedAt).\rThe values must be combined\
-      \ date and time with time zone designator according to ISO 8601"
-    validation-type: ''
-    validation-parameter: ''
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      Datetime indicating when a ticket was resolved. Can be used for incident or problem tickets when it is necessary to distinguish between the ticket resolving and ticket closure (closedAt).The values must be combined date and time with time zone designator according to ISO 8601
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
     history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

@@ -1,29 +1,27 @@
 - Entity:
     id: http://www.purl.org/ogit/Automation/Issue
     name: Issue
-    description: "Dynamic information exists within an automation engine in the form\
-      \ of Issues otherwise referred to as \rTask or Situational Data. From the technical\
-      \ perspective an Issue is a number of attributes (Key/Value tuples) with \r\
-      unique names. From the logical point of view Issues contain information about\
-      \ the change of states on a system. \rIssues can be injected into an automation\
-      \ engine from external systems e.g. Monitoring or result from the execution\
-      \ of a Knowledge Item. \rBy comparing an Issue with the Issue Condition of a\
-      \ Knowledge Item an automation engine decides which Knowledge Items are are\
-      \ processed \rin which order. If multiple Knowledge Items can be applied to\
-      \ an Issue the KI with the more precisely defined \rIssueCondition is processed\
-      \ first."
-    scope: NTO
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      Dynamic information exists within an automation engine in the form of Issues otherwise referred to as Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with unique names. From the logical point of view Issues contain information about the change of states on a system. Issues can be injected into an automation engine from external systems e.g. Monitoring or result from the execution of a Knowledge Item. By comparing an Issue with the Issue Condition of a Knowledge Item an automation engine decides which Knowledge Items are are processed in which order. If multiple Knowledge Items can be applied to an Issue the KI with the more precisely defined IssueCondition is processed first.
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
+    scope: NTO
     parent: http://www.purl.org/ogit/Node
-    history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
     attributes:
-      mandatory: ['http://www.purl.org/ogit/status', 'http://www.purl.org/ogit/subject',
-        'http://www.purl.org/ogit/Automation/processingTimestamp']
+      mandatory:
+        - http://www.purl.org/ogit/Automation/issueFormalRepresentation
+      optional:
+        - http://www.purl.org/ogit/status
+        - http://www.purl.org/ogit/subject
+        - http://www.purl.org/ogit/Automation/processingTimestamp
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

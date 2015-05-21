@@ -1,20 +1,20 @@
 - Entity:
     id: http://www.purl.org/ogit/Cost/CostDistribution
     name: CostDistribution
-    description: 'Auxiliary structure to express the influence of CostElements on
-      one another. For more detailed explanation please check definition of the entity
-      ogit/CostModel/CostElement and for a general overview: see the NTO description
-      on github.'
-    scope: NTO
-    valid-from: '2015-05-19'
-    valid-until: ''
+    description: |
+      Auxiliary structure to express the influence of CostElements on one another. For more detailed explanation please check definition of the entity ogit/CostModel/CostElement and for a general overview: see the NTO description on github.
+    valid-from: 2015-05-21
+    valid-until: 
     creator: Peter Larem
-    deleter: ''
-    created: '2015-05-19'
-    modified: '2015-05-19'
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
+    scope: NTO
     parent: http://www.purl.org/ogit/Node
     history:
-    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
-    attributes: {}
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem

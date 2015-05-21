@@ -1,0 +1,32 @@
+- Entity:
+    id: http://www.purl.org/ogit/Node
+    name: Node
+    description: |
+      The root node of ever other node. Used to define all the ground attributes of every node for documentation purposes as well as connection to Timeseries
+    valid-from: 2015-05-21
+    valid-until: 
+    creator: Peter Larem
+    deleter: 
+    created: 2015-05-21
+    modified: 2015-05-21
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    scope: SGO
+    parent: http://www.purl.org/ogit/Node
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/_id
+        - http://www.purl.org/ogit/_type
+        - http://www.purl.org/ogit/_owner
+        - http://www.purl.org/ogit/_modified-on
+        - http://www.purl.org/ogit/_modified-by
+        - http://www.purl.org/ogit/_graphtype
+        - http://www.purl.org/ogit/_is-deleted
+        - http://www.purl.org/ogit/_deleted-on
+        - http://www.purl.org/ogit/_creator
+        - http://www.purl.org/ogit/_created-on
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
