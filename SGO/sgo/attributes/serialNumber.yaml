@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/serialNumber
     name: serialNumber
     description: |
-      A string representing a any kind of serial number.see http://purl.org/goodrelations/v1#serialNumber
+      A string representing a any kind of serial number. see http://purl.org/goodrelations/v1#serialNumber
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
