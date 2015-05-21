@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/ServiceManagement/scheduledStartAt
     name: scheduledStartAt
     description: |
-      Defines a point in time when the work on a change is planned/scheduled to start. This date time is usually defined during change planning and/or approval. This datetime is set by change coordinater (e.g it  is planned to be done at 7:30PM)The values must be combined date and time with time zone designator according to ISO 8601.
+      Defines a point in time when the work on a change is planned/scheduled to start. This date time is usually defined during change planning and/or approval. This datetime is set by change coordinater (e.g it  is planned to be done at 7:30PM)
+      The values must be combined date and time with time zone designator according to ISO 8601.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
