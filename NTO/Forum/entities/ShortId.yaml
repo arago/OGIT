@@ -2,11 +2,14 @@
     id:   "http://www.purl.org/ogit/Forum/ShortId"
     name: "ShortId"
     description: |
-        A Reference to another Entity, used to track access via a specific channel.
+        A Reference to another Entity, used to track access via a specific channel/referrer.
         For example in TabTab, a Post has many shortIds which relate to different sharing
         methods, e.g. one for Twitter, one for Yammer, one for Email, etc... We use them
         as 'short urls' in the App and redirect the user to the correct content after tracking
-        the access by the channel (`ogit/function`) attribute.
+        the access by the channel (`ogit/function`) attribute. The `ogit/function` attribute
+        is used for this as the function of this shortId is to track a specific channel of
+        inbound traffic. The ShortId can be used without this channel/referrer data, albeit
+        to more limited use.
         The `ogit/id` attribute in this instance would be a short URL safe string.
 
     valid-from: "2015-04-23"
@@ -28,5 +31,6 @@
     attributes:
       mandatory:
         - "http://www.purl.org/ogit/id"
+      optional:
         - "http://www.purl.org/ogit/function"
 
