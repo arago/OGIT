@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/Automation/MARSNodeTemplate
     name: MARSNodeTemplate
     description: |
-      Entity similar to MARSNode but used to create ogit/Automation/MARSTemplate's, which are used to define a vendor implementation template of an ordered service offering and to enable definition of cost elements (ogit/Cost/CostElement) attached to it. Automation/MarsNode can not be reused for template reasons.
+      Entity similar to MARSNode but used to create ogit/Automation/MARSTemplate's, which are used to define a vendor implementation template of an ordered 
+      service offering and to enable definition of cost elements (ogit/Cost/CostElement) attached to it. Automation/MarsNode can not be reused for template reasons.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
