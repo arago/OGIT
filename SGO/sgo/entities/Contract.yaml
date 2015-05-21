@@ -18,7 +18,7 @@
         - http://www.purl.org/ogit/name
       optional:
         - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/contractType
+        - http://www.purl.org/ogit/type
         - http://www.purl.org/ogit/validFrom
         - http://www.purl.org/ogit/expirationDate
         - http://www.purl.org/ogit/status
