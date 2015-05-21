@@ -2,7 +2,11 @@
     id: http://www.purl.org/ogit/BusinessProcess/SignalEvent
     name: SignalEvent
     description: |
-      Signals are similar to messages, which is why you can model them in BPMN as events just as you can with messages. The symbol for a signal is a triangle. The essential difference between a signal and a message is that that latter is always addressed to a specific recipient. (An e-mail contains the e-mail address of the recipient, a call starts with dialing the telephone number, and so on.) In contrast, a signal is more like a newspaper advertisement or a television commercial. It is relatively undirected. Anyone who receives the signal and wants to react may do so.
+      Signals are similar to messages, which is why you can model them in BPMN as events just as you can with messages. 
+      The symbol for a signal is a triangle. The essential difference between a signal and a message is that that latter 
+      is always addressed to a specific recipient. (An e-mail contains the e-mail address of the recipient, a call starts 
+      with dialing the telephone number, and so on.) In contrast, a signal is more like a newspaper advertisement or a television 
+      commercial. It is relatively undirected. Anyone who receives the signal and wants to react may do so.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
