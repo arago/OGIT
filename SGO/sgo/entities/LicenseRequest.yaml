@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/LicenseRequest
     name: LicenseRequest
     description: |
-      This allows clients to place a request for a license.Usually some license admin personnel will use the information from such a request to create the actual license.A request might contain a valid LicenseToken to indicate that this request is pre-approved.
+      This allows clients to place a request for a license.
+      Usually some license admin personnel will use the information from such a request to create the actual license.
+      A request might contain a valid LicenseToken to indicate that this request is pre-approved.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
