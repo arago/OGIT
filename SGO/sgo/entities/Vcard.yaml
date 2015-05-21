@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/Vcard
     name: Vcard
     description: |
-      vCard is a specification developed by the IETF for the description of people and organisations. Recently, vCard has been significantly updated to Version 4 as documented in [RFC6350]. Typically, vCard objects are encoded in its own defined text-based syntax or XML renderings.
+      vCard is a specification developed by the IETF for the description of people and organisations. Recently, vCard has been 
+      significantly updated to Version 4 as documented in [RFC6350]. Typically, vCard objects are encoded in its own defined 
+      text-based syntax or XML renderings.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
