@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/contains
     name: contains
     description: |
-      This relationship indicates that something is part of something else.see also "includes"
+      This relationship indicates that something is part of something else. see also "includes"
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
