@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/Price/timeUnitSeconds
     name: timeUnitSeconds
     description: |
-      Time unit (in seconds) that price applies to. A time unit of 0 for a quantity means a one-time fee is charged. A time unit of 0 for an activity means the price is charged for every instance of the activity. All pricing elements of an attribute pricing must have the same time unit. The time unit is irrelevant for factor pricing elements.
+      Time unit (in seconds) that price applies to. A time unit of 0 for a quantity means a one-time fee is charged. A time 
+      unit of 0 for an activity means the price is charged for every instance of the activity. All pricing elements of an 
+      attribute pricing must have the same time unit. The time unit is irrelevant for factor pricing elements.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
