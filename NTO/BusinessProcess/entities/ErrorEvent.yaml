@@ -2,7 +2,13 @@
     id: http://www.purl.org/ogit/BusinessProcess/ErrorEvent
     name: ErrorEvent
     description: |
-      Entitiy to store potential process errors as a step toward eliminating them, or as part of modeling escalation processes. In BPMN, error events are represented by a flash symbol.The BPMN specification does not specify what an error may be, the modeler has to decide that.An error is a serious event in BPMN, so if catching, it can be modeled only as an attached intermediate event. This means that an error during task execution must be handled in a specific way: As a throwing event, it can be modeled only at the end of a process path so that the participant knows the process has failed. The parent process should likewise recognize the failure.
+      Entitiy to store potential process errors as a step toward 
+      eliminating them, or as part of modeling escalation processes. In BPMN, error events are represented by a flash symbol.
+      The BPMN specification does not specify what an error may be, the modeler has to decide that.
+      An error is a serious event in BPMN, so if catching, it can be modeled only as an attached intermediate event. 
+      This means that an error during task execution must be handled in a specific way: As a throwing event, it can be modeled 
+      only at the end of a process path so that the participant knows the process has failed. The parent process should likewise 
+      recognize the failure.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
