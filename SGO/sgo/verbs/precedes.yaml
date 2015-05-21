@@ -2,7 +2,11 @@
     id: http://www.purl.org/ogit/precedes
     name: precedes
     description: |
-      Describes the relation between a predecessor and a successor entity.This can be use in two ways:Either do define some temporal order of things.Or to define some dependency of actions to be done.The application managing such dependency graphs is responsible to prevent cyclic dependencies.
+      Describes the relation between a predecessor and a successor entity.
+      This can be use in two ways:
+      Either do define some temporal order of things.
+      Or to define some dependency of actions to be done.
+      The application managing such dependency graphs is responsible to prevent cyclic dependencies.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
