@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/openedAt
     name: openedAt
     description: |
-      Time when a ticket or task was created/opened.The values could combine date and time with time zone designator according to ISO 8601 for service management tickets.For most tickets there is no real difference between creation and opened time. In case such a distinction is relevant the "createdAt" attribute can be used.
+      Time when a ticket or task was created/opened.
+      The values could combine date and time with time zone designator according to ISO 8601 for service management tickets.
+      For most tickets there is no real difference between creation and opened time. In case such a distinction is relevant the "createdAt" attribute can be used.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
