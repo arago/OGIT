@@ -2,7 +2,7 @@
     id:   "http://www.purl.org/ogit/Forum/Profile"
     name: "Profile"
     description: |
-        A User's persona within a forum. Linked to an `ogit/Identity` but seperate, the Profile is
+        A User's persona within a forum. Linked to an `ogit/Identity` but separate, the Profile is
         the root node for most operations with a Forum.
 
     valid-from: "2015-04-27"
