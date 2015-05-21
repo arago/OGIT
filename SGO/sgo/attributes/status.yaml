@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/status
     name: status
     description: |
-      A status for an entity.At this level of specification no list of values is specified. However, applications using this attribute are expected to allow only a fixed list of values that seems usefual in the application's semantic context.
+      A status for an entity.
+      At this level of specification no list of values is specified. However, applications using this attribute are expected to allow only a fixed list of values that seems usefual in the application's semantic context.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
