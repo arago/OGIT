@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/function
     name: function
     description: |
-      Attibute used to specify a function that some entity does/provides.This is more specific then 'description'.  Should contain a short string.At this level of specification it is still a free from string.However, unlike 'description', it is expected to contain some list of fixed values.
+      Attibute used to specify a function that some entity does/provides.This is more specific then 'description'.  Should contain a short string.
+      At this level of specification it is still a free from string.
+      However, unlike 'description', it is expected to contain some list of fixed values.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
