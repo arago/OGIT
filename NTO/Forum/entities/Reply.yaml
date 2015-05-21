@@ -1,7 +1,7 @@
 - Entity:
     id:   "http://www.purl.org/ogit/Forum/Reply"
     name: "Reply"
-    description: "A repsonse to a some other entity"
+    description: "A response to a some other entity"
     valid-from: "2015-04-27"
     valid-until:
     creator: "cwalker@arago.de"
