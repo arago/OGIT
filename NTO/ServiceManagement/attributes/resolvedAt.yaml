@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/ServiceManagement/resolvedAt
     name: resolvedAt
     description: |
-      Datetime indicating when a ticket was resolved. Can be used for incident or problem tickets when it is necessary to distinguish between the ticket resolving and ticket closure (closedAt).The values must be combined date and time with time zone designator according to ISO 8601
+      Datetime indicating when a ticket was resolved. Can be used for incident or problem tickets when it is necessary to distinguish between the ticket resolving and ticket closure (closedAt).
+      The values must be combined date and time with time zone designator according to ISO 8601
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
