@@ -26,7 +26,7 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/BPMN2/functionality
+        - http://www.purl.org/ogit/BusinessProcess/gatewayFunctionality
       optional:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
