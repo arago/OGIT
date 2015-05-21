@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/ServiceManagement/eventNodeId
     name: eventNodeId
     description: |
-      Identifies the source of an event, i.e. identifies the monitoring endpoint which caused the event creation.This could be an artifical identifier or some "natural" ID like hostname or IP address.
+      Identifies the source of an event, i.e. identifies the monitoring endpoint which caused the event creation.
+      This could be an artifical identifier or some "natural" ID like hostname or IP address.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
