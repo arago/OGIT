@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/ServiceManagement/subStatus
     name: subStatus
     description: |
-      Unlike some other status fields this one allows arbitrary values. It can be used to define application specific status values, which are not allowed by  incidentStatus, changeStatus etc.It can also be used to define some other information complementary to the main statsu, e.g. to distinguish between 'Closed successfully' and 'Closed with problems'
+      Unlike some other status fields this one allows arbitrary values. It can be used to define application specific status values, which are not allowed by  incidentStatus, changeStatus etc.
+      It can also be used to define some other information complementary to the main statsu, e.g. to distinguish between 'Closed successfully' and 'Closed with problems'
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
