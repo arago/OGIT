@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/requests
     name: requests
     description: |
-      Indicates if one entity requests another, e.g. Person requests a ChangeRequest.This might be different from the person who created the ticket (ogit/ITSM/opendBy) in case the reporter is calling a service desk and the ticket will be opened by help desk staff.Sometimes also named as "caller". This Person or entity must be kept informed about relevant updates of the ticket.
+      Indicates if one entity requests another, e.g. Person requests a ChangeRequest.
+      This might be different from the person who created the ticket (ogit/ITSM/opendBy) in case the reporter is calling a service desk and the ticket will be opened by help desk staff.
+      Sometimes also named as "caller". This Person or entity must be kept informed about relevant updates of the ticket.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
