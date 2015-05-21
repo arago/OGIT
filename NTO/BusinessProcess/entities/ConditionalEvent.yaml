@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/BusinessProcess/ConditionalEvent
     name: ConditionalEvent
     description: |
-      Entity to store a condition event, which will determine wether a process should start or continue. Anything can be a condition, and conditions are independent of processes, which is why the condition (like the timer event) can only exist as a catching event. A process cannot therefore conditional event trigger a conditional event.
+      Entity to store a condition event, which will determine wether a process should start or continue. Anything can be a condition, and 
+      conditions are independent of processes, which is why the condition (like the timer event) can only exist as a catching 
+      event. A process cannot therefore conditional event trigger a conditional event.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
