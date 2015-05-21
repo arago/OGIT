@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/effort
     name: effort
     description: |
-      Defines how much time was spent on the actual work for a change, task, or similar entity.The values is expected to be in format HH:MM, e.g. 1:00 for 1 hour effort.
+      Defines how much time was spent on the actual work for a change, task, or similar entity.
+      The values is expected to be in format HH:MM, e.g. 1:00 for 1 hour effort.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
