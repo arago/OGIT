@@ -2,7 +2,9 @@
     id: http://www.purl.org/ogit/reportedAt
     name: reportedAt
     description: |
-      Defineds the time when something was actually reported.The values can combin date and time with time zone designator according to ISO 8601.Reported time is used in incident management in the following manner: in most cases the reported time equals the time when the incident is created. In some cases, e.g. the incident is created after the helpdesk has already worked on some request before it was decided to create an incident, the reported time might differ from ticket creation/opening time.
+      Defineds the time when something was actually reported.
+      The values can combin date and time with time zone designator according to ISO 8601.
+      Reported time is used in incident management in the following manner: in most cases the reported time equals the time when the incident is created. In some cases, e.g. the incident is created after the helpdesk has already worked on some request before it was decided to create an incident, the reported time might differ from ticket creation/opening time.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
