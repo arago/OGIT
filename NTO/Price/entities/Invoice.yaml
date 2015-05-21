@@ -16,8 +16,8 @@
     attributes:
       mandatory:
         - http://www.purl.org/ogit/name
-        - http://www.purl.org/ogit/Pricing/currency
-        - http://www.purl.org/ogit/Pricing/amount
+        - http://www.purl.org/ogit/currency
+        - http://www.purl.org/ogit/Price/priceAmount
       optional:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
