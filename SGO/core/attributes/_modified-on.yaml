@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/_modified-on
     name: _modified-on
-    description: [internally generated] A timestamp in ms when the node was modified.
+    description: |
+      [internally generated] A timestamp in ms when the node was modified.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem

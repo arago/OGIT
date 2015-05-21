@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/_owner
     name: _owner
-    description: [internally generated] The id of the identity who owns the node
+    description: |
+      [internally generated] The id of the identity who owns the node
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem

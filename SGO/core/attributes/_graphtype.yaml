@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/_graphtype
     name: _graphtype
-    description: [internally generated] A virtual property which helps differentiating between graph objects. Values are "edge" or "vertex".
+    description: |
+      [internally generated] A virtual property which helps differentiating between graph objects. Values are "edge" or "vertex".
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem

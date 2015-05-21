@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/_type
     name: _type
-    description: [internally generated] The id of the type of the entity.
+    description: |
+      [internally generated] The id of the type of the entity.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem

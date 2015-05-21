@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/_modified-by
     name: _modified-by
-    description: [internally generated] The id of the identity who did the modification
+    description: |
+      [internally generated] The id of the identity who did the modification
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem

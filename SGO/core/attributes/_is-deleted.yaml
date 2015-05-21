@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/_is-deleted
     name: _is-deleted
-    description: [internally generated] whether a node is deleted
+    description: |
+      [internally generated] whether a node is deleted
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem

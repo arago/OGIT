@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/_created-on
     name: _created-on
-    description: [internally generated] Timestamp in ms when the node was created
+    description: |
+      [internally generated] Timestamp in ms when the node was created
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem

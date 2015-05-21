@@ -1,7 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/_creator
     name: _creator
-    description: [internally generated] The id of the identity who created the node or edge
+    description: |
+      [internally generated] The id of the identity who created the node or edge
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
