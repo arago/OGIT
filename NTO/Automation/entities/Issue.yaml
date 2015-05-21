@@ -2,7 +2,13 @@
     id: http://www.purl.org/ogit/Automation/Issue
     name: Issue
     description: |
-      Dynamic information exists within an automation engine in the form of Issues otherwise referred to as Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with unique names. From the logical point of view Issues contain information about the change of states on a system. Issues can be injected into an automation engine from external systems e.g. Monitoring or result from the execution of a Knowledge Item. By comparing an Issue with the Issue Condition of a Knowledge Item an automation engine decides which Knowledge Items are are processed in which order. If multiple Knowledge Items can be applied to an Issue the KI with the more precisely defined IssueCondition is processed first.
+      Dynamic information exists within an automation engine in the form of Issues otherwise referred to as 
+      Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with 
+      unique names. From the logical point of view Issues contain information about the change of states on a system. 
+      Issues can be injected into an automation engine from external systems e.g. Monitoring or result from the execution of a Knowledge Item. 
+      By comparing an Issue with the Issue Condition of a Knowledge Item an automation engine decides which Knowledge Items are are processed 
+      in which order. If multiple Knowledge Items can be applied to an Issue the KI with the more precisely defined 
+      IssueCondition is processed first.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
