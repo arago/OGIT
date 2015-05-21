@@ -4,7 +4,7 @@
     description: |
         A Reference to another Entity, used to track access via a specific channel/referrer.
         For example in TabTab, a Post has many shortIds which relate to different sharing
-        methods, e.g. one for Twitter, one for Yammer, one for Email, etc... We use them
+        methods, e.g. one for Twitter, one for Yammer, one for Email, etc... TabTab uses them
         as 'short urls' in the App and redirect the user to the correct content after tracking
         the access by the channel (`ogit/function`) attribute. The `ogit/function` attribute
         is used for this as the function of this shortId is to track a specific channel of
