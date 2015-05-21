@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/ServiceManagement/solution
     name: solution
     description: |
-      Solution description, for example that is usually provided during incident resolving.This field is also use for problem tickets. There is defines the permanent solution desription for a problem.
+      Solution description, for example that is usually provided during incident resolving.
+      This field is also use for problem tickets. There is defines the permanent solution desription for a problem.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
