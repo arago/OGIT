@@ -15,7 +15,7 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/ServiceManagment/problemStatus
+        - http://www.purl.org/ogit/ServiceManagement/problemStatus
         - http://www.purl.org/ogit/id
       optional:
         - http://www.purl.org/ogit/reportedAt
