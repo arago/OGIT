@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/taskLog
     name: taskLog
     description: |
-      In cases where the log for a Task is maintained as a single string it will be stored in taskLog.In all other case consider using ogit/Timeseries.
+      In cases where the log for a Task is maintained as a single string it will be stored in taskLog.
+      In all other case consider using ogit/Timeseries.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
