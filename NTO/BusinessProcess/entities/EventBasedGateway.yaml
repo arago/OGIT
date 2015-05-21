@@ -2,7 +2,17 @@
     id: http://www.purl.org/ogit/BusinessProcess/EventBasedGateway
     name: EventBasedGateway
     description: |
-      The event-based Gateway allows you to make a decision based on events. Each outgoing sequence flow of the gateway needs to be connected to an intermediate catching event. When process execution reaches an event-based Gateway, the gateway acts like a wait state: execution is suspended. In addition, for each outgoing sequence flow, an event subscription is created.\nNote the sequence flows running out of an event-based Gateway are different than ordinary sequence flows. These sequence flows are never actually "executed". On the contrary, they allow the process engine to determine which events an execution arriving at an event-based Gateway needs to subscribe to. The following restrictions apply:\nAn event-based Gateway must have two or more outgoing sequence flows.\nAn event-based Gateway may only be connected to elements of the type intermediateCatchEvent. (Receive Tasks after an event-based Gateway are not supported by the engine yet.)\nAn intermediateCatchEvent connected to an event-based Gateway must have a single incoming sequence flow.
+      The event-based Gateway allows you to make a decision based on events. Each outgoing sequence flow of the gateway needs 
+      to be connected to an intermediate catching event. When process execution reaches an event-based Gateway, the gateway 
+      acts like a wait state: execution is suspended. In addition, for each outgoing sequence flow, an event subscription is 
+      created.\n
+      Note the sequence flows running out of an event-based Gateway are different than ordinary sequence flows. These sequence 
+      flows are never actually "executed". On the contrary, they allow the process engine to determine which events an execution 
+      arriving at an event-based Gateway needs to subscribe to. The following restrictions apply:\n
+      An event-based Gateway must have two or more outgoing sequence flows.\n
+      An event-based Gateway may only be connected to elements of the type intermediateCatchEvent. (Receive Tasks after an 
+      event-based Gateway are not supported by the engine yet.)\n
+      An intermediateCatchEvent connected to an event-based Gateway must have a single incoming sequence flow.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
