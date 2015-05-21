@@ -2,7 +2,11 @@
     id: http://www.purl.org/ogit/Organization
     name: Organization
     description: |
-      An identity that represents an organization, company, or some other grouping of Person objects.Entities of this type should be created with a predefined ID. Those IDs should be named like a domain name, i.e.a concatention of some strings separated with a dot. if organization data is created from a LDAP then a mapping like "cn=John Doe,dc=example,dc=com" => "john_doe.example.com" should be employed.The ogit/function attribute should be used to tell what kind of grouping an entity of type Organization is: company, department, group, ...
+      An identity that represents an organization, company, or some other grouping of Person objects.
+      Entities of this type should be created with a predefined ID. Those IDs should be named like a domain name, i.e.
+      a concatention of some strings separated with a dot. if organization data is created from a LDAP then a mapping 
+      like "cn=John Doe,dc=example,dc=com" => "john_doe.example.com" should be employed.
+The ogit/function attribute should be used to tell what kind of grouping an entity of type Organization is: company, department, group, ...
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
