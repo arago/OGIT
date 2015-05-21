@@ -2,7 +2,11 @@
     id: http://www.purl.org/ogit/Automation/MARSModel
     name: MARSModel
     description: |
-      a collection of MARSNodesallows to address all MARS nodes belonging together in a certain way at oncethe relationship from MARSModel to MARSNode is 'ogit/has'examples are: all MARS nodes describing the IT of one data center, or all MARS nodes associated with the same contract. In such cases you would connect the other entity (data center, contract) with the MARSModel node instead creating links to any MARSNode being part of that model
+      a collection of MARSNodes
+      allows to address all MARS nodes belonging together in a certain way at once
+      the relationship from MARSModel to MARSNode is 'ogit/has'
+      examples are: all MARS nodes describing the IT of one data center, or all MARS nodes associated with the same contract. 
+      In such cases you would connect the other entity (data center, contract) with the MARSModel node instead creating links to any MARSNode being part of that model
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
