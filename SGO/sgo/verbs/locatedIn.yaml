@@ -21,7 +21,7 @@
         to: http://www.purl.org/ogit/Location
       - from: http://www.purl.org/ogit/Location
         to: http://www.purl.org/ogit/Region
-      - from: http://www.purl.org/ogit/gr/Vcard
+      - from: http://www.purl.org/ogit/Vcard
         to: http://www.purl.org/ogit/Location
       - from: http://www.purl.org/ogit/ServiceManagement/Offering
         to: http://www.purl.org/ogit/Location
