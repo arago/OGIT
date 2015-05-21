@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Timeseries
     name: Timeseries
     description: |
-      A time series is a sequence of data points, measured typically at successive points in time spaced at uniform time intervals.
+      A time series is a sequence of data points, measured typically at successive points in time spaced at uniform time intervals.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
