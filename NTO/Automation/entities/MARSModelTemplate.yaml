@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/Automation/MARSModelTemplate
     name: MARSModelTemplate
     description: |
-      Represents a set of interconnected MARSNodes, which will be used to define a vendor implementation template of an ordered service offering.
+      Represents a set of interconnected MARSNodes, which will be used to define a vendor implementation template of an ordered 
+      service offering.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
