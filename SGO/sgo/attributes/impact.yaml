@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/impact
     name: impact
     description: |
-      Will contain the impact, for example of a ticket. In this case the actual semantics would depend on the ticket type, which could correspond to an Incident, Service Request, etc.
+      Will contain the impact, for example of a ticket. In this case the actual semantics would depend on the ticket type, 
+      which could correspond to an Incident, Service Request, etc.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
