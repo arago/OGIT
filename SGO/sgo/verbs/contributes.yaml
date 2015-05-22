@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/contributes
     name: contributes
     description: |
-      Verb associates which entity contributes to another, for example could be used to express a distribution for the percentage of a cost element, which contributes to another cost element.
+      Verb associates which entity contributes to another, for example could be used to express a distribution for the percentage 
+      of a cost element, which contributes to another cost element.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
