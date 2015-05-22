@@ -19,7 +19,7 @@
       optional:
         - http://www.purl.org/ogit/summary
         - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/ServiceManagement/subStatus
+        - http://www.purl.org/ogit/ServiceManagement/sourceStatus
         - http://www.purl.org/ogit/impact
         - http://www.purl.org/ogit/urgency
         - http://www.purl.org/ogit/priority
@@ -36,3 +36,7 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+    - id: 2
+      date: 2015-05-22
+      description: Attribute name changed from subStatus to sourceStatus
+        modified-by: Catarina Onofre
