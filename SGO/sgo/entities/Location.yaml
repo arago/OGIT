@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/Location
     name: Location
     description: |
-      A place where some some service is offered or requested. In many cases this will be related to a an address of an Organization. Similar to http://purl.org/goodrelations/v1#Location
+      A place where some some service is offered or requested. In many cases this will be related to a an address of an 
+      Organization. Similar to http://purl.org/goodrelations/v1#Location
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
