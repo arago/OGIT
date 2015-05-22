@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/Question
     name: Question
     description: |
-      This structure allows an automation engine to create data requests for existing Issues which should be filled by human user. Additionaly could be used to create new Issue from some form.
+      This structure allows an automation engine to create data requests for existing Issues which should be filled by human user. 
+      Additionaly could be used to create new Issue from some form.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
