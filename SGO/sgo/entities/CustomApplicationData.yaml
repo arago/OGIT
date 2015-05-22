@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/CustomApplicationData
     name: CustomApplicationData
     description: |
-      Entity to store custom application data, a storage place not connected to any other entity and therefore isolated from the global ontology. The storage of data through this entity is discouraged due to low performance.
+      Entity to store custom application data, a storage place not connected to any other entity and therefore isolated from 
+      the global ontology. The storage of data through this entity is discouraged due to low performance.
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
