@@ -2,8 +2,7 @@
     id: http://www.purl.org/ogit/expirationDate
     name: expirationDate
     description: |
-      Defines a point in time when something becomes invalid
-      the format is described at http://purl.org/goodrelations/v1#validThrough
+      Defines a point in time when something becomes invalid the format is described at http://purl.org/goodrelations/v1#validThrough
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
