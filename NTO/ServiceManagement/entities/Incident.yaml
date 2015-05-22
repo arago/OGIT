@@ -22,9 +22,14 @@
         - http://www.purl.org/ogit/ServiceManagement/resolutionCode
         - http://www.purl.org/ogit/reportedAt
         - http://www.purl.org/ogit/ServiceManagement/resolvedAt
-        - http://www.purl.org/ogit/ServiceManagement/subStatus
+        - http://www.purl.org/ogit/ServiceManagement/sourceStatus
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-22
+        description: change attribute subStatus to sourceStatus
+        modified-by: Peter Larem
+      
