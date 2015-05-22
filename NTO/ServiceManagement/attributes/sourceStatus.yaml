@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/ogit/ServiceManagement/sourceStatus
-    name: subStatus
+    name: sourceStatus
     description: |
       It can be used to define application specific status values, which are not allowed by a normalized status, e.g. incidentStatus, changeStatus etc.
     valid-from: 2015-05-21
@@ -18,9 +18,9 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
-    - id: 2
-      date: 2015-05-22
-      description: |
-        - Attribute name changed from subStatus to sourceStatus
-        - Description edited
+      - id: 2
+        date: 2015-05-22
+        description: |
+          - Attribute name changed from subStatus to sourceStatus
+          - Description edited
         modified-by: Catarina Onofre
