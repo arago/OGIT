@@ -19,7 +19,7 @@
       optional:
         - http://www.purl.org/ogit/summary
         - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/ServiceManagement/sourceStatus
+        - http://www.purl.org/ogit/project
         - http://www.purl.org/ogit/impact
         - http://www.purl.org/ogit/urgency
         - http://www.purl.org/ogit/priority
@@ -27,10 +27,11 @@
         - http://www.purl.org/ogit/openedAt
         - http://www.purl.org/ogit/closedAt
         - http://www.purl.org/ogit/lastUpdatedAt
+        - http://www.purl.org/ogit/ServiceManagement/sourceStatus
         - http://www.purl.org/ogit/ServiceManagement/externalTicketSource
         - http://www.purl.org/ogit/ServiceManagement/externalTicketId
         - http://www.purl.org/ogit/ServiceManagement/reportedSource
-        - http://www.purl.org/ogit/project
+        - http://www.purl.org/ogit/ServiceManagement/ticketId
     history:
       - id: 1
         date: 2015-05-21
@@ -40,3 +41,7 @@
         date: 2015-05-22
         description: Attribute name changed from subStatus to sourceStatus
         modified-by: Catarina Onofre
+      - id: 3
+        date: 2015-05-26
+        description: add new optional attribute ogit/ServiceManagement/ticketId
+        modified-by: Peter Larem
