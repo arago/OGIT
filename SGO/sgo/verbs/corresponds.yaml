@@ -34,15 +34,15 @@
       - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
         to: http://www.purl.org/ogit/ServiceManagement/Ticket
       - from: http://www.purl.org/ogit/ServiceManagement/Incident
-        to: http://www.purl.org/ogit/Automation/Issue
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
       - from: http://www.purl.org/ogit/ServiceManagement/Incident
         to: http://www.purl.org/ogit/ServiceManagement/Ticket
       - from: http://www.purl.org/ogit/ServiceManagement/Problem
-        to: http://www.purl.org/ogit/Automation/Issue
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
       - from: http://www.purl.org/ogit/ServiceManagement/Problem
         to: http://www.purl.org/ogit/ServiceManagement/Ticket
       - from: http://www.purl.org/ogit/ServiceManagement/Ticket
-        to: http://www.purl.org/ogit/Automation/Issue
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
       - from: http://www.purl.org/ogit/Network/NetworkCard
         to: http://www.purl.org/ogit/Asset
       - from: http://www.purl.org/ogit/Network/NetworkEnclosure
@@ -67,4 +67,8 @@
       - id: 1
         date: 2015-05-21
         description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-26
+        description: change Issue to AutomationIssue
         modified-by: Peter Larem
