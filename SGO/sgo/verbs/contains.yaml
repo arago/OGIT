@@ -16,7 +16,7 @@
       - from: http://www.purl.org/ogit/Automation/AutomationIssue
         to: http://www.purl.org/ogit/Automation/Item
       - from: http://www.purl.org/ogit/Automation/KnowledgeItem
-        to: http://www.purl.org/ogit/automation/Trigger
+        to: http://www.purl.org/ogit/Automation/Trigger
       - from: http://www.purl.org/ogit/Automation/MARSModel
         to: http://www.purl.org/ogit/Automation/MARSNode
       - from: http://www.purl.org/ogit/Automation/Item
@@ -25,7 +25,7 @@
         to: http://www.purl.org/ogit/Automation/KnowledgeItemAttribute
       - from: http://www.purl.org/ogit/TaskList
         to: http://www.purl.org/ogit/Task
-      - from: http://www.purl.org/ogit/automation/Trigger
+      - from: http://www.purl.org/ogit/Automation/Trigger
         to: http://www.purl.org/ogit/Automation/Item
       - from: http://www.purl.org/ogit/Cost/CostDistribution
         to: http://www.purl.org/ogit/Cost/CostElement
