@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ServiceManagement/ticketId
+    name: ticketId
+    description: |
+      ID of the ticket in the source system, e.g. the ID of the ticket in BMC.
+    valid-from: 2015-05-26
+    valid-until: 
+    creator: Peter Larem
+    deleter: 
+    created: 2015-05-26
+    modified: 2015-05-26
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2015-05-26
+        description: initial
+        modified-by: Peter Larem
