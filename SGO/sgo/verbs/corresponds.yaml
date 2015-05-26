@@ -30,7 +30,7 @@
       - from: http://www.purl.org/ogit/ServiceManagement/Service
         to: http://www.purl.org/ogit/CatalogItem
       - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-        to: http://www.purl.org/ogit/Automation/Issue
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
       - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
         to: http://www.purl.org/ogit/ServiceManagement/Ticket
       - from: http://www.purl.org/ogit/ServiceManagement/Incident
