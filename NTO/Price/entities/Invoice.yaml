@@ -15,7 +15,6 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/currency
         - http://www.purl.org/ogit/Price/priceAmount
       optional:
