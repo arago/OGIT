@@ -13,9 +13,9 @@
     tech-contact: arago GmbH
     cardinality:
     allowed:
-      - from: http://www.purl.org/ogit/Automation/Issue
+      - from: http://www.purl.org/ogit/Automation/AutomationIssue
         to: http://www.purl.org/ogit/Automation/History
-      - from: http://www.purl.org/ogit/Automation/Issue
+      - from: http://www.purl.org/ogit/Automation/AutomationIssue
         to: http://www.purl.org/ogit/Timeseries
       - from: http://www.purl.org/ogit/Question
         to: http://www.purl.org/ogit/Timeseries
@@ -49,4 +49,8 @@
       - id: 1
         date: 2015-05-21
         description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-26
+        description: change Issue to AutomationIssue
         modified-by: Peter Larem
