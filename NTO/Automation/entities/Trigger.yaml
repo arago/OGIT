@@ -1,5 +1,5 @@
 - Entity:
-    id: http://www.purl.org/ogit/automation/Trigger
+    id: http://www.purl.org/ogit/Automation/Trigger
     name: Trigger
     description: |
       Trigger of a KI having a set of Subitems.
@@ -16,6 +16,7 @@
     attributes:
       mandatory:
         - http://www.purl.org/ogit/description
+      optional:
     history:
       - id: 1
         date: 2015-05-21
