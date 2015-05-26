@@ -1,6 +1,6 @@
 - Entity:
-    id: http://www.purl.org/ogit/Automation/Issue
-    name: Issue
+    id: http://www.purl.org/ogit/Automation/AutomationIssue
+    name: AutomationIssue
     description: |
       Dynamic information exists within an automation engine in the form of Issues otherwise referred to as 
       Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with 
@@ -30,4 +30,8 @@
       - id: 1
         date: 2015-05-21
         description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-26
+        description: change entity name
         modified-by: Peter Larem
