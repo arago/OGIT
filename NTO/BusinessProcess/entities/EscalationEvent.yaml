@@ -15,6 +15,7 @@
     scope: NTO
     parent: http://www.purl.org/ogit/Node
     attributes:
+      mandatory:
       optional:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
