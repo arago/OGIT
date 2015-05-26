@@ -17,7 +17,6 @@
       mandatory:
         - http://www.purl.org/ogit/name
       optional:
-        - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/ServiceManagement/granularity
         - http://www.purl.org/ogit/isMutable
         - http://www.purl.org/ogit/ServiceManagement/isRequired
