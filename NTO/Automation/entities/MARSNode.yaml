@@ -4,7 +4,7 @@
     description: |
       IT Objects will be representated in MARS Modell with MARS nodes. 
       The MARS model builds upon four basic types of objects with a single type of relationship. Basically the objects 
-      which are in fact called __�_ձnodes__�_� represent both views - the business perspective and the technical view. 
+      which are in fact called "nodes" represent both views - the business perspective and the technical view. 
       The technical components are modeled in the machine and software layers while the application and resource layers 
       describe the business view of the IT environment.
     valid-from: 2015-05-21
