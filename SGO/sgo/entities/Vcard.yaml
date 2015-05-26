@@ -16,6 +16,7 @@
     scope: SGO
     parent: http://www.purl.org/ogit/Node
     attributes:
+      mandatory:
       optional:
         - http://www.purl.org/ogit/phone
         - http://www.purl.org/ogit/mobilePhone
