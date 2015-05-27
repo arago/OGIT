@@ -1,0 +1,11 @@
+Version:
+  - id: 1.0.0
+    changelog: |
+      initial ontology 
+    date: 2015-05-21
+    creator: Peter Larem
+  - id: 2.0.0
+    changelog: |
+      Refactoring the whole ontology in the course of the "cleanOGIT" project 
+    date: 2015-05-27
+    creator: Peter Larem
