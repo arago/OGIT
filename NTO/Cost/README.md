@@ -28,9 +28,12 @@ Each cost element could have an incoming  and an outgoing edge, which connects i
 
 E.g.: from the picture below we can understand that the CPU cost is consisting in 30% of HR cost. 5% of the HR cost contribute to the CPU costs. 
 
+![cost](/docs/images/cost.png)
+
 
 Since currently in OGIT there are no edges with weights, the following approach to represent it through entities was taken:
 
+![cost](/docs/images/cost1.png)
 
 #### Cost Model Ontology
 
