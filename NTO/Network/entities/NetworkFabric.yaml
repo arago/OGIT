@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Network/NetworkFabric
     name: NetworkFabric
     description: |
-      Networking Fabric is a virtual/physical Entity hosing Networking Devices
+      Networking Fabric is a virtual/physical Entity housing Networking Devices
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
