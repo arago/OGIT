@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Asset
     name: Asset
     description: |
-      Assets represent a physical hold a value and are situated in a location. Assets could correspond to one or more 
+      Assets represent a physical hold of a value and are situated in a location. Assets could correspond to one or more 
       ogit/Automation/MARSNode's and can be physical or virtual. Assets of a Service Provider include anything that could 
       contribute to the delivery of a Service. Assets can have a type, for example: Management, Organisation, Process, 
       Knowledge, People, Information, Applications, Infrastructure, Financial Capital.
