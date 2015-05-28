@@ -32,4 +32,5 @@
         - http://www.purl.org/ogit/_deleted-on
         - http://www.purl.org/ogit/_creator
         - http://www.purl.org/ogit/_created-on
+        - http://www.purl.org/ogit/_version
       optional:
