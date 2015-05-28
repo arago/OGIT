@@ -31,15 +31,17 @@ Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT
 
 2. [Concepts](../../wiki/Basic-Concepts) behind OGIT ontology
 
-5. [Technical representation](../../wiki/OGIT-ontology-details) of OGIT ontology
+3. [Technical representation](../../wiki/OGIT-ontology-details) of OGIT ontology
+
+4. [Guidelines] (SGO/format/README.md)
+
+5. [Versioning] (versioning/README.md)
 
 6. [Contribute](CONTRIBUTING.md) to OGIT ontology
 
-7. [Guidelines] (SGO/format/README.md) of OGIT ontology 
+7. [Try it out](../../wiki/Using-the-Ontology)
 
-8. [Try it out](../../wiki/Using-the-Ontology)
-
-9. [Developer resources](https://autopilot.co/dev) (registration required)
+8. [Developer resources](https://autopilot.co/dev) (registration required)
   - [GraphIT API reference](https://autopilot.co/docs/5.1.1/html/content/5.1.1-reference-graphit-admin-rest-interface.html)
 
 ## Documentation on Graphit
