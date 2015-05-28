@@ -8,3 +8,4 @@
 * MINOR version when you add functionality in a backwards-compatible manner like adding connections, attributes, entities and verbs
 * PATCH version when you make backwards-compatible bug fixes, like description changes 
 * when updating the ontology in graphit all entities will get automatically the new version in the internal generated attribute *http://www.purl.org/ogit/_version*
+* instances (in graphit) of deleted entities will stay at the last recorded ontology version
