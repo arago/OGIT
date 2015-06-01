@@ -13,6 +13,7 @@
     tech-contact: arago GmbH
     scope: SGO
     parent: http://www.purl.org/ogit/Node
+    hide: true
     attributes:
       mandatory:
         - http://www.purl.org/ogit/ontologyId
@@ -26,6 +27,7 @@
         - http://www.purl.org/ogit/ontologyTechContact
       optional:
         - http://www.purl.org/ogit/ontologyDeleter
+        - http://www.purl.org/ogit/ontologyHide
     history:
       - id: 1
         date: 2015-05-21
