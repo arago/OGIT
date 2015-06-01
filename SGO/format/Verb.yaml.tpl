@@ -10,6 +10,7 @@
     modified: "2013-09-01"
     admin-contact: "id of user"
     tech-contact: "id of user"
+    hide: "true or false, if true, then no html documantion will be create, default is 'false'"
     cardinality: the cardinality of the verb (one2one, one2many, many2one, many2many. if unspecified, the default is many2many)    
     
     history:
