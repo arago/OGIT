@@ -19,6 +19,6 @@
         modified-by: "cwalker@arago.de"
 
     attributes:
+      any: true
       mandatory:
         - "http://www.purl.org/ogit/title"
-

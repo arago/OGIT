@@ -1,7 +1,11 @@
 - Entity:
-    id:   "http://www.purl.org/ogit/Forum/KnowledgeItem"
-    name: "KnowledgeItem"
-    description: "A piece of knowledge for discussion"
+    id:   "http://www.purl.org/ogit/Notification"
+    name: "Notification"
+    description: |
+        A marker that something of interest has happened. The entity is likely used to track the
+        generation of the notification and whether the intended recipient has seen it, rather than
+        containing the content directly.
+
     valid-from: "2015-04-27"
     valid-until:
     creator: "cwalker@arago.de"
@@ -19,9 +23,4 @@
         modified-by: "cwalker@arago.de"
 
     attributes:
-      mandatory:
-        - "http://www.purl.org/ogit/content"
-      optional:
-        - "http://www.purl.org/ogit/title"
-        - "http://www.purl.org/ogit/description"
-        - "http://www.purl.org/ogit/accessControl"
+      any: true

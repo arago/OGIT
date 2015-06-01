@@ -8,9 +8,9 @@
       A KnowledgeItem checks therefor the information and decides if it will be executed.
       In that case, the KnowledgeItem executes operations, which serves the exploitation of information.
     valid-from: 2015-05-21
-    valid-until: 
+    valid-until:
     creator: Peter Larem
-    deleter: 
+    deleter:
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
@@ -18,6 +18,7 @@
     scope: NTO
     parent: http://www.purl.org/ogit/Node
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/ogit/Automation/knowledgeItemFormalRepresentation
         - http://www.purl.org/ogit/Automation/deployToEngine
@@ -29,6 +30,7 @@
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/changeLog
+        - http://www.purl.org/ogit/accessControl
     history:
       - id: 1
         date: 2015-05-21

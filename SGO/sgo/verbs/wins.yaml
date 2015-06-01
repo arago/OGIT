@@ -1,5 +1,5 @@
 - Verb:
-    id: "http://www.purl.org/ogit/Forum/wins"
+    id: "http://www.purl.org/ogit/wins"
     name: "wins"
     description: |
         Associates the entity that has won something with the thing that was won. Despite the present

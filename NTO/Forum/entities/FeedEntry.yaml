@@ -21,4 +21,5 @@
         description: "Initial Creation"
         modified-by: "cwalker@arago.de"
 
-    attributes: {}
+    attributes:
+      any: true

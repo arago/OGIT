@@ -1,5 +1,5 @@
 - Verb:
-    id: "http://www.purl.org/ogit/Forum/moderates"
+    id: "http://www.purl.org/ogit/moderates"
     name: "moderates"
     description: |
         Moderation as a verb, in the context of a forum, is a supervisory role. It implies that the
@@ -22,4 +22,5 @@
     allowed:
       - from: "http://www.purl.org/ogit/Forum/Profile"
         to: "http://www.purl.org/ogit/Forum/Topic"
-
+      - from: "http://www.purl.org/ogit/Forum/Profile"
+        to: "http://www.purl.org/ogit/Forum/KnowledgeBundle"

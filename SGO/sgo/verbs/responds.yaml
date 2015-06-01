@@ -17,7 +17,7 @@
       - from: http://www.purl.org/ogit/Comment
         to: http://www.purl.org/ogit/Forum/Reply
       - from: http://www.purl.org/ogit/Forum/Reply
-        to: http://www.purl.org/ogit/Forum/KnowledgeItem
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
       - from: http://www.purl.org/ogit/Forum/Reply
         to: http://www.purl.org/ogit/Forum/Post
       - from: http://www.purl.org/ogit/Forum/Reply

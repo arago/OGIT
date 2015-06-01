@@ -15,19 +15,19 @@
     - id: 2
       date: 2015-05-20
       description: |
-        - Added Connection for `ogit/Forum/KnowledgeBundle` -> `ogit/Forum/Profile`
-        - Added Connection for `ogit/Comment` -> `ogit/Forum/Profile`
-        - Added Connection for `ogit/Forum/KnowledgeItem` -> `ogit/Forum/Profile`
-        - Added Connection for `ogit/Forum/Post` -> `ogit/Forum/Profile`
-        - Added Connection for `ogit/Forum/Reply` -> `ogit/Forum/Profile`
-        - Added Connection for `ogit/Forum/Topic` -> `ogit/Forum/Profile`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/KnowledgeBundle`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Comment`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Automation/KnowledgeItem`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Post`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Reply`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 
       modified-by: cwalker@arago.de
     allowed:
     - {from: 'http://www.purl.org/ogit/ServiceManagement/Report', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Comment'}
-    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/KnowledgeItem'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Automation/KnowledgeItem'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Post'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Reply'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Topic'}

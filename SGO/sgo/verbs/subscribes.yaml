@@ -15,7 +15,7 @@
     valid-until:
     allowed:
       - from: http://www.purl.org/ogit/Forum/Profile
-        to: http://www.purl.org/ogit/Forum/KnowledgeItem
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
       - from: http://www.purl.org/ogit/Forum/Profile
         to: http://www.purl.org/ogit/Forum/Topic
       - from: http://www.purl.org/ogit/Forum/Profile

@@ -1,7 +1,7 @@
 - Entity:
     id:   "http://www.purl.org/ogit/Forum/KnowledgeBundle"
     name: "KnowledgeBundle"
-    description: "A grouping of `ogit/Forum/KnowledgeItem`s into a package."
+    description: "A grouping of `ogit/Automation/KnowledgeItem`s into a package."
     valid-from: "2015-04-27"
     valid-until:
     creator: "cwalker@arago.de"

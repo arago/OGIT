@@ -23,10 +23,10 @@
         to: http://www.purl.org/ogit/Software/Application
       - from: 'http://www.purl.org/ogit/Forum/Profile'
         to: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'
-      - from: 'http://www.purl.org/ogit/Forum/Profile',
+      - from: 'http://www.purl.org/ogit/Forum/Profile'
         to: 'http://www.purl.org/ogit/Forum/FeedEntry'
       - from: 'http://www.purl.org/ogit/Forum/Profile'
-        to: 'http://www.purl.org/ogit/Forum/Notification'
+        to: 'http://www.purl.org/ogit/Notification'
       - from: 'http://www.purl.org/ogit/Forum/Profile'
         to: 'http://www.purl.org/ogit/Forum/Topic'
     history:
@@ -39,7 +39,7 @@
         description: |
           - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/KnowledgeBundle`
           - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/FeedEntry`
-          - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Notification`
+          - Added Connection for `ogit/Forum/Profile` -> `ogit/Notification`
           - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 
         modified-by: cwalker@arago.de

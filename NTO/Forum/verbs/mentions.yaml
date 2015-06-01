@@ -1,5 +1,5 @@
 - Verb:
-    id: http://www.purl.org/ogit/mentions
+    id: http://www.purl.org/ogit/Forum/mentions
     name: mentions
     description: |
         This verb was envisaged to represent the *Social Media* menaing of the word mention (or
