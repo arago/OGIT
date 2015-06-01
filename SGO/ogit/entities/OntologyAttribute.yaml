@@ -13,9 +13,21 @@
     tech-contact: arago GmbH
     scope: SGO
     parent: http://www.purl.org/ogit/Node
+    hide: true
     attributes:
       mandatory:
+        - http://www.purl.org/ogit/ontologyId
+        - http://www.purl.org/ogit/ontologyType
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/ontologyName
+        - http://www.purl.org/ogit/ontologyValidFrom
+        - http://www.purl.org/ogit/ontologyCreator
+        - http://www.purl.org/ogit/ontologyModified
+        - http://www.purl.org/ogit/ontologyAdminContact
+        - http://www.purl.org/ogit/ontologyTechContact
       optional:
+        - http://www.purl.org/ogit/ontologyDeleter
+        - http://www.purl.org/ogit/ontologyHide
         - http://www.purl.org/ogit/ontologyValidationType
         - http://www.purl.org/ogit/ontologyValidationParameter
     history:
