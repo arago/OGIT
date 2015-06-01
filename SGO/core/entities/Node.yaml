@@ -13,6 +13,7 @@
     admin-contact: arago GmbH
     tech-contact: arago GmbH
     scope: SGO
+    hide: true
     
     history:
       - id: 1
