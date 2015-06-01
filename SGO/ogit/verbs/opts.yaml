@@ -12,6 +12,7 @@
     admin-contact: arago GmbH
     tech-contact: arago GmbH
     cardinality:
+    hide: true
     allowed:
       - from: http://www.purl.org/ogit/OntologyEntity
         to: http://www.purl.org/ogit/OntologyAttribute
