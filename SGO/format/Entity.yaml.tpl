@@ -12,6 +12,7 @@
     tech-contact: "id of user"
     scope: "SGO or NTO"
     parent: "id of parent entity"
+    hide: "true or false, if true, then no html documantion will be create, default is 'false'"
     history:
       - id: 1
         date: "date of the change"
