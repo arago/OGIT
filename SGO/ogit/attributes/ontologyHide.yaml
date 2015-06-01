@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ontologyHide
+    name: ontologyHide
+    description: |
+      Indicates if this part of ontology should hidden from the documentation
+    valid-from: 2015-06-01
+    valid-until: 
+    creator: Peter Larem
+    deleter: 
+    created: 2015-06-01
+    modified: 2015-06-01
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    hide: true
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2015-06-01
+        description: initial
+        modified-by: Peter Larem
