@@ -1,12 +1,11 @@
 ## Versioning in OGIT
 
-* The version of OGIT is only represented in the instances of entities, hence it's absense from verbs and attributes.
+* The version of OGIT is represented in the instances of entities, hence it's absense from verbs and attributes.
 * The version of OGIT will be distributed with the internal generated attribute *http://www.purl.org/ogit/_version*
-* This attribute is mandatory for all entities
 
 ### How will it work in GraphIT?
 
-* When updating the ontology all entities will get automatically the new version in the internal generated attribute *http://www.purl.org/ogit/_version*
+* When updating the ontology all entity instances will get automatically the new version in the internal generated attribute *http://www.purl.org/ogit/_version*
 * Instances of deleted entities will stay at the last recorded ontology version
 
 ### How to increment the version 
