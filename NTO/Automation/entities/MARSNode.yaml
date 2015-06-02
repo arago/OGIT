@@ -19,8 +19,9 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
+      
       optional:
+        - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
         - http://www.purl.org/ogit/Automation/marsNodeType
         - http://www.purl.org/ogit/name
     history:
