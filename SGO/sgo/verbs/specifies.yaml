@@ -4,9 +4,9 @@
     description: |
       One entity "specifies" another.
     valid-from: 2015-05-21
-    valid-until: 
+    valid-until:
     creator: Peter Larem
-    deleter: 
+    deleter:
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
@@ -19,8 +19,19 @@
         to: http://www.purl.org/ogit/Automation/MARSModelTemplate
       - from: http://www.purl.org/ogit/Parameter
         to: http://www.purl.org/ogit/Price/PriceSpecification
+      - from: 'http://www.purl.org/ogit/Forum/ShortId'
+        to: 'http://www.purl.org/ogit/Forum/Post'
+      - from: 'http://www.purl.org/ogit/Forum/ShortId'
+        to: 'http://www.purl.org/ogit/Automation/KnowledgeItem'
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: '2015-06-01'
+        description: |
+          - Adding connection from `ogit/Forum/ShortId` -> `ogit/Forum/Post`
+          - Adding connection from `ogit/Forum/ShortId` -> `ogit/Automation/KnowledgeItem`
+
+        modified-by: cwalker@arago.de

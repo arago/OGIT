@@ -1,0 +1,33 @@
+- Verb:
+    id: http://www.purl.org/ogit/creates
+    name: creates
+    description: Indicates if one entity creates another one.
+    valid-from: '2015-05-19'
+    valid-until: ''
+    creator: Peter Larem
+    deleter: ''
+    created: '2015-05-19'
+    modified: '2015-05-19'
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    history:
+    - {id: 1, description: initial, modified-by: Peter Larem, date: '2015-05-19'}
+    - id: 2
+      date: 2015-05-20
+      description: |
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/KnowledgeBundle`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Comment`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Automation/KnowledgeItem`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Post`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Reply`
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
+
+      modified-by: cwalker@arago.de
+    allowed:
+    - {from: 'http://www.purl.org/ogit/ServiceManagement/Report', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Comment'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Automation/KnowledgeItem'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Post'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Reply'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Topic'}

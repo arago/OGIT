@@ -1,0 +1,26 @@
+- Verb:
+    id: "http://www.purl.org/ogit/moderates"
+    name: "moderates"
+    description: |
+        Moderation as a verb, in the context of a forum, is a supervisory role. It implies that the
+        entity takes a responsibility for the maintenance and upkeep of the connected entity.
+
+    valid-from: "2015-04-23"
+    valid-until:
+    creator: "cwalker@arago.de"
+    deleter:
+    created:  "2015-04-23"
+    modified: "2015-04-23"
+    admin-contact: "arago GmbH"
+    tech-contact: "arago GmbH"
+    cardinality: "many2many"
+    history:
+      - id: 1
+        date: "2015-04-23"
+        description: "Initial Creation"
+        modified-by: "cwalker@arago.de"
+    allowed:
+      - from: "http://www.purl.org/ogit/Forum/Profile"
+        to: "http://www.purl.org/ogit/Forum/Topic"
+      - from: "http://www.purl.org/ogit/Forum/Profile"
+        to: "http://www.purl.org/ogit/Forum/KnowledgeBundle"
