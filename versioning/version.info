@@ -9,3 +9,8 @@ Version:
       Refactoring the whole ontology in the course of the "cleanOGIT" project 
     date: 2015-05-27
     creator: Peter Larem
+  - id: 2.1.0
+    changelog: |
+      Improving SLA entity by adding new attributes and edges
+    date: 2015-06-08
+    creator: Philipp Pelchmann
