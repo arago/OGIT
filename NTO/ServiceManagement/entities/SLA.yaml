@@ -19,6 +19,9 @@
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/startAt
         - http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt
+        - http://www.purl.org/ogit/ServiceManagement/leftTime
+        - http://www.purl.org/ogit/ServiceManagement/elapsedTime
+        - http://www.purl.org/ogit/ServiceManagement/slaStage
     history:
       - id: 1
         date: 2015-05-21
@@ -26,5 +29,5 @@
         modified-by: Peter Larem
       - id: 2
         date: 2015-06-08
-        description: Added ogit/startAt, ogit/ServiceManagement/scheduledFinishAt attributes to /ogit/ServiceManagement/SLA 
+        description: Added ogit/startAt ogit/ServiceManagement/scheduledFinishAt ogit/slaStage ogit/ServiceManagement/elapsedTime ogit/ServiceManagement/leftTime attributes to ogit/ServiceManagement/SLA 
         modified-by: Aymen Ayoub
