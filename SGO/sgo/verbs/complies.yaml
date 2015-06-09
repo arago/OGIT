@@ -38,7 +38,6 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
-    history:
       - id: 2
         date: 2015-06-08
         description: added edges between ogit/ServiceManagement/Incident => ogit/ complies ogit/ServiceManagement/SLA, ogit/ServiceManagement/ChangeRequest => ogit/complies ogit/ServiceManagement/SLA and ogit/ServiceManagement/Problem => ogit/complies ogit/ServiceManagement/SLA
