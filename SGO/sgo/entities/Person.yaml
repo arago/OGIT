@@ -21,8 +21,14 @@
         - id: http://www.purl.org/ogit/title
         - id: http://www.purl.org/ogit/alternativeName
         - id: http://www.purl.org/ogit/email
+        - id: http://www.purl.org/ogit/sourceId
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2015-06-11
+        description: added optional attribute /ogit/sourceId
+        modified-by: Peter Larem
+    
