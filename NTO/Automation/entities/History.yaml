@@ -15,12 +15,12 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/Automation/knowledgeItemId
-        - http://www.purl.org/ogit/Automation/affectedNodeId
-        - http://www.purl.org/ogit/Automation/command
-        - http://www.purl.org/ogit/message
-        - http://www.purl.org/ogit/Automation/logLevel
-        - http://www.purl.org/ogit/timestamp
+        - id: http://www.purl.org/ogit/Automation/knowledgeItemId
+        - id: http://www.purl.org/ogit/Automation/affectedNodeId
+        - id: http://www.purl.org/ogit/Automation/command
+        - id: http://www.purl.org/ogit/message
+        - id: http://www.purl.org/ogit/Automation/logLevel
+        - id: http://www.purl.org/ogit/timestamp
       optional:
       
     history:
