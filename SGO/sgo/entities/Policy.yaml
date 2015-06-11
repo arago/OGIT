@@ -15,7 +15,7 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/content
+        - id: http://www.purl.org/ogit/content
       optional:
     history:
       - id: 1
