@@ -30,7 +30,6 @@
         - id: http://www.purl.org/ogit/closedAt
         - id: http://www.purl.org/ogit/lastUpdatedAt
         - id: http://www.purl.org/ogit/ServiceManagement/sourceStatus
-        - id: http://www.purl.org/ogit/ServiceManagement/externalTicketSource
         - id: http://www.purl.org/ogit/ServiceManagement/externalTicketId
         - id: http://www.purl.org/ogit/ServiceManagement/reportedSource
         - id: http://www.purl.org/ogit/ServiceManagement/ticketId
@@ -47,3 +46,7 @@
         date: 2015-05-26
         description: add new optional attribute ogit/ServiceManagement/ticketId
         modified-by: Peter Larem
+      - id: 4
+        date: 2015-06-11
+        description: deleted the optional attribute ogit/ServiceManagement/externalTicketSource 
+        modified-by: Aymen Ayoub
