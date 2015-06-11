@@ -16,12 +16,12 @@
     attributes:
       mandatory:
       optional:
-        - http://www.purl.org/ogit/id
-        - http://www.purl.org/ogit/name
-        - http://www.purl.org/ogit/purchaseDate
-        - http://www.purl.org/ogit/Datacenter/moveProductionDate
-        - http://www.purl.org/ogit/endOfWarranty
-        - http://www.purl.org/ogit/powerConsumption
+        - id: http://www.purl.org/ogit/id
+        - id: http://www.purl.org/ogit/name
+        - id: http://www.purl.org/ogit/purchaseDate
+        - id: http://www.purl.org/ogit/Datacenter/moveProductionDate
+        - id: http://www.purl.org/ogit/endOfWarranty
+        - id: http://www.purl.org/ogit/powerConsumption
     history:
       - id: 1
         date: 2015-05-21
