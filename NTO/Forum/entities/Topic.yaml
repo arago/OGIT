@@ -23,9 +23,8 @@
         modified-by: "cwalker@arago.de"
 
     attributes:
-      any: true
       mandatory:
-        - "http://www.purl.org/ogit/title"
-        - "http://www.purl.org/ogit/description"
+        - id: "http://www.purl.org/ogit/title"
+        - id: "http://www.purl.org/ogit/description"
       optional:
-        - "http://www.purl.org/ogit/accessControl"
+        - id: "http://www.purl.org/ogit/accessControl"
