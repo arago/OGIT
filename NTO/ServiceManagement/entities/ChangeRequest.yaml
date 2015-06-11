@@ -28,6 +28,8 @@
         - id: http://www.purl.org/ogit/ServiceManagement/scheduledStartAt
         - id: http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt
         - id: http://www.purl.org/ogit/effort
+          validation-type: regex
+          validation-parameter: "^(\d+:\d\d)$"
         - id: http://www.purl.org/ogit/ServiceManagement/fallbackPlan
         - id: http://www.purl.org/ogit/ServiceManagement/testPlan
         - id: http://www.purl.org/ogit/ServiceManagement/implementationPlan
