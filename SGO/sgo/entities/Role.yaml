@@ -15,10 +15,10 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/name
+        - id: http://www.purl.org/ogit/name
       optional:
-        - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/status
+        - id: http://www.purl.org/ogit/description
+        - id: http://www.purl.org/ogit/status
     history:
       - id: 1
         date: 2015-05-21
