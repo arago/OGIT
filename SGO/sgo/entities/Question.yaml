@@ -17,9 +17,9 @@
     attributes:
       mandatory:
       optional:
-        - http://www.purl.org/ogit/status
-        - http://www.purl.org/ogit/question
-        - http://www.purl.org/ogit/response
+        - id: http://www.purl.org/ogit/status
+        - id: http://www.purl.org/ogit/question
+        - id: http://www.purl.org/ogit/response
     history:
       - id: 1
         date: 2015-05-21
