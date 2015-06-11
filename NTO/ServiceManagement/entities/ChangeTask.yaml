@@ -16,21 +16,23 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/name
-        - http://www.purl.org/ogit/id
+        - id: http://www.purl.org/ogit/name
+        - id: http://www.purl.org/ogit/id
       optional:
-        - http://www.purl.org/ogit/ServiceManagement/taskStatus
-        - http://www.purl.org/ogit/ServiceManagement/sourceStatus
-        - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/taskLog
-        - http://www.purl.org/ogit/startAt
-        - http://www.purl.org/ogit/finishAt
-        - http://www.purl.org/ogit/ServiceManagement/targetStartAt
-        - http://www.purl.org/ogit/ServiceManagement/targetFinishAt
-        - http://www.purl.org/ogit/ServiceManagement/scheduledStartAt
-        - http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt
-        - http://www.purl.org/ogit/effort
-        - http://www.purl.org/ogit/lastUpdatedAt
+        - id: http://www.purl.org/ogit/ServiceManagement/taskStatus
+          validation-type: regex
+          validation-parameter: "^(New|Open|Pending|Cancelled|InProgress|Closed)$"
+        - id: http://www.purl.org/ogit/ServiceManagement/sourceStatus
+        - id: http://www.purl.org/ogit/description
+        - id: http://www.purl.org/ogit/taskLog
+        - id: http://www.purl.org/ogit/startAt
+        - id: http://www.purl.org/ogit/finishAt
+        - id: http://www.purl.org/ogit/ServiceManagement/targetStartAt
+        - id: http://www.purl.org/ogit/ServiceManagement/targetFinishAt
+        - id: http://www.purl.org/ogit/ServiceManagement/scheduledStartAt
+        - id: http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt
+        - id: http://www.purl.org/ogit/effort
+        - id: http://www.purl.org/ogit/lastUpdatedAt
     history:
       - id: 1
         date: 2015-05-21
