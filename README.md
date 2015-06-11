@@ -49,7 +49,7 @@ Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT
 
 1. [Ontology documentation](https://graphit.co/ogit_docs/latest) for all OGIT elements
 
-2. [Ontology visualization](https://ogit.graphit.co/ogit/graph.php?dataset=ontology)
+2. [Ontology visualization](https://graphit.co/ogit/graph.php?dataset=ontology)
 
 
 
