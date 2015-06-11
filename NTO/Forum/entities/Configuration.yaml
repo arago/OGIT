@@ -19,4 +19,5 @@
         modified-by: "cwalker@arago.de"
 
     attributes:
-      any: true
+      mandatory:
+      optional:
