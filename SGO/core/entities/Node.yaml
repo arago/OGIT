@@ -23,15 +23,15 @@
 
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/_id
-        - http://www.purl.org/ogit/_type
-        - http://www.purl.org/ogit/_owner
-        - http://www.purl.org/ogit/_modified-on
-        - http://www.purl.org/ogit/_modified-by
-        - http://www.purl.org/ogit/_graphtype
-        - http://www.purl.org/ogit/_is-deleted
-        - http://www.purl.org/ogit/_deleted-on
-        - http://www.purl.org/ogit/_creator
-        - http://www.purl.org/ogit/_created-on
-        - http://www.purl.org/ogit/_version
+        - id: http://www.purl.org/ogit/_id
+        - id: http://www.purl.org/ogit/_type
+        - id: http://www.purl.org/ogit/_owner
+        - id: http://www.purl.org/ogit/_modified-on
+        - id: http://www.purl.org/ogit/_modified-by
+        - id: http://www.purl.org/ogit/_graphtype
+        - id: http://www.purl.org/ogit/_is-deleted
+        - id: http://www.purl.org/ogit/_deleted-on
+        - id: http://www.purl.org/ogit/_creator
+        - id: http://www.purl.org/ogit/_created-on
+        - id: http://www.purl.org/ogit/_version
       optional:
