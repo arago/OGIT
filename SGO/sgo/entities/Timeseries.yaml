@@ -16,9 +16,9 @@
     attributes:
       mandatory:
       optional:
-        - http://www.purl.org/ogit/unit
-        - http://www.purl.org/ogit/name
-        - http://www.purl.org/ogit/description
+        - id: http://www.purl.org/ogit/unit
+        - id: http://www.purl.org/ogit/name
+        - id: http://www.purl.org/ogit/description
     history:
       - id: 1
         date: 2015-05-21
