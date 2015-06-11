@@ -32,6 +32,8 @@
         - id: http://www.purl.org/ogit/ServiceManagement/scheduledStartAt
         - id: http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt
         - id: http://www.purl.org/ogit/effort
+          validation-type: regex
+          validation-parameter: "^(\d+:\d\d)$"
         - id: http://www.purl.org/ogit/lastUpdatedAt
     history:
       - id: 1
