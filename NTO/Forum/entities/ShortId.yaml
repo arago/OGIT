@@ -29,9 +29,8 @@
         modified-by: "cwalker@arago.de"
 
     attributes:
-      any: true
       mandatory:
-        - "http://www.purl.org/ogit/id"
+        - id: "http://www.purl.org/ogit/id"
       optional:
-        - "http://www.purl.org/ogit/function"
+        - id: "http://www.purl.org/ogit/function"
 
