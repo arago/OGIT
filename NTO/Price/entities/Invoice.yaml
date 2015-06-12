@@ -15,11 +15,11 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/currency
-        - http://www.purl.org/ogit/Price/priceAmount
+        - id: http://www.purl.org/ogit/currency
+        - id: http://www.purl.org/ogit/Price/priceAmount
       optional:
-        - http://www.purl.org/ogit/name
-        - http://www.purl.org/ogit/description
+        - id: http://www.purl.org/ogit/name
+        - id: http://www.purl.org/ogit/description
     history:
       - id: 1
         date: 2015-05-21
