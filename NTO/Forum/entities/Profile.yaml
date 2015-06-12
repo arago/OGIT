@@ -23,6 +23,6 @@
 
     attributes:
       mandatory:
-        - id: "http://www.purl.org/ogit/Forum/username"
-        - id: "http://www.purl.org/ogit/name"
+        - "http://www.purl.org/ogit/Forum/username"
+        - "http://www.purl.org/ogit/name"
       optional:
