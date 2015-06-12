@@ -16,8 +16,6 @@
     attributes:
       mandatory:
         - http://www.purl.org/ogit/ServiceManagement/problemStatus
-          validation-type: regex
-          validation-parameter: "^(New|Assigned|Pending|Resolved|Closed)$"
         - http://www.purl.org/ogit/id
       optional:
         - http://www.purl.org/ogit/reportedAt
