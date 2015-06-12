@@ -18,8 +18,6 @@
     attributes:
       mandatory:
         - http://www.purl.org/ogit/BusinessProcess/businessProcessEventType
-          validation-type: regex
-          validation-parameter: "^(Start|End|Intermediate)$"
       optional:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
