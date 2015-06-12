@@ -20,6 +20,6 @@
 
     attributes:
       mandatory:
-        - id: "http://www.purl.org/ogit/name"
+        - "http://www.purl.org/ogit/name"
       optional:
-        - id: "http://www.purl.org/ogit/accessControl"
+        - "http://www.purl.org/ogit/accessControl"
