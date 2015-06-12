@@ -24,7 +24,7 @@
 
     attributes:
       mandatory:
-        - id: "http://www.purl.org/ogit/title"
-        - id: "http://www.purl.org/ogit/description"
+        - "http://www.purl.org/ogit/title"
+        - "http://www.purl.org/ogit/description"
       optional:
-        - id: "http://www.purl.org/ogit/accessControl"
+        - "http://www.purl.org/ogit/accessControl"
