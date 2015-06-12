@@ -15,18 +15,18 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/name
-        - http://www.purl.org/ogit/id
+        - id: http://www.purl.org/ogit/name
+        - id: http://www.purl.org/ogit/id
       optional:
-        - http://www.purl.org/ogit/ServiceManagement/allowedForNewBusiness
-        - http://www.purl.org/ogit/capacityAvailable
-        - http://www.purl.org/ogit/currency
-        - http://www.purl.org/ogit/serialNumber
-        - http://www.purl.org/ogit/validFrom
-        - http://www.purl.org/ogit/expirationDate
-        - http://www.purl.org/ogit/category
-        - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/market
+        - id: http://www.purl.org/ogit/ServiceManagement/allowedForNewBusiness
+        - id: http://www.purl.org/ogit/capacityAvailable
+        - id: http://www.purl.org/ogit/currency
+        - id: http://www.purl.org/ogit/serialNumber
+        - id: http://www.purl.org/ogit/validFrom
+        - id: http://www.purl.org/ogit/expirationDate
+        - id: http://www.purl.org/ogit/category
+        - id: http://www.purl.org/ogit/description
+        - id: http://www.purl.org/ogit/market
     history:
       - id: 1
         date: 2015-05-21
