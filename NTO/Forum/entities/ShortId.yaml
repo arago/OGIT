@@ -30,7 +30,7 @@
 
     attributes:
       mandatory:
-        - id: "http://www.purl.org/ogit/id"
+        - "http://www.purl.org/ogit/id"
       optional:
-        - id: "http://www.purl.org/ogit/function"
+        - "http://www.purl.org/ogit/function"
 
