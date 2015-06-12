@@ -23,8 +23,6 @@
         - http://www.purl.org/ogit/urgency
         - http://www.purl.org/ogit/priority
         - http://www.purl.org/ogit/createdAt
-          validation-type: regex
-          validation-parameter: '^\d+$'
         - http://www.purl.org/ogit/openedAt
         - http://www.purl.org/ogit/closedAt
         - http://www.purl.org/ogit/lastUpdatedAt
