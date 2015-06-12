@@ -22,8 +22,6 @@
         - http://www.purl.org/ogit/subject
         - http://www.purl.org/ogit/licenseKey
         - http://www.purl.org/ogit/createdAt
-          validation-type: regex
-          validation-parameter: '^\d+$'
         - http://www.purl.org/ogit/licenseType
     history:
       - id: 1
