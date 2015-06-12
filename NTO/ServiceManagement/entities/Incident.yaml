@@ -25,7 +25,7 @@
         - id: http://www.purl.org/ogit/reportedAt
         - id: http://www.purl.org/ogit/ServiceManagement/resolvedAt
         - id: http://www.purl.org/ogit/ServiceManagement/sourceStatus
-        - id: http://www.purl.org/ogit/ServiceManagement/category
+        - id: http://www.purl.org/ogit/category
     history:
       - id: 1
         date: 2015-05-21
@@ -36,7 +36,7 @@
         description: change attribute subStatus to sourceStatus
         modified-by: Peter Larem
       - id: 3
-        date: 2015-06-11
+        date: 2015-06-12
         description: attribute category added
         modified-by: Aymen Ayoub    
         
