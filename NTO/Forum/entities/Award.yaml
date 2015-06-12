@@ -20,5 +20,5 @@
 
     attributes:
       mandatory:
-        - id: "http://www.purl.org/ogit/title"
+        - "http://www.purl.org/ogit/title"
       optional:
