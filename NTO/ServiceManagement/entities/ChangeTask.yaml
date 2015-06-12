@@ -20,8 +20,6 @@
         - http://www.purl.org/ogit/id
       optional:
         - http://www.purl.org/ogit/ServiceManagement/taskStatus
-          validation-type: regex
-          validation-parameter: "^(New|Open|Pending|Cancelled|InProgress|Closed)$"
         - http://www.purl.org/ogit/ServiceManagement/sourceStatus
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/taskLog
@@ -32,8 +30,6 @@
         - http://www.purl.org/ogit/ServiceManagement/scheduledStartAt
         - http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt
         - http://www.purl.org/ogit/effort
-          validation-type: regex
-          validation-parameter: "^(\d+:\d\d)$"
         - http://www.purl.org/ogit/lastUpdatedAt
     history:
       - id: 1
