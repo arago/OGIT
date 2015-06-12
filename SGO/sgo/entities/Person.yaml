@@ -16,12 +16,12 @@
     attributes:
       mandatory:
       optional:
-        - id: http://www.purl.org/ogit/firstName
-        - id: http://www.purl.org/ogit/lastName
-        - id: http://www.purl.org/ogit/title
-        - id: http://www.purl.org/ogit/alternativeName
-        - id: http://www.purl.org/ogit/email
-        - id: http://www.purl.org/ogit/sourceId
+        - http://www.purl.org/ogit/firstName
+        - http://www.purl.org/ogit/lastName
+        - http://www.purl.org/ogit/title
+        - http://www.purl.org/ogit/alternativeName
+        - http://www.purl.org/ogit/email
+        - http://www.purl.org/ogit/sourceId
     history:
       - id: 1
         date: 2015-05-21

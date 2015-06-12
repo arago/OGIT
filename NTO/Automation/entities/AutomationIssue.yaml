@@ -21,11 +21,11 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - id: http://www.purl.org/ogit/Automation/issueFormalRepresentation
+        - http://www.purl.org/ogit/Automation/issueFormalRepresentation
       optional:
-        - id: http://www.purl.org/ogit/status
-        - id: http://www.purl.org/ogit/subject
-        - id: http://www.purl.org/ogit/Automation/processingTimestamp
+        - http://www.purl.org/ogit/status
+        - http://www.purl.org/ogit/subject
+        - http://www.purl.org/ogit/Automation/processingTimestamp
     history:
       - id: 1
         date: 2015-05-21

@@ -19,12 +19,12 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - id: http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/name
       optional:
-        - id: http://www.purl.org/ogit/description
-        - id: http://www.purl.org/ogit/function
-        - id: http://www.purl.org/ogit/status
-        - id: http://www.purl.org/ogit/email
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/function
+        - http://www.purl.org/ogit/status
+        - http://www.purl.org/ogit/email
     history:
       - id: 1
         date: 2015-05-21

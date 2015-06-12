@@ -16,20 +16,20 @@
     hide: true
     attributes:
       mandatory:
-        - id: http://www.purl.org/ogit/ontologyId
-        - id: http://www.purl.org/ogit/ontologyType
-        - id: http://www.purl.org/ogit/description
-        - id: http://www.purl.org/ogit/ontologyName
-        - id: http://www.purl.org/ogit/ontologyValidFrom
-        - id: http://www.purl.org/ogit/ontologyCreator
-        - id: http://www.purl.org/ogit/ontologyModified
-        - id: http://www.purl.org/ogit/ontologyAdminContact
-        - id: http://www.purl.org/ogit/ontologyTechContact
+        - http://www.purl.org/ogit/ontologyId
+        - http://www.purl.org/ogit/ontologyType
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/ontologyName
+        - http://www.purl.org/ogit/ontologyValidFrom
+        - http://www.purl.org/ogit/ontologyCreator
+        - http://www.purl.org/ogit/ontologyModified
+        - http://www.purl.org/ogit/ontologyAdminContact
+        - http://www.purl.org/ogit/ontologyTechContact
       optional:
-        - id: http://www.purl.org/ogit/ontologyDeleter
-        - id: http://www.purl.org/ogit/ontologyHide
-        - id: http://www.purl.org/ogit/ontologyValidationType
-        - id: http://www.purl.org/ogit/ontologyValidationParameter
+        - http://www.purl.org/ogit/ontologyDeleter
+        - http://www.purl.org/ogit/ontologyHide
+        - http://www.purl.org/ogit/ontologyValidationType
+        - http://www.purl.org/ogit/ontologyValidationParameter
     history:
       - id: 1
         date: 2015-05-21

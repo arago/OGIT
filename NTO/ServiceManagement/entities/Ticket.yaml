@@ -15,24 +15,24 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - id: http://www.purl.org/ogit/id
+        - http://www.purl.org/ogit/id
       optional:
-        - id: http://www.purl.org/ogit/summary
-        - id: http://www.purl.org/ogit/description
-        - id: http://www.purl.org/ogit/project
-        - id: http://www.purl.org/ogit/impact
-        - id: http://www.purl.org/ogit/urgency
-        - id: http://www.purl.org/ogit/priority
-        - id: http://www.purl.org/ogit/createdAt
+        - http://www.purl.org/ogit/summary
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/project
+        - http://www.purl.org/ogit/impact
+        - http://www.purl.org/ogit/urgency
+        - http://www.purl.org/ogit/priority
+        - http://www.purl.org/ogit/createdAt
           validation-type: regex
           validation-parameter: '^\d+$'
-        - id: http://www.purl.org/ogit/openedAt
-        - id: http://www.purl.org/ogit/closedAt
-        - id: http://www.purl.org/ogit/lastUpdatedAt
-        - id: http://www.purl.org/ogit/ServiceManagement/sourceStatus
-        - id: http://www.purl.org/ogit/ServiceManagement/externalTicketId
-        - id: http://www.purl.org/ogit/ServiceManagement/reportedSource
-        - id: http://www.purl.org/ogit/ServiceManagement/ticketId
+        - http://www.purl.org/ogit/openedAt
+        - http://www.purl.org/ogit/closedAt
+        - http://www.purl.org/ogit/lastUpdatedAt
+        - http://www.purl.org/ogit/ServiceManagement/sourceStatus
+        - http://www.purl.org/ogit/ServiceManagement/externalTicketId
+        - http://www.purl.org/ogit/ServiceManagement/reportedSource
+        - http://www.purl.org/ogit/ServiceManagement/ticketId
     history:
       - id: 1
         date: 2015-05-21

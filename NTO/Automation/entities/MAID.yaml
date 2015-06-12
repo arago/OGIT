@@ -26,7 +26,7 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - id: http://www.purl.org/ogit/Automation/maidFormalRepresentation
+        - http://www.purl.org/ogit/Automation/maidFormalRepresentation
       optional:
       
     history:

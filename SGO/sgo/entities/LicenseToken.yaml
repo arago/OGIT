@@ -16,14 +16,14 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - id: http://www.purl.org/ogit/id
+        - http://www.purl.org/ogit/id
       optional:
-        - id: http://www.purl.org/ogit/description
-        - id: http://www.purl.org/ogit/validFrom
-        - id: http://www.purl.org/ogit/expirationDate
-        - id: http://www.purl.org/ogit/licenseType
-        - id: http://www.purl.org/ogit/token
-        - id: http://www.purl.org/ogit/ServiceManagement/licenseTokenStatus
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/validFrom
+        - http://www.purl.org/ogit/expirationDate
+        - http://www.purl.org/ogit/licenseType
+        - http://www.purl.org/ogit/token
+        - http://www.purl.org/ogit/ServiceManagement/licenseTokenStatus
           validation-type: regex
           validation-parameter: "^(open|used|disabled)$"
     history:

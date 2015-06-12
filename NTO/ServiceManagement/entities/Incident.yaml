@@ -15,17 +15,17 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - id: http://www.purl.org/ogit/id
+        - http://www.purl.org/ogit/id
       optional:
-        - id: http://www.purl.org/ogit/ServiceManagement/incidentStatus
+        - http://www.purl.org/ogit/ServiceManagement/incidentStatus
           validation-type: regex
           validation-parameter: "^(New|Assigned|Pending|Resolved|Closed)$"
-        - id: http://www.purl.org/ogit/ServiceManagement/solution
-        - id: http://www.purl.org/ogit/ServiceManagement/resolutionCode
-        - id: http://www.purl.org/ogit/reportedAt
-        - id: http://www.purl.org/ogit/ServiceManagement/resolvedAt
-        - id: http://www.purl.org/ogit/ServiceManagement/sourceStatus
-        - id: http://www.purl.org/ogit/category
+        - http://www.purl.org/ogit/ServiceManagement/solution
+        - http://www.purl.org/ogit/ServiceManagement/resolutionCode
+        - http://www.purl.org/ogit/reportedAt
+        - http://www.purl.org/ogit/ServiceManagement/resolvedAt
+        - http://www.purl.org/ogit/ServiceManagement/sourceStatus
+        - http://www.purl.org/ogit/category
     history:
       - id: 1
         date: 2015-05-21

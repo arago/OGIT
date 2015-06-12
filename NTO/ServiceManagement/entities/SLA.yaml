@@ -16,12 +16,12 @@
     attributes:
       mandatory:
       optional:
-        - id: http://www.purl.org/ogit/name
-        - id: http://www.purl.org/ogit/startAt
-        - id: http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt
-        - id: http://www.purl.org/ogit/ServiceManagement/leftTime
-        - id: http://www.purl.org/ogit/ServiceManagement/elapsedTime
-        - id: http://www.purl.org/ogit/ServiceManagement/slaStage
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/startAt
+        - http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt
+        - http://www.purl.org/ogit/ServiceManagement/leftTime
+        - http://www.purl.org/ogit/ServiceManagement/elapsedTime
+        - http://www.purl.org/ogit/ServiceManagement/slaStage
           validation-type: regex
           validation-parameter: "^(In progress|Breached|Achieved|Cancelled|Completed|Paused)$"
     history:

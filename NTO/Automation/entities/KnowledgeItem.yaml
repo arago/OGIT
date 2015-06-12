@@ -20,17 +20,17 @@
     attributes:
       any: true
       mandatory:
-        - id: http://www.purl.org/ogit/Automation/knowledgeItemFormalRepresentation
-        - id: http://www.purl.org/ogit/Automation/deployToEngine
+        - http://www.purl.org/ogit/Automation/knowledgeItemFormalRepresentation
+        - http://www.purl.org/ogit/Automation/deployToEngine
       optional:
-        - id: http://www.purl.org/ogit/modificationTime
-        - id: http://www.purl.org/ogit/isValid
-        - id: http://www.purl.org/ogit/Automation/knowledgeItemTier
-        - id: http://www.purl.org/ogit/creationTime
-        - id: http://www.purl.org/ogit/name
-        - id: http://www.purl.org/ogit/description
-        - id: http://www.purl.org/ogit/changeLog
-        - id: http://www.purl.org/ogit/accessControl
+        - http://www.purl.org/ogit/modificationTime
+        - http://www.purl.org/ogit/isValid
+        - http://www.purl.org/ogit/Automation/knowledgeItemTier
+        - http://www.purl.org/ogit/creationTime
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/changeLog
+        - http://www.purl.org/ogit/accessControl
     history:
       - id: 1
         date: 2015-05-21

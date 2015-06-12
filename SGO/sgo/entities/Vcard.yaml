@@ -18,11 +18,11 @@
     attributes:
       mandatory:
       optional:
-        - id: http://www.purl.org/ogit/phone
-        - id: http://www.purl.org/ogit/mobilePhone
-        - id: http://www.purl.org/ogit/streetAddress
-        - id: http://www.purl.org/ogit/addressLocality
-        - id: http://www.purl.org/ogit/postalCode
+        - http://www.purl.org/ogit/phone
+        - http://www.purl.org/ogit/mobilePhone
+        - http://www.purl.org/ogit/streetAddress
+        - http://www.purl.org/ogit/addressLocality
+        - http://www.purl.org/ogit/postalCode
     history:
       - id: 1
         date: 2015-05-21

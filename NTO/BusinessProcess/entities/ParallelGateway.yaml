@@ -26,12 +26,12 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - id: http://www.purl.org/ogit/BusinessProcess/gatewayFunctionality
+        - http://www.purl.org/ogit/BusinessProcess/gatewayFunctionality
           validation-type: regex
           validation-parameter: "^(Fork|Join)$"
       optional:
-        - id: http://www.purl.org/ogit/name
-        - id: http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description
     history:
       - id: 1
         date: 2015-05-21

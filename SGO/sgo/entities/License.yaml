@@ -15,16 +15,16 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - id: http://www.purl.org/ogit/id
+        - http://www.purl.org/ogit/id
       optional:
-        - id: http://www.purl.org/ogit/validFrom
-        - id: http://www.purl.org/ogit/expirationDate
-        - id: http://www.purl.org/ogit/subject
-        - id: http://www.purl.org/ogit/licenseKey
-        - id: http://www.purl.org/ogit/createdAt
+        - http://www.purl.org/ogit/validFrom
+        - http://www.purl.org/ogit/expirationDate
+        - http://www.purl.org/ogit/subject
+        - http://www.purl.org/ogit/licenseKey
+        - http://www.purl.org/ogit/createdAt
           validation-type: regex
           validation-parameter: '^\d+$'
-        - id: http://www.purl.org/ogit/licenseType
+        - http://www.purl.org/ogit/licenseType
     history:
       - id: 1
         date: 2015-05-21
