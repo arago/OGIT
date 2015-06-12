@@ -16,7 +16,7 @@
     attributes:
       mandatory:
       optional:
-        - http://www.purl.org/ogit/id
+        - id: http://www.purl.org/ogit/id
     history:
       - id: 1
         date: 2015-05-21
