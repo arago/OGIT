@@ -18,8 +18,6 @@
         - http://www.purl.org/ogit/id
       optional:
         - http://www.purl.org/ogit/ServiceManagement/incidentStatus
-          validation-type: regex
-          validation-parameter: "^(New|Assigned|Pending|Resolved|Closed)$"
         - http://www.purl.org/ogit/ServiceManagement/solution
         - http://www.purl.org/ogit/ServiceManagement/resolutionCode
         - http://www.purl.org/ogit/reportedAt
