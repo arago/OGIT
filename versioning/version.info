@@ -14,3 +14,8 @@ Version:
       Improving SLA entity by adding new attributes and edges
     date: 2015-06-08
     creator: Philipp Pelchmann
+  - id: 2.2.0
+    changelog: |
+      Add new verb ogit/concludes and two connections for that
+    date: 2015-06-18
+    creator: Peter Larem
