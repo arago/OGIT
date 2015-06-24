@@ -19,3 +19,8 @@ Version:
       Add new verb ogit/concludes and two connections for that
     date: 2015-06-18
     creator: Peter Larem
+  - id: 2.3.0
+    changelog: |
+      Add new verb ogit/worksOn and one connection for that
+    date: 2015-06-24
+    creator: Peter Larem
