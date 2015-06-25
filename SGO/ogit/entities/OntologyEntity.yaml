@@ -19,7 +19,6 @@
       mandatory:
         - http://www.purl.org/ogit/ontologyScope
         - http://www.purl.org/ogit/ontologyId
-        - http://www.purl.org/ogit/ontologyType
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/ontologyName
         - http://www.purl.org/ogit/ontologyValidFrom
