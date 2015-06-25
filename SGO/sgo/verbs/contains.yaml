@@ -225,6 +225,8 @@
         to: http://www.purl.org/ogit/Automation/DynamicEngineData
       - from: http://www.purl.org/ogit/Automation/DynamicEngineData
         to: http://www.purl.org/ogit/Automation/DynamicEngineData
+      - from: http://www.purl.org/ogit/Automation/AutomationIssue
+        to: http://www.purl.org/ogit/Task
 
     history:
       - id: 1
