@@ -27,9 +27,13 @@
         - http://www.purl.org/ogit/ontologyModified
         - http://www.purl.org/ogit/ontologyAdminContact
         - http://www.purl.org/ogit/ontologyTechContact
+        - http://www.purl.org/ogit/ontologyDescription
+        - http://www.purl.org/ogit/ontologyCreated
+        - http://www.purl.org/ogit/ontologyParent
       optional:
         - http://www.purl.org/ogit/ontologyDeleter
         - http://www.purl.org/ogit/ontologyHide
+        - http://www.purl.org/ogit/ontologyValidUntil
     history:
       - id: 1
         date: 2015-05-21
