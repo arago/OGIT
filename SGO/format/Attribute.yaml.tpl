@@ -11,8 +11,8 @@
     admin-contact: "id of user"
     tech-contact: "id of user"
     hide: "true or false, if true, then no html documantion will be create, default is 'false'"
-    validation-type: "validation type"
-    validation-parameter: "validation parameter"
+    validation-type: "validation-type, e.g. regex"
+    validation-parameter: "validation parameter, e.g. ^(blue|red|yellow)$"
     history:
       - id: 1
         date: "date of the change"
