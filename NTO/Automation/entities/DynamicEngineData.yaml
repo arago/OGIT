@@ -1,0 +1,26 @@
+- Entity:
+    id: http://www.purl.org/ogit/Automation/DynamicEngineData
+    name: DynamicEngineData
+    description: |
+      Dynamic information exists within the arago Automation Engine (aAE) used to store volatile data about current state of MARSNode or AutomationIssue.
+    valid-from: 2015-06-25
+    valid-until: 
+    creator: Miroslaw Glusiuk
+    deleter: 
+    created: 2015-06-25
+    modified: 2015-06-25
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    scope: NTO
+    parent: http://www.purl.org/ogit/Node
+    attributes:
+      mandatory:
+      optional:
+        - http://www.purl.org/ogit/creationTime
+        - http://www.purl.org/ogit/modificationTime
+        - http://www.purl.org/ogit/name
+    history:
+      - id: 1
+        date: 2015-06-25
+        description: initial
+        modified-by: Miroslaw Glusiuk
