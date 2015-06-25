@@ -21,13 +21,9 @@
 
     attributes:
       mandatory:
-        - id: "id of the parameter"
-          validation-type: "optional, e.g. regex"
-          validation-parameter: "optional, e.g. ^(blue|red|yellow)$"
-          indexed: "optional, true or false (default is false)"
+        - "id of the parameter"
       optional:
-        - id: "id of the parameter"
-          validation-type: "optional, e.g. regex"
-          validation-parameter: "optional, e.g. ^(blue|red|yellow)$"
-          indexed: "optional, true or false (default is false)"
-
+        - "id of the parameter"
+      indexed:
+        - "id of the parameter"
+      
