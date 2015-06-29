@@ -1,8 +1,8 @@
 - Attribute:
-    id: http://www.purl.org/ogit/connectorID
-    name: connectorID
+    id: http://www.purl.org/ogit/connectorId
+    name: connectorId
     description: |
-      The ID of the connector. 
+      The Id of the connector. 
     valid-from: 2015-06-11
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,7 @@
         date: 2015-06-11
         description: initial
         modified-by: 2015-06-11
+      - id: 2
+        date: 2015-06-29
+        description: updated
+        modified-by: 2015-06-29
