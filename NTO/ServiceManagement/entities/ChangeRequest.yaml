@@ -16,7 +16,6 @@
     attributes:
       mandatory:
         - http://www.purl.org/ogit/id
-        - http://www.purl.org/ogit/justification
       optional:
         - http://www.purl.org/ogit/risk
         - http://www.purl.org/ogit/ServiceManagement/changeStatus
