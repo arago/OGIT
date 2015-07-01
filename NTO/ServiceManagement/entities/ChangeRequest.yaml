@@ -18,6 +18,8 @@
         - http://www.purl.org/ogit/id
       optional:
         - http://www.purl.org/ogit/risk
+        - http://www.purl.org/ogit/justification
+        - http://www.purl.org/ogit/category
         - http://www.purl.org/ogit/ServiceManagement/changeStatus
         - http://www.purl.org/ogit/startAt
         - http://www.purl.org/ogit/finishAt
