@@ -34,6 +34,7 @@
         - http://www.purl.org/ogit/ServiceManagement/implementationPlan
         - http://www.purl.org/ogit/ServiceManagement/solution
         - http://www.purl.org/ogit/ServiceManagement/resolutionCode
+        - http://www.purl.org/ogit/reportedAt
     history:
       - id: 1
         date: 2015-05-21
