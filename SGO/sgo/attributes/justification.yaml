@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/justification
     name: justification 
     description: |
-      Justification for a ChangeRequest.
+      Justification for a ChangeRequest
     valid-from: 2015-07-01
     valid-until: 
     creator: Aymen Ayoub  
