@@ -1,0 +1,22 @@
+- Attribute:
+    id: http://www.purl.org/ogit/reviewedAt
+    name: reviewedAt
+    description: |
+      Defines the time when something was actually reviewed.
+      The values can combin date and time with time zone designator according to ISO 8601.
+      Reviewed time is used in incident management.
+    valid-from: 2015-07-01
+    valid-until: 
+    creator: Aymen Ayoub
+    deleter: 
+    created: 2015-07-01
+    modified: 2015-07-01
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2015-07-01
+        description: initial
+        modified-by: Aymen Ayoub
