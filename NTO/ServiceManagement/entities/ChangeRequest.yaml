@@ -36,6 +36,7 @@
         - http://www.purl.org/ogit/ServiceManagement/resolutionCode
         - http://www.purl.org/ogit/reportedAt
         - http://www.purl.org/ogit/reviewedAt
+        - http://www.purl.org/ogit/assignedGroup
     history:
       - id: 1
         date: 2015-05-21
@@ -43,6 +44,10 @@
         modified-by: Peter Larem
       - id: 2
         date: 2015-07-01
+        description: updated
+        modified-by: Aymen Ayoub
+      - id: 
+        date: 2015-07-03
         description: updated
         modified-by: Aymen Ayoub
         
