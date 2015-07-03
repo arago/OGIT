@@ -21,8 +21,8 @@
         - http://www.purl.org/ogit/justification
         - http://www.purl.org/ogit/category
         - http://www.purl.org/ogit/ServiceManagement/changeStatus
-        - http://www.purl.org/ogit/startAt
-        - http://www.purl.org/ogit/finishAt
+        - http://www.purl.org/ogit/startedAt
+        - http://www.purl.org/ogit/finishedAt
         - http://www.purl.org/ogit/ServiceManagement/targetStartAt
         - http://www.purl.org/ogit/ServiceManagement/targetFinishAt
         - http://www.purl.org/ogit/ServiceManagement/scheduledStartAt
@@ -35,6 +35,7 @@
         - http://www.purl.org/ogit/ServiceManagement/solution
         - http://www.purl.org/ogit/ServiceManagement/resolutionCode
         - http://www.purl.org/ogit/reportedAt
+        - http://www.purl.org/ogit/reviewedAt
     history:
       - id: 1
         date: 2015-05-21
