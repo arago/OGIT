@@ -39,6 +39,10 @@
         to: http://www.purl.org/ogit/ServiceManagement/Service
       - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
         to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ConfigurationItem
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/Location
         
     history:
       - id: 1
