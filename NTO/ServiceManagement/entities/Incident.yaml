@@ -24,6 +24,7 @@
         - http://www.purl.org/ogit/ServiceManagement/resolvedAt
         - http://www.purl.org/ogit/ServiceManagement/sourceStatus
         - http://www.purl.org/ogit/category
+        - http://www.purl.org/ogit/ServiceManagement/customer
         - http://www.purl.org/ogit/assignedGroup
     history:
       - id: 1
