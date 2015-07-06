@@ -33,6 +33,8 @@
         to: http://www.purl.org/ogit/Location
       - from: http://www.purl.org/ogit/ServiceManagement/Incident
         to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/Location
     history:
       - id: 1
         date: 2015-05-21
@@ -40,6 +42,10 @@
         modified-by: Peter Larem
       - id: 2
         date: 2015-05-12
+        description: updated
+        modified-by: Aymen Ayoub
+      - id: 3
+        date: 2015-07-06
         description: updated
         modified-by: Aymen Ayoub
       
