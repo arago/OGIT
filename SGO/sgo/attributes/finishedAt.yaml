@@ -1,6 +1,6 @@
 - Attribute:
-    id: http://www.purl.org/ogit/finishAt
-    name: finishAt
+    id: http://www.purl.org/ogit/finishedAt
+    name: finishedAt
     description: |
       Defines a point in time when the work on a change, task, or similar entity was actually finished.
       The values must be combined date and time with time zone designator according to ISO 8601
@@ -18,4 +18,8 @@
       - id: 1
         date: 2015-05-21
         description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-07-06
+        description: updated
         modified-by: Peter Larem
