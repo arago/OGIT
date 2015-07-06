@@ -1,6 +1,6 @@
 - Attribute:
-    id: http://www.purl.org/ogit/startAt
-    name: startAt
+    id: http://www.purl.org/ogit/startedAt
+    name: startedAt
     description: |
       Defines a point in time when the work on a change, task, or similar entity was actually started.
       The values must be combined date and time with time zone designator according to ISO 8601
@@ -19,3 +19,7 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2015-07-06
+        description: initial
+        modified-by: Aymen Ayoub
