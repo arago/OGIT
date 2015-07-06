@@ -20,12 +20,15 @@
         - http://www.purl.org/ogit/ServiceManagement/incidentStatus
         - http://www.purl.org/ogit/ServiceManagement/solution
         - http://www.purl.org/ogit/ServiceManagement/resolutionCode
-        - http://www.purl.org/ogit/reportedAt
         - http://www.purl.org/ogit/ServiceManagement/resolvedAt
         - http://www.purl.org/ogit/ServiceManagement/sourceStatus
-        - http://www.purl.org/ogit/category
+        - http://www.purl.org/ogit/ServiceManagement/reportedSource
         - http://www.purl.org/ogit/ServiceManagement/customer
+        - http://www.purl.org/ogit/ServiceManagement/task
         - http://www.purl.org/ogit/assignedGroup
+        - http://www.purl.org/ogit/category
+        - http://www.purl.org/ogit/reportedAt
+        
     history:
       - id: 1
         date: 2015-05-21
