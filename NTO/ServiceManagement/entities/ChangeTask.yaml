@@ -23,8 +23,8 @@
         - http://www.purl.org/ogit/ServiceManagement/sourceStatus
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/taskLog
-        - http://www.purl.org/ogit/startAt
-        - http://www.purl.org/ogit/finishAt
+        - http://www.purl.org/ogit/startedAt
+        - http://www.purl.org/ogit/finishedAt
         - http://www.purl.org/ogit/ServiceManagement/targetStartAt
         - http://www.purl.org/ogit/ServiceManagement/targetFinishAt
         - http://www.purl.org/ogit/ServiceManagement/scheduledStartAt
@@ -41,3 +41,7 @@
         description: |
           - Attribute name changed from subStatus to sourceStatus
         modified-by: Catarina Onofre
+      - id: 3
+        date: 2015-07-09
+        description: change attribute ogit/startAt to ogit/startedAt and ogit/finishAt to ogit/finishedAt
+        modified-by: Peter Larem
