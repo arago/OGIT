@@ -4,13 +4,13 @@
     description: |
       An identity that represents an organization, company, or some other grouping of Person objects.
       Entities of this type should be created with a predefined ID. Those IDs should be named like a domain name, i.e.
-      a concatention of some strings separated with a dot. if organization data is created from a LDAP then a mapping 
+      a concatention of some strings separated with a dot. if organization data is created from a LDAP then a mapping
       like "cn=John Doe,dc=example,dc=com" => "john_doe.example.com" should be employed.
       The ogit/function attribute should be used to tell what kind of grouping an entity of type Organization is: company, department, group, ...
     valid-from: 2015-05-21
-    valid-until: 
+    valid-until:
     creator: Peter Larem
-    deleter: 
+    deleter:
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
@@ -18,6 +18,7 @@
     scope: SGO
     parent: http://www.purl.org/ogit/Node
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/ogit/name
       optional:
