@@ -1,27 +1,27 @@
 - Ontology:
-  version: 2.3.0
-  - id: 1.0.0
-    changelog: |
-      initial ontology 
-    date: 2015-05-21
-    creator: Peter Larem
-  - id: 2.0.0
-    changelog: |
-      Refactoring the whole ontology in the course of the "cleanOGIT" project 
-    date: 2015-05-27
-    creator: Peter Larem
-  - id: 2.1.0
-    changelog: |
-      Improving SLA entity by adding new attributes and edges
-    date: 2015-06-08
-    creator: Philipp Pelchmann
-  - id: 2.2.0
-    changelog: |
-      Add new verb ogit/concludes and two connections for that
-    date: 2015-06-18
-    creator: Peter Larem
-  - id: 2.3.0
-    changelog: |
-      Add new verb ogit/worksOn and one connection for that
-    date: 2015-06-24
-    creator: Peter Larem
+    version: 2.3.0
+    - id: 1.0.0
+      changelog: |
+        initial ontology 
+      date: 2015-05-21
+      creator: Peter Larem
+    - id: 2.0.0
+      changelog: |
+        Refactoring the whole ontology in the course of the "cleanOGIT" project 
+      date: 2015-05-27
+      creator: Peter Larem
+    - id: 2.1.0
+      changelog: |
+        Improving SLA entity by adding new attributes and edges
+      date: 2015-06-08
+      creator: Philipp Pelchmann
+    - id: 2.2.0
+      changelog: |
+        Add new verb ogit/concludes and two connections for that
+      date: 2015-06-18
+      creator: Peter Larem
+    - id: 2.3.0
+      changelog: |
+        Add new verb ogit/worksOn and one connection for that
+      date: 2015-06-24
+      creator: Peter Larem
