@@ -23,6 +23,12 @@
         - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 
       modified-by: cwalker@arago.de
+    - id: 3
+      date: 2015-06-09
+      description: |
+        - Added Connection for `ogit/Forum/Profile` -> `ogit/Automation/AutomationIssue`
+
+      modified-by: cwalker@arago.de
     allowed:
     - {from: 'http://www.purl.org/ogit/ServiceManagement/Report', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'}
@@ -31,3 +37,4 @@
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Post'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Reply'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Topic'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Automation/AutomationIssue'}

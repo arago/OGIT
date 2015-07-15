@@ -4,9 +4,9 @@
     description: |
       Verb showing that an entity is physically/virtually connecting to another entity.
     valid-from: 2015-05-21
-    valid-until: 
+    valid-until:
     creator: Peter Larem
-    deleter: 
+    deleter:
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
@@ -25,8 +25,92 @@
         to: http://www.purl.org/ogit/Network/NIC
       - from: http://www.purl.org/ogit/Software/SoftwareComponent
         to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Profile
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2015-06-09
+        description: Adding many connections for NTO/Forum
+        modified-by: cwalker@arago.de
