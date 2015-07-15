@@ -4,9 +4,9 @@
     description: |
       Verb showing if one entity belongs to another.
     valid-from: 2015-05-21
-    valid-until: 
+    valid-until:
     creator: Peter Larem
-    deleter: 
+    deleter:
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
@@ -51,6 +51,8 @@
         to: http://www.purl.org/ogit/Network/Port
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Role
+        to: http://www.purl.org/ogit/Forum/Profile
     history:
       - id: 1
         date: 2015-05-21
