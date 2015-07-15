@@ -69,6 +69,8 @@
         to: http://www.purl.org/ogit/ConfigurationItem
       - from: http://www.purl.org/ogit/ConfigurationItem
         to: http://www.purl.org/ogit/Datacenter/Server
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Automation/MARSNode
       - from: http://www.purl.org/ogit/ServiceManagement/Ticket
         to: http://www.purl.org/ogit/ServiceManagement/Ticket
       - from: http://www.purl.org/ogit/Automation/MARSNodeTemplate
@@ -102,5 +104,5 @@
         modified-by: cwalker@arago.de
       - id: 4
         date: 2015-07-15
-        description: 'Added edge from ogit/ConfigurationItem to ogit/ConfigurationItem and another edge from ogit/ConfigurationItem to /ogit/Datacenter/Server'
+        description: 'Added edge from ogit/ConfigurationItem to ogit/ConfigurationItem, another edge from ogit/ConfigurationItem to /ogit/Datacenter/Server and an edge from ogit/ConfigurationItem to /ogit/Automation/MARSNode'
         modified-by: Aymen Ayoub
