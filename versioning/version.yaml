@@ -1,4 +1,5 @@
-Version:
+- Ontology:
+  version: 2.3.0
   - id: 1.0.0
     changelog: |
       initial ontology 
