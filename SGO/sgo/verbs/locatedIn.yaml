@@ -35,7 +35,7 @@
         to: http://www.purl.org/ogit/Location
       - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
         to: http://www.purl.org/ogit/Location
-      - from: http://www.purl.org/ogit/ConfigurationItem
+      - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/Location
     history:
       - id: 1
@@ -52,6 +52,10 @@
         modified-by: Aymen Ayoub
       - id: 4
         date: 2015-07-15
+        description: updated
+        modified-by: Aymen Ayoub
+      - id: 5
+        date: 2015-07-20
         description: updated
         modified-by: Aymen Ayoub
       
