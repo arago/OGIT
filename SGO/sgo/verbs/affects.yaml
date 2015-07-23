@@ -27,6 +27,8 @@
         to: http://www.purl.org/ogit/Automation/MARSNode
       - from: http://www.purl.org/ogit/ServiceManagement/Incident
         to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/ConfigurationItem
       - from: http://www.purl.org/ogit/ServiceManagement/Problem
         to: http://www.purl.org/ogit/Automation/MARSNode
       - from: http://www.purl.org/ogit/ServiceManagement/Problem
@@ -54,6 +56,6 @@
         description: updated
         modified-by: Aymen Ayoub
       - id: 3
-        date: 2015-07-03
+        date: 2015-07-23
         description: updated
         modified-by: Aymen Ayoub
