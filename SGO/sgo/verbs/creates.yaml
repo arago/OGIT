@@ -27,6 +27,10 @@
       date: 2015-06-09
       description: |
         - Added Connection for `ogit/Forum/Profile` -> `ogit/Automation/AutomationIssue`
+    - id: 4
+      date: 2015-07-24
+      description: |
+        - Added Connection for `/ogit/Organization` -> `/ogit/ConfigurationItem`
 
       modified-by: cwalker@arago.de
     allowed:
@@ -38,3 +42,4 @@
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Reply'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Topic'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Automation/AutomationIssue'}
+    - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/ConfigurationItem'}
