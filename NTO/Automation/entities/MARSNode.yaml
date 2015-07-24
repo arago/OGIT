@@ -23,8 +23,37 @@
         - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
         - http://www.purl.org/ogit/Automation/marsNodeType
         - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/Automation/software
+        - http://www.purl.org/ogit/Automation/softwareKey
+        - http://www.purl.org/ogit/Automation/adminUrl
+        - http://www.purl.org/ogit/Automation/tcpPort
+        - http://www.purl.org/ogit/Automation/licenseAvailability
+        - http://www.purl.org/ogit/Automation/licenseName
+        - http://www.purl.org/ogit/Automation/installPath
+        - http://www.purl.org/ogit/Automation/serviceStatus
+        - http://www.purl.org/ogit/Automation/serviceType
+        - http://www.purl.org/ogit/Automation/serviceName
+        - http://www.purl.org/ogit/Automation/dataClassification
+        - http://www.purl.org/ogit/Automation/dataPrivacy
+        - http://www.purl.org/ogit/Automation/portNumber
+        - http://www.purl.org/ogit/Automation/portNumberListener
+        - http://www.purl.org/ogit/Automation/servletName
+        - http://www.purl.org/ogit/Automation/servletClass
+        - http://www.purl.org/ogit/Automation/contextPath
+        - http://www.purl.org/ogit/Automation/appServer
+        - http://www.purl.org/ogit/Automation/serviceId
+        - http://www.purl.org/ogit/Automation/appInstanceType
+        - http://www.purl.org/ogit/Automation/appInfrastructureType
+        - http://www.purl.org/ogit/Automation/buildName
+        - http://www.purl.org/ogit/Automation/licenseType
+        - http://www.purl.org/ogit/Automation/webServer
+        
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2015-07-24
+        description: updated
+        modified-by: Aymen Ayoub
