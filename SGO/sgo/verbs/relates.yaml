@@ -20,6 +20,8 @@
       - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/Automation/KnowledgeItem
       - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/Automation/MARSNode
       - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/Automation/MARSNodeTemplate
@@ -106,5 +108,9 @@
         modified-by: cwalker@arago.de
       - id: 4
         date: 2015-07-15
+        description: updated
+        modified-by: Aymen Ayoub
+      - id: 5
+        date: 2015-07-24
         description: updated
         modified-by: Aymen Ayoub
