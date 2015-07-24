@@ -18,6 +18,8 @@
       - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/Automation/MARSNode
       - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessProcess
+      - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/ServiceManagement/Service
       - from: http://www.purl.org/ogit/ServiceManagement/Order
         to: http://www.purl.org/ogit/Person
