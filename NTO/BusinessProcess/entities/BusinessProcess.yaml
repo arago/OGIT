@@ -1,0 +1,23 @@
+- Entity:
+    id: http://www.purl.org/ogit/BusinessProcess/BusinessProcess
+    name: BusinessProcess
+    description: |
+      Entity of a business process.
+    valid-from: 2015-07-24
+    valid-until: 
+    creator: Aymen Ayoub
+    deleter: 
+    created: 2015-07-24
+    modified: 2015-07-24
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    scope: NTO
+    parent: http://www.purl.org/ogit/Node
+    attributes:
+      mandatory:
+      optional:
+    history:
+      - id: 1
+        date: 2015-07-24
+        description: initial
+        modified-by: Aymen Ayoub
