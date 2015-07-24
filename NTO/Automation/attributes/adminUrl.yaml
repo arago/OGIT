@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/adminUrl
     name: adminUrl
     description: |
-      The tcp port.
+      
     valid-from: 2015-07-24
     valid-until: 
     creator: Aymen Ayoub
