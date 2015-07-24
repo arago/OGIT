@@ -15,11 +15,13 @@
     allowed:
       - from: http://www.purl.org/ogit/ServiceManagement/Order
         to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Automation/MARSNode
       - from: http://www.purl.org/ogit/ServiceManagement/Order
         to: http://www.purl.org/ogit/Person
       - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
         to: http://www.purl.org/ogit/Automation/MARSNode
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/ServiceManagement/Service
         to: http://www.purl.org/ogit/Person
       - from: http://www.purl.org/ogit/Event
         to: http://www.purl.org/ogit/Automation/MARSNode
@@ -56,6 +58,6 @@
         description: updated
         modified-by: Aymen Ayoub
       - id: 3
-        date: 2015-07-23
+        date: 2015-07-24
         description: updated
         modified-by: Aymen Ayoub
