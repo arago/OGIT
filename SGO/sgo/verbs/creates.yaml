@@ -31,8 +31,8 @@
       date: 2015-07-24
       description: |
         - Added Connection for `/ogit/Organization` -> `/ogit/ConfigurationItem`
-
-      modified-by: cwalker@arago.de
+      modified-by: Aymen Ayoub
+      
     allowed:
     - {from: 'http://www.purl.org/ogit/ServiceManagement/Report', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'}
