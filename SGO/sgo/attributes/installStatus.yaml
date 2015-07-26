@@ -1,0 +1,21 @@
+- Attribute:
+    id: http://www.purl.org/ogit/installStatus
+    name: installStatus
+    description: |
+      An installation status for an entity.
+      At this level of specification no list of values is specified. However, applications using this attribute are expected to allow only a fixed list of values that seems usefual in the application's semantic context.
+    valid-from: 2015-07-27
+    valid-until: 
+    creator: Aymen Ayoub
+    deleter: 
+    created: 2015-07-27
+    modified: 2015-07-27
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2015-07-27
+        description: initial
+        modified-by: Aymen Ayoub
