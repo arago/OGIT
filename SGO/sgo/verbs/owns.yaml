@@ -15,6 +15,8 @@
     allowed:
       - from: http://www.purl.org/ogit/Organization
         to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Automation/MARSNode
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/Vcard
       - from: http://www.purl.org/ogit/Person
@@ -41,5 +43,8 @@
           - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/FeedEntry`
           - Added Connection for `ogit/Forum/Profile` -> `ogit/Notification`
           - Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
-
-        modified-by: cwalker@arago.de
+      - id: 3
+        date: 2015-07-27
+        description: |
+          - Added Connection for `ogit/Organization` -> `ogit/Automation/MARSNode`
+        modified-by: Aymen Ayoub
