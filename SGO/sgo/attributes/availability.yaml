@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/availability
+    name: availability
+    description: |
+      Contains information about the availability of a service/device.
+    valid-from: 2015-07-27
+    valid-until: 
+    creator: Aymen Ayoub
+    deleter: 
+    created: 2015-07-27
+    modified: 2015-07-27
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2015-07-27
+        description: initial
+        modified-by: Aymen Ayoub
