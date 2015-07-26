@@ -49,6 +49,8 @@
         to: http://www.purl.org/ogit/Organization
       - from: http://www.purl.org/ogit/ServiceManagement/Ticket
         to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Person
       - from: http://www.purl.org/ogit/Role
         to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
       - from: http://www.purl.org/ogit/Role
@@ -127,3 +129,8 @@
           - Added Connection for `ogit/Forum/Tag` -> `ogit/Automation/KnowledgeItem`
 
         modified-by: cwalker@arago.de
+      - id: 3
+        date: 2015-07-27
+        description: |
+          - Added Connection for `ogit/Automation/MARSNode` -> `ogit/Person`
+        modified-by: Aymen Ayoub
