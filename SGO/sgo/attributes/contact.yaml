@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/contact
+    name: contact
+    description: |
+      This field displays the CI owner who is the person assigned to the device/CI/component and uses it on a day-to-day basis. Support contacts are secondary contacts who may have access to a CI for example.
+    valid-from: 2015-07-27
+    valid-until: 
+    creator: Aymen Ayoub
+    deleter: 
+    created: 2015-07-27
+    modified: 2015-07-27
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2015-07-27
+        description: initial
+        modified-by: Aymen Ayoub
