@@ -33,6 +33,8 @@
         to: http://www.purl.org/ogit/ServiceManagement/Incident
       - from: http://www.purl.org/ogit/ServiceManagement/Incident
         to: http://www.purl.org/ogit/Task
+      - from: http://www.purl.org/ogit/Software/Connector
+        to: http://www.purl.org/ogit/ConfigurationItem
     history:
       - id: 1
         date: 2015-05-21
@@ -47,4 +49,7 @@
         date: 2015-07-06
         description: updated
         modified-by: Aymen Ayoub
-        
+      - id: 4
+        date: 2015-07-27
+        description: updated
+        modified-by: Aymen Ayoub
