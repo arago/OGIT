@@ -18,10 +18,18 @@
       optional:
         - http://www.purl.org/ogit/firstName
         - http://www.purl.org/ogit/lastName
+        - http://www.purl.org/ogit/middleName
         - http://www.purl.org/ogit/title
         - http://www.purl.org/ogit/alternativeName
         - http://www.purl.org/ogit/email
+        - http://www.purl.org/ogit/officePhone
+        - http://www.purl.org/ogit/otherPhone
+        - http://www.purl.org/ogit/mobilePhone
+        - http://www.purl.org/ogit/fax
+        - http://www.purl.org/ogit/notification
+        - http://www.purl.org/ogit/webPage
         - http://www.purl.org/ogit/sourceId
+        - http://www.purl.org/ogit/status
     history:
       - id: 1
         date: 2015-05-21
@@ -31,4 +39,8 @@
         date: 2015-06-11
         description: added optional attribute /ogit/sourceId
         modified-by: Peter Larem
+      - id: 3
+        date: 2015-07-27
+        description: added optional attribute ogit/middleName, ogit/officePhone, ogit/otherPhone, ogit/mobilePhone, ogit/fax, ogit/webPage, ogit/notification, ogit/status
+        modified-by: Philipp Pelchmann
     
