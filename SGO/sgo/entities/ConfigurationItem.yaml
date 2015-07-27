@@ -18,6 +18,8 @@
         - http://www.purl.org/ogit/name
       optional:
         - http://www.purl.org/ogit/id
+        - http://www.purl.org/ogit/checkedInAt
+        - http://www.purl.org/ogit/checkedOutAt
     history:
       - id: 1
         date: 2015-06-11
