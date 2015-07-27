@@ -25,6 +25,8 @@
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/serialNumber
         - http://www.purl.org/ogit/macAddress
+        - http://www.purl.org/ogit/ipAddress
+        - http://www.purl.org/ogit/manufacturer
         - http://www.purl.org/ogit/Automation/software
         - http://www.purl.org/ogit/Automation/softwareKey
         - http://www.purl.org/ogit/Automation/adminUrl
