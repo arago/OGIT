@@ -2,7 +2,8 @@
     id: http://www.purl.org/ogit/inventoryNumber
     name: inventoryNumber
     description: |
-      Contains the inventory number of a device or a component.
+      This field specifies the inventory component number for the a device as defined by the company-defined  device inventory number in the model table.
+      The system uses this number to provide data on the Manufacturer, Model, and Version fields if available. 
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
