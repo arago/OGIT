@@ -23,6 +23,7 @@
         - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
         - http://www.purl.org/ogit/Automation/marsNodeType
         - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/serialNumber
         - http://www.purl.org/ogit/Automation/software
         - http://www.purl.org/ogit/Automation/softwareKey
         - http://www.purl.org/ogit/Automation/adminUrl
@@ -55,5 +56,9 @@
         modified-by: Peter Larem
       - id: 2
         date: 2015-07-24
+        description: updated
+        modified-by: Aymen Ayoub
+      - id: 3
+        date: 2015-07-27
         description: updated
         modified-by: Aymen Ayoub
