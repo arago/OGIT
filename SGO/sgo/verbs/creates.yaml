@@ -32,6 +32,11 @@
       description: |
         - Added Connection for `/ogit/Organization` -> `/ogit/ConfigurationItem`
       modified-by: Aymen Ayoub
+    - id: 5
+      date: 2015-07-27
+      description: |
+        - Added Connection for `/ogit/Person` -> `/ogit/ConfigurationItem`
+      modified-by: Aymen Ayoub
       
     allowed:
     - {from: 'http://www.purl.org/ogit/ServiceManagement/Report', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
@@ -43,3 +48,4 @@
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Topic'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Automation/AutomationIssue'}
     - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/ConfigurationItem'}
+     - {from: 'http://www.purl.org/ogit/Person', to: 'http://www.purl.org/ogit/ConfigurationItem'}
