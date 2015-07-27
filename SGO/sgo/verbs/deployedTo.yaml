@@ -1,0 +1,22 @@
+- Verb:
+    id: http://www.purl.org/ogit/deployedTo
+    name: deployedTo
+    description: |
+      Verb associates if something was deployed to another entity/component.
+    valid-from: 2015-07-27
+    valid-until: 
+    creator: Aymen Ayoub
+    deleter: 
+    created: 2015-07-27
+    modified: 2015-07-27
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    cardinality:
+    allowed:
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/ConfigurationItem
+    history:
+      - id: 1
+        date: 2015-05-27
+        description: initial
+        modified-by: Aymen Ayoub
