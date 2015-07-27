@@ -93,6 +93,8 @@
         to: http://www.purl.org/ogit/Organization
       - from: 'http://www.purl.org/ogit/Forum/FeedEntry'
         to: 'http://www.purl.org/ogit/Node'
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Asset
     history:
       - id: 1
         date: 2015-05-21
