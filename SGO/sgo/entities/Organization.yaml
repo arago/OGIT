@@ -12,7 +12,7 @@
     creator: Peter Larem
     deleter:
     created: 2015-05-21
-    modified: 2015-05-21
+    modified: 2015-07-27
     admin-contact: arago GmbH
     tech-contact: arago GmbH
     scope: SGO
@@ -26,8 +26,17 @@
         - http://www.purl.org/ogit/function
         - http://www.purl.org/ogit/status
         - http://www.purl.org/ogit/email
+        - http://www.purl.org/ogit/streetAddress
+        - http://www.purl.org/ogit/city
+        - http://www.purl.org/ogit/country
+        - http://www.purl.org/ogit/postalCode
+        - http://www.purl.org/ogit/businessCategory
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2015-07-27
+        description: added optional attributes ogit/streetAddress, ogit/city, ogit/country, ogit/postalCode, ogit/businessCategory
+        modified-by: Philipp Pelchmann
