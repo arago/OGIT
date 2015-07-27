@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/fax
     name: fax
     description: |
-      The phone number in the office. 
+      The number of an fax. 
     valid-from: 2015-07-27
     valid-until: 
     creator: Philipp Pelchmann
