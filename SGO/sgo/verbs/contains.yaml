@@ -231,6 +231,8 @@
         to: http://www.purl.org/ogit/ConfigurationItem
       - from: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'
         to: 'http://www.purl.org/ogit/Automation/AutomationIssue'
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Network/NetworkInterface
 
     history:
       - id: 1
@@ -259,5 +261,7 @@
         modified-by: cwalker@arago.de
       - id: 6
         date: 2015-07-27
-        description: Added a connection from `ogit/ConfigurationItem` -> `ogit/ConfigurationItem`
+        description: 
+          - Added a connection from `ogit/ConfigurationItem` -> `ogit/ConfigurationItem`
+          - Added a connection from `ogit/Automation/MARSNode` -> `/ogit/Network/NetworkInterface`
         modified-by: Aymen Ayoub
