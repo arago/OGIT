@@ -227,6 +227,8 @@
         to: http://www.purl.org/ogit/Automation/DynamicEngineData
       - from: http://www.purl.org/ogit/Automation/AutomationIssue
         to: http://www.purl.org/ogit/Task
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/ConfigurationItem
       - from: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'
         to: 'http://www.purl.org/ogit/Automation/AutomationIssue'
 
@@ -254,5 +256,8 @@
         date: 2015-07-06
         description: |
           - Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/AutomationIssue
-
         modified-by: cwalker@arago.de
+      - id: 6
+        date: 2015-07-27
+        description: Added a connection from `ogit/ConfigurationItem` -> `ogit/ConfigurationItem`
+        modified-by: Aymen Ayoub
