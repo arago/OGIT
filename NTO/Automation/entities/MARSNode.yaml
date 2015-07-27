@@ -49,7 +49,10 @@
         - http://www.purl.org/ogit/Automation/buildName
         - http://www.purl.org/ogit/Automation/licenseType
         - http://www.purl.org/ogit/Automation/webServer
-        
+        - http://www.purl.org/ogit/Automation/osKey
+        - http://www.purl.org/ogit/Automation/osLicense
+        - http://www.purl.org/ogit/Automation/osVersion
+
     history:
       - id: 1
         date: 2015-05-21
@@ -63,3 +66,7 @@
         date: 2015-07-27
         description: updated
         modified-by: Aymen Ayoub
+      - id: 4
+        date: 2015-07-27
+        description: added os informaiton 
+        modified-by: Philipp Pelchmann
