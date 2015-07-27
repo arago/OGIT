@@ -18,6 +18,25 @@
         - http://www.purl.org/ogit/name
       optional:
         - http://www.purl.org/ogit/id
+        - http://www.purl.org/ogit/class
+        - http://www.purl.org/ogit/type
+        - http://www.purl.org/ogit/subType
+        - http://www.purl.org/ogit/status
+        - http://www.purl.org/ogit/category
+        - http://www.purl.org/ogit/Description
+        - http://www.purl.org/ogit/shortDescription
+        - http://www.purl.org/ogit/installStatus
+        - http://www.purl.org/ogit/operationalStatus
+        - http://www.purl.org/ogit/comment
+        - http://www.purl.org/ogit/subCategory
+        - http://www.purl.org/ogit/securityClass
+        - http://www.purl.org/ogit/soxClass
+        - http://www.purl.org/ogit/confidentiality
+        - http://www.purl.org/ogit/integrity
+        - http://www.purl.org/ogit/availability
+        - http://www.purl.org/ogit/contact
+        - http://www.purl.org/ogit/serviceContract
+        - http://www.purl.org/ogit/assignedAt
         - http://www.purl.org/ogit/checkedInAt
         - http://www.purl.org/ogit/checkedOutAt
     history:
