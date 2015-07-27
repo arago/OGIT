@@ -26,6 +26,7 @@
         - http://www.purl.org/ogit/priority
         - http://www.purl.org/ogit/impact
         - http://www.purl.org/ogit/isCritical
+        - http://www.purl.org/ogit/isSupported
         - http://www.purl.org/ogit/businessCriticality
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/version
