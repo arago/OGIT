@@ -23,7 +23,31 @@
         - http://www.purl.org/ogit/subType
         - http://www.purl.org/ogit/status
         - http://www.purl.org/ogit/category
+        - http://www.purl.org/ogit/priority
+        - http://www.purl.org/ogit/impact
+        - http://www.purl.org/ogit/isCritical
+        - http://www.purl.org/ogit/businessCriticality
         - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/version
+        - http://www.purl.org/ogit/inventoryNumber
+        - http://www.purl.org/ogit/invoiceNumber
+        - http://www.purl.org/ogit/productOrderNumber
+        - http://www.purl.org/ogit/leaseContract
+        - http://www.purl.org/ogit/assetTag
+        - http://www.purl.org/ogit/pendingChange
+        - http://www.purl.org/ogit/faultCount
+        - http://www.purl.org/ogit/updateCount
+        - http://www.purl.org/ogit/lastUpdatedAt
+        - http://www.purl.org/ogit/createdAt
+        - http://www.purl.org/ogit/startedAt
+        - http://www.purl.org/ogit/installedAt
+        - http://www.purl.org/ogit/orederedAt
+        - http://www.purl.org/ogit/deliveredAt
+        - http://www.purl.org/ogit/purchasedAt
+        - http://www.purl.org/ogit/lastScannedAt
+        - http://www.purl.org/ogit/endOfWarranty
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/vendor
         - http://www.purl.org/ogit/shortDescription
         - http://www.purl.org/ogit/installStatus
         - http://www.purl.org/ogit/operationalStatus
