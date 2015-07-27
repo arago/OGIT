@@ -34,4 +34,7 @@
         - http://www.purl.org/ogit/_creator
         - http://www.purl.org/ogit/_created-on
         - http://www.purl.org/ogit/_version
+        - http://www.purl.org/ogit/_content
+        - http://www.purl.org/ogit/_tags
+        - http://www.purl.org/ogit/_edge_id
       optional:
