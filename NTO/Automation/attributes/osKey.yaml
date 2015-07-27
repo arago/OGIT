@@ -2,10 +2,10 @@
     id: http://www.purl.org/ogit/Automation/osKey
     name: osKey
     description: |
-        Product key for the operation system. 
+        Product key for the Operating System. 
     valid-from: 2015-07-27
     valid-until: 
-    creator: Aymen Ayoub
+    creator: Philipp Pelchmann
     deleter: 
     created: 2015-07-27
     modified: 2015-07-27
