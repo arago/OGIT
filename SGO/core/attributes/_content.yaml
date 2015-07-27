@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/_content
+    name: _content
+    description: |
+      [internally generated] Used for the elastic search.
+    valid-from: 2015-07-27
+    valid-until: 
+    creator: Peter Larem
+    deleter: 
+    created: 2015-07-27
+    modified: 2015-07-27
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2015-07-27
+        description: initial
+        modified-by: Peter Larem
