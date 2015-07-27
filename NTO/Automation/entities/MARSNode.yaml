@@ -27,6 +27,7 @@
         - http://www.purl.org/ogit/macAddress
         - http://www.purl.org/ogit/ipAddress
         - http://www.purl.org/ogit/manufacturer
+        - http://www.purl.org/ogit/endOfWarranty
         - http://www.purl.org/ogit/Automation/software
         - http://www.purl.org/ogit/Automation/softwareKey
         - http://www.purl.org/ogit/Automation/adminUrl
@@ -54,6 +55,8 @@
         - http://www.purl.org/ogit/Automation/osKey
         - http://www.purl.org/ogit/Automation/osLicense
         - http://www.purl.org/ogit/Automation/osVersion
+        - http://www.purl.org/ogit/Automation/moveToProductionAt
+        
 
     history:
       - id: 1
