@@ -82,7 +82,6 @@
         - http://www.purl.org/ogit/Automation/installCount
         - http://www.purl.org/ogit/Automation/governingContract
         - http://www.purl.org/ogit/Automation/basicConfigId
-        - http://www.purl.org/ogit/Automation/buildType
         - http://www.purl.org/ogit/Automation/virtualSystemName
         - http://www.purl.org/ogit/Automation/middlewareType
         - http://www.purl.org/ogit/Automation/databaseSchema
