@@ -42,7 +42,7 @@
         - http://www.purl.org/ogit/createdAt
         - http://www.purl.org/ogit/startedAt
         - http://www.purl.org/ogit/installedAt
-        - http://www.purl.org/ogit/orederedAt
+        - http://www.purl.org/ogit/orderedAt
         - http://www.purl.org/ogit/deliveredAt
         - http://www.purl.org/ogit/purchasedAt
         - http://www.purl.org/ogit/lastScannedAt
