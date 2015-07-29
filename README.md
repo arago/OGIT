@@ -25,7 +25,7 @@ There is an application called _GraphIT_ that allows to manage IT data through a
 
 Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT_ and _Open Graph of IT ontology_.
 
-## Documentation on Github
+## Documentation on GitHub
 
 1. [Read more](LEARN_MORE.md) about the motivation for OGIT
 
@@ -44,7 +44,7 @@ Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT
 8. [Developer resources](https://autopilot.co/dev) (registration required)
   - [GraphIT API reference](https://autopilot.co/docs/5.1.1/html/content/5.1.1-reference-graphit-admin-rest-interface.html)
 
-## Documentation on Graphit
+## Documentation on graphit.co
 (Pages updated on daily basis)
 
 1. [Ontology documentation](https://graphit.co/ogit_docs/latest) for all OGIT elements
