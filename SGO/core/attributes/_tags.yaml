@@ -1,8 +1,8 @@
 - Attribute:
     id: http://www.purl.org/ogit/_tags
-    name: _content
+    name: _tags
     description: |
-      [internally generated] Used for the elastic search.
+      [internally generated] Used for individual search.
     valid-from: 2015-07-27
     valid-until: 
     creator: Peter Larem
