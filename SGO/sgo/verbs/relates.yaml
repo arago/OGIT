@@ -21,6 +21,8 @@
         to: http://www.purl.org/ogit/Automation/KnowledgeItem
       - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/Software/Application
+        to: http://www.purl.org/ogit/License
       - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/Automation/MARSNode
       - from: http://www.purl.org/ogit/Automation/MARSNode
@@ -122,3 +124,7 @@
         date: 2015-07-27
         description: added from ogit/ConfigurationItem to ogit/Device
         modified-by: Philipp Pelchmann
+      - id: 6
+        date: 2015-08-03
+        description: added from ogit/Software/Application to ogit/License
+        modified-by: FCO
