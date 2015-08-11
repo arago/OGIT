@@ -7,7 +7,7 @@
     creator: Peter Larem
     deleter: ''
     created: '2015-05-19'
-    modified: '2015-05-19'
+    modified: '2015-08-11'
     admin-contact: arago GmbH
     tech-contact: arago GmbH
     history:
@@ -37,6 +37,12 @@
       description: |
         - Added Connection for `/ogit/Person` -> `/ogit/ConfigurationItem`
       modified-by: Aymen Ayoub
+    - id: 6
+      date: 2015-08-11
+      description: |
+        - Added Connections for `Connector` -> `ConfigurationItem`, `ChangeRequest`,`Incident`
+      modified-by: Philipp Pelchmann 
+      
       
     allowed:
     - {from: 'http://www.purl.org/ogit/ServiceManagement/Report', to: 'http://www.purl.org/ogit/ServiceManagement/Service'}
