@@ -49,3 +49,8 @@
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Automation/AutomationIssue'}
     - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/ConfigurationItem'}
     - {from: 'http://www.purl.org/ogit/Person', to: 'http://www.purl.org/ogit/ConfigurationItem'}
+    - {from: 'http://www.purl.org/ogit/Software/Connector', to: 'http://www.purl.org/ogit/ServiceManagement/Incident'}
+    - {from: 'http://www.purl.org/ogit/Software/Connector', to: 'http://www.purl.org/ogit/ConfigurationItem'}
+    - {from: 'http://www.purl.org/ogit/Software/Connector', to: 'http://www.purl.org/ogit/ServiceManagement/ChangeRequest'}
+    
+   
