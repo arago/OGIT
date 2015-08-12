@@ -1,0 +1,23 @@
+- Verb:
+    id: http://www.purl.org/ogit/Forum/rates
+    name: rates
+    description: This verb represents the `Rating` between two nodes
+    creator: bneal@arago.de
+    deleter:
+    created: 2015-08-12
+    modified: 2015-08-12
+    valid-from: 2015-08-12
+    valid-until:
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    allowed:
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Rating
+      - from: http://www.purl.org/ogit/Forum/Rating
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+
+    history:
+      - id: 1
+        date: 2015-08-12
+        description: Initial Creation
+        modified-by: bneal@arago.de
