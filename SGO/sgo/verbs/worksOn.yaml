@@ -16,7 +16,7 @@
       - from: http://www.purl.org/ogit/Automation/KnowledgeItem
         to: http://www.purl.org/ogit/Automation/AutomationIssue
       - from: http://www.purl.org/ogit/Automation/AutomationIssue
-+        to: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Automation/MARSNode
     history:
       - id: 1
         date: 2015-06-24
