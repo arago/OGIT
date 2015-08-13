@@ -8,13 +8,15 @@
     creator: Peter Larem
     deleter: 
     created: 2015-06-24
-    modified: 2015-06-24
+    modified: 2015-08-13
     admin-contact: arago GmbH
     tech-contact: arago GmbH
     cardinality:
     allowed:
       - from: http://www.purl.org/ogit/Automation/KnowledgeItem
         to: http://www.purl.org/ogit/Automation/AutomationIssue
+      - from: http://www.purl.org/ogit/Automation/AutomationIssue
++        to: http://www.purl.org/ogit/Automation/MARSNode
     history:
       - id: 1
         date: 2015-06-24
@@ -24,3 +26,7 @@
         date: 2015-08-12
         description: connection fixed
         modified-by: FCO
+      - id: 3
+        date: 2015-08-13
+        description: connection added
+        modified-by: Peter Larem
