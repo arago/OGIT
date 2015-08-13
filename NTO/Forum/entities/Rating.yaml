@@ -1,0 +1,24 @@
+- Entity:
+    id: http://www.purl.org/ogit/Forum/Rating
+    name: Rating
+    description: Rating is used to rank nodes based on an arbitrary integer `value`
+    creator: bneal@arago.de
+    deleter:
+    created: 2015-08-12
+    modified: 2015-08-12
+    valid-from: 2015-08-12
+    valid-until:
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    scope: NTO
+    parent: http://www.purl.org/ogit/Node
+    history:
+      - id: 1
+        date: 2015-08-12
+        description: Initial Creation
+        modified-by: bneal@arago.de
+
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/value
+      optional:
