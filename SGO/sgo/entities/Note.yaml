@@ -20,7 +20,6 @@
         modified-by: Peter Larem
 
     attributes:
-      any: true
       mandatory:
       optional:
         - http://www.purl.org/ogit/name
