@@ -28,7 +28,6 @@
         - http://www.purl.org/ogit/isCritical
         - http://www.purl.org/ogit/isSupported
         - http://www.purl.org/ogit/businessCriticality
-        - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/version
         - http://www.purl.org/ogit/inventoryNumber
         - http://www.purl.org/ogit/invoiceNumber
@@ -78,3 +77,7 @@
         date: 2015-08-17
         description: updated
         modified-by: Peter Larem
+      - id: 4
+        date: 2015-08-17
+        description: updated
+        modified-by: Aymen Ayoub
