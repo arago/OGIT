@@ -41,6 +41,7 @@
         - http://www.purl.org/ogit/Automation/dataClassification
         - http://www.purl.org/ogit/Automation/dataPrivacy
         - http://www.purl.org/ogit/Automation/portNumber
+        - http://www.purl.org/ogit/Automation/serialNumber
         - http://www.purl.org/ogit/Automation/portNumberListener
         - http://www.purl.org/ogit/Automation/servletName
         - http://www.purl.org/ogit/Automation/servletClass
@@ -111,6 +112,6 @@
         modified-by: Philipp Pelchmann
       - id: 5
         date: 2015-08-19
-        description: added buildType 
+        description: added buildType and serialNumber
         modified-by: Aymen Ayoub
       
