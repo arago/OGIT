@@ -58,6 +58,7 @@
         - http://www.purl.org/ogit/Automation/appInstanceType
         - http://www.purl.org/ogit/Automation/appInfrastructureType
         - http://www.purl.org/ogit/Automation/buildName
+        - http://www.purl.org/ogit/Automation/buildType
         - http://www.purl.org/ogit/Automation/licenseType
         - http://www.purl.org/ogit/Automation/webServer
         - http://www.purl.org/ogit/Automation/osKey
@@ -108,3 +109,8 @@
         date: 2015-07-27
         description: added os informaiton 
         modified-by: Philipp Pelchmann
+      - id: 5
+        date: 2015-08-19
+        description: added buildType 
+        modified-by: Aymen Ayoub
+      
