@@ -33,6 +33,7 @@
         - http://www.purl.org/ogit/invoiceNumber
         - http://www.purl.org/ogit/productOrderNumber
         - http://www.purl.org/ogit/leaseContract
+        - http://www.purl.org/ogit/asset
         - http://www.purl.org/ogit/assetTag
         - http://www.purl.org/ogit/pendingChange
         - http://www.purl.org/ogit/faultCount
