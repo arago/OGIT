@@ -16,8 +16,8 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
+         - http://www.purl.org/ogit/id
       optional:
-        - http://www.purl.org/ogit/id
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/url
         - http://www.purl.org/ogit/type
