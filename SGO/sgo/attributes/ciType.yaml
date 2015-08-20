@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/ciType
+    name: ciType
+    description: |
+      Type of a configuration item. For example: VM, Server or Device.
+    valid-from: 2015-08-20
+    valid-until: 
+    creator: Aymen Ayoub
+    deleter: 
+    created: 2015-08-20
+    modified: 2015-08-20
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2015-08-20
+        description: initial
+        modified-by: Aymen Ayoub
