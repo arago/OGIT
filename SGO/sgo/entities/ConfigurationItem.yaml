@@ -20,6 +20,7 @@
         - http://www.purl.org/ogit/id
         - http://www.purl.org/ogit/class
         - http://www.purl.org/ogit/type
+        - http://www.purl.org/ogit/ciType
         - http://www.purl.org/ogit/subType
         - http://www.purl.org/ogit/status
         - http://www.purl.org/ogit/category
@@ -81,6 +82,6 @@
         description: updated
         modified-by: Peter Larem
       - id: 4
-        date: 2015-08-19
+        date: 2015-08-20
         description: updated
         modified-by: Aymen Ayoub
