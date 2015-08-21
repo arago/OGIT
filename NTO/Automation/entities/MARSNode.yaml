@@ -91,7 +91,6 @@
         - http://www.purl.org/ogit/Automation/systemType
         - http://www.purl.org/ogit/Automation/systemClass
         - http://www.purl.org/ogit/Automation/patchNumber
-        - http://www.purl.org/ogit/Automation/software
         
     history:
       - id: 1
