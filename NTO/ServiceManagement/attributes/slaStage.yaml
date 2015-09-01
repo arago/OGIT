@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/ServiceManagement/slaStage
     name: slaStage
     description: |
-      Stage of an SLA containing one of the following values: In progress|Breached|Achieved|Cancelled|Completed|Paused.
+      Stage of an SLA.
     valid-from: 2015-06-08
     valid-until: 
     creator: Aymen Ayoub
