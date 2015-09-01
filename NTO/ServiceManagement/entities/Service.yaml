@@ -15,13 +15,17 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
+        - http://www.purl.org/ogit/id
       optional:
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/name
-        - http://www.purl.org/ogit/id
         - http://www.purl.org/ogit/uri
     history:
       - id: 1
         date: 2015-05-21
         description: initial
-        modified-by: Peter Larem
+        modified-by: Peter Larem#
+      - id: 2
+        date: 2015-09-01
+        description: updated
+        modified-by: Aymen Ayoub
