@@ -15,9 +15,9 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/name
-      optional:
         - http://www.purl.org/ogit/id
+      optional:
+        - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/externalId
         - http://www.purl.org/ogit/class
         - http://www.purl.org/ogit/type
@@ -84,5 +84,9 @@
         modified-by: Peter Larem
       - id: 4
         date: 2015-08-21
+        description: updated
+        modified-by: Aymen Ayoub
+      - id: 4
+        date: 2015-09-01
         description: updated
         modified-by: Aymen Ayoub
