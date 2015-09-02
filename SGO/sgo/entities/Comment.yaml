@@ -15,8 +15,8 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-      - http://www.purl.org/ogit/id
       optional:
+      - http://www.purl.org/ogit/id
       - http://www.purl.org/ogit/content
     history:
       - id: 1
@@ -26,4 +26,8 @@
       - id: 2
         date: 2015-08-20
         description: updated Attribute ogit/id and ogit/content added.
+        modified-by: Aymen Ayoub
+      - id: 3
+        date: 2015-09-01
+        description: updated Attribute ogit/id to be optional.
         modified-by: Aymen Ayoub
