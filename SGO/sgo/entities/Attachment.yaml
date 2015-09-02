@@ -16,8 +16,8 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/id
       optional:
+        - http://www.purl.org/ogit/id
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/url
         - http://www.purl.org/ogit/type
@@ -36,5 +36,9 @@
       - id: 2
         date: 2015-08-20
         description: updated
+        modified-by: Aymen Ayoub
+      - id: 3
+        date: 2015-09-01
+        description: updated /ogit/id to be an optional attribute.
         modified-by: Aymen Ayoub
         
