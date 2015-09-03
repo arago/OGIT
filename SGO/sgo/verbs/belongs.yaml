@@ -55,6 +55,8 @@
         to: http://www.purl.org/ogit/Forum/Profile
       - from: http://www.purl.org/ogit/Comment
         to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/License
     history:
       - id: 1
         date: 2015-05-21
@@ -68,3 +70,7 @@
         date: 2015-08-20
         description: added Link
         modified-by: Aymen Ayoub
+      - id: 4
+        date: 2015-09-03
+        description: add connection Attachment -> License
+        modified-by: Peter Larem
