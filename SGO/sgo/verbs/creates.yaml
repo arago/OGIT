@@ -42,6 +42,11 @@
       description: |
         - Added Connections for `Connector` -> `ConfigurationItem`, `ChangeRequest`,`Incident`
       modified-by: Philipp Pelchmann 
+    - id: 7
+      date: 2015-04-09
+      description: Added edge for `ogit/Forum/Profile` -> `ogit/Forum/Invite`, `ogit/Forum/Permission`
+      modified-by: bmoore@arago.de
+        
       
       
     allowed:
@@ -58,5 +63,7 @@
     - {from: 'http://www.purl.org/ogit/Software/Connector', to: 'http://www.purl.org/ogit/ServiceManagement/Incident'}
     - {from: 'http://www.purl.org/ogit/Software/Connector', to: 'http://www.purl.org/ogit/ConfigurationItem'}
     - {from: 'http://www.purl.org/ogit/Software/Connector', to: 'http://www.purl.org/ogit/ServiceManagement/ChangeRequest'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Invite'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Permission'}
     
    
