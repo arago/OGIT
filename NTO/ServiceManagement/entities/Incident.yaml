@@ -15,8 +15,8 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/id
       optional:
+        - http://www.purl.org/ogit/id
         - http://www.purl.org/ogit/ServiceManagement/incidentStatus
         - http://www.purl.org/ogit/ServiceManagement/solution
         - http://www.purl.org/ogit/ServiceManagement/resolutionCode
@@ -45,6 +45,10 @@
       - id: 4
         date: 2015-07-06
         description: attribute assignedGroup added
+        modified-by: Aymen Ayoub 
+      - id: 5
+        date: 2015-09-04
+        description: attribute ogit/id moved to be optional
         modified-by: Aymen Ayoub 
         
       
