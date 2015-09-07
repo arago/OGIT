@@ -15,9 +15,9 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/ServiceManagement/problemStatus
         - http://www.purl.org/ogit/id
       optional:
+        - http://www.purl.org/ogit/ServiceManagement/problemStatus
         - http://www.purl.org/ogit/reportedAt
         - http://www.purl.org/ogit/ServiceManagement/solution
         - http://www.purl.org/ogit/ServiceManagement/resolutionCode
@@ -28,3 +28,7 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2015-09-07
+        description: updated problemStatus as optional attribute.
+        modified-by: Aymen Ayoub
