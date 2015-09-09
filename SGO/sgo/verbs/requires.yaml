@@ -37,8 +37,14 @@
         to: http://www.purl.org/ogit/ServiceManagement/Action
       - from: http://www.purl.org/ogit/ServiceManagement/Service
         to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/Forum/Topic
+        to: http://www.purl.org/ogit/Forum/Permission
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+      - id: 2
+        date: 2015-09-03
+        description: Added edge Topic -> Permission
+        modified-by: bmoore@arago.de

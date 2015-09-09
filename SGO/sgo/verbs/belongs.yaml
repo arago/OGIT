@@ -59,6 +59,8 @@
         to: http://www.purl.org/ogit/License
       - from: http://www.purl.org/ogit/Attachment
         to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Organization
     history:
       - id: 1
         date: 2015-05-21
@@ -76,3 +78,7 @@
         date: 2015-09-03
         description: add connection Attachment -> License, Contract
         modified-by: Peter Larem
+      - id: 5
+        date: 2015-09-04
+        description: add edge Profile -> Organization
+        modified-by: bmoore@arago.de
