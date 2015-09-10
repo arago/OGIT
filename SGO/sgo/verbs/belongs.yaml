@@ -58,7 +58,7 @@
       - from: http://www.purl.org/ogit/Attachment
         to: http://www.purl.org/ogit/License
       - from: http://www.purl.org/ogit/Attachment
-        to: http://www.purl.org/ogit/License
+        to: http://www.purl.org/ogit/Contract
       - from: http://www.purl.org/ogit/Forum/Profile
         to: http://www.purl.org/ogit/Organization
     history:
