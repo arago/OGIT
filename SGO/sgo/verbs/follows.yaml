@@ -175,8 +175,14 @@
         to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
       - from: http://www.purl.org/ogit/BusinessProcess/UserTask
         to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Person
     history:
       - id: 1
         date: 2015-05-21
         description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-09-15
+        description: add connection Person -> Person
         modified-by: Peter Larem
