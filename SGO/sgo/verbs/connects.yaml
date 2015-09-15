@@ -105,6 +105,8 @@
         to: http://www.purl.org/ogit/Forum/Topic
       - from: http://www.purl.org/ogit/Comment
         to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Account
+        to: http://www.purl.org/ogit/Person
     history:
       - id: 1
         date: 2015-05-21
@@ -114,3 +116,7 @@
         date: 2015-06-09
         description: Adding many connections for NTO/Forum
         modified-by: cwalker@arago.de
+      - id: 3
+        date: 2015-09-15
+        description: Adding connection for Account -> Person
+        modified-by: Peter Larem
