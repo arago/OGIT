@@ -19,6 +19,7 @@
         - http://www.purl.org/ogit/id
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/email
     history:
       - id: 1
         date: 2015-09-15
