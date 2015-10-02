@@ -65,6 +65,8 @@
         to: http://www.purl.org/ogit/Person
       - from: http://www.purl.org/ogit/Attachment
         to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Person
     history:
       - id: 1
         date: 2015-05-21
@@ -89,4 +91,8 @@
       - id: 6
         date: 2015-09-17
         description: add connection Attachment -> Person, Organization
+        modified-by: Peter Larem
+      - id: 7
+        date: 2015-10-02
+        description: add connection /Forum/Profile -> Person
         modified-by: Peter Larem
