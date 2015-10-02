@@ -55,3 +55,10 @@
           Added some entities and verbs for account.graphit.co. e.g. ogit/Account, ogit/like, dislike, ogit/competes...
         date: 2015-09-18
         creator: Peter Larem
+    history:
+      - id: 2.7.0
+        changelog: |
+          Added ogit/Forum/Profile => ogit/belongs => ogit/Person
+        date: 2015-08-11
+        creator: Peter Larem
+        
