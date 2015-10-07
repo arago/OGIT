@@ -61,4 +61,10 @@
           Added ogit/Forum/Profile => ogit/belongs => ogit/Person
         date: 2015-08-11
         creator: Peter Larem
+    history:
+      - id: 2.8.0
+        changelog: |
+          Added attributes modificationTime and creationTime in entities ogit/Automation/AutomationIsse and ogit/Automation/MARSNode
+        date: 2015-10-07
+        creator: Peter Larem
         
