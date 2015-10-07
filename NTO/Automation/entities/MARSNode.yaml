@@ -91,6 +91,8 @@
         - http://www.purl.org/ogit/Automation/systemType
         - http://www.purl.org/ogit/Automation/systemClass
         - http://www.purl.org/ogit/Automation/patchNumber
+        - http://www.purl.org/ogit/modificationTime
+        - http://www.purl.org/ogit/creationTime
         
     history:
       - id: 1
@@ -113,4 +115,8 @@
         date: 2015-08-19
         description: added buildType and serialNumber
         modified-by: Aymen Ayoub
+      - id: 6
+        date: 2015-10-07
+        description: add attributes modificationTime and creationTime
+        modified-by: Peter Larem
       
