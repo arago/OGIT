@@ -18,7 +18,7 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
-     - id: 2
+      - id: 2
         date: 2015-10-07
         description: delete regex
         modified-by: Peter Larem
