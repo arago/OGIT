@@ -26,6 +26,8 @@
         - http://www.purl.org/ogit/status
         - http://www.purl.org/ogit/subject
         - http://www.purl.org/ogit/Automation/processingTimestamp
+        - http://www.purl.org/ogit/modificationTime
+        - http://www.purl.org/ogit/creationTime
     history:
       - id: 1
         date: 2015-05-21
@@ -34,4 +36,8 @@
       - id: 2
         date: 2015-05-26
         description: change entity name
+        modified-by: Peter Larem
+      - id: 3
+        date: 2015-10-07
+        description: add attributes modificationTime and creationTime
         modified-by: Peter Larem
