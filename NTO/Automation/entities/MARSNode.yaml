@@ -93,7 +93,7 @@
         - http://www.purl.org/ogit/Automation/patchNumber
         - http://www.purl.org/ogit/modificationTime
         - http://www.purl.org/ogit/creationTime
-    indexed:
+      indexed:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
         
