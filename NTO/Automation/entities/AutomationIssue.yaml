@@ -28,6 +28,9 @@
         - http://www.purl.org/ogit/Automation/processingTimestamp
         - http://www.purl.org/ogit/modificationTime
         - http://www.purl.org/ogit/creationTime
+      indexed:
+        - http://www.purl.org/ogit/subject
+        - http://www.purl.org/ogit/Automation/issueFormalRepresentation
     history:
       - id: 1
         date: 2015-05-21
