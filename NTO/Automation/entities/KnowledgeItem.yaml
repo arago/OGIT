@@ -31,6 +31,9 @@
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/changeLog
         - http://www.purl.org/ogit/accessControl
+      indexed:
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description
     history:
       - id: 1
         date: 2015-05-21
