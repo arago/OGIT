@@ -107,6 +107,10 @@
         to: http://www.purl.org/ogit/Forum/Profile
       - from: http://www.purl.org/ogit/Account
         to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/License
     history:
       - id: 1
         date: 2015-05-21
@@ -119,4 +123,8 @@
       - id: 3
         date: 2015-09-15
         description: Adding connection for Account -> Person
+        modified-by: Peter Larem
+      - id: 4
+        date: 2015-10-15
+        description: Adding connection for Comment -> Contract, License
         modified-by: Peter Larem
