@@ -229,6 +229,8 @@
         to: http://www.purl.org/ogit/Task
       - from: http://www.purl.org/ogit/ConfigurationItem
         to: http://www.purl.org/ogit/ConfigurationItem
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Automation/MARSNode
       - from: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'
         to: 'http://www.purl.org/ogit/Automation/AutomationIssue'
       - from: http://www.purl.org/ogit/Automation/MARSNode
@@ -264,4 +266,9 @@
         description: 
           - Added a connection from `ogit/ConfigurationItem` -> `ogit/ConfigurationItem`
           - Added a connection from `ogit/Automation/MARSNode` -> `/ogit/Network/NetworkInterface`
+        modified-by: Aymen Ayoub
+      - id: 7
+        date: 2015-10-15
+        description: 
+          - Added a connection from `ogit/Automation/MARSNode` -> `ogit/Automation/MARSNode`
         modified-by: Aymen Ayoub
