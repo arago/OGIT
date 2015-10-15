@@ -31,6 +31,7 @@
         - http://www.purl.org/ogit/country
         - http://www.purl.org/ogit/postalCode
         - http://www.purl.org/ogit/businessCategory
+        - http://www.purl.org/ogit/webPage
     history:
       - id: 1
         date: 2015-05-21
@@ -40,3 +41,7 @@
         date: 2015-07-27
         description: added optional attributes ogit/streetAddress, ogit/city, ogit/country, ogit/postalCode, ogit/businessCategory
         modified-by: Philipp Pelchmann
+      - id: 3
+        date: 2015-10-15
+        description: added optional attribute ogit/webPage
+        modified-by: Aymen Ayoub
