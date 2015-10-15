@@ -17,6 +17,8 @@
         to: http://www.purl.org/ogit/ConfigurationItem
       - from: http://www.purl.org/ogit/ConfigurationItem
         to: http://www.purl.org/ogit/ConfigurationItem
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Automation/MARSNode
     history:
       - id: 1
         date: 2015-07-24
@@ -25,4 +27,8 @@
       - id: 2
         date: 2015-07-27
         description: updated edge from ogit/ConfigurationItem -> ogit/ConfigurationItem added
+        modified-by: Aymen Ayoub
+      - id: 3
+        date: 2015-10-15
+        description: updated edge from ogit/Automation/MARSNode -> ogit/Automation/MARSNode added
         modified-by: Aymen Ayoub
