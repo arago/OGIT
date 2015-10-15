@@ -82,7 +82,6 @@
         - http://www.purl.org/ogit/Automation/brand
         - http://www.purl.org/ogit/Automation/fqdn
         - http://www.purl.org/ogit/Automation/installCount
-        - http://www.purl.org/ogit/Automation/governingContract
         - http://www.purl.org/ogit/Automation/basicConfigId
         - http://www.purl.org/ogit/Automation/virtualSystemName
         - http://www.purl.org/ogit/Automation/middlewareType
@@ -122,4 +121,8 @@
         date: 2015-10-07
         description: add attributes modificationTime and creationTime
         modified-by: Peter Larem
+      - id: 7
+        date: 2015-10-15
+        description: deleted the governingConract attribute
+        modified-by: Aymen Ayoub
       
