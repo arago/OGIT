@@ -62,6 +62,7 @@
         - http://www.purl.org/ogit/integrity
         - http://www.purl.org/ogit/availability
         - http://www.purl.org/ogit/contact
+        - http://www.purl.org/ogit/Automation/governingContract
         - http://www.purl.org/ogit/serviceContract
         - http://www.purl.org/ogit/assignedAt
         - http://www.purl.org/ogit/checkedInAt
@@ -88,5 +89,9 @@
         modified-by: Aymen Ayoub
       - id: 5
         date: 2015-09-01
+        description: updated
+        modified-by: Aymen Ayoub
+      - id: 6
+        date: 2015-10-15
         description: updated
         modified-by: Aymen Ayoub
