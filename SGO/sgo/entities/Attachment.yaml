@@ -27,6 +27,7 @@
         - http://www.purl.org/ogit/lastUpdatedBy
         - http://www.purl.org/ogit/lastUpdatedAt
         - http://www.purl.org/ogit/content
+        - http://www.purl.org/ogit/size
         
     history:
       - id: 1
@@ -41,4 +42,8 @@
         date: 2015-09-01
         description: updated /ogit/id to be an optional attribute.
         modified-by: Aymen Ayoub
+      - id: 4
+        date: 2015-10-15
+        description: add size attribute.
+        modified-by: arago Technologies
         
