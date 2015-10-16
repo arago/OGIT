@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/Datacenter/rackUnit
+    name: rackUnit
+    description: |
+      The name of the RackUnit within a datacenter.
+    valid-from: 2015-10-15
+    valid-until: 
+    creator: Aymen Ayoub
+    deleter: 
+    created: 2015-10--15
+    modified: 2015-10-15
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2015-10-15
+        description: initial
+        modified-by: Aymen Ayoub
