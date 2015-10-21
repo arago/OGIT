@@ -24,9 +24,15 @@
         to: http://www.purl.org/ogit/Forum/KnowledgeBundle
       - from: http://www.purl.org/ogit/Forum/Profile
         to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/FeedEntry
 
     history:
       - id: 1
         date: 2015-04-27
         description: intitial inception
-    modified-by: cwalker@arago.de
+        modified-by: cwalker@arago.de
+      - id: 2
+        date: 2015-10-21
+        description: Adding Profile ->
+        modified-by: cwalker@arago.de
