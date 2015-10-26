@@ -93,6 +93,7 @@
         - http://www.purl.org/ogit/Datacenter/rackUnit
         - http://www.purl.org/ogit/modificationTime
         - http://www.purl.org/ogit/creationTime
+        - http://www.purl.org/ogit/connectorId
       indexed:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
@@ -130,4 +131,7 @@
         date: 2015-10-16
         description: added a new attribute rackUnit
         modified-by: Aymen Ayoub
-      
+      - id: 9
+        date: 2015-10-26
+        description: added a new attribute ogit/connectorId
+        modified-by: Peter Larem
