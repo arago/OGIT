@@ -95,6 +95,8 @@
         - http://www.purl.org/ogit/creationTime
         - http://www.purl.org/ogit/connectorId
         - http://www.purl.org/ogit/id
+        - http://www.purl.org/ogit/Automation/companyName
+        - http://www.purl.org/ogit/Automation/projectName
       indexed:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
@@ -139,4 +141,8 @@
       - id: 10
         date: 2015-10-29
         description: added a new attribute ogit/id
+        modified-by: Peter Larem
+      - id: 11
+        date: 2015-11-02
+        description: added a new attribute ogit/Automation/companyName and ogit/Automation/projectName
         modified-by: Peter Larem
