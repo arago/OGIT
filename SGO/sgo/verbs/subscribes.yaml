@@ -15,7 +15,7 @@
     valid-until:
     allowed:
       - from: http://www.purl.org/ogit/Forum/Profile
-        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
       - from: http://www.purl.org/ogit/Forum/Profile
         to: http://www.purl.org/ogit/Forum/Topic
       - from: http://www.purl.org/ogit/Forum/Profile
@@ -36,3 +36,7 @@
         date: 2015-10-21
         description: Adding Profile ->
         modified-by: cwalker@arago.de
+      - id: 3
+        date: 2015-11-13
+        description: Edit for KnowledgeItemHistory
+        modified-by: bmoore@arago.de

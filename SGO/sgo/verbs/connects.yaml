@@ -111,6 +111,26 @@
         to: http://www.purl.org/ogit/Contract
       - from: http://www.purl.org/ogit/Comment
         to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/Profile
     history:
       - id: 1
         date: 2015-05-21
@@ -128,3 +148,7 @@
         date: 2015-10-15
         description: Adding connection for Comment -> Contract, License
         modified-by: Peter Larem
+      - id: 5
+        date: 2015-11-13
+        description: Adding many more connections for NTO/Forum (KnowledgeItemHistory)
+        modified-by: bmoore@arago.de

@@ -17,7 +17,7 @@
       - from: http://www.purl.org/ogit/Forum/Profile
         to: http://www.purl.org/ogit/Forum/KnowledgeBundle
       - from: http://www.purl.org/ogit/Forum/Profile
-        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
       - from: http://www.purl.org/ogit/Forum/Profile
         to: http://www.purl.org/ogit/Forum/Post
       - from: http://www.purl.org/ogit/Forum/Profile
@@ -27,3 +27,7 @@
         date: 2015-04-27
         description: intitial inception
         modified-by: cwalker@arago.de
+      - id: 2
+        date: 2015-11-13
+        description: Edit for KnowledgeItemHistory
+        modified-by: bmoore@arago.de

@@ -46,6 +46,10 @@
       date: 2015-04-09
       description: Added edge for `ogit/Forum/Profile` -> `ogit/Forum/Invite`, `ogit/Forum/Permission`
       modified-by: bmoore@arago.de
+    - id: 8
+      date: 2015-11-13
+      description: Added edge for `ogit/Forum/Profile` -> `ogit/Forum/KnowledgeItemHistory`
+      modified-by: bmoore@arago.de
         
       
       
@@ -65,5 +69,6 @@
     - {from: 'http://www.purl.org/ogit/Software/Connector', to: 'http://www.purl.org/ogit/ServiceManagement/ChangeRequest'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Invite'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Permission'}
+    - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/KnowledgeItemHistory'}
     
    
