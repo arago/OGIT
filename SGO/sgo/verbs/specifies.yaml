@@ -23,6 +23,8 @@
         to: 'http://www.purl.org/ogit/Forum/Post'
       - from: 'http://www.purl.org/ogit/Forum/ShortId'
         to: 'http://www.purl.org/ogit/Automation/KnowledgeItem'
+      - from: 'http://www.purl.org/ogit/Forum/ShortId'
+        to: 'http://www.purl.org/ogit/Forum/KnowledgeItemHistory'
     history:
       - id: 1
         date: 2015-05-21
@@ -35,3 +37,7 @@
           - Adding connection from `ogit/Forum/ShortId` -> `ogit/Automation/KnowledgeItem`
 
         modified-by: cwalker@arago.de
+      - id: 3
+        date: 2015-11-13
+        description: Added for KnowledgeItemHistory
+        modified-by: bmoore@arago.de

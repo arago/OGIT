@@ -1,0 +1,37 @@
+- Entity:
+    id:   "http://www.purl.org/ogit/Forum/KnowledgeItemHistory"
+    name: "KnowledgeItemHistory"
+    description: "A data container of `ogit/Automation/KnowledgeItem`s changes."
+    valid-from: "2015-11-13"
+    valid-until:
+    creator: "bmmore@arago.de"
+    deleter:
+    created:  "2015-04-27"
+    modified: "2015-04-27"
+    admin-contact: "arago GmbH"
+    tech-contact: "arago GmbH"
+    scope: "NTO"
+    parent: "http://www.purl.org/ogit/Node"
+    history:
+      - id: 1
+        date: "2015-11-13"
+        description: "Initial Creation"
+        modified-by: "bmoore@arago.de"
+
+    attributes:
+      any: true
+      mandatory:
+        - http://www.purl.org/ogit/Automation/knowledgeItemFormalRepresentation
+        - http://www.purl.org/ogit/Automation/deployToEngine
+      optional:
+        - http://www.purl.org/ogit/modificationTime
+        - http://www.purl.org/ogit/isValid
+        - http://www.purl.org/ogit/Automation/knowledgeItemTier
+        - http://www.purl.org/ogit/creationTime
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description
+        - http://www.purl.org/ogit/changeLog
+        - http://www.purl.org/ogit/accessControl
+      indexed:
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description

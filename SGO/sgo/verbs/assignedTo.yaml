@@ -115,6 +115,8 @@
         to: http://www.purl.org/ogit/Forum/Post
       - from: http://www.purl.org/ogit/Forum/Tag
         to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Forum/Tag
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
 
     history:
       - id: 1
@@ -139,3 +141,9 @@
         description: |
           - changed direction of ogit/Role to ogit/*Task
         modified-by: Peter Larem
+      - id: 5
+        date: 2015-11-13
+        description: |
+          - Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeItemHistory`
+
+        modified-by: bmoore@arago.de

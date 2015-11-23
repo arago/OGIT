@@ -99,6 +99,8 @@
         to: http://www.purl.org/ogit/Asset
       - from: http://www.purl.org/ogit/ConfigurationItem
         to: http://www.purl.org/ogit/Device
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
     history:
       - id: 1
         date: 2015-05-21
