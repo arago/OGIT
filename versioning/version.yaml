@@ -67,4 +67,10 @@
           Added attributes modificationTime and creationTime in entities ogit/Automation/AutomationIsse and ogit/Automation/MARSNode
         date: 2015-10-07
         creator: Peter Larem
+    history:
+      - id: 2.9.0
+        changelog: |
+          Added ogit/Forum/KnowledgeItemHistory and hoisted TabTab based edges for ogit/Automation/KnowledgeItem to new entity
+        date: 2015-11-23
+        creator: Brendan Moore
         
