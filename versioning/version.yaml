@@ -73,4 +73,10 @@
           Added ogit/Forum/KnowledgeItemHistory and hoisted TabTab based edges for ogit/Automation/KnowledgeItem to new entity
         date: 2015-11-23
         creator: Brendan Moore
+    history:
+      - id: 2.10.0
+        changelog: |
+          Added ogit/Forum/Group & ogit/Forum/Role and moved TabTab based edges for ogit/Organization & ogit/Organization to new entities
+        date: 2015-12-04
+        creator: Brendan Moore
         
