@@ -61,7 +61,7 @@
         to: http://www.purl.org/ogit/Asset
       - from: http://www.purl.org/ogit/ServiceManagement/ApprovalTask
         to: http://www.purl.org/ogit/Task
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeTask
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
         to: http://www.purl.org/ogit/Task
       - from: http://www.purl.org/ogit/ConfigurationItem
         to: http://www.purl.org/ogit/Automation/MARSNode
@@ -97,4 +97,7 @@
         date: 2015-09-04
         description: Added edge Invite -> Topic
         modified-by: bmoore@arago.de
-      
+      - id: 6
+        date: 2015-12-10
+        description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
+        modified-by: Peter Larem
