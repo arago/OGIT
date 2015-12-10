@@ -31,6 +31,8 @@
         to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
       - from: http://www.purl.org/ogit/ServiceManagement/Incident
         to: http://www.purl.org/ogit/Task
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/SubTask
      
     history:
       - id: 1
