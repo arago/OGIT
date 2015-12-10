@@ -14,7 +14,7 @@
     cardinality:
     allowed:
       - from: http://www.purl.org/ogit/Person
-        to: http://www.purl.org/ogit/ServiceManagement/ChangeTask
+        to: http://www.purl.org/ogit/ServiceManagement/SubTask
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/ServiceManagement/Incident
       - from: http://www.purl.org/ogit/Person
@@ -36,4 +36,7 @@
         date: 2015-07-27
         description: updated
         modified-by: Aymen Ayoub
-        
+      - id: 3
+        date: 2015-12-10
+        description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
+        modified-by: Peter Larem
