@@ -1,6 +1,6 @@
 - Entity:
-    id: http://www.purl.org/ogit/ServiceManagement/ChangeTask
-    name: ChangeTask
+    id: http://www.purl.org/ogit/ServiceManagement/SubTask
+    name: SubTask
     description: |
       This entity type defines sub-tasks for a ticket. Mostly used for ChangeRequest.
       Comman alternative names with same meaning are: task, activity, work order.
@@ -16,7 +16,6 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/id
       optional:
         - http://www.purl.org/ogit/ServiceManagement/taskStatus
@@ -31,6 +30,12 @@
         - http://www.purl.org/ogit/ServiceManagement/scheduledFinishAt
         - http://www.purl.org/ogit/effort
         - http://www.purl.org/ogit/lastUpdatedAt
+        - http://www.purl.org/ogit/ServiceManagement/resolutionCode
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/assignedGroup
+        - http://www.purl.org/ogit/ServiceManagement/customer
+        - http://www.purl.org/ogit/type
+        - http://www.purl.org/ogit/ServiceManagement/sourceStatus
     history:
       - id: 1
         date: 2015-05-21
@@ -44,4 +49,8 @@
       - id: 3
         date: 2015-07-09
         description: change attribute ogit/startAt to ogit/startedAt and ogit/finishAt to ogit/finishedAt
+        modified-by: Peter Larem
+      - id: 4
+        date: 2015-12-10
+        description: change entity name to ogit/ServiceManagement/SubTask and add some attributes
         modified-by: Peter Larem
