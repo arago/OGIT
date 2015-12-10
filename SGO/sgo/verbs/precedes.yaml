@@ -17,8 +17,8 @@
     allowed:
       - from: http://www.purl.org/ogit/ServiceManagement/ApprovalTask
         to: http://www.purl.org/ogit/ServiceManagement/ApprovalTask
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeTask
-        to: http://www.purl.org/ogit/ServiceManagement/ChangeTask
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/ServiceManagement/SubTask
       - from: http://www.purl.org/ogit/License
         to: http://www.purl.org/ogit/License
       - from: http://www.purl.org/ogit/Forum/FeedEntry
@@ -32,3 +32,7 @@
         date: 2015-10-21
         description: Added allowed between `ogit/Forum/FeedEntry`s
         modified-by: cwalker@arago.de
+      - id: 3
+        date: 2015-12-10
+        description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
+        modified-by: Peter Larem
