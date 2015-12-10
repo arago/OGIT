@@ -53,6 +53,8 @@
         to: http://www.purl.org/ogit/ConfigurationItem
       - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
         to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/ConfigurationItem
         
     history:
       - id: 1
