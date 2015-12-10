@@ -31,15 +31,15 @@
         to: http://www.purl.org/ogit/ServiceManagement/Problem
       - from: http://www.purl.org/ogit/Attachment
         to: http://www.purl.org/ogit/ServiceManagement/Ticket
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeTask
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
         to: http://www.purl.org/ogit/ServiceManagement/Order
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeTask
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
         to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeTask
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
         to: http://www.purl.org/ogit/ServiceManagement/Incident
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeTask
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
         to: http://www.purl.org/ogit/ServiceManagement/Problem
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeTask
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
         to: http://www.purl.org/ogit/ServiceManagement/Ticket
       - from: http://www.purl.org/ogit/LicenseToken
         to: http://www.purl.org/ogit/Organization
@@ -100,4 +100,7 @@
         date: 2015-09-04
         description: Modify edge /Forum/Profile -> Organization, to /Forum/Profile -> /Forum/Group 
         modified-by: bmoore@arago.de
-
+      - id: 9
+        date: 2015-12-10
+        description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
+        modified-by: Peter Larem
