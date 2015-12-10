@@ -22,6 +22,8 @@
         to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
       - from: http://www.purl.org/ogit/Forum/Invite
         to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/SubTask
     history:
       - id: 1
         date: 2015-05-21
