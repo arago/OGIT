@@ -43,7 +43,7 @@ Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT
 
 8. [Developer resources](https://autopilot.co/dev) (registration required)
   - [GraphIT API reference](https://autopilot.co/docs/5.2.0/dev/docs/html/content/5.2-guides-developer-graphit-rest-api.html)
-  - [GraphIT Admin REST Interface](https://autopilot.co/docs/5.1.1/html/content/5.1.1-reference-graphit-admin-rest-interface.html)
+  - [GraphIT Admin REST Interface](https://autopilot.co/docs/5.2.0/html/content/5.2-reference-graphit-admin-rest-interface.html)
 
 ## Documentation on graphit.co
 (Pages updated on daily basis)
