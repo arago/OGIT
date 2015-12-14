@@ -1,16 +1,16 @@
 - Ontology:
     id: http://www.purl.org/ogit/OGIT
-    version: 2.10.0
+    version: 2.11.0
     history:
       - id: 1.0.0
         changelog: |
-          initial ontology 
+          initial ontology
         date: 2015-05-21
         creator: Peter Larem
     history:
       - id: 2.0.0
         changelog: |
-          Refactoring the whole ontology in the course of the "cleanOGIT" project 
+          Refactoring the whole ontology in the course of the "cleanOGIT" project
         date: 2015-05-27
         creator: Peter Larem
     history:
@@ -34,7 +34,7 @@
     history:
       - id: 2.4.0
         changelog: |
-          Add new attribute ogit/ServiceManagement/resolvedInTime 
+          Add new attribute ogit/ServiceManagement/resolvedInTime
           Added to ogit/ServiceManagement/SLA
           Removed ogit/Software/Connector => ogit/opens ogit/ServiceManagement/Incident
           Removed ogit/Software/Connector => ogit/opens ogit/ServiceManagement/ConfigurationItem
@@ -79,4 +79,9 @@
           Added ogit/Forum/Group & ogit/Forum/Role and moved TabTab based edges for ogit/Organization & ogit/Organization to new entities
         date: 2015-12-04
         creator: Brendan Moore
-        
+    history:
+      - id: 2.11.0
+        changelog: |
+          Added links between ogit/Forum/Award entities
+        date: 2015-12-14
+        creator: cwalker@arago.de
