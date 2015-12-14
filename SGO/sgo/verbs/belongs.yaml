@@ -71,6 +71,8 @@
         to: http://www.purl.org/ogit/ServiceManagement/SubTask
       - from: http://www.purl.org/ogit/Comment
         to: http://www.purl.org/ogit/ServiceManagement/SubTask
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/Comment
     history:
       - id: 1
         date: 2015-05-21
@@ -107,4 +109,8 @@
       - id: 9
         date: 2015-12-10
         description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
+        modified-by: Peter Larem
+      - id: 10
+        date: 2015-12-14
+        description: add connection Attachment -> Comment
         modified-by: Peter Larem
