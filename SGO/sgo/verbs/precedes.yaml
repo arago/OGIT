@@ -23,6 +23,8 @@
         to: http://www.purl.org/ogit/License
       - from: http://www.purl.org/ogit/Forum/FeedEntry
         to: http://www.purl.org/ogit/Forum/FeedEntry
+      - from: http://www.purl.org/ogit/Forum/Award
+        to: http://www.purl.org/ogit/Forum/Award
     history:
       - id: 1
         date: 2015-05-21
@@ -36,3 +38,7 @@
         date: 2015-12-10
         description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
         modified-by: Peter Larem
+      - id: 4
+        date: 2015-12-14
+        description: Added allowed between `ogit/Forum/Award`s
+        modified-by: cwalker@arago.de
