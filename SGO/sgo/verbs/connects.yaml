@@ -131,6 +131,8 @@
         to: http://www.purl.org/ogit/Forum/Topic
       - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
         to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Email
+        to: http://www.purl.org/ogit/Person
     history:
       - id: 1
         date: 2015-05-21
@@ -152,3 +154,7 @@
         date: 2015-11-13
         description: Adding many more connections for NTO/Forum (KnowledgeItemHistory)
         modified-by: bmoore@arago.de
+      - id: 6
+        date: 2016-01-22
+        description: Adding connection for Email -> Person
+        modified-by: Peter Larem
