@@ -28,6 +28,8 @@
         - http://www.purl.org/ogit/Automation/processingTimestamp
         - http://www.purl.org/ogit/modificationTime
         - http://www.purl.org/ogit/creationTime
+        - http://www.purl.org/ogit/Automation/isDeployed
+        - http://www.purl.org/ogit/Automation/deployStatus
       indexed:
         - http://www.purl.org/ogit/subject
         - http://www.purl.org/ogit/Automation/issueFormalRepresentation
@@ -43,4 +45,8 @@
       - id: 3
         date: 2015-10-07
         description: add attributes modificationTime and creationTime
+        modified-by: Peter Larem
+      - id: 4
+        date: 2016-01-25
+        description: add attributes isDeployed and deployStatus
         modified-by: Peter Larem
