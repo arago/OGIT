@@ -97,6 +97,8 @@
         - http://www.purl.org/ogit/id
         - http://www.purl.org/ogit/Automation/companyName
         - http://www.purl.org/ogit/Automation/projectName
+        - http://www.purl.org/ogit/Automation/isDeployed
+        - http://www.purl.org/ogit/Automation/deployStatus
       indexed:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
@@ -145,4 +147,8 @@
       - id: 11
         date: 2015-11-02
         description: added a new attribute ogit/Automation/companyName and ogit/Automation/projectName
+        modified-by: Peter Larem
+      - id: 12
+        date: 2016-01-25
+        description: added a new attribute isDeployed and deployStatus
         modified-by: Peter Larem
