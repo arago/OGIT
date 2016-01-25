@@ -1,0 +1,20 @@
+- Attribute:
+    id: http://www.purl.org/ogit/Automation/deployStatus
+    name: deployStatus
+    description: |
+      String value, represents the status if an automation Knowledge Item is not deployed into an Automation Engine.
+    valid-from: 2016-01-25
+    valid-until: 
+    creator: Peter Larem
+    deleter: 
+    created: 2016-01-25
+    modified: 2016-01-25
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    validation-type: 
+    validation-parameter: 
+    history:
+      - id: 1
+        date: 2016-01-25
+        description: initial
+        modified-by: Peter Larem
