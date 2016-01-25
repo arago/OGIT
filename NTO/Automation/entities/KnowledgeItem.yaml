@@ -31,6 +31,8 @@
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/changeLog
         - http://www.purl.org/ogit/accessControl
+        - http://www.purl.org/ogit/Automation/isDeployed
+        - http://www.purl.org/ogit/Automation/deployStatus
       indexed:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
@@ -38,4 +40,8 @@
       - id: 1
         date: 2015-05-21
         description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2016-01-25
+        description: add attributes isDeployed and deployStatus
         modified-by: Peter Larem
