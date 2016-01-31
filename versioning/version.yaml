@@ -85,3 +85,9 @@
           Added links between ogit/Forum/Award entities
         date: 2015-12-14
         creator: cwalker@arago.de
+    history:
+      - id: 2.12.0
+        changelog: |
+          corrections
+        date: 2016-01-31
+        creator: arago GmbH
