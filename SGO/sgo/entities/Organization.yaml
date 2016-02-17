@@ -32,6 +32,7 @@
         - http://www.purl.org/ogit/postalCode
         - http://www.purl.org/ogit/businessCategory
         - http://www.purl.org/ogit/webPage
+        - http://www.purl.org/ogit/sourceId
     history:
       - id: 1
         date: 2015-05-21
