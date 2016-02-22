@@ -50,7 +50,10 @@
       date: 2015-11-13
       description: Added edge for `ogit/Forum/Profile` -> `ogit/Forum/KnowledgeItemHistory`
       modified-by: bmoore@arago.de
-        
+    - id: 9
+      date: 2016-02-22
+      description: Added edge for `ogit/Organization` -> `ogit/Organization`
+      modified-by: Peter Larem
       
       
     allowed:
@@ -70,5 +73,5 @@
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Invite'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/Permission'}
     - {from: 'http://www.purl.org/ogit/Forum/Profile', to: 'http://www.purl.org/ogit/Forum/KnowledgeItemHistory'}
-    
+    - {from: 'http://www.purl.org/ogit/Organization', to: 'http://www.purl.org/ogit/Organization'} 
    
