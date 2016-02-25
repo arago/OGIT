@@ -1,0 +1,23 @@
+- Verb:
+    id: http://www.purl.org/ogit/Forum/downloads
+    name: downloads
+    description: |
+        This verb represents that a "User" has downloaded a given Bundle
+
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    created: 2016-02-25
+    creator: bneal@arago.de
+    deleter:
+    modified: 2016-02-25
+    valid-from: 2016-02-25
+    valid-until:
+    allowed:
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+
+    history:
+      - id: 1
+        date: 2016-02-25
+        description: intitial inception
+        modified-by: bneal@arago.de
