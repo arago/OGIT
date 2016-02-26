@@ -7,31 +7,26 @@
           initial ontology
         date: 2015-05-21
         creator: Peter Larem
-    history:
       - id: 2.0.0
         changelog: |
           Refactoring the whole ontology in the course of the "cleanOGIT" project
         date: 2015-05-27
         creator: Peter Larem
-    history:
       - id: 2.1.0
         changelog: |
           Improving SLA entity by adding new attributes and edges
         date: 2015-06-08
         creator: Philipp Pelchmann
-    history:
       - id: 2.2.0
         changelog: |
           Add new verb ogit/concludes and two connections for that
         date: 2015-06-18
         creator: Peter Larem
-    history:
       - id: 2.3.0
         changelog: |
           Add new verb ogit/worksOn and one connection for that
         date: 2015-06-24
         creator: Peter Larem
-    history:
       - id: 2.4.0
         changelog: |
           Add new attribute ogit/ServiceManagement/resolvedInTime
@@ -43,61 +38,51 @@
           Added ogit/Software/Connector => ogit/creates ogit/ServiceManagement/ConfigurationItem
         date: 2015-08-11
         creator: Philipp Pelchmann
-    history:
       - id: 2.5.0
         changelog: |
           Added ogit/Person => ogit/reports => ogit/Person
         date: 2015-08-11
         creator: Peter Larem
-    history:
       - id: 2.6.0
         changelog: |
           Added some entities and verbs for account.graphit.co. e.g. ogit/Account, ogit/like, dislike, ogit/competes...
         date: 2015-09-18
         creator: Peter Larem
-    history:
       - id: 2.7.0
         changelog: |
           Added ogit/Forum/Profile => ogit/belongs => ogit/Person
         date: 2015-08-11
         creator: Peter Larem
-    history:
       - id: 2.8.0
         changelog: |
           Added attributes modificationTime and creationTime in entities ogit/Automation/AutomationIsse and ogit/Automation/MARSNode
         date: 2015-10-07
         creator: Peter Larem
-    history:
       - id: 2.9.0
         changelog: |
           Added ogit/Forum/KnowledgeItemHistory and hoisted TabTab based edges for ogit/Automation/KnowledgeItem to new entity
         date: 2015-11-23
         creator: Brendan Moore
-    history:
       - id: 2.10.0
         changelog: |
           Added ogit/Forum/Group & ogit/Forum/Role and moved TabTab based edges for ogit/Organization & ogit/Organization to new entities
         date: 2015-12-04
         creator: Brendan Moore
-    history:
       - id: 2.11.0
         changelog: |
           Added links between ogit/Forum/Award entities
         date: 2015-12-14
         creator: cwalker@arago.de
-    history:
       - id: 2.12.0
         changelog: |
           corrections
         date: 2016-01-31
         creator: arago GmbH
-    history:
       - id: 2.13.0
         changelog: |
           add edge for ogit/creates
         date: 2016-02-22
         creator: Peter Larem
-    history:
       - id: 2.14.0
         changelog: |
           merge pull
