@@ -97,3 +97,9 @@
           add edge for ogit/creates
         date: 2016-02-22
         creator: Peter Larem
+    history:
+      - id: 2.14.0
+        changelog: |
+          merge pull
+        date: 2016-02-26
+        creator: arago GmbH
