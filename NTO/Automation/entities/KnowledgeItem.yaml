@@ -36,9 +36,9 @@
       indexed:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
-        - http://www.purl.org/ogit/creator
-        - http://www.purl.org/ogit/modified-by
-        - http://www.purl.org/ogit/owner
+        - http://www.purl.org/ogit/_creator
+        - http://www.purl.org/ogit/_modified-by
+        - http://www.purl.org/ogit/_owner
     history:
       - id: 1
         date: 2015-05-21
