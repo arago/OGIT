@@ -71,6 +71,10 @@
         to: http://www.purl.org/ogit/Person
       - from: http://www.purl.org/ogit/Forum/Invite
         to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/Invite
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/Invite
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
       
     history:
       - id: 1
@@ -101,3 +105,7 @@
         date: 2015-12-10
         description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
         modified-by: Peter Larem
+      - id: 6
+        date: 2016-04-04
+        description: Added edge Invite -> KnowledgeItemHistory|KnowledgeBundle
+        modified-by: bmoore@arago.de
