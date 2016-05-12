@@ -24,12 +24,12 @@
         modified-by: bneal@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Forum/Profile)
-        to: List(http://www.purl.org/ogit/Forum/Profile)
-      - from: List(http://www.purl.org/ogit/Forum/Rating)
-        to: List(http://www.purl.org/ogit/Forum/Rating)
-      - from: List(http://www.purl.org/ogit/Forum/Rating)
-        to: List(http://www.purl.org/ogit/Forum/Rating)
-      - from: List(http://www.purl.org/ogit/Forum/Rating)
-        to: List(http://www.purl.org/ogit/Forum/Rating)
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Rating
+      - from: http://www.purl.org/ogit/Forum/Rating
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/Rating
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/Rating
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
 

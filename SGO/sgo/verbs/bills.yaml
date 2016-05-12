@@ -20,6 +20,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Price/Invoice)
-        to: List(http://www.purl.org/ogit/Price/Invoice)
+      - from: http://www.purl.org/ogit/Price/Invoice
+        to: http://www.purl.org/ogit/ServiceManagement/Order
 

@@ -20,6 +20,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/ServiceManagement/SLA)
-        to: List(http://www.purl.org/ogit/ServiceManagement/SLA)
+      - from: http://www.purl.org/ogit/ServiceManagement/SLA
+        to: http://www.purl.org/ogit/Penalty
 

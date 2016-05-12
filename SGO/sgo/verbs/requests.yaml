@@ -27,12 +27,12 @@
         modified-by: bmoore@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/Forum/Invite)
-        to: List(http://www.purl.org/ogit/Forum/Invite)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/LicenseRequest
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/Forum/Invite
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/SubTask
 

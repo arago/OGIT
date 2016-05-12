@@ -20,6 +20,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Cost/Budget)
-        to: List(http://www.purl.org/ogit/Cost/Budget)
+      - from: http://www.purl.org/ogit/Cost/Budget
+        to: http://www.purl.org/ogit/Cost/CostElement
 

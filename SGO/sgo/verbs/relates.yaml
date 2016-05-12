@@ -44,92 +44,92 @@
         modified-by: FCO
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Automation/AutomationIssue)
-        to: List(http://www.purl.org/ogit/Automation/AutomationIssue)
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/Software/Application)
-        to: List(http://www.purl.org/ogit/Software/Application)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Report)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Report)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/Event)
-        to: List(http://www.purl.org/ogit/Event)
-      - from: List(http://www.purl.org/ogit/Event)
-        to: List(http://www.purl.org/ogit/Event)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNodeTemplate)
-        to: List(http://www.purl.org/ogit/Automation/MARSNodeTemplate)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNodeTemplate)
-        to: List(http://www.purl.org/ogit/Automation/MARSNodeTemplate)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNodeTemplate)
-        to: List(http://www.purl.org/ogit/Automation/MARSNodeTemplate)
-      - from: List(http://www.purl.org/ogit/Network/IPAddress)
-        to: List(http://www.purl.org/ogit/Network/IPAddress)
-      - from: List(http://www.purl.org/ogit/Network/Port)
-        to: List(http://www.purl.org/ogit/Network/Port)
-      - from: List(http://www.purl.org/ogit/Network/PortChannel)
-        to: List(http://www.purl.org/ogit/Network/PortChannel)
-      - from: List(http://www.purl.org/ogit/Organization)
-        to: List(http://www.purl.org/ogit/Organization)
-      - from: List(http://www.purl.org/ogit/Forum/FeedEntry)
-        to: List(http://www.purl.org/ogit/Forum/FeedEntry)
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
+      - from: http://www.purl.org/ogit/Automation/AutomationIssue
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Automation/MARSNodeTemplate
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/Software/Application
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Automation/MARSNodeTemplate
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/ServiceManagement/Incident
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/ServiceManagement/Problem
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/ServiceManagement/Report
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ServiceManagement/Incident
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ServiceManagement/Problem
+      - from: http://www.purl.org/ogit/Event
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/Event
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/ServiceManagement/Incident
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/ServiceManagement/Problem
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/ServiceManagement/Incident
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/ServiceManagement/Problem
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/ConfigurationItem
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Datacenter/Server
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Attachment
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/Ticket
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/Automation/MARSNodeTemplate
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/Automation/MARSNodeTemplate
+        to: http://www.purl.org/ogit/Automation/MARSNodeTemplate
+      - from: http://www.purl.org/ogit/Automation/MARSNodeTemplate
+        to: http://www.purl.org/ogit/Automation/MARSNodeTemplate
+      - from: http://www.purl.org/ogit/Network/IPAddress
+        to: http://www.purl.org/ogit/Network/NetworkInterface
+      - from: http://www.purl.org/ogit/Network/Port
+        to: http://www.purl.org/ogit/Network/NetworkInterface
+      - from: http://www.purl.org/ogit/Network/PortChannel
+        to: http://www.purl.org/ogit/Network/NetworkInterface
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Forum/FeedEntry
+        to: http://www.purl.org/ogit/Node
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Device
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
 

@@ -21,6 +21,6 @@
         modified-by: cwalker@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Forum/Profile)
-        to: List(http://www.purl.org/ogit/Forum/Profile)
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Award
 

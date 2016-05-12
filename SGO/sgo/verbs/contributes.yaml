@@ -21,6 +21,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Cost/CostElement)
-        to: List(http://www.purl.org/ogit/Cost/CostElement)
+      - from: http://www.purl.org/ogit/Cost/CostElement
+        to: http://www.purl.org/ogit/Cost/CostDistribution
 

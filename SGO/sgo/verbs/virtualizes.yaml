@@ -20,6 +20,6 @@
         modified-by: Aymen Ayoub
 
     allowed:
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/ConfigurationItem
 

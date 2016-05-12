@@ -24,168 +24,168 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ManualTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ReceiveTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ScriptTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/SendTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ServiceTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UndefinedTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-        to: List(http://www.purl.org/ogit/BusinessProcess/UserTask)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/ManualTask
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/SendTask
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+      - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+        to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/ManualTask
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/SendTask
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+      - from: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/ManualTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/SendTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ManualTask
+        to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/ManualTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/SendTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+        to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/ManualTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/SendTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+        to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/ManualTask
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/SendTask
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+      - from: http://www.purl.org/ogit/BusinessProcess/SendTask
+        to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/ManualTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/SendTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+      - from: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+        to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/ManualTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/SendTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+        to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/InstantiatedReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/ManualTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/ReceiveTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/ScriptTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/SendTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/ServiceTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/UndefinedTask
+      - from: http://www.purl.org/ogit/BusinessProcess/UserTask
+        to: http://www.purl.org/ogit/BusinessProcess/UserTask
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Person
 

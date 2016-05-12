@@ -17,7 +17,6 @@
       mandatory:
         - http://www.purl.org/ogit/name
       optional:
-        - 
     history:
       - id: 1
         date: 2015-05-21

@@ -20,6 +20,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Cost/PlanningParameter)
-        to: List(http://www.purl.org/ogit/Cost/PlanningParameter)
+      - from: http://www.purl.org/ogit/Cost/PlanningParameter
+        to: http://www.purl.org/ogit/Cost/PlanningTemplate
 

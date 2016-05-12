@@ -20,6 +20,6 @@
         modified-by: bneal@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Forum/Group)
-        to: List(http://www.purl.org/ogit/Forum/Group)
+      - from: http://www.purl.org/ogit/Forum/Group
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
 

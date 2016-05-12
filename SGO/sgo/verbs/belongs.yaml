@@ -56,64 +56,64 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Contract)
-        to: List(http://www.purl.org/ogit/Contract)
-      - from: List(http://www.purl.org/ogit/Software/Application)
-        to: List(http://www.purl.org/ogit/Software/Application)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ApprovalTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ApprovalTask)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-      - from: List(http://www.purl.org/ogit/LicenseToken)
-        to: List(http://www.purl.org/ogit/LicenseToken)
-      - from: List(http://www.purl.org/ogit/Network/IPAddress)
-        to: List(http://www.purl.org/ogit/Network/IPAddress)
-      - from: List(http://www.purl.org/ogit/Network/Port)
-        to: List(http://www.purl.org/ogit/Network/Port)
-      - from: List(http://www.purl.org/ogit/Network/PortChannel)
-        to: List(http://www.purl.org/ogit/Network/PortChannel)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/Forum/Role)
-        to: List(http://www.purl.org/ogit/Forum/Role)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/Forum/Profile)
-        to: List(http://www.purl.org/ogit/Forum/Profile)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/Forum/Profile)
-        to: List(http://www.purl.org/ogit/Forum/Profile)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Attachment)
-        to: List(http://www.purl.org/ogit/Attachment)
+      - from: http://www.purl.org/ogit/Contract
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Software/Application
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/ServiceManagement/ApprovalTask
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/ServiceManagement/Incident
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/ServiceManagement/Problem
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/ServiceManagement/Incident
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/ServiceManagement/Problem
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/LicenseToken
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Network/IPAddress
+        to: http://www.purl.org/ogit/Network/Subnet
+      - from: http://www.purl.org/ogit/Network/Port
+        to: http://www.purl.org/ogit/Network/VLAN
+      - from: http://www.purl.org/ogit/Network/PortChannel
+        to: http://www.purl.org/ogit/Network/Port
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Forum/Role
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Group
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/ServiceManagement/SubTask
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/ServiceManagement/SubTask
+      - from: http://www.purl.org/ogit/Attachment
+        to: http://www.purl.org/ogit/Comment
 

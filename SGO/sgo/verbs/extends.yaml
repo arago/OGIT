@@ -20,26 +20,26 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Network/NetworkCard)
-        to: List(http://www.purl.org/ogit/Network/NetworkCard)
-      - from: List(http://www.purl.org/ogit/Network/NetworkCard)
-        to: List(http://www.purl.org/ogit/Network/NetworkCard)
-      - from: List(http://www.purl.org/ogit/Network/NetworkCard)
-        to: List(http://www.purl.org/ogit/Network/NetworkCard)
-      - from: List(http://www.purl.org/ogit/Network/NetworkCard)
-        to: List(http://www.purl.org/ogit/Network/NetworkCard)
-      - from: List(http://www.purl.org/ogit/Network/NetworkCard)
-        to: List(http://www.purl.org/ogit/Network/NetworkCard)
-      - from: List(http://www.purl.org/ogit/Network/NetworkCard)
-        to: List(http://www.purl.org/ogit/Network/NetworkCard)
-      - from: List(http://www.purl.org/ogit/Network/SimpleDevice)
-        to: List(http://www.purl.org/ogit/Network/SimpleDevice)
-      - from: List(http://www.purl.org/ogit/Network/SimpleDevice)
-        to: List(http://www.purl.org/ogit/Network/SimpleDevice)
-      - from: List(http://www.purl.org/ogit/Network/SimpleDevice)
-        to: List(http://www.purl.org/ogit/Network/SimpleDevice)
-      - from: List(http://www.purl.org/ogit/Network/SimpleDevice)
-        to: List(http://www.purl.org/ogit/Network/SimpleDevice)
-      - from: List(http://www.purl.org/ogit/Network/SimpleDevice)
-        to: List(http://www.purl.org/ogit/Network/SimpleDevice)
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/IDSIPS
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/Loadbalancer
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/Router
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/Switch
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/WifiAccessPoint
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Network/Slot
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/IDSIPS
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Loadbalancer
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Router
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/Switch
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Network/WifiAccessPoint
 

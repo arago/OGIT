@@ -20,6 +20,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/OntologyEntity)
-        to: List(http://www.purl.org/ogit/OntologyEntity)
+      - from: http://www.purl.org/ogit/OntologyEntity
+        to: http://www.purl.org/ogit/OntologyAttribute
 

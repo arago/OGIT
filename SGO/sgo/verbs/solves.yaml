@@ -20,6 +20,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Task
 

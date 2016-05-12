@@ -36,30 +36,30 @@
         modified-by: Aymen Ayoub
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/Datacenter/Datacenter)
-        to: List(http://www.purl.org/ogit/Datacenter/Datacenter)
-      - from: List(http://www.purl.org/ogit/Organization)
-        to: List(http://www.purl.org/ogit/Organization)
-      - from: List(http://www.purl.org/ogit/Location)
-        to: List(http://www.purl.org/ogit/Location)
-      - from: List(http://www.purl.org/ogit/Vcard)
-        to: List(http://www.purl.org/ogit/Vcard)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Offering)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Offering)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Organization)
-        to: List(http://www.purl.org/ogit/Organization)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Region
+      - from: http://www.purl.org/ogit/Datacenter/Datacenter
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/Location
+        to: http://www.purl.org/ogit/Region
+      - from: http://www.purl.org/ogit/Vcard
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/ServiceManagement/Offering
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/Location
 

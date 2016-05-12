@@ -20,12 +20,12 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Automation/MAID)
-        to: List(http://www.purl.org/ogit/Automation/MAID)
-      - from: List(http://www.purl.org/ogit/Contract)
-        to: List(http://www.purl.org/ogit/Contract)
-      - from: List(http://www.purl.org/ogit/Organization)
-        to: List(http://www.purl.org/ogit/Organization)
-      - from: List(http://www.purl.org/ogit/Organization)
-        to: List(http://www.purl.org/ogit/Organization)
+      - from: http://www.purl.org/ogit/Automation/MAID
+        to: http://www.purl.org/ogit/Timeseries
+      - from: http://www.purl.org/ogit/Contract
+        to: http://www.purl.org/ogit/Penalty
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Role
 

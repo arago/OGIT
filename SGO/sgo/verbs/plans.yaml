@@ -20,10 +20,10 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Cost/PlanningTemplate)
-        to: List(http://www.purl.org/ogit/Cost/PlanningTemplate)
-      - from: List(http://www.purl.org/ogit/Cost/PlanningTemplate)
-        to: List(http://www.purl.org/ogit/Cost/PlanningTemplate)
-      - from: List(http://www.purl.org/ogit/Organization)
-        to: List(http://www.purl.org/ogit/Organization)
+      - from: http://www.purl.org/ogit/Cost/PlanningTemplate
+        to: http://www.purl.org/ogit/Cost/CostElement
+      - from: http://www.purl.org/ogit/Cost/PlanningTemplate
+        to: http://www.purl.org/ogit/Automation/MARSModelTemplate
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Cost/Budget
 

@@ -20,6 +20,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Software/Application
 

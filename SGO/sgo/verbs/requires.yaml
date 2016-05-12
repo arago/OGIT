@@ -28,34 +28,34 @@
         modified-by: bmoore@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ProcessLane)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ProcessLane)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ProcessLane)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ProcessLane)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ProcessPool)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ProcessPool)
-      - from: List(http://www.purl.org/ogit/BusinessProcess/ProcessPool)
-        to: List(http://www.purl.org/ogit/BusinessProcess/ProcessPool)
-      - from: List(http://www.purl.org/ogit/CatalogItem)
-        to: List(http://www.purl.org/ogit/CatalogItem)
-      - from: List(http://www.purl.org/ogit/CatalogItem)
-        to: List(http://www.purl.org/ogit/CatalogItem)
-      - from: List(http://www.purl.org/ogit/CatalogItem)
-        to: List(http://www.purl.org/ogit/CatalogItem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Action)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Action)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Action)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Action)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Action)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Action)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Service)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Service)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Service)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Service)
-      - from: List(http://www.purl.org/ogit/Forum/Topic)
-        to: List(http://www.purl.org/ogit/Forum/Topic)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
+      - from: http://www.purl.org/ogit/BusinessProcess/ProcessLane
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/BusinessProcess/ProcessLane
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/BusinessProcess/ProcessPool
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/BusinessProcess/ProcessPool
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/CatalogItem
+        to: http://www.purl.org/ogit/CatalogItem
+      - from: http://www.purl.org/ogit/CatalogItem
+        to: http://www.purl.org/ogit/ServiceManagement/Action
+      - from: http://www.purl.org/ogit/CatalogItem
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/ServiceManagement/Action
+        to: http://www.purl.org/ogit/CatalogItem
+      - from: http://www.purl.org/ogit/ServiceManagement/Action
+        to: http://www.purl.org/ogit/ServiceManagement/Action
+      - from: http://www.purl.org/ogit/ServiceManagement/Action
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/ServiceManagement/Service
+        to: http://www.purl.org/ogit/ServiceManagement/Action
+      - from: http://www.purl.org/ogit/ServiceManagement/Service
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/Forum/Topic
+        to: http://www.purl.org/ogit/Forum/Permission
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/Permission
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/Permission
 

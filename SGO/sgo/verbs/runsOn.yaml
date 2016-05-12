@@ -24,8 +24,8 @@
         modified-by: Aymen Ayoub
 
     allowed:
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/ConfigurationItem
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Automation/MARSNode
 

@@ -32,46 +32,46 @@
         modified-by: Aymen Ayoub
 
     allowed:
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Service)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Service)
-      - from: List(http://www.purl.org/ogit/Event)
-        to: List(http://www.purl.org/ogit/Event)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/BusinessProcess/BusinessProcess
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ServiceManagement/Service
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/Event
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/ConfigurationItem
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ServiceManagement/Ticket
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ServiceManagement/Ticket
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ConfigurationItem
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/Location
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/ConfigurationItem
 

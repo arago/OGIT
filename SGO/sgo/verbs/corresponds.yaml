@@ -48,66 +48,66 @@
         modified-by: bmoore@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
-        to: List(http://www.purl.org/ogit/Automation/MARSNode)
-      - from: List(http://www.purl.org/ogit/Datacenter/Server)
-        to: List(http://www.purl.org/ogit/Datacenter/Server)
-      - from: List(http://www.purl.org/ogit/Datacenter/Storage)
-        to: List(http://www.purl.org/ogit/Datacenter/Storage)
-      - from: List(http://www.purl.org/ogit/Datacenter/UPS)
-        to: List(http://www.purl.org/ogit/Datacenter/UPS)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Action)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Action)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
-      - from: List(http://www.purl.org/ogit/ParameterType)
-        to: List(http://www.purl.org/ogit/ParameterType)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Service)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Service)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
-      - from: List(http://www.purl.org/ogit/Network/NetworkCard)
-        to: List(http://www.purl.org/ogit/Network/NetworkCard)
-      - from: List(http://www.purl.org/ogit/Network/NetworkEnclosure)
-        to: List(http://www.purl.org/ogit/Network/NetworkEnclosure)
-      - from: List(http://www.purl.org/ogit/Network/NetworkEndpoint)
-        to: List(http://www.purl.org/ogit/Network/NetworkEndpoint)
-      - from: List(http://www.purl.org/ogit/Network/NetworkFabric)
-        to: List(http://www.purl.org/ogit/Network/NetworkFabric)
-      - from: List(http://www.purl.org/ogit/Network/FCHBA)
-        to: List(http://www.purl.org/ogit/Network/FCHBA)
-      - from: List(http://www.purl.org/ogit/Network/NIC)
-        to: List(http://www.purl.org/ogit/Network/NIC)
-      - from: List(http://www.purl.org/ogit/Network/Shelf)
-        to: List(http://www.purl.org/ogit/Network/Shelf)
-      - from: List(http://www.purl.org/ogit/Network/SimpleDevice)
-        to: List(http://www.purl.org/ogit/Network/SimpleDevice)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ApprovalTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ApprovalTask)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-        to: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/ConfigurationItem)
-        to: List(http://www.purl.org/ogit/ConfigurationItem)
-      - from: List(http://www.purl.org/ogit/Forum/Invite)
-        to: List(http://www.purl.org/ogit/Forum/Invite)
-      - from: List(http://www.purl.org/ogit/Forum/Invite)
-        to: List(http://www.purl.org/ogit/Forum/Invite)
-      - from: List(http://www.purl.org/ogit/Forum/Invite)
-        to: List(http://www.purl.org/ogit/Forum/Invite)
+      - from: http://www.purl.org/ogit/Automation/MARSNode
+        to: http://www.purl.org/ogit/Software/Application
+      - from: http://www.purl.org/ogit/Datacenter/Server
+        to: http://www.purl.org/ogit/Device
+      - from: http://www.purl.org/ogit/Datacenter/Storage
+        to: http://www.purl.org/ogit/Device
+      - from: http://www.purl.org/ogit/Datacenter/UPS
+        to: http://www.purl.org/ogit/Device
+      - from: http://www.purl.org/ogit/ServiceManagement/Action
+        to: http://www.purl.org/ogit/CatalogItem
+      - from: http://www.purl.org/ogit/ServiceManagement/Order
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/ParameterType
+        to: http://www.purl.org/ogit/Parameter
+      - from: http://www.purl.org/ogit/ServiceManagement/Service
+        to: http://www.purl.org/ogit/CatalogItem
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/ServiceManagement/Ticket
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
+      - from: http://www.purl.org/ogit/Network/NetworkCard
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/Network/NetworkEnclosure
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/Network/NetworkEndpoint
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/Network/NetworkFabric
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/Network/FCHBA
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/Network/NIC
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/Network/Shelf
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/Network/SimpleDevice
+        to: http://www.purl.org/ogit/Asset
+      - from: http://www.purl.org/ogit/ServiceManagement/ApprovalTask
+        to: http://www.purl.org/ogit/Task
+      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
+        to: http://www.purl.org/ogit/Task
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/ConfigurationItem
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/Forum/Invite
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/Invite
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/Invite
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
 

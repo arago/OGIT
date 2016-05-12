@@ -28,8 +28,8 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Automation/AutomationIssue)
-        to: List(http://www.purl.org/ogit/Automation/AutomationIssue)
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
+      - from: http://www.purl.org/ogit/Automation/AutomationIssue
+        to: http://www.purl.org/ogit/Automation/MARSNode
 

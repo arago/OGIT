@@ -25,12 +25,12 @@
         modified-by: bmoore@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
 

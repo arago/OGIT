@@ -20,8 +20,9 @@
         modified-by: Peter Larem
       - id: 2
         date: 2015-05-22
-        description: - Attribute name changed from subStatus to sourceStatus
-- Description edited
-
+        description: |
+          - Attribute name changed from subStatus to sourceStatus
+          - Description edited
+          
         modified-by: Catarina Onofre
 

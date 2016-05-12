@@ -22,10 +22,10 @@
         modified-by: cwalker@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Profile
 

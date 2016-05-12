@@ -20,8 +20,8 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Organization)
-        to: List(http://www.purl.org/ogit/Organization)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Organization
 

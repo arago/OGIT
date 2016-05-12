@@ -19,7 +19,6 @@
         - http://www.purl.org/ogit/Forum/username
         - http://www.purl.org/ogit/name
       optional:
-        - 
     history:
       - id: 1
         date: 2015-04-27

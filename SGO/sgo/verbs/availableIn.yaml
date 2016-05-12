@@ -20,6 +20,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Offering)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Offering)
+      - from: http://www.purl.org/ogit/ServiceManagement/Offering
+        to: http://www.purl.org/ogit/Region
 

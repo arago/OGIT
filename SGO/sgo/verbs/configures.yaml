@@ -20,6 +20,6 @@
         modified-by: cwalker@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Forum/Configuration)
-        to: List(http://www.purl.org/ogit/Forum/Configuration)
+      - from: http://www.purl.org/ogit/Forum/Configuration
+        to: http://www.purl.org/ogit/Forum/Profile
 

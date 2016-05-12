@@ -24,16 +24,16 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/SubTask
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/Incident
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/Problem
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
 

@@ -20,8 +20,8 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Automation/MARSModel)
-        to: List(http://www.purl.org/ogit/Automation/MARSModel)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Service)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Service)
+      - from: http://www.purl.org/ogit/Automation/MARSModel
+        to: http://www.purl.org/ogit/ServiceManagement/Order
+      - from: http://www.purl.org/ogit/ServiceManagement/Service
+        to: http://www.purl.org/ogit/Software/Application
 

@@ -20,34 +20,34 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Parameter)
-        to: List(http://www.purl.org/ogit/Parameter)
-      - from: List(http://www.purl.org/ogit/Parameter)
-        to: List(http://www.purl.org/ogit/Parameter)
-      - from: List(http://www.purl.org/ogit/Parameter)
-        to: List(http://www.purl.org/ogit/Parameter)
-      - from: List(http://www.purl.org/ogit/Parameter)
-        to: List(http://www.purl.org/ogit/Parameter)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Asset)
-        to: List(http://www.purl.org/ogit/Asset)
-      - from: List(http://www.purl.org/ogit/Parameter)
-        to: List(http://www.purl.org/ogit/Parameter)
+      - from: http://www.purl.org/ogit/Parameter
+        to: http://www.purl.org/ogit/Cost/CostElement
+      - from: http://www.purl.org/ogit/Parameter
+        to: http://www.purl.org/ogit/ServiceManagement/Offering
+      - from: http://www.purl.org/ogit/Parameter
+        to: http://www.purl.org/ogit/ServiceManagement/Service
+      - from: http://www.purl.org/ogit/Parameter
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Automation/MARSNode
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Datacenter/Cooling
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Device
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Datacenter/PowerDistributionUnit
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Datacenter/Rack
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Automation/MARSNodeTemplate
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Network/NetworkCard
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Network/NetworkEnclosure
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Network/NetworkFabric
+      - from: http://www.purl.org/ogit/Asset
+        to: http://www.purl.org/ogit/Network/SimpleDevice
+      - from: http://www.purl.org/ogit/Parameter
+        to: http://www.purl.org/ogit/CatalogItem
 

@@ -24,24 +24,24 @@
         modified-by: Philipp Pelchmann
 
     allowed:
-      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Service)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Service)
-      - from: List(http://www.purl.org/ogit/Network/AccessControlList)
-        to: List(http://www.purl.org/ogit/Network/AccessControlList)
-      - from: List(http://www.purl.org/ogit/Network/NetworkFilter)
-        to: List(http://www.purl.org/ogit/Network/NetworkFilter)
-      - from: List(http://www.purl.org/ogit/Network/NetworkInterface)
-        to: List(http://www.purl.org/ogit/Network/NetworkInterface)
-      - from: List(http://www.purl.org/ogit/Organization)
-        to: List(http://www.purl.org/ogit/Organization)
-      - from: List(http://www.purl.org/ogit/Person)
-        to: List(http://www.purl.org/ogit/Person)
-      - from: List(http://www.purl.org/ogit/Software/Application)
-        to: List(http://www.purl.org/ogit/Software/Application)
+      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/ServiceManagement/Problem
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/ServiceManagement/Incident
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/ServiceManagement/Service
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
+      - from: http://www.purl.org/ogit/Network/AccessControlList
+        to: http://www.purl.org/ogit/Network/NetworkSetting
+      - from: http://www.purl.org/ogit/Network/NetworkFilter
+        to: http://www.purl.org/ogit/Network/NetworkSetting
+      - from: http://www.purl.org/ogit/Network/NetworkInterface
+        to: http://www.purl.org/ogit/Network/NetworkSetting
+      - from: http://www.purl.org/ogit/Organization
+        to: http://www.purl.org/ogit/Policy
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Role
+      - from: http://www.purl.org/ogit/Software/Application
+        to: http://www.purl.org/ogit/ServiceManagement/SLA
 

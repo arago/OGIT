@@ -48,128 +48,128 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Device)
-        to: List(http://www.purl.org/ogit/Device)
-      - from: List(http://www.purl.org/ogit/Device)
-        to: List(http://www.purl.org/ogit/Device)
-      - from: List(http://www.purl.org/ogit/Network/NetworkLink)
-        to: List(http://www.purl.org/ogit/Network/NetworkLink)
-      - from: List(http://www.purl.org/ogit/Network/Port)
-        to: List(http://www.purl.org/ogit/Network/Port)
-      - from: List(http://www.purl.org/ogit/Network/Port)
-        to: List(http://www.purl.org/ogit/Network/Port)
-      - from: List(http://www.purl.org/ogit/Software/SoftwareComponent)
-        to: List(http://www.purl.org/ogit/Software/SoftwareComponent)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeBundle)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Account)
-        to: List(http://www.purl.org/ogit/Account)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-      - from: List(http://www.purl.org/ogit/Forum/Post)
-        to: List(http://www.purl.org/ogit/Forum/Post)
-      - from: List(http://www.purl.org/ogit/Forum/Reply)
-        to: List(http://www.purl.org/ogit/Forum/Reply)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
-      - from: List(http://www.purl.org/ogit/Email)
-        to: List(http://www.purl.org/ogit/Email)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
-      - from: List(http://www.purl.org/ogit/Comment)
-        to: List(http://www.purl.org/ogit/Comment)
+      - from: http://www.purl.org/ogit/Device
+        to: http://www.purl.org/ogit/Datacenter/UPS
+      - from: http://www.purl.org/ogit/Device
+        to: http://www.purl.org/ogit/Datacenter/PowerDistributionUnit
+      - from: http://www.purl.org/ogit/Network/NetworkLink
+        to: http://www.purl.org/ogit/Network/NetworkInterface
+      - from: http://www.purl.org/ogit/Network/Port
+        to: http://www.purl.org/ogit/Network/FCHBA
+      - from: http://www.purl.org/ogit/Network/Port
+        to: http://www.purl.org/ogit/Network/NIC
+      - from: http://www.purl.org/ogit/Software/SoftwareComponent
+        to: http://www.purl.org/ogit/Software/SoftwareComponent
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Account
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Contract
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/License
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Hyperlink
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/Post
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/Reply
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/Reply
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Comment
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/Topic
+      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+        to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Email
+        to: http://www.purl.org/ogit/Person
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Person
 

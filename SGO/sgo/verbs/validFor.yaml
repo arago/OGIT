@@ -20,6 +20,6 @@
         modified-by: Peter Larem
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Catalog)
-        to: List(http://www.purl.org/ogit/Catalog)
+      - from: http://www.purl.org/ogit/Catalog
+        to: http://www.purl.org/ogit/Region
 

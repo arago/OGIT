@@ -20,9 +20,10 @@
         modified-by: Peter Larem
       - id: 2
         date: 2015-06-01
-        description: - Adding connection from `ogit/Forum/ShortId` -> `ogit/Forum/Post`
-- Adding connection from `ogit/Forum/ShortId` -> `ogit/Automation/KnowledgeItem`
-
+        description: |
+          - Adding connection from `ogit/Forum/ShortId` -> `ogit/Forum/Post`
+          - Adding connection from `ogit/Forum/ShortId` -> `ogit/Automation/KnowledgeItem`
+          
         modified-by: cwalker@arago.de
       - id: 3
         date: 2015-11-13
@@ -30,16 +31,16 @@
         modified-by: bmoore@arago.de
 
     allowed:
-      - from: List(http://www.purl.org/ogit/Cost/PlanningParameter)
-        to: List(http://www.purl.org/ogit/Cost/PlanningParameter)
-      - from: List(http://www.purl.org/ogit/ServiceManagement/Offering)
-        to: List(http://www.purl.org/ogit/ServiceManagement/Offering)
-      - from: List(http://www.purl.org/ogit/Parameter)
-        to: List(http://www.purl.org/ogit/Parameter)
-      - from: List(http://www.purl.org/ogit/Forum/ShortId)
-        to: List(http://www.purl.org/ogit/Forum/ShortId)
-      - from: List(http://www.purl.org/ogit/Forum/ShortId)
-        to: List(http://www.purl.org/ogit/Forum/ShortId)
-      - from: List(http://www.purl.org/ogit/Forum/ShortId)
-        to: List(http://www.purl.org/ogit/Forum/ShortId)
+      - from: http://www.purl.org/ogit/Cost/PlanningParameter
+        to: http://www.purl.org/ogit/Parameter
+      - from: http://www.purl.org/ogit/ServiceManagement/Offering
+        to: http://www.purl.org/ogit/Automation/MARSModelTemplate
+      - from: http://www.purl.org/ogit/Parameter
+        to: http://www.purl.org/ogit/Price/PriceSpecification
+      - from: http://www.purl.org/ogit/Forum/ShortId
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/ShortId
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
+      - from: http://www.purl.org/ogit/Forum/ShortId
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
 
