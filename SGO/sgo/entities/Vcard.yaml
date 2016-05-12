@@ -17,6 +17,7 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
+        - 
       optional:
         - http://www.purl.org/ogit/phone
         - http://www.purl.org/ogit/mobilePhone
@@ -28,3 +29,4 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+

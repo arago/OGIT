@@ -2,31 +2,17 @@
     id: http://www.purl.org/ogit/associates
     name: associates
     description: |
-
+      
     valid-from: 2015-05-21
-    valid-until:
+    valid-until: 
     creator: Peter Larem
-    deleter:
+    deleter: 
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/Automation/AutomationIssue
-        to: http://www.purl.org/ogit/Question
-      - from: http://www.purl.org/ogit/Automation/MARSNode
-        to: http://www.purl.org/ogit/Cost/CostElement
-      - from: http://www.purl.org/ogit/Asset
-        to: http://www.purl.org/ogit/Cost/CostElement
-      - from: http://www.purl.org/ogit/Automation/MARSNodeTemplate
-        to: http://www.purl.org/ogit/Cost/CostElement
-      - from: http://www.purl.org/ogit/Organization
-        to: http://www.purl.org/ogit/Role
-      - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
-        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
-      - from: http://www.purl.org/ogit/Forum/Group
-        to: http://www.purl.org/ogit/Forum/Role
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-05-21
@@ -40,3 +26,20 @@
         date: 2015-12-04
         description: Added Forum/Group -> Forum/Role
         modified-by: bmoore@arago.de
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/Automation/AutomationIssue)
+        to: List(http://www.purl.org/ogit/Automation/AutomationIssue)
+      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
+        to: List(http://www.purl.org/ogit/Automation/MARSNode)
+      - from: List(http://www.purl.org/ogit/Asset)
+        to: List(http://www.purl.org/ogit/Asset)
+      - from: List(http://www.purl.org/ogit/Automation/MARSNodeTemplate)
+        to: List(http://www.purl.org/ogit/Automation/MARSNodeTemplate)
+      - from: List(http://www.purl.org/ogit/Organization)
+        to: List(http://www.purl.org/ogit/Organization)
+      - from: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
+        to: List(http://www.purl.org/ogit/Forum/KnowledgeItemHistory)
+      - from: List(http://www.purl.org/ogit/Forum/Group)
+        to: List(http://www.purl.org/ogit/Forum/Group)
+

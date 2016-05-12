@@ -11,12 +11,8 @@
     modified: 2015-08-13
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
-        to: http://www.purl.org/ogit/Automation/AutomationIssue
-      - from: http://www.purl.org/ogit/Automation/AutomationIssue
-        to: http://www.purl.org/ogit/Automation/MARSNode
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-06-24
@@ -30,3 +26,10 @@
         date: 2015-08-13
         description: connection added
         modified-by: Peter Larem
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
+        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
+      - from: List(http://www.purl.org/ogit/Automation/AutomationIssue)
+        to: List(http://www.purl.org/ogit/Automation/AutomationIssue)
+

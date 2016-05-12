@@ -3,7 +3,7 @@
     name: inventoryNumber
     description: |
       This field specifies the inventory component number for the a device as defined by the company-defined  device inventory number in the model table.
-      The system uses this number to provide data on the Manufacturer, Model, and Version fields if available. 
+      The system uses this number to provide data on the Manufacturer, Model, and Version fields if available.
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -19,3 +19,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/cpuModel
     name: cpuModel
     description: |
-        Contains the model of the cpu.
+      Contains the model of the cpu.
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

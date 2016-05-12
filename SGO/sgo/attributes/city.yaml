@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/city
     name: city
     description: |
-      Name of a city. 
+      Name of a city.
     valid-from: 2015-07-27
     valid-until: 
     creator: Philipp Pelchmann
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Philipp Pelchmann
+

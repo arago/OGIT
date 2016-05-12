@@ -14,16 +14,8 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/Person
-        to: http://www.purl.org/ogit/LicenseRequest
-      - from: http://www.purl.org/ogit/Person
-        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-      - from: http://www.purl.org/ogit/Forum/Invite
-        to: http://www.purl.org/ogit/Forum/Profile
-      - from: http://www.purl.org/ogit/Person
-        to: http://www.purl.org/ogit/ServiceManagement/SubTask
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-05-21
@@ -33,3 +25,14 @@
         date: 2015-04-09
         description: Added edge Invite -> Profile
         modified-by: bmoore@arago.de
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/Person)
+        to: List(http://www.purl.org/ogit/Person)
+      - from: List(http://www.purl.org/ogit/Person)
+        to: List(http://www.purl.org/ogit/Person)
+      - from: List(http://www.purl.org/ogit/Forum/Invite)
+        to: List(http://www.purl.org/ogit/Forum/Invite)
+      - from: List(http://www.purl.org/ogit/Person)
+        to: List(http://www.purl.org/ogit/Person)
+

@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/connectorId
     name: connectorId
     description: |
-      The Id of the connector. 
+      The Id of the connector.
     valid-from: 2015-06-11
     valid-until: 
     creator: Aymen Ayoub
@@ -22,3 +22,4 @@
         date: 2015-06-29
         description: updated
         modified-by: Aymen Ayoub
+

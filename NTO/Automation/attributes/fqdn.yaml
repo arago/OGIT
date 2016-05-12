@@ -3,6 +3,7 @@
     name: fqdn
     description: |
       Contains a fully qualified domain name.
+    valid-from: 
     valid-until: 
     creator: Aymen Ayoub
     deleter: 
@@ -17,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

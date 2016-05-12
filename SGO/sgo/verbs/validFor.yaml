@@ -11,12 +11,15 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/Catalog
-        to: http://www.purl.org/ogit/Region
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/Catalog)
+        to: List(http://www.purl.org/ogit/Catalog)
+

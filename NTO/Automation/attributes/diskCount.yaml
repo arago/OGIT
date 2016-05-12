@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/diskCount
     name: diskCount
     description: |
-        An integer which shows the number of disks of a component. 
+      An integer which shows the number of disks of a component.
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

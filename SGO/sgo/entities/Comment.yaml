@@ -15,10 +15,11 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
+        - 
       optional:
-      - http://www.purl.org/ogit/id
-      - http://www.purl.org/ogit/content
-      - http://www.purl.org/ogit/creator
+        - http://www.purl.org/ogit/id
+        - http://www.purl.org/ogit/content
+        - http://www.purl.org/ogit/creator
     history:
       - id: 1
         date: 2015-05-21
@@ -36,3 +37,4 @@
         date: 2015-10-16
         description: added ogit/creater as optional.
         modified-by: Peter Larem
+

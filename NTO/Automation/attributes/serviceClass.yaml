@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/serviceClass
     name: serviceClass
     description: |
-      Contains the class of the service. 
+      Contains the class of the service.
     valid-from: 2015-07-24
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-24
         description: initial
         modified-by: Aymen Ayoub
+

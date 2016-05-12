@@ -11,8 +11,8 @@
     modified: 2015-06-08
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    validation-type:
-    validation-parameter:
+    validation-type: 
+    validation-parameter: 
     history:
       - id: 1
         date: 2015-06-08
@@ -22,3 +22,4 @@
         date: 2015-09-01
         description: validation deleted
         modified-by: Aymen Ayoub
+

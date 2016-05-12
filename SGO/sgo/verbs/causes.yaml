@@ -12,36 +12,39 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/ServiceManagement/Order
-        to: http://www.purl.org/ogit/ServiceManagement/Order
-      - from: http://www.purl.org/ogit/ServiceManagement/Order
-        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-      - from: http://www.purl.org/ogit/ServiceManagement/Order
-        to: http://www.purl.org/ogit/ServiceManagement/Ticket
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-        to: http://www.purl.org/ogit/ServiceManagement/Order
-      - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-      - from: http://www.purl.org/ogit/ServiceManagement/Incident
-        to: http://www.purl.org/ogit/ServiceManagement/Order
-      - from: http://www.purl.org/ogit/ServiceManagement/Incident
-        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-      - from: http://www.purl.org/ogit/ServiceManagement/Incident
-        to: http://www.purl.org/ogit/Event
-      - from: http://www.purl.org/ogit/ServiceManagement/Incident
-        to: http://www.purl.org/ogit/ServiceManagement/Incident
-      - from: http://www.purl.org/ogit/ServiceManagement/Incident
-        to: http://www.purl.org/ogit/ServiceManagement/Problem
-      - from: http://www.purl.org/ogit/ServiceManagement/Problem
-        to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-      - from: http://www.purl.org/ogit/ServiceManagement/Problem
-        to: http://www.purl.org/ogit/ServiceManagement/Problem
-      - from: http://www.purl.org/ogit/ServiceManagement/Ticket
-        to: http://www.purl.org/ogit/ServiceManagement/Ticket
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Order)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Order)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
+        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
+        to: List(http://www.purl.org/ogit/ServiceManagement/ChangeRequest)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Incident)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Problem)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Problem)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Ticket)
+

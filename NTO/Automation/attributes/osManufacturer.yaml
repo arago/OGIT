@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/osManufacturer
     name: osManufacturer
     description: |
-        Contains the manufacturer of the operating system.
+      Contains the manufacturer of the operating system.
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

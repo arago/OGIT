@@ -11,44 +11,8 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/Automation/AutomationIssue
-        to: http://www.purl.org/ogit/Automation/History
-      - from: http://www.purl.org/ogit/Automation/AutomationIssue
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Question
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Automation/History
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Automation/KnowledgeItem
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Automation/MAID
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Automation/MARSModel
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Automation/MARSNode
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Task
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/TaskList
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Device
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Datacenter/Server
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Organization
-        to: http://www.purl.org/ogit/Catalog
-      - from: http://www.purl.org/ogit/Location
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/ServiceManagement/Report
-        to: http://www.purl.org/ogit/Price/Invoice
-      - from: http://www.purl.org/ogit/ServiceManagement/Service
-        to: http://www.purl.org/ogit/ServiceManagement/Report
-      - from: http://www.purl.org/ogit/Network/SimpleDevice
-        to: http://www.purl.org/ogit/Timeseries
-      - from: http://www.purl.org/ogit/Software/Application
-        to: http://www.purl.org/ogit/Timeseries
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-05-21
@@ -62,3 +26,42 @@
         date: 2015-08-04
         description: some connections addded
         modified-by: FCO
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/Automation/AutomationIssue)
+        to: List(http://www.purl.org/ogit/Automation/AutomationIssue)
+      - from: List(http://www.purl.org/ogit/Automation/AutomationIssue)
+        to: List(http://www.purl.org/ogit/Automation/AutomationIssue)
+      - from: List(http://www.purl.org/ogit/Question)
+        to: List(http://www.purl.org/ogit/Question)
+      - from: List(http://www.purl.org/ogit/Automation/History)
+        to: List(http://www.purl.org/ogit/Automation/History)
+      - from: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
+        to: List(http://www.purl.org/ogit/Automation/KnowledgeItem)
+      - from: List(http://www.purl.org/ogit/Automation/MAID)
+        to: List(http://www.purl.org/ogit/Automation/MAID)
+      - from: List(http://www.purl.org/ogit/Automation/MARSModel)
+        to: List(http://www.purl.org/ogit/Automation/MARSModel)
+      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
+        to: List(http://www.purl.org/ogit/Automation/MARSNode)
+      - from: List(http://www.purl.org/ogit/Task)
+        to: List(http://www.purl.org/ogit/Task)
+      - from: List(http://www.purl.org/ogit/TaskList)
+        to: List(http://www.purl.org/ogit/TaskList)
+      - from: List(http://www.purl.org/ogit/Device)
+        to: List(http://www.purl.org/ogit/Device)
+      - from: List(http://www.purl.org/ogit/Datacenter/Server)
+        to: List(http://www.purl.org/ogit/Datacenter/Server)
+      - from: List(http://www.purl.org/ogit/Organization)
+        to: List(http://www.purl.org/ogit/Organization)
+      - from: List(http://www.purl.org/ogit/Location)
+        to: List(http://www.purl.org/ogit/Location)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Report)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Report)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/Service)
+        to: List(http://www.purl.org/ogit/ServiceManagement/Service)
+      - from: List(http://www.purl.org/ogit/Network/SimpleDevice)
+        to: List(http://www.purl.org/ogit/Network/SimpleDevice)
+      - from: List(http://www.purl.org/ogit/Software/Application)
+        to: List(http://www.purl.org/ogit/Software/Application)
+

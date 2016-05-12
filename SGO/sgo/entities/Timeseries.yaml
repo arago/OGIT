@@ -15,11 +15,9 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
+        - 
       optional:
         - http://www.purl.org/ogit/unit
-        - http://www.purl.org/ogit/name
-        - http://www.purl.org/ogit/description
-      indexed:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
     history:
@@ -27,3 +25,4 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+

@@ -1,29 +1,29 @@
 - Entity:
-    id:   "http://www.purl.org/ogit/Forum/Banner"
-    name: "Banner"
+    id: http://www.purl.org/ogit/Forum/Banner
+    name: Banner
     description: |
-        Standout content, i.e. a header, hero-unit or part of a carousel.
-        Examples:
-            http://getbootstrap.com/examples/carousel/ (a carousel of banners)
-            http://getbootstrap.com/examples/jumbotron/ (the content at the top is a banner)
-
-    valid-from: "2015-04-27"
-    valid-until:
-    creator: "cwalker@arago.de"
-    deleter:
-    created:  "2015-04-27"
-    modified: "2015-04-27"
-    admin-contact: "arago GmbH"
-    tech-contact: "arago GmbH"
-    scope: "NTO"
-    parent: "http://www.purl.org/ogit/Node"
-    history:
-      - id: 1
-        date: "2015-04-27"
-        description: "Initial Creation"
-        modified-by: "cwalker@arago.de"
-
+      Standout content, i.e. a header, hero-unit or part of a carousel.
+      Examples:
+          http://getbootstrap.com/examples/carousel/ (a carousel of banners)
+          http://getbootstrap.com/examples/jumbotron/ (the content at the top is a banner)
+    valid-from: 2015-04-27
+    valid-until: 
+    creator: cwalker@arago.de
+    deleter: 
+    created: 2015-04-27
+    modified: 2015-04-27
+    admin-contact: arago GmbH
+    tech-contact: arago GmbH
+    scope: NTO
+    parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
-        - "http://www.purl.org/ogit/content"
+        - http://www.purl.org/ogit/content
       optional:
+        - 
+    history:
+      - id: 1
+        date: 2015-04-27
+        description: Initial Creation
+        modified-by: cwalker@arago.de
+

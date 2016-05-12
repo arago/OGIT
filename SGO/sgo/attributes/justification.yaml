@@ -1,11 +1,11 @@
 - Attribute:
     id: http://www.purl.org/ogit/justification
-    name: justification 
+    name: justification
     description: |
       Justification for a ChangeRequest
     valid-from: 2015-07-01
     valid-until: 
-    creator: Aymen Ayoub  
+    creator: Aymen Ayoub
     deleter: 
     created: 2015-07-01
     modified: 2015-07-01
@@ -18,3 +18,4 @@
         date: 2015-07-01
         description: initial
         modified-by: Aymen Ayoub
+

@@ -46,5 +46,6 @@
         modified-by: Peter Larem
       - id: 4
         date: 2015-06-11
-        description: deleted the optional attribute ogit/ServiceManagement/externalTicketSource 
+        description: deleted the optional attribute ogit/ServiceManagement/externalTicketSource
         modified-by: Aymen Ayoub
+

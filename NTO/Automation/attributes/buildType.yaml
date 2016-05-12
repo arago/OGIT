@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/buildType
     name: buildType
     description: |
-      Contains the build type of a component. 
+      Contains the build type of a component.
     valid-from: 2015-08-19
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-08-19
         description: initial
         modified-by: Aymen Ayoub
+

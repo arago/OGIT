@@ -11,12 +11,15 @@
     modified: 2015-10-15
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/Automation/MARSNode 
-        to: http://www.purl.org/ogit/Automation/MARSNode
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-10-15
         description: initial
         modified-by: Aymen Ayoub
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
+        to: List(http://www.purl.org/ogit/Automation/MARSNode)
+

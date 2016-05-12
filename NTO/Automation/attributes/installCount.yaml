@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/installCount
     name: installCount
     description: |
-      Contains an integer. This integer can be adjust automatically when software is added to or deleted from configuration items (CIs). 
+      Contains an integer. This integer can be adjust automatically when software is added to or deleted from configuration items (CIs).
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

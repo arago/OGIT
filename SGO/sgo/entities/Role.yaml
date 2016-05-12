@@ -4,9 +4,9 @@
     description: |
       In contrast to ogit/Organization, which is mainly a collection of persons and/or other organziations, ogit/Role defines behavior of an actor along with necessary privileges.
     valid-from: 2015-05-21
-    valid-until:
+    valid-until: 
     creator: Peter Larem
-    deleter:
+    deleter: 
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
@@ -14,7 +14,6 @@
     scope: SGO
     parent: http://www.purl.org/ogit/Node
     attributes:
-      any: true
       mandatory:
         - http://www.purl.org/ogit/name
       optional:
@@ -25,3 +24,4 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+

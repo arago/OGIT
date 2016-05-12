@@ -4,21 +4,15 @@
     description: |
       Verb showing if one entity provides something to another.
     valid-from: 2015-07-24
-    valid-until:
+    valid-until: 
     creator: Aymen Ayoub
-    deleter:
+    deleter: 
     created: 2015-07-24
     modified: 2015-07-24
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/Organization
-        to: http://www.purl.org/ogit/ConfigurationItem
-      - from: http://www.purl.org/ogit/ConfigurationItem
-        to: http://www.purl.org/ogit/ConfigurationItem
-      - from: http://www.purl.org/ogit/Automation/MARSNode
-        to: http://www.purl.org/ogit/Automation/MARSNode
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-07-24
@@ -32,3 +26,12 @@
         date: 2015-10-15
         description: updated edge from ogit/Automation/MARSNode -> ogit/Automation/MARSNode added
         modified-by: Aymen Ayoub
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/Organization)
+        to: List(http://www.purl.org/ogit/Organization)
+      - from: List(http://www.purl.org/ogit/ConfigurationItem)
+        to: List(http://www.purl.org/ogit/ConfigurationItem)
+      - from: List(http://www.purl.org/ogit/Automation/MARSNode)
+        to: List(http://www.purl.org/ogit/Automation/MARSNode)
+

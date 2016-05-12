@@ -42,8 +42,8 @@
         modified-by: Peter Larem
       - id: 2
         date: 2015-05-22
-        description: |
-          - Attribute name changed from subStatus to sourceStatus
+        description: - Attribute name changed from subStatus to sourceStatus
+
         modified-by: Catarina Onofre
       - id: 3
         date: 2015-07-09
@@ -53,3 +53,4 @@
         date: 2015-12-10
         description: change entity name to ogit/ServiceManagement/SubTask and add some attributes
         modified-by: Peter Larem
+

@@ -15,6 +15,7 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
+        - 
       optional:
         - http://www.purl.org/ogit/firstName
         - http://www.purl.org/ogit/lastName
@@ -30,11 +31,6 @@
         - http://www.purl.org/ogit/webPage
         - http://www.purl.org/ogit/sourceId
         - http://www.purl.org/ogit/status
-      indexed:
-        - http://www.purl.org/ogit/firstName
-        - http://www.purl.org/ogit/lastName
-        - http://www.purl.org/ogit/email
-        - http://www.purl.org/ogit/alternativeName
     history:
       - id: 1
         date: 2015-05-21
@@ -48,4 +44,4 @@
         date: 2015-07-27
         description: added optional attribute ogit/middleName, ogit/officePhone, ogit/otherPhone, ogit/mobilePhone, ogit/fax, ogit/webPage, ogit/notification, ogit/status
         modified-by: Philipp Pelchmann
-    
+

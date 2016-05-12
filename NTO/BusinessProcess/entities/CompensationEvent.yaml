@@ -2,12 +2,18 @@
     id: http://www.purl.org/ogit/BusinessProcess/CompensationEvent
     name: CompensationEvent
     description: |
-      Entity to store a compensation event. We execute tasks in our processes that sometimes have to be canceled later under certain circumstances.\n
-      Typical examples are:\n
-      Booking a train or airline ticket\n
-      Reserving a rental car\n
-      Charging a credit card\n
-      Commissioning a service provider\n
+      Entity to store a compensation event. We execute tasks in our processes that sometimes have to be canceled later under certain circumstances.
+      
+      Typical examples are:
+      
+      Booking a train or airline ticket
+      
+      Reserving a rental car
+      
+      Charging a credit card
+      
+      Commissioning a service provider
+      
     valid-from: 2015-05-21
     valid-until: 
     creator: Peter Larem
@@ -29,3 +35,4 @@
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+

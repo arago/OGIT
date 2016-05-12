@@ -15,6 +15,7 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
+        - 
       optional:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/startedAt
@@ -30,13 +31,14 @@
         modified-by: Peter Larem
       - id: 2
         date: 2015-06-08
-        description: Added ogit/startAt ogit/ServiceManagement/scheduledFinishAt ogit/slaStage ogit/ServiceManagement/elapsedTime ogit/ServiceManagement/leftTime attributes to ogit/ServiceManagement/SLA 
+        description: Added ogit/startAt ogit/ServiceManagement/scheduledFinishAt ogit/slaStage ogit/ServiceManagement/elapsedTime ogit/ServiceManagement/leftTime attributes to ogit/ServiceManagement/SLA
         modified-by: Aymen Ayoub
       - id: 3
         date: 2015-07-09
-        description: change attribute ogit/startAt to ogit/startedAt 
+        description: change attribute ogit/startAt to ogit/startedAt
         modified-by: Peter Larem
       - id: 4
         date: 2015-08-11
         description: add resolvedInTime
         modified-by: Philipp Pelchmann
+

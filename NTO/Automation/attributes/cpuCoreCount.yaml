@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/cpuCoreCount
     name: cpuCoreCount
     description: |
-        Contains the number of cpu cores.
+      Contains the number of cpu cores.
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

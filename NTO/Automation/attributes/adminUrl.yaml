@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/adminUrl
     name: adminUrl
     description: |
-        Contains an URL (unified resource locator)
+      Contains an URL (unified resource locator)
     valid-from: 2015-07-24
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-24
         description: initial
         modified-by: Aymen Ayoub
+

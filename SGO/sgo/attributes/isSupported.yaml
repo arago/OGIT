@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/ogit/isSupported
-    name:  isSupported
+    name: isSupported
     description: |
       Indicates whether the service currently is supported.
       This filed contains a boolean value.
@@ -18,3 +18,5 @@
       - id: 1
         date: 2015-07-27
         description: initial
+        modified-by: 
+

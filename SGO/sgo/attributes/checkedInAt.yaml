@@ -1,4 +1,3 @@
-
 - Attribute:
     id: http://www.purl.org/ogit/checkedInAt
     name: checkedInAt
@@ -20,4 +19,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
-        
+

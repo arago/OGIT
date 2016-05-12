@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/patchNumber
     name: patchNumber
     description: |
-        Contains a patch number.
+      Contains a patch number.
     valid-from: 2015-07-24
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-24
         description: initial
         modified-by: Aymen Ayoub
+

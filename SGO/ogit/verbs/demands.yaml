@@ -11,13 +11,15 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
     hide: true
-    allowed:
-      - from: http://www.purl.org/ogit/OntologyEntity
-        to: http://www.purl.org/ogit/OntologyAttribute
+    cardinality: 
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/OntologyEntity)
+        to: List(http://www.purl.org/ogit/OntologyEntity)
+

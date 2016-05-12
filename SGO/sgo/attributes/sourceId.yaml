@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/sourceId
     name: sourceId
     description: |
-      The Id of the source system. 
+      The Id of the source system.
     valid-from: 2015-06-11
     valid-until: 
     creator: Peter Larem
@@ -18,3 +18,4 @@
         date: 2015-06-11
         description: initial
         modified-by: Aymen Ayoub
+

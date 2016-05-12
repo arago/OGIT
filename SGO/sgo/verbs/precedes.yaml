@@ -6,25 +6,15 @@
       Either do define some temporal order of things. Or to define some dependency of actions to be done.
       The application managing such dependency graphs is responsible to prevent cyclic dependencies.
     valid-from: 2015-05-21
-    valid-until:
+    valid-until: 
     creator: Peter Larem
-    deleter:
+    deleter: 
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/ServiceManagement/ApprovalTask
-        to: http://www.purl.org/ogit/ServiceManagement/ApprovalTask
-      - from: http://www.purl.org/ogit/ServiceManagement/SubTask
-        to: http://www.purl.org/ogit/ServiceManagement/SubTask
-      - from: http://www.purl.org/ogit/License
-        to: http://www.purl.org/ogit/License
-      - from: http://www.purl.org/ogit/Forum/FeedEntry
-        to: http://www.purl.org/ogit/Forum/FeedEntry
-      - from: http://www.purl.org/ogit/Forum/Award
-        to: http://www.purl.org/ogit/Forum/Award
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-05-21
@@ -42,3 +32,16 @@
         date: 2015-12-14
         description: Added allowed between `ogit/Forum/Award`s
         modified-by: cwalker@arago.de
+
+    allowed:
+      - from: List(http://www.purl.org/ogit/ServiceManagement/ApprovalTask)
+        to: List(http://www.purl.org/ogit/ServiceManagement/ApprovalTask)
+      - from: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
+        to: List(http://www.purl.org/ogit/ServiceManagement/SubTask)
+      - from: List(http://www.purl.org/ogit/License)
+        to: List(http://www.purl.org/ogit/License)
+      - from: List(http://www.purl.org/ogit/Forum/FeedEntry)
+        to: List(http://www.purl.org/ogit/Forum/FeedEntry)
+      - from: List(http://www.purl.org/ogit/Forum/Award)
+        to: List(http://www.purl.org/ogit/Forum/Award)
+

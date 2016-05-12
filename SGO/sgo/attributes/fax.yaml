@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/fax
     name: fax
     description: |
-      The number of a fax. 
+      The number of a fax.
     valid-from: 2015-07-27
     valid-until: 
     creator: Philipp Pelchmann
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Philipp Pelchmann
+

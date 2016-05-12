@@ -15,6 +15,7 @@
     parent: http://www.purl.org/ogit/Node
     attributes:
       mandatory:
+        - 
       optional:
         - http://www.purl.org/ogit/creationTime
         - http://www.purl.org/ogit/modificationTime
@@ -24,3 +25,4 @@
         date: 2015-06-25
         description: initial
         modified-by: Miroslaw Glusiuk
+
