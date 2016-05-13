@@ -21,6 +21,7 @@
         - http://www.purl.org/ogit/description
       optional:
         - http://www.purl.org/ogit/accessControl
+      indexed:
     history:
       - id: 1
         date: 2015-04-27

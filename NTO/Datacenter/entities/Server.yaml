@@ -22,6 +22,7 @@
         - http://www.purl.org/ogit/purchaseDate
         - http://www.purl.org/ogit/Datacenter/moveProductionDate
         - http://www.purl.org/ogit/endOfWarranty
+      indexed:
     history:
       - id: 1
         date: 2015-05-21

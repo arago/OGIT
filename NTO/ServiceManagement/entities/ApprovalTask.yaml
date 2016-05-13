@@ -22,6 +22,7 @@
         - http://www.purl.org/ogit/ServiceManagement/sourceStatus
         - http://www.purl.org/ogit/reason
         - http://www.purl.org/ogit/lastUpdatedAt
+      indexed:
     history:
       - id: 1
         date: 2015-05-21

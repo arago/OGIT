@@ -14,11 +14,13 @@
     scope: SGO
     parent: http://www.purl.org/ogit/Node
     attributes:
+      any: true
       mandatory:
         - http://www.purl.org/ogit/name
       optional:
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/status
+      indexed:
     history:
       - id: 1
         date: 2015-05-21

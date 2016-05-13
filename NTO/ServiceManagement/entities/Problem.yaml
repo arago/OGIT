@@ -23,6 +23,7 @@
         - http://www.purl.org/ogit/ServiceManagement/resolutionCode
         - http://www.purl.org/ogit/ServiceManagement/rootCause
         - http://www.purl.org/ogit/ServiceManagement/workAround
+      indexed:
     history:
       - id: 1
         date: 2015-05-21

@@ -70,6 +70,7 @@
         - http://www.purl.org/ogit/content
         - http://www.purl.org/ogit/model
         - http://www.purl.org/ogit/modelNumber
+      indexed:
     history:
       - id: 1
         date: 2015-06-11

@@ -35,6 +35,7 @@
         - http://www.purl.org/ogit/assignedGroup
         - http://www.purl.org/ogit/ServiceManagement/customer
         - http://www.purl.org/ogit/type
+      indexed:
     history:
       - id: 1
         date: 2015-05-21

@@ -17,6 +17,7 @@
       mandatory:
         - http://www.purl.org/ogit/status
       optional:
+      indexed:
     history:
       - id: 1
         date: 2016-01-22

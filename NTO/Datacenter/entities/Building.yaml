@@ -19,6 +19,7 @@
         - http://www.purl.org/ogit/id
         - http://www.purl.org/ogit/capacity
         - http://www.purl.org/ogit/Datacenter/datacenterId
+      indexed:
     history:
       - id: 1
         date: 2015-05-21

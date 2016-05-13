@@ -20,6 +20,9 @@
         - http://www.purl.org/ogit/description
         - http://www.purl.org/ogit/category
         - http://www.purl.org/ogit/Automation/marsNodeType
+      indexed:
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/description
     history:
       - id: 1
         date: 2016-03-07

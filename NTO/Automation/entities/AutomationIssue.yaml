@@ -30,6 +30,9 @@
         - http://www.purl.org/ogit/creationTime
         - http://www.purl.org/ogit/Automation/isDeployed
         - http://www.purl.org/ogit/Automation/deployStatus
+      indexed:
+        - http://www.purl.org/ogit/subject
+        - http://www.purl.org/ogit/Automation/issueFormalRepresentation
     history:
       - id: 1
         date: 2015-05-21

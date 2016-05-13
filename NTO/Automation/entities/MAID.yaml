@@ -5,11 +5,11 @@
       The Monitoring-Automation Interface Description (MAID) is an abstract definition of
       
       
-       1. a timeseries to be monitored
+       1. a timeseries to be monitored
       
-       2. desired normalizations of that timeseries
+       2. desired normalizations of that timeseries
       
-       3. a set of condition->event mappings to apply to the timeseries or its normalizations
+       3. a set of condition->event mappings to apply to the timeseries or its normalizations
       
       
        These time series definitions can be parameterized for more flexibility. Usually each MAID should describe 
@@ -38,6 +38,7 @@
       mandatory:
         - http://www.purl.org/ogit/Automation/maidFormalRepresentation
       optional:
+      indexed:
     history:
       - id: 1
         date: 2015-05-21

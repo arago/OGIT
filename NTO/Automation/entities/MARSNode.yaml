@@ -99,6 +99,9 @@
         - http://www.purl.org/ogit/Automation/projectName
         - http://www.purl.org/ogit/Automation/isDeployed
         - http://www.purl.org/ogit/Automation/deployStatus
+      indexed:
+        - http://www.purl.org/ogit/name
+        - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
     history:
       - id: 1
         date: 2015-05-21

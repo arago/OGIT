@@ -22,6 +22,7 @@
         - http://www.purl.org/ogit/validFrom
         - http://www.purl.org/ogit/expirationDate
         - http://www.purl.org/ogit/status
+      indexed:
     history:
       - id: 1
         date: 2015-05-21

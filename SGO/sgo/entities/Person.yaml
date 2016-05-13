@@ -30,6 +30,11 @@
         - http://www.purl.org/ogit/webPage
         - http://www.purl.org/ogit/sourceId
         - http://www.purl.org/ogit/status
+      indexed:
+        - http://www.purl.org/ogit/firstName
+        - http://www.purl.org/ogit/lastName
+        - http://www.purl.org/ogit/email
+        - http://www.purl.org/ogit/alternativeName
     history:
       - id: 1
         date: 2015-05-21

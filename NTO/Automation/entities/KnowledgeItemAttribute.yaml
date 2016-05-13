@@ -19,6 +19,7 @@
         - http://www.purl.org/ogit/value
       optional:
         - http://www.purl.org/ogit/mode
+      indexed:
     history:
       - id: 1
         date: 2015-05-21

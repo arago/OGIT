@@ -16,6 +16,7 @@
     attributes:
       mandatory:
       optional:
+      indexed:
     history:
       - id: 1
         date: 2015-09-04

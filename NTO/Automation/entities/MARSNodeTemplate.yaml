@@ -20,6 +20,7 @@
       optional:
         - http://www.purl.org/ogit/Automation/marsNodeType
         - http://www.purl.org/ogit/status
+      indexed:
     history:
       - id: 1
         date: 2015-05-21
