@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/serviceContract
     name: serviceContract
     description: |
-      This field specifies the contract covering a service. 
+      This field specifies the contract covering a service.
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

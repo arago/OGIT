@@ -4,14 +4,18 @@
     description: |
       Gateways can be used to model concurrency in a process. The most straightforward gateway to introduce concurrency 
       in a process model is the Parallel Gateway, which allows forking into multiple paths of execution or joining multiple 
-      incoming paths of execution.\n
-      The functionality of the parallel gateway is based on the incoming and outgoing sequence flow(s):\n
+      incoming paths of execution.
+      
+      The functionality of the parallel gateway is based on the incoming and outgoing sequence flow(s):
+      
       fork: all outgoing sequence flows are followed in parallel, creating one concurrent execution for each sequence flow.
       join: all concurrent executions arriving at the parallel gateway wait at the gateway until an execution has arrived 
-      for each of the incoming sequence flows. Then the process continues past the joining gateway.\n
+      for each of the incoming sequence flows. Then the process continues past the joining gateway.
+      
       Note that a parallel gateway can have both fork and join behaviors, if there are multiple incoming and outgoing 
       sequence flows for the same parallel gateway. In that case, the gateway will first join all incoming sequence flows, 
-      before splitting into multiple concurrent paths of executions.\n
+      before splitting into multiple concurrent paths of executions.
+      
       An important difference with other gateway types is that the parallel gateway does not evaluate conditions. If conditions 
       are defined on the sequence flow connected with the parallel gateway, they are simply ignored.
     valid-from: 2015-05-21
@@ -30,8 +34,10 @@
       optional:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
+      indexed:
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+

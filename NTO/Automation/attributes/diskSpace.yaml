@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/diskSpace
     name: diskSpace
     description: |
-        An integer which contains the disk space in GB. 
+      An integer which contains the disk space in GB.
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

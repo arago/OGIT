@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/cpuManufacturer
     name: cpuManufacturer
     description: |
-        Contains the manufacturer of the cpu of a device.
+      Contains the manufacturer of the cpu of a device.
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

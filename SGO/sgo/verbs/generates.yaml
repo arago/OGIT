@@ -11,7 +11,22 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-26
+        description: change Issue to AutomationIssue
+        modified-by: Peter Larem
+      - id: 3
+        date: 2015-08-04
+        description: some connections addded
+        modified-by: FCO
+
     allowed:
       - from: http://www.purl.org/ogit/Automation/AutomationIssue
         to: http://www.purl.org/ogit/Automation/History
@@ -49,16 +64,4 @@
         to: http://www.purl.org/ogit/Timeseries
       - from: http://www.purl.org/ogit/Software/Application
         to: http://www.purl.org/ogit/Timeseries
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-05-26
-        description: change Issue to AutomationIssue
-        modified-by: Peter Larem
-      - id: 3
-        date: 2015-08-04
-        description: some connections addded
-        modified-by: FCO
+

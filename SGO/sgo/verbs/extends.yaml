@@ -11,7 +11,14 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+
     allowed:
       - from: http://www.purl.org/ogit/Network/NetworkCard
         to: http://www.purl.org/ogit/Network/IDSIPS
@@ -35,8 +42,4 @@
         to: http://www.purl.org/ogit/Network/Switch
       - from: http://www.purl.org/ogit/Network/SimpleDevice
         to: http://www.purl.org/ogit/Network/WifiAccessPoint
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
+

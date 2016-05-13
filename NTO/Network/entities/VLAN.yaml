@@ -18,8 +18,10 @@
       optional:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/id
+      indexed:
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+

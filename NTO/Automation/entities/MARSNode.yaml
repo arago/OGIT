@@ -102,7 +102,6 @@
       indexed:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/Automation/marsNodeFormalRepresentation
-        
     history:
       - id: 1
         date: 2015-05-21
@@ -118,7 +117,7 @@
         modified-by: Aymen Ayoub
       - id: 4
         date: 2015-07-27
-        description: added os informaiton 
+        description: added os informaiton
         modified-by: Philipp Pelchmann
       - id: 5
         date: 2015-08-19
@@ -152,3 +151,4 @@
         date: 2016-01-25
         description: added a new attribute isDeployed and deployStatus
         modified-by: Peter Larem
+

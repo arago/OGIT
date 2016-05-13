@@ -4,24 +4,16 @@
     description: |
       This relationship indicates that one entity endorses some other. This is a recommendation or a
       social `like`.
-
+    valid-from: 2015-04-27
+    valid-until: 
+    creator: cwalker@arago.de
+    deleter: 
+    created: 2015-04-27
+    modified: 2015-04-27
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    created: 2015-04-27
-    creator: cwalker@arago.de
-    deleter:
-    modified: 2015-04-27
-    valid-from: 2015-04-27
-    valid-until:
-    allowed:
-      - from: http://www.purl.org/ogit/Forum/Profile
-        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
-      - from: http://www.purl.org/ogit/Forum/Profile
-        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
-      - from: http://www.purl.org/ogit/Forum/Profile
-        to: http://www.purl.org/ogit/Forum/Post
-      - from: http://www.purl.org/ogit/Forum/Profile
-        to: http://www.purl.org/ogit/Forum/Reply
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-04-27
@@ -31,3 +23,14 @@
         date: 2015-11-13
         description: Edit for KnowledgeItemHistory
         modified-by: bmoore@arago.de
+
+    allowed:
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Reply
+

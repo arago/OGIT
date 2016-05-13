@@ -1,23 +1,25 @@
 - Entity:
     id: http://www.purl.org/ogit/Forum/Permission
     name: Permission
-    description: Permission is used to approve a Nodes interaction with another Node
+    description: |
+      Permission is used to approve a Nodes interaction with another Node
+    valid-from: 2015-09-04
+    valid-until: 
     creator: bmoore@arago.de
-    deleter:
+    deleter: 
     created: 2015-09-04
     modified: 2015-09-04
-    valid-from: 2015-09-04
-    valid-until:
     admin-contact: arago GmbH
     tech-contact: arago GmbH
     scope: NTO
     parent: http://www.purl.org/ogit/Node
+    attributes:
+      mandatory:
+      optional:
+      indexed:
     history:
       - id: 1
         date: 2015-09-04
         description: Initial Creation
         modified-by: bmoore@arago.de
 
-    attributes:
-      mandatory:
-      optional:

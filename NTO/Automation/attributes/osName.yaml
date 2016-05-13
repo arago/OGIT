@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/osName
     name: osName
     description: |
-        Contains operating system name. 
+      Contains operating system name.
     valid-from: 2015-07-27
     valid-until: 
     creator: Philipp Pelchmann
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Philipp Pelchmann
+

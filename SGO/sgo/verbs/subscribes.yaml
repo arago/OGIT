@@ -2,17 +2,32 @@
     id: http://www.purl.org/ogit/subscribes
     name: subscribes
     description: |
-        A subscription by an entity to another. Implies that one entity is interested in something
-        the other can offer.
-
+      A subscription by an entity to another. Implies that one entity is interested in something
+      the other can offer.
+    valid-from: 2015-04-27
+    valid-until: 
+    creator: cwalker@arago.de
+    deleter: 
+    created: 2015-04-27
+    modified: 2015-04-27
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    created: 2015-04-27
-    creator: cwalker@arago.de
-    deleter:
-    modified: 2015-04-27
-    valid-from: 2015-04-27
-    valid-until:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-04-27
+        description: intitial inception
+        modified-by: cwalker@arago.de
+      - id: 2
+        date: 2015-10-21
+        description: Adding Profile ->
+        modified-by: cwalker@arago.de
+      - id: 3
+        date: 2015-11-13
+        description: Edit for KnowledgeItemHistory
+        modified-by: bmoore@arago.de
+
     allowed:
       - from: http://www.purl.org/ogit/Forum/Profile
         to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
@@ -27,16 +42,3 @@
       - from: http://www.purl.org/ogit/Forum/Profile
         to: http://www.purl.org/ogit/Forum/FeedEntry
 
-    history:
-      - id: 1
-        date: 2015-04-27
-        description: intitial inception
-        modified-by: cwalker@arago.de
-      - id: 2
-        date: 2015-10-21
-        description: Adding Profile ->
-        modified-by: cwalker@arago.de
-      - id: 3
-        date: 2015-11-13
-        description: Edit for KnowledgeItemHistory
-        modified-by: bmoore@arago.de

@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/softwareKey
     name: softwareKey
     description: |
-      Contains the key of a software. 
+      Contains the key of a software.
     valid-from: 2015-07-24
     valid-until: 
     creator: Aymen Ayoub
@@ -17,4 +17,5 @@
       - id: 1
         date: 2015-07-24
         description: initial
-        modified-by: Aymen Ayoub 
+        modified-by: Aymen Ayoub
+

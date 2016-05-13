@@ -5,13 +5,17 @@
       The Inclusive Gateway can be seen as a combination of an exclusive and a parallel gateway. 
       Like an exclusive gateway you can define conditions on outgoing sequence flows and the inclusive gateway will evaluate them. 
       However, the main difference is that the inclusive gateway can receive more than one sequence flow, like a parallel gateway.
-      The functionality of the inclusive gateway is based on the incoming and outgoing sequence flow:\n\n
+      The functionality of the inclusive gateway is based on the incoming and outgoing sequence flow:
+      
+      
       fork: all outgoing sequence flow conditions are evaluated and for the sequence flow conditions that evaluate to 'true' the 
-      flows are followed in parallel, creating one concurrent execution for each sequence flow.\n
+      flows are followed in parallel, creating one concurrent execution for each sequence flow.
+      
       join: all concurrent executions arriving at the inclusive gateway wait at the gateway until an execution has arrived for
       each of the incoming sequence flows that have a process token. This is an important difference to the parallel gateway. 
       So in other words, the inclusive gateway will only wait for the incoming sequence flows that will be executed. After the 
-      join, the process continues past the joining inclusive gateway.\n
+      join, the process continues past the joining inclusive gateway.
+      
       Note that an inclusive gateway can have both fork and join behavior, if there are multiple incoming and outgoing sequence 
       flows for the same inclusive gateway. In that case, the gateway will first join all incoming sequence flows that have a 
       process token, before splitting into multiple concurrent paths of executions for the outgoing sequence flows that have a 
@@ -32,8 +36,10 @@
       optional:
         - http://www.purl.org/ogit/name
         - http://www.purl.org/ogit/description
+      indexed:
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+

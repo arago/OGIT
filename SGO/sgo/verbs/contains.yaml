@@ -4,14 +4,50 @@
     description: |
       This relationship indicates that something is part of something else. see also "includes"
     valid-from: 2015-05-21
-    valid-until:
+    valid-until: 
     creator: Peter Larem
-    deleter:
+    deleter: 
     created: 2015-05-21
     modified: 2015-06-25
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-26
+        description: change Issue to AutomationIssue
+        modified-by: Peter Larem
+      - id: 3
+        date: 2015-06-01
+        description: |
+          - Added a connection from `ogit/Forum/Topic` -> `ogit/Forum/Post`
+          - Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/KnowledgeItem`
+          
+        modified-by: cwalker@arago.de
+      - id: 4
+        date: 2015-06-25
+        description: added DynamicEngineData
+        modified-by: Miroslaw Glusiuk
+      - id: 5
+        date: 2015-07-06
+        description: |
+          - Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/AutomationIssue
+          
+        modified-by: cwalker@arago.de
+      - id: 6
+        date: 2015-07-27
+        description: [Added a connection from `ogit/ConfigurationItem` -> `ogit/ConfigurationItem`, Added a connection from `ogit/Automation/MARSNode` -> `/ogit/Network/NetworkInterface`]
+        modified-by: Aymen Ayoub
+      - id: 7
+        date: 2015-10-15
+        description: [Added a connection from `ogit/Automation/MARSNode` -> `ogit/Automation/MARSNode`]
+        modified-by: Aymen Ayoub
+
     allowed:
       - from: http://www.purl.org/ogit/Automation/AutomationIssue
         to: http://www.purl.org/ogit/Automation/Item
@@ -215,10 +251,10 @@
         to: http://www.purl.org/ogit/ServiceManagement/Order
       - from: http://www.purl.org/ogit/Asset
         to: http://www.purl.org/ogit/Contract
-      - from: 'http://www.purl.org/ogit/Forum/Topic'
-        to: 'http://www.purl.org/ogit/Forum/Post'
-      - from: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'
-        to: 'http://www.purl.org/ogit/Automation/KnowledgeItem'
+      - from: http://www.purl.org/ogit/Forum/Topic
+        to: http://www.purl.org/ogit/Forum/Post
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Automation/KnowledgeItem
       - from: http://www.purl.org/ogit/Automation/AutomationIssue
         to: http://www.purl.org/ogit/Automation/DynamicEngineData
       - from: http://www.purl.org/ogit/Automation/MARSNode
@@ -231,44 +267,8 @@
         to: http://www.purl.org/ogit/ConfigurationItem
       - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/Automation/MARSNode
-      - from: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'
-        to: 'http://www.purl.org/ogit/Automation/AutomationIssue'
+      - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
+        to: http://www.purl.org/ogit/Automation/AutomationIssue
       - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/Network/NetworkInterface
 
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-05-26
-        description: change Issue to AutomationIssue
-        modified-by: Peter Larem
-      - id: 3
-        date: 2015-06-01
-        description: |
-          - Added a connection from `ogit/Forum/Topic` -> `ogit/Forum/Post`
-          - Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/KnowledgeItem`
-
-        modified-by: cwalker@arago.de
-      - id: 4
-        date: 2015-06-25
-        description: added DynamicEngineData
-        modified-by: Miroslaw Glusiuk
-      - id: 5
-        date: 2015-07-06
-        description: |
-          - Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/AutomationIssue
-        modified-by: cwalker@arago.de
-      - id: 6
-        date: 2015-07-27
-        description: 
-          - Added a connection from `ogit/ConfigurationItem` -> `ogit/ConfigurationItem`
-          - Added a connection from `ogit/Automation/MARSNode` -> `/ogit/Network/NetworkInterface`
-        modified-by: Aymen Ayoub
-      - id: 7
-        date: 2015-10-15
-        description: 
-          - Added a connection from `ogit/Automation/MARSNode` -> `ogit/Automation/MARSNode`
-        modified-by: Aymen Ayoub

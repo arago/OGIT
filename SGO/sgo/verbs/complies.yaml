@@ -11,7 +11,18 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-06-08
+        description: added edges between ogit/ServiceManagement/Incident => ogit/ complies ogit/ServiceManagement/SLA, ogit/ServiceManagement/ChangeRequest => ogit/complies ogit/ServiceManagement/SLA and ogit/ServiceManagement/Problem => ogit/complies ogit/ServiceManagement/SLA
+        modified-by: Philipp Pelchmann
+
     allowed:
       - from: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
         to: http://www.purl.org/ogit/ServiceManagement/SLA
@@ -33,13 +44,4 @@
         to: http://www.purl.org/ogit/Role
       - from: http://www.purl.org/ogit/Software/Application
         to: http://www.purl.org/ogit/ServiceManagement/SLA
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-06-08
-        description: added edges between ogit/ServiceManagement/Incident => ogit/ complies ogit/ServiceManagement/SLA, ogit/ServiceManagement/ChangeRequest => ogit/complies ogit/ServiceManagement/SLA and ogit/ServiceManagement/Problem => ogit/complies ogit/ServiceManagement/SLA
-        modified-by: Philipp Pelchmann
 

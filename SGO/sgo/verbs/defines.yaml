@@ -11,7 +11,14 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+
     allowed:
       - from: http://www.purl.org/ogit/Automation/MAID
         to: http://www.purl.org/ogit/Timeseries
@@ -21,8 +28,4 @@
         to: http://www.purl.org/ogit/ServiceManagement/Offering
       - from: http://www.purl.org/ogit/Organization
         to: http://www.purl.org/ogit/Role
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
+

@@ -11,7 +11,18 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-08-19
+        description: add connection ogit/Person to ogit/Person
+        modified-by: Peter Larem
+
     allowed:
       - from: http://www.purl.org/ogit/Parameter
         to: http://www.purl.org/ogit/Parameter
@@ -23,12 +34,4 @@
         to: http://www.purl.org/ogit/Role
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/Person
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-08-19
-        description: add connection ogit/Person to ogit/Person
-        modified-by: Peter Larem
+

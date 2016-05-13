@@ -4,14 +4,45 @@
     description: |
       General relationship indicating that one entity is related to another one.
     valid-from: 2015-05-21
-    valid-until:
+    valid-until: 
     creator: Peter Larem
-    deleter:
+    deleter: 
     created: 2015-05-21
     modified: 2015-07-27
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-26
+        description: change Issue to AutomationIssue
+        modified-by: Peter Larem
+      - id: 3
+        date: 2015-06-01
+        description: Added connection from `ogit/Forum/FeedEntry` to `ogit/Node` (the FeedEntry could relate to anything).
+        modified-by: cwalker@arago.de
+      - id: 4
+        date: 2015-07-15
+        description: updated
+        modified-by: Aymen Ayoub
+      - id: 5
+        date: 2015-07-24
+        description: updated
+        modified-by: Aymen Ayoub
+      - id: 5
+        date: 2015-07-27
+        description: added from ogit/ConfigurationItem to ogit/Device
+        modified-by: Philipp Pelchmann
+      - id: 6
+        date: 2015-08-03
+        description: added from ogit/Software/Application to ogit/License
+        modified-by: FCO
+
     allowed:
       - from: http://www.purl.org/ogit/Automation/AutomationIssue
         to: http://www.purl.org/ogit/Automation/MARSNode
@@ -93,40 +124,12 @@
         to: http://www.purl.org/ogit/Network/NetworkInterface
       - from: http://www.purl.org/ogit/Organization
         to: http://www.purl.org/ogit/Organization
-      - from: 'http://www.purl.org/ogit/Forum/FeedEntry'
-        to: 'http://www.purl.org/ogit/Node'
+      - from: http://www.purl.org/ogit/Forum/FeedEntry
+        to: http://www.purl.org/ogit/Node
       - from: http://www.purl.org/ogit/ConfigurationItem
         to: http://www.purl.org/ogit/Asset
       - from: http://www.purl.org/ogit/ConfigurationItem
         to: http://www.purl.org/ogit/Device
       - from: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
         to: http://www.purl.org/ogit/Automation/KnowledgeItem
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-05-26
-        description: change Issue to AutomationIssue
-        modified-by: Peter Larem
-      - id: 3
-        date: 2015-06-01
-        description: 'Added connection from `ogit/Forum/FeedEntry` to `ogit/Node` (the FeedEntry could relate to anything).'
-        modified-by: cwalker@arago.de
-      - id: 4
-        date: 2015-07-15
-        description: updated
-        modified-by: Aymen Ayoub
-      - id: 5
-        date: 2015-07-24
-        description: updated
-        modified-by: Aymen Ayoub
-      - id: 5
-        date: 2015-07-27
-        description: added from ogit/ConfigurationItem to ogit/Device
-        modified-by: Philipp Pelchmann
-      - id: 6
-        date: 2015-08-03
-        description: added from ogit/Software/Application to ogit/License
-        modified-by: FCO
+

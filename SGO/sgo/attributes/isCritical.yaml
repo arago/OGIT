@@ -1,6 +1,6 @@
 - Attribute:
     id: http://www.purl.org/ogit/isCritical
-    name:  isCritical
+    name: isCritical
     description: |
       This field specifies if the CI is critical for day-to-day operation, such as an E-mail server or RDBMS server. 
       If you open an incident on a critical CI, the incident indicates that this is a critical CI. 
@@ -19,3 +19,5 @@
       - id: 1
         date: 2015-07-27
         description: initial
+        modified-by: 
+

@@ -1,25 +1,26 @@
 - Entity:
-    id:  http://www.purl.org/ogit/Email
+    id: http://www.purl.org/ogit/Email
     name: Email
     description: |
       Any type of email adress.
-    valid-from: 2016-01-22 00:00:00
-    valid-until:
+    valid-from: 2016-01-22
+    valid-until: 
     creator: Peter Larem
     deleter: 
-    created:  2016-01-22
+    created: 2016-01-22
     modified: 2016-01-22
     admin-contact: arago GmbH
     tech-contact: arago GmbH
     scope: SGO
     parent: http://www.purl.org/ogit/Node
+    attributes:
+      mandatory:
+        - http://www.purl.org/ogit/status
+      optional:
+      indexed:
     history:
       - id: 1
         date: 2016-01-22
         description: initial
         modified-by: Peter Larem
 
-    attributes:
-      mandatory:
-        - http://www.purl.org/ogit/status
-      optional:

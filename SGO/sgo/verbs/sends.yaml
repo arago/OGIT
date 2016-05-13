@@ -11,7 +11,14 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+
     allowed:
       - from: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
         to: http://www.purl.org/ogit/BusinessProcess/BusinessRuleTask
@@ -185,8 +192,4 @@
         to: http://www.purl.org/ogit/BusinessProcess/UserTask
       - from: http://www.purl.org/ogit/Software/SoftwareComponent
         to: http://www.purl.org/ogit/Software/SoftwareConnection
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
+

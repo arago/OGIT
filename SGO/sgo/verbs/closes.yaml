@@ -11,7 +11,18 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-12-10
+        description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
+        modified-by: Peter Larem
+
     allowed:
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/ServiceManagement/SubTask
@@ -25,12 +36,4 @@
         to: http://www.purl.org/ogit/ServiceManagement/Order
       - from: http://www.purl.org/ogit/Person
         to: http://www.purl.org/ogit/ServiceManagement/ChangeRequest
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-12-10
-        description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
-        modified-by: Peter Larem
+

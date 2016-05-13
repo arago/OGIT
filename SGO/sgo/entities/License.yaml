@@ -23,8 +23,10 @@
         - http://www.purl.org/ogit/licenseKey
         - http://www.purl.org/ogit/createdAt
         - http://www.purl.org/ogit/licenseType
+      indexed:
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+

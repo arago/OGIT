@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/projectName
     name: projectName
     description: |
-      Contains the project name of a component. 
+      Contains the project name of a component.
     valid-from: 2015-11-02
     valid-until: 
     creator: Peter Larem
@@ -17,4 +17,5 @@
       - id: 1
         date: 2015-11-02
         description: initial
-        modified-by: Peter Larem 
+        modified-by: Peter Larem
+

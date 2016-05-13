@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/buildName
     name: buildName
     description: |
-      Contains the build name of a component. 
+      Contains the build name of a component.
     valid-from: 2015-07-24
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-24
         description: initial
         modified-by: Aymen Ayoub
+

@@ -11,14 +11,17 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
-    allowed:
-      - from: http://www.purl.org/ogit/Software/SoftwareConnection
-        to: http://www.purl.org/ogit/Network/NetworkLink
-      - from: http://www.purl.org/ogit/Software/SoftwareConnection
-        to: http://www.purl.org/ogit/Software/Data
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+
+    allowed:
+      - from: http://www.purl.org/ogit/Software/SoftwareConnection
+        to: http://www.purl.org/ogit/Network/NetworkLink
+      - from: http://www.purl.org/ogit/Software/SoftwareConnection
+        to: http://www.purl.org/ogit/Software/Data
+

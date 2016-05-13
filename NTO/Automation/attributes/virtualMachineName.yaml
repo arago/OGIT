@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/virtualMachineName
     name: virtualMachineName
     description: |
-      Contains the name of the virtual machine. 
+      Contains the name of the virtual machine.
     valid-from: 2015-07-27
     valid-until: 
     creator: Aymen Ayoub
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Aymen Ayoub
+

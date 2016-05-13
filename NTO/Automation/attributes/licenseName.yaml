@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/Automation/licenseName
     name: licenseName
     description: |
-      Contains the license name of a component. 
+      Contains the license name of a component.
     valid-from: 2015-07-24
     valid-until: 
     creator: Aymen Ayoub
@@ -17,4 +17,5 @@
       - id: 1
         date: 2015-07-24
         description: initial
-        modified-by: Aymen Ayoub 
+        modified-by: Aymen Ayoub
+

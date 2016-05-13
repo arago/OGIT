@@ -4,9 +4,9 @@
     description: |
       A representation of an (optionally) titled Hyperlink to some media. No protocol restrictions imposed.
     valid-from: 2015-06-09
-    valid-until:
+    valid-until: 
     creator: cwalker@arago.de
-    deleter:
+    deleter: 
     created: 2015-06-09
     modified: 2015-06-09
     admin-contact: arago GmbH
@@ -19,8 +19,10 @@
         - http://www.purl.org/ogit/url
       optional:
         - http://www.purl.org/ogit/title
+      indexed:
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: cwalker@arago.de
+

@@ -4,14 +4,49 @@
     description: |
       Verb showing that an entity is physically/virtually connecting to another entity.
     valid-from: 2015-05-21
-    valid-until:
+    valid-until: 
     creator: Peter Larem
-    deleter:
+    deleter: 
     created: 2015-05-21
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-06-09
+        description: Adding many connections for NTO/Forum
+        modified-by: cwalker@arago.de
+      - id: 3
+        date: 2015-09-15
+        description: Adding connection for Account -> Person
+        modified-by: Peter Larem
+      - id: 4
+        date: 2015-10-15
+        description: Adding connection for Comment -> Contract, License
+        modified-by: Peter Larem
+      - id: 5
+        date: 2015-11-13
+        description: Adding many more connections for NTO/Forum (KnowledgeItemHistory)
+        modified-by: bmoore@arago.de
+      - id: 6
+        date: 2016-01-22
+        description: Adding connection for Email -> Person
+        modified-by: Peter Larem
+      - id: 7
+        date: 2016-01-26
+        description: Adding connection for Comment -> Organization
+        modified-by: Peter Larem
+      - id: 8
+        date: 2016-03-02
+        description: Adding connection for Comment -> Person
+        modified-by: Peter Larem
+
     allowed:
       - from: http://www.purl.org/ogit/Device
         to: http://www.purl.org/ogit/Datacenter/UPS
@@ -137,36 +172,4 @@
         to: http://www.purl.org/ogit/Organization
       - from: http://www.purl.org/ogit/Comment
         to: http://www.purl.org/ogit/Person
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-06-09
-        description: Adding many connections for NTO/Forum
-        modified-by: cwalker@arago.de
-      - id: 3
-        date: 2015-09-15
-        description: Adding connection for Account -> Person
-        modified-by: Peter Larem
-      - id: 4
-        date: 2015-10-15
-        description: Adding connection for Comment -> Contract, License
-        modified-by: Peter Larem
-      - id: 5
-        date: 2015-11-13
-        description: Adding many more connections for NTO/Forum (KnowledgeItemHistory)
-        modified-by: bmoore@arago.de
-      - id: 6
-        date: 2016-01-22
-        description: Adding connection for Email -> Person
-        modified-by: Peter Larem
-      - id: 7
-        date: 2016-01-26
-        description: Adding connection for Comment -> Organization
-        modified-by: Peter Larem
-      - id: 8
-        date: 2016-03-02
-        description: Adding connection for Comment -> Person
-        modified-by: Peter Larem
+

@@ -11,7 +11,42 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-26
+        description: change Issue to AutomationIssue
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-05-26
+        description: change Issue to AutomationIssue
+        modified-by: 
+      - id: 3
+        date: 2015-06-11
+        description: edge added from /ogit/ConfigurationItem to /ogit/AutomationMARSNode.
+        modified-by: Aymen Ayoub
+      - id: 4
+        date: 2015-08-19
+        description: Two edges added
+        modified-by: Aymen Ayoub
+      - id: 5
+        date: 2015-09-04
+        description: Added edge Invite -> Topic
+        modified-by: bmoore@arago.de
+      - id: 6
+        date: 2015-12-10
+        description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
+        modified-by: Peter Larem
+      - id: 6
+        date: 2016-04-04
+        description: Added edge Invite -> KnowledgeItemHistory|KnowledgeBundle
+        modified-by: bmoore@arago.de
+
     allowed:
       - from: http://www.purl.org/ogit/Automation/MARSNode
         to: http://www.purl.org/ogit/Software/Application
@@ -75,37 +110,4 @@
         to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
       - from: http://www.purl.org/ogit/Forum/Invite
         to: http://www.purl.org/ogit/Forum/KnowledgeBundle
-      
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-05-26
-        description: change Issue to AutomationIssue
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-05-26
-        description: change Issue to AutomationIssue
-        modified-by: 
-      - id: 3
-        date: 2015-06-11
-        description: edge added from /ogit/ConfigurationItem to /ogit/AutomationMARSNode.
-        modified-by: Aymen Ayoub
-      - id: 4
-        date: 2015-08-19
-        description: Two edges added
-        modified-by: Aymen Ayoub
-      - id: 5
-        date: 2015-09-04
-        description: Added edge Invite -> Topic
-        modified-by: bmoore@arago.de
-      - id: 6
-        date: 2015-12-10
-        description: change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask
-        modified-by: Peter Larem
-      - id: 6
-        date: 2016-04-04
-        description: Added edge Invite -> KnowledgeItemHistory|KnowledgeBundle
-        modified-by: bmoore@arago.de
+

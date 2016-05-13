@@ -29,8 +29,10 @@
         - http://www.purl.org/ogit/ontologyDeleter
         - http://www.purl.org/ogit/ontologyHide
         - http://www.purl.org/ogit/ontologyCardinality
+      indexed:
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+

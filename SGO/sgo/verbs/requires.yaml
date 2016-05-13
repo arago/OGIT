@@ -11,7 +11,22 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
+    history:
+      - id: 1
+        date: 2015-05-21
+        description: initial
+        modified-by: Peter Larem
+      - id: 2
+        date: 2015-09-03
+        description: Added edge Topic -> Permission
+        modified-by: bmoore@arago.de
+      - id: 3
+        date: 2016-04-04
+        description: Added edge KnowledgeItemHistory|KnowledgeBundle -> Permission
+        modified-by: bmoore@arago.de
+
     allowed:
       - from: http://www.purl.org/ogit/BusinessProcess/ProcessLane
         to: http://www.purl.org/ogit/Organization
@@ -43,16 +58,4 @@
         to: http://www.purl.org/ogit/Forum/Permission
       - from: http://www.purl.org/ogit/Forum/KnowledgeBundle
         to: http://www.purl.org/ogit/Forum/Permission
-    history:
-      - id: 1
-        date: 2015-05-21
-        description: initial
-        modified-by: Peter Larem
-      - id: 2
-        date: 2015-09-03
-        description: Added edge Topic -> Permission
-        modified-by: bmoore@arago.de
-      - id: 3
-        date: 2016-04-04
-        description: Added edge KnowledgeItemHistory|KnowledgeBundle -> Permission
-        modified-by: bmoore@arago.de
+

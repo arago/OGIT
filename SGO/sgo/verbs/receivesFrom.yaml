@@ -11,9 +11,13 @@
     modified: 2015-05-21
     admin-contact: arago GmbH
     tech-contact: arago GmbH
-    cardinality:
+    hide: 
+    cardinality: 
     history:
       - id: 1
         date: 2015-05-21
         description: initial
         modified-by: Peter Larem
+
+    allowed:
+

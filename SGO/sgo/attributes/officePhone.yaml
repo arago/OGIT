@@ -2,7 +2,7 @@
     id: http://www.purl.org/ogit/officePhone
     name: officePhone
     description: |
-      The phone number in the office. 
+      The phone number in the office.
     valid-from: 2015-07-27
     valid-until: 
     creator: Philipp Pelchmann
@@ -18,3 +18,4 @@
         date: 2015-07-27
         description: initial
         modified-by: Philipp Pelchmann
+
