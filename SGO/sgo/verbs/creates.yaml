@@ -65,6 +65,10 @@
         date: 2016-02-22
         description: Added edge for `ogit/Organization` -> `ogit/Organization`
         modified-by: Peter Larem
+      - id: 10
+        date: 2016-05-17
+        description: Added edge for `ogit/Forum/Profile` -> `ogit/Forum/Rating`
+        modified-by: Ben Neal
 
     allowed:
       - from: http://www.purl.org/ogit/ServiceManagement/Report
@@ -101,4 +105,6 @@
         to: http://www.purl.org/ogit/Forum/KnowledgeItemHistory
       - from: http://www.purl.org/ogit/Organization
         to: http://www.purl.org/ogit/Organization
+      - from: http://www.purl.org/ogit/Forum/Profile
+        to: http://www.purl.org/ogit/Forum/Rating
 
