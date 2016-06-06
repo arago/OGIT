@@ -33,6 +33,13 @@
           - Added Connection for `ogit/Organization` -> `ogit/Automation/MARSNode`
           
         modified-by: Aymen Ayoub
+      - id: 4
+        date: 2016-05-17
+        modified-by: Ben Neal
+        description: |
+          - Added Connection for `ogit/Forum/Group` -> `ogit/Forum/KnowledgeBundle`
+          - Added Connection for `ogit/Forum/Group` -> `ogit/Forum/KnowledgeItemHistory`
+          - Added Connection for `ogit/Forum/Group` -> `ogit/Forum/Topic`
 
     allowed:
       - from: http://www.purl.org/ogit/Organization
@@ -53,4 +60,10 @@
         to: http://www.purl.org/ogit/Notification
       - from: http://www.purl.org/ogit/Forum/Profile
         to: http://www.purl.org/ogit/Forum/Topic
+      - from: 'http://www.purl.org/ogit/Forum/Group'
+        to: 'http://www.purl.org/ogit/Forum/KnowledgeBundle'
+      - from: 'http://www.purl.org/ogit/Forum/Group'
+        to: 'http://www.purl.org/ogit/Forum/KnowledgeItemHistory'
+      - from: 'http://www.purl.org/ogit/Forum/Group'
+        to: 'http://www.purl.org/ogit/Forum/Topic'
 

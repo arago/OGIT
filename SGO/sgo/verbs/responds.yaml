@@ -23,6 +23,10 @@
         date: 2015-11-13
         description: Edit for KnowledgeItemHistory
         modified-by: bmoore@arago.de
+      - id: 3
+        date: 2016-05-17
+        description: Added edge for `ogit/Comment` -> `ogit/Forum/Rating`
+        modified-by: Ben Neal
 
     allowed:
       - from: http://www.purl.org/ogit/Comment
@@ -33,4 +37,6 @@
         to: http://www.purl.org/ogit/Forum/Post
       - from: http://www.purl.org/ogit/Forum/Reply
         to: http://www.purl.org/ogit/Forum/KnowledgeBundle
+      - from: http://www.purl.org/ogit/Comment
+        to: http://www.purl.org/ogit/Forum/Rating
 
