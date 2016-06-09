@@ -8,7 +8,7 @@
     creator: Peter Larem
     deleter: 
     created: 2015-05-21
-    modified: 2015-05-21
+    modified: 2016-06-09
     admin-contact: arago GmbH
     tech-contact: arago GmbH
     hide: 
@@ -26,6 +26,10 @@
         date: 2015-08-04
         description: some connections addded
         modified-by: FCO
+      - id: 4
+        date: 2016-06-09
+        description: connection added
+        modified-by: stravlos
 
     allowed:
       - from: http://www.purl.org/ogit/Automation/AutomationIssue
@@ -63,5 +67,7 @@
       - from: http://www.purl.org/ogit/Network/SimpleDevice
         to: http://www.purl.org/ogit/Timeseries
       - from: http://www.purl.org/ogit/Software/Application
+        to: http://www.purl.org/ogit/Timeseries
+      - from: http://www.purl.org/ogit/License
         to: http://www.purl.org/ogit/Timeseries
 
