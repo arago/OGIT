@@ -93,3 +93,8 @@
           merge pull
         date: 2016-06-06
         creator: arago GmbH
+      - id: 2.16.0
+        changelog: |
+          merge pull
+        date: 2016-06-06
+        creator: arago GmbH
