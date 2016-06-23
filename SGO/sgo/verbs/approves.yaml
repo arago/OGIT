@@ -26,6 +26,10 @@
         date: 2015-12-03
         description: Edited edge Permission -> Forum/Group
         modified-by: bmoore@arago.de
+      - id: 3
+        date: 2016-06-23
+        description: connection added
+        modified-by: Spyridon Travlos
 
     allowed:
       - from: http://www.purl.org/ogit/Organization
@@ -36,4 +40,6 @@
         to: http://www.purl.org/ogit/Forum/Group
       - from: http://www.purl.org/ogit/Forum/Permission
         to: http://www.purl.org/ogit/Forum/Profile
+      - from: http://www.purl.org/ogit/Person
+        to: http://www.purl.org/ogit/Contract
 
