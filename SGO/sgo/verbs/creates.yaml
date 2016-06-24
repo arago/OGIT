@@ -3,8 +3,8 @@
     name: creates
     description: |
       Indicates if one entity creates another one.
-    valid-from: 2015-05-19;end=1970-01-01
-    valid-until: 1970-01-01
+    valid-from: 2015-05-19
+    valid-until:
     creator: Peter Larem
     deleter: 
     created: 2015-05-19
