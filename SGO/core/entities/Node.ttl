@@ -1,0 +1,63 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit:Node
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Node";
+	dcterms:description """The root node, the 'Big Bang'. The nodes Global, Factual, Actionable and Situational build with this Node the
+top level of the SGO.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2013-11-01;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2013-09-01";
+	dcterms:modified "2013-09-01";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "SGO";
+	ogit:hide "true";
+	ogit:mandatory-attributes (
+		ogit:_id
+		ogit:_type
+		ogit:_owner
+		ogit:_modified-on
+		ogit:_modified-by
+		ogit:_graphtype
+		ogit:_is-deleted
+		ogit:_deleted-on
+		ogit:_creator
+		ogit:_created-on
+		ogit:_version
+		ogit:_content
+		ogit:_tags
+		ogit:_edge_id
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2013-09-01";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+	);
+.

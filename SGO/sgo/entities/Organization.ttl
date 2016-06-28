@@ -1,0 +1,76 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit:Organization
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Organization";
+	dcterms:description """An identity that represents an organization, company, or some other grouping of Person objects.
+Entities of this type should be created with a predefined ID. Those IDs should be named like a domain name, i.e.
+a concatention of some strings separated with a dot. if organization data is created from a LDAP then a mapping
+like \"cn=John Doe,dc=example,dc=com\" => \"john_doe.example.com\" should be employed.
+The ogit/function attribute should be used to tell what kind of grouping an entity of type Organization is: company, department, group, ...""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-07-27";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "SGO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:any-attributes "true";
+	ogit:mandatory-attributes (
+		ogit:name
+	);
+	ogit:optional-attributes (
+		ogit:description
+		ogit:function
+		ogit:status
+		ogit:email
+		ogit:streetAddress
+		ogit:city
+		ogit:country
+		ogit:postalCode
+		ogit:businessCategory
+		ogit:webPage
+		ogit:sourceId
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-07-27";
+			dcterms:description "added optional attributes ogit/streetAddress, ogit/city, ogit/country, ogit/postalCode, ogit/businessCategory";
+			dcterms:creator "Philipp Pelchmann";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2015-10-15";
+			dcterms:description "added optional attribute ogit/webPage";
+			dcterms:creator "Aymen Ayoub";
+		]
+	);
+.

@@ -1,0 +1,80 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit:precedes
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "precedes";
+	dcterms:description """Describes the relation between a predecessor and a successor entity. This can be use in two ways:
+Either do define some temporal order of things. Or to define some dependency of actions to be done.
+The application managing such dependency graphs is responsible to prevent cyclic dependencies.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-10-21";
+			dcterms:description "Added allowed between `ogit/Forum/FeedEntry`s";
+			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2015-12-10";
+			dcterms:description "change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2015-12-14";
+			dcterms:description "Added allowed between `ogit/Forum/Award`s";
+			dcterms:creator "cwalker@arago.de";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit.ServiceManagement:ApprovalTask;
+			ogit:to ogit.ServiceManagement:ApprovalTask;
+		]
+		[
+			ogit:from ogit.ServiceManagement:SubTask;
+			ogit:to ogit.ServiceManagement:SubTask;
+		]
+		[
+			ogit:from ogit:License;
+			ogit:to ogit:License;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:FeedEntry;
+		]
+		[
+			ogit:from ogit.Forum:Award;
+			ogit:to ogit.Forum:Award;
+		]
+	);
+.
