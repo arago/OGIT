@@ -1,0 +1,56 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit.BusinessProcess:ErrorEvent
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "ErrorEvent";
+	dcterms:description """Entitiy to store potential process errors as a step toward 
+eliminating them, or as part of modeling escalation processes. In BPMN, error events are represented by a flash symbol.
+The BPMN specification does not specify what an error may be, the modeler has to decide that.
+An error is a serious event in BPMN, so if catching, it can be modeled only as an attached intermediate event. 
+This means that an error during task execution must be handled in a specific way: As a throwing event, it can be modeled 
+only at the end of a process path so that the participant knows the process has failed. The parent process should likewise 
+recognize the failure.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit.BusinessProcess:businessProcessEventType
+	);
+	ogit:optional-attributes (
+		ogit:name
+		ogit:description
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+	);
+.

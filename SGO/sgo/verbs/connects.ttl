@@ -1,0 +1,330 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit:connects
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "connects";
+	dcterms:description "Verb showing that an entity is physically/virtually connecting to another entity.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-06-09";
+			dcterms:description "Adding many connections for NTO/Forum";
+			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2015-09-15";
+			dcterms:description "Adding connection for Account -> Person";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2015-10-15";
+			dcterms:description "Adding connection for Comment -> Contract, License";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2015-11-13";
+			dcterms:description "Adding many more connections for NTO/Forum (KnowledgeItemHistory)";
+			dcterms:creator "bmoore@arago.de";
+		]
+		[
+			dcterms:identifier "6";
+			dcterms:date "2016-01-22";
+			dcterms:description "Adding connection for Email -> Person";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "7";
+			dcterms:date "2016-01-26";
+			dcterms:description "Adding connection for Comment -> Organization";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "8";
+			dcterms:date "2016-03-02";
+			dcterms:description "Adding connection for Comment -> Person";
+			dcterms:creator "Peter Larem";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit:Device;
+			ogit:to ogit.Datacenter:UPS;
+		]
+		[
+			ogit:from ogit:Device;
+			ogit:to ogit.Datacenter:PowerDistributionUnit;
+		]
+		[
+			ogit:from ogit.Network:NetworkLink;
+			ogit:to ogit.Network:NetworkInterface;
+		]
+		[
+			ogit:from ogit.Network:Port;
+			ogit:to ogit.Network:FCHBA;
+		]
+		[
+			ogit:from ogit.Network:Port;
+			ogit:to ogit.Network:NIC;
+		]
+		[
+			ogit:from ogit.Software:SoftwareComponent;
+			ogit:to ogit.Software:SoftwareComponent;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit:Hyperlink;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit:Comment;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit.Forum:Topic;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit.Forum:Profile;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit:Hyperlink;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit:Comment;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.Forum:Topic;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.Forum:Profile;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit:Hyperlink;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit:Comment;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit.Forum:Topic;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit.Forum:Profile;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit:Hyperlink;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit:Comment;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:Topic;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:Profile;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit:Hyperlink;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit:Comment;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit.Forum:Topic;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit.Forum:Profile;
+		]
+		[
+			ogit:from ogit:Account;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit:Contract;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit:License;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit:Hyperlink;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit:Comment;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit.Forum:Topic;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit.Forum:Profile;
+		]
+		[
+			ogit:from ogit:Email;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit:Organization;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit:Person;
+		]
+	);
+.

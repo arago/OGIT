@@ -1,0 +1,85 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit.ServiceManagement:SubTask
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "SubTask";
+	dcterms:description """This entity type defines sub-tasks for a ticket. Mostly used for ChangeRequest.
+Comman alternative names with same meaning are: task, activity, work order.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:id
+	);
+	ogit:optional-attributes (
+		ogit.ServiceManagement:taskStatus
+		ogit.ServiceManagement:sourceStatus
+		ogit:description
+		ogit:taskLog
+		ogit:startedAt
+		ogit:finishedAt
+		ogit.ServiceManagement:targetStartAt
+		ogit.ServiceManagement:targetFinishAt
+		ogit.ServiceManagement:scheduledStartAt
+		ogit.ServiceManagement:scheduledFinishAt
+		ogit:effort
+		ogit:lastUpdatedAt
+		ogit.ServiceManagement:resolutionCode
+		ogit:name
+		ogit:assignedGroup
+		ogit.ServiceManagement:customer
+		ogit:type
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-05-22";
+			dcterms:description """- Attribute name changed from subStatus to sourceStatus
+""";
+			dcterms:creator "Catarina Onofre";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2015-07-09";
+			dcterms:description "change attribute ogit/startAt to ogit/startedAt and ogit/finishAt to ogit/finishedAt";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2015-12-10";
+			dcterms:description "change entity name to ogit/ServiceManagement/SubTask and add some attributes";
+			dcterms:creator "Peter Larem";
+		]
+	);
+.

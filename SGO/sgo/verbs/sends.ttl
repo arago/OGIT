@@ -1,0 +1,384 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit:sends
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "sends";
+	dcterms:description "an entity sends data to another entity";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit.BusinessProcess:BusinessRuleTask;
+			ogit:to ogit.BusinessProcess:BusinessRuleTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:BusinessRuleTask;
+			ogit:to ogit.BusinessProcess:InstantiatedReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:BusinessRuleTask;
+			ogit:to ogit.BusinessProcess:ManualTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:BusinessRuleTask;
+			ogit:to ogit.BusinessProcess:ReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:BusinessRuleTask;
+			ogit:to ogit.BusinessProcess:ScriptTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:BusinessRuleTask;
+			ogit:to ogit.BusinessProcess:SendTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:BusinessRuleTask;
+			ogit:to ogit.BusinessProcess:ServiceTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:BusinessRuleTask;
+			ogit:to ogit.BusinessProcess:UndefinedTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:BusinessRuleTask;
+			ogit:to ogit.BusinessProcess:UserTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:InstantiatedReceiveTask;
+			ogit:to ogit.BusinessProcess:BusinessRuleTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:InstantiatedReceiveTask;
+			ogit:to ogit.BusinessProcess:InstantiatedReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:InstantiatedReceiveTask;
+			ogit:to ogit.BusinessProcess:ManualTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:InstantiatedReceiveTask;
+			ogit:to ogit.BusinessProcess:ReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:InstantiatedReceiveTask;
+			ogit:to ogit.BusinessProcess:ScriptTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:InstantiatedReceiveTask;
+			ogit:to ogit.BusinessProcess:SendTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:InstantiatedReceiveTask;
+			ogit:to ogit.BusinessProcess:ServiceTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:InstantiatedReceiveTask;
+			ogit:to ogit.BusinessProcess:UndefinedTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:InstantiatedReceiveTask;
+			ogit:to ogit.BusinessProcess:UserTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ManualTask;
+			ogit:to ogit.BusinessProcess:BusinessRuleTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ManualTask;
+			ogit:to ogit.BusinessProcess:InstantiatedReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ManualTask;
+			ogit:to ogit.BusinessProcess:ManualTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ManualTask;
+			ogit:to ogit.BusinessProcess:ReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ManualTask;
+			ogit:to ogit.BusinessProcess:ScriptTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ManualTask;
+			ogit:to ogit.BusinessProcess:SendTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ManualTask;
+			ogit:to ogit.BusinessProcess:ServiceTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ManualTask;
+			ogit:to ogit.BusinessProcess:UndefinedTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ManualTask;
+			ogit:to ogit.BusinessProcess:UserTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ProcessLane;
+			ogit:to ogit.BusinessProcess:ProcessLane;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ProcessLane;
+			ogit:to ogit.BusinessProcess:ProcessPool;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ProcessPool;
+			ogit:to ogit.BusinessProcess:ProcessLane;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ProcessPool;
+			ogit:to ogit.BusinessProcess:ProcessPool;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ReceiveTask;
+			ogit:to ogit.BusinessProcess:BusinessRuleTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ReceiveTask;
+			ogit:to ogit.BusinessProcess:InstantiatedReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ReceiveTask;
+			ogit:to ogit.BusinessProcess:ManualTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ReceiveTask;
+			ogit:to ogit.BusinessProcess:ReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ReceiveTask;
+			ogit:to ogit.BusinessProcess:ScriptTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ReceiveTask;
+			ogit:to ogit.BusinessProcess:SendTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ReceiveTask;
+			ogit:to ogit.BusinessProcess:ServiceTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ReceiveTask;
+			ogit:to ogit.BusinessProcess:UndefinedTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ReceiveTask;
+			ogit:to ogit.BusinessProcess:UserTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ScriptTask;
+			ogit:to ogit.BusinessProcess:BusinessRuleTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ScriptTask;
+			ogit:to ogit.BusinessProcess:InstantiatedReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ScriptTask;
+			ogit:to ogit.BusinessProcess:ManualTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ScriptTask;
+			ogit:to ogit.BusinessProcess:ReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ScriptTask;
+			ogit:to ogit.BusinessProcess:ScriptTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ScriptTask;
+			ogit:to ogit.BusinessProcess:SendTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ScriptTask;
+			ogit:to ogit.BusinessProcess:ServiceTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ScriptTask;
+			ogit:to ogit.BusinessProcess:UndefinedTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ScriptTask;
+			ogit:to ogit.BusinessProcess:UserTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SendTask;
+			ogit:to ogit.BusinessProcess:BusinessRuleTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SendTask;
+			ogit:to ogit.BusinessProcess:InstantiatedReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SendTask;
+			ogit:to ogit.BusinessProcess:ManualTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SendTask;
+			ogit:to ogit.BusinessProcess:ReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SendTask;
+			ogit:to ogit.BusinessProcess:ScriptTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SendTask;
+			ogit:to ogit.BusinessProcess:SendTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SendTask;
+			ogit:to ogit.BusinessProcess:ServiceTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SendTask;
+			ogit:to ogit.BusinessProcess:UndefinedTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SendTask;
+			ogit:to ogit.BusinessProcess:UserTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ServiceTask;
+			ogit:to ogit.BusinessProcess:BusinessRuleTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ServiceTask;
+			ogit:to ogit.BusinessProcess:InstantiatedReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ServiceTask;
+			ogit:to ogit.BusinessProcess:ManualTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ServiceTask;
+			ogit:to ogit.BusinessProcess:ReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ServiceTask;
+			ogit:to ogit.BusinessProcess:ScriptTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ServiceTask;
+			ogit:to ogit.BusinessProcess:SendTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ServiceTask;
+			ogit:to ogit.BusinessProcess:ServiceTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ServiceTask;
+			ogit:to ogit.BusinessProcess:UndefinedTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:ServiceTask;
+			ogit:to ogit.BusinessProcess:UserTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UndefinedTask;
+			ogit:to ogit.BusinessProcess:BusinessRuleTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UndefinedTask;
+			ogit:to ogit.BusinessProcess:InstantiatedReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UndefinedTask;
+			ogit:to ogit.BusinessProcess:ManualTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UndefinedTask;
+			ogit:to ogit.BusinessProcess:ReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UndefinedTask;
+			ogit:to ogit.BusinessProcess:ScriptTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UndefinedTask;
+			ogit:to ogit.BusinessProcess:SendTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UndefinedTask;
+			ogit:to ogit.BusinessProcess:ServiceTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UndefinedTask;
+			ogit:to ogit.BusinessProcess:UndefinedTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UndefinedTask;
+			ogit:to ogit.BusinessProcess:UserTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UserTask;
+			ogit:to ogit.BusinessProcess:BusinessRuleTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UserTask;
+			ogit:to ogit.BusinessProcess:InstantiatedReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UserTask;
+			ogit:to ogit.BusinessProcess:ManualTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UserTask;
+			ogit:to ogit.BusinessProcess:ReceiveTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UserTask;
+			ogit:to ogit.BusinessProcess:ScriptTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UserTask;
+			ogit:to ogit.BusinessProcess:SendTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UserTask;
+			ogit:to ogit.BusinessProcess:ServiceTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UserTask;
+			ogit:to ogit.BusinessProcess:UndefinedTask;
+		]
+		[
+			ogit:from ogit.BusinessProcess:UserTask;
+			ogit:to ogit.BusinessProcess:UserTask;
+		]
+		[
+			ogit:from ogit.Software:SoftwareComponent;
+			ogit:to ogit.Software:SoftwareConnection;
+		]
+	);
+.

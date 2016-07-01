@@ -1,0 +1,65 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit.BusinessProcess:ParallelGateway
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "ParallelGateway";
+	dcterms:description """Gateways can be used to model concurrency in a process. The most straightforward gateway to introduce concurrency 
+in a process model is the Parallel Gateway, which allows forking into multiple paths of execution or joining multiple 
+incoming paths of execution.
+
+The functionality of the parallel gateway is based on the incoming and outgoing sequence flow(s):
+
+fork: all outgoing sequence flows are followed in parallel, creating one concurrent execution for each sequence flow.
+join: all concurrent executions arriving at the parallel gateway wait at the gateway until an execution has arrived 
+for each of the incoming sequence flows. Then the process continues past the joining gateway.
+
+Note that a parallel gateway can have both fork and join behaviors, if there are multiple incoming and outgoing 
+sequence flows for the same parallel gateway. In that case, the gateway will first join all incoming sequence flows, 
+before splitting into multiple concurrent paths of executions.
+
+An important difference with other gateway types is that the parallel gateway does not evaluate conditions. If conditions 
+are defined on the sequence flow connected with the parallel gateway, they are simply ignored.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit.BusinessProcess:gatewayFunctionality
+	);
+	ogit:optional-attributes (
+		ogit:name
+		ogit:description
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+	);
+.

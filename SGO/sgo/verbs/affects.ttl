@@ -1,0 +1,142 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit:affects
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "affects";
+	dcterms:description "The relationship indicates that one entity affects some other entity.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-06-12";
+			dcterms:description "updated";
+			dcterms:creator "Aymen Ayoub";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2015-07-24";
+			dcterms:description "updated";
+			dcterms:creator "Aymen Ayoub";
+		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2015-09-10";
+			dcterms:description "updated";
+			dcterms:creator "Aymen Ayoub";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit.BusinessProcess:BusinessProcess;
+		]
+		[
+			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit.ServiceManagement:Service;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Service;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit:Event;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit:ConfigurationItem;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Ticket;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Ticket;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit.ServiceManagement:Service;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.ServiceManagement:Service;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit:ConfigurationItem;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit:Location;
+		]
+		[
+			ogit:from ogit.ServiceManagement:SubTask;
+			ogit:to ogit:ConfigurationItem;
+		]
+	);
+.

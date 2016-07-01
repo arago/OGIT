@@ -1,0 +1,252 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit:relates
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "relates";
+	dcterms:description "General relationship indicating that one entity is related to another one.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-07-27";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-05-26";
+			dcterms:description "change Issue to AutomationIssue";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2015-06-01";
+			dcterms:description "Added connection from `ogit/Forum/FeedEntry` to `ogit/Node` (the FeedEntry could relate to anything).";
+			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2015-07-15";
+			dcterms:description "updated";
+			dcterms:creator "Aymen Ayoub";
+		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2015-07-24";
+			dcterms:description "updated";
+			dcterms:creator "Aymen Ayoub";
+		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2015-07-27";
+			dcterms:description "added from ogit/ConfigurationItem to ogit/Device";
+			dcterms:creator "Philipp Pelchmann";
+		]
+		[
+			dcterms:identifier "6";
+			dcterms:date "2015-08-03";
+			dcterms:description "added from ogit/Software/Application to ogit/License";
+			dcterms:creator "FCO";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit.Automation:AutomationIssue;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.Automation:MARSNodeTemplate;
+		]
+		[
+			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit:License;
+		]
+		[
+			ogit:from ogit.Software:Application;
+			ogit:to ogit:License;
+		]
+		[
+			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit.Automation:MARSNodeTemplate;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit:Contract;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.ServiceManagement:Order;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.ServiceManagement:ChangeRequest;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.ServiceManagement:Incident;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.ServiceManagement:Problem;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.ServiceManagement:Ticket;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Report;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.ServiceManagement:Order;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.ServiceManagement:ChangeRequest;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.ServiceManagement:Incident;
+		]
+		[
+			ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.ServiceManagement:Problem;
+		]
+		[
+			ogit:from ogit:Event;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit:Event;
+			ogit:to ogit.ServiceManagement:Order;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit.ServiceManagement:ChangeRequest;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit.ServiceManagement:Incident;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit.ServiceManagement:Problem;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit.ServiceManagement:Order;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit.ServiceManagement:ChangeRequest;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit.ServiceManagement:Incident;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit.ServiceManagement:Problem;
+		]
+		[
+			ogit:from ogit:ConfigurationItem;
+			ogit:to ogit:ConfigurationItem;
+		]
+		[
+			ogit:from ogit:ConfigurationItem;
+			ogit:to ogit.Datacenter:Server;
+		]
+		[
+			ogit:from ogit:ConfigurationItem;
+			ogit:to ogit:Attachment;
+		]
+		[
+			ogit:from ogit:ConfigurationItem;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Ticket;
+			ogit:to ogit.ServiceManagement:Ticket;
+		]
+		[
+			ogit:from ogit.Automation:MARSNodeTemplate;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.Automation:MARSNodeTemplate;
+			ogit:to ogit.Automation:MARSNodeTemplate;
+		]
+		[
+			ogit:from ogit.Automation:MARSNodeTemplate;
+			ogit:to ogit.Automation:MARSNodeTemplate;
+		]
+		[
+			ogit:from ogit.Network:IPAddress;
+			ogit:to ogit.Network:NetworkInterface;
+		]
+		[
+			ogit:from ogit.Network:Port;
+			ogit:to ogit.Network:NetworkInterface;
+		]
+		[
+			ogit:from ogit.Network:PortChannel;
+			ogit:to ogit.Network:NetworkInterface;
+		]
+		[
+			ogit:from ogit:Organization;
+			ogit:to ogit:Organization;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit:Node;
+		]
+		[
+			ogit:from ogit:ConfigurationItem;
+			ogit:to ogit:Asset;
+		]
+		[
+			ogit:from ogit:ConfigurationItem;
+			ogit:to ogit:Device;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+	);
+.

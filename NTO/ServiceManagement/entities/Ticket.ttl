@@ -1,0 +1,80 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit.ServiceManagement:Ticket
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Ticket";
+	dcterms:description "This entity defines any type of tickets. For specific behaviour of tickets, please check specific entities (e.g. ogit/ServiceManagement/Incident).";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:id
+	);
+	ogit:optional-attributes (
+		ogit:summary
+		ogit:description
+		ogit:project
+		ogit:impact
+		ogit:urgency
+		ogit:priority
+		ogit:createdAt
+		ogit:openedAt
+		ogit:closedAt
+		ogit:lastUpdatedAt
+		ogit.ServiceManagement:sourceStatus
+		ogit.ServiceManagement:externalTicketId
+		ogit.ServiceManagement:reportedSource
+		ogit.ServiceManagement:ticketId
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-05-22";
+			dcterms:description "Attribute name changed from subStatus to sourceStatus";
+			dcterms:creator "Catarina Onofre";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2015-05-26";
+			dcterms:description "add new optional attribute ogit/ServiceManagement/ticketId";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2015-06-11";
+			dcterms:description "deleted the optional attribute ogit/ServiceManagement/externalTicketSource";
+			dcterms:creator "Aymen Ayoub";
+		]
+	);
+.

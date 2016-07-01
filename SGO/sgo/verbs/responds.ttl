@@ -1,0 +1,73 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit:responds
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "responds";
+	dcterms:description """This relationship indicates that one entity is a response to another. For example, parts of a
+conversation/fourm thread.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-04-27;";
+	dcterms:creator "cwalker@arago.de";
+	dcterms:created "2015-04-27";
+	dcterms:modified "2015-04-27";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-04-27";
+			dcterms:description "intitial inception";
+			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-11-13";
+			dcterms:description "Edit for KnowledgeItemHistory";
+			dcterms:creator "bmoore@arago.de";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2016-05-17";
+			dcterms:description "Added edge for `ogit/Comment` -> `ogit/Forum/Rating`";
+			dcterms:creator "Ben Neal";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit.Forum:Rating;
+		]
+	);
+.

@@ -1,0 +1,80 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit.Automation:KnowledgeItem
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "KnowledgeItem";
+	dcterms:description """Formalized Knowledge stored in XML format. Serves as the building block for automation solutions.
+
+A KnowledgeItem is a knowledge module, which is applied for execution of an issue.
+A KnowledgeItem checks therefor the information and decides if it will be executed.
+In that case, the KnowledgeItem executes operations, which serves the exploitation of information.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2016-04-18";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:any-attributes "true";
+	ogit:mandatory-attributes (
+		ogit.Automation:knowledgeItemFormalRepresentation
+		ogit.Automation:deployToEngine
+	);
+	ogit:optional-attributes (
+		ogit:modificationTime
+		ogit:isValid
+		ogit.Automation:knowledgeItemTier
+		ogit:creationTime
+		ogit:name
+		ogit:description
+		ogit:changeLog
+		ogit:accessControl
+		ogit.Automation:isDeployed
+		ogit.Automation:deployStatus
+	);
+	ogit:indexed-attributes (
+		ogit:name
+		ogit:description
+		ogit:_creator
+		ogit:_modified-by
+		ogit:_owner
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2016-01-25";
+			dcterms:description "add attributes isDeployed and deployStatus";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2016-04-18";
+			dcterms:description "added indexes for creator/modifier/owner";
+			dcterms:creator "Markus Napp";
+		]
+	);
+.

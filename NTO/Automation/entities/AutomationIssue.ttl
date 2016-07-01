@@ -1,0 +1,80 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Statistics:        <http://www.purl.org/ogit/Statistics/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit.Automation:AutomationIssue
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "AutomationIssue";
+	dcterms:description """Dynamic information exists within an automation engine in the form of Issues otherwise referred to as 
+Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with 
+unique names. From the logical point of view Issues contain information about the change of states on a system. 
+Issues can be injected into an automation engine from external systems e.g. Monitoring or result from the execution of a Knowledge Item. 
+By comparing an Issue with the Issue Condition of a Knowledge Item an automation engine decides which Knowledge Items are are processed 
+in which order. If multiple Knowledge Items can be applied to an Issue the KI with the more precisely defined 
+IssueCondition is processed first.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit.Automation:issueFormalRepresentation
+	);
+	ogit:optional-attributes (
+		ogit:status
+		ogit:subject
+		ogit.Automation:processingTimestamp
+		ogit:modificationTime
+		ogit:creationTime
+		ogit.Automation:isDeployed
+		ogit.Automation:deployStatus
+	);
+	ogit:indexed-attributes (
+		ogit:subject
+		ogit.Automation:issueFormalRepresentation
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2015-05-26";
+			dcterms:description "change entity name";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2015-10-07";
+			dcterms:description "add attributes modificationTime and creationTime";
+			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2016-01-25";
+			dcterms:description "add attributes isDeployed and deployStatus";
+			dcterms:creator "Peter Larem";
+		]
+	);
+.
