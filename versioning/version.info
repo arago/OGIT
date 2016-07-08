@@ -1,6 +1,6 @@
 - Ontology:
     id: http://www.purl.org/ogit/OGIT
-    version: 2.19
+    version: 2.18.2
     history:
       - id: 1.0.0
         changelog: |
@@ -107,9 +107,4 @@
         changelog: |
           merge pull
         date: 2016-06-23
-        creator: arago GmbH
-      - id: 2.18.0
-        changelog: |
-          merge pull
-        date: 2016-07-08
         creator: arago GmbH
