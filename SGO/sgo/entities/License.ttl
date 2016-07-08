@@ -39,6 +39,7 @@ ogit:License
 		ogit:licenseKey
 		ogit:createdAt
 		ogit:licenseType
+                ogit:creator
 	);
 	ogit:indexed-attributes (
 		
