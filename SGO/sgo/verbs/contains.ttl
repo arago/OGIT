@@ -14,6 +14,7 @@
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Bluebird:          <http://www.purl.org/ogit/Bluebird/> .
 
 ogit:contains
 	a owl:ObjectProperty;
@@ -24,7 +25,7 @@ ogit:contains
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2015-06-25";
+	dcterms:modified "2016-07-12";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -72,6 +73,12 @@ ogit:contains
 			dcterms:date "2015-10-15";
 			dcterms:description "[Added a connection from `ogit/Automation/MARSNode` -> `ogit/Automation/MARSNode`]";
 			dcterms:creator "Aymen Ayoub";
+		]
+		[
+			dcterms:identifier "8";
+			dcterms:date "2016-07-12";
+			dcterms:description "Added edges from `Bluebird/Survey` -> `Question`, `Bluebird/SurveyReply` -> `Question`";
+			dcterms:creator "Arthur Shoba";
 		]
 	);
 	ogit:allowed (
@@ -518,6 +525,14 @@ ogit:contains
 		[
 			ogit:from ogit.Automation:MARSNode;
 			ogit:to ogit.Network:NetworkInterface;
+		]
+		[
+			ogit:from ogit.Bluebird:Survey;
+			ogit:to ogit:Question;
+		]
+		[
+			ogit:from ogit.Bluebird:SurveyReply;
+			ogit:to ogit:Question;
 		]
 	);
 .
