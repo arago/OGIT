@@ -14,7 +14,6 @@
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
-@prefix ogit.Bluebird:          <http://www.purl.org/ogit/Bluebird/> .
 
 ogit:contains
 	a owl:ObjectProperty;
@@ -77,7 +76,7 @@ ogit:contains
 		[
 			dcterms:identifier "8";
 			dcterms:date "2016-07-12";
-			dcterms:description "Added edges from `Bluebird/Survey` -> `Question`, `Bluebird/SurveyReply` -> `Question`";
+			dcterms:description "Added edges from `BusinessProcess/Survey` -> `Question`, `BusinessProcess/SurveyReply` -> `Question`";
 			dcterms:creator "Arthur Shoba";
 		]
 	);
@@ -527,11 +526,11 @@ ogit:contains
 			ogit:to ogit.Network:NetworkInterface;
 		]
 		[
-			ogit:from ogit.Bluebird:Survey;
+			ogit:from ogit.BusinessProcess:Survey;
 			ogit:to ogit:Question;
 		]
 		[
-			ogit:from ogit.Bluebird:SurveyReply;
+			ogit:from ogit.BusinessProcess:SurveyReply;
 			ogit:to ogit:Question;
 		]
 	);

@@ -14,9 +14,8 @@
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
-@prefix ogit.Bluebird:          <http://www.purl.org/ogit/Bluebird/> .
 
-ogit.Bluebird:Project
+ogit.BusinessProcess:Project
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Milestone";
