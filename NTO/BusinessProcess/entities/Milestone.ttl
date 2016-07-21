@@ -15,7 +15,7 @@
 @prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
 
-ogit.BusinessProcess:Project
+ogit.BusinessProcess:Milestone
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Milestone";

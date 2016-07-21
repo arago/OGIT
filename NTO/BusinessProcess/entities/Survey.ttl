@@ -35,6 +35,7 @@ ogit.BusinessProcess:Survey
 	ogit:optional-attributes (
 		ogit:name
 		ogit:description
+		ogit:enumValues
 	);
 	ogit:indexed-attributes (
 

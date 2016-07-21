@@ -91,7 +91,7 @@ ogit:belongs
 		[
 			dcterms:identifier "11";
 			dcterms:date "2016-07-12";
-			dcterms:description "Added edges for `Person` -> `BusinessProcess\Project`, `Person` -> `BusinessProcess\Milestone`, `BusinessProcess\Milestone` -> `BusinessProcess\Project`, `BusinessProcess\SurveyReply` -> `BusinessProcess\Survey`, `BusinessProcess\Survey` -> `Person`, `BusinessProcess\SurveyReply` -> `Person`";
+			dcterms:description "Added edges for `Person` -> `BusinessProcess\Project`, `Person` -> `BusinessProcess\Milestone`, `BusinessProcess\Milestone` -> `BusinessProcess\Project`, `BusinessProcess\SurveyCycle` -> `BusinessProcess\Survey`, `BusinessProcess\Survey` -> `Person`, `BusinessProcess\SurveyCycle` -> `Person`";
 			dcterms:creator "Arthur Shoba";
 		]
 	);
@@ -229,16 +229,8 @@ ogit:belongs
 			ogit:to ogit.BusinessProcess:Project;
 		]
 		[
-			ogit:from ogit.BusinessProcess:SurveyReply;
+			ogit:from ogit.BusinessProcess:SurveyCycle;
 			ogit:to ogit.BusinessProcess:Survey;
-		]
-		[
-			ogit:from ogit.BusinessProcess:Survey;
-			ogit:to ogit:Person;
-		]
-		[
-			ogit:from ogit.BusinessProcess:SurveyReply;
-			ogit:to ogit:Person;
 		]
 	);
 .

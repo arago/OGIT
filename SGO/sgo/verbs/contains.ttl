@@ -73,12 +73,6 @@ ogit:contains
 			dcterms:description "[Added a connection from `ogit/Automation/MARSNode` -> `ogit/Automation/MARSNode`]";
 			dcterms:creator "Aymen Ayoub";
 		]
-		[
-			dcterms:identifier "8";
-			dcterms:date "2016-07-12";
-			dcterms:description "Added edges from `BusinessProcess/Survey` -> `Question`, `BusinessProcess/SurveyReply` -> `Question`";
-			dcterms:creator "Arthur Shoba";
-		]
 	);
 	ogit:allowed (
 		[
@@ -524,14 +518,6 @@ ogit:contains
 		[
 			ogit:from ogit.Automation:MARSNode;
 			ogit:to ogit.Network:NetworkInterface;
-		]
-		[
-			ogit:from ogit.BusinessProcess:Survey;
-			ogit:to ogit:Question;
-		]
-		[
-			ogit:from ogit.BusinessProcess:SurveyReply;
-			ogit:to ogit:Question;
 		]
 	);
 .

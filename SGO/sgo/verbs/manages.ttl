@@ -43,7 +43,7 @@ ogit:manages
 		[
 			dcterms:identifier "3";
 			dcterms:date "2016-07-12";
-			dcterms:description "Added edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`, `Person` -> `BusinessProcess/Survey`, `Person` -> `BusinessProcess/SurveyReply`";
+			dcterms:description "Added edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`;
 			dcterms:creator "Arthur Shoba";
 		]
 	);
@@ -163,14 +163,6 @@ ogit:manages
 		[
 			ogit:from ogit:Person;
 			ogit:to ogit.BusinessProcess:Milestone;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit.BusinessProcess:Survey;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit.BusinessProcess:SurveyReply;
 		]
 	);
 .
