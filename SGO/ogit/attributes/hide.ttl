@@ -3,23 +3,23 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit:ontologyScope
+ogit:hide
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "ontologyScope";
-	dcterms:description """Indicates the ontology scope which could be either \"SGO\" or \"NTO\".""";
+	rdfs:label "hide";
+	dcterms:description "Indicates if this part of ontology should hidden from the documentation";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2015-05-21;";
+	dcterms:valid "start=2015-06-01;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
+	dcterms:created "2015-06-01";
+	dcterms:modified "2015-06-01";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "true";
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
+			dcterms:date "2015-06-01";
 			dcterms:description "initial";
 			dcterms:creator "Peter Larem";
 		]

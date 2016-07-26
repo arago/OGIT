@@ -709,7 +709,7 @@ ogit:uses
 			ogit:to ogit.ServiceManagement:ChangeRequest;
 		]
 		[
-			ogit:from ogit:OntologyEntity;
+			ogit:from ogit:Entity;
 			ogit:to ogit:Schema;
 		]
 		[
