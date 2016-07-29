@@ -24,7 +24,7 @@ ogit:belongs
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
+	dcterms:modified "2016-07-12";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -87,6 +87,12 @@ ogit:belongs
 			dcterms:date "2015-12-14";
 			dcterms:description "add connection Attachment -> Comment";
 			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "11";
+			dcterms:date "2016-07-12";
+			dcterms:description "Added edges for `Person` -> `BusinessProcess\Project`, `Person` -> `BusinessProcess\Milestone`, `BusinessProcess\Milestone` -> `BusinessProcess\Project`, `BusinessProcess\SurveyCycle` -> `BusinessProcess\Survey`, `BusinessProcess\Survey` -> `Person`, `BusinessProcess\SurveyCycle` -> `Person`";
+			dcterms:creator "Arthur Shoba";
 		]
 	);
 	ogit:allowed (
@@ -209,6 +215,22 @@ ogit:belongs
 		[
 			ogit:from ogit:Attachment;
 			ogit:to ogit:Comment;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:Project;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:Milestone;
+		]
+		[
+			ogit:from ogit.BusinessProcess:Milestone;
+			ogit:to ogit.BusinessProcess:Project;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SurveyCycle;
+			ogit:to ogit.BusinessProcess:Survey;
 		]
 	);
 .
