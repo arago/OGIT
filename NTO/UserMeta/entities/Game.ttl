@@ -1,10 +1,7 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
-@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.UserMeta:          <http://www.purl.org/ogit/UserMeta/> .
-@prefix xsd:                    <http://www.w3.org/2001/XMLSchema#> .
 
 ogit.UserMeta:Game
     a rdfs:Class;
