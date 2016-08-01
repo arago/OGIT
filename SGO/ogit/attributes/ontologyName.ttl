@@ -3,11 +3,11 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit:scope
+ogit:ontologyName
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "scope";
-	dcterms:description """Indicates the ontology scope which could be either \"SGO\" or \"NTO\".""";
+	rdfs:label "ontologyName";
+	dcterms:description """the \"name\" attribute as defined in OGIT yaml files""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";

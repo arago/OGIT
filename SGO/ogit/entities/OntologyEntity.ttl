@@ -1,10 +1,11 @@
-@prefix ogit:    <http://www.purl.org/ogit/> .
-@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit:Entity
+ogit:OntologyEntity
 	a rdfs:Class;
-	rdfs:label "Entity";
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "OntologyEntity";
 	dcterms:description """represents any Entity definition from OGIT
 whenever there is a Schema describing/restricting the entity's content there will be \"isUsedBy\" link from Schema to OntologyEntity""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
@@ -18,21 +19,23 @@ whenever there is a Schema describing/restricting the entity's content there wil
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:hide "true";
 	ogit:mandatory-attributes (
-		rdfs:label
-		ogit:scope
-		dcterms:description
-		dcterms:valid
-		dcterms:creator
-		dcterms:modified
-		ogit:admin-contact
-		ogit:tech-contact
-		dcterms:description
-		dcterms:created
-		ogit:parent
+		ogit:ontologyScope
+		ogit:ontologyId
+		ogit:description
+		ogit:ontologyName
+		ogit:ontologyValidFrom
+		ogit:ontologyCreator
+		ogit:ontologyModified
+		ogit:ontologyAdminContact
+		ogit:ontologyTechContact
+		ogit:ontologyDescription
+		ogit:ontologyCreated
+		ogit:ontologyParent
 	);
 	ogit:optional-attributes (
-		ogit:deleter
-		ogit:hide
+		ogit:ontologyDeleter
+		ogit:ontologyHide
+		ogit:ontologyValidUntil
 	);
 	ogit:indexed-attributes (
 		

@@ -3,10 +3,10 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit:validation-parameter
+ogit:ontologyValidationParameter
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "validation-parameter";
+	rdfs:label "ontologyValidationParameter";
 	dcterms:description """The \"validation parameter\" attribute as defined in OGIT yaml files""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
