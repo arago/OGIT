@@ -1,0 +1,219 @@
+@prefix ogit:    <http://www.purl.org/ogit/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann:    <http://purl.org/vocab/vann/> .
+
+<http://www.purl.org/ogit>
+	a owl:Ontology;
+	rdfs:label "OGIT Base Vocabulary";
+	dcterms:description """This ontology contains basic terms that are used to define Entities, Attributes and Verbs, but are not Verbs or Attributes themselves."""@en;
+	dcterms:creator "arago GmbH";
+	dcterms:contributor "Andreas Textor";
+	vann:preferredNamespaceUri "http://www.purl.org/ogit/";
+	vann:preferredNamespacePrefix "ogit";
+	owl:versionInfo "2.18.2";
+.
+
+ogit:Entity
+	a rdfs:Class;
+	rdfs:label "Entity";
+	dcterms:description """Represents the class of all Entities"""@en;
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "SGO";
+	ogit:hide "true";
+	ogit:mandatory-attributes (
+		rdfs:label
+		ogit:scope
+		dcterms:description
+		dcterms:valid
+		dcterms:creator
+		dcterms:modified
+		ogit:admin-contact
+		ogit:tech-contact
+		dcterms:description
+		dcterms:created
+		ogit:parent
+	);
+	ogit:optional-attributes (
+		ogit:deleter
+		ogit:hide
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+	);
+.
+
+ogit:Attribute
+	a owl:DatatypeProperty;
+	rdfs:label "Attribute";
+	dcterms:description "Represents the class of all Attributes"@en;
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "SGO";
+	ogit:hide "true";
+	ogit:mandatory-attributes (
+		rdfs:label
+		dcterms:description
+		dcterms:valid
+		dcterms:creator
+		dcterms:created
+		dcterms:modified
+		ogit:admin-contact
+		ogit:tech-contact
+	);
+	ogit:optional-attributes (
+		ogit:deleter
+		ogit:hide
+		ogit:validation-type
+		ogit:validation-parameter
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+	);
+.
+
+ogit:Verb
+	a owl:ObjectProperty;
+	rdfs:label "Verb";
+	dcterms:description "Represents the class of all Verbs"@en;
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Peter Larem";
+	dcterms:created "2015-05-21";
+	dcterms:modified "2015-05-21";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "SGO";
+	ogit:hide "true";
+	ogit:mandatory-attributes (
+		dcterms:description
+		rdfs:label
+		dcterms:valid
+		dcterms:creator
+		dcterms:created
+		dcterms:modified
+		ogit:tech-contact
+		ogit:admin-contact
+	);
+	ogit:optional-attributes (
+		ogit:deleter
+		ogit:hide
+		ogit:cardinality
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2015-05-21";
+			dcterms:description "initial";
+			dcterms:creator "Peter Larem";
+		]
+	);
+.
+
+ogit:any-attributes
+	a owl:ObjectProperty;
+	rdfs:label "any-attributes";
+	dcterms:description "The list of any Attributes for an Entity"@en .
+
+ogit:mandatory-attributes
+	a owl:ObjectProperty;
+	rdfs:label "mandatory-attributes";
+	dcterms:description "The list of mandatory Attributes for an Entity"@en .
+
+ogit:optional-attributes
+	a owl:ObjectProperty;
+	rdfs:label "optional-attributes";
+	dcterms:description "The list of optional Attributes for an Entity"@en .
+
+ogit:indexed-attributes
+	a owl:ObjectProperty;
+	rdfs:label "indexed-attributes";
+	dcterms:description "The list of indexed Attributes for an Entity"@en .
+
+ogit:allowed
+	a owl:ObjectProperty;
+	rdfs:label "allowed";
+	dcterms:description "Constrains ranges and domains for Verbs"@en .
+
+ogit:from
+	a owl:ObjectProperty;
+	rdfs:label "from";
+	dcterms:description "Constrains domains for Verbs"@en .
+
+ogit:to
+	a owl:ObjectProperty;
+	rdfs:label "to";
+	dcterms:description "Constrains ranges for Verbs"@en .
+
+ogit:history
+	a owl:ObjectProperty;
+	rdfs:label "history";
+	dcterms:description "This represents the change history of an Entity, Attribute or Verb"@en .
+
+ogit:deleter
+	a owl:DatatypeProperty;
+	rdfs:label "deleter" .
+	
+ogit:admin-contact
+	a owl:DatatypeProperty;
+	rdfs:label "admin-contact" .
+
+ogit:tech-contact
+	a owl:DatatypeProperty;
+	rdfs:label "tech-contact" .
+
+ogit:parent
+	a owl:DatatypeProperty;
+	rdfs:label "parent" .
+
+ogit:scope
+	a owl:DatatypeProperty;
+	rdfs:label "scope" .
+
+ogit:cardinality
+	a owl:DatatypeProperty;
+	rdfs:label "cardinality" .
+
+ogit:validation-type
+	a owl:DatatypeProperty;
+	rdfs:label "validation-type" .
+
+ogit:validation-parameter
+	a owl:DatatypeProperty;
+	rdfs:label "validation-parameter" .
+
+ogit:hide
+	a owl:DatatypeProperty;
+	rdfs:label "hide" .
+
