@@ -6,6 +6,7 @@
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
 
 ogit:belongs
 	a owl:ObjectProperty;
