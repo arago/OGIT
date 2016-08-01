@@ -26,7 +26,7 @@ ogit.ServiceManagement:sourceStatus
 		[
 			dcterms:identifier "2";
 			dcterms:date "2015-05-22";
-			dcterms:description """- Attribute name changed from subStatus to sourceStatus
+			dcterms:description """Attribute name changed from subStatus to sourceStatus
 - Description edited
 """;
 			dcterms:creator "Catarina Onofre";

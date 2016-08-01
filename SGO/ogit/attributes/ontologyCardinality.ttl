@@ -3,11 +3,11 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit:validation-type
+ogit:ontologyCardinality
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "validation-type";
-	dcterms:description """the \"validation-type\" attribute as defined in OGIT yaml files""";
+	rdfs:label "ontologyCardinality";
+	dcterms:description """The \"cardinality\" attribute as defined in OGIT yaml files.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";

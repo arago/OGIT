@@ -53,7 +53,7 @@ Comman alternative names with same meaning are: task, activity, work order.""";
 		[
 			dcterms:identifier "2";
 			dcterms:date "2015-05-22";
-			dcterms:description """- Attribute name changed from subStatus to sourceStatus
+			dcterms:description """Attribute name changed from subStatus to sourceStatus
 """;
 			dcterms:creator "Catarina Onofre";
 		]

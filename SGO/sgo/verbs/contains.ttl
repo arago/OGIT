@@ -39,8 +39,8 @@ ogit:contains
 		[
 			dcterms:identifier "3";
 			dcterms:date "2015-06-01";
-			dcterms:description """- Added a connection from `ogit/Forum/Topic` -> `ogit/Forum/Post`
-- Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/KnowledgeItem`
+			dcterms:description """Added a connection from `ogit/Forum/Topic` -> `ogit/Forum/Post`
+Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/KnowledgeItem`
 """;
 			dcterms:creator "cwalker@arago.de";
 		]
@@ -53,20 +53,19 @@ ogit:contains
 		[
 			dcterms:identifier "5";
 			dcterms:date "2015-07-06";
-			dcterms:description """- Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/AutomationIssue
-""";
+			dcterms:description """Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/AutomationIssue""";
 			dcterms:creator "cwalker@arago.de";
 		]
 		[
 			dcterms:identifier "6";
 			dcterms:date "2015-07-27";
-			dcterms:description "[Added a connection from `ogit/ConfigurationItem` -> `ogit/ConfigurationItem`, Added a connection from `ogit/Automation/MARSNode` -> `/ogit/Network/NetworkInterface`]";
+			dcterms:description "Added a connection from `ogit/ConfigurationItem` -> `ogit/ConfigurationItem`, Added a connection from `ogit/Automation/MARSNode` -> `/ogit/Network/NetworkInterface`";
 			dcterms:creator "Aymen Ayoub";
 		]
 		[
 			dcterms:identifier "7";
 			dcterms:date "2015-10-15";
-			dcterms:description "[Added a connection from `ogit/Automation/MARSNode` -> `ogit/Automation/MARSNode`]";
+			dcterms:description "Added a connection from `ogit/Automation/MARSNode` -> `ogit/Automation/MARSNode`";
 			dcterms:creator "Aymen Ayoub";
 		]
 	);

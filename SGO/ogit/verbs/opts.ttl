@@ -26,8 +26,8 @@ ogit:opts
 	);
 	ogit:allowed (
 		[
-			ogit:from ogit:Entity;
-			ogit:to ogit:Attribute;
+			ogit:from ogit:OntologyEntity;
+			ogit:to ogit:OntologyAttribute;
 		]
 	);
 .

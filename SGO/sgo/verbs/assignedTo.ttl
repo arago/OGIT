@@ -29,31 +29,28 @@ ogit:assignedTo
 		[
 			dcterms:identifier "2";
 			dcterms:date "2015-05-20";
-			dcterms:description """- Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeBundle`
-- Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/Post`
-- Added Connection for `ogit/Forum/Tag` -> `ogit/Automation/KnowledgeItem`
+			dcterms:description """Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeBundle`
+Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/Post`
+Added Connection for `ogit/Forum/Tag` -> `ogit/Automation/KnowledgeItem`
 """;
 			dcterms:creator "cwalker@arago.de";
 		]
 		[
 			dcterms:identifier "3";
 			dcterms:date "2015-07-27";
-			dcterms:description """- Added Connection for `ogit/Automation/MARSNode` -> `ogit/Person`
-""";
+			dcterms:description """Added Connection for `ogit/Automation/MARSNode` -> `ogit/Person`""";
 			dcterms:creator "Aymen Ayoub";
 		]
 		[
 			dcterms:identifier "4";
 			dcterms:date "2015-11-12";
-			dcterms:description """- changed direction of ogit/Role to ogit/*Task
-""";
+			dcterms:description """changed direction of ogit/Role to ogit/*Task""";
 			dcterms:creator "Peter Larem";
 		]
 		[
 			dcterms:identifier "5";
 			dcterms:date "2015-11-13";
-			dcterms:description """- Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeItemHistory`
-""";
+			dcterms:description """Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeItemHistory`""";
 			dcterms:creator "bmoore@arago.de";
 		]
 		[
