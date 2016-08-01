@@ -30,40 +30,40 @@ ogit:creates
 		[
 			dcterms:identifier "2";
 			dcterms:date "2015-05-20";
-			dcterms:description """- Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/KnowledgeBundle`
-- Added Connection for `ogit/Forum/Profile` -> `ogit/Comment`
-- Added Connection for `ogit/Forum/Profile` -> `ogit/Automation/KnowledgeItem`
-- Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Post`
-- Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Reply`
-- Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
+			dcterms:description """Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/KnowledgeBundle`
+Added Connection for `ogit/Forum/Profile` -> `ogit/Comment`
+Added Connection for `ogit/Forum/Profile` -> `ogit/Automation/KnowledgeItem`
+Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Post`
+Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Reply`
+Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 """;
 			dcterms:creator "cwalker@arago.de";
 		]
 		[
 			dcterms:identifier "3";
 			dcterms:date "2015-06-09";
-			dcterms:description """- Added Connection for `ogit/Forum/Profile` -> `ogit/Automation/AutomationIssue`
+			dcterms:description """Added Connection for `ogit/Forum/Profile` -> `ogit/Automation/AutomationIssue`
 """;
 			dcterms:creator "";
 		]
 		[
 			dcterms:identifier "4";
 			dcterms:date "2015-07-24";
-			dcterms:description """- Added Connection for `/ogit/Organization` -> `/ogit/ConfigurationItem`
+			dcterms:description """Added Connection for `/ogit/Organization` -> `/ogit/ConfigurationItem`
 """;
 			dcterms:creator "Aymen Ayoub";
 		]
 		[
 			dcterms:identifier "5";
 			dcterms:date "2015-07-27";
-			dcterms:description """- Added Connection for `/ogit/Person` -> `/ogit/ConfigurationItem`
+			dcterms:description """Added Connection for `/ogit/Person` -> `/ogit/ConfigurationItem`
 """;
 			dcterms:creator "Aymen Ayoub";
 		]
 		[
 			dcterms:identifier "6";
 			dcterms:date "2015-08-11";
-			dcterms:description """- Added Connections for `Connector` -> `ConfigurationItem`, `ChangeRequest`,`Incident`
+			dcterms:description """Added Connections for `Connector` -> `ConfigurationItem`, `ChangeRequest`,`Incident`
 """;
 			dcterms:creator "Philipp Pelchmann";
 		]

@@ -60,7 +60,7 @@ ogit.ServiceManagement:ChangeRequest
 			dcterms:creator "Aymen Ayoub";
 		]
 		[
-			dcterms:identifier "";
+			dcterms:identifier "3";
 			dcterms:date "2015-07-03";
 			dcterms:description "updated";
 			dcterms:creator "Aymen Ayoub";

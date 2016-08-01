@@ -29,26 +29,25 @@ ogit:owns
 		[
 			dcterms:identifier "2";
 			dcterms:date "2015-05-20";
-			dcterms:description """- Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/KnowledgeBundle`
-- Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/FeedEntry`
-- Added Connection for `ogit/Forum/Profile` -> `ogit/Notification`
-- Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
+			dcterms:description """Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/KnowledgeBundle`
+Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/FeedEntry`
+Added Connection for `ogit/Forum/Profile` -> `ogit/Notification`
+Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 """;
 			dcterms:creator "";
 		]
 		[
 			dcterms:identifier "3";
 			dcterms:date "2015-07-27";
-			dcterms:description """- Added Connection for `ogit/Organization` -> `ogit/Automation/MARSNode`
-""";
+			dcterms:description """Added Connection for `ogit/Organization` -> `ogit/Automation/MARSNode`""";
 			dcterms:creator "Aymen Ayoub";
 		]
 		[
 			dcterms:identifier "4";
 			dcterms:date "2016-05-17";
-			dcterms:description """- Added Connection for `ogit/Forum/Group` -> `ogit/Forum/KnowledgeBundle`
-- Added Connection for `ogit/Forum/Group` -> `ogit/Forum/KnowledgeItemHistory`
-- Added Connection for `ogit/Forum/Group` -> `ogit/Forum/Topic`
+			dcterms:description """Added Connection for `ogit/Forum/Group` -> `ogit/Forum/KnowledgeBundle`
+Added Connection for `ogit/Forum/Group` -> `ogit/Forum/KnowledgeItemHistory`
+Added Connection for `ogit/Forum/Group` -> `ogit/Forum/Topic`
 """;
 			dcterms:creator "Ben Neal";
 		]

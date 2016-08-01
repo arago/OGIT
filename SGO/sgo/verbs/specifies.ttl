@@ -30,8 +30,8 @@ ogit:specifies
 		[
 			dcterms:identifier "2";
 			dcterms:date "2015-06-01";
-			dcterms:description """- Adding connection from `ogit/Forum/ShortId` -> `ogit/Forum/Post`
-- Adding connection from `ogit/Forum/ShortId` -> `ogit/Automation/KnowledgeItem`
+			dcterms:description """Adding connection from `ogit/Forum/ShortId` -> `ogit/Forum/Post`
+Adding connection from `ogit/Forum/ShortId` -> `ogit/Automation/KnowledgeItem`
 """;
 			dcterms:creator "cwalker@arago.de";
 		]

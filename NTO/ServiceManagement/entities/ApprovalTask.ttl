@@ -41,7 +41,7 @@ ogit.ServiceManagement:ApprovalTask
 		[
 			dcterms:identifier "2";
 			dcterms:date "2015-05-22";
-			dcterms:description """- Attribute name changed from subStatus to sourceStatus
+			dcterms:description """Attribute name changed from subStatus to sourceStatus
 """;
 			dcterms:creator "Catarina Onofre";
 		]
