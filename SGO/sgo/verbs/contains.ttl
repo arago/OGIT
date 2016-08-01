@@ -20,7 +20,7 @@ ogit:contains
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2015-06-25";
+	dcterms:modified "2016-07-12";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
