@@ -64,6 +64,12 @@ ogit:relates
 			dcterms:description "added from ogit/Software/Application to ogit/License";
 			dcterms:creator "FCO";
 		]
+		[
+			dcterms:identifier "7";
+			dcterms:date "2016-08-03";
+			dcterms:description "added event-> event, event-> incident";
+			dcterms:creator "Philipp Pelchmann";
+		]
 	);
 	ogit:allowed (
 		[
@@ -89,6 +95,14 @@ ogit:relates
 		[
 			ogit:from ogit.Automation:MARSNode;
 			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit:Event;
+			ogit:to ogit:Event;
+		]
+		[
+			ogit:from ogit:Event;
+			ogit:to ogit.ServiceManagement:Incident;
 		]
 		[
 			ogit:from ogit.Automation:MARSNode;

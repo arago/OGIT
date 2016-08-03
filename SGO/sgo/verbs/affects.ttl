@@ -43,6 +43,12 @@ ogit:affects
 			dcterms:description "updated";
 			dcterms:creator "Aymen Ayoub";
 		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2016-08-03";
+			dcterms:description "added event->person, event-> ci";
+			dcterms:creator "Philipp Pelchmann";
+		]
 	);
 	ogit:allowed (
 		[
@@ -87,6 +93,14 @@ ogit:affects
 		]
 		[
 			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit:Event;
+			ogit:to ogit:ConfigurationItem;
+		]
+		[
+			ogit:from ogit:Event;
 			ogit:to ogit:Person;
 		]
 		[

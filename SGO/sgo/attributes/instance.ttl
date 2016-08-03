@@ -1,0 +1,26 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:ciType
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "instance";
+	dcterms:description "Defines the name of an instance.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-03;";
+	dcterms:creator "Philipp Pelchmann";
+	dcterms:created "2016-08-03";
+	dcterms:modified "2016-08-03";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-03";
+			dcterms:description "initial";
+			dcterms:creator "Philipp Pelchmann";
+		]
+	);
+.
