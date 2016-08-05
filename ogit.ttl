@@ -141,6 +141,13 @@ ogit:Verb
 	);
 .
 
+ogit:original
+	a owl:AnnotationProperty;
+	rdfs:label "original";
+	dcterms:description """In a vocabulary imported into OGIT, an ogit:original reference can be added to elements to
+refer to the original URI of the element. It is less strict than owl:sameAs, but unlike rdfs:seeAlso, it should
+always refer to a URI.""" .
+
 ogit:any-attributes
 	a owl:ObjectProperty;
 	rdfs:label "any-attributes";
@@ -216,4 +223,3 @@ ogit:validation-parameter
 ogit:hide
 	a owl:DatatypeProperty;
 	rdfs:label "hide" .
-
