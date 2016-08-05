@@ -3,63 +3,52 @@
 
 ## Overview
 
-_Open Graph of IT_ aims to build a semantic representation of all IT and its interaction with business processes and people. 
-
-Such an endeavour requires a sound data space as a foundation for computational evaluation of this enterprise space. 
-
-_Open Graph of IT_ aims to become the 'IT version' of **Google's Knowledge Graph** or Facebook's **Social Graph**.
-
+_Open Graph of IT_ (OGIT) aims to build a semantic representation of all IT and its interaction with business processes and people.
+Such an endeavour requires a sound data space as a foundation for computational evaluation of this enterprise space.
+OGIT aims to become the 'IT version' of **Google's Knowledge Graph** or Facebook's **Social Graph**.
 Hence we need a common language for IT entities and relationships between them.
 
-The _OGIT ontology project_ targets to provide a such common language by defining an ontology for the _Graph of IT_.
+OGIT aims to provide a such common language by defining an ontology for the _Graph of IT_.
 
-_OGIT ontology project_ is not only hosting place for a specification. It also
- provides a platform for domain experts to contribute to the ontology. 
-One of the basic principles is: _evolution over standardization_
+The OGIT project is not only a hosting place for a specification. It also
+provides a platform for domain experts to contribute to the ontology.
+One of the basic principles is: _evolution over standardization_.
 
-Furthermore this is not just an ontology specification.
+## OGIT Documentation
 
-**This is real!**
+Find out more about OGIT using the following links.
 
-There is an application called _GraphIT_ that allows to manage IT data through a RESTful API ensuring compliance to _OGIT ontology_
+* [Basic Concepts](../../wiki/Basic-Concepts)
+* [OGIT ontology details](../../wiki/OGIT-ontology-details)
+* [Maintaining the ontology](../../wiki/Maintaining-the-ontology)
+* Get started with an implementation:
+	+ [Using OGIT in Apache Jena Fuseki](../../wiki/Using-Fuseki)
+	+ [Using OGIT with Apache Tinkerpop](../../wiki/Using-Tinkerpop)
+	+ [Using OGIT in Cayley](../../wiki/Using-Cayley)
+* [High level use cases](../../wiki/High-level-use-cases)
+* [Contributing to the ontology](../../wiki/Contributing)
 
-Throughout the docs we often use _OGIT_ as a shortcut for both _Open Graph of IT_ and _Open Graph of IT ontology_.
+## GraphIT Documentation
 
-## Documentation on GitHub
+There is an application called [GraphIT](https://graphit.co) that allows you to
+manage IT data through a RESTful API ensuring compliance to the OGIT ontology.
 
-1. [Read more](LEARN_MORE.md) about the motivation for OGIT
+The following links provide more information on OGIT and GraphIT.
 
-2. [Concepts](../../wiki/Basic-Concepts) behind OGIT ontology
-
-3. [Technical representation](../../wiki/OGIT-ontology-details) of OGIT ontology
-
-4. [Guidelines] (SGO/format/README.md)
-
-5. [Versioning] (versioning/README.md)
-
-6. [Contribute](CONTRIBUTING.md) to OGIT ontology
-
-7. [Try it out](../../wiki/Using-the-Ontology)
-
-8. [Developer resources](https://autopilot.co/docs/5.3.0/html/content/5.3.0-developer-contents.html) (registration required)
-  - [GraphIT API reference](https://autopilot.co/docs/5.3.1/html/content/5.3-developer-graphit-rest-api.html)
-
-## Documentation on graphit.co
 (Pages updated on daily basis)
 
-1. [Ontology documentation](https://graphit.co/ogit_docs/latest) for all OGIT elements
-
-2. [Ontology visualization](https://graphit.co/ogit/graph.php?dataset=ontology)
-
-
+* [OGIT documentation](https://graphit.co/ogit_docs/latest) for all elements of the OGIT ontology
+* [OGIT visualization](https://graphit.co/ogit/graph.php?dataset=ontology)
+* [GraphIT developer resources](https://autopilot.co/docs/5.3.0/html/content/5.3.0-developer-contents.html) (free registration required)
+* [GraphIT API reference](https://autopilot.co/docs/5.3.1/html/content/5.3-developer-graphit-rest-api.html) (free registration required)
 
 ## Getting Support
 
-If you have general questions or need support please contact us at <ogit@arago.de>
+If you have general questions or need support please contact us at <ogit@arago.de>.
 
-## License 
+## License
 
-Please see [LICENSE.md](LICENSE.md) for information about the licensing of OGIT and it's components.
+Please see [LICENSE.md](LICENSE.md) for information about the licensing of OGIT and its components.
 
 
 
