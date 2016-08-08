@@ -1,25 +1,18 @@
 List of enabled NTOs
 ====
 
-Currently the following NTOs have been enabled for Open GraphIT ontology:
+Currently the following NTOs have been enabled for OGIT:
 
 * [Automation](Automation)
 * [Business Process](BusinessProcess)
 * [Cost](Cost)
-* [CustomApplicationData](CustomApplicationData)
 * [Datacenter](Datacenter)
+* [Forum](Forum)
 * [Network](Network)
 * [Price](Price)
 * [Service Management](ServiceManagement)
 * [Software](Software)
+* [Statistics](Statistics)
 
-The format used within the YAML files is described [here](../SGO/format/README.md)
+The format used within the Turtle files is described [here](https://github.com/arago/OGIT/wiki/OGIT-ontology-details).
 
-   
-
-NTO Entity Identifiers
-====
-
-When proposing a new NTO, the field ID in each YAML file needs to contain an unique ID. Each NTO Maintainer is required to use the PURL (Persisten URL service) to create an unique identifier. 
-
-Please see the [ID Registration Document](PURL_ID_Registration.md) for a detail documentation of the ID registration.
