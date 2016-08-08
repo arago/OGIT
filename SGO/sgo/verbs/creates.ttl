@@ -97,6 +97,12 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			dcterms:description "Added edge for `ogit/Person` -> `ogit/BusinessProcess/Project`, `ogit/Person` -> `ogit/BusinessProcess/Milestone`";
 			dcterms:creator "Arthur Shoba";
 		]
+		[
+			dcterms:identifier "12";
+			dcterms:date "2016-08-03";
+			dcterms:description "Added connector -> event";
+			dcterms:creator "Philipp Pelchmann";
+		]
 	);
 	ogit:allowed (
 		[
@@ -142,6 +148,10 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 		[
 			ogit:from ogit.Software:Connector;
 			ogit:to ogit.ServiceManagement:Incident;
+		]
+		[
+			ogit:from ogit.Software:Connector;
+			ogit:to ogit:Event;
 		]
 		[
 			ogit:from ogit.Software:Connector;

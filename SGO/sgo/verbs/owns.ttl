@@ -51,6 +51,12 @@ Added Connection for `ogit/Forum/Group` -> `ogit/Forum/Topic`
 """;
 			dcterms:creator "Ben Neal";
 		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2016-08-03";
+			dcterms:description "Added person -> event";
+			dcterms:creator "Philipp Pelchmann";
+		]
 	);
 	ogit:allowed (
 		[
@@ -64,6 +70,10 @@ Added Connection for `ogit/Forum/Group` -> `ogit/Forum/Topic`
 		[
 			ogit:from ogit:Person;
 			ogit:to ogit:Vcard;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit:Event;
 		]
 		[
 			ogit:from ogit:Person;
