@@ -1,26 +1,26 @@
-@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.BusinessProcess:placement
+ogit:surveyQuestions
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "placement";
-	dcterms:description "Location of the object within the scope of entity";
-	dcterms:valid "start=2016-07-12;";
-	dcterms:creator "Arthur Shoba";
-	dcterms:created "2016-07-12";
-	dcterms:modified "2016-07-12";
+	rdfs:label "surveyQuestions";
+	dcterms:description "Questions from a survey or survey reply represented by a JSON array.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-08;";
+	dcterms:creator "Alexander Ryabtsev";
+	dcterms:created "2016-08-08";
+	dcterms:modified "2016-08-08";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-07-12";
+			dcterms:date "2016-08-08";
 			dcterms:description "initial";
-			dcterms:creator "Arthur Shoba";
+			dcterms:creator "Alexander Ryabtsev";
 		]
 	);
 .

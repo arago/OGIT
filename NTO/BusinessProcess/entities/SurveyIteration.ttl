@@ -3,27 +3,26 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.BusinessProcess:SurveyCycle
+ogit.BusinessProcess:SurveyIteration
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "SurveyCycle";
-	dcterms:description """List of answers to survey's questions""";
+	rdfs:label "SurveyIteration";
+	dcterms:description """Iteration of the same survey""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-07-12;";
-	dcterms:creator "Arthur Shoba";
-	dcterms:created "2016-07-12";
-	dcterms:modified "2016-07-12";
+	dcterms:valid "start=2016-08-08;";
+	dcterms:creator "Alexander Ryabtsev";
+	dcterms:created "2016-08-08";
+	dcterms:modified "2016-08-08";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:any-attributes "true";
 	ogit:mandatory-attributes (
 
 	);
 	ogit:optional-attributes (
-		ogit:name
 		ogit:startedAt
-		ogit:finishedAt
 	);
 	ogit:indexed-attributes (
 
@@ -35,5 +34,11 @@ ogit.BusinessProcess:SurveyCycle
 			dcterms:description "initial";
 			dcterms:creator "Arthur Shoba";
 		]
+		[
+            dcterms:identifier "2";
+            dcterms:date "2016-08-08";
+            dcterms:description "Attributes rework";
+            dcterms:creator "Alexander Ryabtsev";
+        ]
 	);
 .
