@@ -247,7 +247,7 @@ ogit:belongs
         ]
         [
             ogit:from ogit.BusinessProcess:SurveyReply;
-            ogit:from ogit.BusinessProcess:SurveyIteration;
+            ogit:to ogit.BusinessProcess:SurveyIteration;
         ]
 	);
 .
