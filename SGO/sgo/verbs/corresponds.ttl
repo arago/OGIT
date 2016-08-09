@@ -70,6 +70,12 @@ ogit:corresponds
 			dcterms:description "Added edge Invite -> KnowledgeItemHistory|KnowledgeBundle";
 			dcterms:creator "bmoore@arago.de";
 		]
+		[
+			dcterms:identifier "9";
+			dcterms:date "2016-08-09";
+			dcterms:description "Added Event->AutomationIssue";
+			dcterms:creator "Philipp Pelchmann";
+		]
 	);
 	ogit:allowed (
 		[
@@ -119,6 +125,10 @@ ogit:corresponds
 		[
 			ogit:from ogit.ServiceManagement:Incident;
 			ogit:to ogit.ServiceManagement:Ticket;
+		]
+		[
+			ogit:from ogit:Event;
+			ogit:to ogit.Automation:AutomationIssue;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Problem;
