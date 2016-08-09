@@ -39,6 +39,12 @@ ogit:manages
 			dcterms:description "Added edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`";
 			dcterms:creator "Arthur Shoba";
 		]
+		[
+            dcterms:identifier "4";
+            dcterms:date "2016-08-08";
+            dcterms:description "Removed edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`";
+            dcterms:creator "Alexander Ryabtsev";
+        ]
 	);
 	ogit:allowed (
 		[
@@ -148,14 +154,6 @@ ogit:manages
 		[
 			ogit:from ogit:ConfigurationItem;
 			ogit:to ogit:ConfigurationItem;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit.BusinessProcess:Project;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit.BusinessProcess:Milestone;
 		]
 	);
 .

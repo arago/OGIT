@@ -9,27 +9,29 @@ ogit.BusinessProcess:Milestone
 	rdfs:label "Milestone";
 	dcterms:description """An identity that represents an important event, achievement, ...""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-07-12;";
+	dcterms:valid "start=2016-08-08;";
 	dcterms:creator "Arthur Shoba";
 	dcterms:created "2016-07-12";
-	dcterms:modified "2016-07-12";
+	dcterms:modified "2016-08-08";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:any-attributes "true";
 	ogit:mandatory-attributes (
-		ogit:name
+
 	);
 	ogit:optional-attributes (
-		ogit:category
-		ogit:status
-		ogit:country
+		ogit:title
+        ogit:category
+        ogit:status
+        ogit:plannedStartDate
+        ogit:plannedFinishDate
 		ogit:startedAt
 		ogit:finishedAt
 	);
 	ogit:indexed-attributes (
-
+        ogit:title
 	);
 	ogit:history (
 		[
@@ -38,5 +40,11 @@ ogit.BusinessProcess:Milestone
 			dcterms:description "initial";
 			dcterms:creator "Arthur Shoba";
 		]
+		[
+            dcterms:identifier "2";
+            dcterms:date "2016-08-08";
+            dcterms:description "Attributes rework";
+            dcterms:creator "Alexander Ryabtsev";
+        ]
 	);
 .

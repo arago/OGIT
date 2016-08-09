@@ -17,7 +17,7 @@ ogit:belongs
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2016-07-12";
+	dcterms:modified "2016-08-08";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -93,6 +93,12 @@ ogit:belongs
 			dcterms:description "Added comment -> event";
 			dcterms:creator "Philipp Pelchmann";
 		]
+		[
+            dcterms:identifier "14";
+            dcterms:date "2016-08-08";
+            dcterms:description "Removed edges for `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`. Added edges for `BusinessProcess/Survey` -> `BusinessProcess/Milestone`, `BusinessProcess/Survey` -> `BusinessProcess/Project`, `BusinessProcess/Survey` -> `Organization`, `BusinessProcess/SurveyReply` -> `BusinessProcess/SurveyIteration`. Renamed `BusinessProcess/SurveyCycle` to `BusinessProcess/SurveyIteration`";
+            dcterms:creator "Alexander Ryabtsev";
+        ]
 	);
 	ogit:allowed (
 		[
@@ -220,20 +226,28 @@ ogit:belongs
 			ogit:to ogit:Comment;
 		]
 		[
-			ogit:from ogit:Person;
-			ogit:to ogit.BusinessProcess:Project;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit.BusinessProcess:Milestone;
-		]
-		[
 			ogit:from ogit.BusinessProcess:Milestone;
 			ogit:to ogit.BusinessProcess:Project;
 		]
 		[
-			ogit:from ogit.BusinessProcess:SurveyCycle;
+			ogit:from ogit.BusinessProcess:SurveyIteration;
 			ogit:to ogit.BusinessProcess:Survey;
 		]
+		[
+            ogit:from ogit.BusinessProcess:Survey;
+            ogit:to ogit.BusinessProcess:Project;
+        ]
+        [
+            ogit:from ogit.BusinessProcess:Survey;
+            ogit:to ogit.BusinessProcess:Milestone;
+        ]
+        [
+            ogit:from ogit.BusinessProcess:Survey;
+            ogit:to ogit:Organization;
+        ]
+        [
+            ogit:from ogit.BusinessProcess:SurveyReply;
+            ogit:from ogit.BusinessProcess:SurveyIteration;
+        ]
 	);
 .

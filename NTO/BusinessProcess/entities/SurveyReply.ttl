@@ -3,15 +3,15 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.BusinessProcess:Survey
+ogit.BusinessProcess:SurveyReply
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Survey";
-	dcterms:description """List with questions""";
+	rdfs:label "SurveyReply";
+	dcterms:description """User's reply on a survey""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-07-12;";
-	dcterms:creator "Arthur Shoba";
-	dcterms:created "2016-07-12";
+	dcterms:valid "start=2016-08-08;";
+	dcterms:creator "Alexander Ryabtsev";
+	dcterms:created "2016-08-08";
 	dcterms:modified "2016-08-08";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
@@ -22,25 +22,15 @@ ogit.BusinessProcess:Survey
 
 	);
 	ogit:optional-attributes (
-		ogit:title
-		ogit:category
-		ogit:description
 		ogit:surveyQuestions
-		ogit:schedule
+		ogit:comment
 	);
 	ogit:indexed-attributes (
-        ogit:title
-        ogit:description
+
 	);
 	ogit:history (
 		[
-			dcterms:identifier "1";
-			dcterms:date "2016-07-12";
-			dcterms:description "initial";
-			dcterms:creator "Arthur Shoba";
-		]
-		[
-            dcterms:identifier "2";
+            dcterms:identifier "1";
             dcterms:date "2016-08-08";
             dcterms:description "Attributes rework";
             dcterms:creator "Alexander Ryabtsev";

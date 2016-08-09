@@ -1,0 +1,37 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+
+ogit:consumes
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "consumes";
+	dcterms:description "This relationship indicates that one consumes result of work from another.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-08;";
+	dcterms:creator "Alexander Ryabtsev";
+	dcterms:created "2016-08-08";
+	dcterms:modified "2016-08-08";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+            dcterms:identifier "1";
+            dcterms:date "2016-08-08";
+            dcterms:description "initial";
+            dcterms:creator "Alexander Ryabtsev";
+        ]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:Project;
+		]
+		[
+            ogit:from ogit:Organization;
+            ogit:to ogit.BusinessProcess:Project;
+        ]
+	);
+.

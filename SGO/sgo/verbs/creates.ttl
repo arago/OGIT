@@ -103,6 +103,12 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			dcterms:description "Added connector -> event";
 			dcterms:creator "Philipp Pelchmann";
 		]
+        [
+			dcterms:identifier "13";
+			dcterms:date "2016-08-08";
+			dcterms:description "Removed edges for `ogit/Person` -> `ogit/BusinessProcess/Project`, `ogit/Person` -> `ogit/BusinessProcess/Milestone`";
+			dcterms:creator "Arthur Shoba";
+		]
 	);
 	ogit:allowed (
 		[
@@ -180,14 +186,6 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 		[
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit.Forum:Rating;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit.BusinessProcess:Project;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit.BusinessProcess:Milestone;
 		]
 	);
 .
