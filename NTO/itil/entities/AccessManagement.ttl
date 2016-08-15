@@ -1,0 +1,41 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:AccessManagement
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Access Management";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#AccessManagement>;
+	dcterms:description "The itil:AccessManagement is the process responsible for allowing users to make use of IT services, data, or other assets. The itil:AccessManagement process helps to protect the confidentiality, integrity and availability of assets by ensuring that only authorized users are able to access or modify the assets. The itil:AccessManagement process is sometimes referred to as rights management or identity management. The itil:AccessManagement process does not decide who has access to which IT services. Rather, The itil:AccessManagement process executes the policies and regulations defined during itil:ServiceStrategy and itil:ServiceDesign. The itil:AccessManagement process enforces decisions to restrict or provide access, rather than making the decision. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#AccessManagement.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

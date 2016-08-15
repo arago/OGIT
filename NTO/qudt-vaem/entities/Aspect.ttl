@@ -1,0 +1,41 @@
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:        <http://purl.org/dc/terms/> .
+@prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.QUDT-vaem: <http://www.purl.org/ogit/QUDT-vaem/> .
+@prefix owl:            <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit:           <http://www.purl.org/ogit/> .
+
+ogit.QUDT-vaem:Aspect
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Aspect Dimension";
+	ogit:original <http://www.linkedmodel.org/schema/vaem#Aspect>;
+	dcterms:description """Aspect is used to distinguish among sets of features of a domain or subject area. The term is borrowed from \"aspect-oriented\" programming, where it is used to separate concerns. An ontology may be characterized by this dimension so as to parition features that are orthogonal. For example,  in a systems ontology there may be aspects for \"structure\", \"function\", \"behavior\" and \"interface\" or \"interoperability\". A viewpoint can be distinguished by \"aspects\". For example the \"information viewpoint\" of an application can be partitioned into separate graphs for the \"security\", \"operational\" and\"data retention\" aspects.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

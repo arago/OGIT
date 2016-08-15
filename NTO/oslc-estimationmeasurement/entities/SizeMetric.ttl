@@ -1,0 +1,48 @@
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix ogit:          <http://www.purl.org/ogit/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.OSLC-ems: <http://www.purl.org/ogit/OSLC-ems/> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.OSLC-ems:SizeMetric
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "SizeMetric";
+	ogit:original <http://open-services.net/ns/ems#SizeMetric>;
+	dcterms:description """
+A <em>size metric</em> is a metric that measures the magnitude, volume, bulk, or capability of some artifact such as software.
+For example,
+<em>lines of code</em>
+(<a href=\"http://open-services.net/ns/ems/metric#Sloc\"><code>metric:Sloc</code></a>) and
+<em>story points</em>
+(<a href=\"http://open-services.net/ns/ems/metric#StoryPoints\"><code>metric:StoryPoints</code></a>)
+are size metrics.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

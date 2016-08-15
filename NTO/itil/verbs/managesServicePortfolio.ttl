@@ -1,0 +1,35 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:managesServicePortfolio
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "managesServicePortfolio";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#managesServicePortfolio>;
+	dcterms:description "(itil:managesServicePortfolio itil:ITServiceProvider itil:ServicePortfolio) means that the itil:ServicePortfolio is managed by the itil:ITServiceProvider.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+	ogit:allowed (
+
+	);
+.

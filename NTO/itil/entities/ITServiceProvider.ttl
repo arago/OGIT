@@ -1,0 +1,41 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:ITServiceProvider
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "IT Service Provider";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ITServiceProvider>;
+	dcterms:description "An itil:ITServiceProvider provides itil:ITService(s) to an itil:Customer within a business. A business is an overall corporate entity or organization formed of a number of business units, i.e., segments of the business that has their own plans, metrics, income and costs. In the context of ITSM, the term business includes public sector and not-for-profit organizations, as well as companies. The itil:ITServiceProvider may be part of the same business as its customer (internal service provider), or part of another business (external service provider). According to ITIL V3, an itil:SLA is defined as a written agreement between an itil:ITServiceProvider and the itil:Customer(s) that documents agreed service levels for an itil:ITService. The itil:ITServiceProvider should be aware that itil:SLA(s) are widely used to formalize service-based relationships, both internally and externally, and that while conforming to the definition above, these agreements vary considerably in the detail covered.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

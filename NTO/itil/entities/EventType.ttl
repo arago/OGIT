@@ -1,0 +1,41 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:EventType
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Event Type";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#EventType>;
+	dcterms:description "The specific value that represents the type of a specific itil:Event. Every IT service provider will have its own categorization of the significance of an itil:Event, but it is suggested that at least these three broad categories be represented: * Informational: This refers to an event that does not require any action and does not represent an exception. They are typically stored in the system or service log files and kept for a predetermined period. Informational events are typically used to check on the status of a device or service, or to confirm the successful completion of an activity. Informational events can also be used to generate statistics (such as the number of users logged on to an application during a certain period) and as input into investigations (such as which jobs completed successfully before the transaction processing queue hung). Examples of informational events include: ‐ A user logs onto an application. ‐ A job in the batch queue completes successfully. ‐ A device has come online. ‐ A transaction is completed successfully. * Warning: A warning is an event that is generated when a service or device is approaching a threshold. Warnings are intended to notify the appropriate person, process or tool so that the situation can be checked and the appropriate action taken to prevent an exception. Warnings are not typically raised for a device failure. Although there is some debate about whether the failure of a redundant device is a warning or an exception (since the service is still available). A good rule is that every failure should be treated as an exception, since the risk of an incident impacting the business is much greater. Examples of warnings are: ‐ Memory utilization on a server is currently at 65% and increasing. If it reaches 75%, response times will be unacceptably long and the OLA for that department will be breached. ‐ The collision rate on a network has increased by 15% over the past hour. * Exception: An exception means that a service or device is currently operating abnormally (however that has been defined). Typically, this means that an itil:OLA and itil:SLA have been breached and the business is being impacted. Exceptions could represent a total failure, impaired functionality or degraded performance. Please note, though, that an exception does not always represent an incident. For example, an exception could be generated when an unauthorized device is discovered on the network. This can be managed by using either an Incident Record or a Request for Change (or even both), depending on the organization’s Incident and Change Management policies. Examples of exceptions include: ‐ A server is down. ‐ Response time of a standard transaction across the network has slowed to more than 15 seconds. ‐ More than 150 users have logged on to the General Ledger application concurrently. ‐ A segment of the network is not responding to routine requests.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

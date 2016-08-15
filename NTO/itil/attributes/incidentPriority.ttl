@@ -1,0 +1,33 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:incidentPriority
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "incidentPriority";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#incidentPriority>;
+	dcterms:description "The integer value that represents the priority of a specific itil:Incident. The itil:incidentPriority is a category used to identify the relative importance of an itil:Incident, itil:Problem or itil:Change. The itil:incidentPriority is based on itil:incidentImpact and itil:incidentUrgency, and is used to identify required times for actions to be taken. For example an itil:SLA for a specific itil:Customer may state that itil:Incident(s) with itil:incidentPriority equals to 10 must be resolved within 12 hours. In our pilot project, the priority codes range from 0 to 10 (10 is the highest priority). The itil:incidentPriority is calculated from itil:incidentImpact and itil:incidentLevel.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:validation-type "";
+	ogit:validation-parameter "";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

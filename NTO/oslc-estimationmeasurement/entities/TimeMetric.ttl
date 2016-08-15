@@ -1,0 +1,46 @@
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix ogit:          <http://www.purl.org/ogit/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.OSLC-ems: <http://www.purl.org/ogit/OSLC-ems/> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.OSLC-ems:TimeMetric
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "TimeMetric";
+	ogit:original <http://open-services.net/ns/ems#TimeMetric>;
+	dcterms:description """
+A <em>time metric</em> is a metric that describes some temporal aspect of a project, system, or thing.
+For example, 
+<em>duration</em> (<a href=\"http://open-services.net/ns/ems/metric#Duration\"><code>metric:Duration</code></a>), 
+<em>start</em> (<a href=\"http://open-services.net/ns/ems/metric#Start\"><code>metric:Start</code></a>), and 
+<em>finish</em> (<a href=\"http://open-services.net/ns/ems/metric#Finish\"><code>metric:Finish</code></a>) are time metrics.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

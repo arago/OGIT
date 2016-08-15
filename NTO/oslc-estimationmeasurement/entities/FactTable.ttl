@@ -1,0 +1,68 @@
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix ogit:          <http://www.purl.org/ogit/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.OSLC-ems: <http://www.purl.org/ogit/OSLC-ems/> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.OSLC-ems:FactTable
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "FactTable";
+	ogit:original <http://open-services.net/ns/ems#FactTable>;
+	dcterms:description """
+<p>This class is used to represent <em>fact tables</em>.</p>
+
+<p>Consider the work performed on a project. 
+Work may be analyzed according to attributes such as who performed the work, 
+the task or activity that the work accomplished, 
+when the work was performed, etc. 
+These attributes are referred to as <em>dimensions</em>.</p>
+
+<p>Work may be quantified by such metrics as its effort in person-hours, 
+its cost in some currency, its duration in months, its peak staffing, etc. 
+These quantities are referred to as <em>measures</em>.</p>
+
+<p>The term dimension is used because the measures can be regarded as occupying cells 
+in a multi-dimensional array (sometimes referred to as a <em>datacube</em>). 
+It is frequently of interest to summarize the measures along a dimension, 
+for example given the effort by activity, calculate the total effort for all activities. 
+Conversely, given the total effort, it may be of interest to see how it is broken down by activity.</p>
+
+<p>In general, set of related measures, analyzed along a set of dimensions may be organized into a 
+<a href=\"http://en.wikipedia.org/wiki/Fact_table\">fact table</a>. 
+Each row of a fact table contains a set of measures (e.g. effort and cost) 
+for a given combination of dimension values (e.g. activity and month).</p>
+
+<p>This resource MAY contain the actual measurements, 
+provide a link to the source of the actual measurements, 
+or contain both a link to the source and a copy of the actual measurements obtained from the source 
+(i.e. a cached copy of the source).</p> """;
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

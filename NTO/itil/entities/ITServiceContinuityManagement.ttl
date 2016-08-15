@@ -1,0 +1,41 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:ITServiceContinuityManagement
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "IT Service Continuity Management";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ITServiceContinuityManagement>;
+	dcterms:description "The itil:ITServiceContinuityManagement is the process responsible for managing risks that could seriously affect IT services. The itil:ITServiceContinuityManagement process ensures that the IT service provider can always provide minimum agreed service levels, by reducing the risk to an acceptable level and planning for the recovery of IT services. The itil:ITServiceContinuityManagement process should be designed to support business continuity management. Therefore, ITSM should maintain a set of IT service continuity plans and IT recovery plans that support the overall Business Continuity Plans (BCPs) of the organization. The itil:ITServiceContinuityManagement process primarily considers the IT assets and configurations that support the business processes. If (following a disaster) it is necessary to relocate to an alternative working location, provision will also be required for items such as office and personnel accommodation, copies of critical paper records, courier services and telephone facilities to communicate with customers and third parties. Like all elements of ITSM, successful implementation of the itil:ITServiceContinuityManagement process can only be achieved with senior management commitment and the support of all members of the organization. Ongoing maintenance of the recovery capability is essential if it is to remain effective. The purpose of the itil:ITServiceContinuityManagement process is to maintain the necessary ongoing recovery capability within the IT services and their supporting components. The itil:ITServiceContinuityManagement process includes: *  The agreement of the scope of the itil:ITServiceContinuityManagement process and the policies adopted. * Business Impact Analysis (BIA) to quantify the impact loss of IT service would have on the business.  * Risk Analysis (RA): the risk identification and risk assessment to identify potential threats to continuity and the likelihood of the threats becoming reality. This also includes taking measures to manage the identified threats where this can be cost-justified. * Production of an overall IT service continuity management (ITSCM) strategy that must be integrated into the BCM strategy. This can be produced following the two steps identified above, and is likely to include elements of risk reduction as well as selection of appropriate and comprehensive recovery options. * Production of an ITSCM plan, which again must be integrated with the overall BCM plans. * Testing of the plans. * Ongoing operation and maintenance of the plans. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#ITServiceContinuityManagement.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

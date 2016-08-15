@@ -1,0 +1,37 @@
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:        <http://purl.org/dc/terms/> .
+@prefix ogit.PROV:      <http://www.purl.org/ogit/PROV/> .
+@prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.QUDT-voag: <http://www.purl.org/ogit/QUDT-voag/> .
+@prefix owl:            <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.VOID:      <http://www.purl.org/ogit/VOID/> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit:           <http://www.purl.org/ogit/> .
+
+ogit.QUDT-voag:dispositionStatus
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "disposition status";
+	ogit:original <http://voag.linkedmodel.org/voag#dispositionStatus>;
+	dcterms:description "An object propoert that denotes the state of a governance issue.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+	ogit:allowed (
+
+	);
+.

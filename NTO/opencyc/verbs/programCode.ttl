@@ -1,0 +1,35 @@
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:     <http://www.purl.org/ogit/> .
+@prefix ogit.CYC: <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+ogit.CYC:programCode
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "programCode";
+	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#programCode>;
+	dcterms:description "(oc:programCode oc:ComputerProgram-CW oc:ComputerCode) means that the code oc:ComputerCode is source or executable code for the program oc:ComputerProgram-CW.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+	ogit:allowed (
+
+	);
+.

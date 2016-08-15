@@ -1,0 +1,35 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:processOwner
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "processOwner";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#processOwner>;
+	dcterms:description "(itil:processOwner itil:Process itil:RoleType) means that the itil:RoleType is the owner of the itil:Process. The process owner is a role responsible for ensuring that a process is fit for purpose. The process owner’s responsibilities include sponsorship, design, change management and continual improvement of the process and its metrics. This role is often assigned to the same person who carries out the process manager role, but the two roles may be separate in larger organizations.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+	ogit:allowed (
+
+	);
+.

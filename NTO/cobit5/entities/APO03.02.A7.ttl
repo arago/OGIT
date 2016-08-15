@@ -1,0 +1,41 @@
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit:        <http://www.purl.org/ogit/> .
+@prefix ogit.COBIT5: <http://www.purl.org/ogit/COBIT5/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.COBIT5:APO03.02.A7
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Activity 7 for Management Practice APO03.02";
+	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO03.02.A7>;
+	dcterms:description "Verify the architecture models for internal consistency and accuracy and perform a gap analysis between the baseline and target. Prioritise gaps and define new or modified components that must be developed for the target architecture. Resolve potential impacts such as incompatibilities, inconsistencies or conflicts within the envisioned architecture. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO03.02.A7.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

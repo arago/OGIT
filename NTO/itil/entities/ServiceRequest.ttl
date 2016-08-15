@@ -1,0 +1,41 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:ServiceRequest
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "ServiceRequest";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServiceRequest>;
+	dcterms:description "An itil:ServiceRequest is a request from an itil:User for information or advice, or for a standard change or for access to an itil:ITService. For example to reset a password, or to provide standard itil:ITService(s) for a new itil:User. To be an itil:ServiceRequest, it is normal for some prerequisites to be defined and met (e.g., needs to be proven, repeatable, pre-approved, proceduralized). The itil:ServiceRequest(s) do not represent a disruption to agreed itil:ITService, but are a way of meeting the customer’s needs and may be addressing an agreed target in an itil:SLA. The itil:ServiceRequest(s) are usually handled by the itil:SERVICE_DESK (RoleType instance), and do not require an itil:RFC to be submitted.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

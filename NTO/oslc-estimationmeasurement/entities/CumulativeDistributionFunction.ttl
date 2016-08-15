@@ -1,0 +1,51 @@
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix ogit:          <http://www.purl.org/ogit/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.OSLC-ems: <http://www.purl.org/ogit/OSLC-ems/> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.OSLC-ems:CumulativeDistributionFunction
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "CumulativeDistributionFunction";
+	ogit:original <http://open-services.net/ns/ems#CumulativeDistributionFunction>;
+	dcterms:description """
+<p>A <em>cumulative distribution function</em> (cdf) is a probabilty distribution defined by giving the
+cumulative probability at an increasing sequence of measurement values.
+The range of possible measurement values may be unbounded.
+If a lower bound exists, it is given by <a href=\"#low\"><code>ems:low</code></a>.
+If an upper bound exists, it is given by <a href=\"#high\"><code>ems:high</code></a>.</p>
+
+<p>The graph of the cumulative distribution function is given by a set of measurement values 
+at an increasing sequence of cumulative probabilities between 0 and 1.
+The cumulative probability values are given by one or more 
+<a href=\"#cdfPoint\"><code>ems:cdfPoint</code></a> properties.</p>""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-15;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-15";
+	dcterms:modified "2016-08-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-15";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.
