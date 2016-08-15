@@ -1,0 +1,8 @@
+/*! @addtogroup entities
+ *  @{
+ *  @addtogroup entitiesPROV PROV
+ *  @{ 
+ *  [PROV](https://www.w3.org/ns/prov) is the namespace for the W3C's collection of techniques for the definition of provenance information.
+ *  @}
+ *  @}
+ */

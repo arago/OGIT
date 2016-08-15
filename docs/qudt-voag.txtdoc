@@ -1,0 +1,9 @@
+/*! @addtogroup entities
+ *  @{
+ *  @addtogroup entitiesQUDT-voag QUDT-voag
+ *  @{
+ *  [QUDT](http://www.qudt.org/) is an ontology framework for modeling quantities, units, dimensions and types.
+ *  This module contains the VOAG vocabulary (vocabulary of attribution and governance).
+ *  @}
+ *  @}
+ */

@@ -1,0 +1,8 @@
+/*! @addtogroup entities
+ *  @{
+ *  @addtogroup entitiesCOBIT5-list COBIT5-list
+ *  @{
+ *  This module contains elements that are used to model lists in the COBIT 5 module.
+ *  @}
+ *  @}
+ */

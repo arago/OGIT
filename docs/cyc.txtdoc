@@ -1,0 +1,10 @@
+/*! @addtogroup entities
+ *  @{
+ *  @addtogroup entitiesCYC CYC
+ *  @{ 
+ *  This module contains a subset of the general concepts from the
+ *  [OpenCYC](http://sw.opencyc.org/) Ontology, that are referred to in the
+ *  ITIL and Workflow modules. 
+ *  @}
+ *  @}
+ */
