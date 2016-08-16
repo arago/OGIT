@@ -1,3 +1,4 @@
 - Ontology:
     id: http://www.purl.org/ogit/OGIT
     version: __OGIT_VERSION__
+    ref: __GIT_REF__
