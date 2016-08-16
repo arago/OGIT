@@ -12,7 +12,7 @@
 	dcterms:contributor "Andreas Textor";
 	vann:preferredNamespaceUri "http://www.purl.org/ogit/";
 	vann:preferredNamespacePrefix "ogit";
-	owl:versionInfo "2.18.2";
+	owl:versionInfo "__OGIT_VERSION__";
 .
 
 ogit:Entity
