@@ -18,10 +18,10 @@ In an EMS service, the measurement is a resource of type
 which may observe zero or more measures.
 For example, a measurement at the end of a project may observe a <em>duration of 12 months</em> and a <em>cost of 200,000 USD</em>.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -29,12 +29,14 @@ For example, a measurement at the end of a project may observe a <em>duration of
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]
 	);
 	ogit:allowed (
-
+		[
+			ogit:to ogit.OSLC-ems:Measure;
+		]
 	);
 .

@@ -13,10 +13,10 @@ ogit.COBIT5:BAI01.13
 	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.13>;
 	dcterms:description "At the end of each project, release or iteration, require the project stakeholders to ascertain whether the project, release or iteration delivered the planned results and value. Identify and communicate any outstanding activities required to achieve the planned results of the project and the benefits of the programme, and identify and document lessons learned for use on future projects, releases, iterations and programmes. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.13.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +33,7 @@ ogit.COBIT5:BAI01.13
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

@@ -18,10 +18,10 @@ A dimension column has a dimension
 (see <a href=\"#grain\"><code>ems:grain</code></a> and may refer to a map 
 (see <a href=\"#useMap\"><code>ems:useMap</code></a>.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -38,7 +38,7 @@ A dimension column has a dimension
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

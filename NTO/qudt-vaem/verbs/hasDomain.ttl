@@ -13,10 +13,10 @@ ogit.QUDT-vaem:hasDomain
 	ogit:original <http://www.linkedmodel.org/schema/vaem#hasDomain>;
 	dcterms:description """The property \"vaem:hasDomain\" is used to specify how  a set of resources, or an individual resource is grounded in a domain, that is, a subject area of interest. Examples of domains are \"enterprise\", \"process\", \"organization\" and \"system\". In VAEM, the property is used as a dimension for characterizing an ontology graph. The property is an \"rdf:Property\" to allow both scalar and object values""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -24,7 +24,7 @@ ogit.QUDT-vaem:hasDomain
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

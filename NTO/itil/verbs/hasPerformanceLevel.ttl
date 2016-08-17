@@ -4,6 +4,7 @@
 @prefix dcterms:   <http://purl.org/dc/terms/> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit.ITIL:hasPerformanceLevel
@@ -13,10 +14,10 @@ ogit.ITIL:hasPerformanceLevel
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasPerformanceLevel>;
 	dcterms:description "(itil:hasPerformanceLevel itil:CSF itil:PerformanceLevel) means that the itil:CSF or the itil:Outcome has the level itil:PerformanceLevel. In an itil:CSF, to receive the performance level of ‘High’, all the associated itil:KPI(s) must have met or exceeded their itil:Tolerance acceptable values. When one of the associated itil:KPI(s) falls into an itil:Tolerance non-acceptable value, the itil:CSF performance level might be ‘Medium’ or ‘Low’ depending on how the associated itil:KPI value fell within the specified itil:Tolerance range for it. On the other hand, itil:Outcome(s) can be associated with a performance indicator (High, Medium or Low) that might reflect the likelihood of risk that the itil:Outcome will occur. In our modeling approach for ITSMSs, the risk level is derived from the mean average of the itil:CSF performance levels. Scoring for an itil:Outcome runs opposite to how the itil:CSF(s) are calculated. If an itil:CSF scores ‘Low’, meaning the likelihood of achieving that itil:CSF is low, then the itil:Outcome would score ‘High’. This means that the risk of the itil:Outcome occurring is high because the itil:CSF achievement was low.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -24,12 +25,15 @@ ogit.ITIL:hasPerformanceLevel
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]
 	);
 	ogit:allowed (
-
+		[
+			ogit:from ogit.ITIL:CSF;
+			ogit:to ogit.ITIL:PerformanceLevel;
+		]
 	);
 .

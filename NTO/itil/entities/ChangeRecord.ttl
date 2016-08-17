@@ -4,6 +4,7 @@
 @prefix dcterms:   <http://purl.org/dc/terms/> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit.ITIL:ChangeRecord
@@ -13,10 +14,10 @@ ogit.ITIL:ChangeRecord
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ChangeRecord>;
 	dcterms:description "An itil:ChangeRecord holds the full history of the change, incorporating information from the itil:RFC and subsequently recording agreed parameters such as priority and authorization, implementation and review information. There may be many different types of itil:ChangeRecord(s) used to record different types of itil:Change. The documentation should be defined during the process design and planning stage. An itil:ChangeRecord is created for every itil:RFC that is received, even those that are subsequently rejected. The itil:ChangeRecord(s) should reference the itil:CI(s) that are affected by the requested change. The itil:ChangeRecord(s) are stored in the CMS.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:ChangeRecord
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

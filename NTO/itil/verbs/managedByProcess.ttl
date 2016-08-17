@@ -4,6 +4,7 @@
 @prefix dcterms:   <http://purl.org/dc/terms/> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit.ITIL:managedByProcess
@@ -13,10 +14,10 @@ ogit.ITIL:managedByProcess
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#managedByProcess>;
 	dcterms:description "(itil:managedByProcess itil:ManagedEvent itil:Process) means that the itil:Event is managed by the itil:Process.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -24,12 +25,15 @@ ogit.ITIL:managedByProcess
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]
 	);
 	ogit:allowed (
-
+		[
+			ogit:from ogit.ITIL:Event;
+			ogit:to ogit.ITIL:Process;
+		]
 	);
 .

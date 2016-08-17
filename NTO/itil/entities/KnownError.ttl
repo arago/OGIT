@@ -4,6 +4,7 @@
 @prefix dcterms:   <http://purl.org/dc/terms/> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit.ITIL:KnownError
@@ -13,10 +14,10 @@ ogit.ITIL:KnownError
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#KnownError>;
 	dcterms:description "An itil:KnownError is an itil:Problem that has a documented root cause and a workaround. The workaround describes how to reduce or eliminate the impact of an itil:Problem for which a full resolution is not yet available. For example, by restarting a failed itil:CI. The itil:KnownError(s) are created and managed throughout their itil:Lifecycle by the itil:ProblemManagement process. The itil:KnownError(s) may also be identified by development or suppliers. The known error record (itil:ProblemRecord) should hold exact details of the fault and the symptoms that occurred, together with precise details of any workaround or resolution action that can be taken to restore the service and/or resolve the problem. An itil:Incident count will also be useful to determine the frequency with which itil:Incident(s) are likely to recur and influence priorities, etc.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:KnownError
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

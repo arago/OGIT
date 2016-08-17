@@ -22,10 +22,10 @@ and is given by the property <a href=\"#unitOfMeasure\"><code>ems:unitOfMeasure<
 The numeric value of an observation, e.g. 12 or 10, is given by the property 
 <a href=\"numericValue\"><code>ems:numericValue</a></code>.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -42,7 +42,7 @@ The numeric value of an observation, e.g. 12 or 10, is given by the property
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

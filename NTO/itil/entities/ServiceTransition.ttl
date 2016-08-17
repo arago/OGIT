@@ -4,6 +4,7 @@
 @prefix dcterms:   <http://purl.org/dc/terms/> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit.ITIL:ServiceTransition
@@ -13,10 +14,10 @@ ogit.ITIL:ServiceTransition
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServiceTransition>;
 	dcterms:description "The itil:ServiceTransition is a stage in the lifecycle of an IT service. The ITIL V3 Service Transition phase includes the development and improvement of capabilities for transitioning new and changed services into operations. The itil:ServiceTransition shows how the requirements of itil:ServiceStrategy encoded in itil:ServiceDesign are effectively realized in itil:ServiceOperation while controlling the risks of failure and disruption. Also, itil:ServiceTransition includes the management of the complexity related to changes to services and service management processes, preventing undesired consequences while allowing for innovation.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:ServiceTransition
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

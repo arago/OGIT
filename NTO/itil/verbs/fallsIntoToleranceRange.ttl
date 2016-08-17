@@ -4,6 +4,7 @@
 @prefix dcterms:   <http://purl.org/dc/terms/> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit.ITIL:fallsIntoToleranceRange
@@ -13,10 +14,10 @@ ogit.ITIL:fallsIntoToleranceRange
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#fallsIntoToleranceRange>;
 	dcterms:description "(itil:fallsIntoToleranceRange itil:KPI itil:Tolerance) means that the itil:KPI results will fall into a itil:Tolerance range. Each itil:KPI should be associated with one or more itil:Tolerance values. For example, an upper value can represent a desired service target for the itil:KPI and a lower value can represent a warning level or point at which some further action should occur.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -24,12 +25,15 @@ ogit.ITIL:fallsIntoToleranceRange
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]
 	);
 	ogit:allowed (
-
+		[
+			ogit:from ogit.ITIL:KPI;
+			ogit:to ogit.ITIL:Tolerance;
+		]
 	);
 .

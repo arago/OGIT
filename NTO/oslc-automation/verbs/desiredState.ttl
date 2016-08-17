@@ -13,10 +13,10 @@ ogit.OSCL-auto:desiredState
 	ogit:original <http://open-services.net/ns/auto#desiredState>;
 	dcterms:description """The intended (domain- or provider-dependant) value of a resource's (domain-dependant) \"state\" property after some (future, present or past) process, transition or change. It is expected that this will be a resource reference to a definition of a valid state on the service provider. For example, in the OSLC Automation domain this is used to indicate the desired state of the Automation Request based on values defined in the OSLC Automation specification and, optionally, by the service provider.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -24,12 +24,14 @@ ogit.OSCL-auto:desiredState
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]
 	);
 	ogit:allowed (
-
+		[
+			ogit:to ogit.OSCL-auto:AutomationRequest;
+		]
 	);
 .

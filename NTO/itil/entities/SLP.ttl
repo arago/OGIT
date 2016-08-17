@@ -4,6 +4,7 @@
 @prefix dcterms:   <http://purl.org/dc/terms/> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit.ITIL:SLP
@@ -13,10 +14,10 @@ ogit.ITIL:SLP
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#SLP>;
 	dcterms:description "An itil:SLP is a defined level of utility and warranty for a particular itil:ServicePackage. Each itil:SLP is designed to meet the needs of a particular itil:PBA. In other words, itil:SLP(s) are effective in developing itil:ServicePackage(s) for providing value to a segment of users with utility and warranty appropriate to their needs and in a cost-effective way. Utility is the functionality offered by a product or service to meet a particular need. Utility is often summarized as ‘what it does’. Warranty is a promise or guarantee that a product or service will meet its agreed requirements. Warranty is often summarized as ‘how well it does it’. The itil:SLP(s) are associated with a set of service levels, pricing policies, and a service package. Combinations of itil:ServicesPackage(s) and itil:SLP(s) are used to serve customer segments with differentiated value. Common attributes of itil:SLP(s) are subsumed into the supporting itil:ServicePackage(s). This is like the popular game of Tetris in which the bottom-most layer of bricks gets subsumed when all its gaps are filled with the falling bricks. This follows the principle of modularity to reduce complexity, increase asset utilization across itil:SLP(s), and to reduce the overall cost of services. The itil:ServicePackage(s) and itil:SLP(s) are loosely coupled to allow for local optimization while maintaining efficiency over the entire supported service catalog. Improvements made to itil:ServicePackage(s) are automatically available to all itil:SLP(s) following the principle of inheritance and encapsulation.  The itil:ServicePackage(s) and itil:SLP(s) are each made up of reusable components many of which themselves can be services. Other components include software applications, hardware, licenses, third-party services and public infrastructure services. Some service components are assets owned by customers.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:SLP
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

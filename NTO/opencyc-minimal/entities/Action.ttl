@@ -1,0 +1,41 @@
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:     <http://www.purl.org/ogit/> .
+@prefix ogit.CYC: <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+ogit.CYC:Action
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Action";
+	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#Action>;
+	dcterms:description "An oc:Action is the collection of events that are carried out by some ‘doer’. Instances of oc:Action include any event in which one or more actors effect some change in the (tangible or intangible) state of the real-world, typically by an expenditure of effort or energy. Note that it is not required that any tangible object be moved, changed, produced, or destroyed for an action to occur; the effects of an action might be intangible (such as a change in a bank balance or the intimidation of a subordinate). Note also that the doer of an action need not be (for example, a falling rock that dents a car's roof). Depending upon the context, doers of actions might be animate or inanimate, conscious or non conscious.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-17;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-08-17";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

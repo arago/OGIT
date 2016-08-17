@@ -4,6 +4,7 @@
 @prefix dcterms:   <http://purl.org/dc/terms/> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit.ITIL:Incident
@@ -13,10 +14,10 @@ ogit.ITIL:Incident
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Incident>;
 	dcterms:description "An itil:Incident is an unplanned interruption to an itil:ITService or reduction in the quality of an itil:ITService. Failure of an itil:CI that has not yet impacted the itil:ITService is also an itil:Incident, for example failure of one disk from a mirror set. The itil:IncidentManagement process includes any event which disrupts, or which could disrupt, a service. This includes itil:Event(s) which are communicated directly by users, either through the itil:SERVICE_DESK (itil:RoleType instance) or through an interface from the itil:EventManagement process to incident management tools. The itil:Incident(s) can also be reported and/or logged by technical staff (if, for example, they notice something untoward with a hardware or network component they may report or log an incident and refer it to the itil:SERVICE_DESK). This does not mean, however, that all itil:Event(s) are itil:Incident(s). Many classes of itil:Event(s) are not related to disruptions at all, but are indicators of normal operation or are simply informational. Each itil:Incident may have links to the itil:Event(s) concerned (oc:subEvents property) (for example, relationship with other itil:Incident(s), itil:Problem(s), itil:Change(s) or itil:KnownError(s)), and to the itil:Activity undertaken to resolve the itil:Incident (itil:undertakesActivity property).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-15;";
+	dcterms:valid "start=2016-08-17;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-15";
-	dcterms:modified "2016-08-15";
+	dcterms:created "2016-08-17";
+	dcterms:modified "2016-08-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:Incident
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-15";
+			dcterms:date "2016-08-17";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]
