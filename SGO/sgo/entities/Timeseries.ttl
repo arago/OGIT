@@ -23,10 +23,12 @@ ogit:Timeseries
 		ogit:unit
 		ogit:name
 		ogit:description
+		ogit:instance
 	);
 	ogit:indexed-attributes (
 		ogit:name
 		ogit:description
+		ogit:instance
 	);
 	ogit:history (
 		[
