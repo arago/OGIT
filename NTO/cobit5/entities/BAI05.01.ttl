@@ -10,7 +10,6 @@ ogit.COBIT5:BAI05.01
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Establish the desire to change.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI05.01>;
 	dcterms:description "Understand the scope and impact of the envisioned change and stakeholder readiness/willingness to change. Identify actions to motivate stakeholders to accept and want to make the change work successfully. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI05.01.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

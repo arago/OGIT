@@ -11,7 +11,6 @@ ogit.ITIL:Lifecycle
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Lifecycle";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Lifecycle>;
 	dcterms:description "An itil:Lifecycle represents the various stages in the life of an itil:ITService, itil:CI, itil:Incident, itil:Problem, itil:Change, etc. The itil:Lifecycle defines the categories for status and the status transitions that are permitted. For example:  * The lifecycle of an application includes requirements, design, build, deploy, operate, and optimize. * The expanded incident lifecycle includes detect, respond, diagnose, repair, recover, and restore. * The lifecycle of a server may include: ordered, received, in test, live, disposed, etc.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

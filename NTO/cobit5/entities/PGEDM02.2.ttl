@@ -10,7 +10,6 @@ ogit.COBIT5:PGEDM02.2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Optimal value is derived from IT investment through effective value management practices in the enterprise.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGEDM02.2>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGEDM02.2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

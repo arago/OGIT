@@ -11,7 +11,6 @@ ogit.ITIL:hasRoleRelation
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasRoleRelation";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasRoleRelation>;
 	dcterms:description "(itil:hasRoleRelation oc:IntelligentAgent itil:RoleRelation) means that the oc:IntelligentAgent is assigned with the itil:RoleRelation.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

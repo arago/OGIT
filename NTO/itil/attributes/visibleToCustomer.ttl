@@ -11,7 +11,6 @@ ogit.ITIL:visibleToCustomer
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "visibleToCustomer";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#visibleToCustomer>;
 	dcterms:description "The specific value that represents whether a particular itil:ITService represents a third-party service that is visible to the customers.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

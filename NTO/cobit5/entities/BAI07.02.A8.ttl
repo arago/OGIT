@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.02.A8
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 8 for Management Practice BAI07.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.02.A8>;
 	dcterms:description "Plan to back up all systems and data taken at the point prior to conversion. Maintain audit trails to enable the conversion to be retraced and ensure that there is a recovery plan covering rollback of migration and fallback to previous processing should the migration fail. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.02.A8.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

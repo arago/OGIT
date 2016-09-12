@@ -11,7 +11,6 @@ ogit.ITIL:processInput
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "processInput";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#processInput>;
 	dcterms:description "The characther string assigned to represent the input of an itil:Process.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

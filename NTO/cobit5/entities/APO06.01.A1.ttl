@@ -10,7 +10,6 @@ ogit.COBIT5:APO06.01.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice APO06.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO06.01.A1>;
 	dcterms:description "Define processes, inputs and outputs, and responsibilities in alignment with the enterprise budgeting and cost accounting policies and approach to systematically drive IT budgeting and costing; enable fair, transparent, repeatable and comparable estimation of IT costs and benefits for input to the portfolio of IT-enabled business programmes; and ensure that budgets and costs are maintained in the IT asset and services portfolios. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO06.01.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:APO07.05
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Plan and track the usage of IT and business human resources.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO07.05>;
 	dcterms:description "Understand and track the current and future demand for business and IT human resources with responsibilities for enterprise IT. Identify shortfalls and provide input into sourcing plans, enterprise and IT recruitment processes sourcing plans, and business and IT recruitment processes. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO07.05.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

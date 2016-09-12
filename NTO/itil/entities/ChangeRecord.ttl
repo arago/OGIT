@@ -11,7 +11,6 @@ ogit.ITIL:ChangeRecord
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Change Record";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ChangeRecord>;
 	dcterms:description "An itil:ChangeRecord holds the full history of the change, incorporating information from the itil:RFC and subsequently recording agreed parameters such as priority and authorization, implementation and review information. There may be many different types of itil:ChangeRecord(s) used to record different types of itil:Change. The documentation should be defined during the process design and planning stage. An itil:ChangeRecord is created for every itil:RFC that is received, even those that are subsequently rejected. The itil:ChangeRecord(s) should reference the itil:CI(s) that are affected by the requested change. The itil:ChangeRecord(s) are stored in the CMS.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

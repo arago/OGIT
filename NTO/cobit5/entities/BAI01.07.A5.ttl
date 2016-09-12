@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.07.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice BAI01.07";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.07.A5>;
 	dcterms:description "With the approval of stakeholders, maintain the project definition throughout the project, reflecting changing requirements. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.07.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

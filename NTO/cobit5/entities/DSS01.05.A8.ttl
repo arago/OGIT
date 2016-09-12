@@ -10,7 +10,6 @@ ogit.COBIT5:DSS01.05.A8
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 8 for Management Practice DSS01.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS01.05.A8>;
 	dcterms:description "Educate personnel on a regular basis on health and safety laws, regulations, and relevant guidelines. Educate personnel on fire and rescue drills to ensure knowledge and actions taken in case of fire or similar incidents. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS01.05.A8.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

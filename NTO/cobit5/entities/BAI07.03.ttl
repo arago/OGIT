@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Plan acceptance tests.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.03>;
 	dcterms:description "Establish a test plan based on enterprisewide standards that define roles, responsibilities, and entry and exit criteria. Ensure that the plan is approved by relevant parties. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

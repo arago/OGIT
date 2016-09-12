@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.11.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI03.11";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.11.A2>;
 	dcterms:description "Propose new or changed service level options (service times, user satisfaction, availability, performance, capacity, security, continuity, compliance and usability) to ensure that the IT services are fit for use. Document the proposed service options in the portfolio. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.11.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

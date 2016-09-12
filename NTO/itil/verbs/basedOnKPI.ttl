@@ -11,7 +11,6 @@ ogit.ITIL:basedOnKPI
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "basedOnKPI";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#basedOnKPI>;
 	dcterms:description "(itil:basedOnKPI itil:ServiceLevelTarget itil:KPI) means that the itil:ServiceLevelTarget is based on the itil:KPI.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

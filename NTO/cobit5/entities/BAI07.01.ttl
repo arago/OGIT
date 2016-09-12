@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.01
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Establish an implementation plan.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.01>;
 	dcterms:description "Establish an implementation plan that covers system and data conversion, acceptance testing criteria, communication, training, release preparation, promotion to production, early production support, a fallback/backout plan, and a post-implementation review. Obtain approval from relevant parties. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.01.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

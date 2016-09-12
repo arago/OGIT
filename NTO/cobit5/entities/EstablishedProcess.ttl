@@ -10,7 +10,6 @@ ogit.COBIT5:EstablishedProcess
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Established Process";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EstablishedProcess>;
 	dcterms:description "The previously described managed process is now implemented using a defined process that is capable of achieving its process outcomes. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EstablishedProcess.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

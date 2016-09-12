@@ -10,7 +10,6 @@ ogit.COBIT5:DSS03.05.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice DSS03.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS03.05.A1>;
 	dcterms:description "Capture problem information related to IT changes and incidents and communicate it to key stakeholders. This communication could take the form of reports to and periodic meetings amongst incident, problem, change and configuration management process owners to consider recent problems and potential corrective actions. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS03.05.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

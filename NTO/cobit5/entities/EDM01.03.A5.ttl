@@ -10,7 +10,6 @@ ogit.COBIT5:EDM01.03.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice EDM01.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM01.03.A5>;
 	dcterms:description "Provide oversight of the effectiveness of, and compliance with, the enterprise's system of control. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM01.03.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

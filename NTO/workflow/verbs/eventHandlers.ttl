@@ -10,7 +10,6 @@ ogit.WF:eventHandlers
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "eventHandlers";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#eventHandlers>;
 	dcterms:description "(wf:eventHandlers wf:SubProcess wf:Activity) means that the wf:Activity is an event handler for the wf:SubProcess.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

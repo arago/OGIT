@@ -10,7 +10,6 @@ ogit.COBIT5:APO01.05.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice APO01.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO01.05.A1>;
 	dcterms:description "Understand the context for the placement of the IT function, including an assessment of the enterprise strategy and operating model (centralised, federated, decentralised, hybrid), importance of IT, and sourcing situation and options. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO01.05.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

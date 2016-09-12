@@ -10,7 +10,6 @@ ogit.COBIT5:DSS02.07.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice DSS02.07";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS02.07.A2>;
 	dcterms:description "Identify information stakeholders and their needs for data or reports. Identify reporting frequency and medium. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS02.07.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

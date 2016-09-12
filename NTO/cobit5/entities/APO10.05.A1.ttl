@@ -10,7 +10,6 @@ ogit.COBIT5:APO10.05.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice APO10.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO10.05.A1>;
 	dcterms:description "Define and document criteria to monitor supplier performance aligned with service level agreements and ensure that the supplier regularly and transparently reports on agreed-on criteria. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO10.05.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

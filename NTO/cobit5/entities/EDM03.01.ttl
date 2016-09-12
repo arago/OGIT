@@ -10,7 +10,6 @@ ogit.COBIT5:EDM03.01
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Evaluate risk management.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM03.01>;
 	dcterms:description "Continually examine and make judgement on the effect of risk on the current and future use of IT in the enterprise. Consider whether the enterprise's risk appetite is appropriate and that risk to enterprise value related to the use of IT is identified and managed. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM03.01.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

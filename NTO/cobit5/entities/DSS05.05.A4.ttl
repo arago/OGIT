@@ -10,7 +10,6 @@ ogit.COBIT5:DSS05.05.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice DSS05.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS05.05.A4>;
 	dcterms:description "Instruct all personnel to display visible identification at all times. Prevent the issuance of identity cards or badges without proper authorisation. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS05.05.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.11.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice BAI03.11";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.11.A4>;
 	dcterms:description "If service change falls within agreed-on approval authority, build the new or changed IT services or service level options. Otherwise, pass the service change to portfolio management for investment review. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.11.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

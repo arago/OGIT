@@ -11,7 +11,6 @@ ogit.ITIL:inServicePortfolio
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "inServicePortfolio";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#inServicePortfolio>;
 	dcterms:description "(itil:inServicePortfolio itil:ITService itil:ServicePortfolio) means that the itil:ITService is part of the itil:ServicePortfolio.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

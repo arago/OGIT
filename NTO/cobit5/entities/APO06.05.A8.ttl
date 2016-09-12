@@ -10,7 +10,6 @@ ogit.COBIT5:APO06.05.A8
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 8 for Management Practice APO06.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO06.05.A8>;
 	dcterms:description "Ensure that changes in cost structures and enterprise needs are identified and budgets and forecasts are revised as required. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO06.05.A8.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

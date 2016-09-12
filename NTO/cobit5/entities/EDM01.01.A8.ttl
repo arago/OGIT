@@ -10,7 +10,6 @@ ogit.COBIT5:EDM01.01.A8
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 8 for Management Practice EDM01.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM01.01.A8>;
 	dcterms:description "Determine the appropriate levels of authority delegation, including threshold rules, for IT decisions. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM01.01.A8.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

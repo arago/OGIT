@@ -10,7 +10,6 @@ ogit.COBIT5:DSS01.03.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice DSS01.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS01.03.A2>;
 	dcterms:description "Identify and maintain a list of infrastructure assets that need to be monitored based on service criticality and the relationship between configuration items and services that depend on them. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS01.03.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

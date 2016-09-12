@@ -10,7 +10,6 @@ ogit.COBIT5:EDM02.03.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice EDM02.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM02.03.A1>;
 	dcterms:description "Define a balanced set of performance objectives, metrics, targets and benchmarks. Metrics should cover activity and outcome measures, including lead and lag indicators for outcomes, as well as an appropriate balance of financial and non-financial measures. Review and agree on them with the IT and other business functions, and other relevant stakeholders. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM02.03.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

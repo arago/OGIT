@@ -11,7 +11,6 @@ ogit.ITIL:SLR
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Service Level Requirement";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#SLR>;
 	dcterms:description "A Service Level Requirement (SLR) is a customer requirement for an aspect of an itil:ITService. A set of targets and responsibilities should be documented and agreed within an itil:SLR for each proposed new or changed itil:ITService. An itil:SLR is based on business objectives and it is used to negotiate agreed itil:ServiceLevelTarget(s).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:DSS01.04.A7
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 7 for Management Practice DSS01.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS01.04.A7>;
 	dcterms:description "Ensure that IT sites are built and designed to minimise the impact of environmental risk (e.g., theft, air, fire, smoke, water, vibration, terror, vandalism, chemicals, explosives). Consider specific security zones and/or fireproof cells (e.g., locating production and development environments/servers away from each other). This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS01.04.A7.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

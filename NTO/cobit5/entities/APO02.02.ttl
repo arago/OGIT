@@ -10,7 +10,6 @@ ogit.COBIT5:APO02.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Assess the current environment, capabilities and performance";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO02.02>;
 	dcterms:description "Assess the performance of current internal business and IT capabilities and external IT services, and develop an understanding of the enterprise architecture in relation to IT. Identify issues currently being experienced and develop recommendations in areas that could benefit from improvement. Consider service provider differentiators and options and the financial impact and potential costs and benefits of using external services. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO02.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

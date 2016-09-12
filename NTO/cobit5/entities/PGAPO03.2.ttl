@@ -10,7 +10,6 @@ ogit.COBIT5:PGAPO03.2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "A portfolio of enterprise architecture services supports agile enterprise change.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGAPO03.2>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGAPO03.2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

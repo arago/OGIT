@@ -10,7 +10,6 @@ ogit.WF:ArtifactsContainer
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "ArtifactsContainer";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#ArtifactsContainer>;
 	dcterms:description "The wf:ArtifactsContainer provides a container for the wf:Artifact(s) in a BPMN diagram.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

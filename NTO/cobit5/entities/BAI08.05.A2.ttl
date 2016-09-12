@@ -10,7 +10,6 @@ ogit.COBIT5:BAI08.05.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI08.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI08.05.A2>;
 	dcterms:description "Define the rules for knowledge retirement and retire knowledge accordingly. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI08.05.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

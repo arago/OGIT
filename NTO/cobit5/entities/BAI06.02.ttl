@@ -10,7 +10,6 @@ ogit.COBIT5:BAI06.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage emergency changes.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI06.02>;
 	dcterms:description "Carefully manage emergency changes to minimise further incidents and make sure the change is controlled and takes place securely. Verify that emergency changes are appropriately assessed and authorised after the change. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI06.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

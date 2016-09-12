@@ -11,7 +11,6 @@ ogit.ITIL:supportsPBA
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "supportsPBA";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#supportsPBA>;
 	dcterms:description "(itil:supportsPBA itil:ITService itil:PBA) means that the itil:ITService supports the pattern of business activity itil:PBA.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

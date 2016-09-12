@@ -10,7 +10,6 @@ ogit.COBIT5:COBIT5Figure22
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Figure 22 - Mapping COBIT 5 Enterprise Goals to IT-related Goals";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#COBIT5Figure22>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#COBIT5Figure22.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:APO10.02.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice APO10.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO10.02.A4>;
 	dcterms:description "In the specific case of software acquisition, include and enforce the rights and obligations of all parties in the contractual terms. These rights and obligations may include ownership and licencing of intellectual property, maintenance, warranties, arbitration procedures, upgrade terms, and fit for purpose, including security, escrow and access rights. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO10.02.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:APO06
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage Budget and Costs";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO06>;
 	dcterms:description "Manage the IT-related financial activities in both the business and IT functions, covering budget, cost and benefit management, and prioritisation of spending through the use of formal budgeting practices and a fair and equitable system of allocating costs to the enterprise. Consult stakeholders to identify and control the total costs and benefits within the context of the IT strategic and tactical plans, and initiate corrective action where needed. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO06.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

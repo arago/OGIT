@@ -11,7 +11,6 @@ ogit.ITIL:incidentLevel
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "incidentLevel";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#incidentLevel>;
 	dcterms:description "The integer value that represents the level of importance of a specific itil:Incident. In our pilot project, the itil:IncidentLevel is calculated from the itil:incidentUrgency and the itil:incidentGroupType that reported the itil:Incident (itil:hasIncidentGroup property). The level codes range from 0 to 5 (5 is the highest level of importance).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

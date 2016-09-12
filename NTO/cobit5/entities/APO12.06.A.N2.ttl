@@ -10,7 +10,6 @@ ogit.COBIT5:APO12.06.A.N2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "APO12.06.A.N2";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO12.06.A.N2>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO12.06.A.N2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

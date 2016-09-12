@@ -10,7 +10,6 @@ ogit.COBIT5:DSS02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage Service Requests and Incidents";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS02>;
 	dcterms:description "Provide timely and effective response to user requests and resolution of all types of incidents. Restore normal service; record and fulfil user requests; and record, investigate, diagnose, escalate and resolve incidents. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

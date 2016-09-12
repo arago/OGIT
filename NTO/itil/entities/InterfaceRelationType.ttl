@@ -11,7 +11,6 @@ ogit.ITIL:InterfaceRelationType
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Interface Relation Type";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#InterfaceRelationType>;
 	dcterms:description "An itil:Process may have input and output interfaces with other itil:Process(s).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

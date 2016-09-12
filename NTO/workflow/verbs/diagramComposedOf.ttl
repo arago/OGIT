@@ -10,7 +10,6 @@ ogit.WF:diagramComposedOf
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "diagramComposedOf";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#diagramComposedOf>;
 	dcterms:description "(wf:diagramComposedOf wf:BpmnDiagram wf:MessagingEdge/wf:Pool) means that the wf:BpmnDiagram is composed of the wf:MessagingEdge/wf:Pool.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

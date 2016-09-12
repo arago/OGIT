@@ -10,7 +10,6 @@ ogit.COBIT5:EG2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Portfolio of competitive products and services";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EG2>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EG2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

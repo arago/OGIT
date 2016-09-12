@@ -10,7 +10,6 @@ ogit.COBIT5:ISO27002.14
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "14. Business Continuity Management";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#ISO27002.14>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#ISO27002.14.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

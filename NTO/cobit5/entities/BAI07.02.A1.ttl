@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.02.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI07.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.02.A1>;
 	dcterms:description "Define a business process, IT: service data and infrastructure migration plan. Consider, for example, hardware, networks, operating systems, software, transaction data, master files, backups and archives, interfaces with other systems (both internal and external), possible compliance requirements, business procedures, and system documentation, in the development of the plan. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.02.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

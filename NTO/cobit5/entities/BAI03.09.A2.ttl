@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.09.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI03.09";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.09.A2>;
 	dcterms:description "Track changes to requirements, enabling all stakeholders to monitor, review and approve the changes. Ensure that the outcomes of the change process are fully understood and agreed on by all the stakeholders and the sponsor/business process owner. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.09.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

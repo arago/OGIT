@@ -10,7 +10,6 @@ ogit.COBIT5:PGAPO07.2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Human resources are effectively and efficiently managed.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGAPO07.2>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGAPO07.2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

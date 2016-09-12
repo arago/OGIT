@@ -11,7 +11,6 @@ ogit.ITIL:UC
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Underpinning Contract";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#UC>;
 	dcterms:description "An itil:UC is an itil:Agreement between an itil:ITServiceProvider and a third party. In this case, the third party is another itil:Organization. The itil:UC defines targets and responsibilities that are required to meet agreed itil:ServiceLevelTarget(s) in an itil:SLA.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

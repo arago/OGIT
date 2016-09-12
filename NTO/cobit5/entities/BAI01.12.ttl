@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.12
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage project resources and work packages.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.12>;
 	dcterms:description "Manage project work packages by placing formal requirements on authorising and accepting work packages, and assigning and co-ordinating appropriate business and IT resources. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.12.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

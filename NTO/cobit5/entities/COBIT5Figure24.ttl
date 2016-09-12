@@ -10,7 +10,6 @@ ogit.COBIT5:COBIT5Figure24
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Figure 24 - Mapping COBIT 5 Enterprise Goals to Governance and Management Questions";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#COBIT5Figure24>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#COBIT5Figure24.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

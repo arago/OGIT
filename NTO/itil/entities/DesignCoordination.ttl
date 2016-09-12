@@ -11,7 +11,6 @@ ogit.ITIL:DesignCoordination
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Design coordination";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#DesignCoordination>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#DesignCoordination.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:PGAPO04.3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Innovation is promoted and enabled and forms part of the enterprise culture.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGAPO04.3>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGAPO04.3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

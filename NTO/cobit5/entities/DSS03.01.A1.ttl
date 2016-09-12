@@ -10,7 +10,6 @@ ogit.COBIT5:DSS03.01.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice DSS03.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS03.01.A1>;
 	dcterms:description "Identify problems through the correlation of incident reports, error logs and other problem identification resources. Determine priority levels and categorisation to address problems in a timely manner based on business risk and service definition. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS03.01.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:APO02.02.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice APO02.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO02.02.A3>;
 	dcterms:description "Identify gaps between current business and IT capabilities and services and reference standards and best practices, competitor business and IT capabilities, and comparative benchmarks of best practice and emerging IT service provision. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO02.02.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

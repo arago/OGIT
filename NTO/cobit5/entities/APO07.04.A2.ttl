@@ -10,7 +10,6 @@ ogit.COBIT5:APO07.04.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice APO07.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO07.04.A2>;
 	dcterms:description "Set individual goals aligned with the relevant process goals so that there is a clear contribution to IT and enterprise goals. Base goals on SMART objectives (specific, measurable, achievable, relevant and time-bound) that reflect core competencies, enterprise values and skills required for the role(s). This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO07.04.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

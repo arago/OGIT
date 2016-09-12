@@ -10,7 +10,6 @@ ogit.COBIT5:PGAPO03.4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "A common enterprise architecture framework and methodology as well as an integrated architecture repository are used to enable re-use efficiencies across the enterprise.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGAPO03.4>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGAPO03.4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

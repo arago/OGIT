@@ -10,7 +10,6 @@ ogit.COBIT5:BAI06
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage Changes";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI06>;
 	dcterms:description "Manage all changes in a controlled manner, including standard changes and emergency maintenance relating to business processes, applications and infrastructure. This includes change standards and procedures, impact assessment, prioritisation and authorisation, emergency changes, tracking, reporting, closure and documentation. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI06.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

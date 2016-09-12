@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.11
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Monitor and control projects.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.11>;
 	dcterms:description "Measure project performance against key project performance criteria such as schedule, quality, cost and risk. Identify any deviations from the expected. Assess the impact of deviations on the project and overall programme, and report results to key stakeholders. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.11.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

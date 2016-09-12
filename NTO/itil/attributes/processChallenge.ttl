@@ -11,7 +11,6 @@ ogit.ITIL:processChallenge
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "processChallenge";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#processChallenge>;
 	dcterms:description "The characther string assigned to represent the challenges for successful itil:Process.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

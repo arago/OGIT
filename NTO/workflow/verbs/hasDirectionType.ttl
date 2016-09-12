@@ -10,7 +10,6 @@ ogit.WF:hasDirectionType
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasDirectionType";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#hasDirectionType>;
 	dcterms:description "(wfdirections of the wf:Association has the type wf:DirectionType.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

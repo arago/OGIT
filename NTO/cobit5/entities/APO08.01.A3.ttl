@@ -10,7 +10,6 @@ ogit.COBIT5:APO08.01.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice APO08.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO08.01.A3>;
 	dcterms:description "Maintain an awareness of business processes and associated activities and understand demand patterns that relate to service volumes and use. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO08.01.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

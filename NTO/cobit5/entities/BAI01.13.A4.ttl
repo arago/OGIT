@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.13.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice BAI01.13";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.13.A4>;
 	dcterms:description "Regularly, and upon completion of the project, collect from the project participants the lessons learned. Review them and key activities that led to delivered benefits and value. Analyse the data and make recommendations for improving the current project as well as project management method for future projects. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.13.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:ISO20000.5.0
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "5.0 Planning and implementing new or changed services";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#ISO20000.5.0>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#ISO20000.5.0.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

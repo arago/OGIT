@@ -10,7 +10,6 @@ ogit.COBIT5:SN20
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "How long does it take to make major IT decisions?";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#SN20>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#SN20.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:MEA02.03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Perform control self-assessments.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA02.03>;
 	dcterms:description "Encourage management and process owners to take positive ownership of control improvement through a continuing programme of self-assessment to evaluate the completeness and effectiveness of management's control over processes, policies and contracts. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA02.03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

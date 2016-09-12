@@ -10,7 +10,6 @@ ogit.COBIT5:EDM01.01
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Evaluate the governance system.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM01.01>;
 	dcterms:description "Continually identify and engage with the enterprise's stakeholders, document an understanding of the requirements, and make a judgement on the current and future design of governance of enterprise IT. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM01.01.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

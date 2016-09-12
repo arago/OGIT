@@ -10,7 +10,6 @@ ogit.COBIT5:SN04
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "How do I best build and structure my IT department?";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#SN04>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#SN04.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

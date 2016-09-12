@@ -10,7 +10,6 @@ ogit.CYC:subEvents
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "subEvents";
-	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#subEvents>;
 	dcterms:description "(oc:subEvents oc:Event1 oc:Event2) means that oc:Event2 is a part, or subevent, of oc:Event1. The oc:Event(s) can be decomposed into subevents temporally, spatially, and in other ways.The oc:subEvents property is the most general instance of oc:SubEventPredicate. This predicate relates a given oc:Event to the oc:Event(s) that are its parts.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

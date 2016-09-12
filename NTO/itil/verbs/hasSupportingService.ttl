@@ -11,7 +11,6 @@ ogit.ITIL:hasSupportingService
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasSupportingService";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasSupportingService>;
 	dcterms:description "(itil:hasSupportingService itil:CoreService itil:SupportingService) means that the itil:CoreService includes the itil:SupportingService to enable or enhance the delivery of the service.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

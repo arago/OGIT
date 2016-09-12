@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.04.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice BAI01.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.04.A5>;
 	dcterms:description "Maintain the programme plan to ensure that it is up to date and reflects alignment with current strategic objectives, actual progress and material changes to outcomes, benefits, costs and risk. Have the business drive the objectives and priorities the work throughout to ensure that the programme as designed will meet enterprise requirements. Review progress of individual projects and adjust the projects as necessary to meet scheduled milestones releases. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.04.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

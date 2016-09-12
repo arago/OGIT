@@ -11,7 +11,6 @@ ogit.ITIL:hasSLP
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasSLP";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasSLP>;
 	dcterms:description "(itil:hasSLP itil:ServicePackage itil:SLP) means that the itil:ServicePackage is composed of the itil:SLP.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

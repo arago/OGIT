@@ -10,7 +10,6 @@ ogit.COBIT5:APO08.05
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Provide input to the continual improvement of services.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO08.05>;
 	dcterms:description "Continually improve and evolve IT-enabled services and service delivery to the enterprise to align with changing enterprise and technology requirements. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO08.05.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

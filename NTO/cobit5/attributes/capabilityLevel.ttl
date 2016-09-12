@@ -10,7 +10,6 @@ ogit.COBIT5:capabilityLevel
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "has capability level";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#capabilityLevel>;
 	dcterms:description "";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

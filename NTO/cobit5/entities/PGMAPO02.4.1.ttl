@@ -10,7 +10,6 @@ ogit.COBIT5:PGMAPO02.4.1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Percent of strategic enterprise objectives obtained as a result of strategic IT initiatives";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGMAPO02.4.1>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGMAPO02.4.1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

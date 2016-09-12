@@ -10,7 +10,6 @@ ogit.COBIT5:APO03.02.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice APO03.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO03.02.A4>;
 	dcterms:description "Develop baseline architectural domain descriptions, using the scope and level of detail necessary to support the target architecture and, to the extent possible, identifying relevant architecture building blocks from the architecture repository. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO03.02.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

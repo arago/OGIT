@@ -11,7 +11,6 @@ ogit.ITIL:coveringITService
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "coveringITService";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#coveringITService>;
 	dcterms:description "(itil:coveringITService itil:SLA itil:ITService) means that the itil:SLA is defined for the itil:ITService.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

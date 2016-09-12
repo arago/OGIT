@@ -10,7 +10,6 @@ ogit.COBIT5:EDM03.02.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice EDM03.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM03.02.A2>;
 	dcterms:description "Direct the integration of the IT risk strategy and operations with the enterprise strategic risk decisions and operations. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM03.02.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

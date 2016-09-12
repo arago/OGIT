@@ -10,7 +10,6 @@ ogit.COBIT5:PGMAPO02.4.2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Number of new enterprise opportunities realised as a direct result of IT developments";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGMAPO02.4.2>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGMAPO02.4.2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

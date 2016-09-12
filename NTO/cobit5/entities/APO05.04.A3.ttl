@@ -10,7 +10,6 @@ ogit.COBIT5:APO05.04.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice APO05.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO05.04.A3>;
 	dcterms:description "Adjust the enterprise targets, forecasts, budgets and, if required, the degree of monitoring to reflect the expenditures to be incurred and enterprise benefits to be realised by programmes in the active investment portfolio. Incorporate programme expenditures into chargeback mechanisms. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO05.04.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

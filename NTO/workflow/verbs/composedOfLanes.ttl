@@ -10,7 +10,6 @@ ogit.WF:composedOfLanes
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "composedOfLanes";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#composedOfLanes>;
 	dcterms:description "(wf:composedOfLanes wf:Pool wf:Lane) means that the wf:Pool is composed of wf:Lane.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

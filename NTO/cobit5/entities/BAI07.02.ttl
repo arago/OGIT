@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Plan business process, system and data conversion.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.02>;
 	dcterms:description "Prepare for business process, IT service data and infrastructure migration as part of the enterprise's development methods, including audit trails and a recovery plan should the migration fail. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

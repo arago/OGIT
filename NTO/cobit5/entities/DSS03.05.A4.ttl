@@ -10,7 +10,6 @@ ogit.COBIT5:DSS03.05.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice DSS03.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS03.05.A4>;
 	dcterms:description "Produce reports to monitor the problem resolution against the business requirements and SLAs. Ensure the proper escalation of problems, e.g., escalation to a higher management level according to agreed-on criteria, contacting external vendors, or referring to the change advisory board to increase the priority of an urgent request for change (RFC) to implement a temporary workaround. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS03.05.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

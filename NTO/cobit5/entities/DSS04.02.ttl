@@ -10,7 +10,6 @@ ogit.COBIT5:DSS04.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Maintain a continuity strategy.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS04.02>;
 	dcterms:description "Evaluate business continuity management options and choose a cost-effective and viable continuity strategy that will ensure enterprise recovery and continuity in the face of a disaster or other major incident or disruption. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS04.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

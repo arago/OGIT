@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.06
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Promote to production and manage releases.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.06>;
 	dcterms:description "Promote the accepted solution to the business and operations. Where appropriate, run the solution as a pilot implementation or in parallel with the old solution for a defined period and compare behaviour and results. If significant problems occur, revert back to the original environment based on the fallback/backout plan. Manage releases of solution components. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.06.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

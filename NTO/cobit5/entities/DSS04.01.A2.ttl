@@ -10,7 +10,6 @@ ogit.COBIT5:DSS04.01.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice DSS04.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS04.01.A2>;
 	dcterms:description "Identify key stakeholders and roles and responsibilities for defining and agreeing on continuity policy and scope. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS04.01.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

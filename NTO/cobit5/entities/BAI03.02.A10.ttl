@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.02.A10
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 10 for Management Practice BAI03.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.02.A10>;
 	dcterms:description "Provide an ability to audit transactions and identify root causes of processing errors. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.02.A10.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

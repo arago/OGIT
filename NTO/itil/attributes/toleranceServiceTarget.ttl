@@ -11,7 +11,6 @@ ogit.ITIL:toleranceServiceTarget
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "toleranceServiceTarget";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#toleranceServiceTarget>;
 	dcterms:description "The numeric value assigned to represent a specific service target tolerance (acceptable value) of an itil:KPI.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

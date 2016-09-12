@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.07
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Provide early production support.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.07>;
 	dcterms:description "Provide early support to the users and IT operations for an agreed-on period of time to deal with issues and help stabilise the new solution. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.07.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:APO05.05.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice APO05.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO05.05.A2>;
 	dcterms:description "Work with service delivery managers to maintain the service portfolios and with operations managers and architects to maintain the asset portfolios. Prioritise portfolios to support investment decisions. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO05.05.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

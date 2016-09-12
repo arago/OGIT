@@ -10,7 +10,6 @@ ogit.COBIT5:DSS03.05.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice DSS03.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS03.05.A3>;
 	dcterms:description "To enable the enterprise to monitor the total costs of problems, capture change efforts resulting from problem management process activities (e.g., fixes to problems and known errors) and report on them. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS03.05.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

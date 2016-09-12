@@ -11,7 +11,6 @@ ogit.ITIL:packageDescription
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "packageDescription";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#packageDescription>;
 	dcterms:description "The character string assigned to describe a specific itil:ServicePackage.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

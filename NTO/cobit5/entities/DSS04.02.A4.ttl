@@ -10,7 +10,6 @@ ogit.COBIT5:DSS04.02.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice DSS04.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS04.02.A4>;
 	dcterms:description "Assess the likelihood of threats that could cause loss of business continuity and identify measures that will reduce the likelihood and impact through improved prevention and increased resilience. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS04.02.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

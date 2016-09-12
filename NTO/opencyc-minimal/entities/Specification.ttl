@@ -10,7 +10,6 @@ ogit.CYC:Specification
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Specification";
-	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#Specification>;
 	dcterms:description "An oc:Specification is an abstract work that constitutes a description of the properties of a oc:Situation or a oc:SomethingExisting, and sometimes even entire collections of such things. Things are made, bought, and searched for according to specifications, which can be instantiated as printed instructions or as diagrams. This collection is modally neutral with regard to the descriptive character of its instances. Thus, it includes descriptions of how things are, were, should be, must be, etc.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

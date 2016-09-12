@@ -10,7 +10,6 @@ ogit.COBIT5:BAI06.02.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice BAI06.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI06.02.A3>;
 	dcterms:description "Monitor all emergency changes, and conduct post-implementation reviews involving all concerned parties. The review should consider and initiate corrective actions based on root causes such as problems with business process, application system development and maintenance, development and test environments, documentation and manuals, and data integrity. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI06.02.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

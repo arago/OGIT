@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.05.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI07.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.05.A2>;
 	dcterms:description "Evaluate the final acceptance against the success criteria and interpret the final acceptance testing results. Present them in a form that is understandable to business process owners and IT so an informed review and evaluation can take place. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.05.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

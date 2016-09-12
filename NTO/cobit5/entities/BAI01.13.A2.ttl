@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.13.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI01.13";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.13.A2>;
 	dcterms:description "Plan and execute post-implementation reviews to determine whether projects delivered expected benefits and to improve the project management and system development process methodology. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.13.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

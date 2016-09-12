@@ -10,7 +10,6 @@ ogit.WF:outgoingEdges
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "outgoingEdges";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#outgoingEdges>;
 	dcterms:description "(wf:outgoingEdges wfwf:Vertex is the source of the wf:SequenceEdge.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.08
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Perform a post-implementation review.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.08>;
 	dcterms:description "Conduct a post-implementation review to confirm outcome and results, identify lessons learned, and develop an action plan. Evaluate and check the actual performance and outcomes of the new or changed service against the predicted performance and outcomes (i.e., the service expected by the user or customer). This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.08.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

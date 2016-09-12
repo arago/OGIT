@@ -10,7 +10,6 @@ ogit.COBIT5:BAI02.04.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI02.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI02.04.A1>;
 	dcterms:description "Ensure that the business sponsor or product owner makes the final decision with respect to the choice of solution, acquisition approach and high-level design, according to the business case. Co-ordinate feedback from affected stakeholders and obtain sign-off from appropriate business and technical authorities (e.g., business process owner, enterprise architect, operations manager, security) for the proposed approach. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI02.04.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:DSS04.07
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage backup arrangements.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS04.07>;
 	dcterms:description "Maintain availability of business-critical information. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS04.07.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

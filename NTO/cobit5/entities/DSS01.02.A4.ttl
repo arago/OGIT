@@ -10,7 +10,6 @@ ogit.COBIT5:DSS01.02.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice DSS01.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS01.02.A4>;
 	dcterms:description "Plan for independent audit and assurance of the operational environments of outsourced providers to confirm that agreed-on requirements are being adequately addressed. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS01.02.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

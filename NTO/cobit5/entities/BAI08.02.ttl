@@ -10,7 +10,6 @@ ogit.COBIT5:BAI08.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Identify and classify sources of information.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI08.02>;
 	dcterms:description "Identify, validate and classify diverse sources of internal and external information required to enable effective use and operation of business processes and IT services. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI08.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

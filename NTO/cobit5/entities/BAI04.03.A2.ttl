@@ -10,7 +10,6 @@ ogit.COBIT5:BAI04.03.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI04.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI04.03.A2>;
 	dcterms:description "Identify availability and capacity implications of changing business needs and improvement opportunities. Use modelling techniques to validate availability, performance and capacity plans. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI04.03.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

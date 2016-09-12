@@ -10,7 +10,6 @@ ogit.COBIT5:APO12.06.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice APO12.06";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO12.06.A4>;
 	dcterms:description "Examine past adverse events/losses and missed opportunities and determine root causes. Communicate root cause, additional risk response requirements and process improvements to appropriate decision makers and ensure that the cause, response requirements and process improvement are included in risk governance processes. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO12.06.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

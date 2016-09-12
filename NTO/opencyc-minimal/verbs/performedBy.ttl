@@ -10,7 +10,6 @@ ogit.CYC:performedBy
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "performedBy";
-	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#performedBy>;
 	dcterms:description "(oc:performedBy oc:Action oc:Agent-Generic) means that the oc:Agent-Generic deliberately does oc:Action. Note that an oc:Action can have multiple deliberate performers (oc:Agent-Generic(s)).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

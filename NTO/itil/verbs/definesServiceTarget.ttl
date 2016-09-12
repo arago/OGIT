@@ -11,7 +11,6 @@ ogit.ITIL:definesServiceTarget
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "definesServiceTarget";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#definesServiceTarget>;
 	dcterms:description "(itil:definesServiceTarget itil:SLA itil:ServiceLevelTarget) means that the itil:SLA defines the itil:ServiceLevelTarget.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

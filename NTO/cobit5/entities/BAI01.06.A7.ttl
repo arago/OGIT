@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.06.A7
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 7 for Management Practice BAI01.06";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.06.A7>;
 	dcterms:description "In accordance with stage-gate, release or iteration review criteria, undertake reviews to report on the progress of the programme so that management can make go/no or adjustment decisions and approve further funding up to the following stage-gate, release or iteration. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.06.A7.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

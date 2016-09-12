@@ -10,7 +10,6 @@ ogit.COBIT5:DSS02.01.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice DSS02.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS02.01.A1>;
 	dcterms:description "Define incident and service request classification and prioritisation schemes and criteria for problem registration, to ensure consistent approaches for handling, informing users about and conducting trend analysis. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS02.01.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

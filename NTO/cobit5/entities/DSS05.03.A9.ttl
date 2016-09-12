@@ -10,7 +10,6 @@ ogit.COBIT5:DSS05.03.A9
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 9 for Management Practice DSS05.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS05.03.A9>;
 	dcterms:description "Dispose of endpoint devices securely. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS05.03.A9.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:SN17
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "What has been the average overrun of the IT operational budgets? How often and how much do IT projects go over budget?";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#SN17>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#SN17.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

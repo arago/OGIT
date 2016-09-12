@@ -10,7 +10,6 @@ ogit.COBIT5:DSS02.07.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice DSS02.07";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS02.07.A3>;
 	dcterms:description "Analyse incidents and service requests by category and type to establish trends and identify patterns of recurring issues, SLA breaches or inefficiencies. Use the information as input to continual improvement planning. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS02.07.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:SN22
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Does IT support the enterprise in complying with regulations and service levels? How do I know whether I am compliant with all applicable regulations?";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#SN22>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#SN22.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

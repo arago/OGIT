@@ -10,7 +10,6 @@ ogit.COBIT5:DSS05.05
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage physical access to IT assets.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS05.05>;
 	dcterms:description "Define and implement procedures to grant, limit and revoke access to premises, buildings and areas according to business needs, including emergencies. Access to premises, buildings and areas should be justified, authorised, logged and monitored. This should apply to all persons entering the premises, including staff, temporary staff, clients, vendors, visitors or any other third party. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS05.05.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

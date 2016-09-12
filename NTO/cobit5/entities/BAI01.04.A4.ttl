@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.04.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice BAI01.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.04.A4>;
 	dcterms:description "Ensure that there is effective communication of programme plans and progress reports amongst all projects and with the overall programme. Ensure that any changes made to individual plans are reflected in the other enterprise programme plans. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.04.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

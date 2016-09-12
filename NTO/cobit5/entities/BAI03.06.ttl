@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.06
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Perform quality assurance.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.06>;
 	dcterms:description "Develop, resource and execute a QA plan aligned with the QMS to obtain the quality specified in the requirements definition and the enterprise's quality policies and procedures. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.06.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

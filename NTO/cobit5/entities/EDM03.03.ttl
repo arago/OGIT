@@ -10,7 +10,6 @@ ogit.COBIT5:EDM03.03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Monitor risk management.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM03.03>;
 	dcterms:description "Monitor the key goals and metrics of the risk management processes and establish how deviations or problems will be identified, tracked and reported for remediation. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM03.03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

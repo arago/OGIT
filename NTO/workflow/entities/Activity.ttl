@@ -10,7 +10,6 @@ ogit.WF:Activity
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#Activity>;
 	dcterms:description "An wf:Activity is work that is performed within a business process. An wf:Activity can be atomic or non-atomic (compound). The wf:Activity represents points in a process flow where work is performed. The wf:Activity(s) are the executable elements of a business process.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

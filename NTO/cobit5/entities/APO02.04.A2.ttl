@@ -10,7 +10,6 @@ ogit.COBIT5:APO02.04.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice APO02.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO02.04.A2>;
 	dcterms:description "Consider the high-level implications of all gaps. Consider the value of potential changes to business and IT capabilities, IT services and enterprise architecture, and the implications if no changes are realised. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO02.04.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

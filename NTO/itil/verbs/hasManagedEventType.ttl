@@ -11,7 +11,6 @@ ogit.ITIL:hasManagedEventType
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasManagedEventType";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasManagedEventType>;
 	dcterms:description "(itil:hasManagedEventType itil:Event itil:ManagedEventType) means that the itil:Event has the type itil:ManagedEventType.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

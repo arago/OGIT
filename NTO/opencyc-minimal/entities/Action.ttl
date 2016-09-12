@@ -10,7 +10,6 @@ ogit.CYC:Action
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Action";
-	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#Action>;
 	dcterms:description "An oc:Action is the collection of events that are carried out by some ‘doer’. Instances of oc:Action include any event in which one or more actors effect some change in the (tangible or intangible) state of the real-world, typically by an expenditure of effort or energy. Note that it is not required that any tangible object be moved, changed, produced, or destroyed for an action to occur; the effects of an action might be intangible (such as a change in a bank balance or the intimidation of a subordinate). Note also that the doer of an action need not be (for example, a falling rock that dents a car's roof). Depending upon the context, doers of actions might be animate or inanimate, conscious or non conscious.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

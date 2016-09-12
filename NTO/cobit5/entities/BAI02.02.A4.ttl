@@ -10,7 +10,6 @@ ogit.COBIT5:BAI02.02.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice BAI02.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI02.02.A4>;
 	dcterms:description "Translate the preferred course of action into a high-level acquisition/development plan identifying resources to be used and stages requiring a go/no-go decision. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI02.02.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

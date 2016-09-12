@@ -10,7 +10,6 @@ ogit.COBIT5:BAI04.04
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Monitor and review availability and capacity.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI04.04>;
 	dcterms:description "Monitor, measure, analyse, report and review availability, performance and capacity. Identify deviations from established baselines. Review trend analysis reports identifying any significant issues and variances, initiating actions where necessary, and ensuring that all outstanding issues are followed up. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI04.04.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

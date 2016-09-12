@@ -10,7 +10,6 @@ ogit.COBIT5:PGMAPO01.1.3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Number of risk exposures due to inadequacies in the design of the control environment";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGMAPO01.1.3>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGMAPO01.1.3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

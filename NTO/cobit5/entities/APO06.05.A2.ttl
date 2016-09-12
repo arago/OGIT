@@ -10,7 +10,6 @@ ogit.COBIT5:APO06.05.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice APO06.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO06.05.A2>;
 	dcterms:description "Establish time scales for the operation of the cost management process in line with budgeting and accounting requirements. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO06.05.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

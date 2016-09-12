@@ -10,7 +10,6 @@ ogit.COBIT5:APO01.03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Maintain the enablers of the management system";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO01.03>;
 	dcterms:description "Maintain the enablers of the management system and control environment for enterprise IT, and ensure that they are integrated and aligned with the enterprise's governance and management philosophy and operating style. These enablers include the clear communication of expectations/requirements. The management system should encourage cross-divisional co-operation and teamwork, promote compliance and continuous improvement, and handle process deviations (including failure). This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO01.03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

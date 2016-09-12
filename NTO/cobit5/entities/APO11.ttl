@@ -10,7 +10,6 @@ ogit.COBIT5:APO11
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage Quality";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO11>;
 	dcterms:description "Define and communicate quality requirements in all processes, procedures and the related enterprise outcomes, including controls, ongoing monitoring, and the use of proven practices and standards in continuous improvement and efficiency efforts. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO11.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

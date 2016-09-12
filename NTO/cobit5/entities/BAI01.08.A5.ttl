@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.08.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice BAI01.08";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.08.A5>;
 	dcterms:description "Ensure that each milestone is accompanied by a significant deliverable requiring review and sign-off. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.08.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

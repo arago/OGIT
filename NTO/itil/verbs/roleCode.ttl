@@ -11,7 +11,6 @@ ogit.ITIL:roleCode
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "roleCode";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#roleCode>;
 	dcterms:description "(itil:roleCode itil:RoleRelation itil:RoleType) means that the itil:RoleRelation has the type itil:RoleType.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

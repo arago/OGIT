@@ -10,7 +10,6 @@ ogit.COBIT5:MEA01.03.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice MEA01.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA01.03.A5>;
 	dcterms:description "Use suitable tools and systems for the processing and format of data for analysis. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA01.03.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

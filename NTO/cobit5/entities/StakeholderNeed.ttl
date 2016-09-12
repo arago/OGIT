@@ -10,7 +10,6 @@ ogit.COBIT5:StakeholderNeed
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Stakeholder Need";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#StakeholderNeed>;
 	dcterms:description "";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

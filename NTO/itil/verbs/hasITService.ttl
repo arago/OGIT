@@ -11,7 +11,6 @@ ogit.ITIL:hasITService
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasITService";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasITService>;
 	dcterms:description "(itil:hasITService itil:ServicePackage itil:ITService) means that the itil:ServicePackage includes the itil:ITService.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

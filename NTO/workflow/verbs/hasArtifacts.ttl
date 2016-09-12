@@ -10,7 +10,6 @@ ogit.WF:hasArtifacts
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasArtifacts";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#hasArtifacts>;
 	dcterms:description "(wf:hasArtifacts wf:ArtifactsContainer wf:Artifact) means that the wf:ArtifactsContainer is composed of the wf:Artifact.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

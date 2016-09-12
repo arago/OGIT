@@ -11,7 +11,6 @@ ogit.ITIL:fallsIntoToleranceRange
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "fallsIntoToleranceRange";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#fallsIntoToleranceRange>;
 	dcterms:description "(itil:fallsIntoToleranceRange itil:KPI itil:Tolerance) means that the itil:KPI results will fall into a itil:Tolerance range. Each itil:KPI should be associated with one or more itil:Tolerance values. For example, an upper value can represent a desired service target for the itil:KPI and a lower value can represent a warning level or point at which some further action should occur.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

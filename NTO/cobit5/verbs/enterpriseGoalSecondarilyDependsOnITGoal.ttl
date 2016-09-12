@@ -10,7 +10,6 @@ ogit.COBIT5:enterpriseGoalSecondarilyDependsOnITGoal
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "secondarily depends on IT goal";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#enterpriseGoalSecondarilyDependsOnITGoal>;
 	dcterms:description "";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

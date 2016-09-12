@@ -10,7 +10,6 @@ ogit.COBIT5:CRO
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Chief Risk Officer";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#CRO>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#CRO.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

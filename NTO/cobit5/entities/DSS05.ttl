@@ -10,7 +10,6 @@ ogit.COBIT5:DSS05
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage Security Services";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS05>;
 	dcterms:description "Protect enterprise information to maintain the level of information security risk acceptable to the enterprise in accordance with the security policy. Establish and maintain information security roles and access privileges and perform security monitoring. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS05.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

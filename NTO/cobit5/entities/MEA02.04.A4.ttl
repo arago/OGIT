@@ -10,7 +10,6 @@ ogit.COBIT5:MEA02.04.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice MEA02.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA02.04.A4>;
 	dcterms:description "Decide which control exceptions should be communicated to the individual responsible for the function and which exceptions should be escalated. Inform affected process owners and stakeholders. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA02.04.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

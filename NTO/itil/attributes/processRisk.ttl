@@ -11,7 +11,6 @@ ogit.ITIL:processRisk
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "processRisk";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#processRisk>;
 	dcterms:description "The characther string assigned to represent the risks that may be encountered with a specific itil:Process. An itil:processRisk is a possible itil:Event that could cause harm or loss, or affect the ability to achieve itil:processObjective(s). An itil:processRisk is measured by the probability of a threat, the vulnerability of the asset to that threat, and the itil:incidentImpact it would have if it occurred.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

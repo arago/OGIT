@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.09.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI01.09";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.09.A1>;
 	dcterms:description "Identify assurance tasks and practices required to support the accreditation of new or modified systems during programme and project planning, and include them in the integrated plans. Ensure that the tasks provide assurance that internal controls and security solutions meet the defined requirements. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.09.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

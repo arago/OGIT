@@ -11,7 +11,6 @@ ogit.ITIL:incidentUrgency
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "incidentUrgency";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#incidentUrgency>;
 	dcterms:description "The integer value that represents the urgency of a specific itil:Incident. The itil:incidentUrgency is a measure of how long it will be until an itil:Incident, itil:Problem or itil:Change has a significant impact on the business. The itil:incidentImpact and itil:incidentUrgency are used to assign itil:incidentPriority.The urgency codes range from 0 to 5 (5 is the highest urgency). The itil:incidentUrgency is calculated from the itil:serviceImportanceCode.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:PGMBAI01.5.1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Number of resource issues(e.g., skills, capacity)";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGMBAI01.5.1>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGMBAI01.5.1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

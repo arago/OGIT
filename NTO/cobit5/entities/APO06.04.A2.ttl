@@ -10,7 +10,6 @@ ogit.COBIT5:APO06.04.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice APO06.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO06.04.A2>;
 	dcterms:description "Inspect service definition catalogues to identify services subject to user chargeback and those that are shared services. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO06.04.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

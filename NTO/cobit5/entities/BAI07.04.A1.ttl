@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.04.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI07.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.04.A1>;
 	dcterms:description "Create a database of test data that are representative of the production environment. Sanitise data used in the test environment from the production environment according to business needs and organisational standards (e.g., consider whether compliance or regulatory requirements oblige the use of sanitised data). This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.04.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

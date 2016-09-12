@@ -10,7 +10,6 @@ ogit.COBIT5:MEA03.01.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice MEA03.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA03.01.A1>;
 	dcterms:description "Assign responsibility for identifying and monitoring any changes of legal, regulatory and other external contractual requirements relevant to the use of IT resources and the processing of information within the business and IT operations of the enterprise. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA03.01.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

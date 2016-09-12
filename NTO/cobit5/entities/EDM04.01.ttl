@@ -10,7 +10,6 @@ ogit.COBIT5:EDM04.01
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Evaluate resource management.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM04.01>;
 	dcterms:description "Continually examine and make judgement on the current and future need for IT-related resources, options for resourcing (including sourcing strategies), and allocation and management principles to meet the needs of the enterprise in the optimal manner. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM04.01.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

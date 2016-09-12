@@ -11,7 +11,6 @@ ogit.ITIL:SYSTEMS_AND_USERS
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "SYSTEMS_AND_USERS";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#SYSTEMS_AND_USERS>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#SYSTEMS_AND_USERS.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

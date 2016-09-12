@@ -10,7 +10,6 @@ ogit.COBIT5:APO07.03.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice APO07.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO07.03.A5>;
 	dcterms:description "Develop and deliver training programmes based on organisational and process requirements, including requirements for enterprise knowledge, internal control, ethical conduct and security. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO07.03.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

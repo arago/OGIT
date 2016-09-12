@@ -10,7 +10,6 @@ ogit.COBIT5:DSS05.06
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage sensitive documents and output devices.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS05.06>;
 	dcterms:description "Establish appropriate physical safeguards, accounting practices and inventory management over sensitive IT assets, such as special forms, negotiable instruments, special-purpose printers or security tokens. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS05.06.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

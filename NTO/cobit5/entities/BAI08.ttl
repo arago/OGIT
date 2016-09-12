@@ -10,7 +10,6 @@ ogit.COBIT5:BAI08
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage Knowledge";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI08>;
 	dcterms:description "Maintain the availability of relevant, current, validated and reliable knowledge to support all process activities and to facilitate decision making. Plan for the identification, gathering, organising, maintaining, use and retirement of knowledge. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI08.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

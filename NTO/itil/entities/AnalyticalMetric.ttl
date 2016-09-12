@@ -11,7 +11,6 @@ ogit.ITIL:AnalyticalMetric
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Analytical Metric";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#AnalyticalMetric>;
 	dcterms:description "An itil:AnalyticalMetric is a used to separate out certain metrics that are really more helpful for supporting research into an issue, incident or service problem. The itil:AnalyticalMetric(s) are metrics that IT service providers may report on only on a one-time basis or as part of a drill-down (such as for an itil:Dashboard). IT frequently makes the mistake of including these in regular reporting to senior management ‘just in case’. This results in a lot of wasted labor in building reports and clouds real management issues that need to be addressed.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

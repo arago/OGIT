@@ -10,7 +10,6 @@ ogit.COBIT5:APO06.04.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice APO06.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO06.04.A3>;
 	dcterms:description """Define and agree on a model that:
 -Supports the calculation of chargeback rates per service
 -Defines how IT costs will be calculated/charged

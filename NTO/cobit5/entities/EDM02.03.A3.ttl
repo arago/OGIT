@@ -10,7 +10,6 @@ ogit.COBIT5:EDM02.03.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice EDM02.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM02.03.A3>;
 	dcterms:description "Obtain regular and relevant portfolio, programme and IT (technological and functional) performance reports. Review the enterprise's progress towards identified goals and the extent to which planned objectives have been achieved, deliverables obtained, performance targets met and risk mitigated. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM02.03.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

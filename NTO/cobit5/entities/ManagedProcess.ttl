@@ -10,7 +10,6 @@ ogit.COBIT5:ManagedProcess
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Managed Process";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#ManagedProcess>;
 	dcterms:description "The previously described performed process is now implemented in a managed fashion (planned, monitored and adjusted) and its work products are appropriately established, controlled and maintained. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#ManagedProcess.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

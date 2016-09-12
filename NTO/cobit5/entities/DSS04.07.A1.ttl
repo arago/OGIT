@@ -10,7 +10,6 @@ ogit.COBIT5:DSS04.07.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice DSS04.07";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS04.07.A1>;
 	dcterms:description """Back up systems, applications, data and documentation according to a defined schedule, considering:
 -Frequency (monthly, weekly, daily, etc.)
 -Mode of backup (e.g. disk mirroring for real-time backups vs. DVD-ROM for long-term retention)

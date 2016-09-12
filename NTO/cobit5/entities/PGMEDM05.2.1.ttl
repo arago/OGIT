@@ -10,7 +10,6 @@ ogit.COBIT5:PGMEDM05.2.1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Percent of reports that are not delivered on time";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGMEDM05.2.1>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGMEDM05.2.1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

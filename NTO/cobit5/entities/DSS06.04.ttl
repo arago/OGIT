@@ -10,7 +10,6 @@ ogit.COBIT5:DSS06.04
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage errors and exceptions.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS06.04>;
 	dcterms:description "Manage business process exceptions and errors and facilitate their correction. Include escalation of business process errors and exceptions and the execution of defined corrective actions. This provides assurance of the accuracy and integrity of the business information process. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS06.04.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

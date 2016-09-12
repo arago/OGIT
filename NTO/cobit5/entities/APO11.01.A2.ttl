@@ -10,7 +10,6 @@ ogit.COBIT5:APO11.01.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice APO11.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO11.01.A2>;
 	dcterms:description "Define roles, tasks, decision rights and responsibilities for quality management in the organisational structure. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO11.01.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

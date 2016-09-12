@@ -10,7 +10,6 @@ ogit.COBIT5:KotterJohn
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Kotter, John; Leading Change, Harvard Business School Press, USA, 1996";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#KotterJohn>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#KotterJohn.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

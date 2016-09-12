@@ -11,7 +11,6 @@ ogit.ITIL:metricValue
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "metricValue";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#metricValue>;
 	dcterms:description "The numeric value assigned to represent the value of a specific itil:Metric.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

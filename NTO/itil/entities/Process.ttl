@@ -11,7 +11,6 @@ ogit.ITIL:Process
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Process";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Process>;
 	dcterms:description "An itil:Process is a structured set of activities designed to accomplish a specific objective. It takes one or more defined inputs and turns them into defined outputs. An itil:Process has an owner and it may include any of the roles, responsibilities, tools and management controls required to reliably deliver the outputs. Also, an itil:Process may define policies, standards, guidelines, activities, and work instructions if they are needed.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

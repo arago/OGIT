@@ -10,7 +10,6 @@ ogit.COBIT5:OECD
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Organisation for Economic Co-operation and Development (OECD)";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#OECD>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#OECD.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

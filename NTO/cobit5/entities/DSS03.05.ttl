@@ -10,7 +10,6 @@ ogit.COBIT5:DSS03.05
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Perform proactive problem management.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS03.05>;
 	dcterms:description "Collect and analyse operational data (especially incident and change records) to identify emerging trends that may indicate problems. Log problem records to enable assessment. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS03.05.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

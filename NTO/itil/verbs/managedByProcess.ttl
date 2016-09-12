@@ -11,7 +11,6 @@ ogit.ITIL:managedByProcess
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "managedByProcess";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#managedByProcess>;
 	dcterms:description "(itil:managedByProcess itil:ManagedEvent itil:Process) means that the itil:Event is managed by the itil:Process.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

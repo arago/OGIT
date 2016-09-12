@@ -11,7 +11,6 @@ ogit.ITIL:hasEventType
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasEventType";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasEventType>;
 	dcterms:description "(itil:hasEventType itil:Event itil:EventType) means that the itil:Event has the type itil:EventType.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

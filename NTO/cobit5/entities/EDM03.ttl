@@ -10,7 +10,6 @@ ogit.COBIT5:EDM03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Ensure Risk Optimisation";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM03>;
 	dcterms:description "Ensure that the enterprise's risk appetite and tolerance are understood, articulated and communicated, and that risk to enterprise value related to the use of IT is identified and managed. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

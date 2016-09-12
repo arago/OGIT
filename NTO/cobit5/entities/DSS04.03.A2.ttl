@@ -10,7 +10,6 @@ ogit.COBIT5:DSS04.03.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice DSS04.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS04.03.A2>;
 	dcterms:description "Develop and maintain operational BCPs containing the procedures to be followed to enable continued operation of critical business processes and/or temporary processing arrangements, including links to plans of outsourced service providers. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS04.03.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

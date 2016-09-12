@@ -10,7 +10,6 @@ ogit.CYC:Situation
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Situation";
-	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#Situation>;
 	dcterms:description "An oc:Situation is a state or event consisting of one or more objects having certain properties or bearing certain relations to each other. Notable specializations of oc:Situation are oc:Event and oc:StaticSituation.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

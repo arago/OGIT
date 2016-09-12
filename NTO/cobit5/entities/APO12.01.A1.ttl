@@ -10,7 +10,6 @@ ogit.COBIT5:APO12.01.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice APO12.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO12.01.A1>;
 	dcterms:description "Establish and maintain a method for the collection, classification and analysis of IT risk-related data, accommodating multiple types of events, multiple categories of IT risk and multiple risk factors. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO12.01.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

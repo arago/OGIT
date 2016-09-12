@@ -11,7 +11,6 @@ ogit.ITIL:slaIncidentPriority
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "slaIncidentPriority";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#slaIncidentPriority>;
 	dcterms:description "The integer value that represents the agreed priority of a specific itil:SLA. In our pilot project, the priority codes range from 0 to 10 (10 is the highest priority).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

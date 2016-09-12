@@ -10,7 +10,6 @@ ogit.WF:inActivityGroup
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "inActivityGroup";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#inActivityGroup>;
 	dcterms:description "(wf:inActivityGroup wf:Activity wf:Group/wf:Lane) means that the wf:Activity is included in the wf:Group/wf:Lane.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

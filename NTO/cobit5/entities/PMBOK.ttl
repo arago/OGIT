@@ -10,7 +10,6 @@ ogit.COBIT5:PMBOK
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "A Guide to the Project Management Body of Knowledge";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PMBOK>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PMBOK.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

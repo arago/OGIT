@@ -10,7 +10,6 @@ ogit.COBIT5:APO04.05.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice APO04.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO04.05.A2>;
 	dcterms:description "Communicate viable innovation opportunities into the IT strategy and enterprise architecture processes. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO04.05.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:BAI05.04.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice BAI05.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI05.04.A5>;
 	dcterms:description "Identify, prioritise and deliver opportunities for quick wins. These could be related to current known areas of difficulty or external factors that need to be addressed urgently. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI05.04.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -11,7 +11,6 @@ ogit.ITIL:Customer
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Customer";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Customer>;
 	dcterms:description "An itil:Customer is someone who buys goods or services. The itil:Customer of an itil:ITServiceProvider is the person or group that defines and agrees the itil:ServiceLevelTarget(s).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

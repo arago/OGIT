@@ -10,7 +10,6 @@ ogit.COBIT5:APO02.06
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Communicate the IT strategy and direction";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO02.06>;
 	dcterms:description "Create awareness and understanding of the business and IT objectives and direction, as captured in the IT strategy, through communication to appropriate stakeholders and users throughout the enterprise. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO02.06.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

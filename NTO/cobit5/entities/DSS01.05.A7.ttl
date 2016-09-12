@@ -10,7 +10,6 @@ ogit.COBIT5:DSS01.05.A7
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 7 for Management Practice DSS01.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS01.05.A7>;
 	dcterms:description "Ensure that IT sites and facilities are in ongoing compliance with relevant health and safety laws, regulations, guidelines, and vendor specifications. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS01.05.A7.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

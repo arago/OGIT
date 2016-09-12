@@ -10,7 +10,6 @@ ogit.COBIT5:EDM02.02.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice EDM02.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM02.02.A5>;
 	dcterms:description "Define and communicate enterprise-level value delivery goals and outcome measures to enable effective monitoring. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM02.02.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

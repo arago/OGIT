@@ -10,7 +10,6 @@ ogit.COBIT5:MEA03.02.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice MEA03.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA03.02.A1>;
 	dcterms:description "Regularly review and adjust policies, principles, standards, procedures and methodologies for their effectiveness in ensuring necessary compliance and addressing enterprise risk using internal and external experts, as required. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA03.02.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

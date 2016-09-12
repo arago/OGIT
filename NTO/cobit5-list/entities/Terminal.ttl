@@ -10,7 +10,6 @@ ogit.l:Terminal
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Terminal";
-	ogit:original <http://wwwvs.cs.hs-rm.de/List#Terminal>;
 	dcterms:description "";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

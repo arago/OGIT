@@ -10,7 +10,6 @@ ogit.COBIT5:BAI05.04.A6
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 6 for Management Practice BAI05.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI05.04.A6>;
 	dcterms:description "Leverage delivered quick wins by communicating the benefits to those impacted to show the vision is on track. Fine-tune the vision, keep leaders on board and build momentum. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI05.04.A6.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

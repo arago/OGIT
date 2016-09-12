@@ -10,7 +10,6 @@ ogit.COBIT5:MEA01.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Set performance and conformance targets.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA01.02>;
 	dcterms:description "Work with stakeholders to define, periodically review, update and approve performance and conformance targets within the performance measurement system. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA01.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

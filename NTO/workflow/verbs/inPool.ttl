@@ -10,7 +10,6 @@ ogit.WF:inPool
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "inPool";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#inPool>;
 	dcterms:description "(wf:inPool wf:Lane wf:Pool) means that the wf:Lane is part of the wf:Pool.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

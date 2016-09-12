@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.01.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI01.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.01.A1>;
 	dcterms:description "Maintain and enforce a standard approach to programme and project management aligned to the enterprise's specific environment and with good practice based on defined process and use of appropriate technology. Ensure that the approach covers the full life cycle and disciplines to be followed, including the management of scope, resources, risk, cost, quality, time, communication, stakeholder involvement, procurement, change control, integration and benefit realisation. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.01.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

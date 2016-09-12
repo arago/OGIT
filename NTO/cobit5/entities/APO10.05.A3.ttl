@@ -10,7 +10,6 @@ ogit.COBIT5:APO10.05.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice APO10.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO10.05.A3>;
 	dcterms:description "Review supplier performance and value for money to ensure that they are reliable and competitive, compared with alternative suppliers and market conditions. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO10.05.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

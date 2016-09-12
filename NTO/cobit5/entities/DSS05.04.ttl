@@ -10,7 +10,6 @@ ogit.COBIT5:DSS05.04
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage user identity and logical access.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS05.04>;
 	dcterms:description "Ensure that all users have information access rights in accordance with their business requirements and co-ordinate with business units that manage their own access rights within business processes. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS05.04.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

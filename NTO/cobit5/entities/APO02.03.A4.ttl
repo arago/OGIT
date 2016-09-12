@@ -10,7 +10,6 @@ ogit.COBIT5:APO02.03.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice APO02.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO02.03.A4>;
 	dcterms:description "Define required and desired business process and IT capabilities and IT services and describe the high-level changes in the enterprise architecture (business, information, data, applications and technology domains), business and IT processes and procedures, the IT organisation structure, IT service providers, governance of IT, and IT skills and competencies. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO02.03.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

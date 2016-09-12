@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.10.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice BAI03.10";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.10.A3>;
 	dcterms:description "In the event of major changes to existing solutions that result in significant change in current designs and/or functionality and/or business processes, follow the development process used for new systems. For maintenance updates, use the change management process. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.10.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

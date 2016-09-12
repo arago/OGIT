@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.10
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Maintain solutions.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.10>;
 	dcterms:description "Develop and execute a plan for the maintenance of solution and infrastructure components. Include periodic reviews against business needs and operational requirements. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.10.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

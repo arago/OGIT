@@ -11,7 +11,6 @@ ogit.ITIL:factorValue
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "factorValue";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#factorValue>;
 	dcterms:description "(itil:factorValue itil:CSFRelation itil:CSF) means that the itil:CSFRelation represents the itil:CSF.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

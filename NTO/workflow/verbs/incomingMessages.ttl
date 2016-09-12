@@ -10,7 +10,6 @@ ogit.WF:incomingMessages
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "incomingMessages";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#incomingMessages>;
 	dcterms:description "(wf:incomingMessages wf:MessageVertex wf:MessagingEdge) means that the wf:MessageVertex is the target of the wf:MessagingEdge.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

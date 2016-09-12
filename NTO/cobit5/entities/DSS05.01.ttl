@@ -10,7 +10,6 @@ ogit.COBIT5:DSS05.01
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Protect against malware.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS05.01>;
 	dcterms:description "Implement and maintain preventive, detective and corrective measures in place (especially up-to-date security patches and virus control) across the enterprise to protect information systems and technology from malware (e.g., viruses, worms, spyware, spam). This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS05.01.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

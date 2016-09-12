@@ -10,7 +10,6 @@ ogit.COBIT5:BAI10.05
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Verify and review integrity of the configuration repository.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI10.05>;
 	dcterms:description "Periodically review the configuration repository and verify completeness and correctness against the desired target. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI10.05.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

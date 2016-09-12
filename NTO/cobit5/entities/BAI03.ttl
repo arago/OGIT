@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage Solutions Identification and Build";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03>;
 	dcterms:description "Establish and maintain identified solutions in line with enterprise requirements covering design, development, procurement/sourcing and partnering with supplier/vendors. Manage configuration, test preparation, testing, requirement and maintenance of business processes, applications, information/data, infrastructure and services. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:BAI09.03.A8
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 8 for Management Practice BAI09.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI09.03.A8>;
 	dcterms:description "Dispose of assets securely, considering, e.g., the permanent deletion of any recorded data on media devices and potential damage to the environment. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI09.03.A8.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

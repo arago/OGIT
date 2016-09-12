@@ -10,7 +10,6 @@ ogit.COBIT5:BAI05.01.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI05.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI05.01.A1>;
 	dcterms:description "Assess the scope and impact of the envisioned change, the various stakeholders who are affected, the nature of the impact on and involvement required from each stakeholder group, and the current readiness and ability to adopt the change. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI05.01.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

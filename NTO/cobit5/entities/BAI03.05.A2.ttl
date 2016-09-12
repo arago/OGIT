@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.05.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI03.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.05.A2>;
 	dcterms:description "Complete and update business process and operational manuals, where necessary, to account for any customisation or special conditions unique to the implementation. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.05.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

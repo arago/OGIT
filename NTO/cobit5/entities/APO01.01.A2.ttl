@@ -10,7 +10,6 @@ ogit.COBIT5:APO01.01.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice APO01.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO01.01.A2>;
 	dcterms:description "Identify decisions required for the achievement of enterprise outcomes and the IT strategy, and for the management and execution of IT services. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO01.01.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

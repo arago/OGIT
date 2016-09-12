@@ -10,7 +10,6 @@ ogit.COBIT5:BAI08.03.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice BAI08.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI08.03.A3>;
 	dcterms:description "Devise and implement a scheme to manage unstructured knowledge not available through formal sources (e.g., expert knowledge). This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI08.03.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

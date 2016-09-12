@@ -10,7 +10,6 @@ ogit.COBIT5:BAI09.02.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI09.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI09.02.A1>;
 	dcterms:description "Identify assets that are critical in providing service capability by referencing requirements in service definitions, SLAs and the configuration management system. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI09.02.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

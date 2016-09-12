@@ -10,7 +10,6 @@ ogit.COBIT5:BAI05.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Form an effective implementation team.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI05.02>;
 	dcterms:description "Establish an effective implementation team by assembling appropriate members, creating trust, and establishing common goals and effectiveness measures. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI05.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

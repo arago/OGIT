@@ -11,7 +11,6 @@ ogit.ITIL:processScope
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "processScope";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#processScope>;
 	dcterms:description "The characther string assigned to represent the scope of a specific itil:Process. The itil:processScope is the boundary, or extent, to which an itil:Process, applies.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

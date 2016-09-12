@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.07.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI07.07";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.07.A1>;
 	dcterms:description "Provide additional resources, as required, to end users and support personnel until the release has stabilised. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.07.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

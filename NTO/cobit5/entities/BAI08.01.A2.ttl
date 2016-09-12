@@ -10,7 +10,6 @@ ogit.COBIT5:BAI08.01.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI08.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI08.01.A2>;
 	dcterms:description "Encourage the sharing and transfer of knowledge by identifying and leveraging motivational factors. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI08.01.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

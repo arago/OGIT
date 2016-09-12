@@ -10,7 +10,6 @@ ogit.COBIT5:enterpriseGoalHasPrimaryGovernanceObjective
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "has primary governance objective";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#enterpriseGoalHasPrimaryGovernanceObjective>;
 	dcterms:description "";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

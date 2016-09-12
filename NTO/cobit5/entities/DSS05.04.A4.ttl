@@ -10,7 +10,6 @@ ogit.COBIT5:DSS05.04.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice DSS05.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS05.04.A4>;
 	dcterms:description "Administer all changes to access rights (creation, modifications and deletions) to take effect at the appropriate time based only on approved and documented transactions authorised by designated management individuals. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS05.04.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

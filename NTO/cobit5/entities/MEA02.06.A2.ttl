@@ -10,7 +10,6 @@ ogit.COBIT5:MEA02.06.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice MEA02.06";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA02.06.A2>;
 	dcterms:description "Perform a high-level risk assessment and/or assessment of process capability to diagnose risk and identify critical IT processes. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA02.06.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

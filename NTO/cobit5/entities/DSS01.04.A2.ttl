@@ -10,7 +10,6 @@ ogit.COBIT5:DSS01.04.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice DSS01.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS01.04.A2>;
 	dcterms:description "Identify how IT equipment, including mobile and off-site equipment, is protected against environmental threats. Ensure that the policy limits or excludes eating, drinking and smoking in sensitive areas, and prohibits storage of stationery and other supplies posing a fire hazard within computer rooms. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS01.04.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

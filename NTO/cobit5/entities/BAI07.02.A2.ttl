@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.02.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI07.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.02.A2>;
 	dcterms:description "Consider all necessary adjustments to procedures, including revised roles and responsibilities and control procedures, in the business process conversion plan. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.02.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

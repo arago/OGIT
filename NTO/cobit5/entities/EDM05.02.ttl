@@ -10,7 +10,6 @@ ogit.COBIT5:EDM05.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Direct stakeholder communication and reporting.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM05.02>;
 	dcterms:description "Ensure the establishment of effective stakeholder communication and reporting, including mechanisms for ensuring the quality and completeness of information, oversight of mandatory reporting, and creating a communication strategy for stakeholders. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM05.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

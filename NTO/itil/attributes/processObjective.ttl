@@ -11,7 +11,6 @@ ogit.ITIL:processObjective
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "processObjective";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#processObjective>;
 	dcterms:description "The characther string assigned to represent the objectives of a specific itil:Process. The itil:processObjective is the defined purpose or aim of an itil:Process, an itil:Activity or an oc:Organisation as a whole. The itil:processObjective(s) are usually expressed as measurable targets.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

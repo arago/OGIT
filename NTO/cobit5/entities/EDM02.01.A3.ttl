@@ -10,7 +10,6 @@ ogit.COBIT5:EDM02.01.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice EDM02.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM02.01.A3>;
 	dcterms:description "Understand and regularly discuss the opportunities that could arise from enterprise change enabled by current, new or emerging technologies, and optimise the value created from those opportunities. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM02.01.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

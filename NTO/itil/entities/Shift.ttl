@@ -11,7 +11,6 @@ ogit.ITIL:Shift
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Shift";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Shift>;
 	dcterms:description "An itil:Shift is a group or team of people who carry out a specific role for a fixed period of time. For example there could be four itil:Shift(s) of IT operations control personnel to support an IT service that is used 24 hours a day.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

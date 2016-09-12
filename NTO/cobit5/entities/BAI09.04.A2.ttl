@@ -10,7 +10,6 @@ ogit.COBIT5:BAI09.04.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice BAI09.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI09.04.A2>;
 	dcterms:description "Assess maintenance costs, consider reasonableness, and identify lower-cost options, including, where necessary, replacement with new alternatives. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI09.04.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

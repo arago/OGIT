@@ -10,7 +10,6 @@ ogit.COBIT5:ITGM1.2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Level of stakeholder satisfaction with scope of the planned portfolio of programmes and services";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#ITGM1.2>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#ITGM1.2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

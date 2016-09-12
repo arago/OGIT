@@ -10,7 +10,6 @@ ogit.COBIT5:BenefitsRealisation
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Benefits Realisation";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BenefitsRealisation>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BenefitsRealisation.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

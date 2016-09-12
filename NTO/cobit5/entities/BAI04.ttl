@@ -10,7 +10,6 @@ ogit.COBIT5:BAI04
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage Availability and Capacity";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI04>;
 	dcterms:description "Balance current and future needs for availability, performance and capacity with cost-effective service provision. Include assessment of current capabilities, forecasting of future needs based on business requirements, analysis of business impacts, and assessment of risk to plan and implement actions to meet the identified requirements. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI04.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

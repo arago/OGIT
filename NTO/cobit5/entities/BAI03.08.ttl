@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.08
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Execute solution testing.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.08>;
 	dcterms:description "Execute testing continually during development, including control testing, in accordance with the defined test plan and development practices in the appropriate environment. Engage business process owners and end users in the test team. Identify, log and prioritise errors and issues identified during testing. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.08.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

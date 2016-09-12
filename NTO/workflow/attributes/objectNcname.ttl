@@ -10,7 +10,6 @@ ogit.WF:objectNcname
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "objectNcname";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#objectNcname>;
 	dcterms:description "The character string assigned that represents the nickname of a specific wf:NamedBpmnObject.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

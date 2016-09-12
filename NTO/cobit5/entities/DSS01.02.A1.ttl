@@ -10,7 +10,6 @@ ogit.COBIT5:DSS01.02.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice DSS01.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS01.02.A1>;
 	dcterms:description "Ensure that the enterprise's requirements for security of information processes are adhered to in accordance with contracts and SLAs with third parties hosting or providing services. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS01.02.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

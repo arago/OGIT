@@ -10,7 +10,6 @@ ogit.COBIT5:DSS06.03.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice DSS06.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS06.03.A5>;
 	dcterms:description "Provide awareness and training regarding roles and responsibilities on a regular basis so that everyone understands their responsibilities; the importance of controls; and the integrity, confidentiality and privacy of company information in all its forms. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS06.03.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

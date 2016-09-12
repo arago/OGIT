@@ -10,7 +10,6 @@ ogit.COBIT5:EG17
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Product and business innovation culture";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EG17>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EG17.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

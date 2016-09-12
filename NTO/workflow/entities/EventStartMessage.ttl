@@ -10,7 +10,6 @@ ogit.WF:EventStartMessage
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "EventStartMessage";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#EventStartMessage>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/workflow#EventStartMessage.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

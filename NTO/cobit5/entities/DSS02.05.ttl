@@ -10,7 +10,6 @@ ogit.COBIT5:DSS02.05
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Resolve and recover from incidents.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS02.05>;
 	dcterms:description "Document, apply and test the identified solutions or workarounds and perform recovery actions to restore the IT-related service. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS02.05.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

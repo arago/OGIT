@@ -10,7 +10,6 @@ ogit.COBIT5:PGAPO05.5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Investment programme changes are reflected in the relevant IT service, asset and resource portfolios.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGAPO05.5>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGAPO05.5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:APO04.04
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Assess the potential of emerging technologies and innovation ideas.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO04.04>;
 	dcterms:description "Analyse identified emerging technologies and/or other IT innovation suggestions. Work with stakeholders to validate assumptions on the potential of new technologies and innovation. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO04.04.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

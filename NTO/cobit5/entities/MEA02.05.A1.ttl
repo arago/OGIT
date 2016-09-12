@@ -10,7 +10,6 @@ ogit.COBIT5:MEA02.05.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice MEA02.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA02.05.A1>;
 	dcterms:description "Establish adherence to applicable codes of ethics and standards (e.g., Code of Professional Ethics of ISACA) and (industry- and geography-specific) assurance standards, e.g., IT Audit and Assurance Standards of ISACA and the international Auditing and Assurance Standards Boards's (IAASB's) International Framework for Assurance Engagements (IAASB Assurance Framework). This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA02.05.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

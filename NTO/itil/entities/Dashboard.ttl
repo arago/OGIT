@@ -11,7 +11,6 @@ ogit.ITIL:Dashboard
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Dashboard";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Dashboard>;
 	dcterms:description "An itil:Dashboard is a graphical representation of overall IT service performance and availability. The itil:Dashboard images may be updated in real-time, and can also be included in management reports and Web pages. Therefore, itil:Dashboard(s) can be considered as key itil:Metric(s) that are represented on a report or graphical interface that indicates the success, at risk or failure of a business activity. They are used to quickly asses the state of operation and take timely actions to correct operational deficiencies. The itil:CSF(s) are used to determine itil:Dashboard measures, i.e., itil:Dashboard results are derived from itil:CSF results. The itil:Dashboard(s) can be used to support service level management, event management or incident diagnosis.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

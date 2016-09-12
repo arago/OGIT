@@ -11,7 +11,6 @@ ogit.ITIL:ChangeManagement
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Change Management ";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ChangeManagement>;
 	dcterms:description "The itil:ChangeManagement is the process responsible for controlling the lifecycle of all changes. The primary objective of itil:ChangeManagement is to enable beneficial changes to be made, with minimum disruption to IT services. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#ChangeManagement.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

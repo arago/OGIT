@@ -10,7 +10,6 @@ ogit.COBIT5:APO05.03.A6
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 6 for Management Practice APO05.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO05.03.A6>;
 	dcterms:description "Establish procedures to communicate the cost, benefit and risk-related aspects of these portfolios to the budget prioritisation, cost management and benefit management processes. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO05.03.A6.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

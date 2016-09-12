@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.05.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice BAI01.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.05.A3>;
 	dcterms:description "Undertake a benefits realisation process throughout the programme to ensure that planned benefits always have owners and are likely to be achieved, sustained and optimised. Monitor benefits delivery and report against performance targets at the stage-gate or iteration and release reviews. Perform root cause analysis for deviations from the plan and identify and address any necessary remedial actions. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.05.A3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

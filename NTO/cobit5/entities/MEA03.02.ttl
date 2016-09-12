@@ -10,7 +10,6 @@ ogit.COBIT5:MEA03.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Optimise response to external requirements.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA03.02>;
 	dcterms:description "Review and adjust policies, principles, standards, procedures and methodologies to ensure that legal, regulatory and contractual requirements are addressed and communicated. Consider industry standards, codes of good practice, and best practice guidance for adoption and adaptation. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA03.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

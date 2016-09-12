@@ -10,7 +10,6 @@ ogit.CYC:ServiceProduct
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Service product";
-	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#ServiceProduct>;
 	dcterms:description "An oc:ServiceProduct is the collection of all oc:ServiceEvent(s) for which payment is made.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

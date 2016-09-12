@@ -10,7 +10,6 @@ ogit.COBIT5:BAI09.05.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice BAI09.05";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI09.05.A5>;
 	dcterms:description "When instances are higher than the number owned, consider first the opportunity to uninstall instances that are no longer required or justified, and then, if necessary, purchase additional licences to comply with the licence agreement. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI09.05.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

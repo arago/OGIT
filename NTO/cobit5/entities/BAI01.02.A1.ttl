@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.02.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI01.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.02.A1>;
 	dcterms:description "Agree on programme sponsorship and appoint a programme board/committee with members who have strategic interest in the programme, have responsibility for the investment decision making, will be significantly impacted by the programme and will be required to enable delivery of the change. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.02.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

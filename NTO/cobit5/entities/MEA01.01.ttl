@@ -10,7 +10,6 @@ ogit.COBIT5:MEA01.01
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Establish a monitoring approach.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA01.01>;
 	dcterms:description "Engage with stakeholders to establish and maintain a monitoring approach to define the objectives, scope and method for measuring business solution and service delivery and contribution to enterprise objectives. Integrate this approach with the corporate performance management system. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA01.01.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

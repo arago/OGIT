@@ -10,7 +10,6 @@ ogit.COBIT5:APO01.03.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice APO01.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO01.03.A2>;
 	dcterms:description "Consider the enterprise's internal environment, including management culture and philosophy, risk tolerance, security, ethical values, code of conduct, accountability, and requirements for management integrity. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO01.03.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

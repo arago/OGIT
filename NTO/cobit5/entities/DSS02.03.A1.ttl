@@ -10,7 +10,6 @@ ogit.COBIT5:DSS02.03.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice DSS02.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS02.03.A1>;
 	dcterms:description "Verify entitlement for service requests using, where possible, a predefined process flow and standard changes. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS02.03.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

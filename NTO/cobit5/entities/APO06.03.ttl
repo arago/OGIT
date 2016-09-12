@@ -10,7 +10,6 @@ ogit.COBIT5:APO06.03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Create and maintain budgets.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO06.03>;
 	dcterms:description "Prepare a budget reflecting the investment priorities supporting strategic objectives based on the portfolio of IT-enabled programmes and IT services. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO06.03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

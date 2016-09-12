@@ -10,7 +10,6 @@ ogit.COBIT5:BAI04.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Assess business impact.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI04.02>;
 	dcterms:description "Identify important services to the enterprise, map services and resources to business processes, and identify business dependencies. Ensure that the impact of unavailable resources is fully agreed on and accepted by the customer. Ensure that, for vital business functions, the SLA availability requirements can be satisfied. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI04.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

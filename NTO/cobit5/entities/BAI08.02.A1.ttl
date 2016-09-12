@@ -10,7 +10,6 @@ ogit.COBIT5:BAI08.02.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI08.02";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI08.02.A1>;
 	dcterms:description "Identify potential knowledge users, including owners of information who may need to contribute and approve knowledge. Obtain knowledge requirements and sources of information from identified users. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI08.02.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

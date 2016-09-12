@@ -10,7 +10,6 @@ ogit.COBIT5:APO12.01.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice APO12.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO12.01.A5>;
 	dcterms:description "For similar classes of events, organise the collected data and highlight contributing factors. Determine common contributing factors across multiple events. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO12.01.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:DSS03.01.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice DSS03.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS03.01.A5>;
 	dcterms:description "Report the status of identified problems to the service desk so customers and IT management can be kept informed. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS03.01.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

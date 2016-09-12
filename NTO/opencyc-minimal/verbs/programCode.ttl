@@ -10,7 +10,6 @@ ogit.CYC:programCode
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "programCode";
-	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#programCode>;
 	dcterms:description "(oc:programCode oc:ComputerProgram-CW oc:ComputerCode) means that the code oc:ComputerCode is source or executable code for the program oc:ComputerProgram-CW.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

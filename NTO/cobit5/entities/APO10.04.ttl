@@ -10,7 +10,6 @@ ogit.COBIT5:APO10.04
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage supplier relationships and contracts.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO10.04>;
 	dcterms:description "Identify and manage risk relating to suppliers' ability to continually provide secure, efficient and effective service delivery. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO10.04.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

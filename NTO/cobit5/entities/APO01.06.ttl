@@ -10,7 +10,6 @@ ogit.COBIT5:APO01.06
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Define information (data) and system ownership";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO01.06>;
 	dcterms:description "Define and maintain responsibilities for ownership of information (data) and information systems. Ensure that owners make decisions about classifying information and systems and protecting them in line with this classification. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO01.06.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

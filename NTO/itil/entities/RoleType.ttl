@@ -11,7 +11,6 @@ ogit.ITIL:RoleType
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Role Type";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#RoleType>;
 	dcterms:description "The specific value that represents the type of role of a specific oc:IntelligentAgent. Roles and responsibilities are defined within organizations for people. The key to effective ITSM is ensuring that there is clear accountability and roles defined to carry out the practice of Service Operation. A role is a set of responsibilities, activities and authorities granted to a person or team. A role is defined in a process. One person or team may have multiple Roles, for example the roles of configuration manager and change manager may be carried out by a single person. The size of an organization, how it is structured, the existence of external partners and other factors will influence how roles are assigned. Whether a particular role is filled by a single individual or shared between two or more, the importance is the consistency of accountability and execution, along with the interaction with other roles in the organization.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

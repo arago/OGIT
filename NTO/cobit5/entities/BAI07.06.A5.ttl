@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.06.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice BAI07.06";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.06.A5>;
 	dcterms:description "Where distribution of solution components is conducted electronically, control automated distribution to ensure that users are notified and distribution occurs only to authorised and correctly identified destinations. Include in the release process backout procedures to enable the distribution of changes to be reviewed in the event of a malfunction or error. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.06.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

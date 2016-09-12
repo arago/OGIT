@@ -11,7 +11,6 @@ ogit.ITIL:incidentResolution
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "incidentResolution";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#incidentResolution>;
 	dcterms:description "The character string assigned to describe the resolution of a specific itil:Incident.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

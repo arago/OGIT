@@ -11,7 +11,6 @@ ogit.ITIL:internalService
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "internalService";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#internalService>;
 	dcterms:description "The specific value that represents whether an itil:ITService is an internal service of the IT service provider.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

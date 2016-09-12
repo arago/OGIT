@@ -10,7 +10,6 @@ ogit.COBIT5:Board
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Board";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#Board>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#Board.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

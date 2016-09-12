@@ -10,7 +10,6 @@ ogit.COBIT5:PGBAI02.4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Requirements and proposed solutions meet business case objectives (value expected and likely costs).";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#PGBAI02.4>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#PGBAI02.4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

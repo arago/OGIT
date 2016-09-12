@@ -10,7 +10,6 @@ ogit.COBIT5:MEA03.04
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Obtain assurance of external compliance.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA03.04>;
 	dcterms:description "Obtain and report assurance of compliance and adherence with policies, principles, standards, procedures and methodologies. Confirm that corrective actions to address compliance gaps are closed in a timely manner. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA03.04.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

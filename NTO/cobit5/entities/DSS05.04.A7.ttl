@@ -10,7 +10,6 @@ ogit.COBIT5:DSS05.04.A7
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 7 for Management Practice DSS05.04";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS05.04.A7>;
 	dcterms:description "Ensure that all users (internal, external and temporary) and their activity on IT systems (business application, IT infrastructure, system operations, development and maintenance) are uniquely identifiable. Uniquely identify all information processing activities by user. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS05.04.A7.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

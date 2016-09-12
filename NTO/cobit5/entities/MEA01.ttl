@@ -10,7 +10,6 @@ ogit.COBIT5:MEA01
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Monitor, Evaluate and Assess Performance and Conformance";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA01>;
 	dcterms:description "Collect, validate and evaluate business, IT and process goals and metrics. Monitor that processes are performing against agreed-on performance and conformance goals and metrics and provide reporting that is systematic and timely. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA01.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

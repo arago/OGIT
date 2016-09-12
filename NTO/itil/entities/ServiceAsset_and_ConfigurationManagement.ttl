@@ -11,7 +11,6 @@ ogit.ITIL:ServiceAsset_and_ConfigurationManagement
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Service Asset and Configuration Management";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServiceAsset_and_ConfigurationManagement>;
 	dcterms:description "The itil:ServiceAsset_and_ConfigurationManagement is the process responsible for both configuration management and asset management. The asset management process is responsible for tracking and reporting the value and ownership of financial assets throughout their lifecycle. The configuration management process is the responsible for maintaining information about CIs required to deliver an IT Service, including their Relationships. This information is managed throughout the Lifecycle of the CI. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#ServiceAsset_and_ConfigurationManagement.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

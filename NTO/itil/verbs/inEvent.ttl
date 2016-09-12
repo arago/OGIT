@@ -11,7 +11,6 @@ ogit.ITIL:inEvent
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "inEvent";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#inEvent>;
 	dcterms:description "(itil:inEvent oc:Event1 oc:Event2) means that oc:Event1 is a part, or subevent, of oc:Event2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

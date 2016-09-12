@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.01.A.N3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "BAI03.01.A.N3";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.01.A.N3>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.01.A.N3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:BAI09.03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage the asset life cycle.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI09.03>;
 	dcterms:description "Manage assets from procurement to disposal to ensure that assets are utilised as effectively and efficiently as possible and are accounted for and physically protected. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI09.03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

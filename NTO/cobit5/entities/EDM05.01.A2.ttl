@@ -10,7 +10,6 @@ ogit.COBIT5:EDM05.01.A2
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 2 for Management Practice EDM05.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EDM05.01.A2>;
 	dcterms:description "Examine and make a judgement on the current and future reporting requirements for other stakeholders relating to the use of IT within the enterprise, including extent and conditions. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EDM05.01.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

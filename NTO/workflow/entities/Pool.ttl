@@ -10,7 +10,6 @@ ogit.WF:Pool
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Pool";
-	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#Pool>;
 	dcterms:description "A wf:Pool is the graphical representation of a participant in a collaboration. A participant represents a specific partner entity (e.g., a company) and/or a more general partner role (e.g., a buyer, seller, or manufacturer) that are participants in a collaboration.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

@@ -10,7 +10,6 @@ ogit.COBIT5:APO09.03.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice APO09.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO09.03.A1>;
 	dcterms:description "Analyse requirements for new or changed service agreements received from business relationship management to ensure that the requirements can be matched. Consider aspects such as service times, availability, performance, capacity, security, continuity, compliance and regulatory issues, usability, and demand constraints. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO09.03.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

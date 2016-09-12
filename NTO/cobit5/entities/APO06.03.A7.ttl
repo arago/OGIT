@@ -10,7 +10,6 @@ ogit.COBIT5:APO06.03.A7
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 7 for Management Practice APO06.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO06.03.A7>;
 	dcterms:description "Monitor the effectiveness of the different aspects of budgeting and use the results to implement improvements to ensure that future budgets are more accurate, reliable and cost-effective. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO06.03.A7.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

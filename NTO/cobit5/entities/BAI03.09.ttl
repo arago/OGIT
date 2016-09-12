@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.09
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage changes to requirements.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.09>;
 	dcterms:description "Track the status of individual requirements (including all rejected requirements) throughout the project life cycle and manage the approval of changes to requirements. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.09.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

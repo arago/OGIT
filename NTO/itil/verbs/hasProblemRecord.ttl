@@ -11,7 +11,6 @@ ogit.ITIL:hasProblemRecord
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasProblemRecord";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasProblemRecord>;
 	dcterms:description "(itil:hasProblemRecord itil:Problem itil:ProblemRecord) means that the itil:ProblemRecord contains the details of the itil:Problem.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

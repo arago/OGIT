@@ -10,7 +10,6 @@ ogit.COBIT5:EGM11.3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Satisfaction levels of board and executives with business process capabilities";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#EGM11.3>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#EGM11.3.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

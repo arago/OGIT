@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.02
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Initiate a programme.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.02>;
 	dcterms:description "Initiate a programme to confirm the expected benefits and obtain authorisation to proceed. This includes agreeing on programme sponsorship, confirming the programme mandate through approval of the conceptual business case, appointing programme board or committee members, producing the programme brief, reviewing and updating the business case, developing a benefits realisation plan, and obtaining approval from sponsors to proceed. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.02.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

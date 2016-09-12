@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.08.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice BAI03.08";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.08.A4>;
 	dcterms:description "Identify, log and classify (e.g., minor, significant and mission-critical) errors during testing. Repeat tests until all significant errors have been resolved. Ensure that an audit trail of test results is maintained. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.08.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

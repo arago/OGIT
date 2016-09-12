@@ -10,7 +10,6 @@ ogit.COBIT5:BAI01.11.A9
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 9 for Management Practice BAI01.11";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI01.11.A9>;
 	dcterms:description "Assess the project at agreed-on major stage-gates, releases or iterations and make formal go/no-go decisions based on predetermined critical success criteria. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI01.11.A9.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

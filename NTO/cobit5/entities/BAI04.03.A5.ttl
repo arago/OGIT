@@ -10,7 +10,6 @@ ogit.COBIT5:BAI04.03.A5
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 5 for Management Practice BAI04.03";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI04.03.A5>;
 	dcterms:description "Ensure that management performs comparisons of actual demand on resources with forecasted supply and demand to evaluate current forecasting techniques and make improvements where possible. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI04.03.A5.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

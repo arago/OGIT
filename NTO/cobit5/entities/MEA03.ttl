@@ -10,7 +10,6 @@ ogit.COBIT5:MEA03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Monitor, Evaluate and Assess Compliance With External Requirements";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#MEA03>;
 	dcterms:description "Evaluate that IT processes and IT-supported business processes are compliant with laws, regulations and contractual requirements. Obtain assurance that the requirements have been identified and complied with, and integrate IT compliance with overall enterprise compliance. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#MEA03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

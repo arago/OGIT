@@ -10,7 +10,6 @@ ogit.COBIT5:BAI07.05
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Perform acceptance tests.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI07.05>;
 	dcterms:description "Test changes independently in accordance with the defined test plan prior to migration to the live operational environment. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI07.05.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

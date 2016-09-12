@@ -10,7 +10,6 @@ ogit.COBIT5:APO02.01.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice APO02.01";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO02.01.A1>;
 	dcterms:description "Develop and maintain an understanding of enterprise strategy and objectives, as well as the current enterprise operational environment and challenges. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO02.01.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

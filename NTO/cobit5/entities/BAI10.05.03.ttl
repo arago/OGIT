@@ -10,7 +10,6 @@ ogit.COBIT5:BAI10.05.03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Results of repository completeness reviews";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI10.05.03>;
 	dcterms:description "This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI10.05.03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

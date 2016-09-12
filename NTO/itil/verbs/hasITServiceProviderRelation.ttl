@@ -11,7 +11,6 @@ ogit.ITIL:hasITServiceProviderRelation
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasITServiceProviderRelation";
-	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasITServiceProviderRelation>;
 	dcterms:description "(itil:hasITServiceProviderRelation itil:SLA itil:ITServiceProviderRelation) means that the itil:SLA has the itil:ITServiceProviderRelation, used to specify the responsibilities of the itil:ITServiceProvider in a specific itil:SLA.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

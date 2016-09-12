@@ -10,7 +10,6 @@ ogit.COBIT5:BAI05.06
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Embed new approaches.";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI05.06>;
 	dcterms:description "Embed the new approaches by tracking implemented changes, assessing the effectiveness of the operation and use plan, and sustaining ongoing awareness through regular communication. Take corrective measures as appropriate, which may include enforcing compliance. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI05.06.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

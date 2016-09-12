@@ -10,7 +10,6 @@ ogit.COBIT5:BAI03.10.A4
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 4 for Management Practice BAI03.10";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI03.10.A4>;
 	dcterms:description "Ensure that the pattern and volume of maintenance activities are analysed periodically for abnormal trends indicating underlying quality or performance problems, cost/benefit of major upgrade, or replacement in lieu of maintenance. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI03.10.A4.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";

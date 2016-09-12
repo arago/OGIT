@@ -10,7 +10,6 @@ ogit.COBIT5:APO12.06.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice APO12.06";
-	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO12.06.A1>;
 	dcterms:description "Prepare, maintain and test plans that document the specific steps to take when a risk event may cause a significant operational or development incident with serious business impact. Ensure that plans include pathways of escalation across the enterprise. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO12.06.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-17;";
