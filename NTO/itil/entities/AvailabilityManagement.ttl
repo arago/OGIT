@@ -1,0 +1,42 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:AvailabilityManagement
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Availability Management";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#AvailabilityManagement>;
+	dcterms:description "The itil:AvailabilityManagement is the process responsible for defining, analyzing, planning, measuring and improving all aspects of the availability of IT services. itil:AvailabilityManagement is responsible for ensuring that all IT infrastructure, processes, tools, roles etc. are appropriate for the agreed service level targets for availability. The purpose of itil:AvailabilityManagement is to provide a point of focus and management for all availability-related issues, relating to both services and resources, ensuring that availability targets in all areas are measured and achieved.  The itil:AvailabilityManagement process does not include Business Continuity Management (BCM) and the resumption of business processing after a major disaster. The support of BCM is included within the itil:ITServiceContinuityManagement process. However, itil:AvailabilityManagement does provide key inputs to itil:ITServiceContinuityManagement, and the two processes have a close relationship, particularly in the assessment and management of risks and in the implementation of risk reduction and resilience measures. The itil:AvailabilityManagement process has two key elements:  (1) Reactive activities: the reactive aspect of itil:AvailabilityManagement involves the monitoring, measuring, analysis and management of all events, incidents and problems involving unavailability. These activities are principally involved within operational roles. (2) Proactive activities: the proactive activities of itil:AvailabilityManagement involve the proactive planning, design and improvement of availability. These activities are principally involved within design and planning roles. The itil:AvailabilityManagement process relies on the monitoring, measurement, analysis and reporting of the following aspects: * Availability: the ability of a service, component or CI to perform its agreed function when required. It is often measured and reported as a percentage:  Availability(%) = (Agreed Service Time(AST) - dowtime) / Agreed Service Time(AST)   Downtime should only be included in the above calculation when it occurs within the Agreed Service Time (AST). However, total downtime should also be recorded and reported. * Reliability: a measure of how long a service, component or CI can perform its agreed function without interruption. The reliability of the service can be improved by increasing the reliability of individual components or by increasing the resilience of the service to individual component failure (i.e. increasing the component redundancy, for example, by using load-balancing techniques). It is often measured and reported as Mean Time Between Service Incidents (MTBSI) or Mean Time Between Failures (MTBF): Reilability(MTBSI in hours) = (Availe time in hours) / (Number of breaks)Reilability(MTF in hours) = (Available time in hours - Total downtime in hours) / (Number of breaks)  * Maintainability: a measure of how quickly and effectively a service, component or CI can be restored to normal working after a failure. It is measured and reported as Mean Time to Restore Service (MTRS) and should be calculated using the following formula: MTRS should be used to avoid the ambiguity of the more common industry term Mean Time To Repair (MTTR), which in some definitions includes only repair time, but in others includes recovery time. The downtime in MTRS covers all the contributory factors that make the service, component or CI unavailable: - Time to record - Time to respond - Time to resolve - Time to physically repair or replace - Time to recover * Serviceability: the ability of a third-party supplier to meet the terms of their contract. Often this contract will include agreed levels of availability, reliability and/or maintainability for a supporting service or component. A key output from the itil:AvailabilityManagement process is the measurement and reporting of IT availability. Availability measures should be incorporated into SLAs, Operational Level Agreements (OLAs) and Underpinning Contracts (UCs). These should be reviewed regularly at service level review meetings. Measurement and reporting provide the basis for: * Monitoring the actual availability delivered versus agreed targets * Establishing measures of availability and agreeing availability targets with the business * Identifying unacceptable levels of availability that impact the business and users * Reviewing availability with the IT support organization * Continual improvement activities to optimize availability Component Failure Impact Analysis (CFIA) can be used to predict and evaluate the impact on IT service arising from component failures within the technology. The output from a CFIA can be used to identify where additional resilience should be considered to prevent or minimize the impact of component failure to the business operation and users. This is particularly important during the Service Design stage, where it is necessary to predict and evaluate the impact on IT service availability arising from component failures within the proposed IT Service Design. However, the technique can also be applied to existing services and infrastructure. The itil:AvailabilityManagement process should also maintain an Availability Management Information System (AMIS) that contains all of the measurements and information required to complete the itil:AvailabilityManagement process and provide the appropriate information to the business on the level of IT service provided. This information, covering services, components and supporting services, provides the basis for regular, ad hoc and exception availability reporting and the identification of trends within the data for the instigation of improvement activities. These activities and the information contained within the AMIS provide the basis for developing the content of the availability plan. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#AvailabilityManagement.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-20;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-20";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.
