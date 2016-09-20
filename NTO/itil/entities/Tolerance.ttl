@@ -11,12 +11,13 @@ ogit.ITIL:Tolerance
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Tolerance";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Tolerance>;
 	dcterms:description "The itil:Tolerance(s) represent the boundaries for acceptable and non-acceptable itil:KPI values (i.e., service target and warning level). They should be set by the IT service manager and agreed by IT and business senior management. These are critical, as they form the basis for when management needs to take action or make a key decision. Tolerance values are based on desired service and performance levels that the business is willing to tolerate.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:Tolerance
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

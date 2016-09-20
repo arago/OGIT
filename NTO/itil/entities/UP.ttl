@@ -11,12 +11,13 @@ ogit.ITIL:UP
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "User Profile";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#UP>;
 	dcterms:description "User Profile (UP) is a pattern of user demand for IT Services. Each itil:UP includes one or more itil:PBA. That is, itil:UP(s) are constructed using one or more predefined itil:PBA(s). Pattern matching using itil:PBA and itil:UP ensure a systematic approach to understanding and managing demand from customers. They also require customers to better understand their own business activities and view them as consumers of services and producers of demand. When they are used to communicate demand, service providers have the information necessary to sort and serve the demand with appropriately matched services, service levels, and service assets. This leads to improved value for both customers and service providers by eliminating waste and poor performance.  The itil:UP(s) are based on roles and responsibilities within organizations for people, and functions and operations for processes and applications. Business processes and applications are treated as users in many business contexts. Many processes are not actively executed or controlled by staff or personnel. Process automation allows for processes to consume services on their own. Processes and applications can have user profiles. Whether they should is a matter of judgment.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:UP
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

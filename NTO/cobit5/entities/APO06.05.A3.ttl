@@ -10,19 +10,19 @@ ogit.COBIT5:APO06.05.A3
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 3 for Management Practice APO06.05";
+	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO06.05.A3>;
 	dcterms:description """Define a method for the collection of relevant data to identify deviations for:
 -Budget control between actual and buget
 -Benefit management of:
-– Actuals vs. targets for investments for solutions; possibly expressed in terms of ROI,
-		NPV or IRR
-– The actual trend of service cost for cost optimisation of services (e.g., defined as cost per user)
-– Actual vs. budget for responsiveness and predictability improvements of solutions delivery
+- Actuals vs. targets for investments for solutions; possibly expressed in terms of ROI, NPV or IRR
+- The actual trend of service cost for cost optimisation of services (e.g., defined as cost per user)
+- Actual vs. budget for responsiveness and predictability improvements of solutions delivery
 -Costs distribution between direct and indirect (absorbed and unabsorbed) costs This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO06.05.A3.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -39,7 +39,7 @@ ogit.COBIT5:APO06.05.A3
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

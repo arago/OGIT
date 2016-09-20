@@ -10,12 +10,13 @@ ogit.CYC:subEvents
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "subEvents";
+	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#subEvents>;
 	dcterms:description "(oc:subEvents oc:Event1 oc:Event2) means that oc:Event2 is a part, or subevent, of oc:Event1. The oc:Event(s) can be decomposed into subevents temporally, spatially, and in other ways.The oc:subEvents property is the most general instance of oc:SubEventPredicate. This predicate relates a given oc:Event to the oc:Event(s) that are its parts.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -23,7 +24,7 @@ ogit.CYC:subEvents
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

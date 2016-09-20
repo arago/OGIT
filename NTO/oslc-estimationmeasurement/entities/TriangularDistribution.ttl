@@ -19,10 +19,10 @@ The low value is given by <a href=\"#low\"><code>ems:low</code></a>.
 The most likely value is given by <a href=\"#mostLikely\"><code>ems:mostLikely</code></a>.
 The high value is given by <a href=\"#high\"><code>ems:high</code></a>.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -39,7 +39,7 @@ The high value is given by <a href=\"#high\"><code>ems:high</code></a>.""";
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

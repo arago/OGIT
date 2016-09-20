@@ -10,12 +10,13 @@ ogit.CYC:Specification
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Specification";
+	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#Specification>;
 	dcterms:description "An oc:Specification is an abstract work that constitutes a description of the properties of a oc:Situation or a oc:SomethingExisting, and sometimes even entire collections of such things. Things are made, bought, and searched for according to specifications, which can be instantiated as printed instructions or as diagrams. This collection is modally neutral with regard to the descriptive character of its instances. Thus, it includes descriptions of how things are, were, should be, must be, etc.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -32,7 +33,7 @@ ogit.CYC:Specification
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

@@ -11,12 +11,13 @@ ogit.ITIL:ServiceStage
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Service Stage";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServiceStage>;
 	dcterms:description "An itil:ServiceStage represents any phase of an itil:ServiceLifecycle. For example: Service Operation is a service stage in the lifecycle of an IT service. The strength of the ITIL service management model rests upon continual feedback throughout each itil:ServiceStage of an itil:ServiceLifecycle. This feedback ensures that service optimization is managed from a business perspective and is measured in terms of the value business at any point in time through the itil:ServiceLifecycle. The itil:ServiceLifecycle is non-linear in design. At every point in the itil:ServiceLifecycle, feedback flows between each itil:ServiceStage of an itil:ServiceLifecycle which drive decisions about the need for minor course corrections of major service improvement initiatives.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:ServiceStage
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

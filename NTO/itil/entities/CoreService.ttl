@@ -11,12 +11,13 @@ ogit.ITIL:CoreService
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "CoreService";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#CoreService>;
 	dcterms:description "An itil:CoreService represents an itil:ITService that delivers the basic outcomes desired by the itil:Customer. The itil:CoreService(s) represent the value that the itil:Customer wants and for which they are willing to pay. The itil:CoreService(s) anchor the value proposition for the itil:Customer and provide the basis for their continued utilization and satisfaction. The itil:SupportingService(s) either enable or enhance the value proposition. Enabling services are basic factors and enhancing services are excitement factors.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:CoreService
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

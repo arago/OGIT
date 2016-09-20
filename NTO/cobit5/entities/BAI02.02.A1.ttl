@@ -10,12 +10,13 @@ ogit.COBIT5:BAI02.02.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice BAI02.02";
+	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI02.02.A1>;
 	dcterms:description "Define and execute a feasibility study, pilot or basic working solution that clearly and concisely describes the alternative solutions that will satisfy the business and functional requirements. Include an evaluation of their technological and economic feasibility. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI02.02.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -32,7 +33,7 @@ ogit.COBIT5:BAI02.02.A1
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

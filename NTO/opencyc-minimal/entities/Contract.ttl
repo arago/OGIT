@@ -10,12 +10,13 @@ ogit.CYC:Contract
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Contract";
+	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#Contract>;
 	dcterms:description "An oc:Contract is a collection of agreements. Each instance of oc:Contract is a legal agreement in which two or more oc:agreeingAgents promise to do (or not do) something. There are legal consequences to breaking the promises made in an oc:Contract.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -32,7 +33,7 @@ ogit.CYC:Contract
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

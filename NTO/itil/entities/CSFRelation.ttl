@@ -11,12 +11,13 @@ ogit.ITIL:CSFRelation
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Critical Succsess Factor Realtion";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#CSFRelation>;
 	dcterms:description "The itil:Dashboard results are derived from itil:CSF results. The itil:CSF(s) can contribute to one or more dashboards and each dashboard may have one or more multiple itil:CSF(s).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:CSFRelation
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

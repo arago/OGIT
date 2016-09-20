@@ -10,12 +10,13 @@ ogit.COBIT5:DSS06.03
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Manage roles, responsibilities, access privileges and levels of authority.";
+	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS06.03>;
 	dcterms:description "Manage the business roles, responsibilities, levels of authority and segregation of duties needed to support the business process objectives. Authorise access to  any information assets related to business information  processes, including those under the custody of the business, IT and third parties. This ensures that the  business knows where the data are and who is handling data on its behalf. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS06.03.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -32,7 +33,7 @@ ogit.COBIT5:DSS06.03
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

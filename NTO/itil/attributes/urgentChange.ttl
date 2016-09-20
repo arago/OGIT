@@ -11,12 +11,13 @@ ogit.ITIL:urgentChange
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "urgentChange";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#urgentChange>;
 	dcterms:description "The specific value that represents whether an itil:Change is considered urgent in order to restore a service after the identification of a problem. The itil:Change must be introduced as soon as possible to alleviate or avoid detrimental impact on the business.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -25,7 +26,7 @@ ogit.ITIL:urgentChange
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

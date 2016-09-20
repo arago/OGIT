@@ -11,12 +11,13 @@ ogit.ITIL:Evaluation
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Evaluation";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Evaluation>;
 	dcterms:description "The itil:Evaluation is the process responsible for assessing a new or changed IT service to ensure that risks have been managed and to help determine whether to proceed with the change. The itil:Evaluation process is also used to mean comparing an actual outcome with the intended outcome, or comparing one alternative with another. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#Evaluation.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:Evaluation
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

@@ -11,12 +11,13 @@ ogit.ITIL:incidentStartDateTime
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "incidentStartDateTime";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#incidentStartDateTime>;
 	dcterms:description "The character string representing a point in time that designates the beginning of the period of resolution for the itil:Incident. This field is expressed using a compacted ISO notation YYYYMMDDhhmmss.sss where YYYY represents a year in values from 0000 to 9999, MM represents a month in values from 00 to 12, and DD represents a day in values from 00 to 31, hh represents an hour in values from 00 to 23, mm represents a minute in values from 00 to 59, and ss.sss represents the number of seconds and milliseconds in values from 00.000 to 59.999. Note that all character positions must be filled.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -25,7 +26,7 @@ ogit.ITIL:incidentStartDateTime
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

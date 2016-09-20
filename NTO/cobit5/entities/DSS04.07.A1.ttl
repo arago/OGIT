@@ -10,6 +10,7 @@ ogit.COBIT5:DSS04.07.A1
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Activity 1 for Management Practice DSS04.07";
+	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#DSS04.07.A1>;
 	dcterms:description """Back up systems, applications, data and documentation according to a defined schedule, considering:
 -Frequency (monthly, weekly, daily, etc.)
 -Mode of backup (e.g. disk mirroring for real-time backups vs. DVD-ROM for long-term retention)
@@ -23,10 +24,10 @@ ogit.COBIT5:DSS04.07.A1
 -Security and access rights
 -Encryption This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#DSS04.07.A1.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -43,7 +44,7 @@ ogit.COBIT5:DSS04.07.A1
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

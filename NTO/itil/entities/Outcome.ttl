@@ -11,12 +11,13 @@ ogit.ITIL:Outcome
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Outcome";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Outcome>;
 	dcterms:description "The itil:Outcome(s) are key indicators of general business risk areas, that is, they are the kind of things that IT is trying to protect against. These are associated with performance indicators that identify the success, at risk or failure of itil:KPI(s) or itil:CSF(s). The itil:CSF(s) are used to determine itil:Outcome(s) (operational risks). Legal exposure, service outages, rework, waste, security breaches, unexpected costs, slow response to business needs and changes, fines and penalties, loss of market share and dissatisfied customers are examples of itil:Outcome(s).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:Outcome
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

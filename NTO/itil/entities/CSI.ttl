@@ -11,12 +11,13 @@ ogit.ITIL:CSI
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Continual Service Improvement";
-	dcterms:description "The ITIL V3 Continual Service Improvement (CSI) is a stage in the lifecycle of an IT service. The itil:CSI phase is responsible for managing improvements to IT service management processes and IT services. The performance of the IT service provider is continually measured and improvements are made to processes, IT services and IT infrastructure in order to increase efficiency, effectiveness, and cost effectiveness. Also, itil:CSI combines principles, practices, and methods from quality management, change management and capability improvement. IT service providers learn to realize incremental and large-scale improvements in service quality, operational efficiency and business continuity. The itil:CSI allows IT service providers to link improvement efforts and outcomes with service strategy, design, and transition. A closed-loop feedback system, based on the Plan–Do–Check–Act (PDCA) model specified in ISO/IEC 20000, is established and capable of receiving inputs for change from any planning perspective.";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#CSI>;
+	dcterms:description "The ITIL V3 Continual Service Improvement (CSI) is a stage in the lifecycle of an IT service. The itil:CSI phase is responsible for managing improvements to IT service management processes and IT services. The performance of the IT service provider is continually measured and improvements are made to processes, IT services and IT infrastructure in order to increase efficiency, effectiveness, and cost effectiveness. Also, itil:CSI combines principles, practices, and methods from quality management, change management and capability improvement. IT service providers learn to realize incremental and large-scale improvements in service quality, operational efficiency and business continuity. The itil:CSI allows IT service providers to link improvement efforts and outcomes with service strategy, design, and transition. A closed-loop feedback system, based on the Plan-Do-Check-Act (PDCA) model specified in ISO/IEC 20000, is established and capable of receiving inputs for change from any planning perspective.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:CSI
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

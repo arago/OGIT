@@ -11,12 +11,13 @@ ogit.ITIL:processOwner
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "processOwner";
-	dcterms:description "(itil:processOwner itil:Process itil:RoleType) means that the itil:RoleType is the owner of the itil:Process. The process owner is a role responsible for ensuring that a process is fit for purpose. The process owner’s responsibilities include sponsorship, design, change management and continual improvement of the process and its metrics. This role is often assigned to the same person who carries out the process manager role, but the two roles may be separate in larger organizations.";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#processOwner>;
+	dcterms:description "(itil:processOwner itil:Process itil:RoleType) means that the itil:RoleType is the owner of the itil:Process. The process owner is a role responsible for ensuring that a process is fit for purpose. The process owner's responsibilities include sponsorship, design, change management and continual improvement of the process and its metrics. This role is often assigned to the same person who carries out the process manager role, but the two roles may be separate in larger organizations.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -24,7 +25,7 @@ ogit.ITIL:processOwner
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

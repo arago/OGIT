@@ -11,12 +11,13 @@ ogit.ITIL:ServiceValidation_and_Testing
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Service Validation and Testing";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServiceValidation_and_Testing>;
 	dcterms:description "The itil:ServiceValidation_and_Testing is the process responsible for validation and testing of a new or changed IT service. The itil:ServiceValidation_and_Testing process ensures that the IT service matches its design specification and will meet the needs of the business. Validation is an activity that ensures a new or changed IT service, process, plan, or other deliverable meets the needs of the business. Validation ensures that business requirements are met even though these may have changed since the original design (do not be confused by the term verification: an activity that ensures a new or changed IT service, process, plan, or other deliverable is complete, accurate, reliable and matches its design specification). Test is an activity that verifies that a CI, IT service, process, etc. meets its specification or agreed requirements. Acceptance is a formal agreement that an IT service, process, plan, or other deliverable is complete, accurate, reliable and meets its specified requirements. Acceptance is usually preceded by evaluation or testing and is often required before proceeding to the next stage of a project or process. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#ServiceValidation_and_Testing.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +34,7 @@ ogit.ITIL:ServiceValidation_and_Testing
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

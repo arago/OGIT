@@ -10,12 +10,13 @@ ogit.WF:SequenceEdge
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "SequenceEdge";
+	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#SequenceEdge>;
 	dcterms:description "A wf:SequenceEdge is used to connect nodes (wf:Vertex) in a graph. In wf:SequenceEdge, the wf:objectName represents the guard of the edge (i.e., the specification evaluated at runtime to determine if the edge can be traversed).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -32,7 +33,7 @@ ogit.WF:SequenceEdge
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

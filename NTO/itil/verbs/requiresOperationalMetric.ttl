@@ -11,12 +11,13 @@ ogit.ITIL:requiresOperationalMetric
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "requiresOperationalMetric";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#requiresOperationalMetric>;
 	dcterms:description "(itil:requiresOperationalMetric itil:KPI itil:OperationalMetric) means that the itil:OperationalMetric is needed to compute the itil:KPI. The itil:KPI(s) are calculated or derived from one or more itil:OperationalMetrics.  The results of these calculations are then compared to an itil:Tolerance range to identify whether those results fall within acceptable levels.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-08-17;";
+	dcterms:valid "start=2016-09-20;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-08-17";
-	dcterms:modified "2016-08-17";
+	dcterms:created "2016-09-20";
+	dcterms:modified "2016-09-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -24,7 +25,7 @@ ogit.ITIL:requiresOperationalMetric
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-08-17";
+			dcterms:date "2016-09-20";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]
