@@ -18,15 +18,15 @@ One of the basic principles is: _evolution over standardization_.
 
 Find out more about OGIT using the following links.
 
-* [Basic Concepts](OGIT/wiki/Basic-Concepts)
-* [OGIT ontology details](OGIT/wiki/OGIT-ontology-details)
-* [Maintaining the ontology](OGIT/wiki/Maintaining-the-ontology)
+* [Basic Concepts](https://github.com/arago/OGIT/wiki/Basic-Concepts)
+* [OGIT ontology details](https://github.com/arago/OGIT/wiki/OGIT-ontology-details)
+* [Maintaining the ontology](https://github.com/arago/OGIT/wiki/Maintaining-the-ontology)
 * Get started with an implementation:
-	+ [Using OGIT in Apache Jena Fuseki](OGIT/wiki/Using-Fuseki)
-	+ [Using OGIT with Apache Tinkerpop](OGIT/wiki/Using-Tinkerpop)
-	+ [Using OGIT in Cayley](OGIT/wiki/Using-Cayley)
-* [High level use cases](OGIT/wiki/High-level-use-cases)
-* [Contributing to the ontology](OGIT/wiki/Contributing)
+	+ [Using OGIT in Apache Jena Fuseki](https://github.com/arago/OGIT/wiki/Using-Fuseki)
+	+ [Using OGIT with Apache Tinkerpop](https://github.com/arago/OGIT/wiki/Using-Tinkerpop)
+	+ [Using OGIT in Cayley](https://github.com/arago/OGIT/wiki/Using-Cayley)
+* [High level use cases](https://github.com/arago/OGIT/wiki/High-level-use-cases)
+* [Contributing to the ontology](https://github.com/arago/OGIT/wiki/Contributing)
 
 ## GraphIT Documentation
 

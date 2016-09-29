@@ -32,6 +32,7 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 		ogit:lastUpdatedAt
 		ogit:content
 		ogit:size
+		ogit:accessControl
 	);
 	ogit:indexed-attributes (
 		
@@ -60,6 +61,12 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 			dcterms:date "2015-10-15";
 			dcterms:description "add size attribute.";
 			dcterms:creator "arago Technologies";
+		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2016-09-21";
+			dcterms:description "add accessControl attribute.";
+			dcterms:creator "cwalker@arago.de";
 		]
 	);
 .
