@@ -14,10 +14,10 @@ ogit.ITIL:ServiceStrategy
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServiceStrategy>;
 	dcterms:description "The ITIL V3 Service Strategy phase establishes an overall Strategy for IT services and for ITSM. Topics covered in itil:ServiceStrategy include the development of markets, internal and external, service assets, service Catalog, and implementation of strategy through the service lifecycle. Financial Management, Service portfolio management, Organizational development, and Strategic risks are among other major topics. The itil:ServiceStrategy is about ensuring that IT service providers are in a position to handle the costs and risks associated with their service portfolios, and are set up not just for operational effectiveness but also for distinctive performance. Decisions made with respect to itil:ServiceStrategy have far-reaching consequences including those with delayed effect.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:ServiceStrategy
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

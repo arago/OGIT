@@ -14,10 +14,10 @@ ogit.ITIL:ChangeManagement
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ChangeManagement>;
 	dcterms:description "The itil:ChangeManagement is the process responsible for controlling the lifecycle of all changes. The primary objective of itil:ChangeManagement is to enable beneficial changes to be made, with minimum disruption to IT services. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#ChangeManagement.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:ChangeManagement
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

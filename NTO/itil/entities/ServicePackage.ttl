@@ -14,10 +14,10 @@ ogit.ITIL:ServicePackage
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServicePackage>;
 	dcterms:description "An itil:ServicePackage is detailed description of an itil:ITService that is available to be delivered to itil:Customer(s). The itil:ServicePackage(s) come with one or more itil:SLP(s) and one or more itil:CoreService(s) and itil:SupportingService(s). An itil:ServicePackage is considered a core itil:ServicePackage when it represents a detailed description of an itil:CoreService that may be shared by two or more itil:ServiceLevelPackage(s).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:ServicePackage
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

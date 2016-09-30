@@ -14,10 +14,10 @@ ogit.ITIL:Process
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Process>;
 	dcterms:description "An itil:Process is a structured set of activities designed to accomplish a specific objective. It takes one or more defined inputs and turns them into defined outputs. An itil:Process has an owner and it may include any of the roles, responsibilities, tools and management controls required to reliably deliver the outputs. Also, an itil:Process may define policies, standards, guidelines, activities, and work instructions if they are needed.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:Process
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

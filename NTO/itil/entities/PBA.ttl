@@ -14,10 +14,10 @@ ogit.ITIL:PBA
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#PBA>;
 	dcterms:description "Pattern of Business Activity (PBA) defines dynamics of a business and includes interactions with customers, suppliers, partners and other stakeholders. An itil:PBA represents a workload profile of one or more business activities, where workload is the resources required to deliver an identifiable part of an itil:ITService. Workloads may be categorized by users, groups of users, or functions within the itil:ITservice. This is used to assist in analyzing and managing the capacity, performance and utilization of itil:CI(s) and itil:ITService(s). The term workload is sometimes used as a synonym for the design concept throughput. Throughput is a measure of the number of transactions, or other operations, performed in a fixed time. For example, 5,000 e-mails sent per hour, or 200 disk I/Os per second. An itil:PBA is used to help the itil:ITServiceProvider understand and plan for different levels of business activity. The itil:ITService(s) often directly support itil:PBA. Since itil:PBA(s) generate revenue, income and costs they account for a large proportion of business outcomes. The itil:PBA(s) are identified, codified, and shared across process for clarity and completeness of detail. One or more attributes such as frequency, volume, location and duration describe business activity. They are associated with requirements such as security, privacy and latency or tolerance for delays. This profile of business activity can change over time with changes and improvements in business processes, people, organization, applications and infrastructure. The itil:PBA(s) are placed under change control.  Each itil:PBA has to be substantially different from another itil:PBA in order to be coded with a unique reference. Codifying patterns helps multidimensional analysis, using criteria such as likeness and nearness. This provides efficiency and robustness in developing a catalogue of patterns with simplification and standardization to reduce the number of patterns, make analysis easier, and avoid complicated solutions.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:PBA
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

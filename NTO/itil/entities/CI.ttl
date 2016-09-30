@@ -14,10 +14,10 @@ ogit.ITIL:CI
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#CI>;
 	dcterms:description "An itil:CI is a configuration item that represents an asset, service component or other item that is, or will be, under the control of itil:ServiceAsset_and_ConfigurationManagement process. The itil:CI(s) may vary widely in complexity, size and type, ranging from an entire service or system including all hardware, software, documentation and support staff to a single software module or a minor hardware component. The itil:CI(s) may be grouped and managed together. For example, a set of components may be grouped into a release. The itil:CI(s) should be selected using established selection criteria, grouped, classified and identified in such a way that they are manageable and traceable throughout the itil:ServiceLifecycle.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:CI
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

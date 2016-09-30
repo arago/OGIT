@@ -14,10 +14,10 @@ ogit.ITIL:Release_and_DeploymentManagement
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#Release_and_DeploymentManagement>;
 	dcterms:description "The itil:Release_and_DeploymentManagement is the process responsible for both release management and deployment. The release management process is responsible for planning, scheduling and controlling the movement of releases to test and live environments. The primary objective of release management is to ensure that the integrity of the live environment is protected and that the correct components are released. Deployment is the activity responsible for movement of new or changed hardware, software, documentation, process, etc. to the live environment. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#Release_and_DeploymentManagement.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:Release_and_DeploymentManagement
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

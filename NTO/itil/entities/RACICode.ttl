@@ -14,10 +14,10 @@ ogit.ITIL:RACICode
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#RACICode>;
 	dcterms:description "The specific value that represents the RACI code of a specific oc:IntelligentAgent. RACI is a model used to help define roles and responsibilities in ITIL V3. The RACI model will be beneficial in enabling decisions to be made with pace and confidence. RACI stands for Responsible, Accountable, Consulted and Informed:  (1) Responsible: the individual who is responsible to perform the actions. (2) Accountable: the individual who is ultimately accountable has the power of veto. Only one accountable can be assigned to an action. (3) Consulted: the individual(s) to be consulted prior to a final decision or action being taken. (4) Informed: the individual(s) who needs to be informed after a decision or action is taken. To build a RACI chart the following steps are required: (1) Identify the activities/processes. (2) Identify/define the functional roles. (3) Conduct meetings and assign the RACI codes. (4) Identify any gaps or overlaps - for example, where there are two Rs or no Rs (see analysis below). (5) Distribute the chart and incorporate feedback. (6) Ensure that the allocations are being followed. Developing an authority matrix (RACI matrix) can be a tedious and time-consuming exercise but it's a crucially important one. The authority matrix clarifies to all involved which activities they are expected to fulfill, as well as identifying any gaps in service delivery and responsibilities. It is especially helpful in clarifying the staffing model necessary for improvement.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:RACICode
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

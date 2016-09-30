@@ -19,10 +19,10 @@ If this property and <code>ems:wbsSource</code> are present,
 then the value of this property SHOULD be the XML document representation returned in the 
 HTTP GET response for the link given in <code>ems:wbsSource</code>. """;
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -30,7 +30,7 @@ HTTP GET response for the link given in <code>ems:wbsSource</code>. """;
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

@@ -14,10 +14,10 @@ ogit.ITIL:SupplierManagement
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#SupplierManagement>;
 	dcterms:description "The itil:SupplierManagement is the process responsible for ensuring that all contracts with suppliers support the needs of the business, and that all suppliers meet their contractual commitments. The purpose of the itil:SupplierManagement process is to obtain value for money from suppliers and to ensure that suppliers perform to the targets contained within their contracts and agreements, while conforming to all of the terms and conditions. All itil:SupplierManagement process activity should be driven by a supplier strategy and policy from itil:ServiceStrategy. In order to achieve consistency and effectiveness in the implementation of the policy, a Supplier and Contracts Database (SCD) should be established, together with clearly defined roles and responsibilities. SCDs are beneficial because they can be used to promote preferred suppliers and to prevent purchasing of unapproved or incompatible items. By coordinating and controlling the buying activity, the organization is more likely to be able to negotiate preferential rates. It is essential that itil:SupplierManagement processes and planning are involved in all stages of the service lifecycle, from strategy and design, through transition and operation, to improvement. The complex business demands require the complete breadth of skills and capability to support provision of a comprehensive set of IT services to a business, therefore the use of value networks and the suppliers and the services they provide are an integral part of any end-to-end solution. Suppliers and the management of suppliers and partners are essential to the provision of quality IT services. Ideally the SCD should form an integrated element of a comprehensive CMS or SKMS, recording all supplier and contract details, together with details of the type of itil:ITService(s) provided by each supplier (itil:ITServiceProvider), and all other information and relationships with other associated itil:CIs. The services provided by suppliers will also form a key part of the itil:ServicePortfolio. The relationship between the itil:SupportingService(s) and the IT and itil:CoreService(s) they support are key to providing quality IT services. Adding new suppliers or contracts to the SCD needs to be handled via the itil:ChangeManagement process, to ensure that any impact is assessed and understood. In most itil:ITServiceProvider(s), the SCD is owned by the itil:SupplierManagement process or the procurement or purchasing department. The SCD provides a single, central focal set of information for the management of all suppliers and contracts. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#SupplierManagement.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:SupplierManagement
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

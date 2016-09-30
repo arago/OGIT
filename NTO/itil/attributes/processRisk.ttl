@@ -14,10 +14,10 @@ ogit.ITIL:processRisk
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#processRisk>;
 	dcterms:description "The characther string assigned to represent the risks that may be encountered with a specific itil:Process. An itil:processRisk is a possible itil:Event that could cause harm or loss, or affect the ability to achieve itil:processObjective(s). An itil:processRisk is measured by the probability of a threat, the vulnerability of the asset to that threat, and the itil:incidentImpact it would have if it occurred.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -26,7 +26,7 @@ ogit.ITIL:processRisk
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

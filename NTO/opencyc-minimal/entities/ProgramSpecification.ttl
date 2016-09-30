@@ -13,10 +13,10 @@ ogit.CYC:ProgramSpecification
 	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#ProgramSpecification>;
 	dcterms:description "An oc:ProgramSpecification is a specialization of oc:Specification. Each instance of this collection is not a computer program itself (i.e. lines of code), but an abstract characterization of how a program should behave. For example, a sorting program can be specified by requiring that the program's output be a list of the same elements as the input such that no element follows an element that is greater than it. A notable example of a oc:ProgramSpecification is UNIX, which is not (contrary to popular belief) an operating system per se, but a specification to which many different operating systems (instances of oc:UnixOS) conform. Note that instances of oc:ProgramSpecification do not necessarily specify single, discrete programs, thus many of the internet's Request For Comments (RFC) protocol-establishing documents fall into this collection.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +33,7 @@ ogit.CYC:ProgramSpecification
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

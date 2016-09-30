@@ -13,10 +13,10 @@ ogit.COBIT5:APO07.04.A2
 	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO07.04.A2>;
 	dcterms:description "Set individual goals aligned with the relevant process goals so that there is a clear contribution to IT and enterprise goals. Base goals on SMART objectives (specific, measurable, achievable, relevant and time-bound) that reflect core competencies, enterprise values and skills required for the role(s). This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO07.04.A2.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +33,7 @@ ogit.COBIT5:APO07.04.A2
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

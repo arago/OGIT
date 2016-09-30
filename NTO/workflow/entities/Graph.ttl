@@ -13,10 +13,10 @@ ogit.WF:Graph
 	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#Graph>;
 	dcterms:description "A wf:Graph is the workflow model graphical element used to define pools (wf:Pool) and subprocesses (wf:SubProcess). A wf:Graph is composed of vertices (wf:Vertex) and edges (wf:SequenceEdge).";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +33,7 @@ ogit.WF:Graph
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

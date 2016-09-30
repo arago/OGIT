@@ -13,10 +13,10 @@ ogit.CYC:responsibleFor
 	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#responsibleFor>;
 	dcterms:description "If (oc:responsibleFor oc:Agent-Generic oc:Situation) holds at time 't', this means that, sometime prior to time 't' the oc:Agent-Generic deliberately performed an action which was instrumental in bringing about the oc:Situation to the extent that, other things being equal, if the action had not been performed, the oc:Situation would not have come about. This sense of 'responsibility' is stronger than causal responsibility, i.e., it requires that the oc:Agent-Generic play more than an unwitting causal role in bringing about the oc:Situation. However, it is probably weaker than full-blown moral responsibility, since even though the oc:Agent-Generic intended to perform the action which brought about the oc:Situation, the oc:Agent-Generic might not have intended to bring about the oc:Situation.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -24,7 +24,7 @@ ogit.CYC:responsibleFor
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

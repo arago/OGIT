@@ -14,10 +14,10 @@ ogit.ITIL:RoleRelation
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#RoleRelation>;
 	dcterms:description "The itil:RoleRelation is used to build a RACI chart that is needed to identify/define, on the one hand, the functional roles and, on the other hand, responsibilities of the various roles (i.e., RACI codes). In some organizations this could be a full-time individual and in others it could be several people, or it could be a part-time role. In smaller organizations many of these roles may be performed by a single person. This will depend on the size and volatility of the organization. The roles or job titles often vary between organizations. However, what is important is that the roles, responsibilities, processes, dependencies and interfaces are clearly defined and scoped for each individual organization.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:RoleRelation
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

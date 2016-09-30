@@ -13,10 +13,10 @@ ogit.CYC:hasMembers
 	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#hasMembers>;
 	dcterms:description "(oc:hasMembers oc:Organization oc:Agent-Generic) means that the oc:Agent-Generic is a member of the oc:Organization; typically, membership eligibility is determined by the oc:Organizaiton and accepted with oc:Agent-Generic's voluntary affiliation. The predicate oc:hasMembers relates a particular organization to the agents who are members of that organization. This predicate indicates 'generic' membership, although there may be specialized kinds of membership in the same organization.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -24,7 +24,7 @@ ogit.CYC:hasMembers
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

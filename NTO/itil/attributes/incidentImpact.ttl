@@ -14,10 +14,10 @@ ogit.ITIL:incidentImpact
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#incidentImpact>;
 	dcterms:description "The integer value that represents the impact of a specific itil:Incident. The itil:incidentImpact is a measure of the effect of an itil:Incident, itil:Problem or itil:Change on business processes. The itil:incidentImpact is often based on how service levels will be affected. The itil:incidentImpact and itil:incidentUrgency are used to assign itil:incidentPriority. In our pilot project, the impact represents the number of users affected by the itil:Incident.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -26,7 +26,7 @@ ogit.ITIL:incidentImpact
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

@@ -14,10 +14,10 @@ ogit.ITIL:hasSupportingService
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#hasSupportingService>;
 	dcterms:description "(itil:hasSupportingService itil:CoreService itil:SupportingService) means that the itil:CoreService includes the itil:SupportingService to enable or enhance the delivery of the service.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -25,7 +25,7 @@ ogit.ITIL:hasSupportingService
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

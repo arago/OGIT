@@ -13,10 +13,10 @@ ogit.COBIT5:BAI02.04.A1
 	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#BAI02.04.A1>;
 	dcterms:description "Ensure that the business sponsor or product owner makes the final decision with respect to the choice of solution, acquisition approach and high-level design, according to the business case. Co-ordinate feedback from affected stakeholders and obtain sign-off from appropriate business and technical authorities (e.g., business process owner, enterprise architect, operations manager, security) for the proposed approach. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#BAI02.04.A1.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,7 +33,7 @@ ogit.COBIT5:BAI02.04.A1
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

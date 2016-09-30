@@ -14,10 +14,10 @@ ogit.ITIL:IncidentRecord
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#IncidentRecord>;
 	dcterms:description "An itil:IncidentRecord represents a record containing the details of an itil:Incident. Each itil:IncidentRecord documents the itil:Lifecycle of a single itil:Incident and the responsible (group/person) of the resolution of the reported incident, i.e., the oc:Agent-Generic that records the itil:Incident.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:IncidentRecord
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]

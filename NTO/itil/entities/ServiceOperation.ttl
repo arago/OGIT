@@ -14,10 +14,10 @@ ogit.ITIL:ServiceOperation
 	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServiceOperation>;
 	dcterms:description "The itil:ServiceOperation is a stage in the lifecycle of an IT service. The ITIL V3 Service Operation phase includes the management of service operations using two major control perspectives: reactive and proactive. The itil:ServiceOperation enables service providers to achieve effectiveness and efficiency in the delivery and support of services so as to ensure value for the customer and the service provider. Strategic objectives are ultimately realized through service operations, therefore making it a critical capability. Also, itil:ServiceOperation can maintain stability in service operations, allowing for changes in design, scale, scope and service levels. With itil:ServiceOperation, IT service providers can make better decisions in areas such as managing the availability of services, controlling demand, optimizing capacity utilization, scheduling of operations and fixing problems.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2016-09-20;";
+	dcterms:valid "start=2016-09-30;";
 	dcterms:creator "OGIT Importer";
-	dcterms:created "2016-09-20";
-	dcterms:modified "2016-09-20";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -34,7 +34,7 @@ ogit.ITIL:ServiceOperation
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2016-09-20";
+			dcterms:date "2016-09-30";
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]
