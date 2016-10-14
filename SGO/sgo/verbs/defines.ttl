@@ -24,6 +24,12 @@ ogit:defines
 			dcterms:description "initial";
 			dcterms:creator "Peter Larem";
 		]
+                [
+			dcterms:identifier "2";
+			dcterms:date "2015-10-14";
+			dcterms:description "add connection";
+			dcterms:creator "stravlos@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -41,6 +47,10 @@ ogit:defines
 		[
 			ogit:from ogit:Organization;
 			ogit:to ogit:Role;
+		]
+                [
+			ogit:from ogit:Person;
+			ogit:to ogit.UserMeta:Filter;
 		]
 	);
 .
