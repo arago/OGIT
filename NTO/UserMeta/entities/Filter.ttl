@@ -1,7 +1,7 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Filter:          <http://www.purl.org/ogit/Filter/> .
+@prefix ogit.UserMeta:          <http://www.purl.org/ogit/UserMeta/> .
 
 ogit.UserMeta:Filter
     a rdfs:Class;
