@@ -23,6 +23,7 @@ ogit.BusinessProcess:SurveyIteration
 	);
 	ogit:optional-attributes (
 		ogit:startedAt
+		ogit:status
 	);
 	ogit:indexed-attributes (
 

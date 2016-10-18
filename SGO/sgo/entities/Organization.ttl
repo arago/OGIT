@@ -36,9 +36,11 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 		ogit:businessCategory
 		ogit:webPage
 		ogit:sourceId
+		ogit:phone
 	);
 	ogit:indexed-attributes (
-		
+		ogit:name
+		ogit:description
 	);
 	ogit:history (
 		[
