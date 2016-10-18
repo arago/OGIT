@@ -42,7 +42,8 @@ to the monitoring systems becomes possible.""";
 		ogit.Automation:maidFormalRepresentation
 	);
 	ogit:optional-attributes (
-		
+		ogit:id
+		ogit:name
 	);
 	ogit:indexed-attributes (
 		

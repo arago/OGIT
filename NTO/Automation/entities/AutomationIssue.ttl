@@ -36,6 +36,7 @@ IssueCondition is processed first.""";
 		ogit.Automation:deployStatus
 	);
 	ogit:indexed-attributes (
+		ogit:id
 		ogit:subject
 		ogit.Automation:issueFormalRepresentation
 	);
