@@ -1,0 +1,35 @@
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:        <http://purl.org/dc/terms/> .
+@prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.OSLC-crtv: <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix owl:            <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit:           <http://www.purl.org/ogit/> .
+
+ogit.OSLC-crtv:dependsOn
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "dependsOn";
+	ogit:original <http://open-services.net/ns/crtv#dependsOn>;
+	dcterms:description "A relationship denoting that the source of the relationship cannot function properly without an association with the target. The dependency is directional ( the source depends on the target but the reverse is not necessarily true ) and can represent any cause or type of dependency. For instance, this relationship can be used to denote that a device depends on its power supply(s) or that an IP path depends on a layer 2 connection.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+	ogit:allowed (
+
+	);
+.

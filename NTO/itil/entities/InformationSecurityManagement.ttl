@@ -1,0 +1,42 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:InformationSecurityManagement
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Information Security Management";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#InformationSecurityManagement>;
+	dcterms:description "The itil:InformationSecurityManagement is the process that ensures the confidentiality, integrity and availability of an organization's assets, information, data and IT services. The itil:InformationSecurityManagement process usually forms part of an organizational approach to security management that has a wider scope than the IT service provider, and includes handling of paper, building access, phone calls, etc., for the entire organization. The term 'information' is used as a general term and includes data stores, databases and metadata. The objective of information security is to protect the interests of those relying on information, and the systems and communications that deliver the information, from harm resulting from failures of availability, confidentiality and integrity. The framework or the Information Security Management System (ISMS) provides a basis for the development of a cost-effective information security program that supports the business objectives. It will involve the four Ps of People, Process, Products and Partners as well as technology and suppliers to ensure high levels of security are in place. ISO 27001 is the formal standard against which organizations may seek independent certification of their ISMS (meaning their frameworks to design, implement, manage, maintain and enforce information security processes and controls systematically and consistently throughout the organizations). This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#InformationSecurityManagement.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

@@ -1,0 +1,38 @@
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:     <http://www.purl.org/ogit/> .
+@prefix ogit.CYC: <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+ogit.CYC:responsibleFor
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "responsibleFor";
+	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#responsibleFor>;
+	dcterms:description "If (oc:responsibleFor oc:Agent-Generic oc:Situation) holds at time 't', this means that, sometime prior to time 't' the oc:Agent-Generic deliberately performed an action which was instrumental in bringing about the oc:Situation to the extent that, other things being equal, if the action had not been performed, the oc:Situation would not have come about. This sense of 'responsibility' is stronger than causal responsibility, i.e., it requires that the oc:Agent-Generic play more than an unwitting causal role in bringing about the oc:Situation. However, it is probably weaker than full-blown moral responsibility, since even though the oc:Agent-Generic intended to perform the action which brought about the oc:Situation, the oc:Agent-Generic might not have intended to bring about the oc:Situation.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit.CYC:Agent-Generic;
+			ogit:to ogit.CYC:Situation;
+		]
+	);
+.

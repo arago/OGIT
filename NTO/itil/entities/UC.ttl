@@ -1,0 +1,42 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:UC
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Underpinning Contract";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#UC>;
+	dcterms:description "An itil:UC is an itil:Agreement between an itil:ITServiceProvider and a third party. In this case, the third party is another itil:Organization. The itil:UC defines targets and responsibilities that are required to meet agreed itil:ServiceLevelTarget(s) in an itil:SLA.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

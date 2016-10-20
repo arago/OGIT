@@ -1,0 +1,42 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:RFC
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "RFC";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#RFC>;
+	dcterms:description "A Request for Change (RFC) is a formal proposal for a change to be made. An itil:RFC includes details of the proposed change, and may be recorded on paper or electronically. Authorized itil:RFC(s) should be passed to the relevant technical groups for building of the changes. Each service change arrives into service evaluation and qualification in the form of an itil:RFC from the itil:ChangeManagement process. All itil:RFC(s) received should be logged and allocated an identification number (in chronological sequence). Where itil:RFC(s) are submitted in response to a trigger such as a resolution to an itil:ProblemRecord, it is important that the reference number of the triggering document is retained to provide traceability.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

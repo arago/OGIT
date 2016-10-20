@@ -1,0 +1,9 @@
+/*! @addtogroup entities
+ *  @{
+ *  @addtogroup entitiesQUDT-dtype QUDT-dtype
+ *  @{
+ *  [QUDT](http://www.qudt.org/) is an ontology framework for modeling quantities, units, dimensions and types.
+ *  This module contains the data type vocabulary.
+ *  @}
+ *  @}
+ */

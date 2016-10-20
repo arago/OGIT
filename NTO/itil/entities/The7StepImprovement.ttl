@@ -1,0 +1,42 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:The7StepImprovement
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "The 7-step improvement ";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#The7StepImprovement>;
+	dcterms:description "The itil:The7StepImprovement is a process that spans not only the management organization but the entire service lifecycle. This is a cornerstone of CSI. Steps: (1) Define what you should measure: At the onset of the service lifecycle, Service Strategy and Service Design should have identified this information. CSI can then start its cycle all over again at Where are we now? This identifies the ideal situation for both the Business and IT. (2) Define what you can measure: This activity related to the CSI activities of Where do we want to be? By identifying the new service level requirements of the business, the IT capabilities (identified through Service Design and implemented via Service Transition) and the available budgets, CSI can conduct a gap analysis to identify the opportunities for improvement as well as answering the question How do we get there?. (3) Gathering the data: In order to properly answer the Did we get there? question, data must first be gathered (usually through Service Operations). Data is gathered based on goals and objectives identified. At this point the data is raw and no conclusions are drawn. (4) Processing the data: Here the data is processed in alignment with the CSFs and KPIs specified. This means that timeframes are coordinated, unaligned data is rationalized and made consistent, and gaps in the data are identified. The simple goal of this step is to process data from multiple disparate sources into an 'apples to apples' comparison. Once we have rationalized the data we can then begin analysis. (5) Analyzing the data: Here the data becomes information as it is analyzed to identify service gaps, trends and the impact on business. It is the analyzing step that is most often overlooked or forgotten in the rush to present data to management. (6) Presenting and using the information: Here the answer to Did we get there? is formatted and communicated in whatever way necessary to present to the various stakeholders an accurate picture of the results of the improvement efforts. Knowledge is presented to the business in a form and manner that reflects their needs and assists them in determining the next steps. (7) Implementing corrective action: The knowledge gained is used to optimize, improve and correct services. Managers identify issues and present solutions. The corrective actions that need to be taken to improve the service are communicated and explained to the organization. Following this step the organization establishes a new baseline and the cycle begins anew. While these seven steps of measurement appear to form a circular set of activities, in fact, they constitute a knowledge spiral. In actual practice, knowledge gathered and wisdom derived from that knowledge at one level of the organization becomes a data input to the next. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#The7StepImprovement.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

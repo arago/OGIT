@@ -1,0 +1,33 @@
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:        <http://purl.org/dc/terms/> .
+@prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.OSCL-auto: <http://www.purl.org/ogit/OSLC-automation/> .
+@prefix owl:            <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit:           <http://www.purl.org/ogit/> .
+
+ogit.OSCL-auto:progress
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "progress";
+	ogit:original <http://open-services.net/ns/auto#progress>;
+	dcterms:description "Represents the progress that has been made towards completion (e.g. of an AutomationRequest or AutomationResult). The value of this property can either be an integer (showing percentage completion) or a resource (for implementation-specific details, or future extension).";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:validation-type "";
+	ogit:validation-parameter "";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

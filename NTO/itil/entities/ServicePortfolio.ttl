@@ -1,0 +1,42 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:ServicePortfolio
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Service Portfolio";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServicePortfolio>;
+	dcterms:description "The itil:ServicePortfolio is the complete set of itil:ITService(s) that are managed by an itil:ITServiceProvider. The itil:ServicePortfolio is used to manage the entire lifecycle of all itil:ITService(s), and includes three categories (itil:ServicePortfolioType enumeration class): Service Pipeline (proposed or in development), Service Catalog (live or available for deployment) and Retired Services. In other words, itil:ServicePortfolio represents the commitments and investments made by an itil:ITServiceProvider across all customers and market spaces. It represents present contractual commitments, new service development, and ongoing service improvement plans initiated by itil:CSI. The itil:ServicePortfolio also includes third-party services, which are an integral part of service offerings to customers. Some third-party services are visible to the customers while others are not. Changes to itil:ServicePortfolio are governed by policies and procedures. The itil:ServicePortfolio(s) instill a certain financial discipline necessary to avoid making investments that will not yield value. The itil:ServicePortfolio represents all the resources presently engaged or being released in various phases of the itil:ServiceLifecycle. Each phase requires resources for completion of projects, initiatives and contracts. This is a very important governance aspect of the itil:ServicePortfolioManagement process. Entry, progress and exit are approved only with approved funding and a financial plan for recovering costs or showing profit as necessary. The itil:ServicePortfolio should have the right mix of services in the pipeline and catalog to secure the financial viability of the IT service provider. The Service Catalog is the only part of the itil:ServicePortfolio that recovers costs or earns profits.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

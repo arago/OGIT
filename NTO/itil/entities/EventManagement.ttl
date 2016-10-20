@@ -1,0 +1,42 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:EventManagement
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Event Management";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#EventManagement>;
+	dcterms:description "The itil:EventManagement is the process responsible for managing itil:Event(s) throughout their lifecycle. The itil:EventManagement process is one of the main activities of IT operations. The itil:EventManagement process monitors all itil:Event(s) that occur throughout the IT infrastructure, to monitor normal operation and to detect and escalate exception conditions. The itil:EventManagement process is the basis for operational monitoring and control. In addition, if the itil:Event(s) are programmed to communicate operational information as well as warnings and exceptions, they can be used as a basis for automating many routine operations management activities, for example executing scripts on remote devices, or submitting jobs for processing, or even dynamically balancing the demand for a service across multiple devices to enhance performance. The itil:EventManagement therefore provides the entry point for the execution of many itil:ServiceOperation processes and activities. In addition, it provides a way of comparing actual performance and behavior against design standards and itil:SLA(s). As such, the itil:EventManagement process also provides a basis for service assurance and reporting, and service improvement. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#EventManagement.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

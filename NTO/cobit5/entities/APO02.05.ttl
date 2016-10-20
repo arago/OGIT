@@ -1,0 +1,41 @@
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit:        <http://www.purl.org/ogit/> .
+@prefix ogit.COBIT5: <http://www.purl.org/ogit/COBIT5/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.COBIT5:APO02.05
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Define the strategic plan and roadmap";
+	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#APO02.05>;
+	dcterms:description "Create a strategic plan that defines, in co-operation with relevant stakeholders, how IT-related goals will contribute to the enterprise's strategic goals. Include how IT will support IT-enabled investment programmes, business processes, IT services and IT assets. Direct IT to define the initiatives that will be required to close the gaps, the sourcing strategy and the measurements to be used to monitor achievement of goals, then prioritise the initiatives and combine them in a high-level road map. This class represents the original Individual http://wwwvs.cs.hs-rm.de/cobit5#APO02.05.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

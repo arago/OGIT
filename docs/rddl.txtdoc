@@ -1,0 +1,10 @@
+/*! @addtogroup entities
+ *  @{
+ *  @addtogroup entitiesRDDL RDDL
+ *  @{ 
+ *  [RDDL](http://rddl.org/), the Resource Directory Description Language, is a
+ *  vocabulary for providing descriptions of resources. This module is referred to by
+ *  the OSLC modules. 
+ *  @}
+ *  @}
+ */

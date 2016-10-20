@@ -1,0 +1,38 @@
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit:        <http://www.purl.org/ogit/> .
+@prefix ogit.COBIT5: <http://www.purl.org/ogit/COBIT5/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.COBIT5:secondaryGovernanceObjectiveForEnterpriseGoal
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "is a secondary governance objective for enterprise goal";
+	ogit:original <http://wwwvs.cs.hs-rm.de/cobit5#secondaryGovernanceObjectiveForEnterpriseGoal>;
+	dcterms:description "";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit.COBIT5:GovernanceObjective;
+			ogit:to ogit.COBIT5:EnterpriseGoal;
+		]
+	);
+.

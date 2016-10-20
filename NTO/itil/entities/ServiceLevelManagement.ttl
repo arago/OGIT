@@ -1,0 +1,42 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:ServiceLevelManagement
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Service Level Management";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ServiceLevelManagement>;
+	dcterms:description "The itil:ServiceLevelManagement is the process responsible for negotiating the itil:SLA(s), and ensuring that these are met. The itil:ServiceLevelManagement process is responsible for ensuring that all itil:Process(s), itil:OLA(s), and itil:UC(s), are appropriate for the agreed service level targets. The itil:SLA(s) provide the basis for managing the relationship between the service provider and the customer, and the itil:ServiceLevelManagement process provides that central point of focus for a group of customers, business units or lines of business. Using the service catalog as an aid, the itil:ServiceLevelManagement process must design the most appropriate itil:SLA structure to ensure that all services and all customers are covered in a manner best suited to the organization's needs. Also, the itil:ServiceLevelManagement process monitors and reports on service levels, and holds regular customer reviews. The itil:ServiceLevelManagement process needs to manage the expectation and perception of the business, customers and users and ensure that the quality of service delivered by the service provider is matched to those expectations and needs. In order to do this effectively, the itil:ServiceLevelManagement process should establish and maintain itil:SLA(s) for all current live services and manage the level of service provided to meet the targets and quality measurements contained within the itil:SLA(s). The itil:ServiceLevelManagement process should also produce and agree itil:SLR(s) for all planned new or changed services. The goal of the itil:ServiceLevelManagement process is to ensure that an agreed level of IT service is provided for all current IT services, and that future services are delivered to agreed achievable targets. If the targets are not aligned with business needs, then service provider activities and service levels will not be aligned with business expectations and problems will develop. Proactive measures are also taken to seek and implement improvements to the level of service delivered.  The itil:ServiceLevelManagement process should include instigation and coordination of a Service Improvement Plan (SIP) for the management, planning and implementation of all service and process improvements. A SIP is an overall program or plan of prioritized improvement actions, encompassing all services and all processes, together with associated impacts and risks. In other words, a SIP is a formal plan to implement improvements to a process or IT service. The itil:ServiceLevelManagement process should also include activities and procedures for the logging and management of all complaints and compliments. The logging procedures are often performed by the itil:SERVICE_DESK (itil:RoleType instance)  as they are similar to those of Incident Management and Request Fulfillment processes. The definition of a complaint and compliment should be agreed with the customers, together with agreed contact points and procedures for their management and analysis. All complaints and compliments should be recorded and communicated to the relevant parties. All complaints should also be actioned and resolved to the satisfaction of the originator. If not, there should be an escalation contact and procedure for all complaints that are not actioned and resolved within an appropriate timescale. All outstanding complaints should be reviewed and escalated to senior management where appropriate. Reports should also be produced on the numbers and types of complaints, the trends identified and actions taken to reduce the numbers received. Similar reports should also be produced for compliments. This class represents the original Individual http://wwwvs.cs.hs-rm.de/itil#ServiceLevelManagement.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

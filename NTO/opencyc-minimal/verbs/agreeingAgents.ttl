@@ -1,0 +1,38 @@
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:     <http://www.purl.org/ogit/> .
+@prefix ogit.CYC: <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+ogit.CYC:agreeingAgents
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "agreeingAgents";
+	ogit:original <http://wwwvs.cs.hs-rm.de/opencyc-minimal#agreeingAgents>;
+	dcterms:description "(oc:agreeingAgents oc:Contract oc:IntelligentAgent) means that the oc:Contract has the oc:IntelligentAgent(s) among its agreeing parties. This property relates an agreement to the agents who made or are making the agreement.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit.CYC:Contract;
+			ogit:to ogit.CYC:IntelligentAgent;
+		]
+	);
+.

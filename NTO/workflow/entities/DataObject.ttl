@@ -1,0 +1,41 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.WF: <http://www.purl.org/ogit/Workflow/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:    <http://www.purl.org/ogit/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+ogit.WF:DataObject
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Data object";
+	ogit:original <http://wwwvs.cs.hs-rm.de/workflow#DataObject>;
+	dcterms:description "The wf:DataObject is an wf:Artifact that provides provide information about what the what activities require to be performed and/or what they produce. That is, how documents, data, and other objects are used and updated during the business process. A wf:DataObject can represent a singular object or a collection of objects.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.

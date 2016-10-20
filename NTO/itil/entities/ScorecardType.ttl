@@ -1,0 +1,42 @@
+@prefix ogit.ITIL: <http://www.purl.org/ogit/ITIL/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit:      <http://www.purl.org/ogit/> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.CYC:  <http://www.purl.org/ogit/CYC/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.ITIL:ScorecardType
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Scorecard Type";
+	ogit:original <http://wwwvs.cs.hs-rm.de/itil#ScorecardType>;
+	dcterms:description "The specific value that represents the type of scorecard of a specific itil:Dashboard. The itil:Dashboard(s) come in all forms, shapes and sizes. For the purpose of our modeling approach for ITSMSs, just like the approach of [Steinberg, 2006], we use the Balanced Scorecard originally developed in [Kaplan & Norton, 1992]. The Balanced Scorecard was originally developed around the concept that financial measures alone are not critical for business success. The Balanced Scorecard has been generally recognized as an acceptable approach for senior management levels. The scorecard categories recommended for ITSM are: * Customer: The Customer category represents the customer view of the services being delivered. Are they satisfied? Are they serviced in accordance with agreements and expectations? 'Protect services when making changes' and 'Make changes quickly and accurately in line with business needs' are examples of some Change Management CSFs that contribute to Customer. Both of these CSFs impact how a customer might be receiving (or not receiving) their services. * Capabilities: The Capabilities category represents, in the ITSM sense, the capability of the IT service provider to meet business needs. Is there enough capacity to handle planned business volumes? Is there enough capacity to handle anticipated business and IT changes? Does the IT staff possess the right skills? 'Provide services with appropriate capacity to match business need' and 'Provide accurate capacity forecasts' are examples of some Capacity Management CSFs that contribute to Capabilities. These CSFs represent whether the IT service provider is capable of delivering needed capacity to support services by accurately predicting capacity needs and providing needed capacity at the right time to match business requirements. * Operational: The Operational category represents, in the ITSM sense, how well the IT service provider is delivering their services on a day-to-day basis. Are services levels being met? Are incidents resolved on a timely basis? 'Quickly resolve incidents' and 'Maintain IT service quality' are examples of some Incident Management CSFs that contribute to Operational. These CSFs relate to everyday tasks (in this case Incident Management tasks) and whether those tasks are operating in a repeatable, consistent, efficient and effective manner to quickly resolve incidents and take actions to maintain the quality of the services being delivered. * Financial: The Financial category represents, in the ITSM sense, how well the IT service provider is managing and controlling costs as well as protecting and enhancing revenue. Are IT costs effectively managed? Are costs staying within budget? Does revenue received for IT chargeback cover the costs for the services being charged for? 'Provide effective stewardship of IT Finances', 'Maintain overall effectiveness of the IT Financial Management Process' and 'Recapture IT costs through chargeback for delivery of IT services' are examples of some Financial Management CSFs that contribute to Financial. * Regulatory: The Regulatory category represents, in the ITSM sense, how well the IT service provider is operating in a manner that protects it again regulatory risks for fines, penalties and audit issues. While not part of the original Balanced Scorecard approach, it has been included because of the recent emphasis on IT regulatory issues. Is effective stewardship maintained over IT costs? Is the infrastructure protected from unauthorized changes? Is the infrastructure adequately protected from security risks? 'Provide effective stewardship of IT finances', 'Use a repeatable process for handling changes', 'Provide a repeatable process for rolling out releases' and 'Maintain viability of IT Service Continuity Plans' are examples of some CSFs that contribute to Regulatory.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-30;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-30";
+	dcterms:modified "2016-09-30";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-30";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+.
