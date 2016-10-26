@@ -93,12 +93,19 @@ ogit:belongs
 			dcterms:description "Added comment -> event";
 			dcterms:creator "Philipp Pelchmann";
 		]
+
 		[
             dcterms:identifier "14";
             dcterms:date "2016-08-08";
             dcterms:description "Removed edges for `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`. Added edges for `BusinessProcess/Survey` -> `BusinessProcess/Milestone`, `BusinessProcess/Survey` -> `BusinessProcess/Project`, `BusinessProcess/Survey` -> `Organization`, `BusinessProcess/SurveyReply` -> `BusinessProcess/SurveyIteration`. Renamed `BusinessProcess/SurveyCycle` to `BusinessProcess/SurveyIteration`";
             dcterms:creator "Alexander Ryabtsev";
         ]
+		[
+			dcterms:identifier "15";
+			dcterms:date "2016-10-26";
+			dcterms:description "Added Organization -> Alert";
+			dcterms:creator "stravlos@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -249,5 +256,9 @@ ogit:belongs
             ogit:from ogit.BusinessProcess:SurveyReply;
             ogit:to ogit.BusinessProcess:SurveyIteration;
         ]
+		[
+			ogit:from ogit:Organization;
+			ogit:to ogit:Alert;
+		]
 	);
 .

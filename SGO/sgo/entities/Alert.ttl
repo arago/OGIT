@@ -1,0 +1,40 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:Alert
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Alert";
+	dcterms:description "Alerts are used to notify users if certain events happen.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-10-26;";
+	dcterms:creator "stravlos@arago.de";
+	dcterms:created "2016-10-26";
+	dcterms:modified "2016-10-261";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "SGO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:type
+		ogit:creator
+		ogit:function
+		ogit:value
+                ogit:category
+	);
+	ogit:optional-attributes (
+
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-10-26";
+			dcterms:description "initial";
+			dcterms:creator "stravlos@arago.de";
+		]
+	);
+.

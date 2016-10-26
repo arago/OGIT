@@ -109,6 +109,12 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			dcterms:description "Removed edges for `ogit/Person` -> `ogit/BusinessProcess/Project`, `ogit/Person` -> `ogit/BusinessProcess/Milestone`";
 			dcterms:creator "Arthur Shoba";
 		]
+        [
+			dcterms:identifier "14";
+			dcterms:date "2016-10-26";
+			dcterms:description "Add edge for `ogit/Person` -> `ogit/Alert`";
+			dcterms:creator "stravlos@arago.co";
+		]
 	);
 	ogit:allowed (
 		[
@@ -186,6 +192,10 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 		[
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit.Forum:Rating;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit:Alert;
 		]
 	);
 .
