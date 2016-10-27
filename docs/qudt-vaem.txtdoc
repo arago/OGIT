@@ -1,9 +1,0 @@
-/*! @addtogroup entities
- *  @{
- *  @addtogroup entitiesQUDT-vaem QUDT-vaem
- *  @{
- *  [QUDT](http://www.qudt.org/) is an ontology framework for modeling quantities, units, dimensions and types.
- *  This module contains the VAEM vocabulary (vocabulary for attaching essential metadata).
- *  @}
- *  @}
- */
