@@ -68,6 +68,12 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			dcterms:description "Added a connection from `ogit/Automation/MARSNode` -> `ogit/Automation/MARSNode`";
 			dcterms:creator "Aymen Ayoub";
 		]
+	[
+			dcterms:identifier "8";
+			dcterms:date "2016-10-26";
+			dcterms:description "Added a connection from `ogit/Alert` -> `ogit/License`";
+			dcterms:creator "stravlos@arago.co";
+		]
 	);
 	ogit:allowed (
 		[
@@ -513,6 +519,10 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 		[
 			ogit:from ogit.Automation:MARSNode;
 			ogit:to ogit.Network:NetworkInterface;
+		]
+		[
+			ogit:from ogit:Alert;
+			ogit:to ogit:License;
 		]
 	);
 .
