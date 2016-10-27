@@ -27,6 +27,8 @@ ogit.BusinessProcess:Survey
 		ogit:description
 		ogit:surveyQuestions
 		ogit:schedule
+		ogit:type
+		ogit:status
 	);
 	ogit:indexed-attributes (
         ogit:title
