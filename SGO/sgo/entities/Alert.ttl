@@ -19,12 +19,11 @@ ogit:Alert
 	ogit:mandatory-attributes (
 		ogit:type
 		ogit:creator
-		ogit:function
-		ogit:value
                 ogit:category
 	);
 	ogit:optional-attributes (
-
+                ogit:function
+		ogit:value
 	);
 	ogit:indexed-attributes (
 		
@@ -34,6 +33,12 @@ ogit:Alert
 			dcterms:identifier "1";
 			dcterms:date "2016-10-26";
 			dcterms:description "initial";
+			dcterms:creator "stravlos@arago.de";
+		]
+                [
+			dcterms:identifier "2";
+			dcterms:date "2016-11-02";
+			dcterms:description "make attributes optional";
 			dcterms:creator "stravlos@arago.de";
 		]
 	);
