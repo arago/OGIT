@@ -10,8 +10,8 @@
     float: none;
     display: inline;
     margin-top: 8px;
-    right: 10px;
-    width: 200px;
+    right: 0px;
+    width: 170px;
     z-index: 102;
     background-color: white;
 }
@@ -23,7 +23,7 @@
     left:10px;
     width:20px;
     height:19px;
-/*    background:url('search_l.png') no-repeat;*/
+    background:url('search_l.png') no-repeat;
     background-position:right;
 }
 
@@ -31,11 +31,7 @@
     display:block;
     position:absolute;
     width:20px;
-    height:21px;
-    padding-left:4px;
-    padding-right:4px;
-    background:#fff;
-    float:left;
+    height:19px;
 }
 
 .left #MSearchSelect {
@@ -47,17 +43,17 @@
 }
 
 #MSearchField {
-    float:right;
     display:block;
     position:absolute;
     height:19px;
-/*    background:url('search_m.png') repeat-x;*/
+    background:url('search_m.png') repeat-x;
     border:none;
-    width:150px;
-    margin-left:30px;
+    width:111px;
+    margin-left:20px;
     padding-left:4px;
     color: #909090;
     outline: none;
+    font: 9pt Arial, Verdana, sans-serif;
 }
 
 #FSearchBox #MSearchField {
@@ -67,11 +63,11 @@
 #MSearchBox .right {
     display:block;
     position:absolute;
-    right:5px;
-    top:2px;
+    right:10px;
+    top:0px;
     width:20px;
     height:19px;
-/*    background:url('search_r.png') no-repeat;*/
+    background:url('search_r.png') no-repeat;
     background-position:left;
 }
 
@@ -98,40 +94,46 @@
     color: #000000;
 }
 
+/*---------------- Search filter selection */
 
 #MSearchSelectWindow {
     display: none;
     position: absolute;
-    left: 0; 
-    top: 0;
-    border: 1px solid #777;
-    border-top:0px;
-    background-color: #fff;
+    left: 0; top: 0;
+    border: 1px solid #90A5CE;
+    background-color: #F9FAFC;
     z-index: 1;
-    padding:5px;   
+    padding-top: 4px;
+    padding-bottom: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
 .SelectItem {
+    font: 8pt Arial, Verdana, sans-serif;
     padding-left:  2px;
     padding-right: 12px;
     border: 0px;
 }
-/*
+
 span.SelectionMark {
     margin-right: 4px;
-     family: monospace;
+    font-family: monospace;
     outline-style: none;
     text-decoration: none;
 }
-*/
+
 a.SelectItem {
     display: block;
     outline-style: none;
-    color: #333; 
+    color: #000000; 
     text-decoration: none;
-    padding-left:  9px;
+    padding-left:   6px;
     padding-right: 12px;
-    font-size:0.8em;
 }
 
 a.SelectItem:focus,
@@ -142,10 +144,15 @@ a.SelectItem:active {
 }
 
 a.SelectItem:hover {
-    color: #777;
-
+    color: #FFFFFF;
+    background-color: #3D578C;
+    outline-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
 }
 
+/*---------------- Search results window */
 
 iframe#MSearchResults {
     width: 60ex;
@@ -157,9 +164,10 @@ iframe#MSearchResults {
     position: absolute;
     left: 0; top: 0;
     border: 1px solid #000;
-    background-color: #fff;
+    background-color: #EEF1F7;
 }
 
+/* ----------------------------------- */
 
 
 #SRIndex {
@@ -168,10 +176,12 @@ iframe#MSearchResults {
 }
 
 .SREntry {
+    font-size: 10pt;
     padding-left: 1ex;
 }
 
 .SRPage .SREntry {
+    font-size: 8pt;
     padding: 1px 5px;
 }
 
@@ -188,21 +198,17 @@ body.SRPage {
 }
 
 .SRSymbol {
-    font-size: 0.8em;
-    padding:3px;
-    color: #010101;
+    font-weight: bold; 
+    color: #425E97;
+    font-family: Arial, Verdana, sans-serif;
     text-decoration: none;
     outline: none;
-}
-
-
-.SRSymbol:hover {
-    color: #777;
 }
 
 a.SRScope {
     display: block;
     color: #425E97; 
+    font-family: Arial, Verdana, sans-serif;
     text-decoration: none;
     outline: none;
 }
@@ -218,6 +224,8 @@ span.SRScope {
 
 .SRPage .SRStatus {
     padding: 2px 5px;
+    font-size: 8pt;
+    font-style: italic;
 }
 
 .SRResult {
@@ -229,6 +237,7 @@ DIV.searchresults {
     margin-right: 10px;
 }
 
+/*---------------- External search page results */
 
 .searchresult {
     background-color: #F0F3F8;
@@ -237,7 +246,7 @@ DIV.searchresults {
 .pages b {
    color: white;
    padding: 5px 5px 3px 5px;
-   
+   background-image: url("../tab_a.png");
    background-repeat: repeat-x;
    text-shadow: 0 1px 1px #000000;
 }
@@ -249,7 +258,7 @@ DIV.searchresults {
 }
 
 .hl {
-     weight: bold;
+    font-weight: bold;
 }
 
 #searchresults {
@@ -259,7 +268,4 @@ DIV.searchresults {
 .searchpages {
     margin-top: 10px;
 }
-
-
-/**/
 
