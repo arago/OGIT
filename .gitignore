@@ -2,3 +2,13 @@
 .DS_Store
 # for Emacs
 *~
+# Generated documentation 
+docs/doxy.java
+docs/html/
+docs/latex/
+docs/man/
+docs/rtf/
+docs/searchdata.xml
+docs/xml/
+tmp/
+
