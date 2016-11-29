@@ -27,6 +27,7 @@ ogit:License
 		ogit:createdAt
 		ogit:licenseType
                 ogit:creator
+                ogit:validTo
 	);
 	ogit:indexed-attributes (
 		
@@ -37,6 +38,12 @@ ogit:License
 			dcterms:date "2015-05-21";
 			dcterms:description "initial";
 			dcterms:creator "Peter Larem";
+		]
+[
+			dcterms:identifier "2";
+			dcterms:date "2016-11-29";
+			dcterms:description "add attribute validTo";
+			dcterms:creator "stravlos@arago.co";
 		]
 	);
 .
