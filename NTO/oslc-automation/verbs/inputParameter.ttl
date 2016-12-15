@@ -1,0 +1,35 @@
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:        <http://purl.org/dc/terms/> .
+@prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.OSCL-auto: <http://www.purl.org/ogit/OSLC-automation/> .
+@prefix owl:            <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit:           <http://www.purl.org/ogit/> .
+
+ogit.OSCL-auto:inputParameter
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "inputParameter";
+	ogit:original <http://open-services.net/ns/auto#inputParameter>;
+	dcterms:description "Parameters provided when Automation Requests are created. These include parameters provided by the creator of the Automation Request (whether by delegated UI or HTTP POST) and *MAY* include additional parameters added by the service provider during Automation Request creation. See the definition of the `oslc_auto:parameterDefinition` attribute of the Automation Plan for additional guidance on determining which parameters are required. Creators of Automation Requests *MAY* provide parameters beyond those defined in the Automation Plan without guarantee the service provider will recognize or honor them. It is expected that this attribute is write-able on Automation Request creation and read-only thereafter.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-22;";
+	dcterms:creator "OGIT Importer";
+	dcterms:created "2016-09-22";
+	dcterms:modified "2016-09-22";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-09-22";
+			dcterms:description "initial";
+			dcterms:creator "OGIT Importer";
+		]
+	);
+	ogit:allowed (
+
+	);
+.
