@@ -70,6 +70,12 @@ ogit:relates
 			dcterms:description "added event-> event, event-> incident";
 			dcterms:creator "Philipp Pelchmann";
 		]
+		[
+			dcterms:identifier "8";
+			dcterms:date "2016-12-20";
+			dcterms:description "added from ogit/Person to ogit/BusinessProcess/SurveyIteration";
+			dcterms:creator "Alexander Ryabtsev";
+		]
 	);
 	ogit:allowed (
 		[
@@ -255,6 +261,10 @@ ogit:relates
 		[
 			ogit:from ogit.Forum:KnowledgeItemHistory;
 			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:SurveyIteration;
 		]
 	);
 .
