@@ -28,6 +28,7 @@ ogit:License
 		ogit:licenseType
                 ogit:creator
                 ogit:validTo
+                ogit:deadline
 	);
 	ogit:indexed-attributes (
 		
@@ -43,6 +44,12 @@ ogit:License
 			dcterms:identifier "2";
 			dcterms:date "2016-11-29";
 			dcterms:description "add attribute validTo";
+			dcterms:creator "stravlos@arago.co";
+		]
+[
+			dcterms:identifier "3";
+			dcterms:date "2016-12-19";
+			dcterms:description "add attribute deadlie";
 			dcterms:creator "stravlos@arago.co";
 		]
 	);

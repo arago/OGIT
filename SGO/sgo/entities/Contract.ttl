@@ -25,6 +25,7 @@ ogit:Contract
 		ogit:validFrom
 		ogit:expirationDate
 		ogit:status
+                ogit:deadline
 	);
 	ogit:indexed-attributes (
 		
@@ -35,6 +36,12 @@ ogit:Contract
 			dcterms:date "2015-05-21";
 			dcterms:description "initial";
 			dcterms:creator "Peter Larem";
+		]
+[
+			dcterms:identifier "2";
+			dcterms:date "2016-12-19";
+			dcterms:description "add attribute ogit/deadline";
+			dcterms:creator "stravlos@arago.co";
 		]
 	);
 .
