@@ -8,6 +8,7 @@
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
 
 ogit:relates
 	a owl:ObjectProperty;
@@ -69,6 +70,12 @@ ogit:relates
 			dcterms:date "2016-08-03";
 			dcterms:description "added event-> event, event-> incident";
 			dcterms:creator "Philipp Pelchmann";
+		]
+		[
+			dcterms:identifier "8";
+			dcterms:date "2016-12-20";
+			dcterms:description "added from ogit/Person to ogit/BusinessProcess/SurveyIteration";
+			dcterms:creator "Alexander Ryabtsev";
 		]
 	);
 	ogit:allowed (
@@ -255,6 +262,10 @@ ogit:relates
 		[
 			ogit:from ogit.Forum:KnowledgeItemHistory;
 			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:SurveyIteration;
 		]
 	);
 .
