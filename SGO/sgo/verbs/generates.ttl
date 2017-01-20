@@ -52,6 +52,12 @@ ogit:generates
 			dcterms:description "connection added";
 			dcterms:creator "stravlos";
 		]
+                [
+			dcterms:identifier "6";
+			dcterms:date "2017-01-20";
+			dcterms:description "connection added";
+			dcterms:creator "stravlos";
+		]
 	);
 	ogit:allowed (
 		[
@@ -130,8 +136,12 @@ ogit:generates
 			ogit:from ogit:License;
 			ogit:to ogit:Timeseries;
 		]
-[
+                [
 			ogit:from ogit:Organization;
+			ogit:to ogit:Timeseries;
+		]
+                [
+			ogit:from ogit:Contract;
 			ogit:to ogit:Timeseries;
 		]
 	);
