@@ -3,6 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
 
 ogit:supports
 	a owl:ObjectProperty;
@@ -53,5 +54,13 @@ ogit:supports
 			ogit:from ogit:Organization;
 			ogit:to ogit:Organization;
 		]
+		[
+            ogit:from ogit:Organization;
+            ogit:to ogit.BusinessProcess:Project;
+        ]
+		[
+            ogit:from ogit:Person;
+            ogit:to ogit.BusinessProcess:Project;
+        ]
 	);
 .
