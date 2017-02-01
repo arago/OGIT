@@ -61,12 +61,12 @@ ogit:supports
 			ogit:to ogit:Organization;
 		]
 		[
-            ogit:from ogit:Organization;
-            ogit:to ogit.BusinessProcess:Project;
+			ogit:from ogit:Organization;
+			ogit:to ogit.BusinessProcess:Project;
 		]
 		[
-            ogit:from ogit:Person;
-            ogit:to ogit.BusinessProcess:Project;
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:Project;
 		]
 	);
 .
