@@ -3,6 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
 
 ogit:supports
 	a owl:ObjectProperty;
@@ -35,6 +36,12 @@ ogit:supports
 			dcterms:description "add new connection Org -> Org";
 			dcterms:creator "Peter Larem";
 		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2017-2-1";
+			dcterms:description "add new connections Org -> Project and Person -> Project";
+			dcterms:creator "Vitaly Teremasov";
+		]
 	);
 	ogit:allowed (
 		[
@@ -52,6 +59,14 @@ ogit:supports
 		[
 			ogit:from ogit:Organization;
 			ogit:to ogit:Organization;
+		]
+		[
+			ogit:from ogit:Organization;
+			ogit:to ogit.BusinessProcess:Project;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:Project;
 		]
 	);
 .
