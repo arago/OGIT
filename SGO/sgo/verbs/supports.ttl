@@ -36,6 +36,12 @@ ogit:supports
 			dcterms:description "add new connection Org -> Org";
 			dcterms:creator "Peter Larem";
 		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2017-2-1";
+			dcterms:description "add new connections Org -> Project and Person -> Project";
+			dcterms:creator "Vitaly Teremasov";
+		]
 	);
 	ogit:allowed (
 		[
@@ -57,10 +63,10 @@ ogit:supports
 		[
             ogit:from ogit:Organization;
             ogit:to ogit.BusinessProcess:Project;
-        ]
+		]
 		[
             ogit:from ogit:Person;
             ogit:to ogit.BusinessProcess:Project;
-        ]
+		]
 	);
 .
