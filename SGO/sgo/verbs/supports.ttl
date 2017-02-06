@@ -42,6 +42,12 @@ ogit:supports
 			dcterms:description "add new connections Org -> Project and Person -> Project";
 			dcterms:creator "Vitaly Teremasov";
 		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2017-02-06";
+			dcterms:description "Add edge from Person to Milestone.";
+			dcterms:creator "Alexander Ryabtsev";
+		]
 	);
 	ogit:allowed (
 		[
@@ -67,6 +73,10 @@ ogit:supports
 		[
 			ogit:from ogit:Person;
 			ogit:to ogit.BusinessProcess:Project;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:Milestone;
 		]
 	);
 .

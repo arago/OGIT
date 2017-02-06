@@ -23,6 +23,12 @@ ogit:produces
             dcterms:description "initial";
             dcterms:creator "Alexander Ryabtsev";
         ]
+        [
+            dcterms:identifier "2";
+            dcterms:date "2017-02-06";
+            dcterms:description "Add edge from person to milestone.";
+            dcterms:creator "Alexander Ryabtsev";
+        ]
 	);
 	ogit:allowed (
 		[
@@ -32,6 +38,10 @@ ogit:produces
 		[
             ogit:from ogit:Organization;
             ogit:to ogit.BusinessProcess:Project;
+        ]
+        [
+            ogit:from ogit:Person;
+            ogit:to ogit.BusinessProcess:Milestone;
         ]
 	);
 .
