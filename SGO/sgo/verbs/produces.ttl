@@ -43,5 +43,9 @@ ogit:produces
             ogit:from ogit:Person;
             ogit:to ogit.BusinessProcess:Milestone;
         ]
+        [
+            ogit:from ogit:Organization;
+            ogit:to ogit.BusinessProcess:SurveyIteration;
+        ]
 	);
 .
