@@ -37,10 +37,8 @@ The following links provide more information on OGIT and GraphIT.
 
 (Pages updated on daily basis)
 
-* [OGIT documentation](https://graphit.co/ogit_docs/latest) for all elements of the OGIT ontology
-* [OGIT visualization](https://graphit.co/ogit/graph.php?dataset=ontology)
-* [GraphIT developer resources](https://autopilot.co/docs/5.3.0/html/content/5.3.0-developer-contents.html) (free registration required)
-* [GraphIT API reference](https://autopilot.co/docs/5.3.1/html/content/5.3-developer-graphit-rest-api.html) (free registration required)
+* [OGIT documentation](https://arago.github.io/OGIT/) for all elements of the OGIT ontology
+* [GraphIT developer resources](https://docs.hiro.arago.co) (free registration required)
 
 ## Getting Support
 
