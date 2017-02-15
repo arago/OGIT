@@ -1224,11 +1224,11 @@ SEARCHENGINE           = YES
 # full text search. The disadvantages are that it is more difficult to setup
 # and does not have live searching capabilities.
 
-SERVER_BASED_SEARCH    = YES
+SERVER_BASED_SEARCH    = NO
 
-EXTERNAL_SEARCH        = YES
+EXTERNAL_SEARCH        = NO
 
-SEARCHENGINE_URL       = https://graphit.co/cgi-bin/doxysearch.cgi
+SEARCHENGINE_URL       = 
 
 #---------------------------------------------------------------------------
 # configuration options related to the LaTeX output
