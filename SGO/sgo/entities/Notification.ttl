@@ -6,14 +6,12 @@ ogit:Notification
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Notification";
-	dcterms:description """A marker that something of interest has happened. The entity is likely used to track the
-generation of the notification and whether the intended recipient has seen it, rather than
-containing the content directly.""";
+	dcterms:description """A notification event""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
 	dcterms:created "2015-04-27";
-	dcterms:modified "2015-04-27";
+	dcterms:modified "2017-02-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -33,6 +31,12 @@ containing the content directly.""";
 			dcterms:date "2015-04-27";
 			dcterms:description "Initial Creation";
 			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2017-02-17";
+			dcterms:description "Make description more general";
+			dcterms:creator "stravlos@arago.de";
 		]
 	);
 .
