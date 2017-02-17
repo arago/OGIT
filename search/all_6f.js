@@ -772,6 +772,7 @@ var searchData=
   ['ogit_2frddl_2fpurpose',['ogit/RDDL/purpose',['../group__httpwwwpurlorgogitRDDLpurpose.html',1,'']]],
   ['ogit_2frddl_2fresource',['ogit/RDDL/Resource',['../group__httpwwwpurlorgogitRDDLResource.html',1,'(Global Namespace)'],['../group__httpwwwpurlorgogitRDDLresource.html',1,'(Global Namespace)']]],
   ['ogit_2freason',['ogit/reason',['../group__httpwwwpurlorgogitreason.html',1,'']]],
+  ['ogit_2freceives',['ogit/receives',['../group__httpwwwpurlorgogitreceives.html',1,'']]],
   ['ogit_2freceivesfrom',['ogit/receivesFrom',['../group__httpwwwpurlorgogitreceivesFrom.html',1,'']]],
   ['ogit_2fregion',['ogit/Region',['../group__httpwwwpurlorgogitRegion.html',1,'']]],
   ['ogit_2frejects',['ogit/rejects',['../group__httpwwwpurlorgogitrejects.html',1,'']]],

@@ -55,6 +55,7 @@ var group__verbsSGO =
     [ "ogit/produces", "group__httpwwwpurlorgogitproduces.html", null ],
     [ "ogit/proves", "group__httpwwwpurlorgogitproves.html", null ],
     [ "ogit/provides", "group__httpwwwpurlorgogitprovides.html", null ],
+    [ "ogit/receives", "group__httpwwwpurlorgogitreceives.html", null ],
     [ "ogit/receivesFrom", "group__httpwwwpurlorgogitreceivesFrom.html", null ],
     [ "ogit/rejects", "group__httpwwwpurlorgogitrejects.html", null ],
     [ "ogit/relates", "group__httpwwwpurlorgogitrelates.html", null ],
