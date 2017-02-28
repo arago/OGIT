@@ -2,6 +2,7 @@ var group__attributes =
 [
     [ "Automation", "group__attributesAutomation.html", "group__attributesAutomation" ],
     [ "BusinessProcess", "group__attributesBusinessProcess.html", "group__attributesBusinessProcess" ],
+    [ "DataProcessing", "group__attributesDataProcessing.html", "group__attributesDataProcessing" ],
     [ "Datacenter", "group__attributesDatacenter.html", "group__attributesDatacenter" ],
     [ "Forum", "group__attributesForum.html", "group__attributesForum" ],
     [ "OSLC-automation", "group__attributesOSLC-automation.html", "group__attributesOSLC-automation" ],

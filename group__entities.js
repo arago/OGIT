@@ -3,6 +3,7 @@ var group__entities =
     [ "Automation", "group__entitiesAutomation.html", "group__entitiesAutomation" ],
     [ "BusinessProcess", "group__entitiesBusinessProcess.html", "group__entitiesBusinessProcess" ],
     [ "Cost", "group__entitiesCost.html", "group__entitiesCost" ],
+    [ "DataProcessing", "group__entitiesDataProcessing.html", "group__entitiesDataProcessing" ],
     [ "Datacenter", "group__entitiesDatacenter.html", "group__entitiesDatacenter" ],
     [ "Forum", "group__entitiesForum.html", "group__entitiesForum" ],
     [ "Network", "group__entitiesNetwork.html", "group__entitiesNetwork" ],
