@@ -22,6 +22,7 @@ ogit.DataProcessing:Program
 		ogit.DataProcessing:query
 		ogit.DataProcessing:parameters
 		ogit.DataProcessing:outputType
+		ogit:content
 	);
 	ogit:optional-attributes (
 		ogit:name
