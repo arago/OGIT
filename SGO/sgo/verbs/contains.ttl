@@ -10,6 +10,7 @@
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
 
 ogit:contains
 	a owl:ObjectProperty;
@@ -68,11 +69,17 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			dcterms:description "Added a connection from `ogit/Automation/MARSNode` -> `ogit/Automation/MARSNode`";
 			dcterms:creator "Aymen Ayoub";
 		]
-	[
+		[
 			dcterms:identifier "8";
 			dcterms:date "2016-10-26";
 			dcterms:description "Added a connection from `ogit/Alert` -> `ogit/License`";
 			dcterms:creator "stravlos@arago.co";
+		]
+		[
+			dcterms:identifier "9";
+			dcterms:date "2017-03-23";
+			dcterms:description "add connection for Knowledge:AcuqisitionSession's";
+			dcterms:creator "cwalker@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -523,6 +530,10 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 		[
 			ogit:from ogit:Alert;
 			ogit:to ogit:License;
+		]
+		[
+			ogit:from ogit.Knowledge:AcquisitionSession;
+			ogit:to ogit:Comment;
 		]
 	);
 .
