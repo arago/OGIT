@@ -241,6 +241,14 @@ ogit:belongs
 			ogit:to ogit.BusinessProcess:Survey;
 		]
 		[
+			ogit:from ogit.BusinessProcess:SurveyIteration;
+			ogit:to ogit.BusinessProcess:Project;
+		]
+		[
+			ogit:from ogit.BusinessProcess:SurveyIteration;
+			ogit:to ogit.BusinessProcess:Milestone;
+		]
+		[
             ogit:from ogit.BusinessProcess:Survey;
             ogit:to ogit.BusinessProcess:Project;
         ]
