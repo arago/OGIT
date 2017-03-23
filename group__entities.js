@@ -6,6 +6,7 @@ var group__entities =
     [ "DataProcessing", "group__entitiesDataProcessing.html", "group__entitiesDataProcessing" ],
     [ "Datacenter", "group__entitiesDatacenter.html", "group__entitiesDatacenter" ],
     [ "Forum", "group__entitiesForum.html", "group__entitiesForum" ],
+    [ "Knowledge", "group__entitiesKnowledge.html", "group__entitiesKnowledge" ],
     [ "Network", "group__entitiesNetwork.html", "group__entitiesNetwork" ],
     [ "OSLC-arch", "group__entitiesOSLC-arch.html", "group__entitiesOSLC-arch" ],
     [ "OSLC-asset", "group__entitiesOSLC-asset.html", "group__entitiesOSLC-asset" ],

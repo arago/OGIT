@@ -332,6 +332,8 @@ var searchData=
   ['ogit_2fissupported',['ogit/isSupported',['../group__httpwwwpurlorgogitisSupported.html',1,'']]],
   ['ogit_2fisvalid',['ogit/isValid',['../group__httpwwwpurlorgogitisValid.html',1,'']]],
   ['ogit_2fjustification',['ogit/justification',['../group__httpwwwpurlorgogitjustification.html',1,'']]],
+  ['ogit_2fknowledge_2facquisitionsession',['ogit/Knowledge/AcquisitionSession',['../group__httpwwwpurlorgogitKnowledgeAcquisitionSession.html',1,'']]],
+  ['ogit_2fknowledge_2fstep',['ogit/Knowledge/Step',['../group__httpwwwpurlorgogitKnowledgeStep.html',1,'']]],
   ['ogit_2flastclearedat',['ogit/lastClearedAt',['../group__httpwwwpurlorgogitlastClearedAt.html',1,'']]],
   ['ogit_2flastname',['ogit/lastName',['../group__httpwwwpurlorgogitlastName.html',1,'']]],
   ['ogit_2flastoccurredat',['ogit/lastOccurredAt',['../group__httpwwwpurlorgogitlastOccurredAt.html',1,'']]],
