@@ -17,7 +17,7 @@ ogit:manages
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2016-07-12";
+	dcterms:modified "2017-03-28";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -40,11 +40,17 @@ ogit:manages
 			dcterms:creator "Arthur Shoba";
 		]
 		[
-            dcterms:identifier "4";
-            dcterms:date "2016-08-08";
-            dcterms:description "Removed edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`";
-            dcterms:creator "Alexander Ryabtsev";
-        ]
+			dcterms:identifier "4";
+			dcterms:date "2016-08-08";
+			dcterms:description "Removed edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`";
+			dcterms:creator "Alexander Ryabtsev";
+		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2017-03-28";
+			dcterms:description "Added edge `Organization` -> `Organization`";
+			dcterms:creator "Ben Neal";
+		]
 	);
 	ogit:allowed (
 		[
@@ -154,6 +160,10 @@ ogit:manages
 		[
 			ogit:from ogit:ConfigurationItem;
 			ogit:to ogit:ConfigurationItem;
+		]
+		[
+			ogit:from ogit:Organization;
+			ogit:to ogit:Organization;
 		]
 	);
 .
