@@ -81,6 +81,12 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			dcterms:description "add connection for Knowledge:AcuqisitionSession's";
 			dcterms:creator "cwalker@arago.de";
 		]
+		[
+			dcterms:identifier "10";
+			dcterms:date "2017-04-05";
+			dcterms:description "Added a connection from `ogit/Alert` -> `ogit/Contract`";
+			dcterms:creator "stravlos@arago.co";
+		]
 	);
 	ogit:allowed (
 		[
@@ -530,6 +536,10 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 		[
 			ogit:from ogit:Alert;
 			ogit:to ogit:License;
+		]
+                [
+			ogit:from ogit:Alert;
+			ogit:to ogit:Contract;
 		]
 		[
 			ogit:from ogit.Knowledge:AcquisitionSession;
