@@ -62,6 +62,7 @@ var group__verbsSGO =
     [ "ogit/repliedWith", "group__httpwwwpurlorgogitrepliedWith.html", null ],
     [ "ogit/reportedOn", "group__httpwwwpurlorgogitreportedOn.html", null ],
     [ "ogit/reports", "group__httpwwwpurlorgogitreports.html", null ],
+    [ "ogit/represents", "group__httpwwwpurlorgogitrepresents.html", null ],
     [ "ogit/requests", "group__httpwwwpurlorgogitrequests.html", null ],
     [ "ogit/requires", "group__httpwwwpurlorgogitrequires.html", null ],
     [ "ogit/responds", "group__httpwwwpurlorgogitresponds.html", null ],
