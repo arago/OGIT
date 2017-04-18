@@ -51,6 +51,12 @@ ogit:manages
 			dcterms:description "Added edge `Organization` -> `Organization`";
 			dcterms:creator "Ben Neal";
 		]
+		[
+			dcterms:identifier "6";
+			dcterms:date "2017-04-18";
+			dcterms:description "Added edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`";
+			dcterms:creator "Vitaly Teremasov";
+		]
 	);
 	ogit:allowed (
 		[
@@ -144,6 +150,10 @@ ogit:manages
 		[
 			ogit:from ogit:Person;
 			ogit:to ogit.Network:VLAN;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:Project;
 		]
 		[
 			ogit:from ogit:Person;
