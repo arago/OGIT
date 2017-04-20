@@ -54,31 +54,31 @@ ogit:relates
 			dcterms:creator "Aymen Ayoub";
 		]
 		[
-			dcterms:identifier "5";
+			dcterms:identifier "6";
 			dcterms:date "2015-07-27";
 			dcterms:description "added from ogit/ConfigurationItem to ogit/Device";
 			dcterms:creator "Philipp Pelchmann";
 		]
 		[
-			dcterms:identifier "6";
+			dcterms:identifier "7";
 			dcterms:date "2015-08-03";
 			dcterms:description "added from ogit/Software/Application to ogit/License";
 			dcterms:creator "FCO";
 		]
 		[
-			dcterms:identifier "7";
+			dcterms:identifier "8";
 			dcterms:date "2016-08-03";
 			dcterms:description "added event-> event, event-> incident";
 			dcterms:creator "Philipp Pelchmann";
 		]
 		[
-			dcterms:identifier "8";
+			dcterms:identifier "9";
 			dcterms:date "2016-12-20";
 			dcterms:description "added from ogit/Person to ogit/BusinessProcess/SurveyIteration";
 			dcterms:creator "Alexander Ryabtsev";
 		]
 		[
-			dcterms:identifier "9";
+			dcterms:identifier "10";
 			dcterms:date "2017-04-20";
 			dcterms:description "connection added";
 			dcterms:creator "stravlos@arago.de";
