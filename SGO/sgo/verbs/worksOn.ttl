@@ -13,7 +13,7 @@ ogit:worksOn
 	dcterms:valid "start=2015-06-24;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-06-24";
-	dcterms:modified "2015-08-13";
+	dcterms:modified "2017-04-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -35,6 +35,12 @@ ogit:worksOn
 			dcterms:description "connection added";
 			dcterms:creator "Peter Larem";
 		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2017-04-20";
+			dcterms:description "connection added";
+			dcterms:creator "stravlos@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -44,6 +50,10 @@ ogit:worksOn
 		[
 			ogit:from ogit.Automation:AutomationIssue;
 			ogit:to ogit.Automation:MARSNode;
+		]
+[
+			ogit:from ogit:Person;
+			ogit:to ogit:Status;
 		]
 	);
 .

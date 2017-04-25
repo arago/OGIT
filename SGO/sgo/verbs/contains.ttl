@@ -21,7 +21,7 @@ ogit:contains
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2016-07-12";
+	dcterms:modified "2017-04-19";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -85,6 +85,12 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			dcterms:identifier "10";
 			dcterms:date "2017-04-05";
 			dcterms:description "Added a connection from `ogit/Alert` -> `ogit/Contract`";
+			dcterms:creator "stravlos@arago.co";
+		]
+                [
+			dcterms:identifier "11";
+			dcterms:date "2017-04-19";
+			dcterms:description "Added a connection from `ogit/Series` -> `ogit/Course`";
 			dcterms:creator "stravlos@arago.co";
 		]
 	);
@@ -544,6 +550,10 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 		[
 			ogit:from ogit.Knowledge:AcquisitionSession;
 			ogit:to ogit:Comment;
+		]
+                [
+			ogit:from ogit:Series;
+			ogit:to ogit:Course;
 		]
 	);
 .
