@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogit__graphtype.html":[0,0,13,6],
+"group__httpwwwpurlorgogit__id.html":[0,0,13,7],
+"group__httpwwwpurlorgogit__is-deleted.html":[0,0,13,8],
 "group__httpwwwpurlorgogit__modified-by-app.html":[0,0,13,10],
 "group__httpwwwpurlorgogit__modified-by.html":[0,0,13,9],
 "group__httpwwwpurlorgogit__modified-on.html":[0,0,13,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "group__verbs.html":[0,2],
 "group__verbsForum.html":[0,2,0],
 "group__verbsOSLC-asset.html":[0,2,1],
-"group__verbsOSLC-automation.html":[0,2,2],
-"group__verbsOSLC-change.html":[0,2,3],
-"group__verbsOSLC-core.html":[0,2,4],
-"group__verbsOSLC-crtv.html":[0,2,5]
+"group__verbsOSLC-automation.html":[0,2,2]
 };
