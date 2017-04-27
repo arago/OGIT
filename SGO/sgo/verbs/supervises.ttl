@@ -83,5 +83,9 @@ ogit:supervises
 			ogit:from ogit:Person;
 			ogit:to ogit:Contract;
 		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.BusinessProcess:Project;
+		]
 	);
 .
