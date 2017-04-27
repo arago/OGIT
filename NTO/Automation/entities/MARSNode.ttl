@@ -107,6 +107,7 @@ describe the business view of the IT environment.""";
 		ogit.Automation:deployStatus
 	);
 	ogit:indexed-attributes (
+		ogit:id
 		ogit:name
 		ogit.Automation:marsNodeFormalRepresentation
 	);
