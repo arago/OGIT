@@ -105,6 +105,7 @@ describe the business view of the IT environment.""";
 		ogit.Automation:projectName
 		ogit.Automation:isDeployed
 		ogit.Automation:deployStatus
+		ogit.Automation:lifecycle
 	);
 	ogit:indexed-attributes (
 		ogit:name
@@ -183,5 +184,11 @@ describe the business view of the IT environment.""";
 			dcterms:description "added a new attribute isDeployed and deployStatus";
 			dcterms:creator "Peter Larem";
 		]
+                [
+                        dcterms:identifier "13";
+                        dcterms:date "2017-05-11";
+                        dcterms:description "added a new attribute lifecycle";
+                        dcterms:creator "Philipp Kählitz";
+                ]
 	);
 .
