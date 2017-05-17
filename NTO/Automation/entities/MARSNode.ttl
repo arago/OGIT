@@ -34,6 +34,7 @@ describe the business view of the IT environment.""";
 		ogit:ipAddress
 		ogit:manufacturer
 		ogit:endOfWarranty
+		ogit.Automation:lifecycle
 		ogit.Automation:software
 		ogit.Automation:softwareKey
 		ogit.Automation:adminUrl
