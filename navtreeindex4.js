@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"group__verbsOSLC-automation.html":[0,2,2],
 "group__verbsOSLC-change.html":[0,2,3],
 "group__verbsOSLC-core.html":[0,2,4],
 "group__verbsOSLC-crtv.html":[0,2,5],

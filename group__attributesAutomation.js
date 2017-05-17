@@ -44,6 +44,7 @@ var group__attributesAutomation =
     [ "ogit/Automation/licenseAvailability", "group__httpwwwpurlorgogitAutomationlicenseAvailability.html", null ],
     [ "ogit/Automation/licenseName", "group__httpwwwpurlorgogitAutomationlicenseName.html", null ],
     [ "ogit/Automation/licenseType", "group__httpwwwpurlorgogitAutomationlicenseType.html", null ],
+    [ "ogit/Automation/lifecycle", "group__httpwwwpurlorgogitAutomationlifecycle.html", null ],
     [ "ogit/Automation/logLevel", "group__httpwwwpurlorgogitAutomationlogLevel.html", null ],
     [ "ogit/Automation/maidFormalRepresentation", "group__httpwwwpurlorgogitAutomationmaidFormalRepresentation.html", null ],
     [ "ogit/Automation/marsNodeFormalRepresentation", "group__httpwwwpurlorgogitAutomationmarsNodeFormalRepresentation.html", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogit__edge__id.html":[0,0,13,5],
 "group__httpwwwpurlorgogit__graphtype.html":[0,0,13,6],
 "group__httpwwwpurlorgogit__id.html":[0,0,13,7],
 "group__httpwwwpurlorgogit__is-deleted.html":[0,0,13,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitworksOn.html":[0,2,11,81],
 "group__verbs.html":[0,2],
 "group__verbsForum.html":[0,2,0],
-"group__verbsOSLC-asset.html":[0,2,1],
-"group__verbsOSLC-automation.html":[0,2,2]
+"group__verbsOSLC-asset.html":[0,2,1]
 };

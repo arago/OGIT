@@ -100,6 +100,7 @@ var searchData=
   ['ogit_2fautomation_2flicenseavailability',['ogit/Automation/licenseAvailability',['../group__httpwwwpurlorgogitAutomationlicenseAvailability.html',1,'']]],
   ['ogit_2fautomation_2flicensename',['ogit/Automation/licenseName',['../group__httpwwwpurlorgogitAutomationlicenseName.html',1,'']]],
   ['ogit_2fautomation_2flicensetype',['ogit/Automation/licenseType',['../group__httpwwwpurlorgogitAutomationlicenseType.html',1,'']]],
+  ['ogit_2fautomation_2flifecycle',['ogit/Automation/lifecycle',['../group__httpwwwpurlorgogitAutomationlifecycle.html',1,'']]],
   ['ogit_2fautomation_2floglevel',['ogit/Automation/logLevel',['../group__httpwwwpurlorgogitAutomationlogLevel.html',1,'']]],
   ['ogit_2fautomation_2fmaid',['ogit/Automation/MAID',['../group__httpwwwpurlorgogitAutomationMAID.html',1,'']]],
   ['ogit_2fautomation_2fmaidformalrepresentation',['ogit/Automation/maidFormalRepresentation',['../group__httpwwwpurlorgogitAutomationmaidFormalRepresentation.html',1,'']]],
