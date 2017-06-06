@@ -2,14 +2,14 @@
 /// @{
 
     /*! \page IssueAPI Issue Processing
-     * An issue is a formalized version of a task that is injected into aAE 
-     * (AutoPilot Engine) via the Issue API. Such a task can be a 
+     * An issue is a formalized version of a task that is injected into aAE
+     * (AutoPilot Engine) via the Issue API. Such a task can be a
      * change request, incident ticket, event, and so on.
-     * 
+     *
      * The aAE will try to get the job done with the help of the Knowledge Items.
      * An issue always contains all the information that describes the task and that has been accumulated up to now in the processing.
-     * 
-     * An issue can be in different states. The following picture shows the 
+     *
+     * An issue can be in different states. The following picture shows the
      * possible state transitions:
      * \image html issue_state_diagram.png
      */

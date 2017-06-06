@@ -1,36 +1,9 @@
-/*! @addtogroup entities
+/*! @addtogroup OSLC-crtv
 *  @{
-*  @addtogroup entitiesOSLC-crtv OSLC-crtv
-*  @{
-*  
+*
 *  [OSLC](http://open-services.net/) is a collection of specifications for
 *  software integration. This module contains entities for [reconciliation
 *  management](http://open-services.net/specifications/reconciliation-2.0).
-*  
-*  @}
-*  @}
-*/
-/*! @addtogroup attributes
-*  @{
-*  @addtogroup attributesOSLC-crtv OSLC-crtv
-*  @{
-*  
-*  [OSLC](http://open-services.net/) is a collection of specifications for
-*  software integration. This module contains entities for [reconciliation
-*  management](http://open-services.net/specifications/reconciliation-2.0).
-*  
-*  @}
-*  @}
-*/
-/*! @addtogroup verbs
-*  @{
-*  @addtogroup verbsOSLC-crtv OSLC-crtv
-*  @{
-*  
-*  [OSLC](http://open-services.net/) is a collection of specifications for
-*  software integration. This module contains entities for [reconciliation
-*  management](http://open-services.net/specifications/reconciliation-2.0).
-*  
-*  @}
+*
 *  @}
 */
