@@ -1,36 +1,9 @@
-/*! @addtogroup entities
+/*! @addtogroup OSLC-change
 *  @{
-*  @addtogroup entitiesOSLC-change OSLC-change
-*  @{
-*  
+*
 *  [OSLC](http://open-services.net/) is a collection of specifications for
 *  software integration. This module contains entities for [change
 *  management](http://open-services.net/specifications/change-management-2.0).
-*  
-*  @}
-*  @}
-*/
-/*! @addtogroup attributes
-*  @{
-*  @addtogroup attributesOSLC-change OSLC-change
-*  @{
-*  
-*  [OSLC](http://open-services.net/) is a collection of specifications for
-*  software integration. This module contains entities for [change
-*  management](http://open-services.net/specifications/change-management-2.0).
-*  
-*  @}
-*  @}
-*/
-/*! @addtogroup verbs
-*  @{
-*  @addtogroup verbsOSLC-change OSLC-change
-*  @{
-*  
-*  [OSLC](http://open-services.net/) is a collection of specifications for
-*  software integration. This module contains entities for [change
-*  management](http://open-services.net/specifications/change-management-2.0).
-*  
-*  @}
+*
 *  @}
 */
