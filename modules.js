@@ -1,12 +1,10 @@
 var modules =
 [
-    [ "Attributes", "group__attributes.html", "group__attributes" ],
     [ "Automation", "group__Automation.html", "group__Automation" ],
     [ "BusinessProcess", "group__BusinessProcess.html", "group__BusinessProcess" ],
     [ "Cost", "group__Cost.html", "group__Cost" ],
     [ "DataProcessing", "group__DataProcessing.html", "group__DataProcessing" ],
     [ "Datacenter", "group__Datacenter.html", "group__Datacenter" ],
-    [ "Entities", "group__entities.html", "group__entities" ],
     [ "Forum", "group__Forum.html", "group__Forum" ],
     [ "Knowledge", "group__Knowledge.html", "group__Knowledge" ],
     [ "Network", "group__Network.html", "group__Network" ],
@@ -26,6 +24,5 @@ var modules =
     [ "ServiceManagement", "group__ServiceManagement.html", "group__ServiceManagement" ],
     [ "Software", "group__Software.html", "group__Software" ],
     [ "Statistics", "group__Statistics.html", "group__Statistics" ],
-    [ "UserMeta", "group__UserMeta.html", "group__UserMeta" ],
-    [ "Verbs", "group__verbs.html", "group__verbs" ]
+    [ "UserMeta", "group__UserMeta.html", "group__UserMeta" ]
 ];

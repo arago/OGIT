@@ -38,6 +38,5 @@ var searchData=
   ['verbs',['Verbs',['../group__OSLC-reqman__verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__RDDL__verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__SGO__verbs.html',1,'']]],
-  ['verbs',['Verbs',['../group__UserMeta__verbs.html',1,'']]],
-  ['verbs',['Verbs',['../group__verbs.html',1,'']]]
+  ['verbs',['Verbs',['../group__UserMeta__verbs.html',1,'']]]
 ];

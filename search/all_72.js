@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['rddl',['RDDL',['../group__attributesRDDL.html',1,'']]],
-  ['rddl',['RDDL',['../group__entitiesRDDL.html',1,'']]],
   ['receivetask',['ReceiveTask',['../group__httpwwwpurlorgogitBusinessProcessReceiveTask.html',1,'']]],
   ['rack',['Rack',['../group__httpwwwpurlorgogitDatacenterRack.html',1,'']]],
   ['rackid',['rackId',['../group__httpwwwpurlorgogitDatacenterrackId.html',1,'']]],
@@ -78,6 +76,5 @@ var searchData=
   ['resolvedat',['resolvedAt',['../group__httpwwwpurlorgogitServiceManagementresolvedAt.html',1,'']]],
   ['resolvedintime',['resolvedInTime',['../group__httpwwwpurlorgogitServiceManagementresolvedInTime.html',1,'']]],
   ['rootcause',['rootCause',['../group__httpwwwpurlorgogitServiceManagementrootCause.html',1,'']]],
-  ['rddl',['RDDL',['../group__RDDL.html',1,'']]],
-  ['rddl',['RDDL',['../group__verbsRDDL.html',1,'']]]
+  ['rddl',['RDDL',['../group__RDDL.html',1,'']]]
 ];

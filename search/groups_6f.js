@@ -1,21 +1,5 @@
 var searchData=
 [
-  ['oslc_2dautomation',['OSLC-automation',['../group__attributesOSLC-automation.html',1,'']]],
-  ['oslc_2dchange',['OSLC-change',['../group__attributesOSLC-change.html',1,'']]],
-  ['oslc_2dcore',['OSLC-core',['../group__attributesOSLC-core.html',1,'']]],
-  ['oslc_2dcrtv',['OSLC-crtv',['../group__attributesOSLC-crtv.html',1,'']]],
-  ['oslc_2dems',['OSLC-ems',['../group__attributesOSLC-ems.html',1,'']]],
-  ['oslc_2dperfmon',['OSLC-perfmon',['../group__attributesOSLC-perfmon.html',1,'']]],
-  ['oslc_2darch',['OSLC-arch',['../group__entitiesOSLC-arch.html',1,'']]],
-  ['oslc_2dasset',['OSLC-asset',['../group__entitiesOSLC-asset.html',1,'']]],
-  ['oslc_2dautomation',['OSLC-automation',['../group__entitiesOSLC-automation.html',1,'']]],
-  ['oslc_2dchange',['OSLC-change',['../group__entitiesOSLC-change.html',1,'']]],
-  ['oslc_2dcore',['OSLC-core',['../group__entitiesOSLC-core.html',1,'']]],
-  ['oslc_2dcrtv',['OSLC-crtv',['../group__entitiesOSLC-crtv.html',1,'']]],
-  ['oslc_2dems',['OSLC-ems',['../group__entitiesOSLC-ems.html',1,'']]],
-  ['oslc_2dperfmon',['OSLC-perfmon',['../group__entitiesOSLC-perfmon.html',1,'']]],
-  ['oslc_2dqm',['OSLC-qm',['../group__entitiesOSLC-qm.html',1,'']]],
-  ['oslc_2dreqman',['OSLC-reqman',['../group__entitiesOSLC-reqman.html',1,'']]],
   ['objectidentifier',['objectIdentifier',['../group__httpwwwpurlorgogitAutomationobjectIdentifier.html',1,'']]],
   ['oskey',['osKey',['../group__httpwwwpurlorgogitAutomationosKey.html',1,'']]],
   ['oslicense',['osLicense',['../group__httpwwwpurlorgogitAutomationosLicense.html',1,'']]],
@@ -55,14 +39,5 @@ var searchData=
   ['oslc_2dems',['OSLC-ems',['../group__OSLC-ems.html',1,'']]],
   ['oslc_2dperfmon',['OSLC-perfmon',['../group__OSLC-perfmon.html',1,'']]],
   ['oslc_2dqm',['OSLC-qm',['../group__OSLC-qm.html',1,'']]],
-  ['oslc_2dreqman',['OSLC-reqman',['../group__OSLC-reqman.html',1,'']]],
-  ['oslc_2dasset',['OSLC-asset',['../group__verbsOSLC-asset.html',1,'']]],
-  ['oslc_2dautomation',['OSLC-automation',['../group__verbsOSLC-automation.html',1,'']]],
-  ['oslc_2dchange',['OSLC-change',['../group__verbsOSLC-change.html',1,'']]],
-  ['oslc_2dcore',['OSLC-core',['../group__verbsOSLC-core.html',1,'']]],
-  ['oslc_2dcrtv',['OSLC-crtv',['../group__verbsOSLC-crtv.html',1,'']]],
-  ['oslc_2dems',['OSLC-ems',['../group__verbsOSLC-ems.html',1,'']]],
-  ['oslc_2dperfmon',['OSLC-perfmon',['../group__verbsOSLC-perfmon.html',1,'']]],
-  ['oslc_2dqm',['OSLC-qm',['../group__verbsOSLC-qm.html',1,'']]],
-  ['oslc_2dreqman',['OSLC-reqman',['../group__verbsOSLC-reqman.html',1,'']]]
+  ['oslc_2dreqman',['OSLC-reqman',['../group__OSLC-reqman.html',1,'']]]
 ];
