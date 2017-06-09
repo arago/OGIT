@@ -2,7 +2,8 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 
 ogit:produces
 	a owl:ObjectProperty;
@@ -13,7 +14,7 @@ ogit:produces
 	dcterms:valid "start=2016-08-08;";
 	dcterms:creator "Alexander Ryabtsev";
 	dcterms:created "2016-08-08";
-	dcterms:modified "2016-08-08";
+	dcterms:modified "2017-06-09";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -29,23 +30,29 @@ ogit:produces
             dcterms:description "Add edge from person to milestone.";
             dcterms:creator "Alexander Ryabtsev";
         ]
+        [
+			dcterms:identifier "3";
+			dcterms:date "2017-06-09";
+			dcterms:description "Refactored names of Project/Survey related concepts";
+			dcterms:creator "Fabian Meyer";
+		]
 	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Person;
-			ogit:to ogit.BusinessProcess:Project;
+			ogit:to ogit.Project:Project;
 		]
 		[
             ogit:from ogit:Organization;
-            ogit:to ogit.BusinessProcess:Project;
+            ogit:to ogit.Project:Project;
         ]
         [
             ogit:from ogit:Person;
-            ogit:to ogit.BusinessProcess:Milestone;
+            ogit:to ogit.Project:Milestone;
         ]
         [
             ogit:from ogit:Organization;
-            ogit:to ogit.BusinessProcess:SurveyIteration;
+            ogit:to ogit.Survey:Iteration;
         ]
 	);
 .

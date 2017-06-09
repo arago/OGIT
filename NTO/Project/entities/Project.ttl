@@ -1,0 +1,57 @@
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Project:Project
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Project";
+	dcterms:description """An identity that represents a grouping of Person, Milestone objects.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-08-08;";
+	dcterms:creator "Arthur Shoba";
+	dcterms:created "2016-07-12";
+	dcterms:modified "2017-06-09";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:any-attributes "true";
+	ogit:mandatory-attributes (
+
+	);
+	ogit:optional-attributes (
+	    ogit:title
+		ogit:category
+		ogit:placement
+		ogit:status
+		ogit:plannedStartDate
+		ogit:plannedFinishDate
+		ogit:startedAt
+		ogit:finishedAt
+	);
+	ogit:indexed-attributes (
+        ogit:title
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2016-07-12";
+			dcterms:description "initial";
+			dcterms:creator "Arthur Shoba";
+		]
+		[
+        dcterms:identifier "2";
+        dcterms:date "2016-08-08";
+        dcterms:description "Attributes rework";
+        dcterms:creator "Alexander Ryabtsev";
+    ]
+    [
+        dcterms:identifier "3";
+        dcterms:date "2017-06-09";
+        dcterms:description "Moved entity from BusinessProcess to Project NTO";
+        dcterms:creator "Fabian Meyer";
+    ]
+	);
+.

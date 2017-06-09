@@ -5,8 +5,9 @@
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
-@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 
 ogit:belongs
 	a owl:ObjectProperty;
@@ -17,7 +18,7 @@ ogit:belongs
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2016-08-08";
+	dcterms:modified "2017-06-09";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -105,6 +106,12 @@ ogit:belongs
 			dcterms:date "2016-10-26";
 			dcterms:description "Added Organization -> Alert";
 			dcterms:creator "stravlos@arago.de";
+		]
+		[
+			dcterms:identifier "16";
+			dcterms:date "2017-06-09";
+			dcterms:description "Refactored names of Project/Survey related concepts";
+			dcterms:creator "Fabian Meyer";
 		]
 	);
 	ogit:allowed (
@@ -233,36 +240,36 @@ ogit:belongs
 			ogit:to ogit:Comment;
 		]
 		[
-			ogit:from ogit.BusinessProcess:Milestone;
-			ogit:to ogit.BusinessProcess:Project;
+			ogit:from ogit.Project:Milestone;
+			ogit:to ogit.Project:Project;
 		]
 		[
-			ogit:from ogit.BusinessProcess:SurveyIteration;
-			ogit:to ogit.BusinessProcess:Survey;
+			ogit:from ogit.Survey:Iteration;
+			ogit:to ogit.Survey:Survey;
 		]
 		[
-			ogit:from ogit.BusinessProcess:SurveyIteration;
-			ogit:to ogit.BusinessProcess:Project;
+			ogit:from ogit.Survey:Iteration;
+			ogit:to ogit.Project:Project;
 		]
 		[
-			ogit:from ogit.BusinessProcess:SurveyIteration;
-			ogit:to ogit.BusinessProcess:Milestone;
+			ogit:from ogit.Survey:Iteration;
+			ogit:to ogit.Project:Milestone;
 		]
 		[
-            ogit:from ogit.BusinessProcess:Survey;
-            ogit:to ogit.BusinessProcess:Project;
+            ogit:from ogit.Survey:Survey;
+            ogit:to ogit.Project:Project;
         ]
         [
-            ogit:from ogit.BusinessProcess:Survey;
-            ogit:to ogit.BusinessProcess:Milestone;
+            ogit:from ogit.Survey:Survey;
+            ogit:to ogit.Project:Milestone;
         ]
         [
-            ogit:from ogit.BusinessProcess:Survey;
+            ogit:from ogit.Survey:Survey;
             ogit:to ogit:Organization;
         ]
         [
-            ogit:from ogit.BusinessProcess:SurveyReply;
-            ogit:to ogit.BusinessProcess:SurveyIteration;
+            ogit:from ogit.Survey:Reply;
+            ogit:to ogit.Survey:Iteration;
         ]
 		[
 			ogit:from ogit:Organization;
