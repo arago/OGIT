@@ -1,9 +1,9 @@
-@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.BusinessProcess:Milestone
+ogit.Project:Milestone
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Milestone";
@@ -12,7 +12,7 @@ ogit.BusinessProcess:Milestone
 	dcterms:valid "start=2016-08-08;";
 	dcterms:creator "Arthur Shoba";
 	dcterms:created "2016-07-12";
-	dcterms:modified "2016-08-08";
+	dcterms:modified "2017-06-09";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -41,10 +41,16 @@ ogit.BusinessProcess:Milestone
 			dcterms:creator "Arthur Shoba";
 		]
 		[
-            dcterms:identifier "2";
-            dcterms:date "2016-08-08";
-            dcterms:description "Attributes rework";
-            dcterms:creator "Alexander Ryabtsev";
-        ]
+        dcterms:identifier "2";
+        dcterms:date "2016-08-08";
+        dcterms:description "Attributes rework";
+        dcterms:creator "Alexander Ryabtsev";
+    ]
+    [
+        dcterms:identifier "3";
+        dcterms:date "2017-06-09";
+        dcterms:description "Moved entity from BusinessProcess to Project NTO";
+        dcterms:creator "Fabian Meyer";
+    ]
 	);
 .
