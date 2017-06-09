@@ -39,7 +39,7 @@ ogit:supports
 		]
 		[
 			dcterms:identifier "4";
-			dcterms:date "2017-2-1";
+			dcterms:date "2017-02-01";
 			dcterms:description "add new connections Org -> Project and Person -> Project";
 			dcterms:creator "Vitaly Teremasov";
 		]
