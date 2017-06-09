@@ -13,7 +13,6 @@ var searchData=
   ['movetoproductionat',['moveToProductionAt',['../group__httpwwwpurlorgogitAutomationmoveToProductionAt.html',1,'']]],
   ['manualtask',['ManualTask',['../group__httpwwwpurlorgogitBusinessProcessManualTask.html',1,'']]],
   ['messageevent',['MessageEvent',['../group__httpwwwpurlorgogitBusinessProcessMessageEvent.html',1,'']]],
-  ['milestone',['Milestone',['../group__httpwwwpurlorgogitBusinessProcessMilestone.html',1,'']]],
   ['multipleevent',['MultipleEvent',['../group__httpwwwpurlorgogitBusinessProcessMultipleEvent.html',1,'']]],
   ['moveproductiondate',['moveProductionDate',['../group__httpwwwpurlorgogitDatacentermoveProductionDate.html',1,'']]],
   ['mentions',['mentions',['../group__httpwwwpurlorgogitForummentions.html',1,'']]],
@@ -61,5 +60,6 @@ var searchData=
   ['messagecount',['MessageCount',['../group__httpwwwpurlorgogitOSLC-perfmonMessageCount.html',1,'']]],
   ['metric',['Metric',['../group__httpwwwpurlorgogitOSLC-perfmonMetric.html',1,'']]],
   ['mobilityenabled',['mobilityEnabled',['../group__httpwwwpurlorgogitOSLC-perfmonmobilityEnabled.html',1,'']]],
-  ['monitoringagent',['monitoringAgent',['../group__httpwwwpurlorgogitOSLC-perfmonmonitoringAgent.html',1,'']]]
+  ['monitoringagent',['monitoringAgent',['../group__httpwwwpurlorgogitOSLC-perfmonmonitoringAgent.html',1,'']]],
+  ['milestone',['Milestone',['../group__httpwwwpurlorgogitProjectMilestone.html',1,'']]]
 ];

@@ -19,10 +19,12 @@ var modules =
     [ "OSLC-qm", "group__OSLC-qm.html", "group__OSLC-qm" ],
     [ "OSLC-reqman", "group__OSLC-reqman.html", "group__OSLC-reqman" ],
     [ "Price", "group__Price.html", "group__Price" ],
+    [ "Project", "group__Project.html", "group__Project" ],
     [ "RDDL", "group__RDDL.html", "group__RDDL" ],
     [ "SGO", "group__SGO.html", "group__SGO" ],
     [ "ServiceManagement", "group__ServiceManagement.html", "group__ServiceManagement" ],
     [ "Software", "group__Software.html", "group__Software" ],
     [ "Statistics", "group__Statistics.html", "group__Statistics" ],
+    [ "Survey", "group__Survey.html", "group__Survey" ],
     [ "UserMeta", "group__UserMeta.html", "group__UserMeta" ]
 ];

@@ -53,10 +53,12 @@ var searchData=
   ['entities',['Entities',['../group__OSLC-qm__entities.html',1,'']]],
   ['entities',['Entities',['../group__OSLC-reqman__entities.html',1,'']]],
   ['entities',['Entities',['../group__Price__entities.html',1,'']]],
+  ['entities',['Entities',['../group__Project__entities.html',1,'']]],
   ['entities',['Entities',['../group__RDDL__entities.html',1,'']]],
   ['entities',['Entities',['../group__ServiceManagement__entities.html',1,'']]],
   ['entities',['Entities',['../group__SGO__entities.html',1,'']]],
   ['entities',['Entities',['../group__Software__entities.html',1,'']]],
   ['entities',['Entities',['../group__Statistics__entities.html',1,'']]],
+  ['entities',['Entities',['../group__Survey__entities.html',1,'']]],
   ['entities',['Entities',['../group__UserMeta__entities.html',1,'']]]
 ];

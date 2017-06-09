@@ -151,7 +151,6 @@ var group__SGO__attributes =
     [ "subType", "group__httpwwwpurlorgogitsubType.html", null ],
     [ "subject", "group__httpwwwpurlorgogitsubject.html", null ],
     [ "summary", "group__httpwwwpurlorgogitsummary.html", null ],
-    [ "surveyQuestions", "group__httpwwwpurlorgogitsurveyQuestions.html", null ],
     [ "taskLog", "group__httpwwwpurlorgogittaskLog.html", null ],
     [ "timestamp", "group__httpwwwpurlorgogittimestamp.html", null ],
     [ "title", "group__httpwwwpurlorgogittitle.html", null ],

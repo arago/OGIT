@@ -1,8 +1,7 @@
 var NAVTREEINDEX1 =
 {
-"group__httpwwwpurlorgogitDevice.html":[0,20,1,11],
-"group__httpwwwpurlorgogitEmail.html":[0,20,1,12],
-"group__httpwwwpurlorgogitEvent.html":[0,20,1,13],
+"group__httpwwwpurlorgogitEmail.html":[0,21,1,12],
+"group__httpwwwpurlorgogitEvent.html":[0,21,1,13],
 "group__httpwwwpurlorgogitForumAward.html":[0,5,1,0],
 "group__httpwwwpurlorgogitForumBanner.html":[0,5,1,1],
 "group__httpwwwpurlorgogitForumConfiguration.html":[0,5,1,2],
@@ -25,13 +24,13 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitForummentions.html":[0,5,2,2],
 "group__httpwwwpurlorgogitForumrates.html":[0,5,2,3],
 "group__httpwwwpurlorgogitForumusername.html":[0,5,0,0],
-"group__httpwwwpurlorgogitHyperlink.html":[0,20,1,14],
+"group__httpwwwpurlorgogitHyperlink.html":[0,21,1,14],
 "group__httpwwwpurlorgogitKnowledgeAcquisitionSession.html":[0,6,0,0],
 "group__httpwwwpurlorgogitKnowledgeStep.html":[0,6,0,1],
-"group__httpwwwpurlorgogitLicense.html":[0,20,1,15],
-"group__httpwwwpurlorgogitLicenseRequest.html":[0,20,1,16],
-"group__httpwwwpurlorgogitLicenseToken.html":[0,20,1,17],
-"group__httpwwwpurlorgogitLocation.html":[0,20,1,18],
+"group__httpwwwpurlorgogitLicense.html":[0,21,1,15],
+"group__httpwwwpurlorgogitLicenseRequest.html":[0,21,1,16],
+"group__httpwwwpurlorgogitLicenseToken.html":[0,21,1,17],
+"group__httpwwwpurlorgogitLocation.html":[0,21,1,18],
 "group__httpwwwpurlorgogitNetworkAccessControlList.html":[0,7,0,0],
 "group__httpwwwpurlorgogitNetworkFCHBA.html":[0,7,0,1],
 "group__httpwwwpurlorgogitNetworkIDSIPS.html":[0,7,0,2],
@@ -57,8 +56,8 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitNetworkSwitch.html":[0,7,0,22],
 "group__httpwwwpurlorgogitNetworkVLAN.html":[0,7,0,23],
 "group__httpwwwpurlorgogitNetworkWifiAccessPoint.html":[0,7,0,24],
-"group__httpwwwpurlorgogitNote.html":[0,20,1,19],
-"group__httpwwwpurlorgogitNotification.html":[0,20,1,20],
+"group__httpwwwpurlorgogitNote.html":[0,21,1,19],
+"group__httpwwwpurlorgogitNotification.html":[0,21,1,20],
 "group__httpwwwpurlorgogitOSLC-archLinkType.html":[0,8,0,0],
 "group__httpwwwpurlorgogitOSLC-archResource.html":[0,8,0,1],
 "group__httpwwwpurlorgogitOSLC-assetArtifact.html":[0,9,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitOSLC-emsEffortMetric.html":[0,14,1,8],
 "group__httpwwwpurlorgogitOSLC-emsEstimate.html":[0,14,1,9],
 "group__httpwwwpurlorgogitOSLC-emsEstimateList.html":[0,14,1,10],
-"group__httpwwwpurlorgogitOSLC-emsFact.html":[0,14,1,11]
+"group__httpwwwpurlorgogitOSLC-emsFact.html":[0,14,1,11],
+"group__httpwwwpurlorgogitOSLC-emsFactDistribution.html":[0,14,1,12]
 };

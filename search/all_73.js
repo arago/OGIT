@@ -16,9 +16,6 @@ var searchData=
   ['sendtask',['SendTask',['../group__httpwwwpurlorgogitBusinessProcessSendTask.html',1,'']]],
   ['servicetask',['ServiceTask',['../group__httpwwwpurlorgogitBusinessProcessServiceTask.html',1,'']]],
   ['signalevent',['SignalEvent',['../group__httpwwwpurlorgogitBusinessProcessSignalEvent.html',1,'']]],
-  ['survey',['Survey',['../group__httpwwwpurlorgogitBusinessProcessSurvey.html',1,'']]],
-  ['surveyiteration',['SurveyIteration',['../group__httpwwwpurlorgogitBusinessProcessSurveyIteration.html',1,'']]],
-  ['surveyreply',['SurveyReply',['../group__httpwwwpurlorgogitBusinessProcessSurveyReply.html',1,'']]],
   ['section',['Section',['../group__httpwwwpurlorgogitDatacenterSection.html',1,'']]],
   ['sectionid',['sectionId',['../group__httpwwwpurlorgogitDatacentersectionId.html',1,'']]],
   ['sensor',['Sensor',['../group__httpwwwpurlorgogitDatacenterSensor.html',1,'']]],
@@ -100,9 +97,10 @@ var searchData=
   ['summary',['summary',['../group__httpwwwpurlorgogitsummary.html',1,'']]],
   ['supervises',['supervises',['../group__httpwwwpurlorgogitsupervises.html',1,'']]],
   ['supports',['supports',['../group__httpwwwpurlorgogitsupports.html',1,'']]],
-  ['surveyquestions',['surveyQuestions',['../group__httpwwwpurlorgogitsurveyQuestions.html',1,'']]],
+  ['survey',['Survey',['../group__httpwwwpurlorgogitSurveySurvey.html',1,'']]],
   ['servicemanagement',['ServiceManagement',['../group__ServiceManagement.html',1,'']]],
   ['sgo',['SGO',['../group__SGO.html',1,'']]],
   ['software',['Software',['../group__Software.html',1,'']]],
-  ['statistics',['Statistics',['../group__Statistics.html',1,'']]]
+  ['statistics',['Statistics',['../group__Statistics.html',1,'']]],
+  ['survey',['Survey',['../group__Survey.html',1,'']]]
 ];
