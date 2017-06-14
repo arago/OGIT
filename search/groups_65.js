@@ -3,6 +3,7 @@ var searchData=
   ['entities',['Entities',['../group__Automation__entities.html',1,'']]],
   ['entities',['Entities',['../group__BusinessProcess__entities.html',1,'']]],
   ['entities',['Entities',['../group__Cost__entities.html',1,'']]],
+  ['entities',['Entities',['../group__Data__entities.html',1,'']]],
   ['entities',['Entities',['../group__Datacenter__entities.html',1,'']]],
   ['entities',['Entities',['../group__DataProcessing__entities.html',1,'']]],
   ['entities',['Entities',['../group__Forum__entities.html',1,'']]],

@@ -6,6 +6,7 @@ var searchData=
   ['lifecycle',['lifecycle',['../group__httpwwwpurlorgogitAutomationlifecycle.html',1,'']]],
   ['loglevel',['logLevel',['../group__httpwwwpurlorgogitAutomationlogLevel.html',1,'']]],
   ['linkevent',['LinkEvent',['../group__httpwwwpurlorgogitBusinessProcessLinkEvent.html',1,'']]],
+  ['log',['Log',['../group__httpwwwpurlorgogitDataLog.html',1,'']]],
   ['lastclearedat',['lastClearedAt',['../group__httpwwwpurlorgogitlastClearedAt.html',1,'']]],
   ['lastname',['lastName',['../group__httpwwwpurlorgogitlastName.html',1,'']]],
   ['lastoccurredat',['lastOccurredAt',['../group__httpwwwpurlorgogitlastOccurredAt.html',1,'']]],

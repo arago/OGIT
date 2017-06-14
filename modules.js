@@ -3,6 +3,7 @@ var modules =
     [ "Automation", "group__Automation.html", "group__Automation" ],
     [ "BusinessProcess", "group__BusinessProcess.html", "group__BusinessProcess" ],
     [ "Cost", "group__Cost.html", "group__Cost" ],
+    [ "Data", "group__Data.html", "group__Data" ],
     [ "DataProcessing", "group__DataProcessing.html", "group__DataProcessing" ],
     [ "Datacenter", "group__Datacenter.html", "group__Datacenter" ],
     [ "Forum", "group__Forum.html", "group__Forum" ],
