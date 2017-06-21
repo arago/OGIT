@@ -30,6 +30,12 @@ ogit:sends
 			dcterms:description "add connection";
 			dcterms:creator "stravlos@arago.de";
 		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2017-06-20";
+			dcterms:description "add connection from ogit.Software:Application to ogit:Notification";
+			dcterms:creator "Alexander Ryabtsev";
+		]
 	);
 	ogit:allowed (
 		[
@@ -374,6 +380,10 @@ ogit:sends
 		]
 		[
 			ogit:from ogit:Person;
+			ogit:to ogit:Notification;
+		]
+		[
+			ogit:from ogit.Software:Application;
 			ogit:to ogit:Notification;
 		]
 	);
