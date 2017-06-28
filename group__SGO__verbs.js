@@ -74,6 +74,7 @@ var group__SGO__verbs =
     [ "subscribes", "group__httpwwwpurlorgogitsubscribes.html", null ],
     [ "supervises", "group__httpwwwpurlorgogitsupervises.html", null ],
     [ "supports", "group__httpwwwpurlorgogitsupports.html", null ],
+    [ "tracks", "group__httpwwwpurlorgogittracks.html", null ],
     [ "transfers", "group__httpwwwpurlorgogittransfers.html", null ],
     [ "triggers", "group__httpwwwpurlorgogittriggers.html", null ],
     [ "updates", "group__httpwwwpurlorgogitupdates.html", null ],
