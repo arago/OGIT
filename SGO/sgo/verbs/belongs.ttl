@@ -283,8 +283,8 @@ ogit:belongs
 			ogit:to ogit:Alert;
 		]
 		[
-			ogit:from ogit:Person;
-			ogit:to ogit.Forum:Profile;
+			ogit:from ogit.Forum:Profile;
+			ogit:to ogit:Person;
 		]
 	);
 .
