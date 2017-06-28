@@ -19,7 +19,7 @@ ogit:relates
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2017-06-09";
+	dcterms:modified "2017-06-28";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -88,6 +88,12 @@ ogit:relates
 			dcterms:date "2017-06-09";
 			dcterms:description "Refactored names of Project/Survey related concepts";
 			dcterms:creator "Fabian Meyer";
+		]
+		[
+			dcterms:identifier "12";
+			dcterms:date "2017-06-28";
+			dcterms:description "Added connection: (Person) -relates-> (Status) -relates-> (Notification)";
+			dcterms:creator "Kristjan Liiva";
 		]
 	);
 	ogit:allowed (
@@ -279,13 +285,21 @@ ogit:relates
 			ogit:from ogit:Person;
 			ogit:to ogit.Survey:Iteration;
 		]
-[
+		[
 			ogit:from ogit:Status;
 			ogit:to ogit:Course;
 		]
-[
+		[
 			ogit:from ogit:Status;
 			ogit:to ogit:Series;
+		]
+		[
+			ogit:from ogit:Status;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit:Status;
+			ogit:to ogit:Notification;
 		]
 	);
 .
