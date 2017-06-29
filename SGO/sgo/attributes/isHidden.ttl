@@ -3,40 +3,24 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit:receives
-	a owl:ObjectProperty;
-	rdfs:subPropertyOf ogit:Verb;
-	rdfs:label "receives";
-	dcterms:description "an entity receives something another entity";
+ogit:isHidden
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "isHidden";
+	dcterms:description "Indicates whether an entity is hidden.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2017-02-17;";
-	dcterms:creator "stravlos@arago.de";
-	dcterms:created "2017-02-17";
+	dcterms:valid "start=2017-06-30;";
+	dcterms:creator "Kristjan Liiva";
+	dcterms:created "2017-06-30";
 	dcterms:modified "2017-06-30";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2017-02-17";
-			dcterms:description "initial";
-			dcterms:creator "stravlos@arago.de";
-		]
-		[
-			dcterms:identifier "2";
 			dcterms:date "2017-06-30";
 			dcterms:description "initial";
 			dcterms:creator "Kristjan Liiva";
-		]
-	);
-	ogit:allowed (
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit:Notification;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit:NotificationStatus;
 		]
 	);
 .
