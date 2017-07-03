@@ -30,13 +30,13 @@ ogit:approves
 			dcterms:creator "bmoore@arago.de";
 		]
 		[
-			dcterms:identifier "2";
+			dcterms:identifier "3";
 			dcterms:date "2015-12-03";
 			dcterms:description "Edited edge Permission -> Forum/Group";
 			dcterms:creator "bmoore@arago.de";
 		]
 		[
-			dcterms:identifier "3";
+			dcterms:identifier "4";
 			dcterms:date "2016-06-23";
 			dcterms:description "connection added";
 			dcterms:creator "Spyridon Travlos";

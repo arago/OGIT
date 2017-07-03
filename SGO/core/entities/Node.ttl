@@ -16,6 +16,7 @@ top level of the SGO.""";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
+  ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:hide "true";
 	ogit:mandatory-attributes (
 		ogit:_id
@@ -34,10 +35,10 @@ top level of the SGO.""";
 		ogit:_edge_id
 	);
 	ogit:optional-attributes (
-		
+
 	);
 	ogit:indexed-attributes (
-		
+
 	);
 	ogit:history (
 		[
