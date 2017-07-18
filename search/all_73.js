@@ -64,6 +64,7 @@ var searchData=
   ['schedule',['schedule',['../group__httpwwwpurlorgogitschedule.html',1,'']]],
   ['schema',['Schema',['../group__httpwwwpurlorgogitSchema.html',1,'']]],
   ['securityclass',['securityClass',['../group__httpwwwpurlorgogitsecurityClass.html',1,'']]],
+  ['seenby',['seenBy',['../group__httpwwwpurlorgogitseenBy.html',1,'']]],
   ['sellsto',['sellsTo',['../group__httpwwwpurlorgogitsellsTo.html',1,'']]],
   ['sends',['sends',['../group__httpwwwpurlorgogitsends.html',1,'']]],
   ['serialnumber',['serialNumber',['../group__httpwwwpurlorgogitserialNumber.html',1,'']]],
