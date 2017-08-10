@@ -16,13 +16,19 @@ ogit:licenseRequestStatus
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
-	ogit:validation-parameter "^(pending|approved|rejected|failed|cancelled)$";
+	ogit:validation-parameter "^(pending|send|approved|rejected|failed|received|cancelled)$";
 	ogit:history (
 		[
 			dcterms:identifier "1";
 			dcterms:date "2015-05-21";
 			dcterms:description "initial";
 			dcterms:creator "Peter Larem";
+		]
+                [
+			dcterms:identifier "2";
+			dcterms:date "2017-08-10";
+			dcterms:description "add more states";
+			dcterms:creator "Miroslaw Glusiuk";
 		]
 	);
 .
