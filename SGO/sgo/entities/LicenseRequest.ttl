@@ -25,6 +25,7 @@ A request might contain a valid LicenseToken to indicate that this request is pr
 		ogit:description
 		ogit:token
 		ogit:licenseRequestStatus
+		ogit:subject
 	);
 	ogit:indexed-attributes (
 		
@@ -35,6 +36,12 @@ A request might contain a valid LicenseToken to indicate that this request is pr
 			dcterms:date "2015-05-21";
 			dcterms:description "initial";
 			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2017-08-14";
+			dcterms:description "added ogit/subject";
+			dcterms:creator "Miroslaw Glusiuk";
 		]
 	);
 .
