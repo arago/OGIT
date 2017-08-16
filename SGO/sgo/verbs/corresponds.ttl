@@ -80,7 +80,7 @@ ogit:corresponds
 			dcterms:identifier "10";
 			dcterms:date "2017-08-16";
 			dcterms:description "Add SubTask->AutomationIssue";
-			dcterms:creator "Philipp Pelchmann";
+			dcterms:creator "Roland Glück";
 		]
 	);
 	ogit:allowed (
