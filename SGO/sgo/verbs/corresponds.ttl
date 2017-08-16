@@ -76,6 +76,12 @@ ogit:corresponds
 			dcterms:description "Added Event->AutomationIssue";
 			dcterms:creator "Philipp Pelchmann";
 		]
+		[
+			dcterms:identifier "10";
+			dcterms:date "2017-08-16";
+			dcterms:description "Add SubTask->AutomationIssue";
+			dcterms:creator "Roland Glück";
+		]
 	);
 	ogit:allowed (
 		[
@@ -128,6 +134,10 @@ ogit:corresponds
 		]
 		[
 			ogit:from ogit:Event;
+			ogit:to ogit.Automation:AutomationIssue;
+		]
+		[
+			ogit:from ogit:SubTask;
 			ogit:to ogit.Automation:AutomationIssue;
 		]
 		[
