@@ -286,5 +286,13 @@ ogit:belongs
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit:Person;
 		]
+		[
+			ogit:from ogit:LicenseRequest;
+			ogit:to ogit:Organization;
+		]
+		[
+			ogit:from ogit:License;
+			ogit:to ogit:LicenseRequest;
+		]
 	);
 .
