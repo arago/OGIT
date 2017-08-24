@@ -16,7 +16,7 @@ ogit:licenseRequestStatus
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
-	ogit:validation-parameter "^(pending|send|approved|rejected|failed|received|cancelled)$";
+	ogit:validation-parameter "^(pending|send|approved|rejected|failed|received|cancelled|closed)$";
 	ogit:history (
 		[
 			dcterms:identifier "1";
