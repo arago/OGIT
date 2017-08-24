@@ -30,5 +30,11 @@ ogit:licenseRequestStatus
 			dcterms:description "add more states";
 			dcterms:creator "Miroslaw Glusiuk";
 		]
+                [
+			dcterms:identifier "3";
+			dcterms:date "2017-08-24";
+			dcterms:description "add missing closed state";
+			dcterms:creator "Miroslaw Glusiuk";
+		]
 	);
 .
