@@ -137,7 +137,7 @@ ogit:corresponds
 			ogit:to ogit.Automation:AutomationIssue;
 		]
 		[
-			ogit:from ogit:SubTask;
+			ogit:from ogit.ServiceManagement:SubTask;
 			ogit:to ogit.Automation:AutomationIssue;
 		]
 		[
