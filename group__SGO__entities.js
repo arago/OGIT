@@ -6,6 +6,7 @@ var group__SGO__entities =
     [ "Attachment", "group__httpwwwpurlorgogitAttachment.html", null ],
     [ "Catalog", "group__httpwwwpurlorgogitCatalog.html", null ],
     [ "CatalogItem", "group__httpwwwpurlorgogitCatalogItem.html", null ],
+    [ "Certificate", "group__httpwwwpurlorgogitCertificate.html", null ],
     [ "Comment", "group__httpwwwpurlorgogitComment.html", null ],
     [ "ConfigurationItem", "group__httpwwwpurlorgogitConfigurationItem.html", null ],
     [ "Contract", "group__httpwwwpurlorgogitContract.html", null ],

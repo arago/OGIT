@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitshortDescription.html":[0,22,0,139],
 "group__httpwwwpurlorgogitsize.html":[0,22,0,140],
 "group__httpwwwpurlorgogitsolves.html":[0,22,2,72],
 "group__httpwwwpurlorgogitsourceId.html":[0,22,0,141],
