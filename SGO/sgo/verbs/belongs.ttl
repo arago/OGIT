@@ -19,7 +19,7 @@ ogit:belongs
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2017-06-09";
+	dcterms:modified "2017-09-05";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -119,6 +119,12 @@ ogit:belongs
 			dcterms:date "2017-06-28";
 			dcterms:description "add connection Person -> Profile";
 			dcterms:creator "Ben Neal";
+		]
+		[
+			dcterms:identifier "18";
+			dcterms:date "2016-09-05";
+			dcterms:description "add certificate -> organization";
+			dcterms:creator "Oday Jubran";
 		]
 	);
 	ogit:allowed (
@@ -293,6 +299,10 @@ ogit:belongs
 		[
 			ogit:from ogit:License;
 			ogit:to ogit:LicenseRequest;
+		]
+		[
+			ogit:from ogit:Certificate;
+			ogit:to ogit:Organization;
 		]
 	);
 .
