@@ -17,10 +17,11 @@ ogit:License
 	ogit:scope "SGO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		ogit:id
+
 	);
 	ogit:optional-attributes (
 		ogit:validFrom
+		ogit:id
 		ogit:expirationDate
 		ogit:subject
 		ogit:licenseKey
