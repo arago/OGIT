@@ -90,6 +90,7 @@ var group__SGO__attributes =
     [ "lastUpdatedBy", "group__httpwwwpurlorgogitlastUpdatedBy.html", null ],
     [ "leaseContract", "group__httpwwwpurlorgogitleaseContract.html", null ],
     [ "lengthOfReportingPeriod", "group__httpwwwpurlorgogitlengthOfReportingPeriod.html", null ],
+    [ "licenseId", "group__httpwwwpurlorgogitlicenseId.html", null ],
     [ "licenseKey", "group__httpwwwpurlorgogitlicenseKey.html", null ],
     [ "licenseRequestStatus", "group__httpwwwpurlorgogitlicenseRequestStatus.html", null ],
     [ "licenseType", "group__httpwwwpurlorgogitlicenseType.html", null ],
