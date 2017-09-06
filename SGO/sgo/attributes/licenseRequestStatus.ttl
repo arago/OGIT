@@ -16,7 +16,7 @@ ogit:licenseRequestStatus
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
-	ogit:validation-parameter "^(pending|send|approved|rejected|failed|received|cancelled|closed)$";
+	ogit:validation-parameter "^(pending|error|approved|rejected|failed|received|cancelled|closed)$";
 	ogit:history (
 		[
 			dcterms:identifier "1";
@@ -35,6 +35,12 @@ ogit:licenseRequestStatus
 			dcterms:date "2017-08-24";
 			dcterms:description "add missing closed state";
 			dcterms:creator "Miroslaw Glusiuk";
+		]
+                [
+			dcterms:identifier "4";
+			dcterms:date "2017-09-06";
+			dcterms:description "add error state";
+			dcterms:creator "Oday Jubran";
 		]
 	);
 .
