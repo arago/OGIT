@@ -17,7 +17,7 @@ ogit:creates
 	dcterms:valid "start=2015-05-19;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-19";
-	dcterms:modified "2016-07-12";
+	dcterms:modified "2017-09-05";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -115,6 +115,12 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			dcterms:description "Add edge for `ogit/Person` -> `ogit/Alert`";
 			dcterms:creator "stravlos@arago.co";
 		]
+        	[
+			dcterms:identifier "15";
+			dcterms:date "2017-09-05";
+			dcterms:description "add Person -> Certificate, Organization -> Certificate";
+			dcterms:creator "stravlos@arago.co";
+		]
 	);
 	ogit:allowed (
 		[
@@ -196,6 +202,14 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 		[
 			ogit:from ogit:Person;
 			ogit:to ogit:Alert;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit:Certificate;
+		]
+		[
+			ogit:from ogit:Organization;
+			ogit:to ogit:Certificate;
 		]
 	);
 .

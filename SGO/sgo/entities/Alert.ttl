@@ -11,7 +11,7 @@ ogit:Alert
 	dcterms:valid "start=2016-10-26;";
 	dcterms:creator "stravlos@arago.de";
 	dcterms:created "2016-10-26";
-	dcterms:modified "2016-10-261";
+	dcterms:modified "2016-10-26";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
@@ -19,14 +19,14 @@ ogit:Alert
 	ogit:mandatory-attributes (
 		ogit:type
 		ogit:creator
-                ogit:category
+    ogit:category
 	);
 	ogit:optional-attributes (
-                ogit:function
+    ogit:function
 		ogit:value
 	);
 	ogit:indexed-attributes (
-		
+
 	);
 	ogit:history (
 		[
@@ -35,7 +35,7 @@ ogit:Alert
 			dcterms:description "initial";
 			dcterms:creator "stravlos@arago.de";
 		]
-                [
+    [
 			dcterms:identifier "2";
 			dcterms:date "2016-11-02";
 			dcterms:description "make attributes optional";

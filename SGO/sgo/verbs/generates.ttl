@@ -8,6 +8,7 @@
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
 
 ogit:generates
 	a owl:ObjectProperty;
@@ -18,7 +19,7 @@ ogit:generates
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2016-06-09";
+	dcterms:modified "2017-07-19";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -46,17 +47,23 @@ ogit:generates
 			dcterms:description "connection added";
 			dcterms:creator "stravlos";
 		]
-                [
+		[
 			dcterms:identifier "5";
 			dcterms:date "2016-10-11";
 			dcterms:description "connection added";
 			dcterms:creator "stravlos";
 		]
-                [
+		[
 			dcterms:identifier "6";
 			dcterms:date "2017-01-20";
 			dcterms:description "connection added";
 			dcterms:creator "stravlos";
+		]
+		[
+			dcterms:identifier "7";
+			dcterms:date "2017-07-19";
+			dcterms:description "connection added: MARSNode to Log";
+			dcterms:creator "Kristjan Liiva";
 		]
 	);
 	ogit:allowed (
@@ -136,13 +143,17 @@ ogit:generates
 			ogit:from ogit:License;
 			ogit:to ogit:Timeseries;
 		]
-                [
+		[
 			ogit:from ogit:Organization;
 			ogit:to ogit:Timeseries;
 		]
-                [
+		[
 			ogit:from ogit:Contract;
 			ogit:to ogit:Timeseries;
+		]
+		[
+			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit.Data:Log;
 		]
 	);
 .
