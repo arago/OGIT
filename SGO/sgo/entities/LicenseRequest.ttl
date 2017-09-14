@@ -27,6 +27,8 @@ A request might contain a valid LicenseToken to indicate that this request is pr
 		ogit:licenseRequestStatus
 		ogit:subject
 		ogit:licenseId
+		ogit:licenseType
+		ogit:creator
 	);
 	ogit:indexed-attributes (
 		
