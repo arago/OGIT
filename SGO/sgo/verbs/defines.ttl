@@ -1,4 +1,5 @@
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Forum:		        <http://www.purl.org/ogit/Forum/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -38,6 +39,12 @@ ogit:defines
 			dcterms:description "add connections for Knowledge:AcuqisitionSession's";
 			dcterms:creator "cwalker@arago.de";
 		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2017-09-18";
+			dcterms:description "add connections for Workflow -> WorkflowStep";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -67,6 +74,10 @@ ogit:defines
 		[
 			ogit:from ogit.Knowledge:AcquisitionSession;
 			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Forum:Workflow;
+			ogit:to ogit.Forum:WorkflowStep;
 		]
 	);
 .

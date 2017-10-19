@@ -57,6 +57,12 @@ Added Connection for `ogit/Forum/Group` -> `ogit/Forum/Topic`
 			dcterms:description "Added person -> event";
 			dcterms:creator "Philipp Pelchmann";
 		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2016-05-17";
+			dcterms:description """Added Connection for `ogit/Forum/Group` <- `ogit/Forum/Workflow`""";
+			dcterms:creator "Ben Neal";
+		]
 	);
 	ogit:allowed (
 		[
@@ -110,6 +116,10 @@ Added Connection for `ogit/Forum/Group` -> `ogit/Forum/Topic`
 		[
 			ogit:from ogit.Forum:Group;
 			ogit:to ogit.Forum:Topic;
+		]
+		[
+			ogit:from ogit.Forum:Workflow;
+			ogit:to ogit.Forum:Group;
 		]
 	);
 .

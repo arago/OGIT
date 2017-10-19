@@ -1,14 +1,13 @@
-@prefix ogit:                   <http://www.purl.org/ogit/> .
-@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
-@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit:belongs
 	a owl:ObjectProperty;
@@ -125,6 +124,12 @@ ogit:belongs
 			dcterms:date "2016-09-05";
 			dcterms:description "add certificate -> organization";
 			dcterms:creator "Oday Jubran";
+		]
+		[
+			dcterms:identifier "19";
+			dcterms:date "2017-09-21";
+			dcterms:description "add workflow -> organization";
+			dcterms:creator "cwalker@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -302,6 +307,10 @@ ogit:belongs
 		]
 		[
 			ogit:from ogit:Certificate;
+			ogit:to ogit:Organization;
+		]
+		[
+			ogit:from ogit.Forum:Workflow;
 			ogit:to ogit:Organization;
 		]
 	);
