@@ -1,18 +1,18 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 
-ogit.Forum:KnowledgeBundle
+ogit.Automation:KnowledgePool
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "KnowledgeBundle";
-	dcterms:description "Deprecated in favor of `ogit/Automation/KnowledgeBundle`. A grouping of `ogit/Automation/KnowledgeItem`s into a package. ";
+	rdfs:label "KnowledgePool";
+	dcterms:description "A grouping of `ogit/Automation/KnowledgeItem`s and `ogit/Automation/KnowledgeBundle`s for user or automation engine.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-04-27;";
-	dcterms:creator "cwalker@arago.de";
-	dcterms:created "2015-04-27";
-	dcterms:modified "2015-04-27";
+	dcterms:creator "druss@arago.de";
+	dcterms:created "2017-10-31";
+	dcterms:modified "2017-10-31";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -21,22 +21,16 @@ ogit.Forum:KnowledgeBundle
 		ogit:name
 	);
 	ogit:optional-attributes (
-		ogit:accessControl
+
 	);
 	ogit:indexed-attributes (
-
+		ogit:name
 	);
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
-			dcterms:description "Initial Creation";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "2";
 			dcterms:date "2017-10-31";
-			dcterms:description "Make deprecated";
+			dcterms:description "Initial Creation";
 			dcterms:creator "druss@arago.de";
 		]
 	);

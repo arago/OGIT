@@ -8,7 +8,7 @@ ogit.Forum:KnowledgeItemHistory
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "KnowledgeItemHistory";
-	dcterms:description "A data container of `ogit/Automation/KnowledgeItem`s changes.";
+	dcterms:description "Deprecated in favor of `ogit/VersioningData`. A data container of `ogit/Automation/KnowledgeItem`s changes.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-11-13;";
 	dcterms:creator "bmmore@arago.de";
@@ -43,6 +43,12 @@ ogit.Forum:KnowledgeItemHistory
 			dcterms:date "2015-11-13";
 			dcterms:description "Initial Creation";
 			dcterms:creator "bmoore@arago.de";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2017-10-31";
+			dcterms:description "Make deprecated";
+			dcterms:creator "druss@arago.de";
 		]
 	);
 .
