@@ -42,7 +42,7 @@ The following links provide more information on OGIT and GraphIT.
 
 ## Getting Support
 
-If you have general questions or need support please contact us at <ogit@arago.de>.
+If you have general questions or need support please contact us at <ogit@arago.co>.
 
 ## License
 
