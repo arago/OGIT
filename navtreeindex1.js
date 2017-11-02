@@ -1,5 +1,9 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitDatacenterUPS.html":[0,5,1,10],
+"group__httpwwwpurlorgogitDatacenterdatacenterId.html":[0,5,0,0],
+"group__httpwwwpurlorgogitDatacentermoveProductionDate.html":[0,5,0,1],
+"group__httpwwwpurlorgogitDatacenterrackId.html":[0,5,0,2],
 "group__httpwwwpurlorgogitDatacenterrackUnit.html":[0,5,0,3],
 "group__httpwwwpurlorgogitDatacenterroomId.html":[0,5,0,4],
 "group__httpwwwpurlorgogitDatacentersectionId.html":[0,5,0,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitOSLC-emsBaselineList.html":[0,15,1,1],
 "group__httpwwwpurlorgogitOSLC-emsCdfPoint.html":[0,15,1,2],
 "group__httpwwwpurlorgogitOSLC-emsCumulativeDistributionFunction.html":[0,15,1,3],
-"group__httpwwwpurlorgogitOSLC-emsDimension.html":[0,15,1,4],
-"group__httpwwwpurlorgogitOSLC-emsDimensionCell.html":[0,15,1,5],
-"group__httpwwwpurlorgogitOSLC-emsDimensionColumn.html":[0,15,1,6],
-"group__httpwwwpurlorgogitOSLC-emsDimensionMember.html":[0,15,1,7],
-"group__httpwwwpurlorgogitOSLC-emsEffortMetric.html":[0,15,1,8]
+"group__httpwwwpurlorgogitOSLC-emsDimension.html":[0,15,1,4]
 };

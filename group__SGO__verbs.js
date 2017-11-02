@@ -30,6 +30,7 @@ var group__SGO__verbs =
     [ "deliversTo", "group__httpwwwpurlorgogitdeliversTo.html", null ],
     [ "dependsOn", "group__httpwwwpurlorgogitdependsOn.html", null ],
     [ "deployedTo", "group__httpwwwpurlorgogitdeployedTo.html", null ],
+    [ "derivesFrom", "group__httpwwwpurlorgogitderivesFrom.html", null ],
     [ "describes", "group__httpwwwpurlorgogitdescribes.html", null ],
     [ "dislikes", "group__httpwwwpurlorgogitdislikes.html", null ],
     [ "employs", "group__httpwwwpurlorgogitemploys.html", null ],
@@ -83,6 +84,7 @@ var group__SGO__verbs =
     [ "updates", "group__httpwwwpurlorgogitupdates.html", null ],
     [ "uses", "group__httpwwwpurlorgogituses.html", null ],
     [ "validFor", "group__httpwwwpurlorgogitvalidFor.html", null ],
+    [ "versions", "group__httpwwwpurlorgogitversions.html", null ],
     [ "virtualizes", "group__httpwwwpurlorgogitvirtualizes.html", null ],
     [ "wins", "group__httpwwwpurlorgogitwins.html", null ],
     [ "worksOn", "group__httpwwwpurlorgogitworksOn.html", null ]

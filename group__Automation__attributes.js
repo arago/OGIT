@@ -40,6 +40,7 @@ var group__Automation__attributes =
     [ "issueFormalRepresentation", "group__httpwwwpurlorgogitAutomationissueFormalRepresentation.html", null ],
     [ "knowledgeItemFormalRepresentation", "group__httpwwwpurlorgogitAutomationknowledgeItemFormalRepresentation.html", null ],
     [ "knowledgeItemId", "group__httpwwwpurlorgogitAutomationknowledgeItemId.html", null ],
+    [ "knowledgeItemSyntaxVersion", "group__httpwwwpurlorgogitAutomationknowledgeItemSyntaxVersion.html", null ],
     [ "knowledgeItemTier", "group__httpwwwpurlorgogitAutomationknowledgeItemTier.html", null ],
     [ "licenseAvailability", "group__httpwwwpurlorgogitAutomationlicenseAvailability.html", null ],
     [ "licenseName", "group__httpwwwpurlorgogitAutomationlicenseName.html", null ],

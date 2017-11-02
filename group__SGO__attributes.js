@@ -134,6 +134,7 @@ var group__SGO__attributes =
     [ "resource", "group__httpwwwpurlorgogitresource.html", null ],
     [ "response", "group__httpwwwpurlorgogitresponse.html", null ],
     [ "reviewedAt", "group__httpwwwpurlorgogitreviewedAt.html", null ],
+    [ "revision", "group__httpwwwpurlorgogitrevision.html", null ],
     [ "risk", "group__httpwwwpurlorgogitrisk.html", null ],
     [ "schedule", "group__httpwwwpurlorgogitschedule.html", null ],
     [ "securityClass", "group__httpwwwpurlorgogitsecurityClass.html", null ],
