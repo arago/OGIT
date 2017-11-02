@@ -35,6 +35,7 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 		ogit:description
 		ogit:changeLog
 		ogit:accessControl
+		ogit.Automation:knowledgeItemSyntaxVersion
 		ogit.Automation:isDeployed
 		ogit.Automation:deployStatus
 	);
