@@ -87,10 +87,16 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			dcterms:description "Added a connection from `ogit/Alert` -> `ogit/Contract`";
 			dcterms:creator "stravlos@arago.co";
 		]
-                [
+		[
 			dcterms:identifier "11";
 			dcterms:date "2017-04-19";
 			dcterms:description "Added a connection from `ogit/Series` -> `ogit/Course`";
+			dcterms:creator "stravlos@arago.co";
+		]
+		[
+			dcterms:identifier "12";
+			dcterms:date "2017-10-31";
+			dcterms:description "Added a connections for `ogit/Automation/KnowledgePool` / `ogit/Automation/KnowledgeBundle`";
 			dcterms:creator "stravlos@arago.co";
 		]
 	);
@@ -504,6 +510,18 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			ogit:to ogit.Forum:Post;
 		]
 		[
+			ogit:from ogit.Automation:KnowledgePool;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgePool;
+			ogit:to ogit.Automation:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeBundle;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
 			ogit:from ogit.Forum:KnowledgeBundle;
 			ogit:to ogit.Automation:KnowledgeItem;
 		]
@@ -543,7 +561,7 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			ogit:from ogit:Alert;
 			ogit:to ogit:License;
 		]
-                [
+		[
 			ogit:from ogit:Alert;
 			ogit:to ogit:Contract;
 		]
@@ -551,7 +569,7 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			ogit:from ogit.Knowledge:AcquisitionSession;
 			ogit:to ogit:Comment;
 		]
-                [
+		[
 			ogit:from ogit:Series;
 			ogit:to ogit:Course;
 		]
