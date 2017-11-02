@@ -37,7 +37,7 @@ ogit.Data:Log
 		]
 		[
 			dcterms:identifier "2";
-			dcterms:date "2017-11-2";
+			dcterms:date "2017-11-02";
 			dcterms:description "Add fields name and description";
 			dcterms:creator "vteremasov@klika-tech.com";
 		]
