@@ -23,11 +23,21 @@ ogit.Forum:downloads
 			dcterms:description "intitial inception";
 			dcterms:creator "bneal@arago.de";
 		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2017-11-03";
+			dcterms:description "add Profile downloads KnowledgeItemHistory";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:Profile;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
 		]
 	);
 .

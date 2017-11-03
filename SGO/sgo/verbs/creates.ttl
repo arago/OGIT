@@ -123,8 +123,8 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 		]
 		[
 			dcterms:identifier "16";
-			dcterms:date "2017-09-18";
-			dcterms:description "add Profile -> Workflow";
+			dcterms:date "2017-11-03";
+			dcterms:description "add Profile -> Workflow, ogit/Forum/Profile -> ogit/Forum/Topic";
 			dcterms:creator "cwalker@arago.de";
 		]
 	);
@@ -220,6 +220,10 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 		[
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit.Forum:Workflow;
+		]
+		[
+			ogit:from ogit.Forum:Profile;
+			ogit:to ogit:Attachment;
 		]
 	);
 .

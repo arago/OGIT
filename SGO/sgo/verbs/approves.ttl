@@ -41,6 +41,12 @@ ogit:approves
 			dcterms:description "connection added";
 			dcterms:creator "Spyridon Travlos";
 		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2016-11-03";
+			dcterms:description "Re-add missing connection";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -62,6 +68,10 @@ ogit:approves
 		[
 			ogit:from ogit:Person;
 			ogit:to ogit:Contract;
+		]
+		[
+			ogit:from ogit.Forum:Permission;
+			ogit:to ogit:Organization;
 		]
 	);
 .

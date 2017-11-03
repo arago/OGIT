@@ -284,5 +284,9 @@ Added Connection for `ogit/Forum/Tag` -> `ogit/Automation/KnowledgeItem`
 			ogit:from ogit.Forum:WorkflowStep;
 			ogit:to ogit:Organization;
 		]
+		[
+			ogit:from ogit.Forum:Tag;
+			ogit:to ogit.Forum:Topic;
+		]
 	);
 .

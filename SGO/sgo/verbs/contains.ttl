@@ -87,11 +87,7 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			dcterms:description "Added a connection from `ogit/Alert` -> `ogit/Contract`";
 			dcterms:creator "stravlos@arago.co";
 		]
-<<<<<<< HEAD
 		[
-=======
-        [
->>>>>>> Changes for HIRO Community Workflows
 			dcterms:identifier "11";
 			dcterms:date "2017-04-19";
 			dcterms:description "Added a connection from `ogit/Series` -> `ogit/Course`";
