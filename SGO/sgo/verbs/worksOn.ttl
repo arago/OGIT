@@ -1,8 +1,10 @@
-@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms:                <http://purl.org/dc/terms/> .
+
 
 ogit:worksOn
 	a owl:ObjectProperty;
@@ -41,6 +43,12 @@ ogit:worksOn
 			dcterms:description "connection added";
 			dcterms:creator "stravlos@arago.de";
 		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2017-11-06";
+			dcterms:description "Added Group -> WorkflowStep";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -51,9 +59,13 @@ ogit:worksOn
 			ogit:from ogit.Automation:AutomationIssue;
 			ogit:to ogit.Automation:MARSNode;
 		]
-[
+		[
 			ogit:from ogit:Person;
 			ogit:to ogit:Status;
+		]
+		[
+			ogit:from ogit.Forum:Group;
+			ogit:to ogit.Forum:WorkflowStep;
 		]
 	);
 .
