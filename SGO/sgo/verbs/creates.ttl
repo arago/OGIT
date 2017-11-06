@@ -127,6 +127,12 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			dcterms:description "add Profile -> Workflow, ogit/Forum/Profile -> ogit/Forum/Topic";
 			dcterms:creator "cwalker@arago.de";
 		]
+		[
+			dcterms:identifier "18";
+			dcterms:date "2017-11-06";
+			dcterms:description "add Profile -> KnowledgeBundleHistory";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -225,5 +231,10 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit:Attachment;
 		]
+		[
+			ogit:from ogit.Forum:Profile;
+			ogit:to ogit.Forum:KnowledgeBundleHistory;
+		]
+
 	);
 .

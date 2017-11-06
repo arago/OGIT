@@ -105,6 +105,12 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			dcterms:description "Added a connection from `ogit/Forum/Workflow` -> `ogit/Forum/FeedEntry`";
 			dcterms:creator "cwalker@arago.co";
 		]
+		[
+			dcterms:identifier "14";
+			dcterms:date "2017-11-06";
+			dcterms:description "Added connections for BundleHistory -> KI/Issue";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -582,6 +588,14 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 		[
 			ogit:from ogit.Forum:Workflow;
 			ogit:to ogit.Forum:FeedEntry;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundleHistory;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundleHistory;
+			ogit:to ogit.Automation:AutomationIssue;
 		]
 	);
 .
