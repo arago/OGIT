@@ -1,16 +1,16 @@
-@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
-@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
-@prefix ogit:                   <http://www.purl.org/ogit/> .
-@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
-@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
-@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
-@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit:contains
 	a owl:ObjectProperty;
@@ -98,6 +98,18 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			dcterms:date "2017-10-31";
 			dcterms:description "Added a connections for `ogit/Automation/KnowledgePool` / `ogit/Automation/KnowledgeBundle`";
 			dcterms:creator "stravlos@arago.co";
+		]
+		[
+			dcterms:identifier "13";
+			dcterms:date "2017-09-18";
+			dcterms:description "Added a connection from `ogit/Forum/Workflow` -> `ogit/Forum/FeedEntry`";
+			dcterms:creator "cwalker@arago.co";
+		]
+		[
+			dcterms:identifier "14";
+			dcterms:date "2017-11-06";
+			dcterms:description "Added connections for BundleHistory -> KI/Issue";
+			dcterms:creator "cwalker@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -572,6 +584,18 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 		[
 			ogit:from ogit:Series;
 			ogit:to ogit:Course;
+		]
+		[
+			ogit:from ogit.Forum:Workflow;
+			ogit:to ogit.Forum:FeedEntry;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundleHistory;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundleHistory;
+			ogit:to ogit.Automation:AutomationIssue;
 		]
 	);
 .

@@ -1,8 +1,8 @@
+@prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 
 ogit:moderates
 	a owl:ObjectProperty;
@@ -25,6 +25,12 @@ entity takes a responsibility for the maintenance and upkeep of the connected en
 			dcterms:description "Initial Creation";
 			dcterms:creator "cwalker@arago.de";
 		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2017-11-06";
+			dcterms:description "Added Group -> WorkflowStep";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -34,6 +40,10 @@ entity takes a responsibility for the maintenance and upkeep of the connected en
 		[
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:Group;
+			ogit:to ogit.Forum:WorkflowStep;
 		]
 	);
 .

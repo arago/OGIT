@@ -1,12 +1,12 @@
-@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
-@prefix ogit:                   <http://www.purl.org/ogit/> .
-@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
-@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 
 ogit:connects
 	a owl:ObjectProperty;
@@ -68,6 +68,12 @@ ogit:connects
 			dcterms:date "2016-03-02";
 			dcterms:description "Adding connection for Comment -> Person";
 			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "9";
+			dcterms:date "2017-09-18";
+			dcterms:description "Adding connection for WokflowStep -> Post|KI|Bundle|Attachment";
+			dcterms:creator "cwalker@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -318,6 +324,26 @@ ogit:connects
 		[
 			ogit:from ogit:Comment;
 			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit.Forum:WorkflowStep;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit.Forum:WorkflowStep;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit.Forum:WorkflowStep;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:WorkflowStep;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Forum:WorkflowStep;
+			ogit:to ogit:Attachment;
 		]
 	);
 .

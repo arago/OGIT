@@ -37,6 +37,12 @@ ogit:requires
 			dcterms:description "Added edge KnowledgeItemHistory|KnowledgeBundle -> Permission";
 			dcterms:creator "bmoore@arago.de";
 		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2017-10-02";
+			dcterms:description "Added edge WorkflowStep -> Permission";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -97,6 +103,10 @@ ogit:requires
 		]
 		[
 			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit.Forum:Permission;
+		]
+		[
+			ogit:from ogit.Forum:WorkflowStep;
 			ogit:to ogit.Forum:Permission;
 		]
 	);

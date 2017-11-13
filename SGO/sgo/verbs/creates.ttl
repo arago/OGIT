@@ -115,11 +115,23 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			dcterms:description "Add edge for `ogit/Person` -> `ogit/Alert`";
 			dcterms:creator "stravlos@arago.co";
 		]
-        	[
+        [
 			dcterms:identifier "15";
 			dcterms:date "2017-09-05";
 			dcterms:description "add Person -> Certificate, Organization -> Certificate";
 			dcterms:creator "stravlos@arago.co";
+		]
+		[
+			dcterms:identifier "16";
+			dcterms:date "2017-11-03";
+			dcterms:description "add Profile -> Workflow, ogit/Forum/Profile -> ogit/Forum/Topic";
+			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "18";
+			dcterms:date "2017-11-06";
+			dcterms:description "add Profile -> KnowledgeBundleHistory";
+			dcterms:creator "cwalker@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -211,5 +223,18 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			ogit:from ogit:Organization;
 			ogit:to ogit:Certificate;
 		]
+		[
+			ogit:from ogit.Forum:Profile;
+			ogit:to ogit.Forum:Workflow;
+		]
+		[
+			ogit:from ogit.Forum:Profile;
+			ogit:to ogit:Attachment;
+		]
+		[
+			ogit:from ogit.Forum:Profile;
+			ogit:to ogit.Forum:KnowledgeBundleHistory;
+		]
+
 	);
 .

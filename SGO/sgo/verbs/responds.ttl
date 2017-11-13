@@ -58,5 +58,9 @@ conversation/fourm thread.""";
 			ogit:from ogit:Comment;
 			ogit:to ogit.Forum:Rating;
 		]
+			[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:Workflow;
+		]
 	);
 .

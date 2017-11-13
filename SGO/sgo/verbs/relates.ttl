@@ -89,6 +89,12 @@ ogit:relates
 			dcterms:description "Refactored names of Project/Survey related concepts";
 			dcterms:creator "Fabian Meyer";
 		]
+		[
+			dcterms:identifier "12";
+			dcterms:date "2017-11-06";
+			dcterms:description "Added connection for KnowledgeBundleHistory -> KnowledgeBundle";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -279,13 +285,17 @@ ogit:relates
 			ogit:from ogit:Person;
 			ogit:to ogit.Survey:Iteration;
 		]
-[
+		[
 			ogit:from ogit:Status;
 			ogit:to ogit:Course;
 		]
-[
+		[
 			ogit:from ogit:Status;
 			ogit:to ogit:Series;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundleHistory;
+			ogit:to ogit.Forum:KnowledgeBundle;
 		]
 	);
 .
