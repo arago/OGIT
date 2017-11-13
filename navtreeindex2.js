@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitOSLC-emsCdfPoint.html":[0,15,1,2],
+"group__httpwwwpurlorgogitOSLC-emsCumulativeDistributionFunction.html":[0,15,1,3],
+"group__httpwwwpurlorgogitOSLC-emsDimension.html":[0,15,1,4],
 "group__httpwwwpurlorgogitOSLC-emsDimensionCell.html":[0,15,1,5],
 "group__httpwwwpurlorgogitOSLC-emsDimensionColumn.html":[0,15,1,6],
 "group__httpwwwpurlorgogitOSLC-emsDimensionMember.html":[0,15,1,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitServiceManagementexternalTicketId.html":[0,23,0,7],
 "group__httpwwwpurlorgogitServiceManagementexternalTicketSource.html":[0,23,0,8],
 "group__httpwwwpurlorgogitServiceManagementfallbackPlan.html":[0,23,0,9],
-"group__httpwwwpurlorgogitServiceManagementgranularity.html":[0,23,0,10],
-"group__httpwwwpurlorgogitServiceManagementimplementationPlan.html":[0,23,0,11],
-"group__httpwwwpurlorgogitServiceManagementincidentStatus.html":[0,23,0,12],
-"group__httpwwwpurlorgogitServiceManagementisRequired.html":[0,23,0,13]
+"group__httpwwwpurlorgogitServiceManagementgranularity.html":[0,23,0,10]
 };

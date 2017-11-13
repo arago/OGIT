@@ -7,6 +7,7 @@ var group__Forum__entities =
     [ "Group", "group__httpwwwpurlorgogitForumGroup.html", null ],
     [ "Invite", "group__httpwwwpurlorgogitForumInvite.html", null ],
     [ "KnowledgeBundle", "group__httpwwwpurlorgogitForumKnowledgeBundle.html", null ],
+    [ "KnowledgeBundleHistory", "group__httpwwwpurlorgogitForumKnowledgeBundleHistory.html", null ],
     [ "KnowledgeItemHistory", "group__httpwwwpurlorgogitForumKnowledgeItemHistory.html", null ],
     [ "Permission", "group__httpwwwpurlorgogitForumPermission.html", null ],
     [ "Post", "group__httpwwwpurlorgogitForumPost.html", null ],
@@ -16,5 +17,7 @@ var group__Forum__entities =
     [ "Role", "group__httpwwwpurlorgogitForumRole.html", null ],
     [ "ShortId", "group__httpwwwpurlorgogitForumShortId.html", null ],
     [ "Tag", "group__httpwwwpurlorgogitForumTag.html", null ],
-    [ "Topic", "group__httpwwwpurlorgogitForumTopic.html", null ]
+    [ "Topic", "group__httpwwwpurlorgogitForumTopic.html", null ],
+    [ "Workflow", "group__httpwwwpurlorgogitForumWorkflow.html", null ],
+    [ "WorkflowStep", "group__httpwwwpurlorgogitForumWorkflowStep.html", null ]
 ];

@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitServiceManagementimplementationPlan.html":[0,23,0,11],
+"group__httpwwwpurlorgogitServiceManagementincidentStatus.html":[0,23,0,12],
+"group__httpwwwpurlorgogitServiceManagementisRequired.html":[0,23,0,13],
 "group__httpwwwpurlorgogitServiceManagementleftTime.html":[0,23,0,14],
 "group__httpwwwpurlorgogitServiceManagementlicenseTokenStatus.html":[0,23,0,15],
 "group__httpwwwpurlorgogitServiceManagementproblemStatus.html":[0,23,0,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitresponds.html":[0,22,2,68],
 "group__httpwwwpurlorgogitresponse.html":[0,22,0,132],
 "group__httpwwwpurlorgogitreviewedAt.html":[0,22,0,133],
-"group__httpwwwpurlorgogitrevision.html":[0,22,0,134],
-"group__httpwwwpurlorgogitrisk.html":[0,22,0,135],
-"group__httpwwwpurlorgogitrunsOn.html":[0,22,2,69],
-"group__httpwwwpurlorgogitschedule.html":[0,22,0,136]
+"group__httpwwwpurlorgogitrevision.html":[0,22,0,134]
 };

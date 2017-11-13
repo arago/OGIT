@@ -9,6 +9,7 @@ var searchData=
   ['knowledgeitemtier',['knowledgeItemTier',['../group__httpwwwpurlorgogitAutomationknowledgeItemTier.html',1,'']]],
   ['knowledgepool',['KnowledgePool',['../group__httpwwwpurlorgogitAutomationKnowledgePool.html',1,'']]],
   ['knowledgebundle',['KnowledgeBundle',['../group__httpwwwpurlorgogitForumKnowledgeBundle.html',1,'']]],
+  ['knowledgebundlehistory',['KnowledgeBundleHistory',['../group__httpwwwpurlorgogitForumKnowledgeBundleHistory.html',1,'']]],
   ['knowledgeitemhistory',['KnowledgeItemHistory',['../group__httpwwwpurlorgogitForumKnowledgeItemHistory.html',1,'']]],
   ['knowledge',['Knowledge',['../group__Knowledge.html',1,'']]]
 ];
