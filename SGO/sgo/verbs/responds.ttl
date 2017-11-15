@@ -14,7 +14,7 @@ conversation/fourm thread.""";
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
 	dcterms:created "2015-04-27";
-	dcterms:modified "2015-04-27";
+	dcterms:modified "2017-11-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -34,6 +34,12 @@ conversation/fourm thread.""";
 			dcterms:identifier "3";
 			dcterms:date "2016-05-17";
 			dcterms:description "Added edge for `ogit/Comment` -> `ogit/Forum/Rating`";
+			dcterms:creator "Ben Neal";
+		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2017-11-15";
+			dcterms:description "Corrected edge for `ogit/Forum/Reply` -> `ogit/Forum/WorkflowStep`";
 			dcterms:creator "Ben Neal";
 		]
 	);
@@ -58,9 +64,9 @@ conversation/fourm thread.""";
 			ogit:from ogit:Comment;
 			ogit:to ogit.Forum:Rating;
 		]
-			[
+		[
 			ogit:from ogit.Forum:Reply;
-			ogit:to ogit.Forum:Workflow;
+			ogit:to ogit.Forum:WorkflowStep;
 		]
 	);
 .
