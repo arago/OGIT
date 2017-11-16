@@ -223,8 +223,8 @@ ogit:corresponds
 			ogit:to ogit.Forum:KnowledgeBundle;
 		]
                 [
-                        ogit:from ogit.File
-                        ogit:to ogit.Attachment
+                        ogit:from ogit.File;
+                        ogit:to ogit.Attachment;
                 ]
 	);
 .
