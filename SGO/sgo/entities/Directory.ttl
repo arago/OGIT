@@ -1,0 +1,42 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:File
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Directory";
+	dcterms:description """Directory is technically a special type of file that can contain other kinds of files. They are used to organize files within a filesystem.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2017-11-14;";
+	dcterms:creator "Roland Glueck";
+	dcterms:created "2017-11-14";
+	dcterms:modified "2017-11-14";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "SGO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:name
+	);
+	ogit:optional-attributes (
+		ogit:accessControl
+		ogit:url
+		ogit:type
+		ogit:creator
+		ogit:createdAt
+		ogit:lastUpdatedBy
+		ogit:lastUpdatedAt
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2017-11-14";
+			dcterms:description "Initial version.";
+			dcterms:creator "Roland Glueck";
+		]
+	);
+.

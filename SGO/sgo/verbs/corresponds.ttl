@@ -82,6 +82,12 @@ ogit:corresponds
 			dcterms:description "Add SubTask->AutomationIssue";
 			dcterms:creator "Roland Glück";
 		]
+                [
+                        dcterms:identifier "10";
+                        dcterms:date "2017-11-14";
+                        dcterms:description "Add File->Attachment";
+                        dcterms:creator "Roland Glück";
+                ]
 	);
 	ogit:allowed (
 		[
@@ -216,5 +222,9 @@ ogit:corresponds
 			ogit:from ogit.Forum:Invite;
 			ogit:to ogit.Forum:KnowledgeBundle;
 		]
+                [
+                        ogit:from ogit.File
+                        ogit:to ogit.Attachment
+                ]
 	);
 .

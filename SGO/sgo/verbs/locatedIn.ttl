@@ -103,5 +103,13 @@ ogit:locatedIn
 			ogit:from ogit.ServiceManagement:SubTask;
 			ogit:to ogit:Location;
 		]
+                [
+                        ogit:from ogit:Directory;
+                        ogit:to ogit:Directory;
+                ]
+                [
+                        ogit:from ogit:File;
+                        ogit:to ogit:Directory;
+                ]
 	);
 .
