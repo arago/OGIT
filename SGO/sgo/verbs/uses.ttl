@@ -8,6 +8,7 @@
 @prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
 
 ogit:uses
 	a owl:ObjectProperty;
@@ -18,7 +19,7 @@ ogit:uses
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
+	dcterms:modified "2017-11-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -33,6 +34,12 @@ ogit:uses
 			dcterms:date "2015-09-10";
 			dcterms:description "add connection Org, Person -> License";
 			dcterms:creator "Peter Larem";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2017-11-15";
+			dcterms:description "Connect Person -> ServiceInstance -> KnowledgePool";
+			dcterms:creator "druss@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -735,6 +742,18 @@ ogit:uses
 		[
 			ogit:from ogit:Person;
 			ogit:to ogit:License;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit:OSLC-crtv:ServiceInstance;
+		]
+		[
+			ogit:from ogit.OSLC-crtv:ServiceInstance;
+			ogit:to ogit.Automation:KnowledgePool;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgePool;
+			ogit:to ogit.Automation:KnowledgeItem;
 		]
 	);
 .
