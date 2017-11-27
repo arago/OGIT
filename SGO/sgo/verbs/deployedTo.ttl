@@ -3,6 +3,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
 
 ogit:deployedTo
 	a owl:ObjectProperty;
@@ -29,6 +30,12 @@ ogit:deployedTo
 			dcterms:description "added a new edge from a MARSNode to a MARSNode";
 			dcterms:creator "Aymen Ayoub";
 		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2017-11-15";
+			dcterms:description "add connection KnowledgeItem -> ServiceInstance";
+			dcterms:creator "druss@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -38,6 +45,10 @@ ogit:deployedTo
 		[
 			ogit:from ogit.Automation:MARSNode;
 			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.OSLC-crtv:ServiceInstance;
 		]
 	);
 .

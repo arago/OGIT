@@ -1,10 +1,11 @@
-@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix dcterms:        <http://purl.org/dc/terms/> .
-@prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
-@prefix ogit.OSLC-crtv: <http://www.purl.org/ogit/OSLC-crtv/> .
-@prefix owl:            <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ogit:           <http://www.purl.org/ogit/> .
+@prefix rdf:             <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:         <http://purl.org/dc/terms/> .
+@prefix xsd:             <http://www.w3.org/2001/XMLSchema#> .
+@prefix ogit.OSLC-crtv:  <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix owl:             <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:            <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit:            <http://www.purl.org/ogit/> .
+@prefix ogit.Automation: <http://www.purl.org/ogit/Automation/> .
 
 ogit.OSLC-crtv:runsOn
 	a owl:ObjectProperty;
@@ -16,7 +17,7 @@ ogit.OSLC-crtv:runsOn
 	dcterms:valid "start=2016-09-22;";
 	dcterms:creator "OGIT Importer";
 	dcterms:created "2016-09-22";
-	dcterms:modified "2016-09-22";
+	dcterms:modified "2017-11-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
@@ -28,8 +29,17 @@ ogit.OSLC-crtv:runsOn
 			dcterms:description "initial";
 			dcterms:creator "OGIT Importer";
 		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2017-11-15";
+			dcterms:description "add connection ServiceInstance -> MarsNode";
+			dcterms:creator "druss@arago.de";
+		]
 	);
 	ogit:allowed (
-
+		[
+			ogit:from ogit.OSLC-crtv:ServiceInstance;
+			ogit:to ogit.Automation:MARSNode;
+		]
 	);
 .
