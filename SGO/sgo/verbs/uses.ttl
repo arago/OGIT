@@ -745,7 +745,7 @@ ogit:uses
 		]
 		[
 			ogit:from ogit:Person;
-			ogit:to ogit:OSLC-crtv:ServiceInstance;
+			ogit:to ogit.OSLC-crtv:ServiceInstance;
 		]
 		[
 			ogit:from ogit.OSLC-crtv:ServiceInstance;
