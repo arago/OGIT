@@ -19,7 +19,7 @@ ogit:relates
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2017-06-09";
+	dcterms:modified "2017-12-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -100,6 +100,12 @@ ogit:relates
 			dcterms:date "2018-01-18";
 			dcterms:description "Updated Connections for forum/FeedEntry, which previously has `ogit/Node` which no longer behaves as before";
 			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "14";
+			dcterms:date "2018-01-18";
+			dcterms:description "Added connection for Forum/Reply -> Forum/KnowledgeItemHistory, Forum/Post, Forum/KnowledgeBundle, Attachment";
+			dcterms:creator "bneal@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -346,6 +352,22 @@ ogit:relates
 		[
 			ogit:from ogit.Forum:KnowledgeBundleHistory;
 			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit:Attachment;
 		]
 	);
 .
