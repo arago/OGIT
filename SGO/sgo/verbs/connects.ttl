@@ -17,7 +17,7 @@ ogit:connects
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
+	dcterms:modified "2017-12-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -74,6 +74,12 @@ ogit:connects
 			dcterms:date "2017-09-18";
 			dcterms:description "Adding connection for WokflowStep -> Post|KI|Bundle|Attachment";
 			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "10";
+			dcterms:date "2017-12-15";
+			dcterms:description "Adding connection for WokflowStep -> BundleHistory";
+			dcterms:creator "bneal@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -344,6 +350,10 @@ ogit:connects
 		[
 			ogit:from ogit.Forum:WorkflowStep;
 			ogit:to ogit:Attachment;
+		]
+		[
+			ogit:from ogit.Forum:WorkflowStep;
+			ogit:to ogit.Forum:KnowledgeBundleHistory;
 		]
 	);
 .

@@ -18,7 +18,7 @@ ogit:belongs
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2017-09-05";
+	dcterms:modified "2017-12-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -130,6 +130,12 @@ ogit:belongs
 			dcterms:date "2017-09-21";
 			dcterms:description "add workflow -> organization";
 			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "20";
+			dcterms:date "2017-12-15";
+			dcterms:description "add WorkflowTemplate -> Organization";
+			dcterms:creator "bneal@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -311,6 +317,10 @@ ogit:belongs
 		]
 		[
 			ogit:from ogit.Forum:Workflow;
+			ogit:to ogit:Organization;
+		]
+		[
+			ogit:from ogit.Forum:WorkflowTemplate;
 			ogit:to ogit:Organization;
 		]
 	);
