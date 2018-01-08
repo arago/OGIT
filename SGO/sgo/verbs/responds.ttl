@@ -42,6 +42,12 @@ conversation/fourm thread.""";
 			dcterms:description "Corrected edge for `ogit/Forum/Reply` -> `ogit/Forum/WorkflowStep`";
 			dcterms:creator "Ben Neal";
 		]
+		[
+			dcterms:identifier "5";
+			dcterms:date "2017-12-06";
+			dcterms:description "Added edge for `ogit/Forum/Reply` -> `ogit/Forum/Reply`";
+			dcterms:creator "bmoore@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -67,6 +73,10 @@ conversation/fourm thread.""";
 		[
 			ogit:from ogit.Forum:Reply;
 			ogit:to ogit.Forum:WorkflowStep;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:Reply;
 		]
 	);
 .

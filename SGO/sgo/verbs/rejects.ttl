@@ -29,6 +29,12 @@ ogit:rejects
 			dcterms:description "Added allowed";
 			dcterms:creator "stravlos@arago.de";
 		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2018-01-08";
+			dcterms:description "add Review -> WorkflowStep";
+			dcterms:creator "bmoore@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -38,6 +44,10 @@ ogit:rejects
 [
 			ogit:from ogit:Person;
 			ogit:to ogit:Alert;
+		]
+		[
+			ogit:from ogit.Forum:Review;
+			ogit:to ogit.Forum:WorkflowStep;
 		]
 	);
 .
