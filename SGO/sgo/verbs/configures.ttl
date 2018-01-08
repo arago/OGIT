@@ -13,7 +13,7 @@ ogit:configures
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
 	dcterms:created "2015-04-27";
-	dcterms:modified "2015-04-27";
+	dcterms:modified "2017-12-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -23,11 +23,21 @@ ogit:configures
 			dcterms:description "intitial inception";
 			dcterms:creator "cwalker@arago.de";
 		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2017-12-15";
+			dcterms:description "add organization";
+			dcterms:creator "bneal@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Forum:Configuration;
 			ogit:to ogit.Forum:Profile;
+		]
+		[
+			ogit:from ogit.Forum:Configuration;
+			ogit:to ogit:Organization;
 		]
 	);
 .
