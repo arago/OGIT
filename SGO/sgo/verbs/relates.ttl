@@ -95,6 +95,12 @@ ogit:relates
 			dcterms:description "Added connection for KnowledgeBundleHistory -> KnowledgeBundle";
 			dcterms:creator "cwalker@arago.de";
 		]
+		[
+			dcterms:identifier "13";
+			dcterms:date "2018-01-18";
+			dcterms:description "Updated Connections for forum/FeedEntry, which previously has `ogit/Node` which no longer behaves as before";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -267,7 +273,51 @@ ogit:relates
 		]
 		[
 			ogit:from ogit.Forum:FeedEntry;
-			ogit:to ogit:Node;
+			ogit:to ogit.Forum:Profile;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:Topic;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:Post;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:KnowledgeBundle;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:Award;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit:Comment;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Automation:AutomationIssue;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:Workflow;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:WorkflowStep;
+		]
+		[
+			ogit:from ogit.Forum:FeedEntry;
+			ogit:to ogit.Forum:WorkflowTemplate;
 		]
 		[
 			ogit:from ogit:ConfigurationItem;
