@@ -3,35 +3,33 @@
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 
-ogit.Forum:Reply
+ogit.Forum:WorkflowTemplate
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Reply";
-	dcterms:description "A response to a some other entity";
+	rdfs:label "WorkflowTemplate";
+	dcterms:description """A WorkflowTemplate defines a series of steps that must be completed in order.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2015-04-27;";
-	dcterms:creator "cwalker@arago.de";
-	dcterms:created "2015-04-27";
-	dcterms:modified "2015-04-27";
+	dcterms:valid "start=2017-09-18;";
+	dcterms:creator "bneal@arago.de";
+	dcterms:created "2017-12-15";
+	dcterms:modified "2017-12-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		ogit:content
+		ogit:title
 	);
 	ogit:optional-attributes (
-
 	);
 	ogit:indexed-attributes (
-
 	);
 	ogit:history (
 		[
 			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
+			dcterms:date "2017-12-15";
 			dcterms:description "Initial Creation";
-			dcterms:creator "cwalker@arago.de";
+			dcterms:creator "bneal@arago.de";
 		]
 	);
 .

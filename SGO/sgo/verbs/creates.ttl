@@ -17,7 +17,7 @@ ogit:creates
 	dcterms:valid "start=2015-05-19;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-19";
-	dcterms:modified "2017-09-05";
+	dcterms:modified "2017-12-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -133,6 +133,18 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			dcterms:description "add Profile -> KnowledgeBundleHistory";
 			dcterms:creator "cwalker@arago.de";
 		]
+		[
+			dcterms:identifier "19";
+			dcterms:date "2017-12-15";
+			dcterms:description "add Profile -> WorkflowTemplate";
+			dcterms:creator "bneal@arago.de";
+		]
+		[
+			dcterms:identifier "20";
+			dcterms:date "2018-01-08";
+			dcterms:description "add Profile -> Review";
+			dcterms:creator "bmoore@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -235,6 +247,13 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit.Forum:KnowledgeBundleHistory;
 		]
-
+		[
+			ogit:from ogit.Forum:Profile;
+			ogit:to ogit.Forum:WorkflowTemplate;
+		]
+		[
+			ogit:from ogit.Forum:Profile;
+			ogit:to ogit.Forum:Review;
+		]
 	);
 .
