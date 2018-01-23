@@ -47,7 +47,7 @@ var searchData=
   ['processmetric',['ProcessMetric',['../group__httpwwwpurlorgogitOSLC-emsProcessMetric.html',1,'']]],
   ['productivitymetric',['ProductivityMetric',['../group__httpwwwpurlorgogitOSLC-emsProductivityMetric.html',1,'']]],
   ['project',['project',['../group__httpwwwpurlorgogitOSLC-emsproject.html',1,'']]],
-  ['project',['Project',['../group__httpwwwpurlorgogitOSLC-emsProject.html',1,'(Global Namespace)'],['../group__Project.html',1,'(Global Namespace)']]],
+  ['project',['Project',['../group__httpwwwpurlorgogitOSLC-emsProject.html',1,'']]],
   ['projectlist',['projectList',['../group__httpwwwpurlorgogitOSLC-emsprojectList.html',1,'']]],
   ['projectlist',['ProjectList',['../group__httpwwwpurlorgogitOSLC-emsProjectList.html',1,'']]],
   ['performancemonitoringrecord',['PerformanceMonitoringRecord',['../group__httpwwwpurlorgogitOSLC-perfmonPerformanceMonitoringRecord.html',1,'']]],
@@ -86,5 +86,6 @@ var searchData=
   ['problem',['Problem',['../group__httpwwwpurlorgogitServiceManagementProblem.html',1,'']]],
   ['problemstatus',['problemStatus',['../group__httpwwwpurlorgogitServiceManagementproblemStatus.html',1,'']]],
   ['plays',['plays',['../group__httpwwwpurlorgogitUserMetaplays.html',1,'']]],
-  ['price',['Price',['../group__Price.html',1,'']]]
+  ['price',['Price',['../group__Price.html',1,'']]],
+  ['project',['Project',['../group__Project.html',1,'']]]
 ];
