@@ -17,7 +17,7 @@ ogit:assignedTo
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
+	dcterms:modified "2018-02-05";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -65,6 +65,12 @@ Added Connection for `ogit/Forum/Tag` -> `ogit/Automation/KnowledgeItem`
 			dcterms:date "2017-09-18";
 			dcterms:description "add ogit/Forum/WorkflowStep -> ogit/Forum/Profile or ogit/Organization";
 			dcterms:creator "cwalker@arago.de";
+		]
+		[
+			dcterms:identifier "8";
+			dcterms:date "2018-02-05";
+			dcterms:description "add Tag <--ogit/assignedTo-- WorkflowStep";
+			dcterms:creator "bneal@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -287,6 +293,10 @@ Added Connection for `ogit/Forum/Tag` -> `ogit/Automation/KnowledgeItem`
 		[
 			ogit:from ogit.Forum:Tag;
 			ogit:to ogit.Forum:Topic;
+		]
+		[
+			ogit:from ogit.Forum:Tag;
+			ogit:to ogit.Forum:WorkflowStep;
 		]
 	);
 .
