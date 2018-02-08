@@ -36,6 +36,12 @@ ogit:produces
 			dcterms:description "Refactored names of Project/Survey related concepts";
 			dcterms:creator "Fabian Meyer";
 		]
+        [
+            dcterms:identifier "4";
+            dcterms:date "2018-02-08";
+            dcterms:description "Add edge from organization to product.";
+            dcterms:creator "Viktor Voss";
+        ]
 	);
 	ogit:allowed (
 		[
@@ -54,5 +60,10 @@ ogit:produces
             ogit:from ogit:Organization;
             ogit:to ogit.Survey:Iteration;
         ]
+                [
+                        ogit:from ogit:Organization;
+                        ogit:to ogit:Product;
+                ]
+
 	);
 .

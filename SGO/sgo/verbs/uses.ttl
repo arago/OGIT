@@ -755,5 +755,9 @@ ogit:uses
 			ogit:from ogit.Automation:KnowledgePool;
 			ogit:to ogit.Automation:KnowledgeItem;
 		]
+                [
+                        ogit:from ogit:Organization;
+                        ogit:to ogit:Product;
+                ]
 	);
 .
