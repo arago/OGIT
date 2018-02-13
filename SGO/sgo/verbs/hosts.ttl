@@ -13,7 +13,7 @@ ogit:hosts
 	dcterms:valid "start=2015-10-15;";
 	dcterms:creator "Aymen Ayoub";
 	dcterms:created "2015-10-15";
-	dcterms:modified "2015-10-15";
+	dcterms:modified "2018-02-08";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -28,6 +28,10 @@ ogit:hosts
 		[
 			ogit:from ogit.Automation:MARSNode;
 			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit:Organization;
+			ogit:to ogit:Environment;
 		]
 	);
 .
