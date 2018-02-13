@@ -23,7 +23,7 @@ ogit.Data:Log
 	ogit:optional-attributes (
 		ogit:name
 		ogit:description
-                ogit:Data:timeToLive
+                ogit.Data:timeToLive
 	);
 	ogit:indexed-attributes (
 		ogit:name
