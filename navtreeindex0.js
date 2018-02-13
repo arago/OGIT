@@ -12,7 +12,8 @@ var NAVTREEINDEX0 =
 "group__DataProcessing.html":[0,4],
 "group__DataProcessing__attributes.html":[0,4,0],
 "group__DataProcessing__entities.html":[0,4,1],
-"group__Data__entities.html":[0,3,0],
+"group__Data__attributes.html":[0,3,0],
+"group__Data__entities.html":[0,3,1],
 "group__Datacenter.html":[0,5],
 "group__Datacenter__attributes.html":[0,5,0],
 "group__Datacenter__entities.html":[0,5,1],
@@ -231,7 +232,7 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitCostPlanningTemplate.html":[0,2,0,4],
 "group__httpwwwpurlorgogitCourse.html":[0,22,1,10],
 "group__httpwwwpurlorgogitCustomApplicationData.html":[0,22,1,11],
-"group__httpwwwpurlorgogitDataLog.html":[0,3,0,0],
+"group__httpwwwpurlorgogitDataLog.html":[0,3,1,0],
 "group__httpwwwpurlorgogitDataProcessingDataView.html":[0,4,1,0],
 "group__httpwwwpurlorgogitDataProcessingProgram.html":[0,4,1,1],
 "group__httpwwwpurlorgogitDataProcessinginternalJobId.html":[0,4,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitDatacenterRoom.html":[0,5,1,5],
 "group__httpwwwpurlorgogitDatacenterSection.html":[0,5,1,6],
 "group__httpwwwpurlorgogitDatacenterSensor.html":[0,5,1,7],
-"group__httpwwwpurlorgogitDatacenterServer.html":[0,5,1,8],
-"group__httpwwwpurlorgogitDatacenterStorage.html":[0,5,1,9]
+"group__httpwwwpurlorgogitDatacenterServer.html":[0,5,1,8]
 };
