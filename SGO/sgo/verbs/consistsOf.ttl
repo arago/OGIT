@@ -1,0 +1,33 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:consistsOf
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "consistsOf";
+	dcterms:description "It shows, that the destination entity is a non-exclusive part of the source.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-02-13;";
+	dcterms:creator "Aymen Ayoub";
+	dcterms:created "2018-02-13";
+	dcterms:modified "2018-02-13";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2018-02-13";
+			dcterms:description "initial";
+			dcterms:creator "Viktor Voss";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit:Environment;
+			ogit:to ogit.Automation:MARSNode;
+		]
+	);
+.
