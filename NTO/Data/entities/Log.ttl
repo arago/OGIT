@@ -18,11 +18,12 @@ ogit.Data:Log
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		
+
 	);
 	ogit:optional-attributes (
 		ogit:name
 		ogit:description
+                ogit:Data:timeToLive
 	);
 	ogit:indexed-attributes (
 		ogit:name

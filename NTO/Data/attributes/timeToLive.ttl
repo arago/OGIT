@@ -1,0 +1,27 @@
+@prefix ogit.Data:        <http://www.purl.org/ogit/Data/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Data:timeToLive
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "timeToLive";
+	dcterms:description "Defines how many seconds data will be kept before expire.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-02-09;";
+	dcterms:creator "mglusiuk@arago.de";
+	dcterms:created "2018-02-09";
+	dcterms:modified "2018-02-09";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2018-02-09";
+			dcterms:description "initial";
+			dcterms:creator "mglusiuk@arago.de";
+		]
+	);
+.
