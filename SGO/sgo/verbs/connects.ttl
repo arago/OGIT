@@ -5,6 +5,7 @@
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -17,7 +18,7 @@ ogit:connects
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2018-01-16";
+	dcterms:modified "2018-03-15";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -85,6 +86,12 @@ ogit:connects
 			dcterms:identifier "11";
 			dcterms:date "2018-01-16";
 			dcterms:description "Adding connection for Workflow -> AutomationIssue";
+			dcterms:creator "bneal@arago.de";
+		]
+		[
+			dcterms:identifier "12";
+			dcterms:date "2018-03-15";
+			dcterms:description "Added connections for WorkflowStep -> AcquisitionSession";
 			dcterms:creator "bneal@arago.de";
 		]
 	);
@@ -364,6 +371,10 @@ ogit:connects
 		[
 			ogit:from ogit.Forum:Workflow;
 			ogit:to ogit.Automation:AutomationIssue;
+		]
+		[
+			ogit:from ogit.Forum:WorkflowStep;
+			ogit:to ogit.Knowledge:AcquisitionSession;
 		]
 	);
 .
