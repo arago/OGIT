@@ -11,7 +11,7 @@ ogit:Notification
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
 	dcterms:created "2015-04-27";
-	dcterms:modified "2017-02-17";
+	dcterms:modified "2018-03-22";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
@@ -20,7 +20,20 @@ ogit:Notification
 		
 	);
 	ogit:optional-attributes (
-		
+		ogit:type
+		ogit:category
+		ogit:sourceId
+		ogit:onVertex
+		ogit:onAttribute
+		ogit:operation
+		ogit:condition
+		ogit:message
+		ogit:description
+		ogit:severity
+		ogit:priority
+		ogit:firstOccurredAt
+		ogit:lastOccurredAt
+		ogit:expiresAt
 	);
 	ogit:indexed-attributes (
 		
@@ -37,6 +50,12 @@ ogit:Notification
 			dcterms:date "2017-02-17";
 			dcterms:description "Make description more general";
 			dcterms:creator "stravlos@arago.de";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2018-03-22";
+			dcterms:description "Adding attributes to have some context to notifications.";
+			dcterms:creator "qikram@arago.de";
 		]
 	);
 .

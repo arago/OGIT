@@ -12,7 +12,7 @@ ogit:alerts
 	dcterms:valid "start=2016-10-26;";
 	dcterms:creator "stravlos@arago.co";
 	dcterms:created "2016-10-26";
-	dcterms:modified "2016-10-26";
+	dcterms:modified "2018-03-22";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -22,10 +22,20 @@ ogit:alerts
 			dcterms:description "initial";
 			dcterms:creator "stravlos@arago.co";
 		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2018-03-22";
+			dcterms:description "Added edge `Event` -> `Person`";
+			dcterms:creator "qikram@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Alert;
+			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit:Event;
 			ogit:to ogit:Person;
 		]
 	);

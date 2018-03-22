@@ -13,7 +13,7 @@ ogit:triggers
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
+	dcterms:modified "2018-03-22";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -23,11 +23,17 @@ ogit:triggers
 			dcterms:description "initial";
 			dcterms:creator "Peter Larem";
 		]
-                [
+        [
 			dcterms:identifier "2";
 			dcterms:date "2016-11-02";
 			dcterms:description "alert -> triggers -> event";
 			dcterms:creator "stravlos@arago.de";
+		]
+		[
+			dcterms:identifier "3";
+			dcterms:date "2018-03-22";
+			dcterms:description "Added edge `Notification` -> `Event`";
+			dcterms:creator "qikram@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -35,8 +41,12 @@ ogit:triggers
 			ogit:from ogit.ServiceManagement:SLA;
 			ogit:to ogit:Penalty;
 		]
-                [
+        [
 			ogit:from ogit:Alert;
+			ogit:to ogit:Event;
+		]
+		[
+			ogit:from ogit:Notification;
 			ogit:to ogit:Event;
 		]
 	);
