@@ -9,6 +9,7 @@
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
 
 ogit:relates
 	a owl:ObjectProperty;
@@ -106,6 +107,12 @@ ogit:relates
 			dcterms:date "2018-01-18";
 			dcterms:description "Added connection for Forum/Reply -> Forum/KnowledgeItemHistory, Forum/Post, Forum/KnowledgeBundle, Attachment";
 			dcterms:creator "bneal@arago.de";
+		]
+		[
+			dcterms:identifier "15";
+			dcterms:date "2018-04-03";
+			dcterms:description "Added Automation/AutomationIssue -> Knowledge/AcquisitionSession";
+			dcterms:creator "Michael Osher <mosher@klika-tech.com>";
 		]
 	);
 	ogit:allowed (
@@ -368,6 +375,10 @@ ogit:relates
 		[
 			ogit:from ogit.Forum:Reply;
 			ogit:to ogit:Attachment;
+		]
+		[
+			ogit:from ogit.Automation:AutomationIssue;
+			ogit:to ogit.Knowledge:AcquisitionSession;
 		]
 	);
 .
