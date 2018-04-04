@@ -94,6 +94,12 @@ ogit:connects
 			dcterms:description "Added connections for WorkflowStep -> AcquisitionSession";
 			dcterms:creator "bneal@arago.de";
 		]
+		[
+			dcterms:identifier "13";
+			dcterms:date "2018-03-15";
+			dcterms:description "Adding connections identified as missing for HIRO Community";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -375,6 +381,38 @@ ogit:connects
 		[
 			ogit:from ogit.Forum:WorkflowStep;
 			ogit:to ogit.Knowledge:AcquisitionSession;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit.Automation:KnowledgeItem;
+			ogit:to ogit.Forum:WorkflowStep;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit.Forum:WorkflowStep;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeItemHistory;
+			ogit:to ogit.Automation:KnowledgeItem;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit.Forum:WorkflowStep;
+		]
+		[
+			ogit:from ogit.Forum:KnowledgeBundle;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit:Comment;
+			ogit:to ogit.Forum:KnowledgeItemHistory;
+		]
+		[
+			ogit:from ogit.Forum:Post;
+			ogit:to ogit.Forum:WorkflowStep;
 		]
 	);
 .

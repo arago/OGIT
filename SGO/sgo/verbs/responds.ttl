@@ -14,7 +14,7 @@ conversation/fourm thread.""";
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
 	dcterms:created "2015-04-27";
-	dcterms:modified "2017-11-15";
+	dcterms:modified "2018-01-26";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -48,6 +48,12 @@ conversation/fourm thread.""";
 			dcterms:description "Added edge for `ogit/Forum/Reply` -> `ogit/Forum/Reply`";
 			dcterms:creator "bmoore@arago.de";
 		]
+		[
+			dcterms:identifier "6";
+			dcterms:date "2018-01-26";
+			dcterms:description "Adding connections identified as missing for HIRO Community";
+			dcterms:creator "cwalker@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -77,6 +83,14 @@ conversation/fourm thread.""";
 		[
 			ogit:from ogit.Forum:Reply;
 			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit.Forum:Rating;
+		]
+		[
+			ogit:from ogit.Forum:Reply;
+			ogit:to ogit:Attachment;
 		]
 	);
 .
