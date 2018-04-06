@@ -40,9 +40,27 @@ The following links provide more information on OGIT and GraphIT.
 * [OGIT documentation](https://arago.github.io/OGIT/) for all elements of the OGIT ontology
 * [GraphIT developer resources](https://docs.hiro.arago.co) (free registration required)
 
+## Updating the Local GraphIT Ontology
+
+Once OGIT master branch is updated, the changes are automatically built and pushed every hour to
+https://graphit.co/schemas/graphit-ontology.yaml
+
+To update ogit ontology on local GraphIT installation, please run:
+
+```
+cd ~
+wget https://graphit.co/schemas/graphit-ontology.yaml
+/opt/autopilot/setup/helpers/load_ontology ~/graphit-ontology.yaml
+```
+
+To ensure that all changes are correctly load you may restart the GraphIT:
+```
+/opt/autopilot/admin/start-autopilot.sh -r graphit
+```
+
 ## Getting Support
 
-If you have general questions or need support please contact us at <ogit@arago.de>.
+If you have general questions or need support plese contact us at <ogit@arago.de>.
 
 ## License
 
