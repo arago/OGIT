@@ -11,7 +11,7 @@ var NAVTREEINDEX =
 "group__httpwwwpurlorgogitDatacenterStorage.html",
 "group__httpwwwpurlorgogitOSLC-crtvsystemBoardUUID.html",
 "group__httpwwwpurlorgogitServiceManagementeventMessage.html",
-"group__httpwwwpurlorgogitrequests.html"
+"group__httpwwwpurlorgogitrepliedWith.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
