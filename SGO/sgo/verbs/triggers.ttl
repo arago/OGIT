@@ -23,7 +23,7 @@ ogit:triggers
 			dcterms:description "initial";
 			dcterms:creator "Peter Larem";
 		]
-        [
+		[
 			dcterms:identifier "2";
 			dcterms:date "2016-11-02";
 			dcterms:description "alert -> triggers -> event";
@@ -41,7 +41,7 @@ ogit:triggers
 			ogit:from ogit.ServiceManagement:SLA;
 			ogit:to ogit:Penalty;
 		]
-        [
+		[
 			ogit:from ogit:Alert;
 			ogit:to ogit:Event;
 		]
