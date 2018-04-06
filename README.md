@@ -53,7 +53,7 @@ wget https://graphit.co/schemas/graphit-ontology.yaml
 /opt/autopilot/setup/helpers/load_ontology ~/graphit-ontology.yaml
 ```
 
-To ensure that all changes are correctly load you may restart the GraphIT:
+To ensure that all changes are correctly loaded you may restart GraphIT:
 ```
 /opt/autopilot/admin/start-autopilot.sh -r graphit
 ```
