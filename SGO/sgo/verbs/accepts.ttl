@@ -29,5 +29,9 @@ ogit:accepts
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit.Forum:Invite;
 		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit:TermsAndConditions;
+		]
 	);
 .
