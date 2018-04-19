@@ -18,7 +18,7 @@ ogit:TermsAndConditions
 	ogit:any-attributes "true";
 	ogit:mandatory-attributes (
 		ogit:name
-		ogit:body
+		ogit:content
 	);
 	ogit:optional-attributes (
 		ogit:description
@@ -31,6 +31,12 @@ ogit:TermsAndConditions
 			dcterms:identifier "1";
 			dcterms:date "2018-04-18";
 			dcterms:description "initial";
+			dcterms:creator "Aman Kubanychbek";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2018-04-19";
+			dcterms:description "rename attribute: body -> content";
 			dcterms:creator "Aman Kubanychbek";
 		]
 	);
