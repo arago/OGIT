@@ -39,6 +39,7 @@ var group__SGO__entities =
     [ "Subscription", "group__httpwwwpurlorgogitSubscription.html", null ],
     [ "Task", "group__httpwwwpurlorgogitTask.html", null ],
     [ "TaskList", "group__httpwwwpurlorgogitTaskList.html", null ],
+    [ "TermsAndConditions", "group__httpwwwpurlorgogitTermsAndConditions.html", null ],
     [ "Timeseries", "group__httpwwwpurlorgogitTimeseries.html", null ],
     [ "Vcard", "group__httpwwwpurlorgogitVcard.html", null ]
 ];

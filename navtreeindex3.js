@@ -44,7 +44,8 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitSurveySurvey.html":[0,26,0,2],
 "group__httpwwwpurlorgogitTask.html":[0,22,1,37],
 "group__httpwwwpurlorgogitTaskList.html":[0,22,1,38],
-"group__httpwwwpurlorgogitTimeseries.html":[0,22,1,39],
+"group__httpwwwpurlorgogitTermsAndConditions.html":[0,22,1,39],
+"group__httpwwwpurlorgogitTimeseries.html":[0,22,1,40],
 "group__httpwwwpurlorgogitUserMetaFilter.html":[0,27,0,0],
 "group__httpwwwpurlorgogitUserMetaGame.html":[0,27,0,1],
 "group__httpwwwpurlorgogitUserMetaQuestion.html":[0,27,0,2],
@@ -52,7 +53,7 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitUserMetaloses.html":[0,27,1,1],
 "group__httpwwwpurlorgogitUserMetaplays.html":[0,27,1,2],
 "group__httpwwwpurlorgogitUserMetawins.html":[0,27,1,3],
-"group__httpwwwpurlorgogitVcard.html":[0,22,1,40],
+"group__httpwwwpurlorgogitVcard.html":[0,22,1,41],
 "group__httpwwwpurlorgogit__content.html":[0,22,0,0],
 "group__httpwwwpurlorgogit__created-on.html":[0,22,0,1],
 "group__httpwwwpurlorgogit__creator-app.html":[0,22,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitreason.html":[0,22,0,133],
 "group__httpwwwpurlorgogitreceives.html":[0,22,2,59],
 "group__httpwwwpurlorgogitreceivesFrom.html":[0,22,2,60],
-"group__httpwwwpurlorgogitrejects.html":[0,22,2,61],
-"group__httpwwwpurlorgogitrelates.html":[0,22,2,62]
+"group__httpwwwpurlorgogitrejects.html":[0,22,2,61]
 };
