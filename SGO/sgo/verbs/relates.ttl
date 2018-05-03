@@ -10,6 +10,7 @@
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.Workspace:         <http://www.purl.org/ogit/Workspace/> .
 
 ogit:relates
 	a owl:ObjectProperty;
@@ -113,6 +114,12 @@ ogit:relates
 			dcterms:date "2018-04-03";
 			dcterms:description "Added Automation/AutomationIssue -> Knowledge/AcquisitionSession";
 			dcterms:creator "Michael Osher <mosher@klika-tech.com>";
+		]
+		[
+			dcterms:identifier "16";
+			dcterms:date "2018-05-02";
+			dcterms:description "Added Object, Robot -> Workspace/Workplace";
+			dcterms:creator "Liudmyla Nechepurenko <lnechepurenko@arago.de>";
 		]
 	);
 	ogit:allowed (
@@ -379,6 +386,14 @@ ogit:relates
 		[
 			ogit:from ogit.Automation:AutomationIssue;
 			ogit:to ogit.Knowledge:AcquisitionSession;
+		]
+		[
+			ogit:from ogit.Workspace:Object;
+			ogit:to ogit.Workspace:Workplace;
+		]
+		[
+			ogit:from ogit.Workspace:Robot;
+			ogit:to ogit.Workspace:Workplace;
 		]
 	);
 .
