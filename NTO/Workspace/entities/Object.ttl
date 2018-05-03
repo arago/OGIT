@@ -1,0 +1,37 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Workspace:         <http://www.purl.org/ogit/Workspace/> .
+
+ogit.Workspace:Object
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Object";
+	dcterms:description "Object that can be operated by the robot in its workplace environment";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-05-02;";
+	dcterms:creator "lnechepurenko@arago.de";
+	dcterms:created "2018-05-02";
+	dcterms:modified "2018-05-02";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:name
+	);
+	ogit:optional-attributes (
+
+	);
+	ogit:indexed-attributes (
+
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2018-05-02";
+			dcterms:description "initial";
+			dcterms:creator "lnechepurenko@arago.de";
+		]
+	);
+.
