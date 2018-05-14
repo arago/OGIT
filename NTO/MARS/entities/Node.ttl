@@ -1,0 +1,40 @@
+@prefix ogit.MARS:              <http://www.purl.org/ogitMARS//> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MARS:Node
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Node";
+	dcterms:description """IT Objects will be representated in MARS Modell with MARS nodes.
+The MARS model builds upon four basic types of objects with a single type of relationship. Basically the objects
+which are in fact called \"nodes\" represent both views - the business perspective and the technical view.
+The technical components are modeled in the machine and software layers while the application and resource layers
+describe the business view of the IT environment.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-05-21;";
+	dcterms:creator "FCO";
+	dcterms:created "2015-05-15";
+	dcterms:modified "2015-05-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+
+	);
+	ogit:optional-attributes (
+		ogit:connectorId
+		ogit:creationTime
+		ogit:id
+		ogit:modificationTime
+		ogit:name
+	);
+	ogit:indexed-attributes (
+		ogit:name
+	);
+	ogit:history (
+	);
+.
