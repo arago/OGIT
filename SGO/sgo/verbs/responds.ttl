@@ -3,6 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 
 ogit:responds
 	a owl:ObjectProperty;
@@ -14,7 +15,7 @@ conversation/fourm thread.""";
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
 	dcterms:created "2015-04-27";
-	dcterms:modified "2018-01-26";
+	dcterms:modified "2018-05-18";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -54,6 +55,12 @@ conversation/fourm thread.""";
 			dcterms:description "Adding connections identified as missing for HIRO Community";
 			dcterms:creator "cwalker@arago.de";
 		]
+		[
+		    dcterms:identifier "7";
+            dcterms:date "2018-05-18";
+            dcterms:description "Added `ogit/Software/ApplicationReview` -> `ogit/Software/Application`";
+            dcterms:creator "mosher@klika-tech.com";
+		]
 	);
 	ogit:allowed (
 		[
@@ -91,6 +98,10 @@ conversation/fourm thread.""";
 		[
 			ogit:from ogit.Forum:Reply;
 			ogit:to ogit:Attachment;
+		]
+		[
+		    ogit:from ogit.Software:ApplicationReview;
+		    ogit:to ogit.Software:Application;
 		]
 	);
 .

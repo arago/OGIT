@@ -3,6 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 
 ogit:versions
 	a owl:ObjectProperty;
@@ -13,7 +14,7 @@ ogit:versions
 	dcterms:valid "start=2017-10-31;";
 	dcterms:creator "druss@arago.de";
 	dcterms:created "2017-10-31";
-	dcterms:modified "2017-10-31";
+	dcterms:modified "2018-05-18";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -22,6 +23,12 @@ ogit:versions
 			dcterms:date "2017-10-31";
 			dcterms:description "initial";
 			dcterms:creator "druss@arago.de";
+		]
+		[
+		    dcterms:identifier "2";
+            dcterms:date "2018-05-18";
+            dcterms:description "Application versioning for HIRO DevPortal & HIRO Desktop";
+            dcterms:creator "mosher@klika-tech.com";
 		]
 	);
 	ogit:allowed (
@@ -32,6 +39,10 @@ ogit:versions
 		[
 			ogit:from ogit:VersioningData;
 			ogit:to ogit.Automation:KnowledgeBundle;
+		]
+		[
+		    ogit:from ogit.Software:Application;
+		    ogit:to ogit.Software:Application;
 		]
 	);
 .
