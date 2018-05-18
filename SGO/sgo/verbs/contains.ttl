@@ -597,5 +597,9 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			ogit:from ogit.Forum:KnowledgeBundleHistory;
 			ogit:to ogit.Automation:AutomationIssue;
 		]
+		[
+			ogit:from ogit.Software:Application;
+			ogit:to ogit.Notification;
+		]
 	);
 .
