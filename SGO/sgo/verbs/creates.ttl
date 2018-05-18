@@ -145,11 +145,11 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			dcterms:description "add Profile -> Review";
 			dcterms:creator "bmoore@arago.de";
 		]
-        [
-		    dcterms:identifier "21";
-            dcterms:date "2018-05-18";
-            dcterms:description "add Person -> Software:ApplicationReview";
-            dcterms:creator "mosher@klika-tech.com";
+		[
+			dcterms:identifier "21";
+			dcterms:date "2018-05-18";
+			dcterms:description "add Person -> Software:ApplicationReview";
+			dcterms:creator "mosher@klika-tech.com";
 		]
 	);
 	ogit:allowed (
@@ -262,8 +262,8 @@ Added Connection for `ogit/Forum/Profile` -> `ogit/Forum/Topic`
 			ogit:to ogit.Forum:Review;
 		]
 		[
-		    ogit:from ogit:Person;
-		    ogit:to ogit.Software:ApplicationReview;
-        ]
+			ogit:from ogit:Person;
+			ogit:to ogit.Software:ApplicationReview;
+		]
 	);
 .
