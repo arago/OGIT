@@ -25,10 +25,10 @@ ogit:versions
 			dcterms:creator "druss@arago.de";
 		]
 		[
-		    dcterms:identifier "2";
-            dcterms:date "2018-05-18";
-            dcterms:description "Application versioning for HIRO DevPortal & HIRO Desktop";
-            dcterms:creator "mosher@klika-tech.com";
+			dcterms:identifier "2";
+			dcterms:date "2018-05-18";
+			dcterms:description "Application versioning for HIRO DevPortal & HIRO Desktop";
+			dcterms:creator "mosher@klika-tech.com";
 		]
 	);
 	ogit:allowed (
@@ -41,8 +41,8 @@ ogit:versions
 			ogit:to ogit.Automation:KnowledgeBundle;
 		]
 		[
-		    ogit:from ogit.Software:Application;
-		    ogit:to ogit.Software:Application;
+			ogit:from ogit.Software:Application;
+			ogit:to ogit.Software:Application;
 		]
 	);
 .

@@ -56,10 +56,10 @@ conversation/fourm thread.""";
 			dcterms:creator "cwalker@arago.de";
 		]
 		[
-		    dcterms:identifier "7";
-            dcterms:date "2018-05-18";
-            dcterms:description "Added `ogit/Software/ApplicationReview` -> `ogit/Software/Application`";
-            dcterms:creator "mosher@klika-tech.com";
+			dcterms:identifier "7";
+			dcterms:date "2018-05-18";
+			dcterms:description "Added `ogit/Software/ApplicationReview` -> `ogit/Software/Application`";
+			dcterms:creator "mosher@klika-tech.com";
 		]
 	);
 	ogit:allowed (
@@ -100,8 +100,8 @@ conversation/fourm thread.""";
 			ogit:to ogit:Attachment;
 		]
 		[
-		    ogit:from ogit.Software:ApplicationReview;
-		    ogit:to ogit.Software:Application;
+			ogit:from ogit.Software:ApplicationReview;
+			ogit:to ogit.Software:Application;
 		]
 	);
 .
