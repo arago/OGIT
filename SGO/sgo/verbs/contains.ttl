@@ -605,7 +605,7 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 		]
 		[
 			ogit:from ogit.Software:Application;
-			ogit:to ogit.Notification;
+			ogit:to ogit:Notification;
 		]
 	);
 .
