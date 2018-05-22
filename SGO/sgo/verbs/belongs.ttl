@@ -4,6 +4,7 @@
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Automation: 	<http://www.purl.org/ogit/Automation/> .
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
