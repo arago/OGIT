@@ -243,6 +243,10 @@ ogit:belongs
 			ogit:from ogit:Attachment;
 			ogit:to ogit:Contract;
 		]
+                [
+                        ogit:from ogit:Attachment;
+                        ogit:to ogit.Automation:MARSNode;
+                ]
 		[
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit.Forum:Group;
