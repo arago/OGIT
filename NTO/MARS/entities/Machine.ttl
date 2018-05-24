@@ -6,9 +6,9 @@
 
 ogit.MARS:Machine
 	a rdfs:Class;
-	rdfs:subClassOf ogit.MARS:Node;
+	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Machine";
-	dcterms:description """MISSING""";
+	dcterms:description "Vertices of this type are the 'M'-nodes in the MARS model. 'M' stand for 'Machine'. But to be precise a 'Machine' node models any operation system instance (regardless whether running on bare metal or in some virtualized environment)";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-05-21;";
 	dcterms:creator "FCO";
@@ -22,6 +22,8 @@ ogit.MARS:Machine
 
 	);
 	ogit:optional-attributes (
+              ogit.MARS.Machine:cpuArch
+
 		ogit:endOfWarranty
 		ogit:serialNumber
 	);
