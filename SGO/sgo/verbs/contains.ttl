@@ -1,6 +1,7 @@
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
 @prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
 @prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
@@ -567,6 +568,10 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 		]
 		[
 			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit.Network:NetworkInterface;
+		]
+		[
+			ogit:from ogit.MARS:Machine;
 			ogit:to ogit.Network:NetworkInterface;
 		]
 		[
