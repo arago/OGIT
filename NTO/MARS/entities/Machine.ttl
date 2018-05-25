@@ -1,6 +1,7 @@
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.Version:           <http://www.purl.org/ogit/Version/> .
+@prefix ogit.MARS.Network:      <http://www.purl.org/ogit/MARS/Network/> .
 @prefix ogit.MARS.Machine:      <http://www.purl.org/ogit/MARS/Machine/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -23,18 +24,33 @@ ogit.MARS:Machine
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
 	    ogit:name				
+            ogit.MARS.Machine:class
 	);
 	ogit:optional-attributes (
             ogit:endOfWarranty
             ogit:serialNumber
             ogit:vendor
+
             ogit.Version:major
             ogit.Version:minor
             ogit.Version:patch
+
             ogit.Automation:automationState
             ogit.Automation:serviceStatus
             ogit.Automation:marsNodeType
+
+            ogit.MARS.Network:fqdn
+            ogit.MARS.Network:defaultGateway
+            ogit.MARS.Network:interfaceName
+            ogit.MARS.Network:interfaceMAC
+            ogit.MARS.Network:interfaceIP
+            ogit.MARS.Network:interfacePrefixLength
+            ogit.MARS.Network:ipVersion
+
             ogit.MARS.Machine:cpuArch
+            ogit.MARS.Machine:distroName
+            ogit.MARS.Machine:kernel
+            ogit.MARS.Machine:ram
 	);
 	ogit:history (
 	);

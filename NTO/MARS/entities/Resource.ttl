@@ -1,5 +1,6 @@
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS.Resource:     <http://www.purl.org/ogit/MARS/Resource/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -20,6 +21,7 @@ ogit.MARS:Resource
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
 	    ogit:name				
+            ogit.MARS.Resource:class
 	);
 	ogit:optional-attributes (
             ogit:url
