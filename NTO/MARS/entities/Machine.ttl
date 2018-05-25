@@ -13,7 +13,7 @@ ogit.MARS:Machine
 	rdfs:label "Machine";
 	dcterms:description "Vertices of this type are the 'M'-nodes in the MARS model. 'M' stands for 'Machine' and those nodes form the bottom layer in the A-R-S-M layer model. But to be precise a 'Machine' node models any operation system instance (regardless whether running on bare metal or in some virtualized environment)";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2018-05-21;";
+	dcterms:valid "start=2018-06-01;";
 	dcterms:creator "FCO";
 	dcterms:created "2015-05-15";
 	dcterms:modified "2015-05-15";
