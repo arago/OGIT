@@ -28,20 +28,13 @@ ogit.MARS:Machine
             ogit:endOfWarranty
             ogit:serialNumber
             ogit:vendor
-
             ogit.Version:major
             ogit.Version:minor
             ogit.Version:patch
-	    
             ogit.Automation:automationState
             ogit.Automation:serviceStatus
             ogit.Automation:marsNodeType
-
             ogit.MARS.Machine:cpuArch
-
-	);
-	ogit:indexed-attributes (
-		ogit:name
 	);
 	ogit:history (
 	);

@@ -23,7 +23,6 @@ ogit.MARS:Resource
 	);
 	ogit:optional-attributes (
             ogit.url
-
             ogit.Automation:automationState
             ogit.Automation:serviceStatus
             ogit.Automation:marsNodeType
