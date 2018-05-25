@@ -1,13 +1,14 @@
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
 ogit.MARS:Application
 	a rdfs:Class;
-	rdfs:subClassOf ogit.MARS:Node;
+	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Application";
-	dcterms:description """MISSING""";
+	dcterms:description "Vertices of this type are the 'A'-nodes in the MARS model. 'A' stands for 'Application' and those nodes form the highest layer in the A-R-S-M layer model. An 'Application' node groups 'Resource' nodes which form one business application.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-05-21;";
 	dcterms:creator "FCO";
@@ -18,12 +19,12 @@ ogit.MARS:Application
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/MARS/Node";
 	ogit:mandatory-attributes (
-
+	    ogit:name				
 	);
 	ogit:optional-attributes (
-	);
-	ogit:indexed-attributes (
-		ogit:name
+            ogit.Automation:automationState
+            ogit.Automation:serviceStatus
+            ogit.Automation:marsNodeType
 	);
 	ogit:history (
 	);

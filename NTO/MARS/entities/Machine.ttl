@@ -1,4 +1,5 @@
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.MARS.Machine:      <http://www.purl.org/ogit/MARS/Machine/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,7 +10,7 @@ ogit.MARS:Machine
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Machine";
-	dcterms:description "Vertices of this type are the 'M'-nodes in the MARS model. 'M' stand for 'Machine'. But to be precise a 'Machine' node models any operation system instance (regardless whether running on bare metal or in some virtualized environment)";
+	dcterms:description "Vertices of this type are the 'M'-nodes in the MARS model. 'M' stands for 'Machine' and those nodes form the bottom layer in the A-R-S-M layer model. But to be precise a 'Machine' node models any operation system instance (regardless whether running on bare metal or in some virtualized environment)";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-05-21;";
 	dcterms:creator "FCO";
@@ -18,15 +19,21 @@ ogit.MARS:Machine
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
-	ogit:parent "http://www.purl.org/ogit/MARS/Node";
+	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-
+	    ogit:name				
 	);
 	ogit:optional-attributes (
-              ogit.MARS.Machine:cpuArch
+            ogit:endOfWarranty
+            ogit:serialNumber
+            ogit:vendor
+	    
+            ogit.Automation:automationState
+            ogit.Automation:serviceStatus
+            ogit.Automation:marsNodeType
 
-		ogit:endOfWarranty
-		ogit:serialNumber
+            ogit.MARS.Machine:cpuArch
+
 	);
 	ogit:indexed-attributes (
 		ogit:name
