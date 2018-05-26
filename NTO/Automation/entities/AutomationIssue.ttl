@@ -26,6 +26,8 @@ IssueCondition is processed first.""";
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
+                ogit.Automation:originNode
+                ogit.Automation:processingNode
 		ogit.Automation:issueFormalRepresentation
 		ogit:status
 		ogit:subject
