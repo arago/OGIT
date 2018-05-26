@@ -24,9 +24,9 @@ IssueCondition is processed first.""";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		ogit.Automation:issueFormalRepresentation
 	);
 	ogit:optional-attributes (
+		ogit.Automation:issueFormalRepresentation
 		ogit:status
 		ogit:subject
 		ogit.Automation:processingTimestamp
