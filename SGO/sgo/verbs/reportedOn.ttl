@@ -4,6 +4,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 
 ogit:reportedOn
 	a owl:ObjectProperty;
@@ -32,20 +33,80 @@ We call it \"reportedOn\" instead of \"observedOn\" to account for the close rel
 			ogit:to ogit.Automation:MARSNode;
 		]
 		[
-			ogit:from ogit.ServiceManagement:ChangeRequest;
-			ogit:to ogit.Automation:MARSNode;
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.MARSNode:Application;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.MARSNode:Resource;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.MARSNode:Software;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Order;
+			ogit:to ogit.MARSNode:Machine;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Incident;
 			ogit:to ogit.Automation:MARSNode;
 		]
 		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit.MARSNode:Application;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit.MARSNode:Resource;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit.MARSNode:Software;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Incident;
+			ogit:to ogit.MARSNode:Machine;
+		]
+		[
 			ogit:from ogit.ServiceManagement:Problem;
 			ogit:to ogit.Automation:MARSNode;
 		]
 		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit.MARSNode:Application;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit.MARSNode:Resource;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit.MARSNode:Software;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Problem;
+			ogit:to ogit.MARSNode:Machine;
+		]
+		[
 			ogit:from ogit.ServiceManagement:Ticket;
 			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Ticket;
+			ogit:to ogit.MARSNode:Application;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Ticket;
+			ogit:to ogit.MARSNode:Resource;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Ticket;
+			ogit:to ogit.MARSNode:Software;
+		]
+		[
+			ogit:from ogit.ServiceManagement:Ticket;
+			ogit:to ogit.MARSNode:Machine;
 		]
 	);
 .

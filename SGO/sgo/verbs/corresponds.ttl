@@ -207,6 +207,14 @@ ogit:corresponds
 		]
 		[
 			ogit:from ogit:ConfigurationItem;
+			ogit:to ogit.MARS:Resource;
+		]
+		[
+			ogit:from ogit:ConfigurationItem;
+			ogit:to ogit.MARS:Application;
+		]
+		[
+			ogit:from ogit:ConfigurationItem;
 			ogit:to ogit:Organization;
 		]
 		[
