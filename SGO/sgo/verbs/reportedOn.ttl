@@ -28,6 +28,26 @@ We call it \"reportedOn\" instead of \"observedOn\" to account for the close rel
 		]
 	);
 	ogit:allowed (
+                [
+                       ogit:from ogit.ServiceManagement:ChangeRequest;
+                       ogit:to ogit.Automation:MARSNode;
+		]
+		[
+                        ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.MARS:Application;
+		]
+		[
+                        ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.MARS:Resource;
+		]
+		[
+                        ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.MARS:Software;
+		]
+		[
+                        ogit:from ogit.ServiceManagement:ChangeRequest;
+			ogit:to ogit.MARS:Machine;
+		]
 		[
 			ogit:from ogit.ServiceManagement:Order;
 			ogit:to ogit.Automation:MARSNode;
