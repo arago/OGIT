@@ -49,10 +49,6 @@ We call it \"reportedOn\" instead of \"observedOn\" to account for the close rel
 			ogit:to ogit.MARS:Machine;
 		]
 		[
-			ogit:from ogit.ServiceManagement:Incident;
-			ogit:to ogit.Automation:MARSNode;
-		]
-		[
 			ogit:from ogit.ServiceManagement:Order;
 			ogit:to ogit.Automation:MARSNode;
 		]
