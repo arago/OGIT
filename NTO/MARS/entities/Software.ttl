@@ -1,0 +1,55 @@
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Version:           <http://www.purl.org/ogit/Version/> .
+@prefix ogit.MARS.Software:     <http://www.purl.org/ogit/MARS/Software/> .
+@prefix ogit.MARS.Network:      <http://www.purl.org/ogit/MARS/Network/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MARS:Software
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Software";
+	dcterms:description "Vertices of this type are the 'S'-nodes in the MARS model. 'S' stands for 'Software' and those nodes form the second lowest layer in the A-R-S-M layer model. It's up to the user whether it will model a specific instance of a software (linked to just one 'Machine' node) or several identical instances (then the 'Software' node will be linked to several 'Machine' nodes";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-06-01;";
+	dcterms:creator "FCO";
+	dcterms:created "2015-05-15";
+	dcterms:modified "2015-05-15";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	    ogit:name				
+            ogit.MARS.Software:class
+            ogit.MARS.Software:subClass
+	);
+	ogit:optional-attributes (
+            ogit:endOfWarranty
+            ogit:serialNumber
+            ogit:vendor
+	    ogit:url
+
+            ogit.Version:major
+            ogit.Version:minor
+            ogit.Version:patch
+
+            ogit.Automation:automationState
+            ogit.Automation:serviceStatus
+            ogit.Automation:marsNodeType
+
+            ogit.MARS.Software:installPath
+            ogit.MARS.Software:logPath
+            ogit.MARS.Software:instanceId
+            ogit.MARS.Software:installPath
+            ogit.MARS.Software:serviceName
+
+            ogit.MARS.Network:port
+            ogit.MARS.Network:bindAddress
+            ogit.MARS.Network:protocol
+	);
+	ogit:history (
+	);
+.
