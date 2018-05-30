@@ -30,13 +30,13 @@ general remarks:
 * `/NodeName` is mapped to `ogit/name`
 * `/NodeType` is mapped to `ogit/_type` (one of the four entity types)
 * the following attributes from `ogit/Automation/MARSNode` become obsolete:
-** `ogit/Automation/marsNodeFormalRepresentation`
-** `ogit/Automation/marsNodeType` (replaced by `ogit/_type`)
+  * `ogit/Automation/marsNodeFormalRepresentation`
+  * `ogit/Automation/marsNodeType` (replaced by `ogit/_type`)
 * a few attributes from  `ogit/Automation` NTO have been reused
 * attributes from SGO or other NTOs have been reused when appropriate
 * the following attributes were added without having a corresponding definition in MARS XML Schema:
-** `ogit/url` for "Software" and "Resource"
-** `ogit/serialNumber` for "Software"
+  * `ogit/url` for "Software" and "Resource"
+  * `ogit/serialNumber` for "Software"
 * only a subset of attributes defined by MARS XML Schema is mapped to _ontology defined attributes_. All others will remain "free attributes"
 
 The full mapping is defined [here](AttributeMapping).
@@ -44,12 +44,12 @@ The full mapping is defined [here](AttributeMapping).
 ### Verb Mappings
 
 * `ogit/Automation/MARSNode -ogit/relates-> ogit/Automation/MARSNode` is replaced by:
-** `ogit/MARS/Application -ogit/dependsOn-> ogit/MARS/Resource`
-** `ogit/MARS/Resource -ogit/dependsOn-> ogit/MARS/Software`
-** `ogit/MARS/Software -ogit/dependsOn-> ogit/MARS/Machine`
+  * `ogit/MARS/Application -ogit/dependsOn-> ogit/MARS/Resource`
+  * `ogit/MARS/Resource -ogit/dependsOn-> ogit/MARS/Software`
+  * `ogit/MARS/Software -ogit/dependsOn-> ogit/MARS/Machine`
 * most relationships for `ogit/Automation/MARSNode` are also allowed for `ogit/MARS/*`:
-** everything from the `ogit/ServiceManagement` NTO
-** relations to objects with secondary data: `ogit/Timeseries`, `ogit/Attachment`, ...
-** when appropriate the new mappings are only for specific MARS nodes, e.g. only `ogit/MARS/Application`
+  * everything from the `ogit/ServiceManagement` NTO
+  * relations to objects with secondary data: `ogit/Timeseries`, `ogit/Attachment`, ...
+  * when appropriate the new mappings are only for specific MARS nodes, e.g. only `ogit/MARS/Application`
 * some relationships for `ogit/Automation/MARSNode` were not duplicated for `ogit/MARS/*` (at least not yet):
-** most relationships between `ogit/Automation/MARSNode` and other entities from `ogit/Automation` NTO
+  * most relationships between `ogit/Automation/MARSNode` and other entities from `ogit/Automation` NTO
