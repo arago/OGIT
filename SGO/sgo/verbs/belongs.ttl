@@ -314,21 +314,21 @@ ogit:belongs
 			ogit:to ogit.Project:Milestone;
 		]
 		[
-            ogit:from ogit.Survey:Survey;
-            ogit:to ogit.Project:Project;
-        ]
-        [
-            ogit:from ogit.Survey:Survey;
-            ogit:to ogit.Project:Milestone;
-        ]
-        [
-            ogit:from ogit.Survey:Survey;
-            ogit:to ogit:Organization;
-        ]
-        [
-            ogit:from ogit.Survey:Reply;
-            ogit:to ogit.Survey:Iteration;
-        ]
+			ogit:from ogit.Survey:Survey;
+			ogit:to ogit.Project:Project;
+		]
+		[
+			ogit:from ogit.Survey:Survey;
+			ogit:to ogit.Project:Milestone;
+		]
+		[
+			ogit:from ogit.Survey:Survey;
+			ogit:to ogit:Organization;
+		]
+		[
+			ogit:from ogit.Survey:Reply;
+			ogit:to ogit.Survey:Iteration;
+		]
 		[
 			ogit:from ogit:Organization;
 			ogit:to ogit:Alert;
