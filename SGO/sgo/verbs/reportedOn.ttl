@@ -34,19 +34,19 @@ We call it \"reportedOn\" instead of \"observedOn\" to account for the close rel
 		]
 		[
 			ogit:from ogit.ServiceManagement:Order;
-			ogit:to ogit.MARSNode:Application;
+			ogit:to ogit.MARS:Application;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Order;
-			ogit:to ogit.MARSNode:Resource;
+			ogit:to ogit.MARS:Resource;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Order;
-			ogit:to ogit.MARSNode:Software;
+			ogit:to ogit.MARS:Software;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Order;
-			ogit:to ogit.MARSNode:Machine;
+			ogit:to ogit.MARS:Machine;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Incident;
@@ -54,19 +54,19 @@ We call it \"reportedOn\" instead of \"observedOn\" to account for the close rel
 		]
 		[
 			ogit:from ogit.ServiceManagement:Incident;
-			ogit:to ogit.MARSNode:Application;
+			ogit:to ogit.MARS:Application;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Incident;
-			ogit:to ogit.MARSNode:Resource;
+			ogit:to ogit.MARS:Resource;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Incident;
-			ogit:to ogit.MARSNode:Software;
+			ogit:to ogit.MARS:Software;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Incident;
-			ogit:to ogit.MARSNode:Machine;
+			ogit:to ogit.MARS:Machine;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Problem;
@@ -74,19 +74,19 @@ We call it \"reportedOn\" instead of \"observedOn\" to account for the close rel
 		]
 		[
 			ogit:from ogit.ServiceManagement:Problem;
-			ogit:to ogit.MARSNode:Application;
+			ogit:to ogit.MARS:Application;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Problem;
-			ogit:to ogit.MARSNode:Resource;
+			ogit:to ogit.MARS:Resource;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Problem;
-			ogit:to ogit.MARSNode:Software;
+			ogit:to ogit.MARS:Software;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Problem;
-			ogit:to ogit.MARSNode:Machine;
+			ogit:to ogit.MARS:Machine;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Ticket;
@@ -94,19 +94,19 @@ We call it \"reportedOn\" instead of \"observedOn\" to account for the close rel
 		]
 		[
 			ogit:from ogit.ServiceManagement:Ticket;
-			ogit:to ogit.MARSNode:Application;
+			ogit:to ogit.MARS:Application;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Ticket;
-			ogit:to ogit.MARSNode:Resource;
+			ogit:to ogit.MARS:Resource;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Ticket;
-			ogit:to ogit.MARSNode:Software;
+			ogit:to ogit.MARS:Software;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Ticket;
-			ogit:to ogit.MARSNode:Machine;
+			ogit:to ogit.MARS:Machine;
 		]
 	);
 .

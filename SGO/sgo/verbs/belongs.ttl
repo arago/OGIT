@@ -251,19 +251,19 @@ ogit:belongs
                 ]
 		[
                         ogit:from ogit:Attachment;
-			ogit:to ogit.MARSNode:Application;
+			ogit:to ogit.MARS:Application;
 		]
 		[
                         ogit:from ogit:Attachment;
-			ogit:to ogit.MARSNode:Resource;
+			ogit:to ogit.MARS:Resource;
 		]
 		[
                         ogit:from ogit:Attachment;
-			ogit:to ogit.MARSNode:Software;
+			ogit:to ogit.MARS:Software;
 		]
 		[
                         ogit:from ogit:Attachment;
-			ogit:to ogit.MARSNode:Machine;
+			ogit:to ogit.MARS:Machine;
 		]
 		[
 			ogit:from ogit.Forum:Profile;

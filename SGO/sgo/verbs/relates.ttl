@@ -187,19 +187,19 @@ ogit:relates
 		]
 		[
 			ogit:from ogit.ServiceManagement:Report;
-			ogit:to ogit.MARSNode:Application;
+			ogit:to ogit.MARS:Application;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Report;
-			ogit:to ogit.MARSNode:Resource;
+			ogit:to ogit.MARS:Resource;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Report;
-			ogit:to ogit.MARSNode:Software;
+			ogit:to ogit.MARS:Software;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Report;
-			ogit:to ogit.MARSNode:Machine;
+			ogit:to ogit.MARS:Machine;
 		]
 		[
 			ogit:from ogit.ServiceManagement:ChangeRequest;
@@ -207,19 +207,19 @@ ogit:relates
 		]
 		[
 			ogit:from ogit.ServiceManagement:ChangeRequest;
-			ogit:to ogit.MARSNode:Application;
+			ogit:to ogit.MARS:Application;
 		]
 		[
 			ogit:from ogit.ServiceManagement:ChangeRequest;
-			ogit:to ogit.MARSNode:Resource;
+			ogit:to ogit.MARS:Resource;
 		]
 		[
 			ogit:from ogit.ServiceManagement:ChangeRequest;
-			ogit:to ogit.MARSNode:Software;
+			ogit:to ogit.MARS:Software;
 		]
 		[
 			ogit:from ogit.ServiceManagement:ChangeRequest;
-			ogit:to ogit.MARSNode:Machine;
+			ogit:to ogit.MARS:Machine;
 		]
 		[
 			ogit:from ogit.ServiceManagement:ChangeRequest;
@@ -247,19 +247,19 @@ ogit:relates
 		]
 		[
 			ogit:from ogit:Event;
-			ogit:to ogit.MARSNode:Application;
+			ogit:to ogit.MARS:Application;
 		]
 		[
 			ogit:from ogit:Event;
-			ogit:to ogit.MARSNode:Resource;
+			ogit:to ogit.MARS:Resource;
 		]
 		[
 			ogit:from ogit:Event;
-			ogit:to ogit.MARSNode:Software;
+			ogit:to ogit.MARS:Software;
 		]
 		[
 			ogit:from ogit:Event;
-			ogit:to ogit.MARSNode:Machine;
+			ogit:to ogit.MARS:Machine;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Incident;
@@ -307,19 +307,19 @@ ogit:relates
 		]
 		[
 			ogit:from ogit:ConfigurationItem;
-			ogit:to ogit.MARSNode:Application;
+			ogit:to ogit.MARS:Application;
 		]
 		[
 			ogit:from ogit:ConfigurationItem;
-			ogit:to ogit.MARSNode:Resource;
+			ogit:to ogit.MARS:Resource;
 		]
 		[
 			ogit:from ogit:ConfigurationItem;
-			ogit:to ogit.MARSNode:Software;
+			ogit:to ogit.MARS:Software;
 		]
 		[
 			ogit:from ogit:ConfigurationItem;
-			ogit:to ogit.MARSNode:Machine;
+			ogit:to ogit.MARS:Machine;
 		]
 		[
 			ogit:from ogit.ServiceManagement:Ticket;
