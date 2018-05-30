@@ -1,4 +1,4 @@
-= Mapping of attributes from MARS XML Schema to ontology attributes
+# Mapping of attributes from MARS XML Schema to ontology attributes
 
 * old attributes starting with "/" (free attributes) were defined in [MARS XML Schema](https://github.com/arago/MARS-Schema/blob/master/schemas/MARSSchema2015.xsd)
 * a few old attributes come from `ogit/Automation` NTO
@@ -16,7 +16,7 @@
 |/CPUSpeed|Machine||||
 |/Clustertype|all||||
 |/ConfigFile|Software||||
-|/CustomerID|all|yes|data ownership|no|
+|/CustomerID|all|yes| replaced by data ownership|no|
 |/CustomerName|all||||
 |/DB|Software||||
 |/DataCenterCity|Machine||||
