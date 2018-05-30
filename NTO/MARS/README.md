@@ -38,6 +38,11 @@ general remarks:
   * `ogit/url` for "Software" and "Resource"
   * `ogit/serialNumber` for "Software"
 * only a subset of attributes defined by MARS XML Schema is mapped to _ontology defined attributes_. All others will remain "free attributes"
+* the following _classification attributes_ have a predefined list of allowed values:
+  * ApplicationClass, ApplicationSubClass
+  * ResourceClass
+  * MachineClass
+* the values of _classification attributes_ for Software MARS nodes are not validated, yet
 
 The full mapping is defined [here](AttributeMapping).
 
