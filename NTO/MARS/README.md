@@ -44,7 +44,7 @@ general remarks:
   * MachineClass
 * the values of _classification attributes_ for Software MARS nodes are not validated, yet
 
-The full mapping is defined [here](AttributeMapping).
+The full mapping is defined [here](AttributeMapping.md).
 
 ### Verb Mappings
 
