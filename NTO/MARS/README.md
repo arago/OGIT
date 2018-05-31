@@ -26,7 +26,7 @@ instead of just one entity type `ogit/Automation/MARSNode` there are now four:
 
 general remarks:
 
-* `/ID` is supposed to be stored in `ogit/_xid` (user provided indentifiers)
+* `/NodeID`, `/ID` is supposed to be stored in `ogit/_xid` (user provided indentifiers)
 * `/NodeName` is mapped to `ogit/name`
 * `/NodeType` is mapped to `ogit/_type` (one of the four entity types)
 * the following attributes from `ogit/Automation/MARSNode` become obsolete:
