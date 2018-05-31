@@ -48,7 +48,7 @@
 |/HWVendor|Machine||||
 |/HardwareContact|Machine||||
 |/HasAgentType_WatchMe|all||||
-|/ID|all|yes|ogit/_xid|no|
+|/ID|all|yes|ogit/_xid|(no)|
 |/Instance|Software||ogit/MARS/Software/instanceId||
 |/LogAccessLogPattern|Software||||
 |/LogDefaultLogPattern|Software||||
@@ -69,6 +69,7 @@
 |/NetworkInterface|Machine||ogit/MARS/Network/interfaceName||
 |/NetworkPort|Software||ogit/MARS/Network/port||
 |/NetworkProtocol|Software||ogit/MARS/Network/protocol||
+|/NodeID|all|(yes)|ogit/_xid|(no)|
 |/NodeName|all|yes|ogit/name|yes|
 |/NodeType|all|yes|ogit/_type|(yes)|
 |/NominalState|all||||
