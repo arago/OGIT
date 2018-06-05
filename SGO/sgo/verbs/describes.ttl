@@ -1,4 +1,5 @@
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -48,6 +49,14 @@ ogit:describes
 		[
 			ogit:from ogit:Asset;
 			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit:Asset;
+			ogit:to ogit.MARS:Machine;
+		]
+		[
+			ogit:from ogit:Asset;
+			ogit:to ogit.MARS:Software;
 		]
 		[
 			ogit:from ogit:Asset;
