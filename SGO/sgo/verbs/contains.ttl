@@ -21,7 +21,7 @@ ogit:contains
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2018-05-18";
+	dcterms:modified "2017-04-19";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -110,12 +110,6 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 			dcterms:date "2017-11-06";
 			dcterms:description "Added connections for BundleHistory -> KI/Issue";
 			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "15";
-			dcterms:date "2018-05-18";
-			dcterms:description "Added connections for Software:Application -> Notification";
-			dcterms:creator "qikram@arago.de";
 		]
 	);
 	ogit:allowed (
@@ -602,10 +596,6 @@ Added a connection from `ogit/Forum/KnowledgeBundle` -> `ogit/Automation/Knowled
 		[
 			ogit:from ogit.Forum:KnowledgeBundleHistory;
 			ogit:to ogit.Automation:AutomationIssue;
-		]
-		[
-			ogit:from ogit.Software:Application;
-			ogit:to ogit:Notification;
 		]
 	);
 .

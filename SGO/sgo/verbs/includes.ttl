@@ -1,0 +1,33 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+
+ogit:includes
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "includes";
+	dcterms:description "Indicates if an entity includes something else.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-07-05;";
+	dcterms:creator "qikram@arago.de";
+	dcterms:created "2018-07-05";
+	dcterms:modified "2018-07-05";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2018-07-05";
+			dcterms:description "Added connections for Software:Application -> Notification";
+			dcterms:creator "qikram@arago.de";
+		]
+	);
+	ogit:allowed (
+		[
+			ogit:from ogit.Software:Application;
+			ogit:to ogit:Notification;
+		]
+	);
+.
