@@ -1,0 +1,44 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Automation:KIRanking
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "KIRanking";
+	dcterms:description """A specific knowledge ranking configuration for HIRO.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-04-25;";
+	dcterms:creator "cy@arago.de";
+	dcterms:created "2018-04-25";
+	dcterms:modified "2018-04-25";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:name
+		ogit.Automation:rankingType
+		ogit.Automation:weightMap
+	);
+	ogit:optional-attributes (
+		ogit.Automation:defaultRank
+		ogit.Automation:defaultSigma
+		ogit.Automation:rankMap
+		ogit.Automation:sendHistory
+		ogit.Automation:sendData
+		ogit:url
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2018-04-25";
+			dcterms:description "initial";
+			dcterms:creator "cy@arago.de";
+		]
+	);
+.

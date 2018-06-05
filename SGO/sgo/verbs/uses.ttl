@@ -41,6 +41,12 @@ ogit:uses
 			dcterms:description "Connect Person -> ServiceInstance -> KnowledgePool";
 			dcterms:creator "druss@arago.de";
 		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2018-04-25";
+			dcterms:description "Add MARSNode -> Configuration -> KIRanking and KnowledgePool";
+			dcterms:creator "cy@arago.de";
+		]
 	);
 	ogit:allowed (
 		[
@@ -759,5 +765,17 @@ ogit:uses
                         ogit:from ogit:Organization;
                         ogit:to ogit:Product;
                 ]
+		[
+			ogit:from ogit.Automation:MARSNode;
+			ogit:to ogit.Automation:Configuration;
+		]
+		[
+			ogit:from ogit.Automation:Configuration;
+			ogit:to ogit.Automation:KnowledgePool;
+		]
+		[
+			ogit:from ogit.Automation:Configuration;
+			ogit:to ogit.Automation:KIRanking;
+		]
 	);
 .

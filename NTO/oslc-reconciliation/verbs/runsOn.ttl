@@ -6,6 +6,7 @@
 @prefix rdfs:            <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit:            <http://www.purl.org/ogit/> .
 @prefix ogit.Automation: <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:       <http://www.purl.org/ogit/MARS/> .
 
 ogit.OSLC-crtv:runsOn
 	a owl:ObjectProperty;
@@ -40,6 +41,10 @@ ogit.OSLC-crtv:runsOn
 		[
 			ogit:from ogit.OSLC-crtv:ServiceInstance;
 			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.OSLC-crtv:ServiceInstance;
+			ogit:to ogit.MARS:Machine;
 		]
 	);
 .
