@@ -8,6 +8,7 @@ var modules =
     [ "Datacenter", "group__Datacenter.html", "group__Datacenter" ],
     [ "Forum", "group__Forum.html", "group__Forum" ],
     [ "Knowledge", "group__Knowledge.html", "group__Knowledge" ],
+    [ "MARS", "group__MARS.html", "group__MARS" ],
     [ "Network", "group__Network.html", "group__Network" ],
     [ "OSLC-arch", "group__OSLC-arch.html", "group__OSLC-arch" ],
     [ "OSLC-asset", "group__OSLC-asset.html", "group__OSLC-asset" ],
@@ -27,5 +28,6 @@ var modules =
     [ "Software", "group__Software.html", "group__Software" ],
     [ "Statistics", "group__Statistics.html", "group__Statistics" ],
     [ "Survey", "group__Survey.html", "group__Survey" ],
-    [ "UserMeta", "group__UserMeta.html", "group__UserMeta" ]
+    [ "UserMeta", "group__UserMeta.html", "group__UserMeta" ],
+    [ "Version", "group__Version.html", "group__Version" ]
 ];

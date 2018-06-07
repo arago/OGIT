@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['rankingtype',['rankingType',['../group__httpwwwpurlorgogitAutomationrankingType.html',1,'']]],
+  ['rankmap',['rankMap',['../group__httpwwwpurlorgogitAutomationrankMap.html',1,'']]],
   ['receivetask',['ReceiveTask',['../group__httpwwwpurlorgogitBusinessProcessReceiveTask.html',1,'']]],
   ['rack',['Rack',['../group__httpwwwpurlorgogitDatacenterRack.html',1,'']]],
   ['rackid',['rackId',['../group__httpwwwpurlorgogitDatacenterrackId.html',1,'']]],
@@ -11,6 +13,8 @@ var searchData=
   ['reply',['Reply',['../group__httpwwwpurlorgogitForumReply.html',1,'']]],
   ['review',['Review',['../group__httpwwwpurlorgogitForumReview.html',1,'']]],
   ['role',['Role',['../group__httpwwwpurlorgogitForumRole.html',1,'']]],
+  ['ram',['ram',['../group__httpwwwpurlorgogitMARSMachineram.html',1,'']]],
+  ['resource',['Resource',['../group__httpwwwpurlorgogitMARSResource.html',1,'']]],
   ['router',['Router',['../group__httpwwwpurlorgogitNetworkRouter.html',1,'']]],
   ['resource',['Resource',['../group__httpwwwpurlorgogitOSLC-archResource.html',1,'']]],
   ['relationshiptype',['relationshipType',['../group__httpwwwpurlorgogitOSLC-assetrelationshipType.html',1,'']]],
@@ -50,8 +54,8 @@ var searchData=
   ['requirement',['Requirement',['../group__httpwwwpurlorgogitOSLC-reqmanRequirement.html',1,'']]],
   ['requirementcollection',['RequirementCollection',['../group__httpwwwpurlorgogitOSLC-reqmanRequirementCollection.html',1,'']]],
   ['range',['range',['../group__httpwwwpurlorgogitrange.html',1,'']]],
-  ['resource',['Resource',['../group__httpwwwpurlorgogitRDDLResource.html',1,'']]],
   ['resource',['resource',['../group__httpwwwpurlorgogitRDDLresource.html',1,'']]],
+  ['resource',['Resource',['../group__httpwwwpurlorgogitRDDLResource.html',1,'']]],
   ['readby',['readBy',['../group__httpwwwpurlorgogitreadBy.html',1,'']]],
   ['reason',['reason',['../group__httpwwwpurlorgogitreason.html',1,'']]],
   ['receives',['receives',['../group__httpwwwpurlorgogitreceives.html',1,'']]],

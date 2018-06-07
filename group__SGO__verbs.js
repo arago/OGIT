@@ -44,6 +44,7 @@ var group__SGO__verbs =
     [ "hosts", "group__httpwwwpurlorgogithosts.html", null ],
     [ "ignores", "group__httpwwwpurlorgogitignores.html", null ],
     [ "implements", "group__httpwwwpurlorgogitimplements.html", null ],
+    [ "includes", "group__httpwwwpurlorgogitincludes.html", null ],
     [ "installs", "group__httpwwwpurlorgogitinstalls.html", null ],
     [ "invites", "group__httpwwwpurlorgogitinvites.html", null ],
     [ "leads", "group__httpwwwpurlorgogitleads.html", null ],

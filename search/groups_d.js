@@ -21,6 +21,7 @@ var searchData=
   ['manages',['manages',['../group__httpwwwpurlorgogitmanages.html',1,'']]],
   ['manufacturer',['manufacturer',['../group__httpwwwpurlorgogitmanufacturer.html',1,'']]],
   ['market',['market',['../group__httpwwwpurlorgogitmarket.html',1,'']]],
+  ['machine',['Machine',['../group__httpwwwpurlorgogitMARSMachine.html',1,'']]],
   ['message',['message',['../group__httpwwwpurlorgogitmessage.html',1,'']]],
   ['middlename',['middleName',['../group__httpwwwpurlorgogitmiddleName.html',1,'']]],
   ['mobilephone',['mobilePhone',['../group__httpwwwpurlorgogitmobilePhone.html',1,'']]],
@@ -45,11 +46,11 @@ var searchData=
   ['measure',['Measure',['../group__httpwwwpurlorgogitOSLC-emsMeasure.html',1,'']]],
   ['measurecell',['measureCell',['../group__httpwwwpurlorgogitOSLC-emsmeasureCell.html',1,'']]],
   ['measurecell',['MeasureCell',['../group__httpwwwpurlorgogitOSLC-emsMeasureCell.html',1,'']]],
-  ['measurecolumn',['measureColumn',['../group__httpwwwpurlorgogitOSLC-emsmeasureColumn.html',1,'']]],
   ['measurecolumn',['MeasureColumn',['../group__httpwwwpurlorgogitOSLC-emsMeasureColumn.html',1,'']]],
+  ['measurecolumn',['measureColumn',['../group__httpwwwpurlorgogitOSLC-emsmeasureColumn.html',1,'']]],
   ['measuredistribution',['MeasureDistribution',['../group__httpwwwpurlorgogitOSLC-emsMeasureDistribution.html',1,'']]],
-  ['measuredistributioncell',['MeasureDistributionCell',['../group__httpwwwpurlorgogitOSLC-emsMeasureDistributionCell.html',1,'']]],
   ['measuredistributioncell',['measureDistributionCell',['../group__httpwwwpurlorgogitOSLC-emsmeasureDistributionCell.html',1,'']]],
+  ['measuredistributioncell',['MeasureDistributionCell',['../group__httpwwwpurlorgogitOSLC-emsMeasureDistributionCell.html',1,'']]],
   ['measurement',['Measurement',['../group__httpwwwpurlorgogitOSLC-emsMeasurement.html',1,'']]],
   ['measurementlist',['measurementList',['../group__httpwwwpurlorgogitOSLC-emsmeasurementList.html',1,'']]],
   ['measurementlist',['MeasurementList',['../group__httpwwwpurlorgogitOSLC-emsMeasurementList.html',1,'']]],
@@ -68,5 +69,8 @@ var searchData=
   ['metric',['Metric',['../group__httpwwwpurlorgogitOSLC-perfmonMetric.html',1,'']]],
   ['mobilityenabled',['mobilityEnabled',['../group__httpwwwpurlorgogitOSLC-perfmonmobilityEnabled.html',1,'']]],
   ['monitoringagent',['monitoringAgent',['../group__httpwwwpurlorgogitOSLC-perfmonmonitoringAgent.html',1,'']]],
-  ['milestone',['Milestone',['../group__httpwwwpurlorgogitProjectMilestone.html',1,'']]]
+  ['milestone',['Milestone',['../group__httpwwwpurlorgogitProjectMilestone.html',1,'']]],
+  ['major',['major',['../group__httpwwwpurlorgogitVersionmajor.html',1,'']]],
+  ['minor',['minor',['../group__httpwwwpurlorgogitVersionminor.html',1,'']]],
+  ['mars',['MARS',['../group__MARS.html',1,'']]]
 ];
