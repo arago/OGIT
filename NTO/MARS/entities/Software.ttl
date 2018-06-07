@@ -50,6 +50,9 @@ ogit.MARS:Software
             ogit.MARS.Network:bindAddress
             ogit.MARS.Network:protocol
 	);
+        ogit:indexed-attributes (
+
+        );
 	ogit:history (
 	);
 .

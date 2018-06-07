@@ -30,6 +30,9 @@ ogit.MARS:Resource
             ogit.Automation:serviceStatus
             ogit.Automation:marsNodeType
 	);
+        ogit:indexed-attributes (
+
+        );
 	ogit:history (
 	);
 .
