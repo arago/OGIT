@@ -52,6 +52,9 @@ ogit.MARS:Machine
             ogit.MARS.Machine:kernel
             ogit.MARS.Machine:ram
 	);
+        ogit:indexed-attributes (
+
+        );
 	ogit:history (
 	);
 .
