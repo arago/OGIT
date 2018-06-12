@@ -27,7 +27,7 @@ ogit:forks
 	ogit:allowed (
 	    [
 	        ogit:from ogit.Automation:KnowledgeItem;
-            ogit:to ogit.Automation:KnowledgeItem;
-        ]
+	        ogit:to ogit.Automation:KnowledgeItem;
+	    ]
 	);
 .
