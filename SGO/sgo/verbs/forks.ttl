@@ -23,9 +23,11 @@ ogit:defines
 			dcterms:description "initial";
 			dcterms:creator "Vitaly Teremasov";
 		]
-	);
+    );
 	ogit:allowed (
-        ogit:from ogit.Automation:KnowledgeItem;
-        ogit:to ogit.Automation:KnowledgeItem;
+	    [
+            ogit:from ogit.Automation:KnowledgeItem;
+            ogit:to ogit.Automation:KnowledgeItem;
+        ]
 	);
 .
