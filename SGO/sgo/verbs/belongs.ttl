@@ -4,6 +4,8 @@
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Automation: 	<http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
@@ -243,6 +245,26 @@ ogit:belongs
 			ogit:from ogit:Attachment;
 			ogit:to ogit:Contract;
 		]
+                [
+                        ogit:from ogit:Attachment;
+                        ogit:to ogit.Automation:MARSNode;
+                ]
+		[
+                        ogit:from ogit:Attachment;
+			ogit:to ogit.MARS:Application;
+		]
+		[
+                        ogit:from ogit:Attachment;
+			ogit:to ogit.MARS:Resource;
+		]
+		[
+                        ogit:from ogit:Attachment;
+			ogit:to ogit.MARS:Software;
+		]
+		[
+                        ogit:from ogit:Attachment;
+			ogit:to ogit.MARS:Machine;
+		]
 		[
 			ogit:from ogit.Forum:Profile;
 			ogit:to ogit.Forum:Group;
@@ -292,21 +314,21 @@ ogit:belongs
 			ogit:to ogit.Project:Milestone;
 		]
 		[
-            ogit:from ogit.Survey:Survey;
-            ogit:to ogit.Project:Project;
-        ]
-        [
-            ogit:from ogit.Survey:Survey;
-            ogit:to ogit.Project:Milestone;
-        ]
-        [
-            ogit:from ogit.Survey:Survey;
-            ogit:to ogit:Organization;
-        ]
-        [
-            ogit:from ogit.Survey:Reply;
-            ogit:to ogit.Survey:Iteration;
-        ]
+			ogit:from ogit.Survey:Survey;
+			ogit:to ogit.Project:Project;
+		]
+		[
+			ogit:from ogit.Survey:Survey;
+			ogit:to ogit.Project:Milestone;
+		]
+		[
+			ogit:from ogit.Survey:Survey;
+			ogit:to ogit:Organization;
+		]
+		[
+			ogit:from ogit.Survey:Reply;
+			ogit:to ogit.Survey:Iteration;
+		]
 		[
 			ogit:from ogit:Organization;
 			ogit:to ogit:Alert;

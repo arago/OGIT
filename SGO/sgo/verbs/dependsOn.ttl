@@ -3,6 +3,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 
 ogit:dependsOn
 	a owl:ObjectProperty;
@@ -28,6 +29,18 @@ ogit:dependsOn
 		[
 			ogit:from ogit.Automation:MARSNode;
 			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit.MARS:Application;
+			ogit:to ogit.MARS:Resource;
+		]
+		[
+			ogit:from ogit.MARS:Resource;
+			ogit:to ogit.MARS:Software;
+		]
+		[
+			ogit:from ogit.MARS:Software;
+			ogit:to ogit.MARS:Machine;
 		]
 	);
 .

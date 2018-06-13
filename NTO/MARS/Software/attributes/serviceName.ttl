@@ -1,0 +1,28 @@
+@prefix ogit.MARS.Software:   <http://www.purl.org/ogit/MARS/Software/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MARS.Software:serviceName
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "serviceName";
+	dcterms:description "Defines the service name for a software which can buse for administrative operations like start, stop, or status. E.g on RedHat Linux it would be the name of the service unit (without the .service extension). Replaces 'ServiceName' from MARS-Schema";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-06-01;";
+	dcterms:creator "fotto@arago.de";
+	dcterms:created "2018-05-25";
+	dcterms:modified "2018-05-25";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2018-05-25";
+			dcterms:description "initial";
+			dcterms:creator "fotto@arago.de";
+		]
+	);
+.
+

@@ -1,0 +1,43 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:TermsAndConditions
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "TermsAndConditions";
+	dcterms:description "Terms and conditions contains terms of use to be accepted by users";
+	dcterms:valid "start=2018-04-18;";
+	dcterms:creator "Aman Kubanychbek";
+	dcterms:created "2018-04-18";
+	dcterms:modified "2018-04-18";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "SGO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:any-attributes "true";
+	ogit:mandatory-attributes (
+		ogit:name
+		ogit:content
+	);
+	ogit:optional-attributes (
+		ogit:description
+	);
+	ogit:indexed-attributes (
+		ogit:name
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2018-04-18";
+			dcterms:description "initial";
+			dcterms:creator "Aman Kubanychbek";
+		]
+		[
+			dcterms:identifier "2";
+			dcterms:date "2018-04-19";
+			dcterms:description "rename attribute: body -> content";
+			dcterms:creator "Aman Kubanychbek";
+		]
+	);
+.
