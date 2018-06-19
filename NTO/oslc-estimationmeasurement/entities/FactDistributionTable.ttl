@@ -43,12 +43,4 @@ except that it has <em>fact distribution</em> rows
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-09-22";
-			dcterms:description "initial";
-			dcterms:creator "OGIT Importer";
-		]
-	);
 .

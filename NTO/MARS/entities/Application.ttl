@@ -32,6 +32,4 @@ ogit.MARS:Application
         ogit:indexed-attributes (
 
         );
-	ogit:history (
-	);
 .

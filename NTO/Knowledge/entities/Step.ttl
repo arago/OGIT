@@ -26,12 +26,4 @@ ogit.Knowledge:Step
 	ogit:indexed-attributes (
 
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-03-14";
-			dcterms:description "initial";
-			dcterms:creator "cwalker@arago.de";
-		]
-	);
 .

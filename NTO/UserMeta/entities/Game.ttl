@@ -25,12 +25,4 @@ ogit.UserMeta:Game
     ogit:indexed-attributes (
 
     );
-    ogit:history (
-        [
-            dcterms:identifier "1";
-            dcterms:date "2016-07-19";
-            dcterms:description "Initial Creation";
-            dcterms:creator "bneal@arago.de";
-        ]
-    );
 .

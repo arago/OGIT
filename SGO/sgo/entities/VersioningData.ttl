@@ -25,12 +25,4 @@ ogit:VersioningData
     ogit:indexed-attributes (
         ogit:name
     );
-    ogit:history (
-        [
-            dcterms:identifier "1";
-            dcterms:date "2017-10-31";
-            dcterms:description "initial";
-            dcterms:creator "druss@arago.de";
-        ]
-    );
 .

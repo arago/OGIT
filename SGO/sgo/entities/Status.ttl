@@ -24,12 +24,4 @@ ogit:Status
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-04-19";
-			dcterms:description "initial";
-			dcterms:creator "stravlos@arago.de";
-		]
-	);
 .

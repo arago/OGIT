@@ -18,14 +18,6 @@ tense used in the verb, this almost always will refer to some that *was* won in 
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:cardinality "many2many";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-23";
-			dcterms:description "Initial Creation";
-			dcterms:creator "cwalker@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Forum:Profile;

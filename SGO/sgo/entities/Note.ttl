@@ -26,12 +26,4 @@ ogit:Note
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-29";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

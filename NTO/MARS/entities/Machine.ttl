@@ -55,6 +55,4 @@ ogit.MARS:Machine
         ogit:indexed-attributes (
 
         );
-	ogit:history (
-	);
 .

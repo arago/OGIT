@@ -17,26 +17,6 @@ ogit:deployedTo
 	dcterms:modified "2015-07-27";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-27";
-			dcterms:description "initial";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-10-15";
-			dcterms:description "added a new edge from a MARSNode to a MARSNode";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2017-11-15";
-			dcterms:description "add connection KnowledgeItem -> ServiceInstance";
-			dcterms:creator "druss@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:ConfigurationItem;

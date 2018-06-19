@@ -26,12 +26,4 @@ ogit.Forum:Permission
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-09-04";
-			dcterms:description "Initial Creation";
-			dcterms:creator "bmoore@arago.de";
-		]
-	);
 .

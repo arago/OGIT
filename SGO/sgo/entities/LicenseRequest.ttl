@@ -33,24 +33,4 @@ A request might contain a valid LicenseToken to indicate that this request is pr
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2017-08-14";
-			dcterms:description "added ogit/subject";
-			dcterms:creator "Miroslaw Glusiuk";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2017-09-06";
-			dcterms:description "added optional attribute ogit/licenseId";
-			dcterms:creator "Oday Jubran";
-		]
-	);
 .

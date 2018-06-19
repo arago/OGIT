@@ -26,18 +26,4 @@ ogit.Forum:KnowledgeBundle
 	ogit:indexed-attributes (
 
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
-			dcterms:description "Initial Creation";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2017-10-31";
-			dcterms:description "Make deprecated";
-			dcterms:creator "druss@arago.de";
-		]
-	);
 .

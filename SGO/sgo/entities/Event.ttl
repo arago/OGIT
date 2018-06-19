@@ -48,18 +48,4 @@ ogit:Event
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2016-08-03";
-			dcterms:description "Added Attributes: ogit/summary, ogit/impact, ogit/priority, ogit/certainty, ogit/firstOccurredAt, ogit/lastOccurredAt, ogit/openedAt, ogit/lastUpdatedAt, ogit/lastClearedAt, ogit/expiresAt, ogit/occurenceCount,  ogit/ServiceManagement/reportedSource, ogit/type, ogit/category, ogit/instance, ogit/resource, ogit/maintenanceState, ogit/acknowledgeState, ogit/isRoot";
-			dcterms:creator "Philipp Pelchmann";
-		]
-	);
 .

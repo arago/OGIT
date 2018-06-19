@@ -42,24 +42,4 @@ ogit:Person
 		ogit:email
 		ogit:alternativeName
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-06-11";
-			dcterms:description "added optional attribute /ogit/sourceId";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-07-27";
-			dcterms:description "added optional attribute ogit/middleName, ogit/officePhone, ogit/otherPhone, ogit/mobilePhone, ogit/fax, ogit/webPage, ogit/notification, ogit/status";
-			dcterms:creator "Philipp Pelchmann";
-		]
-	);
 .

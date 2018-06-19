@@ -15,12 +15,4 @@ ogit:_edge_id
 	dcterms:modified "2015-07-27";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-07-27";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

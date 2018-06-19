@@ -25,12 +25,4 @@ ogit.Forum:Workflow
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-09-18";
-			dcterms:description "Initial Creation";
-			dcterms:creator "cwalker@arago.de";
-		]
-	);
 .

@@ -42,12 +42,4 @@ are defined on the sequence flow connected with the parallel gateway, they are s
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

@@ -43,31 +43,4 @@ Comman alternative names with same meaning are: task, activity, work order.""";
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-22";
-			dcterms:description """Attribute name changed from subStatus to sourceStatus
-""";
-			dcterms:creator "Catarina Onofre";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-07-09";
-			dcterms:description "change attribute ogit/startAt to ogit/startedAt and ogit/finishAt to ogit/finishedAt";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-12-10";
-			dcterms:description "change entity name to ogit/ServiceManagement/SubTask and add some attributes";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

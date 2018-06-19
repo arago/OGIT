@@ -16,13 +16,5 @@ ogit.MARS.Software:logPath
 	dcterms:modified "2018-05-25";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-05-25";
-			dcterms:description "initial";
-			dcterms:creator "fotto@arago.de";
-		]
-	);
 .
 

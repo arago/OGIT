@@ -15,12 +15,4 @@ ogit:acknowledgeState
 	dcterms:modified "2016-08-03";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-08-03";
-			dcterms:description "initial";
-			dcterms:creator "Philipp Pelchmann";
-		]
-	);
 .

@@ -16,44 +16,6 @@ ogit:approves
 	dcterms:modified "2015-07-27";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-07-27";
-			dcterms:description "initial";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-09-04";
-			dcterms:description "Added edge Permission -> Organization, Profile";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-12-03";
-			dcterms:description "Edited edge Permission -> Forum/Group";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2016-06-23";
-			dcterms:description "connection added";
-			dcterms:creator "Spyridon Travlos";
-		]
-		[
-			dcterms:identifier "5";
-			dcterms:date "2016-11-03";
-			dcterms:description "Re-add missing connection";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "6";
-			dcterms:date "2018-01-08";
-			dcterms:description "add Review -> WorkflowStep";
-			dcterms:creator "bmoore@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Organization;

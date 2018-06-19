@@ -17,26 +17,6 @@ ogit:provides
 	dcterms:modified "2015-07-24";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-07-24";
-			dcterms:description "initial";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-07-27";
-			dcterms:description "updated edge from ogit/ConfigurationItem -> ogit/ConfigurationItem added";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-10-15";
-			dcterms:description "updated edge from ogit/Automation/MARSNode -> ogit/Automation/MARSNode added";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Organization;

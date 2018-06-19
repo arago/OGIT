@@ -29,12 +29,4 @@ Knowledge, People, Information, Applications, Infrastructure, Financial Capital.
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

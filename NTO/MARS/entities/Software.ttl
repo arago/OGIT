@@ -53,6 +53,4 @@ ogit.MARS:Software
         ogit:indexed-attributes (
 
         );
-	ogit:history (
-	);
 .

@@ -15,14 +15,6 @@ ogit:hiddenBy
 	dcterms:modified "2017-07-04";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-07-04";
-			dcterms:description "initial";
-			dcterms:creator "Kristjan Liiva";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Notification;

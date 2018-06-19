@@ -37,18 +37,4 @@ ogit.Forum:KnowledgeItemHistory
 		ogit:name
 		ogit:description
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-11-13";
-			dcterms:description "Initial Creation";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2017-10-31";
-			dcterms:description "Make deprecated";
-			dcterms:creator "druss@arago.de";
-		]
-	);
 .

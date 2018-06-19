@@ -27,14 +27,6 @@ HTTP GET response for the link given in <code>ems:wbsSource</code>.""";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-09-22";
-			dcterms:description "initial";
-			dcterms:creator "OGIT Importer";
-		]
-	);
 	ogit:allowed (
 
 	);

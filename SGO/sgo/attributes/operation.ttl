@@ -15,12 +15,4 @@ ogit:operation
 	dcterms:modified "2018-03-22";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-03-22";
-			dcterms:description "initial";
-			dcterms:creator "qikram@arago.de";
-		]
-	);
 .

@@ -17,26 +17,6 @@ ogit.Forum:downloads
 	dcterms:modified "2018-01-26";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-02-25";
-			dcterms:description "intitial inception";
-			dcterms:creator "bneal@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2017-11-03";
-			dcterms:description "add Profile downloads KnowledgeItemHistory";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2018-01-26";
-			dcterms:description "Adding connections identified as missing for HIRO Community";
-			dcterms:creator "cwalker@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Forum:Profile;

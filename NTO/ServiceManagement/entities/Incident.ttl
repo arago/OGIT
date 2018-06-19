@@ -37,36 +37,4 @@ ogit.ServiceManagement:Incident
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-22";
-			dcterms:description "change attribute subStatus to sourceStatus";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-06-12";
-			dcterms:description "attribute category added";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-07-06";
-			dcterms:description "attribute assignedGroup added";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "5";
-			dcterms:date "2015-09-04";
-			dcterms:description "attribute ogit/id moved to be optional";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 .

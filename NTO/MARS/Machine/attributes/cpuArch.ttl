@@ -19,12 +19,4 @@ ogit.MARS.Machine:cpuArch
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
 	ogit:validation-parameter "^(x86_32|x86_64|Sparc|PowerPC|Itanium|Appliance|MIPS|Alpha|SH-x|StrongARM)$";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-05-22";
-			dcterms:description "initial";
-			dcterms:creator "fotto@arago.de";
-		]
-	);
 .

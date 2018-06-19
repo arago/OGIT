@@ -18,13 +18,5 @@ ogit.MARS.Resource:class
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
 	ogit:validation-parameter "^(Backend|Computation|ContentDelivery|CoreApplication|Database|Environment|Frontend|Infrastructure|Interface|Logistics|Middleware|Monitoring|PhysicalObject|Place|Process|Provider|Security|Service|Storage)$";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-05-25";
-			dcterms:description "initial";
-			dcterms:creator "fotto@arago.de";
-		]
-	);
 .
 

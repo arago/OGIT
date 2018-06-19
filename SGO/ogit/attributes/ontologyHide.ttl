@@ -16,12 +16,4 @@ ogit:ontologyHide
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "true";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-06-01";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

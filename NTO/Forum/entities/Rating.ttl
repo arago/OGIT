@@ -26,18 +26,4 @@ ogit.Forum:Rating
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-08-12";
-			dcterms:description "Initial Creation";
-			dcterms:creator "bneal@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2016-05-17";
-			dcterms:description "Added ogit/content Field";
-			dcterms:creator "bneal@arago.de";
-		]
-	);
 .

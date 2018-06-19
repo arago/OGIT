@@ -18,26 +18,6 @@ ogit:associates
 	dcterms:modified "2015-05-21";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-26";
-			dcterms:description "change Issue to AutomationIssue";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-12-04";
-			dcterms:description "Added Forum/Group -> Forum/Role";
-			dcterms:creator "bmoore@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Automation:AutomationIssue;

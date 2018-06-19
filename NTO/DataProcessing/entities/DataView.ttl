@@ -29,12 +29,4 @@ ogit.DataProcessing:DataView
         ogit:name
         ogit:description
     );
-    ogit:history (
-        [
-            dcterms:identifier "1";
-            dcterms:date "2017-10-31";
-            dcterms:description "initial";
-            dcterms:creator "druss@arago.de";
-        ]
-    );
 .

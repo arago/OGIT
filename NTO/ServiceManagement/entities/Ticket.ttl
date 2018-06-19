@@ -39,30 +39,4 @@ ogit.ServiceManagement:Ticket
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-22";
-			dcterms:description "Attribute name changed from subStatus to sourceStatus";
-			dcterms:creator "Catarina Onofre";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-05-26";
-			dcterms:description "add new optional attribute ogit/ServiceManagement/ticketId";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-06-11";
-			dcterms:description "deleted the optional attribute ogit/ServiceManagement/externalTicketSource";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 .

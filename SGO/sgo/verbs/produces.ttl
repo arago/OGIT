@@ -17,32 +17,6 @@ ogit:produces
 	dcterms:modified "2017-06-09";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-            dcterms:identifier "1";
-            dcterms:date "2016-08-08";
-            dcterms:description "initial";
-            dcterms:creator "Alexander Ryabtsev";
-        ]
-        [
-            dcterms:identifier "2";
-            dcterms:date "2017-02-06";
-            dcterms:description "Add edge from person to milestone.";
-            dcterms:creator "Alexander Ryabtsev";
-        ]
-        [
-			dcterms:identifier "3";
-			dcterms:date "2017-06-09";
-			dcterms:description "Refactored names of Project/Survey related concepts";
-			dcterms:creator "Fabian Meyer";
-		]
-        [
-            dcterms:identifier "4";
-            dcterms:date "2018-02-08";
-            dcterms:description "Add edge from organization to product.";
-            dcterms:creator "Viktor Voss";
-        ]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Person;

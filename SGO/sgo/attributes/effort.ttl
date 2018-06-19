@@ -18,12 +18,4 @@ The values is expected to be in format HH:MM, e.g. 1:00 for 1 hour effort.""";
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
 	ogit:validation-parameter """^(\\d+:\\d\\d)$""";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

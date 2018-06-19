@@ -16,26 +16,6 @@ ogit:follows
 	dcterms:modified "2016-11-01";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-09-15";
-			dcterms:description "add connection Person -> Person";
-			dcterms:creator "Peter Larem";
-		]
-        [
-            dcterms:identifier "3";
-            dcterms:date "2016-11-01";
-            dcterms:description "add connection Account -> Account";
-            dcterms:creator "Ben Neal";
-        ]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.BusinessProcess:BusinessRuleTask;
