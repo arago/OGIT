@@ -38,6 +38,7 @@ var group__SGO__verbs =
     [ "endorses", "group__httpwwwpurlorgogitendorses.html", null ],
     [ "extends", "group__httpwwwpurlorgogitextends.html", null ],
     [ "follows", "group__httpwwwpurlorgogitfollows.html", null ],
+    [ "forks", "group__httpwwwpurlorgogitforks.html", null ],
     [ "generates", "group__httpwwwpurlorgogitgenerates.html", null ],
     [ "governs", "group__httpwwwpurlorgogitgoverns.html", null ],
     [ "hiddenBy", "group__httpwwwpurlorgogithiddenBy.html", null ],
