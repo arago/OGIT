@@ -18,7 +18,7 @@ ogit.Automation:Configuration
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		ogit:name
+
 	);
 	ogit:optional-attributes (
 		

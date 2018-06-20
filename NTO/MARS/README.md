@@ -37,6 +37,7 @@ general remarks:
 * the following attributes were added without having a corresponding definition in MARS XML Schema:
   * `ogit/url` for "Software" and "Resource"
   * `ogit/serialNumber` for "Software"
+  * `ogit/Automation/lifecycle`
 * only a subset of attributes defined by MARS XML Schema is mapped to _ontology defined attributes_. All others will remain "free attributes"
 * the following _classification attributes_ have a predefined list of allowed values:
   * ApplicationClass, ApplicationSubClass

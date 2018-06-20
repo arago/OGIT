@@ -24,7 +24,6 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 	ogit:any-attributes "true";
 	ogit:mandatory-attributes (
 		ogit.Automation:knowledgeItemFormalRepresentation
-		ogit.Automation:deployToEngine
 	);
 	ogit:optional-attributes (
 		ogit:modificationTime
@@ -36,6 +35,7 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 		ogit:changeLog
 		ogit:accessControl
 		ogit.Automation:knowledgeItemSyntaxVersion
+		ogit.Automation:deployToEngine
 		ogit.Automation:isDeployed
 		ogit.Automation:deployStatus
 	);
@@ -64,6 +64,12 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 			dcterms:date "2016-04-18";
 			dcterms:description "added indexes for creator/modifier/owner";
 			dcterms:creator "Markus Napp";
+		]
+		[
+			dcterms:identifier "4";
+			dcterms:date "2016-06-01";
+			dcterms:description "make deployToEngine optional";
+			dcterms:creator "cy@arago.de";
 		]
 	);
 .
