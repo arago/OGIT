@@ -12,10 +12,6 @@ ogit:accepts
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-09-02;";
 	dcterms:creator "bmoore@arago.de";
-	dcterms:created "2015-09-02";
-	dcterms:modified "2015-09-02";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:allowed (
 		[
 			ogit:from ogit.Forum:Profile;

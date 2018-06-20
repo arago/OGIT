@@ -13,10 +13,6 @@ ogit.MARS.Machine:cpuArch
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-06-01;";
 	dcterms:creator "fotto@arago.de";
-	dcterms:created "2018-05-22";
-	dcterms:modified "2018-05-22";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
 	ogit:validation-parameter "^(x86_32|x86_64|Sparc|PowerPC|Itanium|Appliance|MIPS|Alpha|SH-x|StrongARM)$";
 .

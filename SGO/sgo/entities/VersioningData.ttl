@@ -9,10 +9,6 @@ ogit:VersioningData
     dcterms:description """Proxy node for accessing any versioned data.""";
     dcterms:valid "start=2017-10-31;";
     dcterms:creator "druss@arago.de";
-    dcterms:created "2017-10-31";
-    dcterms:modified "2017-10-31";
-    ogit:admin-contact "arago GmbH";
-    ogit:tech-contact "arago GmbH";
     ogit:scope "SGO";
     ogit:parent "http://www.purl.org/ogit/Node";
     ogit:hide "true";

@@ -12,8 +12,4 @@ ogit.Datacenter:rackUnit
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-10-15;";
 	dcterms:creator "Aymen Ayoub";
-	dcterms:created "1970-01-01";
-	dcterms:modified "2015-10-15";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 .

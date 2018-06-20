@@ -14,8 +14,4 @@ node.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-03-26;";
 	dcterms:creator "Chris Walker";
-	dcterms:created "2015-03-26";
-	dcterms:modified "2015-03-26";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 .

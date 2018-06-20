@@ -13,10 +13,6 @@ ogit.Forum:rates
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-08-12;";
 	dcterms:creator "bneal@arago.de";
-	dcterms:created "2015-08-12";
-	dcterms:modified "2016-03-24";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:allowed (
 		[
 			ogit:from ogit.Forum:Profile;
