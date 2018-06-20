@@ -39,18 +39,4 @@ ogit.ServiceManagement:Order
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-22";
-			dcterms:description "change attribute subStatus to sourceStatus";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

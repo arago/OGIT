@@ -48,14 +48,6 @@ ogit:Entity
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .
 
 ogit:Attribute
@@ -90,14 +82,6 @@ ogit:Attribute
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .
 
 ogit:Verb
@@ -130,14 +114,6 @@ ogit:Verb
 	);
 	ogit:indexed-attributes (
 		
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
 	);
 .
 

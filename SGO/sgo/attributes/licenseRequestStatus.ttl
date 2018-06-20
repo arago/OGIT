@@ -17,30 +17,4 @@ ogit:licenseRequestStatus
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
 	ogit:validation-parameter "^(pending|send|error|approved|rejected|failed|received|cancelled|closed)$";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-                [
-			dcterms:identifier "2";
-			dcterms:date "2017-08-10";
-			dcterms:description "add more states";
-			dcterms:creator "Miroslaw Glusiuk";
-		]
-                [
-			dcterms:identifier "3";
-			dcterms:date "2017-08-24";
-			dcterms:description "add missing closed state";
-			dcterms:creator "Miroslaw Glusiuk";
-		]
-                [
-			dcterms:identifier "4";
-			dcterms:date "2017-09-06";
-			dcterms:description "add error state";
-			dcterms:creator "Oday Jubran";
-		]
-	);
 .

@@ -24,14 +24,6 @@ Instead, this property identifies the specification that defines the XML format 
 	ogit:tech-contact "arago GmbH";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-09-22";
-			dcterms:description "initial";
-			dcterms:creator "OGIT Importer";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.OSLC-ems:WorkBreakdownStructure;

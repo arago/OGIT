@@ -24,12 +24,4 @@ The datatype of this property is typically <code>xsd:double</code>.""";
 	ogit:hide "false";
 	ogit:validation-type "";
 	ogit:validation-parameter "";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-09-22";
-			dcterms:description "initial";
-			dcterms:creator "OGIT Importer";
-		]
-	);
 .

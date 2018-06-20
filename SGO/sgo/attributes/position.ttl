@@ -15,12 +15,4 @@ ogit:position
 	dcterms:modified "2016-10-18";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-10-18";
-			dcterms:description "initial";
-			dcterms:creator "Arthur Shoba";
-		]
-	);
 .

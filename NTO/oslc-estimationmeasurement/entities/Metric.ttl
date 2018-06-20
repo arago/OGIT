@@ -32,12 +32,4 @@ For example <em>duration</em> is a metric that measures the amount of time an ac
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-09-22";
-			dcterms:description "initial";
-			dcterms:creator "OGIT Importer";
-		]
-	);
 .

@@ -24,12 +24,4 @@ ogit.Forum:WorkflowTemplate
 	);
 	ogit:indexed-attributes (
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-12-15";
-			dcterms:description "Initial Creation";
-			dcterms:creator "bneal@arago.de";
-		]
-	);
 .

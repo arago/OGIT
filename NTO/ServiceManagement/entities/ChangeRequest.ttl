@@ -46,24 +46,4 @@ ogit.ServiceManagement:ChangeRequest
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-07-01";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-07-03";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 .

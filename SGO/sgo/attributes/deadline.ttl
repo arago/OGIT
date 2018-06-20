@@ -15,12 +15,4 @@ ogit:deadline
 	dcterms:modified "2016-12-19";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-12-19";
-			dcterms:description "initial";
-			dcterms:creator "stravlos@arago.co";
-		]
-	);
 .

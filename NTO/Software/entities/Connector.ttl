@@ -27,18 +27,4 @@ ogit.Software:Connector
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-06-11";
-			dcterms:description "initial";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-06-29";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 .

@@ -26,12 +26,4 @@ ogit:Subscription
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-03-22";
-			dcterms:description "initial";
-			dcterms:creator "qikram@arago.de";
-		]
-	);
 .

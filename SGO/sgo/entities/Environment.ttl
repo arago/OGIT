@@ -24,12 +24,4 @@ ogit:Environment
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-02-08";
-			dcterms:description "initial";
-			dcterms:creator "Viktor Voss";
-		]
-	);
 .

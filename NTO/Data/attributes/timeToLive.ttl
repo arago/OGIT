@@ -16,12 +16,4 @@ ogit.Data:timeToLive
 	dcterms:modified "2018-02-09";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-02-09";
-			dcterms:description "initial";
-			dcterms:creator "mglusiuk@arago.de";
-		]
-	);
 .

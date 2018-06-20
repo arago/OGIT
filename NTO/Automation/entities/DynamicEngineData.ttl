@@ -28,12 +28,4 @@ ogit.Automation:DynamicEngineData
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-06-25";
-			dcterms:description "initial";
-			dcterms:creator "Miroslaw Glusiuk";
-		]
-	);
 .

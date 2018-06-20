@@ -46,30 +46,4 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 		ogit:_modified-by
 		ogit:_owner
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2016-01-25";
-			dcterms:description "add attributes isDeployed and deployStatus";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2016-04-18";
-			dcterms:description "added indexes for creator/modifier/owner";
-			dcterms:creator "Markus Napp";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2016-06-01";
-			dcterms:description "make deployToEngine optional";
-			dcterms:creator "cy@arago.de";
-		]
-	);
 .

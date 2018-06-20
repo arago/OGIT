@@ -15,12 +15,4 @@ ogit:sourceTable
 	dcterms:modified "2015-08-20";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-08-20";
-			dcterms:description "initial";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 .

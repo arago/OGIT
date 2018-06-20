@@ -34,24 +34,4 @@ ogit.Project:Project
 	ogit:indexed-attributes (
         ogit:title
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-07-12";
-			dcterms:description "initial";
-			dcterms:creator "Arthur Shoba";
-		]
-		[
-        dcterms:identifier "2";
-        dcterms:date "2016-08-08";
-        dcterms:description "Attributes rework";
-        dcterms:creator "Alexander Ryabtsev";
-    ]
-    [
-        dcterms:identifier "3";
-        dcterms:date "2017-06-09";
-        dcterms:description "Moved entity from BusinessProcess to Project NTO";
-        dcterms:creator "Fabian Meyer";
-    ]
-	);
 .

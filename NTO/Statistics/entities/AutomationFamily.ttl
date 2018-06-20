@@ -30,12 +30,4 @@ ogit.Statistics:AutomationFamily
 		ogit:name
 		ogit:description
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-03-07";
-			dcterms:description "initial";
-			dcterms:creator "Liudmyla Nechepurenko";
-		]
-	);
 .

@@ -18,20 +18,6 @@ for example cross-references in documentation would also be a valid use-case."""
 	dcterms:modified "2017-05-24";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
-			dcterms:description "intitial inception";
-			dcterms:creator "cwalker@arago.de";
-		]
-        [
-            dcterms:identifier "2";
-            dcterms:date "2017-05-24";
-            dcterms:description "add addition Profile to Profile connection";
-            dcterms:creator "bneal@arago.de";
-        ]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Comment;

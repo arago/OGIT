@@ -15,14 +15,6 @@ ogit:receives
 	dcterms:modified "2017-02-17";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-02-17";
-			dcterms:description "initial";
-			dcterms:creator "stravlos@arago.de";
-		]
-	);
 	ogit:allowed (
                 [
 			ogit:from ogit:Person;

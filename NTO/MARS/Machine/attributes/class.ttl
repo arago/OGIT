@@ -18,13 +18,5 @@ ogit.MARS.Machine:class
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
 	ogit:validation-parameter "^(AIX|Appliance|HPUX|Linux|Solaris|UNIX|Windows|BSD|Router|Switch|WiFi)$";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-05-25";
-			dcterms:description "initial";
-			dcterms:creator "fotto@arago.de";
-		]
-	);
 .
 

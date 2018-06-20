@@ -18,24 +18,4 @@ ogit.ServiceManagement:changeStatus
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
 	ogit:validation-parameter "^(New|Assigned|Pending|Resolved|Closed|Escalated)$";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-16";
-			dcterms:description "added a new status Escalated in the validation";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-12-17";
-			dcterms:description "change validation parameter";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

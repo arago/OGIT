@@ -16,20 +16,6 @@ ogit:governs
 	dcterms:modified "2015-05-21";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-07-15";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Policy;

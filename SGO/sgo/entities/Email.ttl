@@ -25,12 +25,4 @@ ogit:Email
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-01-22";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

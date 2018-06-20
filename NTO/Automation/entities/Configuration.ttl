@@ -26,12 +26,4 @@ ogit.Automation:Configuration
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-04-25";
-			dcterms:description "initial";
-			dcterms:creator "cy@arago.de";
-		]
-	);
 .

@@ -22,68 +22,6 @@ ogit:corresponds
 	dcterms:modified "2015-05-21";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-26";
-			dcterms:description "change Issue to AutomationIssue";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-05-26";
-			dcterms:description "change Issue to AutomationIssue";
-			dcterms:creator "";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-06-11";
-			dcterms:description "edge added from /ogit/ConfigurationItem to /ogit/AutomationMARSNode.";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "5";
-			dcterms:date "2015-08-19";
-			dcterms:description "Two edges added";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "6";
-			dcterms:date "2015-09-04";
-			dcterms:description "Added edge Invite -> Topic";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "7";
-			dcterms:date "2015-12-10";
-			dcterms:description "change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "8";
-			dcterms:date "2016-04-04";
-			dcterms:description "Added edge Invite -> KnowledgeItemHistory|KnowledgeBundle";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "9";
-			dcterms:date "2016-08-09";
-			dcterms:description "Added Event->AutomationIssue";
-			dcterms:creator "Philipp Pelchmann";
-		]
-		[
-			dcterms:identifier "10";
-			dcterms:date "2017-08-16";
-			dcterms:description "Add SubTask->AutomationIssue";
-			dcterms:creator "Roland Glück";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Automation:MARSNode;

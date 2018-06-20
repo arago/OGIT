@@ -16,12 +16,4 @@ ogit.Forum:username
 	dcterms:modified "2015-03-26";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
-			dcterms:description "initial inception";
-			dcterms:creator "cwalker@arago.de";
-		]
-	);
 .

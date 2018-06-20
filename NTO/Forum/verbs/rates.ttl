@@ -17,20 +17,6 @@ ogit.Forum:rates
 	dcterms:modified "2016-03-24";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-08-12";
-			dcterms:description "Initial Creation";
-			dcterms:creator "bneal@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2016-03-24";
-			dcterms:description "Added Allowed Edges";
-			dcterms:creator "bneal@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Forum:Profile;

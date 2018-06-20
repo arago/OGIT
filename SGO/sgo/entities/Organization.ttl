@@ -42,24 +42,4 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 		ogit:name
 		ogit:description
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-07-27";
-			dcterms:description "added optional attributes ogit/streetAddress, ogit/city, ogit/country, ogit/postalCode, ogit/businessCategory";
-			dcterms:creator "Philipp Pelchmann";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-10-15";
-			dcterms:description "added optional attribute ogit/webPage";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 .

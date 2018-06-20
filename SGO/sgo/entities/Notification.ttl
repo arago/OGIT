@@ -38,24 +38,4 @@ ogit:Notification
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
-			dcterms:description "Initial Creation";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2017-02-17";
-			dcterms:description "Make description more general";
-			dcterms:creator "stravlos@arago.de";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2018-03-22";
-			dcterms:description "Adding attributes to have some context to notifications.";
-			dcterms:creator "qikram@arago.de";
-		]
-	);
 .

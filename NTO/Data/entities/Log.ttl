@@ -29,18 +29,4 @@ ogit.Data:Log
 		ogit:name
 		ogit:description
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-06-14";
-			dcterms:description "initial";
-			dcterms:creator "stravlos@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2017-11-02";
-			dcterms:description "Add fields name and description";
-			dcterms:creator "vteremasov@klika-tech.com";
-		]
-	);
 .

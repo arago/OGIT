@@ -15,12 +15,4 @@ ogit:licenseId
 	dcterms:modified "2017-09-06";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-09-06";
-			dcterms:description "initial";
-			dcterms:creator "Oday Jubran";
-		]
-	);
 .
