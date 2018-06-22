@@ -12,8 +12,4 @@ ogit.Automation:serviceStatus
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-07-24;";
 	dcterms:creator "Aymen Ayoub";
-	dcterms:created "2015-07-24";
-	dcterms:modified "2015-07-24";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 .

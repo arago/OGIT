@@ -11,10 +11,6 @@ ogit.Forum:Award
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-04-23;";
 	dcterms:creator "cwalker@arago.de";
-	dcterms:created "2015-04-23";
-	dcterms:modified "2015-04-23";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (

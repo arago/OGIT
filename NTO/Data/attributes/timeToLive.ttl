@@ -12,8 +12,4 @@ ogit.Data:timeToLive
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-02-09;";
 	dcterms:creator "mglusiuk@arago.de";
-	dcterms:created "2018-02-09";
-	dcterms:modified "2018-02-09";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 .

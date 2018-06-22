@@ -12,10 +12,6 @@ ogit.MARS.Machine:ram
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-06-01;";
 	dcterms:creator "fotto@arago.de";
-	dcterms:created "2018-05-25";
-	dcterms:modified "2018-05-25";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "regex";
 	ogit:validation-parameter "^\\d+(|M|G)$";
 .

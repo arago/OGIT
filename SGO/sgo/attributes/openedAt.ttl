@@ -13,8 +13,4 @@ For most tickets there is no real difference between creation and opened time. I
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 .
