@@ -17,6 +17,4 @@ This property gives the <em>low</em> parameter value of a probability distributi
 	dcterms:valid "start=2016-09-22;";
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
-	ogit:validation-type "";
-	ogit:validation-parameter "";
 .

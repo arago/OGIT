@@ -13,7 +13,7 @@ ogit.MARS.Application:class
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-06-01;";
 	dcterms:creator "fotto@arago.de";
-	ogit:validation-type "regex";
-	ogit:validation-parameter "^(Data|Development|Education|Enterprise|Financial|Media|Others)$";
+	ogit:validation-type "fixed";
+	ogit:validation-parameter "Data,Development,Education,Enterprise,Financial,Media,Others";
 .
 

@@ -18,6 +18,4 @@ When a scenario has been ruled out, it is marked as inactive by setting this pro
 	dcterms:valid "start=2016-09-22;";
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
-	ogit:validation-type "";
-	ogit:validation-parameter "";
 .
