@@ -12,19 +12,7 @@ ogit.MARS.Application:subClass
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-06-01;";
 	dcterms:creator "fotto@arago.de";
-	dcterms:created "2018-05-25";
-	dcterms:modified "2018-05-25";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:validation-type "regex";
-	ogit:validation-parameter "^(DataManagement|Datawarehouse|DigitalAssetManagement|DocumentManagementSystem|GeographicInformationSystem|ComputerAidedEngineering|Diagramming|HardwareEngineering|IntegratedDevelopmentEnvironment|ProductEngineering|Simulation|SoftwareEngineering|Testing|WebDevelopment|ClassroomManagement|Teaching|ApplicationSuite|AssetManagement|BusinessWorkflow|CustomerRelationshipManagement|Email|EnterpriseInfrastructure|EnterprisePortal|EnterpriseResourcePlanning|KnowledgeManagement|ProcessManagement|Accounting|Banking|ClearingSystems|Compliance|Controlling|FinancialModelling|RiskManagement|Trading|Animation|Blog|ComputerGraphics|ComputerAidedDesign|DesktopPublishing|DocumentAssembly|DocumentAutomation|InformationManagementPortal|MediaDevelopment|Presentation|SoundEditing|VideoEditing|FieldServiceManagement|ReferenceSystems|ReservationSystems|TransactionSystem)$";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-05-25";
-			dcterms:description "initial";
-			dcterms:creator "fotto@arago.de";
-		]
-	);
+	ogit:validation-type "fixed";
+	ogit:validation-parameter "DataManagement,Datawarehouse,DigitalAssetManagement,DocumentManagementSystem,GeographicInformationSystem,ComputerAidedEngineering,Diagramming,HardwareEngineering,IntegratedDevelopmentEnvironment,ProductEngineering,Simulation,SoftwareEngineering,Testing,WebDevelopment,ClassroomManagement,Teaching,ApplicationSuite,AssetManagement,BusinessWorkflow,CustomerRelationshipManagement,Email,EnterpriseInfrastructure,EnterprisePortal,EnterpriseResourcePlanning,KnowledgeManagement,ProcessManagement,Accounting,Banking,ClearingSystems,Compliance,Controlling,FinancialModelling,RiskManagement,Trading,Animation,Blog,ComputerGraphics,ComputerAidedDesign,DesktopPublishing,DocumentAssembly,DocumentAutomation,InformationManagementPortal,MediaDevelopment,Presentation,SoundEditing,VideoEditing,FieldServiceManagement,ReferenceSystems,ReservationSystems,TransactionSystem";
 .
 

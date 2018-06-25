@@ -18,36 +18,6 @@ ogit:uses
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2017-11-15";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-09-10";
-			dcterms:description "add connection Org, Person -> License";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2017-11-15";
-			dcterms:description "Connect Person -> ServiceInstance -> KnowledgePool";
-			dcterms:creator "druss@arago.de";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2018-04-25";
-			dcterms:description "Add MARSNode -> Configuration -> KIRanking and KnowledgePool";
-			dcterms:creator "cy@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.BusinessProcess:BusinessRuleTask;

@@ -13,48 +13,6 @@ conversation/fourm thread.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
-	dcterms:created "2015-04-27";
-	dcterms:modified "2018-01-26";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
-			dcterms:description "intitial inception";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-11-13";
-			dcterms:description "Edit for KnowledgeItemHistory";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2016-05-17";
-			dcterms:description "Added edge for `ogit/Comment` -> `ogit/Forum/Rating`";
-			dcterms:creator "Ben Neal";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2017-11-15";
-			dcterms:description "Corrected edge for `ogit/Forum/Reply` -> `ogit/Forum/WorkflowStep`";
-			dcterms:creator "Ben Neal";
-		]
-		[
-			dcterms:identifier "5";
-			dcterms:date "2017-12-06";
-			dcterms:description "Added edge for `ogit/Forum/Reply` -> `ogit/Forum/Reply`";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "6";
-			dcterms:date "2018-01-26";
-			dcterms:description "Adding connections identified as missing for HIRO Community";
-			dcterms:creator "cwalker@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Comment;

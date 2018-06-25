@@ -17,10 +17,6 @@ IssueCondition is processed first.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -40,31 +36,5 @@ IssueCondition is processed first.""";
 	ogit:indexed-attributes (
 		ogit:subject
 		ogit.Automation:issueFormalRepresentation
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-26";
-			dcterms:description "change entity name";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-10-07";
-			dcterms:description "add attributes modificationTime and creationTime";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2016-01-25";
-			dcterms:description "add attributes isDeployed and deployStatus";
-			dcterms:creator "Peter Larem";
-		]
 	);
 .

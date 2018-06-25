@@ -11,16 +11,4 @@ ogit:lastUpdatedBy
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-07-20;";
 	dcterms:creator "Aymen Ayoub";
-	dcterms:created "2015-08-20";
-	dcterms:modified "2015-08-20";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-08-20";
-			dcterms:description "initial";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 .

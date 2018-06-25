@@ -13,30 +13,6 @@ social `like`.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
-	dcterms:created "2015-04-27";
-	dcterms:modified "2015-04-27";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
-			dcterms:description "intitial inception";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-11-13";
-			dcterms:description "Edit for KnowledgeItemHistory";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2016-05-17";
-			dcterms:description "Added edge for `ogit/Forum/Profile` -> `ogit/Forum/Rating`";
-			dcterms:creator "Ben Neal";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Forum:Profile;

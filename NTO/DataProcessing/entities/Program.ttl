@@ -11,10 +11,6 @@ ogit.DataProcessing:Program
 		and applying transformations to them.""";
 	dcterms:valid "start=2017-02-28;";
 	dcterms:creator "Oday Jubran";
-	dcterms:created "2017-02-28";
-	dcterms:modified "2017-02-28";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -33,13 +29,5 @@ ogit.DataProcessing:Program
 	ogit:indexed-attributes (
 		ogit:name
 		ogit:description
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-02-28";
-			dcterms:description "initial";
-			dcterms:creator "Oday Jubran";
-		]
 	);
 .

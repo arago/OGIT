@@ -12,22 +12,4 @@ ogit.ServiceManagement:slaStage
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-06-08;";
 	dcterms:creator "Aymen Ayoub";
-	dcterms:created "2015-06-08";
-	dcterms:modified "2015-06-08";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-06-08";
-			dcterms:description "initial";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-09-01";
-			dcterms:description "validation deleted";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
 .

@@ -11,10 +11,6 @@ ogit.Survey:Survey
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-07-12;";
 	dcterms:creator "Arthur Shoba";
-	dcterms:created "2016-07-12";
-	dcterms:modified "2017-06-09";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:any-attributes "true";
@@ -33,25 +29,5 @@ ogit.Survey:Survey
 	ogit:indexed-attributes (
         ogit:title
         ogit:description
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-07-12";
-			dcterms:description "initial";
-			dcterms:creator "Arthur Shoba";
-		]
-		[
-        dcterms:identifier "2";
-        dcterms:date "2016-08-08";
-        dcterms:description "Attributes rework";
-        dcterms:creator "Alexander Ryabtsev";
-    ]
-    [
-        dcterms:identifier "3";
-        dcterms:date "2017-06-09";
-        dcterms:description "Moved entity from BusinessProcess to Survey NTO and replaced ogit/surveyQuestions with ogit/question";
-        dcterms:creator "Fabian Meyer";
-    ]
 	);
 .
