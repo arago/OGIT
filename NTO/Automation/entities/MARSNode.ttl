@@ -8,7 +8,9 @@ ogit.Automation:MARSNode
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "MARSNode";
-	dcterms:description """IT Objects will be representated in MARS Modell with MARS nodes.
+	dcterms:description """Using this entity type to represent MARS nodes is deprecated. New applications should prefer the entity types from ogit/MARS NTO.
+
+IT Objects will be representated in MARS Modell with MARS nodes.
 The MARS model builds upon four basic types of objects with a single type of relationship. Basically the objects
 which are in fact called \"nodes\" represent both views - the business perspective and the technical view.
 The technical components are modeled in the machine and software layers while the application and resource layers
