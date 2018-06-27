@@ -28,6 +28,6 @@ ogit.MARS:Resource
             ogit.Automation:marsNodeType
 	);
         ogit:indexed-attributes (
-
+            ogit:name
         );
 .

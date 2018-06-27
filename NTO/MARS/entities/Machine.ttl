@@ -50,6 +50,6 @@ ogit.MARS:Machine
             ogit.MARS.Machine:ram
 	);
         ogit:indexed-attributes (
-
+            ogit:name
         );
 .
