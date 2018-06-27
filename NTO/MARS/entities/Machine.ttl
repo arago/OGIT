@@ -51,5 +51,6 @@ ogit.MARS:Machine
 	);
         ogit:indexed-attributes (
             ogit:name
+            ogit.MARS.Network:fqdn
         );
 .
