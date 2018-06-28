@@ -48,6 +48,6 @@ ogit.MARS:Software
             ogit.MARS.Network:protocol
 	);
         ogit:indexed-attributes (
-
+            ogit:name
         );
 .
