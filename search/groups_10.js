@@ -32,8 +32,8 @@ var searchData=
   ['prefixdefinition',['prefixDefinition',['../group__httpwwwpurlorgogitOSLC-coreprefixDefinition.html',1,'']]],
   ['prefixdefinition',['PrefixDefinition',['../group__httpwwwpurlorgogitOSLC-corePrefixDefinition.html',1,'']]],
   ['preview',['Preview',['../group__httpwwwpurlorgogitOSLC-corePreview.html',1,'']]],
-  ['property',['Property',['../group__httpwwwpurlorgogitOSLC-coreProperty.html',1,'']]],
   ['property',['property',['../group__httpwwwpurlorgogitOSLC-coreproperty.html',1,'']]],
+  ['property',['Property',['../group__httpwwwpurlorgogitOSLC-coreProperty.html',1,'']]],
   ['propertydefinition',['propertyDefinition',['../group__httpwwwpurlorgogitOSLC-corepropertyDefinition.html',1,'']]],
   ['publisher',['Publisher',['../group__httpwwwpurlorgogitOSLC-corePublisher.html',1,'']]],
   ['parentserviceinstance',['parentServiceInstance',['../group__httpwwwpurlorgogitOSLC-crtvparentServiceInstance.html',1,'']]],
@@ -50,8 +50,8 @@ var searchData=
   ['probabilitydistribution',['ProbabilityDistribution',['../group__httpwwwpurlorgogitOSLC-emsProbabilityDistribution.html',1,'']]],
   ['processmetric',['ProcessMetric',['../group__httpwwwpurlorgogitOSLC-emsProcessMetric.html',1,'']]],
   ['productivitymetric',['ProductivityMetric',['../group__httpwwwpurlorgogitOSLC-emsProductivityMetric.html',1,'']]],
+  ['project',['Project',['../group__httpwwwpurlorgogitOSLC-emsProject.html',1,'(Global Namespace)'],['../group__Project.html',1,'(Global Namespace)']]],
   ['project',['project',['../group__httpwwwpurlorgogitOSLC-emsproject.html',1,'']]],
-  ['project',['Project',['../group__httpwwwpurlorgogitOSLC-emsProject.html',1,'']]],
   ['projectlist',['ProjectList',['../group__httpwwwpurlorgogitOSLC-emsProjectList.html',1,'']]],
   ['projectlist',['projectList',['../group__httpwwwpurlorgogitOSLC-emsprojectList.html',1,'']]],
   ['performancemonitoringrecord',['PerformanceMonitoringRecord',['../group__httpwwwpurlorgogitOSLC-perfmonPerformanceMonitoringRecord.html',1,'']]],
@@ -92,6 +92,5 @@ var searchData=
   ['problemstatus',['problemStatus',['../group__httpwwwpurlorgogitServiceManagementproblemStatus.html',1,'']]],
   ['plays',['plays',['../group__httpwwwpurlorgogitUserMetaplays.html',1,'']]],
   ['patch',['patch',['../group__httpwwwpurlorgogitVersionpatch.html',1,'']]],
-  ['price',['Price',['../group__Price.html',1,'']]],
-  ['project',['Project',['../group__Project.html',1,'']]]
+  ['price',['Price',['../group__Price.html',1,'']]]
 ];
