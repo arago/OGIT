@@ -21,7 +21,6 @@ ogit.Auth:Role
 	  ogit:name
 	  ogit:status
       ogit:description
-      ogit:_xid
       ogit.Auth:_iam-domain
 	);
 	ogit:optional-attributes (
@@ -35,6 +34,7 @@ ogit.Auth:Role
 	  ogit:webPage
 	  ogit:position
 	  ogit:locked
+	  ogit:_xid
 	);
   ogit:indexed-attributes (
 

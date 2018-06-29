@@ -24,7 +24,7 @@ ogit.Auth:Account
           ogit.Auth:_iam-domain
 	);
 	ogit:optional-attributes (
-
+	  ogit:_xid
 	);
   ogit:indexed-attributes (
 
