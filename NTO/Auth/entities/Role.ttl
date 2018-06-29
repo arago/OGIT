@@ -24,15 +24,6 @@ ogit.Auth:Role
       ogit.Auth:_iam-domain
 	);
 	ogit:optional-attributes (
-	  ogit:alternativeName
-	  ogit:email
-	  ogit:officePhone
-	  ogit:otherPhone
-	  ogit:mobilePhone
-	  ogit:fax
-	  ogit:notification
-	  ogit:webPage
-	  ogit:position
 	  ogit:locked
 	);
   ogit:indexed-attributes (
