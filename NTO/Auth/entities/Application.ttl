@@ -22,7 +22,6 @@ ogit.Auth:Application
       ogit:description
 	);
 	ogit:optional-attributes (
-	  ogit:_xid
 	);
   ogit:indexed-attributes (
 

@@ -34,7 +34,6 @@ ogit.Auth:Role
 	  ogit:webPage
 	  ogit:position
 	  ogit:locked
-	  ogit:_xid
 	);
   ogit:indexed-attributes (
 
