@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['entities',['Entities',['../group__Auth__entities.html',1,'']]],
   ['entities',['Entities',['../group__Automation__entities.html',1,'']]],
   ['entities',['Entities',['../group__BusinessProcess__entities.html',1,'']]],
   ['entities',['Entities',['../group__Cost__entities.html',1,'']]],
@@ -33,8 +34,8 @@ var searchData=
   ['elementfrom',['elementFrom',['../group__httpwwwpurlorgogitOSLC-crtvelementFrom.html',1,'']]],
   ['elementto',['elementTo',['../group__httpwwwpurlorgogitOSLC-crtvelementTo.html',1,'']]],
   ['effortmetric',['EffortMetric',['../group__httpwwwpurlorgogitOSLC-emsEffortMetric.html',1,'']]],
-  ['estimate',['estimate',['../group__httpwwwpurlorgogitOSLC-emsestimate.html',1,'']]],
   ['estimate',['Estimate',['../group__httpwwwpurlorgogitOSLC-emsEstimate.html',1,'']]],
+  ['estimate',['estimate',['../group__httpwwwpurlorgogitOSLC-emsestimate.html',1,'']]],
   ['estimatelist',['EstimateList',['../group__httpwwwpurlorgogitOSLC-emsEstimateList.html',1,'']]],
   ['estimatelist',['estimateList',['../group__httpwwwpurlorgogitOSLC-emsestimateList.html',1,'']]],
   ['extendsscenario',['extendsScenario',['../group__httpwwwpurlorgogitOSLC-emsextendsScenario.html',1,'']]],

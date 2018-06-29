@@ -16,5 +16,7 @@ var searchData=
   ['_5ftags',['_tags',['../group__httpwwwpurlorgogit__tags.html',1,'']]],
   ['_5ftype',['_type',['../group__httpwwwpurlorgogit__type.html',1,'']]],
   ['_5fv',['_v',['../group__httpwwwpurlorgogit__v.html',1,'']]],
-  ['_5fversion',['_version',['../group__httpwwwpurlorgogit__version.html',1,'']]]
+  ['_5fversion',['_version',['../group__httpwwwpurlorgogit__version.html',1,'']]],
+  ['_5fxid',['_xid',['../group__httpwwwpurlorgogit__xid.html',1,'']]],
+  ['_5fiam_2ddomain',['_iam-domain',['../group__httpwwwpurlorgogitAuth__iam-domain.html',1,'']]]
 ];

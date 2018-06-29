@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['role',['Role',['../group__httpwwwpurlorgogitAuthRole.html',1,'']]],
   ['rankingtype',['rankingType',['../group__httpwwwpurlorgogitAutomationrankingType.html',1,'']]],
   ['rankmap',['rankMap',['../group__httpwwwpurlorgogitAutomationrankMap.html',1,'']]],
   ['receivetask',['ReceiveTask',['../group__httpwwwpurlorgogitBusinessProcessReceiveTask.html',1,'']]],
