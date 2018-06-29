@@ -18,12 +18,11 @@ ogit.Auth:Account
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-	    ogit:name				
-      ogit:_xid
-      ogit.Auth:_iam-domain
+	  ogit:name
+	  ogit:status				
+          ogit.Auth:_iam-domain
 	);
 	ogit:optional-attributes (
-
 	);
   ogit:indexed-attributes (
 

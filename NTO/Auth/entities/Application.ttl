@@ -20,10 +20,8 @@ ogit.Auth:Application
 	ogit:mandatory-attributes (
 	    ogit:name
       ogit:description
-      ogit:_xid
 	);
 	ogit:optional-attributes (
-
 	);
   ogit:indexed-attributes (
 
