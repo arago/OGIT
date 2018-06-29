@@ -22,6 +22,10 @@ ogit.Auth:Application
       ogit:description
 	);
 	ogit:optional-attributes (
+	    ogit.Auth.Application:type
+	    ogit.Auth.Application:status
+	    ogit.Auth.Application:parent
+	    ogit.Auth.Application:urls
 	);
   ogit:indexed-attributes (
 
