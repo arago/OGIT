@@ -78,7 +78,7 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitLicenseToken.html":[0,24,1,19],
 "group__httpwwwpurlorgogitLocation.html":[0,24,1,20],
 "group__httpwwwpurlorgogitMARSApplication.html":[0,9,0,0],
-"group__httpwwwpurlorgogitMARSApplicationclass.html":[0,24,0,46],
+"group__httpwwwpurlorgogitMARSApplicationclass.html":[0,24,0,44],
 "group__httpwwwpurlorgogitMARSApplicationsubClass.html":[0,24,0,183],
 "group__httpwwwpurlorgogitMARSMachine.html":[0,9,0,1],
 "group__httpwwwpurlorgogitMARSMachineclass.html":[0,24,0,42],

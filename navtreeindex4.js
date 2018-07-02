@@ -113,7 +113,7 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogittracks.html":[0,24,2,81],
 "group__httpwwwpurlorgogittransfers.html":[0,24,2,82],
 "group__httpwwwpurlorgogittriggers.html":[0,24,2,83],
-"group__httpwwwpurlorgogittype.html":[0,24,0,192],
+"group__httpwwwpurlorgogittype.html":[0,24,0,191],
 "group__httpwwwpurlorgogitunit.html":[0,24,0,193],
 "group__httpwwwpurlorgogitupdateCount.html":[0,24,0,194],
 "group__httpwwwpurlorgogitupdates.html":[0,24,2,84],
