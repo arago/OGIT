@@ -11,7 +11,7 @@ var NAVTREEINDEX =
 "group__httpwwwpurlorgogitCatalogItem.html",
 "group__httpwwwpurlorgogitOSLC-corepropertyDefinition.html",
 "group__httpwwwpurlorgogitOSLC-qmusesTestScript.html",
-"group__httpwwwpurlorgogitlastOccurredAt.html"
+"group__httpwwwpurlorgogitisSupported.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
