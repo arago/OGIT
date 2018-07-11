@@ -19,7 +19,7 @@ ogit:manages
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	dcterms:created "2015-05-21";
-	dcterms:modified "2018-03-22";
+	dcterms:modified "2018-07-11";
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:history (
@@ -69,6 +69,12 @@ ogit:manages
 			dcterms:identifier "8";
 			dcterms:date "2018-03-22";
 			dcterms:description "Added edge `Person` -> `Subscription`";
+			dcterms:creator "qikram@arago.de";
+		]
+		[
+			dcterms:identifier "9";
+			dcterms:date "2018-07-11";
+			dcterms:description "Replace edge `Person` -> `Subscription` with edge `Auth:Account` -> `Subscription`";
 			dcterms:creator "qikram@arago.de";
 		]
 	);
@@ -190,7 +196,7 @@ ogit:manages
 			ogit:to ogit:Organization;
 		]
 		[
-			ogit:from ogit:Person;
+			ogit:from ogit.Auth:Account;
 			ogit:to ogit:Subscription;
 		]
 	);
