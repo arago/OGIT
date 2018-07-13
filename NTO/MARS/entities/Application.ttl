@@ -13,12 +13,8 @@ ogit.MARS:Application
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-06-01;";
 	dcterms:creator "FCO";
-	dcterms:created "2015-05-15";
-	dcterms:modified "2015-05-15";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
-	ogit:parent "http://www.purl.org/ogit/MARS/Node";
+	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
 	    ogit:name				
             ogit.MARS.Application:class
@@ -26,9 +22,11 @@ ogit.MARS:Application
 	);
 	ogit:optional-attributes (
             ogit.Automation:automationState
+            ogit.Automation:lifecycle
             ogit.Automation:serviceStatus
             ogit.Automation:marsNodeType
 	);
-	ogit:history (
-	);
+        ogit:indexed-attributes (
+            ogit:name
+        );
 .

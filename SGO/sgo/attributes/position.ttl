@@ -11,16 +11,4 @@ ogit:position
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-10-18;";
 	dcterms:creator "Arthur Shoba";
-	dcterms:created "2016-10-18";
-	dcterms:modified "2016-10-18";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-10-18";
-			dcterms:description "initial";
-			dcterms:creator "Arthur Shoba";
-		]
-	);
 .

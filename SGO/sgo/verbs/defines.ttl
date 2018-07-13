@@ -16,42 +16,6 @@ ogit:defines
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2017-12-15";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-10-14";
-			dcterms:description "add connection";
-			dcterms:creator "stravlos@arago.de";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2017-03-23";
-			dcterms:description "add connections for Knowledge:AcuqisitionSession's";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2017-09-18";
-			dcterms:description "add connections for Workflow -> WorkflowStep";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "5";
-			dcterms:date "2017-12-15";
-			dcterms:description "add connections for WorkflowTemplate -> WorkflowStep";
-			dcterms:creator "bneal@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Automation:MAID;

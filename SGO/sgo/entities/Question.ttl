@@ -11,10 +11,6 @@ Additionaly could be used to create new Issue from some form.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2016-07-12";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -28,19 +24,5 @@ Additionaly could be used to create new Issue from some form.""";
 	);
 	ogit:indexed-attributes (
 		
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-            dcterms:identifier "2";
-            dcterms:date "2016-07-12";
-            dcterms:description "Added new attribute `capacity`";
-            dcterms:creator "Arthur Shoba";
-        ]
 	);
 .

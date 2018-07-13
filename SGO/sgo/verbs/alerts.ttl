@@ -2,6 +2,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 
 ogit:alerts
 	a owl:ObjectProperty;
@@ -11,24 +12,6 @@ ogit:alerts
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-10-26;";
 	dcterms:creator "stravlos@arago.co";
-	dcterms:created "2016-10-26";
-	dcterms:modified "2018-03-22";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-10-26";
-			dcterms:description "initial";
-			dcterms:creator "stravlos@arago.co";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2018-03-22";
-			dcterms:description "Added edge `Event` -> `Person`";
-			dcterms:creator "qikram@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Alert;
@@ -36,7 +19,7 @@ ogit:alerts
 		]
 		[
 			ogit:from ogit:Event;
-			ogit:to ogit:Person;
+			ogit:to ogit.Auth:Account;
 		]
 	);
 .

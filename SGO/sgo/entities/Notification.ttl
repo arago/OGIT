@@ -10,10 +10,6 @@ ogit:Notification
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
-	dcterms:created "2015-04-27";
-	dcterms:modified "2018-03-22";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -37,25 +33,5 @@ ogit:Notification
 	);
 	ogit:indexed-attributes (
 		
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
-			dcterms:description "Initial Creation";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2017-02-17";
-			dcterms:description "Make description more general";
-			dcterms:creator "stravlos@arago.de";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2018-03-22";
-			dcterms:description "Adding attributes to have some context to notifications.";
-			dcterms:creator "qikram@arago.de";
-		]
 	);
 .

@@ -1,0 +1,32 @@
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Auth:Account
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Account";
+	dcterms:description "An account is used for authentication and authorization.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-01-01;";
+	dcterms:creator "arago GmbH";
+	dcterms:created "2018-01-01";
+	dcterms:modified "2018-01-01";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	  ogit:name
+	  ogit:status				
+          ogit.Auth:_iam-domain
+	);
+	ogit:optional-attributes (
+	);
+  ogit:indexed-attributes (
+
+  );
+	ogit:history (
+	);
+.

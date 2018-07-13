@@ -16,32 +16,6 @@ ogit:specifies
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-06-01";
-			dcterms:description """Adding connection from `ogit/Forum/ShortId` -> `ogit/Forum/Post`
-Adding connection from `ogit/Forum/ShortId` -> `ogit/Automation/KnowledgeItem`
-""";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-11-13";
-			dcterms:description "Added for KnowledgeItemHistory";
-			dcterms:creator "bmoore@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Cost:PlanningParameter;

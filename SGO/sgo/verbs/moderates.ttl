@@ -13,25 +13,7 @@ entity takes a responsibility for the maintenance and upkeep of the connected en
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-04-23;";
 	dcterms:creator "cwalker@arago.de";
-	dcterms:created "2015-04-23";
-	dcterms:modified "2015-04-23";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:cardinality "many2many";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-23";
-			dcterms:description "Initial Creation";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2017-11-06";
-			dcterms:description "Added Group -> WorkflowStep";
-			dcterms:creator "cwalker@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.Forum:Profile;

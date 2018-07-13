@@ -12,10 +12,6 @@ ogit.Statistics:AutomationFamily
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-03-07;";
 	dcterms:creator "Liudmyla Nechepurenko";
-	dcterms:created "2016-03-07";
-	dcterms:modified "2016-03-07";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -29,13 +25,5 @@ ogit.Statistics:AutomationFamily
 	ogit:indexed-attributes (
 		ogit:name
 		ogit:description
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-03-07";
-			dcterms:description "initial";
-			dcterms:creator "Liudmyla Nechepurenko";
-		]
 	);
 .
