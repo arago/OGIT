@@ -16,63 +16,6 @@ ogit:assignedTo
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2018-02-05";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-20";
-			dcterms:description """Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeBundle`
-Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/Post`
-Added Connection for `ogit/Forum/Tag` -> `ogit/Automation/KnowledgeItem`
-""";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-07-27";
-			dcterms:description """Added Connection for `ogit/Automation/MARSNode` -> `ogit/Person`""";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-11-12";
-			dcterms:description """changed direction of ogit/Role to ogit/*Task""";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "5";
-			dcterms:date "2015-11-13";
-			dcterms:description """Added Connection for `ogit/Forum/Tag` -> `ogit/Forum/KnowledgeItemHistory`""";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "6";
-			dcterms:date "2015-12-10";
-			dcterms:description "change entity name from ogit/ServiceManagement/ChangeTask to ogit/ServiceManagement/SubTask";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "7";
-			dcterms:date "2017-09-18";
-			dcterms:description "add ogit/Forum/WorkflowStep -> ogit/Forum/Profile or ogit/Organization";
-			dcterms:creator "cwalker@arago.de";
-		]
-		[
-			dcterms:identifier "8";
-			dcterms:date "2018-02-05";
-			dcterms:description "add Tag <--ogit/assignedTo-- WorkflowStep";
-			dcterms:creator "bneal@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit.ServiceManagement:Order;

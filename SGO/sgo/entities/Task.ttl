@@ -10,10 +10,6 @@ ogit:Task
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -28,19 +24,5 @@ ogit:Task
 	);
 	ogit:indexed-attributes (
 		ogit:name
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-09-10";
-			dcterms:description "add attribute ogit/positionNumber";
-			dcterms:creator "Peter Larem";
-		]
 	);
 .

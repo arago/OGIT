@@ -19,66 +19,6 @@ ogit:manages
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2018-07-11";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-07-27";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2016-07-12";
-			dcterms:description "Added edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`";
-			dcterms:creator "Arthur Shoba";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2016-08-08";
-			dcterms:description "Removed edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`";
-			dcterms:creator "Alexander Ryabtsev";
-		]
-		[
-			dcterms:identifier "5";
-			dcterms:date "2017-03-28";
-			dcterms:description "Added edge `Organization` -> `Organization`";
-			dcterms:creator "Ben Neal";
-		]
-		[
-			dcterms:identifier "6";
-			dcterms:date "2017-04-18";
-			dcterms:description "Added edges `Person` -> `BusinessProcess/Project`, `Person` -> `BusinessProcess/Milestone`";
-			dcterms:creator "Vitaly Teremasov";
-		]
-		[
-			dcterms:identifier "7";
-			dcterms:date "2017-06-09";
-			dcterms:description "Refactored names of Project/Survey related concepts";
-			dcterms:creator "Fabian Meyer";
-		]
-		[
-			dcterms:identifier "8";
-			dcterms:date "2018-03-22";
-			dcterms:description "Added edge `Person` -> `Subscription`";
-			dcterms:creator "qikram@arago.de";
-		]
-		[
-			dcterms:identifier "9";
-			dcterms:date "2018-07-11";
-			dcterms:description "Replace edge `Person` -> `Subscription` with edge `Auth:Account` -> `Subscription`";
-			dcterms:creator "qikram@arago.de";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Organization;

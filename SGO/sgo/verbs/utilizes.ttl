@@ -10,18 +10,6 @@ ogit:utilizes
 	dcterms:description "This verb means a effective usage of something, for example a component.";
 	dcterms:valid "start=2018-02-08;";
 	dcterms:creator "Viktor Voss";
-	dcterms:created "2018-02-08";
-	dcterms:modified "2018-02-08";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-02-08";
-			dcterms:description "initial";
-			dcterms:creator "Viktor Voss";
-		]
-	);
 	ogit:allowed (
 		[
 			ogit:from ogit:Environment;

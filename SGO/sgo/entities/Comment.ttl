@@ -10,10 +10,6 @@ ogit:Comment
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -26,31 +22,5 @@ ogit:Comment
 	);
 	ogit:indexed-attributes (
 		
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-08-20";
-			dcterms:description "updated Attribute ogit/id and ogit/content added.";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-09-01";
-			dcterms:description "updated Attribute ogit/id to be optional.";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-10-16";
-			dcterms:description "added ogit/creater as optional.";
-			dcterms:creator "Peter Larem";
-		]
 	);
 .

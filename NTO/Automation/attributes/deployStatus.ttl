@@ -12,16 +12,4 @@ ogit.Automation:deployStatus
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-01-25;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2016-01-25";
-	dcterms:modified "2016-01-25";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-01-25";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
 .

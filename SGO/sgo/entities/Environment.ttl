@@ -9,10 +9,6 @@ ogit:Environment
 	dcterms:description "An environment describes the overall structure a user, computer or program operates in.";
 	dcterms:valid "start=2018-02-08;";
 	dcterms:creator "Viktor Voss";
-	dcterms:created "2018-02-08";
-	dcterms:modified "2018-02-08";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -23,13 +19,5 @@ ogit:Environment
 	);
 	ogit:indexed-attributes (
 		
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2018-02-08";
-			dcterms:description "initial";
-			dcterms:creator "Viktor Voss";
-		]
 	);
 .

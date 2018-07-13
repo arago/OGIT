@@ -11,16 +11,4 @@ ogit.DataProcessing:internalJobId
 	dcterms:description "The job id of the running program";
 	dcterms:valid "start=2017-02-28;";
 	dcterms:creator "Oday Jubran";
-	dcterms:created "2017-02-28";
-	dcterms:modified "2017-02-28";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-02-28";
-			dcterms:description "initial";
-			dcterms:creator "Oday Jubran";
-		]
-	);
 .

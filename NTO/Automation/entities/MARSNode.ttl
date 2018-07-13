@@ -8,7 +8,9 @@ ogit.Automation:MARSNode
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "MARSNode";
-	dcterms:description """IT Objects will be representated in MARS Modell with MARS nodes.
+	dcterms:description """Using this entity type to represent MARS nodes is deprecated. New applications should prefer the entity types from ogit/MARS NTO.
+
+IT Objects will be representated in MARS Modell with MARS nodes.
 The MARS model builds upon four basic types of objects with a single type of relationship. Basically the objects
 which are in fact called \"nodes\" represent both views - the business perspective and the technical view.
 The technical components are modeled in the machine and software layers while the application and resource layers
@@ -16,10 +18,6 @@ describe the business view of the IT environment.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -110,85 +108,5 @@ describe the business view of the IT environment.""";
 	ogit:indexed-attributes (
 		ogit:name
 		ogit.Automation:marsNodeFormalRepresentation
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-07-24";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-07-27";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-07-27";
-			dcterms:description "added os informaiton";
-			dcterms:creator "Philipp Pelchmann";
-		]
-		[
-			dcterms:identifier "5";
-			dcterms:date "2015-08-19";
-			dcterms:description "added buildType and serialNumber";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "6";
-			dcterms:date "2015-10-07";
-			dcterms:description "add attributes modificationTime and creationTime";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "7";
-			dcterms:date "2015-10-15";
-			dcterms:description "deleted the governingConract attribute";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "8";
-			dcterms:date "2015-10-16";
-			dcterms:description "added a new attribute rackUnit";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "9";
-			dcterms:date "2015-10-26";
-			dcterms:description "added a new attribute ogit/connectorId";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "10";
-			dcterms:date "2015-10-29";
-			dcterms:description "added a new attribute ogit/id";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "11";
-			dcterms:date "2015-11-02";
-			dcterms:description "added a new attribute ogit/Automation/companyName and ogit/Automation/projectName";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "12";
-			dcterms:date "2016-01-25";
-			dcterms:description "added a new attribute isDeployed and deployStatus";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "13";
-			dcterms:date "2017-05-11";
-			dcterms:description "added a new attribute lifecycle";
-			dcterms:creator "Philipp Kählitz";
-		]
 	);
 .

@@ -11,10 +11,6 @@ ogit.Survey:Iteration
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-08;";
 	dcterms:creator "Alexander Ryabtsev";
-	dcterms:created "2016-08-08";
-	dcterms:modified "2017-06-09";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:any-attributes "true";
@@ -27,25 +23,5 @@ ogit.Survey:Iteration
 	);
 	ogit:indexed-attributes (
 
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-07-12";
-			dcterms:description "initial";
-			dcterms:creator "Arthur Shoba";
-		]
-		[
-        dcterms:identifier "2";
-        dcterms:date "2016-08-08";
-        dcterms:description "Attributes rework";
-        dcterms:creator "Alexander Ryabtsev";
-    ]
-    [
-        dcterms:identifier "3";
-        dcterms:date "2017-06-09";
-        dcterms:description "Renamed entity to Iteration and moved it from BusinessProcess to Survey NTO";
-        dcterms:creator "Fabian Meyer";
-    ]
 	);
 .

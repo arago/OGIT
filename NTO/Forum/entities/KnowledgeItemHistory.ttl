@@ -12,10 +12,6 @@ ogit.Forum:KnowledgeItemHistory
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-11-13;";
 	dcterms:creator "bmmore@arago.de";
-	dcterms:created "2015-04-27";
-	dcterms:modified "2015-04-27";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:any-attributes "true";
@@ -36,19 +32,5 @@ ogit.Forum:KnowledgeItemHistory
 	ogit:indexed-attributes (
 		ogit:name
 		ogit:description
-	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-11-13";
-			dcterms:description "Initial Creation";
-			dcterms:creator "bmoore@arago.de";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2017-10-31";
-			dcterms:description "Make deprecated";
-			dcterms:creator "druss@arago.de";
-		]
 	);
 .
