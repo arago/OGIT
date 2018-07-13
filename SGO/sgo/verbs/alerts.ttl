@@ -2,6 +2,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 
 ogit:alerts
 	a owl:ObjectProperty;
@@ -18,7 +19,7 @@ ogit:alerts
 		]
 		[
 			ogit:from ogit:Event;
-			ogit:to ogit:Person;
+			ogit:to ogit.Auth:Account;
 		]
 	);
 .
