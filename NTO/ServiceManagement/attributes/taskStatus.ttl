@@ -13,5 +13,5 @@ ogit.ServiceManagement:taskStatus
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	ogit:validation-type "fixed";
-	ogit:validation-parameter "New,Assigned,Pending,Resolved,Closed,Escalated";
+	ogit:validation-parameter "New,Assigned,Pending,Resolved,ResolvedExternal,Closed,Escalated";
 .
