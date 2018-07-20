@@ -18,6 +18,7 @@ ogit:Subscription
 		ogit:status
 		ogit:type
 		ogit:sourceId
+		ogit:application
 	);
 	ogit:indexed-attributes (
 		
