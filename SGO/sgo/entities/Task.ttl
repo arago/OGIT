@@ -21,6 +21,9 @@ ogit:Task
 		ogit:description
 		ogit:status
 		ogit:positionNumber
+		ogit:type
+		ogit:question
+		ogit:response
 	);
 	ogit:indexed-attributes (
 		ogit:name
