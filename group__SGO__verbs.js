@@ -72,6 +72,7 @@ var group__SGO__verbs =
     [ "requests", "group__httpwwwpurlorgogitrequests.html", null ],
     [ "requires", "group__httpwwwpurlorgogitrequires.html", null ],
     [ "responds", "group__httpwwwpurlorgogitresponds.html", null ],
+    [ "reviews", "group__httpwwwpurlorgogitreviews.html", null ],
     [ "runsOn", "group__httpwwwpurlorgogitrunsOn.html", null ],
     [ "seenBy", "group__httpwwwpurlorgogitseenBy.html", null ],
     [ "sellsTo", "group__httpwwwpurlorgogitsellsTo.html", null ],

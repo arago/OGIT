@@ -90,10 +90,11 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitServiceManagementticketId.html":[0,25,0,34],
 "group__httpwwwpurlorgogitServiceManagementworkAround.html":[0,25,0,35],
 "group__httpwwwpurlorgogitSoftwareApplication.html":[0,26,0,0],
-"group__httpwwwpurlorgogitSoftwareConnector.html":[0,26,0,1],
-"group__httpwwwpurlorgogitSoftwareData.html":[0,26,0,2],
-"group__httpwwwpurlorgogitSoftwareSoftwareComponent.html":[0,26,0,3],
-"group__httpwwwpurlorgogitSoftwareSoftwareConnection.html":[0,26,0,4],
+"group__httpwwwpurlorgogitSoftwareApplicationReview.html":[0,26,0,1],
+"group__httpwwwpurlorgogitSoftwareConnector.html":[0,26,0,2],
+"group__httpwwwpurlorgogitSoftwareData.html":[0,26,0,3],
+"group__httpwwwpurlorgogitSoftwareSoftwareComponent.html":[0,26,0,4],
+"group__httpwwwpurlorgogitSoftwareSoftwareConnection.html":[0,26,0,5],
 "group__httpwwwpurlorgogitStatisticsAutomationFamily.html":[0,27,0,0],
 "group__httpwwwpurlorgogitStatus.html":[0,24,1,35],
 "group__httpwwwpurlorgogitSubscription.html":[0,24,1,36],
@@ -172,7 +173,7 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitcheckedOutAt.html":[0,24,0,44],
 "group__httpwwwpurlorgogitciType.html":[0,24,0,45],
 "group__httpwwwpurlorgogitcity.html":[0,24,0,46],
-"group__httpwwwpurlorgogitclass.html":[0,24,0,49],
+"group__httpwwwpurlorgogitclass.html":[0,24,0,47],
 "group__httpwwwpurlorgogitclosedAt.html":[0,24,0,52],
 "group__httpwwwpurlorgogitcloses.html":[0,24,2,12],
 "group__httpwwwpurlorgogitcomment.html":[0,24,0,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitinvoiceNumber.html":[0,24,0,98],
 "group__httpwwwpurlorgogitipAddress.html":[0,24,0,99],
 "group__httpwwwpurlorgogitisCritical.html":[0,24,0,101],
-"group__httpwwwpurlorgogitisMutable.html":[0,24,0,102],
-"group__httpwwwpurlorgogitisRoot.html":[0,24,0,103]
+"group__httpwwwpurlorgogitisMutable.html":[0,24,0,102]
 };
