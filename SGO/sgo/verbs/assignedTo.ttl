@@ -241,5 +241,9 @@ ogit:assignedTo
 			ogit:from ogit.Forum:Tag;
 			ogit:to ogit.Forum:WorkflowStep;
 		]
+		[
+			ogit:from ogit.Forum:Tag;
+			ogit:to ogit.Forum:Reply;
+		]
 	);
 .
