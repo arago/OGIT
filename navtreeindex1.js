@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitCatalog.html":[0,24,1,4],
 "group__httpwwwpurlorgogitCatalogItem.html":[0,24,1,5],
 "group__httpwwwpurlorgogitCertificate.html":[0,24,1,6],
 "group__httpwwwpurlorgogitComment.html":[0,24,1,7],
@@ -81,7 +82,7 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitMARSApplicationclass.html":[0,24,0,50],
 "group__httpwwwpurlorgogitMARSApplicationsubClass.html":[0,24,0,188],
 "group__httpwwwpurlorgogitMARSMachine.html":[0,9,0,1],
-"group__httpwwwpurlorgogitMARSMachineclass.html":[0,24,0,51],
+"group__httpwwwpurlorgogitMARSMachineclass.html":[0,24,0,47],
 "group__httpwwwpurlorgogitMARSMachinecpuArch.html":[0,24,0,60],
 "group__httpwwwpurlorgogitMARSMachinedistroName.html":[0,24,0,69],
 "group__httpwwwpurlorgogitMARSMachinekernel.html":[0,24,0,107],
@@ -97,9 +98,9 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitMARSNetworkport.html":[0,24,0,150],
 "group__httpwwwpurlorgogitMARSNetworkprotocol.html":[0,24,0,158],
 "group__httpwwwpurlorgogitMARSResource.html":[0,9,0,2],
-"group__httpwwwpurlorgogitMARSResourceclass.html":[0,24,0,49],
+"group__httpwwwpurlorgogitMARSResourceclass.html":[0,24,0,48],
 "group__httpwwwpurlorgogitMARSSoftware.html":[0,9,0,3],
-"group__httpwwwpurlorgogitMARSSoftwareclass.html":[0,24,0,48],
+"group__httpwwwpurlorgogitMARSSoftwareclass.html":[0,24,0,51],
 "group__httpwwwpurlorgogitMARSSoftwareinstallPath.html":[0,24,0,87],
 "group__httpwwwpurlorgogitMARSSoftwareinstanceId.html":[0,24,0,91],
 "group__httpwwwpurlorgogitMARSSoftwarelogPath.html":[0,24,0,121],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitOSLC-corepartOfDiscussion.html":[0,15,2,26],
 "group__httpwwwpurlorgogitOSLC-coreprefix.html":[0,15,0,10],
 "group__httpwwwpurlorgogitOSLC-coreprefixBase.html":[0,15,0,11],
-"group__httpwwwpurlorgogitOSLC-coreprefixDefinition.html":[0,15,0,12],
-"group__httpwwwpurlorgogitOSLC-coreproperty.html":[0,15,2,27]
+"group__httpwwwpurlorgogitOSLC-coreprefixDefinition.html":[0,15,0,12]
 };

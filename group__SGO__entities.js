@@ -31,6 +31,7 @@ var group__SGO__entities =
     [ "Policy", "group__httpwwwpurlorgogitPolicy.html", null ],
     [ "Product", "group__httpwwwpurlorgogitProduct.html", null ],
     [ "Question", "group__httpwwwpurlorgogitQuestion.html", null ],
+    [ "Rating", "group__httpwwwpurlorgogitRating.html", null ],
     [ "Region", "group__httpwwwpurlorgogitRegion.html", null ],
     [ "Role", "group__httpwwwpurlorgogitRole.html", null ],
     [ "Schema", "group__httpwwwpurlorgogitSchema.html", null ],
