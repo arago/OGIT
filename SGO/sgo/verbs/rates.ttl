@@ -1,0 +1,21 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+
+ogit:rates
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "rates";
+	dcterms:description "This verb represents the `Rating` between two nodes";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-08-01;";
+	dcterms:creator "qikram@arago.de";
+	ogit:allowed (
+		[
+			ogit:from ogit:Rating;
+			ogit:to ogit.Auth:Application;
+		]
+	);
+.
