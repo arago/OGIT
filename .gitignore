@@ -2,7 +2,7 @@
 .DS_Store
 # for Emacs
 *~
-# Generated documentation 
+# Generated documentation
 docs/doxy.java
 docs/html/
 docs/latex/
@@ -11,4 +11,5 @@ docs/rtf/
 docs/searchdata.xml
 docs/xml/
 tmp/
-
+# misc
+.idea

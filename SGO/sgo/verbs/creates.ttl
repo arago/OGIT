@@ -128,7 +128,7 @@ ogit:creates
 		]
 		[
 			ogit:from ogit.Auth:Account;
-			ogit:to ogit.Software:ApplicationReview;
+			ogit:to ogit.Auth:ApplicationReview;
 		]
 	);
 .
