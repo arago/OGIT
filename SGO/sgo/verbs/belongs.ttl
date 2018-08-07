@@ -1,5 +1,6 @@
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
@@ -112,24 +113,24 @@ ogit:belongs
 			ogit:from ogit:Attachment;
 			ogit:to ogit:Contract;
 		]
-                [
-                        ogit:from ogit:Attachment;
-                        ogit:to ogit.Automation:MARSNode;
-                ]
 		[
-                        ogit:from ogit:Attachment;
+			ogit:from ogit:Attachment;
+			ogit:to ogit.Automation:MARSNode;
+		]
+		[
+			ogit:from ogit:Attachment;
 			ogit:to ogit.MARS:Application;
 		]
 		[
-                        ogit:from ogit:Attachment;
+			ogit:from ogit:Attachment;
 			ogit:to ogit.MARS:Resource;
 		]
 		[
-                        ogit:from ogit:Attachment;
+			ogit:from ogit:Attachment;
 			ogit:to ogit.MARS:Software;
 		]
 		[
-                        ogit:from ogit:Attachment;
+			ogit:from ogit:Attachment;
 			ogit:to ogit.MARS:Machine;
 		]
 		[
@@ -231,6 +232,10 @@ ogit:belongs
 		[
 			ogit:from ogit.Forum:Review;
 			ogit:to ogit.Forum:Reply;
+		]
+		[
+			ogit:from ogit.Auth:Account;
+			ogit:to ogit:Person;
 		]
 	);
 .
