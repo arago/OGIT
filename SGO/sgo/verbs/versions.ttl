@@ -3,7 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
-@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 
 ogit:versions
 	a owl:ObjectProperty;
@@ -23,8 +23,8 @@ ogit:versions
 			ogit:to ogit.Automation:KnowledgeBundle;
 		]
 		[
-			ogit:from ogit.Software:Application;
-			ogit:to ogit.Software:Application;
+			ogit:from ogit.Auth:Application;
+			ogit:to ogit.Auth:Application;
 		]
 	);
 .
