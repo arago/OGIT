@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitisCritical.html":[0,24,0,101],
 "group__httpwwwpurlorgogitisMutable.html":[0,24,0,102],
 "group__httpwwwpurlorgogitisRoot.html":[0,24,0,103],
 "group__httpwwwpurlorgogitisSupported.html":[0,24,0,104],

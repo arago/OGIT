@@ -17,6 +17,7 @@ var group__SGO__entities =
     [ "Environment", "group__httpwwwpurlorgogitEnvironment.html", null ],
     [ "Event", "group__httpwwwpurlorgogitEvent.html", null ],
     [ "Hyperlink", "group__httpwwwpurlorgogitHyperlink.html", null ],
+    [ "Installation", "group__httpwwwpurlorgogitInstallation.html", null ],
     [ "License", "group__httpwwwpurlorgogitLicense.html", null ],
     [ "LicenseRequest", "group__httpwwwpurlorgogitLicenseRequest.html", null ],
     [ "LicenseToken", "group__httpwwwpurlorgogitLicenseToken.html", null ],

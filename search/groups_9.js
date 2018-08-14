@@ -15,6 +15,7 @@ var searchData=
   ['implements',['implements',['../group__httpwwwpurlorgogitimplements.html',1,'']]],
   ['includes',['includes',['../group__httpwwwpurlorgogitincludes.html',1,'']]],
   ['information',['information',['../group__httpwwwpurlorgogitinformation.html',1,'']]],
+  ['installation',['Installation',['../group__httpwwwpurlorgogitInstallation.html',1,'']]],
   ['installedat',['installedAt',['../group__httpwwwpurlorgogitinstalledAt.html',1,'']]],
   ['installs',['installs',['../group__httpwwwpurlorgogitinstalls.html',1,'']]],
   ['installstatus',['installStatus',['../group__httpwwwpurlorgogitinstallStatus.html',1,'']]],

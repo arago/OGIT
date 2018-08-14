@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitOSLC-coreprefixDefinition.html":[0,15,0,12],
 "group__httpwwwpurlorgogitOSLC-coreproperty.html":[0,15,2,27],
 "group__httpwwwpurlorgogitOSLC-corepropertyDefinition.html":[0,15,2,28],
 "group__httpwwwpurlorgogitOSLC-corequeryBase.html":[0,15,2,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitOSLC-qmreportsOnTestCase.html":[0,19,1,6],
 "group__httpwwwpurlorgogitOSLC-qmreportsOnTestPlan.html":[0,19,1,7],
 "group__httpwwwpurlorgogitOSLC-qmrunsOnTestEnvironment.html":[0,19,1,8],
-"group__httpwwwpurlorgogitOSLC-qmrunsTestCase.html":[0,19,1,9],
-"group__httpwwwpurlorgogitOSLC-qmtestsChangeRequest.html":[0,19,1,10]
+"group__httpwwwpurlorgogitOSLC-qmrunsTestCase.html":[0,19,1,9]
 };
