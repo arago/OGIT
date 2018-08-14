@@ -237,5 +237,9 @@ ogit:belongs
 			ogit:from ogit.Auth:Account;
 			ogit:to ogit:Person;
 		]
+		[
+			ogit:from ogit:Installation;
+			ogit:to ogit:Organization;
+		]
 	);
 .

@@ -353,5 +353,9 @@ ogit:relates
 			ogit:from ogit.Automation:AutomationIssue;
 			ogit:to ogit.Knowledge:AcquisitionSession;
 		]
+		[
+			ogit:from ogit:Certificate;
+			ogit:to ogit:Installation;
+		]
 	);
 .

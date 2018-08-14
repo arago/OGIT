@@ -43,5 +43,9 @@ ogit:associates
 			ogit:from ogit.Forum:Group;
 			ogit:to ogit.Forum:Role;
 		]
+		[
+			ogit:from ogit:License;
+			ogit:to ogit:Installation;
+		]
 	);
 .
