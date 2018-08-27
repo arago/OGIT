@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['data',['Data',['../group__Data.html',1,'']]],
   ['datacenter',['Datacenter',['../group__Datacenter.html',1,'']]],
   ['dataprocessing',['DataProcessing',['../group__DataProcessing.html',1,'']]],
   ['databaseschema',['databaseSchema',['../group__httpwwwpurlorgogitAutomationdatabaseSchema.html',1,'']]],
@@ -48,19 +47,19 @@ var searchData=
   ['dbinstance',['dbInstance',['../group__httpwwwpurlorgogitOSLC-crtvdbInstance.html',1,'']]],
   ['dependson',['dependsOn',['../group__httpwwwpurlorgogitOSLC-crtvdependsOn.html',1,'']]],
   ['deployedto',['deployedTo',['../group__httpwwwpurlorgogitOSLC-crtvdeployedTo.html',1,'']]],
-  ['dimension',['Dimension',['../group__httpwwwpurlorgogitOSLC-emsDimension.html',1,'']]],
   ['dimension',['dimension',['../group__httpwwwpurlorgogitOSLC-emsdimension.html',1,'']]],
+  ['dimension',['Dimension',['../group__httpwwwpurlorgogitOSLC-emsDimension.html',1,'']]],
   ['dimensioncell',['DimensionCell',['../group__httpwwwpurlorgogitOSLC-emsDimensionCell.html',1,'']]],
   ['dimensioncell',['dimensionCell',['../group__httpwwwpurlorgogitOSLC-emsdimensionCell.html',1,'']]],
   ['dimensioncolumn',['DimensionColumn',['../group__httpwwwpurlorgogitOSLC-emsDimensionColumn.html',1,'']]],
   ['dimensioncolumn',['dimensionColumn',['../group__httpwwwpurlorgogitOSLC-emsdimensionColumn.html',1,'']]],
-  ['dimensionmember',['dimensionMember',['../group__httpwwwpurlorgogitOSLC-emsdimensionMember.html',1,'']]],
   ['dimensionmember',['DimensionMember',['../group__httpwwwpurlorgogitOSLC-emsDimensionMember.html',1,'']]],
+  ['dimensionmember',['dimensionMember',['../group__httpwwwpurlorgogitOSLC-emsdimensionMember.html',1,'']]],
   ['distribution',['distribution',['../group__httpwwwpurlorgogitOSLC-emsdistribution.html',1,'']]],
   ['disk',['disk',['../group__httpwwwpurlorgogitOSLC-perfmondisk.html',1,'']]],
   ['diskmetrics',['DiskMetrics',['../group__httpwwwpurlorgogitOSLC-perfmonDiskMetrics.html',1,'']]],
   ['diskspaceovercommitamount',['DiskSpaceOverCommitAmount',['../group__httpwwwpurlorgogitOSLC-perfmonDiskSpaceOverCommitAmount.html',1,'']]],
   ['diskspaceused',['DiskSpaceUsed',['../group__httpwwwpurlorgogitOSLC-perfmonDiskSpaceUsed.html',1,'']]],
   ['discretevalue',['discreteValue',['../group__httpwwwpurlorgogitPricediscreteValue.html',1,'']]],
-  ['data',['Data',['../group__httpwwwpurlorgogitSoftwareData.html',1,'']]]
+  ['data',['Data',['../group__httpwwwpurlorgogitSoftwareData.html',1,'(Global Namespace)'],['../group__Data.html',1,'(Global Namespace)']]]
 ];
