@@ -20,7 +20,8 @@ ogit.Auth:Application
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
 	    ogit:name
-      ogit:description
+	    ogit:description
+	    ogit.Auth.Application:allowedTypes
 	);
 	ogit:optional-attributes (
 	    ogit.Auth.Application:type
