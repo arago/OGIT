@@ -1,0 +1,21 @@
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MRO.Aviation:MPD
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "MPD";
+	dcterms:description "Maintenance Planning Data  documents data developed by the manufacturer of a particular airplane that contains the information each operator of that airplane needs to develop a customized, scheduled maintenance and inspection program.";
+	dcterms:valid "start=2018-09-07;";
+	dcterms:creator "Kaushik";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+	);
+    ogit:indexed-attributes (
+    );
+.

@@ -4,6 +4,7 @@
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation> .
 
 
 ogit:worksOn
@@ -34,6 +35,10 @@ ogit:worksOn
 		[
 			ogit:from ogit.Forum:Workflow;
 			ogit:to ogit.Forum:WorkflowStep;
+		]
+		[
+			ogit:from ogit.MRO.Aviation:Workstation;
+			ogit:to ogit.MRO.Aviation:Aircraft;
 		]
 	);
 .

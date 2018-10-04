@@ -11,6 +11,8 @@
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation> .
 
 ogit:relates
 	a owl:ObjectProperty;
@@ -356,6 +358,18 @@ ogit:relates
 		[
 			ogit:from ogit:Certificate;
 			ogit:to ogit:Installation;
+		]
+		[
+			ogit:from ogit.MRP:Threshold;
+			ogit:to ogit.MRP:Threshold;
+		]
+		[
+			ogit:from ogit.MRP:Manufacturer;
+			ogit:to ogit:Organization;
+		]
+		[
+			ogit:from ogit.MRO.Aviation:Task;
+			ogit:to ogit.MRO.Aviation:Layover;
 		]
 	);
 .

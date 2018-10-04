@@ -3,6 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
 
 ogit:alerts
 	a owl:ObjectProperty;
@@ -20,6 +21,10 @@ ogit:alerts
 		[
 			ogit:from ogit:Event;
 			ogit:to ogit.Auth:Account;
+		]
+		[
+			ogit:from ogit.MRP:Disposet;
+			ogit:to ogit:Alert;
 		]
 	);
 .
