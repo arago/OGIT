@@ -5,6 +5,8 @@
 @prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
 
 ogit:locatedIn
 	a owl:ObjectProperty;
@@ -65,6 +67,30 @@ ogit:locatedIn
 		]
 		[
 			ogit:from ogit.ServiceManagement:SubTask;
+			ogit:to ogit:Location;
+		]
+		[
+			ogit:from ogit.MRP:Store;
+			ogit:to ogit:Location;
+		]
+		[
+			ogit:from ogit.MRP:Workshop;
+			ogit:to ogit:Location;
+		]
+		[
+			ogit:from ogit.MRO.Aviation:Aircraft;
+			ogit:to ogit.MRO.Aviation:Bay;
+		]
+		[
+			ogit:from ogit.MRO.Aviation:Workstation;
+			ogit:to ogit.MRO.Aviation:Bay;
+		]
+		[
+			ogit:from ogit.MRO.Aviation:Aircraft;
+			ogit:to ogit:Location;
+		]
+		[
+			ogit:from ogit.MRO.Aviation:Airport;
 			ogit:to ogit:Location;
 		]
 	);

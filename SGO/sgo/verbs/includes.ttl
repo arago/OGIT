@@ -3,6 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation> .
 
 ogit:includes
 	a owl:ObjectProperty;
@@ -16,6 +17,10 @@ ogit:includes
 		[
 			ogit:from ogit.Auth:Application;
 			ogit:to ogit:Notification;
+		]
+		[
+			ogit:from ogit.MRO.Aviation:MPD;
+			ogit:to ogit.MRO.Aviation:MPD;
 		]
 	);
 .

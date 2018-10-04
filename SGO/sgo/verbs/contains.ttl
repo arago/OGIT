@@ -12,6 +12,7 @@
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.MRP:              <http://www.purl.org/ogit/MRP/> .
 
 ogit:contains
 	a owl:ObjectProperty;
@@ -509,6 +510,14 @@ ogit:contains
 		[
 			ogit:from ogit.Forum:KnowledgeBundleHistory;
 			ogit:to ogit.Automation:AutomationIssue;
+		]
+		[
+			ogit:from ogit.MRP:Disposet;
+			ogit:to ogit:Comment;
+		]
+		[
+			ogit:from ogit.MRP:Vorgang;
+			ogit:to ogit.MRP:Part;
 		]
 	);
 .
