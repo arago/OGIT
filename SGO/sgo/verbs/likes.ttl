@@ -2,6 +2,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.UserMeta:          <http://www.purl.org/ogit/UserMeta/> .
 
 ogit:likes
 	a owl:ObjectProperty;
@@ -15,6 +16,10 @@ ogit:likes
 		[
 			ogit:from ogit:Person;
 			ogit:to ogit:Person;
+		]
+		[
+			ogit:from ogit:Person;
+			ogit:to ogit.UserMeta:Preferences;
 		]
 	);
 .
