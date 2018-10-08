@@ -2,7 +2,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
 
 ogit.MRO.Aviation:overhaul
 	a owl:ObjectProperty;

@@ -12,7 +12,7 @@
 @prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
-@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
 
 ogit:relates
 	a owl:ObjectProperty;
