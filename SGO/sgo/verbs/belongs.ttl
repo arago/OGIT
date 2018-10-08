@@ -11,7 +11,7 @@
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
 
 ogit:belongs

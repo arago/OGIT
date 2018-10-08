@@ -1,4 +1,4 @@
-@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
