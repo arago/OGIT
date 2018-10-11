@@ -1,0 +1,36 @@
+@prefix ogit.SaaS:              <http://www.purl.org/ogit/SaaS/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.SaaS:ComponentConfig
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "ComponentConfig";
+	dcterms:description "A ComponentConfig is a representation of a SaaS component instance";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-01-01;";
+	dcterms:creator "arago GmbH";
+	dcterms:created "2018-04-10";
+	dcterms:modified "2018-04-10";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:name
+		ogit:description
+		ogit:type
+		ogit:status
+	);
+	ogit:optional-attributes (
+	);
+	ogit:indexed-attributes (
+	);
+	ogit:history (
+	);
+	ogit:allowed (
+		[ ogit:corresponds  ogit.MARS:Resource ]
+	);
+.

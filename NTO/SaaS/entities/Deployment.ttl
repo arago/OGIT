@@ -1,0 +1,37 @@
+@prefix ogit.SaaS:              <http://www.purl.org/ogit/SaaS/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.SaaS:Deployment
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Deployment";
+	dcterms:description "A DeploymentInstance is a representation of a SaaS deployment";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-01-01;";
+	dcterms:creator "arago GmbH";
+	dcterms:created "2018-04-10";
+	dcterms:modified "2018-04-10";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:description
+		ogit:status
+		ogit.ServiceManagement:customer
+	);
+	ogit:optional-attributes (
+	);
+	ogit:indexed-attributes (
+	);
+	ogit:history (
+	);
+	ogit:allowed (
+		[ ogit:uses  ogit.SaaS:ComponentConfig ]
+		[ ogit:corresponds  ogit.MARS:Application ]
+	);
+.
