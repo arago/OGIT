@@ -3,6 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Auth:             <http://www.purl.org/ogit/Auth/> .
 
 ogit:accepts
 	a owl:ObjectProperty;
@@ -19,6 +20,10 @@ ogit:accepts
 		]
 		[
 			ogit:from ogit:Person;
+			ogit:to ogit:TermsAndConditions;
+		]
+		[
+			ogit:from ogit.Auth:Account;
 			ogit:to ogit:TermsAndConditions;
 		]
 	);
