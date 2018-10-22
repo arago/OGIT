@@ -7,6 +7,7 @@
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
 @prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
 
 ogit:locatedIn
 	a owl:ObjectProperty;
@@ -91,6 +92,10 @@ ogit:locatedIn
 		]
 		[
 			ogit:from ogit.MRO.Aviation:Airport;
+			ogit:to ogit:Location;
+		]
+		[
+			ogit:from ogit.Factory:Factory;
 			ogit:to ogit:Location;
 		]
 	);

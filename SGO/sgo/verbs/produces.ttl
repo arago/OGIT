@@ -4,6 +4,8 @@
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+
 
 ogit:produces
 	a owl:ObjectProperty;
@@ -30,10 +32,15 @@ ogit:produces
             ogit:from ogit:Organization;
             ogit:to ogit.Survey:Iteration;
         ]
-                [
-                        ogit:from ogit:Organization;
-                        ogit:to ogit:Product;
-                ]
+        [
+                ogit:from ogit:Organization;
+                ogit:to ogit:Product;
+        ]
+        [
+                ogit:from ogit.Factory:ProductionLine;
+                ogit:to ogit:Product;
+        ]
+
 
 	);
 .
