@@ -117,6 +117,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitEvent.html','
 <li><a class="el" href="group__httpwwwpurlorgogitpriority.html">ogit/priority</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitresource.html">ogit/resource</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitseverity.html">ogit/severity</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitsourceId.html">ogit/sourceId</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitstatus.html">ogit/status</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitsummary.html">ogit/summary</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogittype.html">ogit/type</a></li>
@@ -150,6 +151,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitEvent.html','
 <li><a class="el" href="group__httpwwwpurlorgogitpriority.html">ogit/priority</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitresource.html">ogit/resource</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitseverity.html">ogit/severity</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitsourceId.html">ogit/sourceId</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitstatus.html">ogit/status</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitsummary.html">ogit/summary</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogittype.html">ogit/type</a></li>
@@ -164,24 +166,34 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitEvent.html','
 <li><a class="el" href="group__httpwwwpurlorgogitowns.html">ogit/owns</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitPerson.html">ogit/Person</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitEvent.html">ogit/Event</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogittriggers.html">ogit/triggers</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitAlert.html">ogit/Alert</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogittriggers.html">ogit/triggers</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitNotification.html">ogit/Notification</a></li>
 </ul>
 <h2>outgoing edges </h2>
 <ul>
 <li><a class="el" href="group__httpwwwpurlorgogitaffects.html">ogit/affects</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAutomationMARSNode.html">ogit/Automation/MARSNode</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitaffects.html">ogit/affects</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMARSMachine.html">ogit/MARS/Machine</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitaffects.html">ogit/affects</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMARSSoftware.html">ogit/MARS/Software</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitaffects.html">ogit/affects</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMARSResource.html">ogit/MARS/Resource</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitaffects.html">ogit/affects</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMARSApplication.html">ogit/MARS/Application</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitaffects.html">ogit/affects</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitConfigurationItem.html">ogit/ConfigurationItem</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitaffects.html">ogit/affects</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitPerson.html">ogit/Person</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitalerts.html">ogit/alerts</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAuthAccount.html">ogit/Auth/Account</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitcorresponds.html">ogit/corresponds</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAutomationAutomationIssue.html">ogit/Automation/AutomationIssue</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitEvent.html">ogit/Event</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitServiceManagementIncident.html">ogit/ServiceManagement/Incident</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAutomationMARSNode.html">ogit/Automation/MARSNode</a></li>
-<li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitServiceManagementOrder.html">ogit/ServiceManagement/Order</a> </li>
+<li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitServiceManagementOrder.html">ogit/ServiceManagement/Order</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMARSApplication.html">ogit/MARS/Application</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMARSResource.html">ogit/MARS/Resource</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMARSSoftware.html">ogit/MARS/Software</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMARSMachine.html">ogit/MARS/Machine</a> </li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Oct 22 2018 09:09:35 by
+    <li class="footer">Generated on Mon Oct 22 2018 11:52:11 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

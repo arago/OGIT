@@ -14,10 +14,12 @@ var group__Forum__entities =
     [ "Profile", "group__httpwwwpurlorgogitForumProfile.html", null ],
     [ "Rating", "group__httpwwwpurlorgogitForumRating.html", null ],
     [ "Reply", "group__httpwwwpurlorgogitForumReply.html", null ],
+    [ "Review", "group__httpwwwpurlorgogitForumReview.html", null ],
     [ "Role", "group__httpwwwpurlorgogitForumRole.html", null ],
     [ "ShortId", "group__httpwwwpurlorgogitForumShortId.html", null ],
     [ "Tag", "group__httpwwwpurlorgogitForumTag.html", null ],
     [ "Topic", "group__httpwwwpurlorgogitForumTopic.html", null ],
     [ "Workflow", "group__httpwwwpurlorgogitForumWorkflow.html", null ],
-    [ "WorkflowStep", "group__httpwwwpurlorgogitForumWorkflowStep.html", null ]
+    [ "WorkflowStep", "group__httpwwwpurlorgogitForumWorkflowStep.html", null ],
+    [ "WorkflowTemplate", "group__httpwwwpurlorgogitForumWorkflowTemplate.html", null ]
 ];

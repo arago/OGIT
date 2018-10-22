@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['urls',['urls',['../group__httpwwwpurlorgogitAuthApplicationurls.html',1,'']]],
   ['undefinedtask',['UndefinedTask',['../group__httpwwwpurlorgogitBusinessProcessUndefinedTask.html',1,'']]],
   ['usertask',['UserTask',['../group__httpwwwpurlorgogitBusinessProcessUserTask.html',1,'']]],
   ['ups',['UPS',['../group__httpwwwpurlorgogitDatacenterUPS.html',1,'']]],
@@ -20,5 +21,6 @@ var searchData=
   ['uri',['uri',['../group__httpwwwpurlorgogituri.html',1,'']]],
   ['url',['url',['../group__httpwwwpurlorgogiturl.html',1,'']]],
   ['uses',['uses',['../group__httpwwwpurlorgogituses.html',1,'']]],
+  ['utilizes',['utilizes',['../group__httpwwwpurlorgogitutilizes.html',1,'']]],
   ['usermeta',['UserMeta',['../group__UserMeta.html',1,'']]]
 ];
