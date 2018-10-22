@@ -1,11 +1,9 @@
 var group__Automation__entities =
 [
     [ "AutomationIssue", "group__httpwwwpurlorgogitAutomationAutomationIssue.html", "group__httpwwwpurlorgogitAutomationAutomationIssue" ],
-    [ "Configuration", "group__httpwwwpurlorgogitAutomationConfiguration.html", null ],
     [ "DynamicEngineData", "group__httpwwwpurlorgogitAutomationDynamicEngineData.html", null ],
     [ "History", "group__httpwwwpurlorgogitAutomationHistory.html", null ],
     [ "Item", "group__httpwwwpurlorgogitAutomationItem.html", null ],
-    [ "KIRanking", "group__httpwwwpurlorgogitAutomationKIRanking.html", null ],
     [ "KnowledgeBundle", "group__httpwwwpurlorgogitAutomationKnowledgeBundle.html", null ],
     [ "KnowledgeItem", "group__httpwwwpurlorgogitAutomationKnowledgeItem.html", null ],
     [ "KnowledgeItemAttribute", "group__httpwwwpurlorgogitAutomationKnowledgeItemAttribute.html", null ],

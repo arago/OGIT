@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['kiranking',['KIRanking',['../group__httpwwwpurlorgogitAutomationKIRanking.html',1,'']]],
   ['knowledgebundle',['KnowledgeBundle',['../group__httpwwwpurlorgogitAutomationKnowledgeBundle.html',1,'']]],
   ['knowledgeitem',['KnowledgeItem',['../group__httpwwwpurlorgogitAutomationKnowledgeItem.html',1,'']]],
   ['knowledgeitemattribute',['KnowledgeItemAttribute',['../group__httpwwwpurlorgogitAutomationKnowledgeItemAttribute.html',1,'']]],
@@ -12,6 +11,5 @@ var searchData=
   ['knowledgebundle',['KnowledgeBundle',['../group__httpwwwpurlorgogitForumKnowledgeBundle.html',1,'']]],
   ['knowledgebundlehistory',['KnowledgeBundleHistory',['../group__httpwwwpurlorgogitForumKnowledgeBundleHistory.html',1,'']]],
   ['knowledgeitemhistory',['KnowledgeItemHistory',['../group__httpwwwpurlorgogitForumKnowledgeItemHistory.html',1,'']]],
-  ['kernel',['kernel',['../group__httpwwwpurlorgogitMARSMachinekernel.html',1,'']]],
   ['knowledge',['Knowledge',['../group__Knowledge.html',1,'']]]
 ];
