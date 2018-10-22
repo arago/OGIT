@@ -17,8 +17,6 @@ var searchData=
   ['budget',['Budget',['../group__httpwwwpurlorgogitCostBudget.html',1,'']]],
   ['building',['Building',['../group__httpwwwpurlorgogitDatacenterBuilding.html',1,'']]],
   ['banner',['Banner',['../group__httpwwwpurlorgogitForumBanner.html',1,'']]],
-  ['bindaddress',['bindAddress',['../group__httpwwwpurlorgogitMARSNetworkbindAddress.html',1,'']]],
-  ['bay',['Bay',['../group__httpwwwpurlorgogitMROAviationBay.html',1,'']]],
   ['blockstestexecutionrecord',['blocksTestExecutionRecord',['../group__httpwwwpurlorgogitOSLC-changeblocksTestExecutionRecord.html',1,'']]],
   ['baseline',['Baseline',['../group__httpwwwpurlorgogitOSLC-emsBaseline.html',1,'']]],
   ['baselinelist',['BaselineList',['../group__httpwwwpurlorgogitOSLC-emsBaselineList.html',1,'']]],

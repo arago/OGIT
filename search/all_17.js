@@ -1,12 +1,8 @@
 var searchData=
 [
   ['webserver',['webServer',['../group__httpwwwpurlorgogitAutomationwebServer.html',1,'']]],
-  ['weightmap',['weightMap',['../group__httpwwwpurlorgogitAutomationweightMap.html',1,'']]],
   ['workflow',['Workflow',['../group__httpwwwpurlorgogitForumWorkflow.html',1,'']]],
   ['workflowstep',['WorkflowStep',['../group__httpwwwpurlorgogitForumWorkflowStep.html',1,'']]],
-  ['workflowtemplate',['WorkflowTemplate',['../group__httpwwwpurlorgogitForumWorkflowTemplate.html',1,'']]],
-  ['workstation',['Workstation',['../group__httpwwwpurlorgogitMROAviationWorkstation.html',1,'']]],
-  ['workshop',['Workshop',['../group__httpwwwpurlorgogitMRPWorkshop.html',1,'']]],
   ['wifiaccesspoint',['WifiAccessPoint',['../group__httpwwwpurlorgogitNetworkWifiAccessPoint.html',1,'']]],
   ['wbscontent',['wbsContent',['../group__httpwwwpurlorgogitOSLC-emswbsContent.html',1,'']]],
   ['wbsformat',['wbsFormat',['../group__httpwwwpurlorgogitOSLC-emswbsFormat.html',1,'']]],
