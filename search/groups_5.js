@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['entities',['Entities',['../group__Auth__entities.html',1,'']]],
   ['entities',['Entities',['../group__Automation__entities.html',1,'']]],
   ['entities',['Entities',['../group__BusinessProcess__entities.html',1,'']]],
   ['entities',['Entities',['../group__Cost__entities.html',1,'']]],
@@ -19,6 +20,7 @@ var searchData=
   ['endofwarranty',['endOfWarranty',['../group__httpwwwpurlorgogitendOfWarranty.html',1,'']]],
   ['endorses',['endorses',['../group__httpwwwpurlorgogitendorses.html',1,'']]],
   ['enumvalues',['enumValues',['../group__httpwwwpurlorgogitenumValues.html',1,'']]],
+  ['environment',['Environment',['../group__httpwwwpurlorgogitEnvironment.html',1,'']]],
   ['event',['Event',['../group__httpwwwpurlorgogitEvent.html',1,'']]],
   ['expirationdate',['expirationDate',['../group__httpwwwpurlorgogitexpirationDate.html',1,'']]],
   ['expiresat',['expiresAt',['../group__httpwwwpurlorgogitexpiresAt.html',1,'']]],
@@ -27,8 +29,8 @@ var searchData=
   ['executesautomationplan',['executesAutomationPlan',['../group__httpwwwpurlorgogitOSLC-automationexecutesAutomationPlan.html',1,'']]],
   ['error',['Error',['../group__httpwwwpurlorgogitOSLC-coreError.html',1,'']]],
   ['executes',['executes',['../group__httpwwwpurlorgogitOSLC-coreexecutes.html',1,'']]],
-  ['extendederror',['extendedError',['../group__httpwwwpurlorgogitOSLC-coreextendedError.html',1,'']]],
   ['extendederror',['ExtendedError',['../group__httpwwwpurlorgogitOSLC-coreExtendedError.html',1,'']]],
+  ['extendederror',['extendedError',['../group__httpwwwpurlorgogitOSLC-coreextendedError.html',1,'']]],
   ['elementfrom',['elementFrom',['../group__httpwwwpurlorgogitOSLC-crtvelementFrom.html',1,'']]],
   ['elementto',['elementTo',['../group__httpwwwpurlorgogitOSLC-crtvelementTo.html',1,'']]],
   ['effortmetric',['EffortMetric',['../group__httpwwwpurlorgogitOSLC-emsEffortMetric.html',1,'']]],
@@ -46,6 +48,8 @@ var searchData=
   ['externalticketid',['externalTicketId',['../group__httpwwwpurlorgogitServiceManagementexternalTicketId.html',1,'']]],
   ['externalticketsource',['externalTicketSource',['../group__httpwwwpurlorgogitServiceManagementexternalTicketSource.html',1,'']]],
   ['entities',['Entities',['../group__Knowledge__entities.html',1,'']]],
+  ['entities',['Entities',['../group__MARS__entities.html',1,'']]],
+  ['entities',['Entities',['../group__MRP__entities.html',1,'']]],
   ['entities',['Entities',['../group__Network__entities.html',1,'']]],
   ['entities',['Entities',['../group__OSLC-arch__entities.html',1,'']]],
   ['entities',['Entities',['../group__OSLC-asset__entities.html',1,'']]],
