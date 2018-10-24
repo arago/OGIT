@@ -23,7 +23,4 @@ HTTP GET response for the link given in <code>ems:wbsSource</code>.""";
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

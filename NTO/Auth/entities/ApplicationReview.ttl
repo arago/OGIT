@@ -1,3 +1,4 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
@@ -35,5 +36,8 @@ ogit.Auth:ApplicationReview
 			dcterms:description "initial";
 			dcterms:creator "Mikhail Osher";
 		]
+	);
+	ogit:allowed (
+			[ ogit:reviews  ogit.Auth:Application ]
 	);
 .

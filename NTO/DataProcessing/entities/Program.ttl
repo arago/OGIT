@@ -30,4 +30,6 @@ ogit.DataProcessing:Program
 		ogit:name
 		ogit:description
 	);
+	ogit:allowed (
+	);
 .

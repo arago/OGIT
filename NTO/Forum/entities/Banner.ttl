@@ -25,4 +25,6 @@ Examples:
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

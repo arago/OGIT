@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:LockListUsed
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

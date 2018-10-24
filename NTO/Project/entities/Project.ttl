@@ -30,4 +30,6 @@ ogit.Project:Project
 	ogit:indexed-attributes (
         ogit:title
 	);
+	ogit:allowed (
+	);
 .

@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:PerMinute
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -25,4 +25,6 @@ ogit.Datacenter:Cooling
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -20,4 +20,6 @@ ogit:Product
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

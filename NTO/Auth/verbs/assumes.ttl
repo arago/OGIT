@@ -19,10 +19,4 @@ ogit.Auth:assumes
 	ogit:history (
 		
 	);
-	ogit:allowed (
-		[
-			ogit:from ogit.Auth:Account;
-			ogit:to ogit.Auth:Role;
-		]
-	);
 .

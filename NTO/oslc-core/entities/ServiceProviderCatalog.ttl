@@ -26,4 +26,6 @@ ogit.OSCL-core:ServiceProviderCatalog
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

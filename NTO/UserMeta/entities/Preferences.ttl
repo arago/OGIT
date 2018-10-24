@@ -8,7 +8,7 @@ ogit.UserMeta:Preferences
     rdfs:subClassOf ogit:Entity;
     rdfs:label "Preferences";
     dcterms:description "User Preferences is a part of the User Model, a collection of information that describes the user’s needs, preferences and interests";
-    dcterms:valid "start=2018-Oct-01;";
+    dcterms:valid "start=2018-10-01;";
     dcterms:creator "amerdeev@arago.de";
     ogit:scope "NTO";
     ogit:parent "http://www.purl.org/ogit/Node";
@@ -21,4 +21,6 @@ ogit.UserMeta:Preferences
     ogit:indexed-attributes (
 
     );
+	ogit:allowed (
+	);
 .

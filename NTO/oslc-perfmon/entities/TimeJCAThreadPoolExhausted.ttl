@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:TimeJCAThreadPoolExhausted
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

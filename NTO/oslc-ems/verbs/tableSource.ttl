@@ -33,7 +33,4 @@ An HTTP GET request on this URL MUST return an
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

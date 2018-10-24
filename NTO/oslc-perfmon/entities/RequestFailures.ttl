@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:RequestFailures
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

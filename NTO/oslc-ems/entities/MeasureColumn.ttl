@@ -31,4 +31,6 @@ and a unit of measure
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

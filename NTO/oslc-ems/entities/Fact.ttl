@@ -34,4 +34,6 @@ These MUST match the description of the columns given in the head of the fact ta
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

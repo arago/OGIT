@@ -37,4 +37,7 @@ exactly one standard dimension value.</p>""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:mapping  ogit.OSLC-ems:Mapping ]
+	);
 .

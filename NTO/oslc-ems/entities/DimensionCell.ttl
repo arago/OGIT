@@ -31,4 +31,6 @@ and has a dimension member
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

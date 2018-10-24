@@ -21,7 +21,4 @@ Every fact table MUST have at least one dimension column.""";
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

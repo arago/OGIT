@@ -31,4 +31,6 @@ A dimension column has a dimension
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

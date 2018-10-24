@@ -26,4 +26,6 @@ ogit.OSCL-core:Dialog
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

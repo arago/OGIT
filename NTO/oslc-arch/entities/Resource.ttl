@@ -26,4 +26,6 @@ ogit.OSCL-arch:Resource
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

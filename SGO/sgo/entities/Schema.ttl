@@ -22,4 +22,6 @@ ogit:Schema
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

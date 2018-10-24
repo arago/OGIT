@@ -26,4 +26,6 @@ ogit.OSCL-arch:LinkType
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

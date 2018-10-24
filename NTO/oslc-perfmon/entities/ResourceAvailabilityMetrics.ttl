@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:ResourceAvailabilityMetrics
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

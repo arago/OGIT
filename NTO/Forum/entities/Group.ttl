@@ -1,3 +1,9 @@
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -21,5 +27,14 @@ ogit.Forum:Group
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:worksOn  ogit.Forum:WorkflowStep ]
+			[ ogit:moderates  ogit.Forum:WorkflowStep ]
+			[ ogit:associates  ogit.Forum:Role ]
+			[ ogit:owns  ogit.Forum:Topic ]
+			[ ogit:owns  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:owns  ogit.Forum:KnowledgeBundle ]
+			[ ogit.Forum:features  ogit.Forum:KnowledgeBundle ]
 	);
 .

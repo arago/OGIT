@@ -22,4 +22,6 @@ ogit.Software:Data
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

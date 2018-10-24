@@ -19,7 +19,4 @@ For example, the measure <em>duration of 12 months</em> has the metric <em>durat
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

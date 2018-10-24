@@ -27,4 +27,6 @@ A baseline is a set of estimates, based on some scenario, that are used to track
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

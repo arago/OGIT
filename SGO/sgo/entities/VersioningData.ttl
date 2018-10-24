@@ -1,3 +1,6 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -21,4 +24,8 @@ ogit:VersioningData
     ogit:indexed-attributes (
         ogit:name
     );
+	ogit:allowed (
+			[ ogit:versions  ogit.Automation:KnowledgeBundle ]
+			[ ogit:versions  ogit.Automation:KnowledgeItem ]
+	);
 .

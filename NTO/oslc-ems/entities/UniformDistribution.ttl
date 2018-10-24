@@ -30,4 +30,6 @@ The low value is given by <a href=\"#low\"><code>ems:low</code></a>.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

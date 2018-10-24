@@ -26,4 +26,6 @@ ogit.OSCL-core:Comment
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

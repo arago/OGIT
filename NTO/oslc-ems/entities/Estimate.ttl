@@ -26,4 +26,9 @@ ogit.OSLC-ems:Estimate
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:predicts  ogit.OSLC-ems:MeasureDistribution ]
+			[ ogit.OSLC-ems:predictsWbs  ogit.OSLC-ems:WorkBreakdownStructure ]
+			[ ogit.OSLC-ems:predictsTable  ogit.OSLC-ems:FactDistributionTable ]
+	);
 .

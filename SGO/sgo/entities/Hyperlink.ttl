@@ -22,4 +22,6 @@ ogit:Hyperlink
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

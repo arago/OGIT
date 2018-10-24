@@ -24,4 +24,6 @@ ogit.Datacenter:PowerDistributionUnit
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -23,4 +23,6 @@ ogit.Datacenter:Sensor
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

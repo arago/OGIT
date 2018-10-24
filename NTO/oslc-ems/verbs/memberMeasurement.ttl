@@ -17,10 +17,4 @@ ogit.OSLC-ems:memberMeasurement
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-		[
-			ogit:from ogit.OSLC-ems:MeasurementList;
-			ogit:to ogit.OSLC-ems:Measurement;
-		]
-	);
 .

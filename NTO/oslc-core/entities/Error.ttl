@@ -26,4 +26,6 @@ ogit.OSCL-core:Error
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

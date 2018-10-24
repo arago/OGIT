@@ -28,4 +28,10 @@ These assumptions are used as inputs to estimates.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:assumesTable  ogit.OSLC-ems:FactDistributionTable ]
+			[ ogit.OSLC-ems:extendsScenario  ogit.OSLC-ems:Scenario ]
+			[ ogit.OSLC-ems:assumesWbs  ogit.OSLC-ems:WorkBreakdownStructure ]
+			[ ogit.OSLC-ems:assumes  ogit.OSLC-ems:MeasureDistribution ]
+	);
 .

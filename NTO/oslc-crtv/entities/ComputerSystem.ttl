@@ -26,4 +26,6 @@ ogit.OSLC-crtv:ComputerSystem
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

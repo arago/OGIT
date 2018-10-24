@@ -33,4 +33,6 @@ are process metrics.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

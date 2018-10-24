@@ -32,4 +32,6 @@ ogit:OntologyVerb
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

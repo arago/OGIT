@@ -28,4 +28,6 @@ ogit.OSLC-reqman:RequirementCollection
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:TableSpaceUsed
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -1,3 +1,17 @@
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Forum:   		    <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.MRP:              <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -34,5 +48,26 @@ ogit.ServiceManagement:Order
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:relates  ogit.ServiceManagement:Ticket ]
+			[ ogit:relates  ogit.ServiceManagement:Problem ]
+			[ ogit:relates  ogit.ServiceManagement:Incident ]
+			[ ogit:relates  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:relates  ogit.ServiceManagement:Order ]
+			[ ogit:relates  ogit:Contract ]
+			[ ogit:causes  ogit.ServiceManagement:Ticket ]
+			[ ogit:causes  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:causes  ogit.ServiceManagement:Order ]
+			[ ogit:assignedTo  ogit:Person ]
+			[ ogit:assignedTo  ogit:Organization ]
+			[ ogit:reportedOn  ogit.MARS:Machine ]
+			[ ogit:reportedOn  ogit.MARS:Software ]
+			[ ogit:reportedOn  ogit.MARS:Resource ]
+			[ ogit:reportedOn  ogit.MARS:Application ]
+			[ ogit:reportedOn  ogit.Automation:MARSNode ]
+			[ ogit:corresponds  ogit.ServiceManagement:Service ]
+			[ ogit:affects  ogit:Person ]
+			[ ogit:affects  ogit.Automation:MARSNode ]
 	);
 .

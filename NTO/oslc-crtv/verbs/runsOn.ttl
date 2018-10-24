@@ -19,14 +19,4 @@ ogit.OSLC-crtv:runsOn
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-		[
-			ogit:from ogit.OSLC-crtv:ServiceInstance;
-			ogit:to ogit.Automation:MARSNode;
-		]
-		[
-			ogit:from ogit.OSLC-crtv:ServiceInstance;
-			ogit:to ogit.MARS:Machine;
-		]
-	);
 .

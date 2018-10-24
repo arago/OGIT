@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:SqlStatmentFailures
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

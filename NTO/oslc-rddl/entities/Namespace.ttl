@@ -26,4 +26,6 @@ ogit.RDDL:Namespace
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

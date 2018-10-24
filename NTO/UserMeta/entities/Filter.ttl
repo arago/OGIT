@@ -22,4 +22,6 @@ ogit.UserMeta:Filter
     ogit:indexed-attributes (
 
     );
+	ogit:allowed (
+	);
 .

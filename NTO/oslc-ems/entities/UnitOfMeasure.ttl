@@ -31,4 +31,6 @@ is a unit of measure for <em>duration</em>
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -35,4 +35,6 @@ and <em>programmer</em>
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

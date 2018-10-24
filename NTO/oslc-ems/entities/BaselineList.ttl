@@ -26,4 +26,7 @@ ogit.OSLC-ems:BaselineList
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:memberBaseline  ogit.OSLC-ems:Baseline ]
+	);
 .

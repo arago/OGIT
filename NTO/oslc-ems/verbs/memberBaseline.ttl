@@ -17,10 +17,4 @@ ogit.OSLC-ems:memberBaseline
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-		[
-			ogit:from ogit.OSLC-ems:BaselineList;
-			ogit:to ogit.OSLC-ems:Baseline;
-		]
-	);
 .

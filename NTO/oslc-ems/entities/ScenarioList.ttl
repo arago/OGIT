@@ -26,4 +26,7 @@ ogit.OSLC-ems:ScenarioList
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:memberScenario  ogit.OSLC-ems:Scenario ]
+	);
 .

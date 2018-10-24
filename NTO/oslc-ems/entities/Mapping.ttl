@@ -31,4 +31,7 @@ value defined in some vocabulary.
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:to  ogit.OSLC-ems:DimensionMember ]
+	);
 .

@@ -14,18 +14,4 @@ entity takes a responsibility for the maintenance and upkeep of the connected en
 	dcterms:valid "start=2015-04-23;";
 	dcterms:creator "cwalker@arago.de";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-		[
-			ogit:from ogit.Forum:Profile;
-			ogit:to ogit.Forum:Topic;
-		]
-		[
-			ogit:from ogit.Forum:Profile;
-			ogit:to ogit.Forum:KnowledgeBundle;
-		]
-		[
-			ogit:from ogit.Forum:Group;
-			ogit:to ogit.Forum:WorkflowStep;
-		]
-	);
 .

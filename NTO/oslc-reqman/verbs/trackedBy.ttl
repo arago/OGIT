@@ -21,7 +21,4 @@ ogit.OSLC-reqman:trackedBy
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

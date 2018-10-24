@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:VirtualMemoryUsed
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

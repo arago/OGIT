@@ -26,4 +26,6 @@ ogit.OSLC-crtv:Database
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

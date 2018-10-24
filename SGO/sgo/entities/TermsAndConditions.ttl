@@ -22,4 +22,6 @@ ogit:TermsAndConditions
 	ogit:indexed-attributes (
 		ogit:name
 	);
+	ogit:allowed (
+	);
 .

@@ -17,10 +17,4 @@ ogit.OSLC-ems:memberScenario
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-		[
-			ogit:from ogit.OSLC-ems:ScenarioList;
-			ogit:to ogit.OSLC-ems:Scenario;
-		]
-	);
 .

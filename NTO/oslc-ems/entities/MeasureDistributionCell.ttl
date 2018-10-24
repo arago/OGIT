@@ -30,4 +30,6 @@ It refers to its column
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -12,18 +12,4 @@ ogit:triggers
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	ogit:allowed (
-		[
-			ogit:from ogit.ServiceManagement:SLA;
-			ogit:to ogit:Penalty;
-		]
-		[
-			ogit:from ogit:Alert;
-			ogit:to ogit:Event;
-		]
-		[
-			ogit:from ogit:Notification;
-			ogit:to ogit:Event;
-		]
-	);
 .

@@ -23,7 +23,4 @@ an HTTP GET request of the URL of the remote table source.""";
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

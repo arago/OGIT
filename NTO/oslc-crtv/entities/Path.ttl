@@ -26,4 +26,6 @@ ogit.OSLC-crtv:Path
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

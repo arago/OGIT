@@ -27,4 +27,7 @@ In practice, a project is often a time-bounded work effort that produces a uniqu
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:currentBaseline  ogit.OSLC-ems:Baseline ]
+	);
 .

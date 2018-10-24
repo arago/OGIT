@@ -23,4 +23,6 @@ ogit.Network:VLAN
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

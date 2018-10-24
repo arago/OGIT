@@ -21,4 +21,6 @@ ogit.Factory:StorageInventory
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -35,4 +35,6 @@ estimate predications
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -23,4 +23,6 @@ ogit.Network:Router
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

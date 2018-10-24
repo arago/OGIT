@@ -32,4 +32,6 @@ For example, <em>month</em>
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

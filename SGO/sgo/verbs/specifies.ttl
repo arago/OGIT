@@ -16,30 +16,4 @@ ogit:specifies
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	ogit:allowed (
-		[
-			ogit:from ogit.Cost:PlanningParameter;
-			ogit:to ogit:Parameter;
-		]
-		[
-			ogit:from ogit.ServiceManagement:Offering;
-			ogit:to ogit.Automation:MARSModelTemplate;
-		]
-		[
-			ogit:from ogit:Parameter;
-			ogit:to ogit.Price:PriceSpecification;
-		]
-		[
-			ogit:from ogit.Forum:ShortId;
-			ogit:to ogit.Forum:Post;
-		]
-		[
-			ogit:from ogit.Forum:ShortId;
-			ogit:to ogit.Automation:KnowledgeItem;
-		]
-		[
-			ogit:from ogit.Forum:ShortId;
-			ogit:to ogit.Forum:KnowledgeItemHistory;
-		]
-	);
 .

@@ -1,3 +1,6 @@
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix ogit.Auth.Application:  <http://www.purl.org/ogit/Auth/Application/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
@@ -33,5 +36,9 @@ ogit.Auth:Application
 
   );
 	ogit:history (
+	);
+	ogit:allowed (
+			[ ogit:includes  ogit:Notification ]
+			[ ogit:versions  ogit.Auth:Application ]
 	);
 .

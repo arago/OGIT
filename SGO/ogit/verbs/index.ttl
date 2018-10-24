@@ -12,10 +12,4 @@ ogit:index
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	ogit:hide "true";
-	ogit:allowed (
-		[
-			ogit:from ogit:OntologyEntity;
-			ogit:to ogit:OntologyAttribute;
-		]
-	);
 .
