@@ -22,4 +22,6 @@ ogit.Network:MACAddress
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

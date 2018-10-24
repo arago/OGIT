@@ -31,4 +31,6 @@ and has a numeric value
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

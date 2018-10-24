@@ -32,4 +32,6 @@ is a dimension of effort
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -13,10 +13,4 @@ ogit.MRO.Aviation:isPartOf
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-02-25;";
 	dcterms:creator "bneal@arago.de";
-	ogit:allowed (
-		[
-			ogit:from ogit.MRP:Part;
-			ogit:to ogit.MRO.Aviation:Component;
-		]
-	);
 .

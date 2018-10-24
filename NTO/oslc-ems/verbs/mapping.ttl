@@ -19,10 +19,4 @@ A map may have one or more mappings.""";
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-		[
-			ogit:from ogit.OSLC-ems:Map;
-			ogit:to ogit.OSLC-ems:Mapping;
-		]
-	);
 .

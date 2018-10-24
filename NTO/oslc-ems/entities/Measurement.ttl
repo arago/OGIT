@@ -26,4 +26,6 @@ ogit.OSLC-ems:Measurement
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

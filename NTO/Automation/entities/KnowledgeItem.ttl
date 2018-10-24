@@ -1,3 +1,21 @@
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Factory:           <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -41,5 +59,25 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 		ogit:_creator
 		ogit:_modified-by
 		ogit:_owner
+	);
+	ogit:allowed (
+			[ ogit:relates  ogit.Automation:MARSNodeTemplate ]
+			[ ogit:forks  ogit.Automation:KnowledgeItem ]
+			[ ogit:derivesFrom  ogit.Automation:KnowledgeItem ]
+			[ ogit:generates  ogit:Timeseries ]
+			[ ogit:worksOn  ogit.Automation:AutomationIssue ]
+			[ ogit:contains  ogit.Automation:Trigger ]
+			[ ogit:deployedTo  ogit.OSLC-crtv:ServiceInstance ]
+			[ ogit:solves  ogit:Task ]
+			[ ogit:connects  ogit.Forum:WorkflowStep ]
+			[ ogit:connects  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:connects  ogit.Forum:Profile ]
+			[ ogit:connects  ogit.Forum:Topic ]
+			[ ogit:connects  ogit:Comment ]
+			[ ogit:connects  ogit.Forum:Reply ]
+			[ ogit:connects  ogit.Forum:KnowledgeBundle ]
+			[ ogit:connects  ogit.Automation:KnowledgeItem ]
+			[ ogit:connects  ogit.Forum:Post ]
+			[ ogit:connects  ogit:Hyperlink ]
 	);
 .

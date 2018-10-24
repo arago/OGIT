@@ -28,4 +28,6 @@ The single value is given by <a href=\"#numericValue\"><code>ems:numericValue</c
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

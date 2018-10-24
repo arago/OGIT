@@ -32,4 +32,6 @@ Its scale (also known as its standard deviation) is given by
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

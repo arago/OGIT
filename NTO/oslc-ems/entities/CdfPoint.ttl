@@ -34,4 +34,6 @@ the numeric value is equal to the cumulative probability.</p>""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

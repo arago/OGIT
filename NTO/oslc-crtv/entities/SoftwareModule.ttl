@@ -26,4 +26,6 @@ ogit.OSLC-crtv:SoftwareModule
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

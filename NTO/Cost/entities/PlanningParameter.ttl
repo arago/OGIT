@@ -1,3 +1,8 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
@@ -21,5 +26,9 @@ ogit.Cost:PlanningParameter
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:specifies  ogit:Parameter ]
+			[ ogit:assumes  ogit.Cost:PlanningTemplate ]
 	);
 .

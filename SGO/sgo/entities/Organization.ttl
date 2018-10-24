@@ -1,3 +1,37 @@
+@prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
+@prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Factory:           <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.Automation:		<http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Forum:				<http://www.purl.org/ogit/Forum/> .
+@prefix ogit:					<http://www.purl.org/ogit/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Survey:           <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.Forum:		        <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.UserMeta:          <http://www.purl.org/ogit/UserMeta/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -37,5 +71,67 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 	ogit:indexed-attributes (
 		ogit:name
 		ogit:description
+	);
+	ogit:allowed (
+			[ ogit:supports  ogit.Survey:Iteration ]
+			[ ogit:supports  ogit.Project:Project ]
+			[ ogit:supports  ogit:Organization ]
+			[ ogit:supports  ogit:ConfigurationItem ]
+			[ ogit:manages  ogit:Organization ]
+			[ ogit:manages  ogit:ConfigurationItem ]
+			[ ogit:manages  ogit.Software:Application ]
+			[ ogit:manages  ogit.Datacenter:Room ]
+			[ ogit:manages  ogit.Datacenter:Rack ]
+			[ ogit:manages  ogit:Device ]
+			[ ogit:manages  ogit.Datacenter:Datacenter ]
+			[ ogit:manages  ogit.Datacenter:Cooling ]
+			[ ogit:manages  ogit.Datacenter:Building ]
+			[ ogit:competes  ogit:Organization ]
+			[ ogit:relates  ogit:Organization ]
+			[ ogit:employs  ogit:Person ]
+			[ ogit:creates  ogit:Certificate ]
+			[ ogit:creates  ogit:Organization ]
+			[ ogit:creates  ogit:ConfigurationItem ]
+			[ ogit:leads  ogit:Organization ]
+			[ ogit:generates  ogit:Timeseries ]
+			[ ogit:generates  ogit:Catalog ]
+			[ ogit:belongs  ogit:Alert ]
+			[ ogit:contains  ogit:Organization ]
+			[ ogit:concludes  ogit:Contract ]
+			[ ogit:provides  ogit:ConfigurationItem ]
+			[ ogit:supervises  ogit.ServiceManagement:SubTask ]
+			[ ogit:supervises  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:supervises  ogit.ServiceManagement:Order ]
+			[ ogit:supervises  ogit.ServiceManagement:Ticket ]
+			[ ogit:supervises  ogit.ServiceManagement:Problem ]
+			[ ogit:supervises  ogit.ServiceManagement:Incident ]
+			[ ogit:governs  ogit:Organization ]
+			[ ogit:approves  ogit:ConfigurationItem ]
+			[ ogit:approves  ogit:ConfigurationItem ]
+			[ ogit:plans  ogit.Cost:Budget ]
+			[ ogit:associates  ogit:Role ]
+			[ ogit:consumes  ogit.Survey:Iteration ]
+			[ ogit:consumes  ogit.Project:Project ]
+			[ ogit:hosts  ogit:Environment ]
+			[ ogit:represents  ogit:Organization ]
+			[ ogit:represents  ogit:Person ]
+			[ ogit:owns  ogit:Certificate ]
+			[ ogit:owns  ogit.MRO.Aviation:Aircraft ]
+			[ ogit:owns  ogit.Automation:MARSNode ]
+			[ ogit:owns  ogit:Asset ]
+			[ ogit:defines  ogit:Role ]
+			[ ogit:defines  ogit.ServiceManagement:Offering ]
+			[ ogit:uses  ogit:Product ]
+			[ ogit:uses  ogit:License ]
+			[ ogit:locatedIn  ogit:Location ]
+			[ ogit:locatedIn  ogit:Location ]
+			[ ogit:complies  ogit:Policy ]
+			[ ogit:deliversTo  ogit:Organization ]
+			[ ogit:sellsTo  ogit:Organization ]
+			[ ogit:communicatesWith  ogit:Organization ]
+			[ ogit:produces  ogit:Product ]
+			[ ogit:produces  ogit.Survey:Iteration ]
+			[ ogit:produces  ogit.Project:Project ]
+			[ ogit.MRO.Aviation:orders  ogit.MRO.Aviation:Layover ]
 	);
 .

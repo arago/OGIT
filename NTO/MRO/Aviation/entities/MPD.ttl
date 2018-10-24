@@ -1,3 +1,15 @@
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -18,4 +30,11 @@ ogit.MRO.Aviation:MPD
 	);
     ogit:indexed-attributes (
     );
+	ogit:allowed (
+			[ ogit:includes  ogit.MRO.Aviation:MPD ]
+			[ ogit:requires  ogit.MRO.Aviation:MPD ]
+			[ ogit.MRO.Aviation:references  ogit.MRO.Aviation:MPD ]
+			[ ogit.MRO.Aviation:alternatesWith  ogit.MRO.Aviation:MPD ]
+			[ ogit.MRO.Aviation:conflictsWith  ogit.MRO.Aviation:MPD ]
+	);
 .

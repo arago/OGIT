@@ -36,4 +36,6 @@ top level of the SGO.""";
 	ogit:indexed-attributes (
 
 	);
+	ogit:allowed (
+	);
 .

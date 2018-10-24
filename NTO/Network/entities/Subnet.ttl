@@ -23,4 +23,6 @@ ogit.Network:Subnet
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

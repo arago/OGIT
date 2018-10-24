@@ -26,4 +26,6 @@ ogit:Timeseries
 		ogit:description
 		ogit:instance
 	);
+	ogit:allowed (
+	);
 .

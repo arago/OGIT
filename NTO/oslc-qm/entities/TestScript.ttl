@@ -26,4 +26,6 @@ ogit.OSLC-qm:TestScript
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

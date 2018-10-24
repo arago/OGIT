@@ -12,18 +12,4 @@ ogit:concludes
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-06-18;";
 	dcterms:creator "Peter Larem";
-	ogit:allowed (
-		[
-			ogit:from ogit:Organization;
-			ogit:to ogit:Contract;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit:Contract;
-		]
-		[
-			ogit:from ogit.MRP:Vorgang;
-			ogit:to ogit:Organization;
-		]
-	);
 .

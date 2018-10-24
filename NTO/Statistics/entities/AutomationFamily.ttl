@@ -26,4 +26,6 @@ ogit.Statistics:AutomationFamily
 		ogit:name
 		ogit:description
 	);
+	ogit:allowed (
+	);
 .

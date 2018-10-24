@@ -12,18 +12,4 @@ ogit:rejects
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-09-02;";
 	dcterms:creator "bmoore@arago.de";
-	ogit:allowed (
-		[
-			ogit:from ogit.Forum:Profile;
-			ogit:to ogit.Forum:Invite;
-		]
-[
-			ogit:from ogit:Person;
-			ogit:to ogit:Alert;
-		]
-		[
-			ogit:from ogit.Forum:Review;
-			ogit:to ogit.Forum:WorkflowStep;
-		]
-	);
 .

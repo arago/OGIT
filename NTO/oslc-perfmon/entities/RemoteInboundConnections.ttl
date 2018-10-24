@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:RemoteInboundConnections
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

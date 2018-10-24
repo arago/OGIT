@@ -31,4 +31,6 @@ Microsoft Office Project 2007 XML Data Interchange Schema.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

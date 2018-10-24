@@ -21,4 +21,6 @@ ogit.Factory:Machine
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

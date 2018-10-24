@@ -20,10 +20,4 @@ Instead, this property identifies the specification that defines the XML format 
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-		[
-			ogit:from ogit.OSLC-ems:WorkBreakdownStructure;
-			ogit:to ogit.OSLC-ems:WbsFormat;
-		]
-	);
 .

@@ -21,7 +21,4 @@ The scope of this mapping is local to the fact table.""";
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

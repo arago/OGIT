@@ -23,4 +23,6 @@ ogit.BusinessProcess:BusinessProcess
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

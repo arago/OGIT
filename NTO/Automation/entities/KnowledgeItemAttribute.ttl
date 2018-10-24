@@ -23,4 +23,6 @@ ogit.Automation:KnowledgeItemAttribute
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

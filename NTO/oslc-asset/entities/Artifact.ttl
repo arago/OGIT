@@ -26,4 +26,6 @@ ogit.OSCL-asset:Artifact
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

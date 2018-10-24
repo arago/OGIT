@@ -25,4 +25,6 @@ ogit.Data:Log
 		ogit:name
 		ogit:description
 	);
+	ogit:allowed (
+	);
 .

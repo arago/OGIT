@@ -27,4 +27,6 @@ A <em>format</em> is a specification of the syntax of an artifact.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -21,4 +21,6 @@ ogit:Penalty
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

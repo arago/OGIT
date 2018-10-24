@@ -22,4 +22,6 @@ ogit.Network:Loadbalancer
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

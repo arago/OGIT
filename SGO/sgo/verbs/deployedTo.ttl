@@ -13,18 +13,4 @@ ogit:deployedTo
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-07-27;";
 	dcterms:creator "Aymen Ayoub";
-	ogit:allowed (
-		[
-			ogit:from ogit:ConfigurationItem;
-			ogit:to ogit:ConfigurationItem;
-		]
-		[
-			ogit:from ogit.Automation:MARSNode;
-			ogit:to ogit.Automation:MARSNode;
-		]
-		[
-			ogit:from ogit.Automation:KnowledgeItem;
-			ogit:to ogit.OSLC-crtv:ServiceInstance;
-		]
-	);
 .

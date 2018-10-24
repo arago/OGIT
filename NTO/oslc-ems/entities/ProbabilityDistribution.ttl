@@ -33,4 +33,6 @@ Probability distributions are used in scenario assumptions
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

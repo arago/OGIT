@@ -39,4 +39,6 @@ except that it has <em>fact distribution</em> rows
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

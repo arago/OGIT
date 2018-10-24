@@ -29,4 +29,6 @@ ogit.Automation:KIRanking
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

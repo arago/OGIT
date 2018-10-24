@@ -53,4 +53,6 @@ or contain both a link to the source and a copy of the actual measurements obtai
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

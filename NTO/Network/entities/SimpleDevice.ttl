@@ -1,3 +1,17 @@
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Factory:           <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -22,5 +36,15 @@ ogit.Network:SimpleDevice
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:generates  ogit:Timeseries ]
+			[ ogit:contains  ogit.Network:Port ]
+			[ ogit:corresponds  ogit:Asset ]
+			[ ogit:extends  ogit.Network:WifiAccessPoint ]
+			[ ogit:extends  ogit.Network:Switch ]
+			[ ogit:extends  ogit.Network:Router ]
+			[ ogit:extends  ogit.Network:Loadbalancer ]
+			[ ogit:extends  ogit.Network:IDSIPS ]
 	);
 .

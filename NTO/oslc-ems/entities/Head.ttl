@@ -33,4 +33,6 @@ record how these custom values are mapped to the standard values.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

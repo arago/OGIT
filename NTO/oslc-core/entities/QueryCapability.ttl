@@ -26,4 +26,6 @@ ogit.OSCL-core:QueryCapability
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

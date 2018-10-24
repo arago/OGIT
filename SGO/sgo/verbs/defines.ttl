@@ -16,42 +16,4 @@ ogit:defines
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	ogit:allowed (
-		[
-			ogit:from ogit.Automation:MAID;
-			ogit:to ogit:Timeseries;
-		]
-		[
-			ogit:from ogit:Contract;
-			ogit:to ogit:Penalty;
-		]
-		[
-			ogit:from ogit:Organization;
-			ogit:to ogit.ServiceManagement:Offering;
-		]
-		[
-			ogit:from ogit:Organization;
-			ogit:to ogit:Role;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit.UserMeta:Filter;
-		]
-		[
-			ogit:from ogit.Knowledge:AcquisitionSession;
-			ogit:to ogit.Knowledge:Step;
-		]
-		[
-			ogit:from ogit.Knowledge:AcquisitionSession;
-			ogit:to ogit.Automation:KnowledgeItem;
-		]
-		[
-			ogit:from ogit.Forum:Workflow;
-			ogit:to ogit.Forum:WorkflowStep;
-		]
-		[
-			ogit:from ogit.Forum:WorkflowTemplate;
-			ogit:to ogit.Forum:WorkflowStep;
-		]
-	);
 .

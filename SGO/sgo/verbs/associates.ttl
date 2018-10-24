@@ -14,38 +14,4 @@ ogit:associates
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	ogit:allowed (
-		[
-			ogit:from ogit.Automation:AutomationIssue;
-			ogit:to ogit:Question;
-		]
-		[
-			ogit:from ogit.Automation:MARSNode;
-			ogit:to ogit.Cost:CostElement;
-		]
-		[
-			ogit:from ogit:Asset;
-			ogit:to ogit.Cost:CostElement;
-		]
-		[
-			ogit:from ogit.Automation:MARSNodeTemplate;
-			ogit:to ogit.Cost:CostElement;
-		]
-		[
-			ogit:from ogit:Organization;
-			ogit:to ogit:Role;
-		]
-		[
-			ogit:from ogit.Forum:KnowledgeItemHistory;
-			ogit:to ogit.Forum:KnowledgeItemHistory;
-		]
-		[
-			ogit:from ogit.Forum:Group;
-			ogit:to ogit.Forum:Role;
-		]
-		[
-			ogit:from ogit:License;
-			ogit:to ogit:Installation;
-		]
-	);
 .

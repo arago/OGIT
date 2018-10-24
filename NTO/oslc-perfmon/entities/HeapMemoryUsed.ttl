@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:HeapMemoryUsed
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

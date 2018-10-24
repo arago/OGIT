@@ -25,4 +25,6 @@ ogit.DataProcessing:DataView
         ogit:name
         ogit:description
     );
+	ogit:allowed (
+	);
 .

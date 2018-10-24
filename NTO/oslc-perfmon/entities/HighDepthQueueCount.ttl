@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:HighDepthQueueCount
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

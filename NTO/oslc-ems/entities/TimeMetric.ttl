@@ -31,4 +31,6 @@ For example,
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

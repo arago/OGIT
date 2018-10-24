@@ -31,4 +31,6 @@ ogit.Auth:Role
   );
 	ogit:history (
 	);
+	ogit:allowed (
+	);
 .

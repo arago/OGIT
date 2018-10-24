@@ -22,7 +22,4 @@ For example, a measurement at the end of a project may observe a <em>duration of
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

@@ -13,18 +13,4 @@ ogit:plans
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	ogit:allowed (
-		[
-			ogit:from ogit.Cost:PlanningTemplate;
-			ogit:to ogit.Cost:CostElement;
-		]
-		[
-			ogit:from ogit.Cost:PlanningTemplate;
-			ogit:to ogit.Automation:MARSModelTemplate;
-		]
-		[
-			ogit:from ogit:Organization;
-			ogit:to ogit.Cost:Budget;
-		]
-	);
 .

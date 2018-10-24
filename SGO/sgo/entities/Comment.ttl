@@ -1,3 +1,18 @@
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -22,5 +37,26 @@ ogit:Comment
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:responds  ogit.Forum:Rating ]
+			[ ogit:responds  ogit.Forum:Reply ]
+			[ ogit:belongs  ogit:Event ]
+			[ ogit:belongs  ogit.ServiceManagement:SubTask ]
+			[ ogit:belongs  ogit.ServiceManagement:Ticket ]
+			[ ogit:connects  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:connects  ogit:Person ]
+			[ ogit:connects  ogit:Organization ]
+			[ ogit:connects  ogit:License ]
+			[ ogit:connects  ogit:Contract ]
+			[ ogit:connects  ogit.Forum:Profile ]
+			[ ogit:connects  ogit.Forum:Topic ]
+			[ ogit:connects  ogit:Comment ]
+			[ ogit:connects  ogit.Forum:Reply ]
+			[ ogit:connects  ogit.Forum:KnowledgeBundle ]
+			[ ogit:connects  ogit.Automation:KnowledgeItem ]
+			[ ogit:connects  ogit.Forum:Post ]
+			[ ogit:connects  ogit:Hyperlink ]
+			[ ogit.Forum:mentions  ogit.Forum:Profile ]
 	);
 .

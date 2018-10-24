@@ -26,4 +26,6 @@ ogit.OSCL-core:Compact
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

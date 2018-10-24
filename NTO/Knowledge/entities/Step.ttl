@@ -22,4 +22,6 @@ ogit.Knowledge:Step
 	ogit:indexed-attributes (
 
 	);
+	ogit:allowed (
+	);
 .

@@ -22,4 +22,6 @@ ogit.Network:NetworkSetting
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

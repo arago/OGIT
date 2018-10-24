@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:DiskSpaceOverCommitAmount
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

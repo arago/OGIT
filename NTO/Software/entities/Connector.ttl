@@ -1,3 +1,9 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
@@ -22,5 +28,11 @@ ogit.Software:Connector
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:creates  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:creates  ogit:ConfigurationItem ]
+			[ ogit:creates  ogit:Event ]
+			[ ogit:creates  ogit.ServiceManagement:Incident ]
 	);
 .

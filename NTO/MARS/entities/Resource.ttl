@@ -1,3 +1,15 @@
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.MARS.Resource:     <http://www.purl.org/ogit/MARS/Resource/> .
@@ -30,4 +42,10 @@ ogit.MARS:Resource
         ogit:indexed-attributes (
             ogit:name
         );
+	ogit:allowed (
+			[ ogit:generates  ogit.Data:Log ]
+			[ ogit:generates  ogit:Timeseries ]
+			[ ogit:dependsOn  ogit.MARS:Software ]
+			[ ogit:uses  ogit.Automation:Configuration ]
+	);
 .

@@ -22,4 +22,6 @@ ogit.Price:PriceSpecification
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

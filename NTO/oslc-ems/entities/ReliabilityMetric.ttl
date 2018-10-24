@@ -35,4 +35,6 @@ are reliability metrics.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

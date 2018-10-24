@@ -2,19 +2,13 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
 
-ogit.Auth:hasAl
+ogit.Factory:hasAl
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "hasAl";
 	dcterms:description "TODO.";
 	dcterms:valid "start=2018-10-19;";
 	dcterms:creator "arago GmbH";
-	ogit:allowed (
-		[
-			ogit:from ogit.Auth:Account;
-			ogit:to ogit.Auth:Role;
-		]
-	);
 .

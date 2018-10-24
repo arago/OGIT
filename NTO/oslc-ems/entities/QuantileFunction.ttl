@@ -44,4 +44,7 @@ The cumulative probability values are given by one or more
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:quantile  ogit.OSLC-ems:Quantile ]
+	);
 .

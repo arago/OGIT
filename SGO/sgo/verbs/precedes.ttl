@@ -15,26 +15,4 @@ The application managing such dependency graphs is responsible to prevent cyclic
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	ogit:allowed (
-		[
-			ogit:from ogit.ServiceManagement:ApprovalTask;
-			ogit:to ogit.ServiceManagement:ApprovalTask;
-		]
-		[
-			ogit:from ogit.ServiceManagement:SubTask;
-			ogit:to ogit.ServiceManagement:SubTask;
-		]
-		[
-			ogit:from ogit:License;
-			ogit:to ogit:License;
-		]
-		[
-			ogit:from ogit.Forum:FeedEntry;
-			ogit:to ogit.Forum:FeedEntry;
-		]
-		[
-			ogit:from ogit.Forum:Award;
-			ogit:to ogit.Forum:Award;
-		]
-	);
 .

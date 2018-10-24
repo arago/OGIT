@@ -31,4 +31,6 @@ Lambda is given by <a href=\"#lambda\"><code>ems:lambda</code>.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

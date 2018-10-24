@@ -1,3 +1,23 @@
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Factory:           <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix ogit.Automation:		<http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Forum:				<http://www.purl.org/ogit/Forum/> .
+@prefix ogit:					<http://www.purl.org/ogit/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -73,5 +93,30 @@ ogit:ConfigurationItem
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:manages  ogit:ConfigurationItem ]
+			[ ogit:relates  ogit:Device ]
+			[ ogit:relates  ogit:Asset ]
+			[ ogit:relates  ogit.MARS:Machine ]
+			[ ogit:relates  ogit.MARS:Software ]
+			[ ogit:relates  ogit.MARS:Resource ]
+			[ ogit:relates  ogit.MARS:Application ]
+			[ ogit:relates  ogit.Automation:MARSNode ]
+			[ ogit:relates  ogit:Attachment ]
+			[ ogit:relates  ogit.Datacenter:Server ]
+			[ ogit:relates  ogit:ConfigurationItem ]
+			[ ogit:virtualizes  ogit:ConfigurationItem ]
+			[ ogit:contains  ogit:ConfigurationItem ]
+			[ ogit:deployedTo  ogit:ConfigurationItem ]
+			[ ogit:provides  ogit:ConfigurationItem ]
+			[ ogit:corresponds  ogit:Person ]
+			[ ogit:corresponds  ogit:Organization ]
+			[ ogit:corresponds  ogit.MARS:Application ]
+			[ ogit:corresponds  ogit.MARS:Resource ]
+			[ ogit:corresponds  ogit.MARS:Software ]
+			[ ogit:corresponds  ogit.MARS:Machine ]
+			[ ogit:corresponds  ogit.Automation:MARSNode ]
+			[ ogit:runsOn  ogit:ConfigurationItem ]
 	);
 .

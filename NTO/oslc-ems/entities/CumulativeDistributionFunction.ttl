@@ -36,4 +36,7 @@ The cumulative probability values are given by one or more
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:cdfPoint  ogit.OSLC-ems:CdfPoint ]
+	);
 .

@@ -18,7 +18,4 @@ This property links a fact row to one or more of its dimension cells.""";
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

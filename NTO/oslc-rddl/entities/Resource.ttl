@@ -26,4 +26,6 @@ ogit.RDDL:Resource
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

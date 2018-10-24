@@ -1,3 +1,26 @@
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.Factory:           <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.Forum:   		    <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.MRP:              <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Automation:		<http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Forum:				<http://www.purl.org/ogit/Forum/> .
+@prefix ogit:					<http://www.purl.org/ogit/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -108,5 +131,30 @@ describe the business view of the IT environment.""";
 	ogit:indexed-attributes (
 		ogit:name
 		ogit.Automation:marsNodeFormalRepresentation
+	);
+	ogit:allowed (
+			[ ogit:relates  ogit.Automation:MARSNodeTemplate ]
+			[ ogit:relates  ogit.Automation:MARSNode ]
+			[ ogit:relates  ogit:License ]
+			[ ogit:relates  ogit.Automation:KnowledgeItem ]
+			[ ogit:generates  ogit.Data:Log ]
+			[ ogit:generates  ogit:Timeseries ]
+			[ ogit:contains  ogit.Network:NetworkInterface ]
+			[ ogit:contains  ogit.Automation:MARSNode ]
+			[ ogit:contains  ogit.Automation:DynamicEngineData ]
+			[ ogit:assignedTo  ogit:Person ]
+			[ ogit:deployedTo  ogit.Automation:MARSNode ]
+			[ ogit:provides  ogit.Automation:MARSNode ]
+			[ ogit:dependsOn  ogit.Automation:MARSNode ]
+			[ ogit:associates  ogit.Cost:CostElement ]
+			[ ogit:hosts  ogit.Automation:MARSNode ]
+			[ ogit:corresponds  ogit.Software:Application ]
+			[ ogit:uses  ogit.Automation:Configuration ]
+			[ ogit:locatedIn  ogit:Location ]
+			[ ogit:locatedIn  ogit:Region ]
+			[ ogit:affects  ogit.ServiceManagement:Service ]
+			[ ogit:affects  ogit.BusinessProcess:BusinessProcess ]
+			[ ogit:affects  ogit.Automation:MARSNode ]
+			[ ogit:runsOn  ogit.Automation:MARSNode ]
 	);
 .

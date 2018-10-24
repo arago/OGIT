@@ -22,4 +22,6 @@ ogit:Region
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

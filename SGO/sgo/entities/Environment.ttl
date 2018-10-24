@@ -1,3 +1,6 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -19,5 +22,10 @@ ogit:Environment
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:consistsOf  ogit.MARS:Application ]
+			[ ogit:consistsOf  ogit.Automation:MARSNode ]
+			[ ogit:utilizes  ogit:Product ]
 	);
 .

@@ -26,4 +26,6 @@ ogit.OSCL-core:PrefixDefinition
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

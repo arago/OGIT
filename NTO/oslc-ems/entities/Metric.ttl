@@ -28,4 +28,6 @@ For example <em>duration</em> is a metric that measures the amount of time an ac
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

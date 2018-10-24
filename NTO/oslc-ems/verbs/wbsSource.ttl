@@ -22,7 +22,4 @@ If this property is absent, then the WBS resource MUST have a
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-
-	);
 .

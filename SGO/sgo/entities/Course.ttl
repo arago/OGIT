@@ -24,4 +24,6 @@ ogit:Course
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

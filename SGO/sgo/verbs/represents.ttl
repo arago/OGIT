@@ -13,22 +13,4 @@ ogit:represents
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2017-04-11;";
 	dcterms:creator "arago GmbH";
-	ogit:allowed (
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit:Person;
-		]
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit:Organization;
-		]
-		[
-			ogit:from ogit:Organization;
-			ogit:to ogit:Person;
-		]
-		[
-			ogit:from ogit:Organization;
-			ogit:to ogit:Organization;
-		]
-	);
 .

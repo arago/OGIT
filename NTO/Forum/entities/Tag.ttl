@@ -1,3 +1,9 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Forum:   		    <http://www.purl.org/ogit/Forum/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MRP:              <http://www.purl.org/ogit/MRP/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -22,5 +28,14 @@ as the unique identifier, and the `name` considered a display name.""";
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:assignedTo  ogit.Forum:Reply ]
+			[ ogit:assignedTo  ogit.Forum:WorkflowStep ]
+			[ ogit:assignedTo  ogit.Forum:Topic ]
+			[ ogit:assignedTo  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:assignedTo  ogit.Automation:KnowledgeItem ]
+			[ ogit:assignedTo  ogit.Forum:Post ]
+			[ ogit:assignedTo  ogit.Forum:KnowledgeBundle ]
 	);
 .

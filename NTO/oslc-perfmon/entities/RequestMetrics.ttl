@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:RequestMetrics
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

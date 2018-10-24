@@ -28,4 +28,11 @@ Each instance of an service has a set of resource containers that contain resour
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:scenarioList  ogit.OSLC-ems:ScenarioList ]
+			[ ogit.OSLC-ems:measurementList  ogit.OSLC-ems:MeasurementList ]
+			[ ogit.OSLC-ems:estimateList  ogit.OSLC-ems:EstimateList ]
+			[ ogit.OSLC-ems:projectList  ogit.OSLC-ems:ProjectList ]
+			[ ogit.OSLC-ems:baselineList  ogit.OSLC-ems:BaselineList ]
+	);
 .

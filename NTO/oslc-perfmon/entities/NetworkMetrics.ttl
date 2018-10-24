@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:NetworkMetrics
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

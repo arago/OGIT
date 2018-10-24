@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:GarbageCollectionRequests
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

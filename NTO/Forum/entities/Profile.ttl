@@ -1,3 +1,18 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Auth:             <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -23,5 +38,51 @@ the root node for most operations with a Forum.""";
 	);
 	ogit:indexed-attributes (
 		
+	);
+	ogit:allowed (
+			[ ogit:subscribes  ogit.Forum:FeedEntry ]
+			[ ogit:subscribes  ogit.Forum:Profile ]
+			[ ogit:subscribes  ogit.Forum:KnowledgeBundle ]
+			[ ogit:subscribes  ogit.Forum:Post ]
+			[ ogit:subscribes  ogit.Forum:Topic ]
+			[ ogit:subscribes  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:creates  ogit.Forum:Review ]
+			[ ogit:creates  ogit.Forum:WorkflowTemplate ]
+			[ ogit:creates  ogit.Forum:KnowledgeBundleHistory ]
+			[ ogit:creates  ogit:Attachment ]
+			[ ogit:creates  ogit.Forum:Workflow ]
+			[ ogit:creates  ogit.Forum:Rating ]
+			[ ogit:creates  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:creates  ogit.Forum:Permission ]
+			[ ogit:creates  ogit.Forum:Invite ]
+			[ ogit:creates  ogit.Automation:AutomationIssue ]
+			[ ogit:creates  ogit.Forum:Topic ]
+			[ ogit:creates  ogit.Forum:Reply ]
+			[ ogit:creates  ogit.Forum:Post ]
+			[ ogit:creates  ogit.Automation:KnowledgeItem ]
+			[ ogit:creates  ogit:Comment ]
+			[ ogit:creates  ogit.Forum:KnowledgeBundle ]
+			[ ogit:accepts  ogit.Forum:Invite ]
+			[ ogit:belongs  ogit:Person ]
+			[ ogit:belongs  ogit:Person ]
+			[ ogit:belongs  ogit.Forum:Group ]
+			[ ogit:moderates  ogit.Forum:KnowledgeBundle ]
+			[ ogit:moderates  ogit.Forum:Topic ]
+			[ ogit:rejects  ogit.Forum:Invite ]
+			[ ogit:endorses  ogit.Forum:Rating ]
+			[ ogit:endorses  ogit.Forum:Reply ]
+			[ ogit:endorses  ogit.Forum:Post ]
+			[ ogit:endorses  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:endorses  ogit.Forum:KnowledgeBundle ]
+			[ ogit:owns  ogit.Forum:Topic ]
+			[ ogit:owns  ogit:Notification ]
+			[ ogit:owns  ogit.Forum:FeedEntry ]
+			[ ogit:owns  ogit.Forum:KnowledgeBundle ]
+			[ ogit:wins  ogit.Forum:Award ]
+			[ ogit.Forum:mentions  ogit.Forum:Profile ]
+			[ ogit.Forum:rates  ogit.Forum:Rating ]
+			[ ogit.Forum:downloads  ogit.Automation:KnowledgeItem ]
+			[ ogit.Forum:downloads  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit.Forum:downloads  ogit.Forum:KnowledgeBundle ]
 	);
 .

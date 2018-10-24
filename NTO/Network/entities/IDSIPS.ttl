@@ -22,4 +22,6 @@ ogit.Network:IDSIPS
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

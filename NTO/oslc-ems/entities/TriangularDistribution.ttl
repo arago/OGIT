@@ -32,4 +32,6 @@ The high value is given by <a href=\"#high\"><code>ems:high</code></a>.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

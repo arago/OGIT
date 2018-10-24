@@ -13,22 +13,4 @@ ogit:dependsOn
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-10-15;";
 	dcterms:creator "Aymen Ayoub";
-	ogit:allowed (
-		[
-			ogit:from ogit.Automation:MARSNode;
-			ogit:to ogit.Automation:MARSNode;
-		]
-		[
-			ogit:from ogit.MARS:Application;
-			ogit:to ogit.MARS:Resource;
-		]
-		[
-			ogit:from ogit.MARS:Resource;
-			ogit:to ogit.MARS:Software;
-		]
-		[
-			ogit:from ogit.MARS:Software;
-			ogit:to ogit.MARS:Machine;
-		]
-	);
 .

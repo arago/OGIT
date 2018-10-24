@@ -35,4 +35,7 @@ The numeric value of an observation, e.g. 12 or 10, is given by the property
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:unitOfMeasure  ogit.OSLC-ems:UnitOfMeasure ]
+	);
 .

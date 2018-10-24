@@ -26,4 +26,6 @@ ogit.OSLC-perfmon:SortOverflows
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

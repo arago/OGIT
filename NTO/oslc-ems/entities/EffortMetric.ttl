@@ -37,4 +37,6 @@ are effort metrics.""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+	);
 .

@@ -36,4 +36,7 @@ The included or linked WBS content MUST be in the specified format.</p>""";
 	ogit:indexed-attributes (
 		
 	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:wbsFormat  ogit.OSLC-ems:WbsFormat ]
+	);
 .

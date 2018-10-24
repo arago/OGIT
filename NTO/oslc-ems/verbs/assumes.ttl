@@ -19,10 +19,4 @@ The assumed value is a probability distribution.""";
 	dcterms:creator "OGIT Importer";
 	ogit:hide "false";
 	ogit:cardinality "many2many";
-	ogit:allowed (
-		[
-			ogit:from ogit.OSLC-ems:Scenario;
-			ogit:to ogit.OSLC-ems:MeasureDistribution;
-		]
-	);
 .
