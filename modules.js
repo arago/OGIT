@@ -7,6 +7,7 @@ var modules =
     [ "Data", "group__Data.html", "group__Data" ],
     [ "DataProcessing", "group__DataProcessing.html", "group__DataProcessing" ],
     [ "Datacenter", "group__Datacenter.html", "group__Datacenter" ],
+    [ "Factory", "group__Factory.html", "group__Factory" ],
     [ "Forum", "group__Forum.html", "group__Forum" ],
     [ "Knowledge", "group__Knowledge.html", "group__Knowledge" ],
     [ "MARS", "group__MARS.html", "group__MARS" ],
