@@ -2,6 +2,7 @@ var group__OSLC_reqman__verbs =
 [
     [ "affectedBy", "group__httpwwwpurlorgogitOSLC-reqmanaffectedBy.html", null ],
     [ "elaboratedBy", "group__httpwwwpurlorgogitOSLC-reqmanelaboratedBy.html", null ],
+    [ "hasBasicShape", "group__httpwwwpurlorgogitOSLC-reqmanhasBasicShape.html", null ],
     [ "implementedBy", "group__httpwwwpurlorgogitOSLC-reqmanimplementedBy.html", null ],
     [ "specifiedBy", "group__httpwwwpurlorgogitOSLC-reqmanspecifiedBy.html", null ],
     [ "trackedBy", "group__httpwwwpurlorgogitOSLC-reqmantrackedBy.html", null ],

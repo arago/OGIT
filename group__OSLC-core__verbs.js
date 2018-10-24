@@ -15,7 +15,6 @@ var group__OSLC_core__verbs =
     [ "executes", "group__httpwwwpurlorgogitOSLC-coreexecutes.html", null ],
     [ "extendedError", "group__httpwwwpurlorgogitOSLC-coreextendedError.html", null ],
     [ "futureAction", "group__httpwwwpurlorgogitOSLC-corefutureAction.html", null ],
-    [ "hasBasicShape", "group__httpwwwpurlorgogitOSLC-corehasBasicShape.html", null ],
     [ "icon", "group__httpwwwpurlorgogitOSLC-coreicon.html", null ],
     [ "inReplyTo", "group__httpwwwpurlorgogitOSLC-coreinReplyTo.html", null ],
     [ "instanceShape", "group__httpwwwpurlorgogitOSLC-coreinstanceShape.html", null ],
