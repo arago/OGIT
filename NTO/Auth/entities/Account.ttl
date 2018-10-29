@@ -17,6 +17,7 @@
 @prefix ogit:					<http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Auth.Account:      <http://www.purl.org/ogit/Auth/Account> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -38,9 +39,13 @@ ogit.Auth:Account
 	ogit:mandatory-attributes (
 	  ogit:name
 	  ogit:status				
-          ogit.Auth:_iam-domain
+          ogit:email
+          ogit.Auth.Account:type
 	);
 	ogit:optional-attributes (
+          ogit.Auth.Account:acceptedPrivacy
+          ogit.Auth.Account:acceptedTerms
+          ogit.Auth.Account:allowCookies
 	);
   ogit:indexed-attributes (
 
@@ -54,5 +59,9 @@ ogit.Auth:Account
 			[ ogit:belongs  ogit:Person ]
 			[ ogit:provides  ogit:Rating ]
 			[ ogit.Auth:assumes  ogit.Auth:Role ]
+                        [ ogit.Auth:uses  ogit.Auth:Application ]
+                        [ ogit.Auth:consents  ogit.Auth:Application ]
+                        [ ogit.Auth:isMemberOf  ogit.Auth:Organzation ]
+                        [ ogit.Auth:isMemberOf  ogit.Auth:Team ]
 	);
 .

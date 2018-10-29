@@ -1,17 +1,15 @@
-@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit:					<http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
-@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
-@prefix ogit.Auth.Application:  <http://www.purl.org/ogit/Auth/Application/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Auth:Application
+ogit.Auth:Team
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Application";
-	dcterms:description "An Application is used for authorization.";
+	rdfs:label "Team";
+	dcterms:description "A team is used to reflect the organizational structure of an ogit/Auth/Organization";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-01-01;";
 	dcterms:creator "arago GmbH";
@@ -22,17 +20,10 @@ ogit.Auth:Application
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-	    ogit:name
-	    ogit:description
-            ogit.Auth:vertexRule
-            ogit.Auth:edgeRule
+        ogit:name
 	);
 	ogit:optional-attributes (
-	    ogit.Auth:allowedTypes
-	    ogit.Auth.Application:type
-	    ogit.Auth.Application:status
-	    ogit.Auth.Application:parent
-	    ogit.Auth.Application:urls
+        ogit:description
 	);
   ogit:indexed-attributes (
 
@@ -40,7 +31,6 @@ ogit.Auth:Application
 	ogit:history (
 	);
 	ogit:allowed (
-			[ ogit:includes  ogit:Notification ]
-			[ ogit:versions  ogit.Auth:Application ]
+ [ ogit.Auth:belongs  ogit.Auth:Team ]
 	);
 .
