@@ -93,28 +93,47 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitAuthAccount.h
 <h2>attributes </h2>
 <ul>
 <li>mandatory:<ul>
-<li><a class="el" href="group__httpwwwpurlorgogitAuth__iam-domain.html">ogit/Auth/_iam-domain</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthAccounttype.html">ogit/Auth/Account/type</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitemail.html">ogit/email</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitname.html">ogit/name</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitstatus.html">ogit/status</a></li>
+</ul>
+</li>
+<li>optional:<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthAccountacceptedPrivacy.html">ogit/Auth/Account/acceptedPrivacy</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthAccountacceptedTerms.html">ogit/Auth/Account/acceptedTerms</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthAccountallowCookies.html">ogit/Auth/Account/allowCookies</a></li>
 </ul>
 </li>
 </ul>
 <h2>attributes (base) </h2>
 <ul>
 <li>mandatory:<ul>
-<li><a class="el" href="group__httpwwwpurlorgogitAuth__iam-domain.html">ogit/Auth/_iam-domain</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthAccounttype.html">ogit/Auth/Account/type</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitemail.html">ogit/email</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitname.html">ogit/name</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitstatus.html">ogit/status</a></li>
+</ul>
+</li>
+<li>optional:<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthAccountacceptedPrivacy.html">ogit/Auth/Account/acceptedPrivacy</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthAccountacceptedTerms.html">ogit/Auth/Account/acceptedTerms</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthAccountallowCookies.html">ogit/Auth/Account/allowCookies</a></li>
 </ul>
 </li>
 </ul>
 <h2>incoming edges </h2>
 <ul>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthbelongs.html">ogit/Auth/belongs</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitAuthAccountProfile.html">ogit/Auth/AccountProfile</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitalerts.html">ogit/alerts</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitEvent.html">ogit/Event</a></li>
 </ul>
 <h2>outgoing edges </h2>
 <ul>
 <li><a class="el" href="group__httpwwwpurlorgogitAuthassumes.html">ogit/Auth/assumes</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAuthRole.html">ogit/Auth/Role</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthconsents.html">ogit/Auth/consents</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAuthApplication.html">ogit/Auth/Application</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthisMemberOf.html">ogit/Auth/isMemberOf</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAuthOrganization.html">ogit/Auth/Organization</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthisMemberOf.html">ogit/Auth/isMemberOf</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAuthTeam.html">ogit/Auth/Team</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAuthuses.html">ogit/Auth/uses</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAuthApplication.html">ogit/Auth/Application</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitaccepts.html">ogit/accepts</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitTermsAndConditions.html">ogit/TermsAndConditions</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitbelongs.html">ogit/belongs</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitPerson.html">ogit/Person</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitcreates.html">ogit/creates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAuthApplicationReview.html">ogit/Auth/ApplicationReview</a></li>
@@ -126,7 +145,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitAuthAccount.h
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Oct 25 2018 08:03:29 by
+    <li class="footer">Generated on Tue Oct 30 2018 15:06:17 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

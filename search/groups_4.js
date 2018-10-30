@@ -2,6 +2,9 @@ var searchData=
 [
   ['datacenter',['Datacenter',['../group__Datacenter.html',1,'']]],
   ['dataprocessing',['DataProcessing',['../group__DataProcessing.html',1,'']]],
+  ['displayname',['displayName',['../group__httpwwwpurlorgogitAuthAccountdisplayName.html',1,'']]],
+  ['datascope',['DataScope',['../group__httpwwwpurlorgogitAuthDataScope.html',1,'']]],
+  ['dataset',['DataSet',['../group__httpwwwpurlorgogitAuthDataSet.html',1,'']]],
   ['databaseschema',['databaseSchema',['../group__httpwwwpurlorgogitAutomationdatabaseSchema.html',1,'']]],
   ['databaseserver',['databaseServer',['../group__httpwwwpurlorgogitAutomationdatabaseServer.html',1,'']]],
   ['dataclassification',['dataClassification',['../group__httpwwwpurlorgogitAutomationdataClassification.html',1,'']]],

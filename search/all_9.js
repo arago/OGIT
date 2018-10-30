@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['ismemberof',['isMemberOf',['../group__httpwwwpurlorgogitAuthisMemberOf.html',1,'']]],
   ['installcount',['installCount',['../group__httpwwwpurlorgogitAutomationinstallCount.html',1,'']]],
   ['installpath',['installPath',['../group__httpwwwpurlorgogitAutomationinstallPath.html',1,'']]],
   ['isdeployed',['isDeployed',['../group__httpwwwpurlorgogitAutomationisDeployed.html',1,'']]],

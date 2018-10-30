@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['organization',['Organization',['../group__httpwwwpurlorgogitAuthOrganization.html',1,'']]],
   ['objectidentifier',['objectIdentifier',['../group__httpwwwpurlorgogitAutomationobjectIdentifier.html',1,'']]],
   ['originnode',['originNode',['../group__httpwwwpurlorgogitAutomationoriginNode.html',1,'']]],
   ['oskey',['osKey',['../group__httpwwwpurlorgogitAutomationosKey.html',1,'']]],
