@@ -32,6 +32,6 @@ ogit.Auth:DataScope
 	ogit:history (
 	);
 	ogit:allowed (
-            [ ogit.Auth:belongs  ogit.Auth:Organzation ]
+            [ ogit.Auth:belongs  ogit.Auth:Organization ]
 	);
 .
