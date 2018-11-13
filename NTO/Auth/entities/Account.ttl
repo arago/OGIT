@@ -38,11 +38,11 @@ ogit.Auth:Account
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
 	  ogit:name
-	  ogit:status				
-          ogit:email
+	  ogit:status	
           ogit.Auth.Account:type
 	);
-	ogit:optional-attributes (
+	ogit:optional-attributes (			
+          ogit:email
           ogit.Auth.Account:acceptedPrivacy
           ogit.Auth.Account:acceptedTerms
           ogit.Auth.Account:allowCookies
