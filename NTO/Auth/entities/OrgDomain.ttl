@@ -1,7 +1,6 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
-@prefix ogit.Auth.Organization: <http://www.purl.org/ogit/Auth/Organization> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
