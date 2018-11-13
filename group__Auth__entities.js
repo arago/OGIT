@@ -6,6 +6,7 @@ var group__Auth__entities =
     [ "ApplicationReview", "group__httpwwwpurlorgogitAuthApplicationReview.html", null ],
     [ "DataScope", "group__httpwwwpurlorgogitAuthDataScope.html", null ],
     [ "DataSet", "group__httpwwwpurlorgogitAuthDataSet.html", null ],
+    [ "OrgDomain", "group__httpwwwpurlorgogitAuthOrgDomain.html", null ],
     [ "Organization", "group__httpwwwpurlorgogitAuthOrganization.html", null ],
     [ "Role", "group__httpwwwpurlorgogitAuthRole.html", null ],
     [ "RoleAssignment", "group__httpwwwpurlorgogitAuthRoleAssignment.html", null ],

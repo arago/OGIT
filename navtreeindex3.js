@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitOSLC-perfmonBufferPoolHits.html":[0,20,1,3],
 "group__httpwwwpurlorgogitOSLC-perfmonBufferPoolMetrics.html":[0,20,1,4],
 "group__httpwwwpurlorgogitOSLC-perfmonCpuMetrics.html":[0,20,1,5],
 "group__httpwwwpurlorgogitOSLC-perfmonCpuSpeed.html":[0,20,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitcity.html":[0,26,0,51],
 "group__httpwwwpurlorgogitclass.html":[0,26,0,52],
 "group__httpwwwpurlorgogitclosedAt.html":[0,26,0,57],
-"group__httpwwwpurlorgogitcloses.html":[0,26,2,14],
-"group__httpwwwpurlorgogitcomment.html":[0,26,0,58]
+"group__httpwwwpurlorgogitcloses.html":[0,26,2,14]
 };
