@@ -24,12 +24,12 @@ ogit.Automation:AutomationIssue
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "AutomationIssue";
-	dcterms:description """Dynamic information exists within an automation engine in the form of Issues otherwise referred to as 
-Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with 
-unique names. From the logical point of view Issues contain information about the change of states on a system. 
-Issues can be injected into an automation engine from external systems e.g. Monitoring or result from the execution of a Knowledge Item. 
-By comparing an Issue with the Issue Condition of a Knowledge Item an automation engine decides which Knowledge Items are are processed 
-in which order. If multiple Knowledge Items can be applied to an Issue the KI with the more precisely defined 
+	dcterms:description """Dynamic information exists within an automation engine in the form of Issues otherwise referred to as
+Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with
+unique names. From the logical point of view Issues contain information about the change of states on a system.
+Issues can be injected into an automation engine from external systems e.g. Monitoring or result from the execution of a Knowledge Item.
+By comparing an Issue with the Issue Condition of a Knowledge Item an automation engine decides which Knowledge Items are are processed
+in which order. If multiple Knowledge Items can be applied to an Issue the KI with the more precisely defined
 IssueCondition is processed first.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
@@ -39,8 +39,9 @@ IssueCondition is processed first.""";
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
-                ogit.Automation:originNode
-                ogit.Automation:processingNode
+		ogit.Automation:issueType
+		ogit.Automation:originNode
+		ogit.Automation:processingNode
 		ogit.Automation:issueFormalRepresentation
 		ogit:status
 		ogit:subject
