@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitOSLC-changeinprogress.html":[0,16,0,6],
 "group__httpwwwpurlorgogitOSLC-changerelatedChangeRequest.html":[0,16,2,4],
 "group__httpwwwpurlorgogitOSLC-changerelatedTestCase.html":[0,16,2,5],
 "group__httpwwwpurlorgogitOSLC-changerelatedTestExecutionRecord.html":[0,16,2,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitOSLC-emswbsFormat.html":[0,19,2,51],
 "group__httpwwwpurlorgogitOSLC-emswbsSource.html":[0,19,2,52],
 "group__httpwwwpurlorgogitOSLC-perfmonAvgJmsGetTime.html":[0,20,1,0],
-"group__httpwwwpurlorgogitOSLC-perfmonAvgLoginRequestFailures.html":[0,20,1,1],
-"group__httpwwwpurlorgogitOSLC-perfmonAvgRequestFailures.html":[0,20,1,2]
+"group__httpwwwpurlorgogitOSLC-perfmonAvgLoginRequestFailures.html":[0,20,1,1]
 };

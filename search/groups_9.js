@@ -5,6 +5,7 @@ var searchData=
   ['installpath',['installPath',['../group__httpwwwpurlorgogitAutomationinstallPath.html',1,'']]],
   ['isdeployed',['isDeployed',['../group__httpwwwpurlorgogitAutomationisDeployed.html',1,'']]],
   ['issueformalrepresentation',['issueFormalRepresentation',['../group__httpwwwpurlorgogitAutomationissueFormalRepresentation.html',1,'']]],
+  ['issuetype',['issueType',['../group__httpwwwpurlorgogitAutomationissueType.html',1,'']]],
   ['item',['Item',['../group__httpwwwpurlorgogitAutomationItem.html',1,'']]],
   ['inclusivegateway',['InclusiveGateway',['../group__httpwwwpurlorgogitBusinessProcessInclusiveGateway.html',1,'']]],
   ['instantiatedreceivetask',['InstantiatedReceiveTask',['../group__httpwwwpurlorgogitBusinessProcessInstantiatedReceiveTask.html',1,'']]],

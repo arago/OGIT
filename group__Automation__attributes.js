@@ -41,6 +41,7 @@ var group__Automation__attributes =
     [ "installPath", "group__httpwwwpurlorgogitAutomationinstallPath.html", null ],
     [ "isDeployed", "group__httpwwwpurlorgogitAutomationisDeployed.html", null ],
     [ "issueFormalRepresentation", "group__httpwwwpurlorgogitAutomationissueFormalRepresentation.html", null ],
+    [ "issueType", "group__httpwwwpurlorgogitAutomationissueType.html", null ],
     [ "knowledgeItemFormalRepresentation", "group__httpwwwpurlorgogitAutomationknowledgeItemFormalRepresentation.html", null ],
     [ "knowledgeItemId", "group__httpwwwpurlorgogitAutomationknowledgeItemId.html", null ],
     [ "knowledgeItemSyntaxVersion", "group__httpwwwpurlorgogitAutomationknowledgeItemSyntaxVersion.html", null ],
