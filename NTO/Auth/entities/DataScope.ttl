@@ -20,8 +20,6 @@ ogit.Auth:DataScope
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-        ogit.Auth:vertexRule
-        ogit.Auth:edgeRule
 	);
 	ogit:optional-attributes (
         ogit:description

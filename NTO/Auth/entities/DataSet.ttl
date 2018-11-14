@@ -26,6 +26,7 @@ ogit.Auth:DataSet
 	);
 	ogit:optional-attributes (
           ogit:description
+          ogit.Auth:restricted
 	);
   ogit:indexed-attributes (
 
