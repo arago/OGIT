@@ -1,17 +1,16 @@
-@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit:					<http://www.purl.org/ogit/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
-@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
-@prefix ogit.Auth.Application:  <http://www.purl.org/ogit/Auth/Application/> .
+@prefix ogit.Auth.Account:      <http://www.purl.org/ogit/Auth/Account> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Auth:Application
+ogit.Auth:AccountProfile
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Application";
-	dcterms:description "An Application is used for authorization.";
+	rdfs:label "AccountProfile";
+	dcterms:description "A profile associated with an account.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2018-01-01;";
 	dcterms:creator "arago GmbH";
@@ -22,17 +21,10 @@ ogit.Auth:Application
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-	    ogit:name
-	    ogit:description
-            ogit.Auth:vertexRule
-            ogit.Auth:edgeRule
 	);
 	ogit:optional-attributes (
-	    ogit.Auth:allowedTypes
-	    ogit.Auth.Application:type
-	    ogit.Auth.Application:status
-	    ogit.Auth.Application:parent
-	    ogit.Auth.Application:urls
+          ogit.Auth.Account:displayName
+          ogit.Auth.Account:acceptedEmails
 	);
   ogit:indexed-attributes (
 
@@ -40,7 +32,6 @@ ogit.Auth:Application
 	ogit:history (
 	);
 	ogit:allowed (
-			[ ogit:includes  ogit:Notification ]
-			[ ogit:versions  ogit.Auth:Application ]
+ [ ogit.Auth:belongs  ogit.Auth:Account ]
 	);
 .
