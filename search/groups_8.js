@@ -12,11 +12,10 @@ var searchData=
   ['hintheight',['hintHeight',['../group__httpwwwpurlorgogitOSLC-corehintHeight.html',1,'']]],
   ['hintwidth',['hintWidth',['../group__httpwwwpurlorgogitOSLC-corehintWidth.html',1,'']]],
   ['hostid',['hostid',['../group__httpwwwpurlorgogitOSLC-crtvhostid.html',1,'']]],
-  ['head',['head',['../group__httpwwwpurlorgogitOSLC-emshead.html',1,'']]],
   ['head',['Head',['../group__httpwwwpurlorgogitOSLC-emsHead.html',1,'']]],
+  ['head',['head',['../group__httpwwwpurlorgogitOSLC-emshead.html',1,'']]],
   ['high',['high',['../group__httpwwwpurlorgogitOSLC-emshigh.html',1,'']]],
   ['heapmemoryused',['HeapMemoryUsed',['../group__httpwwwpurlorgogitOSLC-perfmonHeapMemoryUsed.html',1,'']]],
   ['highdepthqueuecount',['HighDepthQueueCount',['../group__httpwwwpurlorgogitOSLC-perfmonHighDepthQueueCount.html',1,'']]],
-  ['hosteddatabases',['HostedDatabases',['../group__httpwwwpurlorgogitOSLC-perfmonHostedDatabases.html',1,'']]],
-  ['hasbasicshape',['hasBasicShape',['../group__httpwwwpurlorgogitOSLC-reqmanhasBasicShape.html',1,'']]]
+  ['hosteddatabases',['HostedDatabases',['../group__httpwwwpurlorgogitOSLC-perfmonHostedDatabases.html',1,'']]]
 ];

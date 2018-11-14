@@ -7,7 +7,6 @@ var group__OSLC_ems__attributes =
     [ "lambda", "group__httpwwwpurlorgogitOSLC-emslambda.html", null ],
     [ "low", "group__httpwwwpurlorgogitOSLC-emslow.html", null ],
     [ "mostLikely", "group__httpwwwpurlorgogitOSLC-emsmostLikely.html", null ],
-    [ "mu", "group__httpwwwpurlorgogitOSLC-emsmu.html", null ],
     [ "numberOfQuantiles", "group__httpwwwpurlorgogitOSLC-emsnumberOfQuantiles.html", null ],
     [ "numericValue", "group__httpwwwpurlorgogitOSLC-emsnumericValue.html", null ],
     [ "probability", "group__httpwwwpurlorgogitOSLC-emsprobability.html", null ],

@@ -39,7 +39,6 @@ var group__OSLC_ems__verbs =
     [ "project", "group__httpwwwpurlorgogitOSLC-emsproject.html", null ],
     [ "projectList", "group__httpwwwpurlorgogitOSLC-emsprojectList.html", null ],
     [ "quantile", "group__httpwwwpurlorgogitOSLC-emsquantile.html", null ],
-    [ "scenario", "group__httpwwwpurlorgogitOSLC-emsscenario.html", null ],
     [ "scenarioList", "group__httpwwwpurlorgogitOSLC-emsscenarioList.html", null ],
     [ "seeAlsoEstimation", "group__httpwwwpurlorgogitOSLC-emsseeAlsoEstimation.html", null ],
     [ "seeAlsoPerformance", "group__httpwwwpurlorgogitOSLC-emsseeAlsoPerformance.html", null ],

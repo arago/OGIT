@@ -7,7 +7,6 @@ var searchData=
   ['ups',['UPS',['../group__httpwwwpurlorgogitDatacenterUPS.html',1,'']]],
   ['username',['username',['../group__httpwwwpurlorgogitForumusername.html',1,'']]],
   ['usesexecutionenvironment',['usesExecutionEnvironment',['../group__httpwwwpurlorgogitOSLC-automationusesExecutionEnvironment.html',1,'']]],
-  ['usage',['usage',['../group__httpwwwpurlorgogitOSLC-coreusage.html',1,'']]],
   ['uniformdistribution',['UniformDistribution',['../group__httpwwwpurlorgogitOSLC-emsUniformDistribution.html',1,'']]],
   ['unitofmeasure',['UnitOfMeasure',['../group__httpwwwpurlorgogitOSLC-emsUnitOfMeasure.html',1,'']]],
   ['unitofmeasure',['unitOfMeasure',['../group__httpwwwpurlorgogitOSLC-emsunitOfMeasure.html',1,'']]],
