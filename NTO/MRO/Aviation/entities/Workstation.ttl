@@ -23,8 +23,11 @@ ogit.MRO.Aviation:Workstation
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
+            ogit:id
+            ogit:name
 	);
     ogit:indexed-attributes (
+        ogit:name
     );
 	ogit:allowed (
 			[ ogit:worksOn  ogit.MRO.Aviation:Aircraft ]
