@@ -160,7 +160,7 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitsoxClass.html":[0,26,0,187],
 "group__httpwwwpurlorgogitspecifies.html":[0,26,2,88],
 "group__httpwwwpurlorgogitstartedAt.html":[0,26,0,188],
-"group__httpwwwpurlorgogitstatus.html":[0,26,0,189],
+"group__httpwwwpurlorgogitstatus.html":[0,26,0,190],
 "group__httpwwwpurlorgogitstreetAddress.html":[0,26,0,191],
 "group__httpwwwpurlorgogitsubCategory.html":[0,26,0,192],
 "group__httpwwwpurlorgogitsubType.html":[0,26,0,195],
