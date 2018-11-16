@@ -27,8 +27,13 @@ ogit.MRO.Aviation:MPD
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
+            ogit:id
+            ogit:name
+            ogit:description
 	);
     ogit:indexed-attributes (
+        ogit:name
+        ogit:description
     );
 	ogit:allowed (
 			[ ogit:includes  ogit.MRO.Aviation:MPD ]
