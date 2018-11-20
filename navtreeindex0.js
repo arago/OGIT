@@ -110,13 +110,14 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAuthAccountacceptedTerms.html":[0,26,0,27],
 "group__httpwwwpurlorgogitAuthAccountallowCookies.html":[0,26,0,31],
 "group__httpwwwpurlorgogitAuthAccountdisplayName.html":[0,26,0,74],
-"group__httpwwwpurlorgogitAuthAccounttype.html":[0,26,0,202],
+"group__httpwwwpurlorgogitAuthAccountstatusReason.html":[0,26,0,191],
+"group__httpwwwpurlorgogitAuthAccounttype.html":[0,26,0,205],
 "group__httpwwwpurlorgogitAuthApplication.html":[0,0,1,2],
 "group__httpwwwpurlorgogitAuthApplicationReview.html":[0,0,1,3],
 "group__httpwwwpurlorgogitAuthApplicationparent.html":[0,26,0,150],
-"group__httpwwwpurlorgogitAuthApplicationstatus.html":[0,26,0,189],
+"group__httpwwwpurlorgogitAuthApplicationstatus.html":[0,26,0,190],
 "group__httpwwwpurlorgogitAuthApplicationtype.html":[0,26,0,204],
-"group__httpwwwpurlorgogitAuthApplicationurls.html":[0,26,0,210],
+"group__httpwwwpurlorgogitAuthApplicationurls.html":[0,26,0,211],
 "group__httpwwwpurlorgogitAuthDataScope.html":[0,0,1,4],
 "group__httpwwwpurlorgogitAuthDataSet.html":[0,0,1,5],
 "group__httpwwwpurlorgogitAuthOrgDomain.html":[0,0,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAutomationweightMap.html":[0,1,0,92],
 "group__httpwwwpurlorgogitBusinessProcessBusinessProcess.html":[0,2,1,0],
 "group__httpwwwpurlorgogitBusinessProcessBusinessRuleTask.html":[0,2,1,1],
-"group__httpwwwpurlorgogitBusinessProcessCancelEvent.html":[0,2,1,2],
-"group__httpwwwpurlorgogitBusinessProcessCompensationEvent.html":[0,2,1,3]
+"group__httpwwwpurlorgogitBusinessProcessCancelEvent.html":[0,2,1,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitOSLC-perfmonLockListUsed.html":[0,20,1,17],
 "group__httpwwwpurlorgogitOSLC-perfmonLogUsed.html":[0,20,1,18],
 "group__httpwwwpurlorgogitOSLC-perfmonLoginRequestFailures.html":[0,20,1,19],
 "group__httpwwwpurlorgogitOSLC-perfmonMemoryAvailableAfterGarbageCollection.html":[0,20,1,20],
@@ -153,7 +154,7 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitSurveyIteration.html":[0,30,0,0],
 "group__httpwwwpurlorgogitSurveyReply.html":[0,30,0,1],
 "group__httpwwwpurlorgogitSurveySurvey.html":[0,30,0,2],
-"group__httpwwwpurlorgogitTask.html":[0,26,1,49],
+"group__httpwwwpurlorgogitTask.html":[0,26,1,48],
 "group__httpwwwpurlorgogitTaskList.html":[0,26,1,50],
 "group__httpwwwpurlorgogitTermsAndConditions.html":[0,26,1,51],
 "group__httpwwwpurlorgogitTimeseries.html":[0,26,1,52],
@@ -228,7 +229,7 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitcheckedOutAt.html":[0,26,0,49],
 "group__httpwwwpurlorgogitciType.html":[0,26,0,50],
 "group__httpwwwpurlorgogitcity.html":[0,26,0,51],
-"group__httpwwwpurlorgogitclass.html":[0,26,0,53],
+"group__httpwwwpurlorgogitclass.html":[0,26,0,52],
 "group__httpwwwpurlorgogitclosedAt.html":[0,26,0,57],
 "group__httpwwwpurlorgogitcloses.html":[0,26,2,14],
 "group__httpwwwpurlorgogitcomment.html":[0,26,0,58],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitcontains.html":[0,26,2,25],
 "group__httpwwwpurlorgogitcontent.html":[0,26,0,63],
 "group__httpwwwpurlorgogitcontributes.html":[0,26,2,26],
-"group__httpwwwpurlorgogitcorresponds.html":[0,26,2,27],
-"group__httpwwwpurlorgogitcountry.html":[0,26,0,64]
+"group__httpwwwpurlorgogitcorresponds.html":[0,26,2,27]
 };
