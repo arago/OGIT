@@ -7,6 +7,7 @@
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
@@ -62,5 +63,6 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 			[ ogit:belongs  ogit.ServiceManagement:Incident ]
 			[ ogit:belongs  ogit.ServiceManagement:ChangeRequest ]
 			[ ogit:belongs  ogit.ServiceManagement:Order ]
+                        [ ogit:belongs  ogit.Auth:AccountProfile ]
 	);
 .
