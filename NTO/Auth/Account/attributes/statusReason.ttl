@@ -18,7 +18,7 @@ ogit.Auth.Account:statusReason
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:validation-type "fixed";
-	ogit:validation-parameter "UserDeactive,AdminDeactive,PasswordExpired,UserIdle";
+	ogit:validation-parameter "UserDeactivated,AdminDeactivated,PasswordExpired,AutoDeactivated";
 	ogit:history (
 		[
 			dcterms:identifier "1";
