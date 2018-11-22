@@ -32,5 +32,6 @@ ogit.Auth:Team
 	);
 	ogit:allowed (
  [ ogit.Auth:belongs  ogit.Auth:Team ]
+ [ ogit.Auth:belongs  ogit.Auth:Organization ]
 	);
 .
