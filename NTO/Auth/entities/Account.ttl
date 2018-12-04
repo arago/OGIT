@@ -64,5 +64,13 @@ ogit.Auth:Account
                         [ ogit.Auth:consents  ogit.Auth:Application ]
                         [ ogit.Auth:isMemberOf  ogit.Auth:Organization ]
                         [ ogit.Auth:isMemberOf  ogit.Auth:Team ]
+            [ ogit:consumes  ogit.Project:Milestone ]
+            [ ogit:consumes  ogit.Project:Project ]
+            [ ogit:supervises  ogit.Project:Project ]
+            [ ogit:produces  ogit.Project:Milestone ]
+            [ ogit:produces  ogit.Project:Project ]
+            [ ogit:supports  ogit.Project:Milestone ]
+            [ ogit:supports  ogit.Project:Project ]
+            [ ogit:repliedWith  ogit.Survey:Reply ]
 	);
 .

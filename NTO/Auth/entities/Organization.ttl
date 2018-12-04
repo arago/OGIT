@@ -31,5 +31,11 @@ ogit.Auth:Organization
 	);
 	ogit:allowed (
         [ ogit:concludes  ogit:Contract ]
+        [ ogit:supports  ogit.Project:Project ]
+        [ ogit:supports  ogit.Survey:Iteration ]
+        [ ogit:consumes  ogit.Project:Project ]
+        [ ogit:consumes  ogit.Survey:Iteration ]
+        [ ogit:produces  ogit.Project:Project ]
+        [ ogit:produces  ogit.Survey:Iteration ]
 	);
 .
