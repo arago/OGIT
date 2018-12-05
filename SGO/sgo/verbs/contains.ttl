@@ -12,7 +12,8 @@
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ogit.MRP:              <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
 
 ogit:contains
 	a owl:ObjectProperty;
@@ -518,6 +519,14 @@ ogit:contains
 		[
 			ogit:from ogit.MRP:Vorgang;
 			ogit:to ogit.MRP:Part;
+		]
+                [
+			ogit:from ogit.Accounting:FinancialStatement;
+			ogit:to ogit.Accounting:LineItem;
+		]
+                [
+			ogit:from ogit.Accounting:FinancialStatement;
+			ogit:to ogit.Accounting:CategoryItem;
 		]
 	);
 .

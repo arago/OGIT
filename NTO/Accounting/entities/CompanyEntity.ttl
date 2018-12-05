@@ -1,0 +1,21 @@
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Accounting:CompanyEntity
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "CompanyEntity";
+	dcterms:description "For example: Group, Legal Entity...";
+	dcterms:valid "start=2018-12-05;";
+	dcterms:creator "Viktor Voss";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+	);
+        ogit:indexed-attributes (
+        );
+.

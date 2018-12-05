@@ -1,0 +1,14 @@
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Accounting:periods
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "periods";
+	dcterms:description "Aone ore more periods of a financial statement.";
+	dcterms:valid "start=2018-12-05;";
+	dcterms:creator "Viktor Voss";
+.

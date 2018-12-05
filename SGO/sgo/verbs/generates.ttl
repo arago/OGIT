@@ -11,6 +11,7 @@
 @prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
 
 ogit:generates
 	a owl:ObjectProperty;
@@ -145,5 +146,9 @@ ogit:generates
 			ogit:from ogit.MRP:Disposet;
 			ogit:to ogit.MRP:Measure;
 		]
+                ]
+                        ogit:from ogit.Accounting:CompanyEntity;
+                        ogit:to ogit.Accounting:FinancialStatement;
+                ]
 	);
 .

@@ -1,0 +1,20 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
+
+ogit.Accounting:maps
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "maps";
+	dcterms:description "Indicates if an category maps another category.";
+	dcterms:valid "start=2018-12-05;";
+	dcterms:creator "Viktor Voss";
+	ogit:allowed (
+		[
+			ogit:from ogit.Accounting:LineItem;
+			ogit:to ogit.Accounting:CategoryItem;
+		]
+	);
+.
