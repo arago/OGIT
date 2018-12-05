@@ -13,7 +13,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
-@prefix ogit.Accounting:        <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
 
 ogit:belongs
 	a owl:ObjectProperty;
