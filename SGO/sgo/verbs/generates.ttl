@@ -146,7 +146,7 @@ ogit:generates
 			ogit:from ogit.MRP:Disposet;
 			ogit:to ogit.MRP:Measure;
 		]
-                ]
+                [
                         ogit:from ogit.Accounting:CompanyEntity;
                         ogit:to ogit.Accounting:FinancialStatement;
                 ]
