@@ -24,8 +24,8 @@ ogit.Auth:Application
 	ogit:mandatory-attributes (
 	    ogit:name
 	    ogit:description
-            ogit.Auth:vertexRule
-            ogit.Auth:edgeRule
+	    ogit.Auth:vertexRule
+	    ogit.Auth:edgeRule
 	);
 	ogit:optional-attributes (
 	    ogit.Auth:allowedTypes
@@ -34,9 +34,10 @@ ogit.Auth:Application
 	    ogit.Auth.Application:parent
 	    ogit.Auth.Application:urls
 	);
-  ogit:indexed-attributes (
-
-  );
+	ogit:indexed-attributes (
+	    ogit:name
+	    ogit:description
+	);
 	ogit:history (
 	);
 	ogit:allowed (
