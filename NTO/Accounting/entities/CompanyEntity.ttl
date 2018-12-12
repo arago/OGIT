@@ -15,7 +15,7 @@ ogit.Accounting:CompanyEntity
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
-            accountingStandard
+            ogit.Accounting:accountingStandard
 	);
         ogit:indexed-attributes (
         );
