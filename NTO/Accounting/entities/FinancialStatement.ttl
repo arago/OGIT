@@ -20,6 +20,7 @@ ogit.Accounting:FinancialStatement
             ogit:language
             ogit.Accounting:template
             ogit.Accounting:periods
+            ogit.Accounting:primaryReportingPeriod
 	);
         ogit:indexed-attributes (
         );

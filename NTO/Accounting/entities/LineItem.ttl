@@ -20,6 +20,7 @@ ogit.Accounting:LineItem
             ogit:name
             ogit.Accounting:balance
             ogit.Accounting:association
+            ogit.Accounting:AccountNumber
 	);
         ogit:indexed-attributes (
         );
