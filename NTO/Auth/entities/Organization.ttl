@@ -4,6 +4,8 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 
 ogit.Auth:Organization
 	a rdfs:Class;
@@ -30,6 +32,13 @@ ogit.Auth:Organization
 	ogit:history (
 	);
 	ogit:allowed (
-        [ ogit:concludes  ogit:Contract ]
+			[ ogit:concludes  ogit:Contract ]
+			[ ogit:supports  ogit.Project:Project ]
+			[ ogit:supports  ogit.Survey:Iteration ]
+			[ ogit:consumes  ogit.Project:Project ]
+			[ ogit:consumes  ogit.Survey:Iteration ]
+			[ ogit:produces  ogit.Project:Project ]
+			[ ogit:produces  ogit.Survey:Iteration ]
+			[ ogit:generates  ogit:Timeseries ]
 	);
 .
