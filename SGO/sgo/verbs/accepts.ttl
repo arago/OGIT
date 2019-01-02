@@ -3,6 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Auth:             <http://www.purl.org/ogit/Auth/> .
 
 ogit:accepts
 	a owl:ObjectProperty;
@@ -12,22 +13,4 @@ ogit:accepts
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-09-02;";
 	dcterms:creator "bmoore@arago.de";
-	dcterms:created "2015-09-02";
-	dcterms:modified "2015-09-02";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-09-02";
-			dcterms:description "initial";
-			dcterms:creator "bmoore@arago.de";
-		]
-	);
-	ogit:allowed (
-		[
-			ogit:from ogit.Forum:Profile;
-			ogit:to ogit.Forum:Invite;
-		]
-	);
 .

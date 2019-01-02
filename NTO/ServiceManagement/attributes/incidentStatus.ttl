@@ -12,24 +12,6 @@ ogit.ServiceManagement:incidentStatus
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:validation-type "regex";
-	ogit:validation-parameter "^(New|Assigned|Pending|Resolved|Closed|Escalated)$";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-10-16";
-			dcterms:description "added a new State Escalated in the Validation.";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
+	ogit:validation-type "fixed";
+	ogit:validation-parameter "New,Assigned,Pending,Resolved,ResolvedExternal,Closed,Escalated";
 .

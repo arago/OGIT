@@ -1,3 +1,20 @@
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -10,17 +27,14 @@ ogit:License
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		ogit:id
+
 	);
 	ogit:optional-attributes (
 		ogit:validFrom
+		ogit:id
 		ogit:expirationDate
 		ogit:subject
 		ogit:licenseKey
@@ -33,24 +47,10 @@ ogit:License
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-[
-			dcterms:identifier "2";
-			dcterms:date "2016-11-29";
-			dcterms:description "add attribute validTo";
-			dcterms:creator "stravlos@arago.co";
-		]
-[
-			dcterms:identifier "3";
-			dcterms:date "2016-12-19";
-			dcterms:description "add attribute deadlie";
-			dcterms:creator "stravlos@arago.co";
-		]
+	ogit:allowed (
+			[ ogit:generates  ogit:Timeseries ]
+			[ ogit:belongs  ogit:LicenseRequest ]
+			[ ogit:precedes  ogit:License ]
+			[ ogit:associates  ogit:Installation ]
 	);
 .

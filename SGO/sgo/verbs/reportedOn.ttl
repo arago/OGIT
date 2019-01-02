@@ -4,6 +4,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 
 ogit:reportedOn
 	a owl:ObjectProperty;
@@ -14,38 +15,4 @@ We call it \"reportedOn\" instead of \"observedOn\" to account for the close rel
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-	);
-	ogit:allowed (
-		[
-			ogit:from ogit.ServiceManagement:Order;
-			ogit:to ogit.Automation:MARSNode;
-		]
-		[
-			ogit:from ogit.ServiceManagement:ChangeRequest;
-			ogit:to ogit.Automation:MARSNode;
-		]
-		[
-			ogit:from ogit.ServiceManagement:Incident;
-			ogit:to ogit.Automation:MARSNode;
-		]
-		[
-			ogit:from ogit.ServiceManagement:Problem;
-			ogit:to ogit.Automation:MARSNode;
-		]
-		[
-			ogit:from ogit.ServiceManagement:Ticket;
-			ogit:to ogit.Automation:MARSNode;
-		]
-	);
 .

@@ -1,3 +1,18 @@
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -10,10 +25,6 @@ ogit:Comment
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -27,30 +38,25 @@ ogit:Comment
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-08-20";
-			dcterms:description "updated Attribute ogit/id and ogit/content added.";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-09-01";
-			dcterms:description "updated Attribute ogit/id to be optional.";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-10-16";
-			dcterms:description "added ogit/creater as optional.";
-			dcterms:creator "Peter Larem";
-		]
+	ogit:allowed (
+			[ ogit:responds  ogit.Forum:Rating ]
+			[ ogit:responds  ogit.Forum:Reply ]
+			[ ogit:belongs  ogit:Event ]
+			[ ogit:belongs  ogit.ServiceManagement:SubTask ]
+			[ ogit:belongs  ogit.ServiceManagement:Ticket ]
+			[ ogit:connects  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:connects  ogit:Person ]
+			[ ogit:connects  ogit:Organization ]
+			[ ogit:connects  ogit:License ]
+			[ ogit:connects  ogit:Contract ]
+			[ ogit:connects  ogit.Forum:Profile ]
+			[ ogit:connects  ogit.Forum:Topic ]
+			[ ogit:connects  ogit:Comment ]
+			[ ogit:connects  ogit.Forum:Reply ]
+			[ ogit:connects  ogit.Forum:KnowledgeBundle ]
+			[ ogit:connects  ogit.Automation:KnowledgeItem ]
+			[ ogit:connects  ogit.Forum:Post ]
+			[ ogit:connects  ogit:Hyperlink ]
+			[ ogit.Forum:mentions  ogit.Forum:Profile ]
 	);
 .

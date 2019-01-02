@@ -1,0 +1,31 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MRO.Aviation:Aircraft
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Aircraft";
+	dcterms:description "TODO.";
+	dcterms:valid "start=2018-09-07;";
+	dcterms:creator "Kaushik";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+	);
+    ogit:indexed-attributes (
+    );
+	ogit:allowed (
+			[ ogit:locatedIn  ogit:Location ]
+			[ ogit:locatedIn  ogit.MRO.Aviation:Bay ]
+	);
+.

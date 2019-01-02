@@ -1,0 +1,27 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Auth:_iam-domain
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "_iam-domain";
+	dcterms:description "IAM Domain of an entity";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-01-01;";
+	dcterms:creator "arago GmbH";
+	dcterms:created "2018-01-01";
+	dcterms:modified "2018-01-01";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2018-01-01";
+			dcterms:description "initial";
+			dcterms:creator "arago GmbH";
+		]
+	);
+.

@@ -2,6 +2,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 
 ogit.Forum:downloads
@@ -12,22 +13,4 @@ ogit.Forum:downloads
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-02-25;";
 	dcterms:creator "bneal@arago.de";
-	dcterms:created "2016-02-25";
-	dcterms:modified "2016-02-25";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-02-25";
-			dcterms:description "intitial inception";
-			dcterms:creator "bneal@arago.de";
-		]
-	);
-	ogit:allowed (
-		[
-			ogit:from ogit.Forum:Profile;
-			ogit:to ogit.Forum:KnowledgeBundle;
-		]
-	);
 .

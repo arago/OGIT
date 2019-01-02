@@ -1,3 +1,28 @@
+@prefix ogit.Auth:             <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.Forum:		        <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.Survey:           <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.UserMeta:          <http://www.purl.org/ogit/UserMeta/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -10,10 +35,6 @@ ogit:Person
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-07-27";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -42,24 +63,104 @@ ogit:Person
 		ogit:email
 		ogit:alternativeName
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-06-11";
-			dcterms:description "added optional attribute /ogit/sourceId";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-07-27";
-			dcterms:description "added optional attribute ogit/middleName, ogit/officePhone, ogit/otherPhone, ogit/mobilePhone, ogit/fax, ogit/webPage, ogit/notification, ogit/status";
-			dcterms:creator "Philipp Pelchmann";
-		]
+	ogit:allowed (
+			[ ogit:supports  ogit.Project:Milestone ]
+			[ ogit:supports  ogit.Project:Project ]
+			[ ogit:supports  ogit:ConfigurationItem ]
+			[ ogit:manages  ogit.Network:WifiAccessPoint ]
+			[ ogit:manages  ogit.Project:Project ]
+			[ ogit:manages  ogit.Network:VLAN ]
+			[ ogit:manages  ogit.Network:Switch ]
+			[ ogit:manages  ogit.Network:Subnet ]
+			[ ogit:manages  ogit.Network:Slot ]
+			[ ogit:manages  ogit.Network:Shelf ]
+			[ ogit:manages  ogit.Network:Router ]
+			[ ogit:manages  ogit.Network:PortChannel ]
+			[ ogit:manages  ogit.Network:Port ]
+			[ ogit:manages  ogit.Datacenter:Room ]
+			[ ogit:manages  ogit.Datacenter:Rack ]
+			[ ogit:manages  ogit:Device ]
+			[ ogit:manages  ogit.Datacenter:Datacenter ]
+			[ ogit:manages  ogit.Datacenter:Cooling ]
+			[ ogit:manages  ogit.Datacenter:Building ]
+			[ ogit:manages  ogit.Software:Application ]
+			[ ogit:manages  ogit:Organization ]
+			[ ogit:relates  ogit.Survey:Iteration ]
+			[ ogit:ignores  ogit:Comment ]
+			[ ogit:invites  ogit:Person ]
+			[ ogit:creates  ogit:Certificate ]
+			[ ogit:creates  ogit:Alert ]
+			[ ogit:creates  ogit:ConfigurationItem ]
+			[ ogit:leads  ogit:Organization ]
+			[ ogit:accepts  ogit:TermsAndConditions ]
+			[ ogit:worksOn  ogit:Status ]
+			[ ogit:belongs  ogit:Organization ]
+			[ ogit:dislikes  ogit:Person ]
+			[ ogit:concludes  ogit:Contract ]
+			[ ogit:installs  ogit.Software:Application ]
+			[ ogit:updates  ogit:ConfigurationItem ]
+			[ ogit:updates  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:updates  ogit.ServiceManagement:Order ]
+			[ ogit:updates  ogit.ServiceManagement:Ticket ]
+			[ ogit:updates  ogit.ServiceManagement:Problem ]
+			[ ogit:updates  ogit.ServiceManagement:Incident ]
+			[ ogit:updates  ogit.ServiceManagement:SubTask ]
+			[ ogit:tracks  ogit:Timeseries ]
+			[ ogit:opens  ogit.ServiceManagement:SubTask ]
+			[ ogit:opens  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:opens  ogit.ServiceManagement:Order ]
+			[ ogit:opens  ogit.ServiceManagement:Ticket ]
+			[ ogit:opens  ogit.ServiceManagement:Problem ]
+			[ ogit:opens  ogit.ServiceManagement:Incident ]
+			[ ogit:supervises  ogit.Project:Project ]
+			[ ogit:supervises  ogit:Contract ]
+			[ ogit:supervises  ogit.ServiceManagement:SubTask ]
+			[ ogit:supervises  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:supervises  ogit.ServiceManagement:Order ]
+			[ ogit:supervises  ogit.ServiceManagement:Ticket ]
+			[ ogit:supervises  ogit.ServiceManagement:Problem ]
+			[ ogit:supervises  ogit.ServiceManagement:Incident ]
+			[ ogit:reports  ogit:Person ]
+			[ ogit:reports  ogit.ServiceManagement:Problem ]
+			[ ogit:reports  ogit.ServiceManagement:Incident ]
+			[ ogit:approves  ogit:Contract ]
+			[ ogit:consumes  ogit.Project:Milestone ]
+			[ ogit:consumes  ogit.Project:Project ]
+			[ ogit:represents  ogit:Organization ]
+			[ ogit:represents  ogit:Person ]
+			[ ogit:follows  ogit:Person ]
+			[ ogit:rejects  ogit:Alert ]
+			[ ogit:requests  ogit.ServiceManagement:SubTask ]
+			[ ogit:requests  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:requests  ogit:LicenseRequest ]
+			[ ogit:owns  ogit:Certificate ]
+			[ ogit:owns  ogit.Software:Application ]
+			[ ogit:owns  ogit.ServiceManagement:Service ]
+			[ ogit:owns  ogit:Event ]
+			[ ogit:owns  ogit:Vcard ]
+			[ ogit:defines  ogit.UserMeta:Filter ]
+			[ ogit:repliedWith  ogit.Survey:Reply ]
+			[ ogit:sends  ogit:Notification ]
+			[ ogit:uses  ogit.OSLC-crtv:ServiceInstance ]
+			[ ogit:uses  ogit:License ]
+			[ ogit:uses  ogit.Software:Application ]
+			[ ogit:uses  ogit.Cost:Budget ]
+			[ ogit:locatedIn  ogit:Location ]
+			[ ogit:complies  ogit:Role ]
+			[ ogit:likes  ogit.UserMeta:Preferences ]
+			[ ogit:likes  ogit:Person ]
+			[ ogit:communicatesWith  ogit:Person ]
+			[ ogit:receives  ogit:Notification ]
+			[ ogit:produces  ogit.Project:Milestone ]
+			[ ogit:produces  ogit.Project:Project ]
+			[ ogit:closes  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:closes  ogit.ServiceManagement:Order ]
+			[ ogit:closes  ogit.ServiceManagement:Ticket ]
+			[ ogit:closes  ogit.ServiceManagement:Problem ]
+			[ ogit:closes  ogit.ServiceManagement:Incident ]
+			[ ogit:closes  ogit.ServiceManagement:SubTask ]
+			[ ogit.UserMeta:plays  ogit.UserMeta:Game ]
+			[ ogit.UserMeta:loses  ogit.UserMeta:Game ]
+			[ ogit.UserMeta:wins  ogit.UserMeta:Game ]
 	);
 .

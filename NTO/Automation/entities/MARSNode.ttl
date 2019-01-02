@@ -1,3 +1,26 @@
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.Factory:           <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.Forum:   		    <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.MRP:              <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Automation:		<http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Forum:				<http://www.purl.org/ogit/Forum/> .
+@prefix ogit:					<http://www.purl.org/ogit/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -8,187 +31,130 @@ ogit.Automation:MARSNode
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "MARSNode";
-	dcterms:description """IT Objects will be representated in MARS Modell with MARS nodes. 
-The MARS model builds upon four basic types of objects with a single type of relationship. Basically the objects 
-which are in fact called \"nodes\" represent both views - the business perspective and the technical view. 
-The technical components are modeled in the machine and software layers while the application and resource layers 
+	dcterms:description """Using this entity type to represent MARS nodes is deprecated. New applications should prefer the entity types from ogit/MARS NTO.
+
+IT Objects will be representated in MARS Modell with MARS nodes.
+The MARS model builds upon four basic types of objects with a single type of relationship. Basically the objects
+which are in fact called \"nodes\" represent both views - the business perspective and the technical view.
+The technical components are modeled in the machine and software layers while the application and resource layers
 describe the business view of the IT environment.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		
+
 	);
 	ogit:optional-attributes (
-		ogit.Automation:marsNodeFormalRepresentation
-		ogit.Automation:marsNodeType
+		ogit:connectorId
+		ogit:creationTime
+		ogit:endOfWarranty
+		ogit:id
+		ogit:ipAddress
+		ogit:macAddress
+		ogit:manufacturer
+		ogit:modificationTime
 		ogit:name
 		ogit:serialNumber
-		ogit:macAddress
-		ogit:ipAddress
-		ogit:manufacturer
-		ogit:endOfWarranty
-		ogit.Automation:software
-		ogit.Automation:softwareKey
+		ogit.Automation:additionalMacAddress
 		ogit.Automation:adminUrl
-		ogit.Automation:tcpPort
-		ogit.Automation:licenseAvailability
-		ogit.Automation:licenseName
-		ogit.Automation:installPath
-		ogit.Automation:serviceStatus
-		ogit.Automation:serviceType
-		ogit.Automation:serviceName
+		ogit.Automation:appInfrastructureType
+		ogit.Automation:appInstanceType
+		ogit.Automation:appServer
+		ogit.Automation:basicConfigId
+		ogit.Automation:brand
+		ogit.Automation:buildName
+		ogit.Automation:buildType
+		ogit.Automation:companyName
+		ogit.Automation:contextPath
+		ogit.Automation:cpuCoreCount
+		ogit.Automation:cpuCount
+		ogit.Automation:cpuManufacturer
+		ogit.Automation:cpuModel
+		ogit.Automation:cpuSpeed
+		ogit.Automation:cpuType
+		ogit.Automation:databaseSchema
+		ogit.Automation:databaseServer
 		ogit.Automation:dataClassification
 		ogit.Automation:dataPrivacy
-		ogit.Automation:portNumber
-		ogit.Automation:serialNumber
-		ogit.Automation:portNumberListener
-		ogit.Automation:servletName
-		ogit.Automation:servletClass
-		ogit.Automation:contextPath
-		ogit.Automation:appServer
-		ogit.Automation:host
-		ogit.Automation:objectIdentifier
-		ogit.Automation:memory
+		ogit.Automation:deployStatus
+		ogit.Automation:diskCount
+		ogit.Automation:diskSpace
 		ogit.Automation:domain
 		ogit.Automation:exchangeRate
 		ogit.Automation:firewallStatus
-		ogit.Automation:additionalMacAddress
-		ogit.Automation:osManufacturer
-		ogit.Automation:serviceId
-		ogit.Automation:appInstanceType
-		ogit.Automation:appInfrastructureType
-		ogit.Automation:buildName
-		ogit.Automation:buildType
-		ogit.Automation:licenseType
-		ogit.Automation:webServer
-		ogit.Automation:osKey
-		ogit.Automation:osName
-		ogit.Automation:osLicense
-		ogit.Automation:osVersion
-		ogit.Automation:osServicePack
-		ogit.Automation:moveToProductionAt
-		ogit.Automation:diskSpace
-		ogit.Automation:cpuModel
-		ogit.Automation:cpuManufacturer
-		ogit.Automation:cpuCoreCount
-		ogit.Automation:cpuType
-		ogit.Automation:cpuSpeed
-		ogit.Automation:cpuCount
-		ogit.Automation:diskCount
 		ogit.Automation:firmwareVersion
-		ogit.Automation:virtualSystemType
-		ogit.Automation:virtualMachineName
-		ogit.Automation:brand
 		ogit.Automation:fqdn
+		ogit.Automation:host
 		ogit.Automation:installCount
-		ogit.Automation:basicConfigId
-		ogit.Automation:virtualSystemName
-		ogit.Automation:middlewareType
-		ogit.Automation:databaseSchema
-		ogit.Automation:databaseServer
-		ogit.Automation:systemType
-		ogit.Automation:systemClass
-		ogit.Automation:patchNumber
-		ogit.Datacenter:rackUnit
-		ogit:modificationTime
-		ogit:creationTime
-		ogit:connectorId
-		ogit:id
-		ogit.Automation:companyName
-		ogit.Automation:projectName
+		ogit.Automation:installPath
 		ogit.Automation:isDeployed
-		ogit.Automation:deployStatus
+		ogit.Automation:licenseAvailability
+		ogit.Automation:licenseName
+		ogit.Automation:licenseType
 		ogit.Automation:lifecycle
+		ogit.Automation:marsNodeFormalRepresentation
+		ogit.Automation:marsNodeType
+		ogit.Automation:memory
+		ogit.Automation:middlewareType
+		ogit.Automation:moveToProductionAt
+		ogit.Automation:objectIdentifier
+		ogit.Automation:osKey
+		ogit.Automation:osLicense
+		ogit.Automation:osManufacturer
+		ogit.Automation:osName
+		ogit.Automation:osServicePack
+		ogit.Automation:osVersion
+		ogit.Automation:patchNumber
+		ogit.Automation:portNumber
+		ogit.Automation:portNumberListener
+		ogit.Automation:projectName
+		ogit.Automation:serialNumber
+		ogit.Automation:serviceId
+		ogit.Automation:serviceName
+		ogit.Automation:serviceStatus
+		ogit.Automation:serviceType
+		ogit.Automation:servletClass
+		ogit.Automation:servletName
+		ogit.Automation:software
+		ogit.Automation:softwareKey
+		ogit.Automation:systemClass
+		ogit.Automation:systemType
+		ogit.Automation:tcpPort
+		ogit.Automation:virtualMachineName
+		ogit.Automation:virtualSystemName
+		ogit.Automation:virtualSystemType
+		ogit.Automation:webServer
+		ogit.Datacenter:rackUnit
 	);
 	ogit:indexed-attributes (
 		ogit:name
 		ogit.Automation:marsNodeFormalRepresentation
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-07-24";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-07-27";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-07-27";
-			dcterms:description "added os informaiton";
-			dcterms:creator "Philipp Pelchmann";
-		]
-		[
-			dcterms:identifier "5";
-			dcterms:date "2015-08-19";
-			dcterms:description "added buildType and serialNumber";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "6";
-			dcterms:date "2015-10-07";
-			dcterms:description "add attributes modificationTime and creationTime";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "7";
-			dcterms:date "2015-10-15";
-			dcterms:description "deleted the governingConract attribute";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "8";
-			dcterms:date "2015-10-16";
-			dcterms:description "added a new attribute rackUnit";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "9";
-			dcterms:date "2015-10-26";
-			dcterms:description "added a new attribute ogit/connectorId";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "10";
-			dcterms:date "2015-10-29";
-			dcterms:description "added a new attribute ogit/id";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "11";
-			dcterms:date "2015-11-02";
-			dcterms:description "added a new attribute ogit/Automation/companyName and ogit/Automation/projectName";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "12";
-			dcterms:date "2016-01-25";
-			dcterms:description "added a new attribute isDeployed and deployStatus";
-			dcterms:creator "Peter Larem";
-		]
-                [
-                        dcterms:identifier "13";
-                        dcterms:date "2017-05-11";
-                        dcterms:description "added a new attribute lifecycle";
-                        dcterms:creator "Philipp Kählitz";
-                ]
+	ogit:allowed (
+			[ ogit:relates  ogit.Automation:MARSNodeTemplate ]
+			[ ogit:relates  ogit.Automation:MARSNode ]
+			[ ogit:relates  ogit:License ]
+			[ ogit:relates  ogit.Automation:KnowledgeItem ]
+			[ ogit:generates  ogit.Data:Log ]
+			[ ogit:generates  ogit:Timeseries ]
+			[ ogit:contains  ogit.Network:NetworkInterface ]
+			[ ogit:contains  ogit.Automation:MARSNode ]
+			[ ogit:contains  ogit.Automation:DynamicEngineData ]
+			[ ogit:assignedTo  ogit:Person ]
+			[ ogit:deployedTo  ogit.Automation:MARSNode ]
+			[ ogit:provides  ogit.Automation:MARSNode ]
+			[ ogit:dependsOn  ogit.Automation:MARSNode ]
+			[ ogit:associates  ogit.Cost:CostElement ]
+			[ ogit:hosts  ogit.Automation:MARSNode ]
+			[ ogit:corresponds  ogit.Software:Application ]
+			[ ogit:uses  ogit.Automation:Configuration ]
+			[ ogit:locatedIn  ogit:Location ]
+			[ ogit:locatedIn  ogit:Region ]
+			[ ogit:affects  ogit.ServiceManagement:Service ]
+			[ ogit:affects  ogit.BusinessProcess:BusinessProcess ]
+			[ ogit:affects  ogit.Automation:MARSNode ]
+			[ ogit:runsOn  ogit.Automation:MARSNode ]
 	);
 .

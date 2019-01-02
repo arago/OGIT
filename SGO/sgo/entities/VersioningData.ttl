@@ -1,0 +1,31 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:VersioningData
+    a rdfs:Class;
+    rdfs:subClassOf ogit:Entity;
+    rdfs:label "VersioningData";
+    dcterms:description """Proxy node for accessing any versioned data.""";
+    dcterms:valid "start=2017-10-31;";
+    dcterms:creator "druss@arago.de";
+    ogit:scope "SGO";
+    ogit:parent "http://www.purl.org/ogit/Node";
+    ogit:hide "true";
+    ogit:mandatory-attributes (
+        ogit:revision
+    );
+    ogit:optional-attributes (
+
+    );
+    ogit:indexed-attributes (
+        ogit:name
+    );
+	ogit:allowed (
+			[ ogit:versions  ogit.Automation:KnowledgeBundle ]
+			[ ogit:versions  ogit.Automation:KnowledgeItem ]
+	);
+.

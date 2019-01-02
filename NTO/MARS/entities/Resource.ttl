@@ -1,0 +1,51 @@
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Data:              <http://www.purl.org/ogit/Data/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS.Resource:     <http://www.purl.org/ogit/MARS/Resource/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MARS:Resource
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Resource";
+	dcterms:description "Vertices of this type are the 'R'-nodes in the MARS model. 'R' stands for 'Resource' and those nodes form the second highest layer in the A-R-S-M layer model. A 'Resource' node groups 'Software' nodes. It's up the user whether this grouping is used to to group software instance of the same software (e.g. all instances of an Oracle RAC) or software instance of different softwares (functional grouping, e.g. 'persistence')";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-06-01;";
+	dcterms:creator "FCO";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	    ogit:name				
+            ogit.MARS.Resource:class
+	);
+	ogit:optional-attributes (
+            ogit:url
+
+            ogit.Automation:automationState
+            ogit.Automation:lifecycle
+            ogit.Automation:serviceStatus
+            ogit.Automation:marsNodeType
+	);
+        ogit:indexed-attributes (
+            ogit:name
+        );
+	ogit:allowed (
+			[ ogit:generates  ogit.Data:Log ]
+			[ ogit:generates  ogit:Timeseries ]
+			[ ogit:dependsOn  ogit.MARS:Software ]
+			[ ogit:uses  ogit.Automation:Configuration ]
+	);
+.

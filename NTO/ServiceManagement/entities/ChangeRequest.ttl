@@ -1,3 +1,21 @@
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.Forum:   		    <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.MRP:              <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
+@prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
+@prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -11,10 +29,6 @@ ogit.ServiceManagement:ChangeRequest
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -46,24 +60,39 @@ ogit.ServiceManagement:ChangeRequest
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-07-01";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-07-03";
-			dcterms:description "updated";
-			dcterms:creator "Aymen Ayoub";
-		]
+	ogit:allowed (
+			[ ogit:relates  ogit.ServiceManagement:Problem ]
+			[ ogit:relates  ogit.ServiceManagement:Incident ]
+			[ ogit:relates  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:relates  ogit.ServiceManagement:Order ]
+			[ ogit:relates  ogit.MARS:Machine ]
+			[ ogit:relates  ogit.MARS:Software ]
+			[ ogit:relates  ogit.MARS:Resource ]
+			[ ogit:relates  ogit.MARS:Application ]
+			[ ogit:relates  ogit.Automation:MARSNode ]
+			[ ogit:causes  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:causes  ogit.ServiceManagement:Order ]
+			[ ogit:assignedTo  ogit:Person ]
+			[ ogit:assignedTo  ogit:Organization ]
+			[ ogit:assignedTo  ogit.ServiceManagement:Service ]
+			[ ogit:reportedOn  ogit.MARS:Machine ]
+			[ ogit:reportedOn  ogit.MARS:Software ]
+			[ ogit:reportedOn  ogit.MARS:Resource ]
+			[ ogit:reportedOn  ogit.MARS:Application ]
+			[ ogit:reportedOn  ogit.Automation:MARSNode ]
+			[ ogit:corresponds  ogit.ServiceManagement:Ticket ]
+			[ ogit:corresponds  ogit.Automation:AutomationIssue ]
+			[ ogit:uses  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:locatedIn  ogit:Location ]
+			[ ogit:complies  ogit.ServiceManagement:SLA ]
+			[ ogit:affects  ogit:Location ]
+			[ ogit:affects  ogit:ConfigurationItem ]
+			[ ogit:affects  ogit.ServiceManagement:Service ]
+			[ ogit:affects  ogit:Person ]
+			[ ogit:affects  ogit.MARS:Application ]
+			[ ogit:affects  ogit.MARS:Resource ]
+			[ ogit:affects  ogit.MARS:Software ]
+			[ ogit:affects  ogit.MARS:Machine ]
+			[ ogit:affects  ogit.Automation:MARSNode ]
 	);
 .

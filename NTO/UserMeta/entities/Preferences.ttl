@@ -1,0 +1,26 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.UserMeta:          <http://www.purl.org/ogit/UserMeta/> .
+
+ogit.UserMeta:Preferences
+    a rdfs:Class;
+    rdfs:subClassOf ogit:Entity;
+    rdfs:label "Preferences";
+    dcterms:description "User Preferences is a part of the User Model, a collection of information that describes the user’s needs, preferences and interests";
+    dcterms:valid "start=2018-10-01;";
+    dcterms:creator "amerdeev@arago.de";
+    ogit:scope "NTO";
+    ogit:parent "http://www.purl.org/ogit/Node";
+    ogit:mandatory-attributes (
+
+    );
+    ogit:optional-attributes (
+
+    );
+    ogit:indexed-attributes (
+
+    );
+	ogit:allowed (
+	);
+.

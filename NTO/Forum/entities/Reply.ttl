@@ -1,3 +1,14 @@
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -11,27 +22,38 @@ ogit.Forum:Reply
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-04-27;";
 	dcterms:creator "cwalker@arago.de";
-	dcterms:created "2015-04-27";
-	dcterms:modified "2015-04-27";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
 		ogit:content
 	);
 	ogit:optional-attributes (
-		
+
 	);
 	ogit:indexed-attributes (
-		
+
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-04-27";
-			dcterms:description "Initial Creation";
-			dcterms:creator "cwalker@arago.de";
-		]
+	ogit:allowed (
+			[ ogit:relates  ogit:Attachment ]
+			[ ogit:relates  ogit.Forum:KnowledgeBundle ]
+			[ ogit:relates  ogit.Forum:Post ]
+			[ ogit:relates  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:responds  ogit:Attachment ]
+			[ ogit:responds  ogit.Forum:Rating ]
+			[ ogit:responds  ogit.Forum:Reply ]
+			[ ogit:responds  ogit.Forum:WorkflowStep ]
+			[ ogit:responds  ogit.Forum:KnowledgeBundle ]
+			[ ogit:responds  ogit.Forum:Post ]
+			[ ogit:responds  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:connects  ogit.Forum:KnowledgeItemHistory ]
+			[ ogit:connects  ogit.Forum:Profile ]
+			[ ogit:connects  ogit.Forum:Topic ]
+			[ ogit:connects  ogit:Comment ]
+			[ ogit:connects  ogit.Forum:Reply ]
+			[ ogit:connects  ogit.Forum:KnowledgeBundle ]
+			[ ogit:connects  ogit.Automation:KnowledgeItem ]
+			[ ogit:connects  ogit.Forum:Post ]
+			[ ogit:connects  ogit:Hyperlink ]
+			[ ogit.Forum:mentions  ogit.Forum:Profile ]
 	);
 .

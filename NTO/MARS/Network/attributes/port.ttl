@@ -1,0 +1,16 @@
+@prefix ogit.MARS.Network:   <http://www.purl.org/ogit/MARS/Network/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MARS.Network:port
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "port";
+	dcterms:description "A number indicating a network port (0..65535). Usually used define the listening port for a software (server). Replaces 'NetworkPort' from MARS-Schema";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-06-01;";
+	dcterms:creator "fotto@arago.de";
+.
+

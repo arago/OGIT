@@ -1,3 +1,20 @@
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.Forum:   		    <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.MRP:              <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -12,10 +29,6 @@ Comman alternative names with same meaning are: task, activity, work order.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2015-05-21";
-	dcterms:modified "2015-05-21";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
@@ -43,31 +56,18 @@ Comman alternative names with same meaning are: task, activity, work order.""";
 	ogit:indexed-attributes (
 		
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-05-21";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "2";
-			dcterms:date "2015-05-22";
-			dcterms:description """Attribute name changed from subStatus to sourceStatus
-""";
-			dcterms:creator "Catarina Onofre";
-		]
-		[
-			dcterms:identifier "3";
-			dcterms:date "2015-07-09";
-			dcterms:description "change attribute ogit/startAt to ogit/startedAt and ogit/finishAt to ogit/finishedAt";
-			dcterms:creator "Peter Larem";
-		]
-		[
-			dcterms:identifier "4";
-			dcterms:date "2015-12-10";
-			dcterms:description "change entity name to ogit/ServiceManagement/SubTask and add some attributes";
-			dcterms:creator "Peter Larem";
-		]
+	ogit:allowed (
+			[ ogit:belongs  ogit.ServiceManagement:Ticket ]
+			[ ogit:belongs  ogit.ServiceManagement:Problem ]
+			[ ogit:belongs  ogit.ServiceManagement:Incident ]
+			[ ogit:belongs  ogit.ServiceManagement:ChangeRequest ]
+			[ ogit:belongs  ogit.ServiceManagement:Order ]
+			[ ogit:assignedTo  ogit:Person ]
+			[ ogit:assignedTo  ogit:Organization ]
+			[ ogit:precedes  ogit.ServiceManagement:SubTask ]
+			[ ogit:corresponds  ogit:Task ]
+			[ ogit:corresponds  ogit.Automation:AutomationIssue ]
+			[ ogit:locatedIn  ogit:Location ]
+			[ ogit:affects  ogit:ConfigurationItem ]
 	);
 .

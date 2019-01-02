@@ -1,0 +1,37 @@
+@prefix ogit:					<http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Auth:Team
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Team";
+	dcterms:description "A team is used to reflect the organizational structure of an ogit/Auth/Organization";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-01-01;";
+	dcterms:creator "arago GmbH";
+	dcterms:created "2018-01-01";
+	dcterms:modified "2018-01-01";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+        ogit:name
+	);
+	ogit:optional-attributes (
+        ogit:description
+	);
+  ogit:indexed-attributes (
+
+  );
+	ogit:history (
+	);
+	ogit:allowed (
+ [ ogit.Auth:belongs  ogit.Auth:Team ]
+ [ ogit.Auth:belongs  ogit.Auth:Organization ]
+	);
+.

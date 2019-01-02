@@ -1,0 +1,43 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Auth:ApplicationReview
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "ApplicationReview";
+	dcterms:description "Represents an application review";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-05-18;";
+	dcterms:creator "Mikhail Osher";
+	dcterms:created "2018-05-18";
+	dcterms:modified "2018-05-18";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:any-attributes "true";
+	ogit:mandatory-attributes (
+		ogit:title
+		ogit:status
+	);
+	ogit:optional-attributes (
+		ogit:comment
+	);
+	ogit:indexed-attributes (
+
+	);
+	ogit:history (
+		[
+			dcterms:identifier "1";
+			dcterms:date "2018-05-18";
+			dcterms:description "initial";
+			dcterms:creator "Mikhail Osher";
+		]
+	);
+	ogit:allowed (
+			[ ogit:reviews  ogit.Auth:Application ]
+	);
+.

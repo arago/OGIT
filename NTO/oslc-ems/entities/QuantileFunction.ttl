@@ -1,0 +1,50 @@
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix ogit:          <http://www.purl.org/ogit/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.OSLC-ems: <http://www.purl.org/ogit/OSLC-ems/> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.OSLC-ems:QuantileFunction
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "QuantileDistribution";
+	ogit:original <http://open-services.net/ns/ems#QuantileFunction>;
+	dcterms:description """
+<p>A <em>quantile function</em> is a probability distribution that breaks up a range of values
+into quantiles that each have the same probability.
+When the number of quantiles is 4, 10, or 100, we refer to them as <em>quartiles</em>,
+<em>deciles</em>, and <em>percentiles</em>.
+For example, there is a 25% probability that a measurement will fall within any given quartile.
+The number of quantiles is given by
+<a href=\"#numberOfQuantiles\"><code>ems:numberOfQuantiles</code></a>.
+The number of quantiles MUST be greater than one.</p>
+
+<p>The range of possible measurement values may be unbounded.
+If a lower bound exists, it is given by <a href=\"#low\"><code>ems:low</code></a>.
+If an upper bound exists, it is given by <a href=\"#high\"><code>ems:high</code></a>.</p>
+
+<p>The graph of the quantile function is given by a set of measurement values that
+correspond to the equally spaced cumulative probabilities between 0 and 1.
+For example, for quartiles the cumulative probabilities are 25%, 50%, and 75%.
+The cumulative probability values are given by one or more
+<a href=\"#quantile\"><code>ems:quantile</code></a> properties.</p>""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-22;";
+	dcterms:creator "OGIT Importer";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:allowed (
+			[ ogit.OSLC-ems:quantile  ogit.OSLC-ems:Quantile ]
+	);
+.

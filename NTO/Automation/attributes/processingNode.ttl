@@ -1,0 +1,15 @@
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Automation:processingNode
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "processingNode";
+	dcterms:description "Defines where an AutomationIssue is currently being processed or was being processed last. Must contain a valid vertex id. Replaces the free attribute '/CurrentNodeID'";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-06-01;";
+	dcterms:creator "fotto@arago.de";
+.

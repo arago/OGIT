@@ -1,0 +1,31 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:Subscription
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Subscription";
+	dcterms:description "A Subscription to an Event.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-03-22;";
+	dcterms:creator "qikram@arago.de";
+	ogit:scope "SGO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+		ogit:status
+		ogit:type
+		ogit:sourceId
+		ogit:name
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:allowed (
+			[ ogit:subscribes  ogit:Notification ]
+	);
+.

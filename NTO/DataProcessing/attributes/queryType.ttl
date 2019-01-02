@@ -11,16 +11,4 @@ ogit.DataProcessing:queryType
 	dcterms:description "Type of the query of the input data stream";
 	dcterms:valid "start=2017-02-27;";
 	dcterms:creator "Oday Jubran";
-	dcterms:created "2017-02-27";
-	dcterms:modified "2017-02-27";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2017-02-27";
-			dcterms:description "initial";
-			dcterms:creator "Oday Jubran";
-		]
-	);
 .

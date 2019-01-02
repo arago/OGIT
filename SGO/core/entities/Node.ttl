@@ -11,11 +11,8 @@ top level of the SGO.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2013-11-01;";
 	dcterms:creator "Peter Larem";
-	dcterms:created "2013-09-01";
-	dcterms:modified "2013-09-01";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
 	ogit:scope "SGO";
+  ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:hide "true";
 	ogit:mandatory-attributes (
 		ogit:_id
@@ -34,17 +31,11 @@ top level of the SGO.""";
 		ogit:_edge_id
 	);
 	ogit:optional-attributes (
-		
+
 	);
 	ogit:indexed-attributes (
-		
+
 	);
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2013-09-01";
-			dcterms:description "initial";
-			dcterms:creator "Peter Larem";
-		]
+	ogit:allowed (
 	);
 .

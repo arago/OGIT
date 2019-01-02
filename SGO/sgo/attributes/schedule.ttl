@@ -11,16 +11,4 @@ ogit:schedule
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-08;";
 	dcterms:creator "Alexander Ryabtsev";
-	dcterms:created "2016-08-08";
-	dcterms:modified "2016-08-08";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2016-08-08";
-			dcterms:description "initial";
-			dcterms:creator "Alexander Ryabtsev";
-		]
-	);
 .

@@ -13,46 +13,4 @@ ogit:consumes
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-08-08;";
 	dcterms:creator "Alexander Ryabtsev";
-	dcterms:created "2016-08-08";
-	dcterms:modified "2017-06-09";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-            dcterms:identifier "1";
-            dcterms:date "2016-08-08";
-            dcterms:description "initial";
-            dcterms:creator "Alexander Ryabtsev";
-        ]
-        [
-            dcterms:identifier "2";
-            dcterms:date "2017-02-06";
-            dcterms:description "Add edge from person to milestone.";
-            dcterms:creator "Alexander Ryabtsev";
-        ]
-        [
-			dcterms:identifier "3";
-			dcterms:date "2017-06-09";
-			dcterms:description "Refactored names of Project/Survey related concepts";
-			dcterms:creator "Fabian Meyer";
-		]
-	);
-	ogit:allowed (
-		[
-			ogit:from ogit:Person;
-			ogit:to ogit.Project:Project;
-		]
-		[
-            ogit:from ogit:Organization;
-            ogit:to ogit.Project:Project;
-        ]
-        [
-            ogit:from ogit:Person;
-            ogit:to ogit.Project:Milestone;
-        ]
-        [
-            ogit:from ogit:Organization;
-            ogit:to ogit.Survey:Iteration;
-        ]
-	);
 .

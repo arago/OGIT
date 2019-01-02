@@ -3,6 +3,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 
 ogit:dependsOn
 	a owl:ObjectProperty;
@@ -12,22 +13,4 @@ ogit:dependsOn
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-10-15;";
 	dcterms:creator "Aymen Ayoub";
-	dcterms:created "2015-10-15";
-	dcterms:modified "2015-10-15";
-	ogit:admin-contact "arago GmbH";
-	ogit:tech-contact "arago GmbH";
-	ogit:history (
-		[
-			dcterms:identifier "1";
-			dcterms:date "2015-10-15";
-			dcterms:description "initial";
-			dcterms:creator "Aymen Ayoub";
-		]
-	);
-	ogit:allowed (
-		[
-			ogit:from ogit.Automation:MARSNode;
-			ogit:to ogit.Automation:MARSNode;
-		]
-	);
 .

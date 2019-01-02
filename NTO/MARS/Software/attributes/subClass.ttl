@@ -1,0 +1,16 @@
+@prefix ogit.MARS.Software:   <http://www.purl.org/ogit/MARS/Software/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MARS.Software:subClass
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "subClass";
+	dcterms:description "Give each type of Software a unique name, e.g 'OpenLDAP' or 'MSSharePointServer'. This should be the primary matching variable for software specific automation (using KnowledgeItems). Replaces 'SoftwareSubClass' from MARS-Schema";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-06-01;";
+	dcterms:creator "fotto@arago.de";
+.
+

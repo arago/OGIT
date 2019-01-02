@@ -1,0 +1,23 @@
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix ogit:          <http://www.purl.org/ogit/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.OSLC-ems: <http://www.purl.org/ogit/OSLC-ems/> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.OSLC-ems:wbsFormat
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "wbsFormat";
+	ogit:original <http://open-services.net/ns/ems#wbsFormat>;
+	dcterms:description """
+This property links a WBS resource to the XML format of its content.
+EMS does not define a format for WBS content.
+Instead, this property identifies the specification that defines the XML format of the WBS content.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-22;";
+	dcterms:creator "OGIT Importer";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+.

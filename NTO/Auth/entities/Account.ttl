@@ -1,0 +1,76 @@
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.Auth:             <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MRP:               <http://www.purl.org/ogit/MRP/> .
+@prefix ogit.Automation:		<http://www.purl.org/ogit/Automation/> .
+@prefix ogit.Forum:				<http://www.purl.org/ogit/Forum/> .
+@prefix ogit:					<http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Auth.Account:      <http://www.purl.org/ogit/Auth/Account> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Auth:Account
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Account";
+	dcterms:description "An account is used for authentication and authorization.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2018-01-01;";
+	dcterms:creator "arago GmbH";
+	dcterms:created "2018-01-01";
+	dcterms:modified "2018-01-01";
+	ogit:admin-contact "arago GmbH";
+	ogit:tech-contact "arago GmbH";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	  ogit:name
+	  ogit:status	
+          ogit.Auth.Account:type
+	);
+	ogit:optional-attributes (			
+          ogit:email
+          ogit.Auth.Account:acceptedPrivacy
+          ogit.Auth.Account:acceptedTerms
+          ogit.Auth.Account:allowCookies
+          ogit.Auth.Account:statusReason	
+	);
+  ogit:indexed-attributes (
+
+  );
+	ogit:history (
+	);
+	ogit:allowed (
+			[ ogit:manages  ogit:Subscription ]
+			[ ogit:creates  ogit.Auth:ApplicationReview ]
+			[ ogit:accepts  ogit:TermsAndConditions ]
+			[ ogit:belongs  ogit:Person ]
+			[ ogit:provides  ogit:Rating ]
+			[ ogit.Auth:assumes  ogit.Auth:Role ]
+			[ ogit.Auth:uses  ogit.Auth:Application ]
+			[ ogit.Auth:consents  ogit.Auth:Application ]
+			[ ogit.Auth:isMemberOf  ogit.Auth:Organization ]
+			[ ogit.Auth:isMemberOf  ogit.Auth:Team ]
+			[ ogit:consumes  ogit.Project:Milestone ]
+			[ ogit:consumes  ogit.Project:Project ]
+			[ ogit:supervises  ogit.Project:Project ]
+			[ ogit:produces  ogit.Project:Milestone ]
+			[ ogit:produces  ogit.Project:Project ]
+			[ ogit:supports  ogit.Project:Milestone ]
+			[ ogit:supports  ogit.Project:Project ]
+			[ ogit:repliedWith  ogit.Survey:Reply ]
+	);
+.

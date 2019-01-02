@@ -1,0 +1,32 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.MRO.Aviation:              <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MRO.Aviation:Layover
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Layover";
+	dcterms:description "The IL-Check (intermediate layover check) is – in addition to the D-Check – one of the biggest, most elaborate aircraft overhauls.";
+	dcterms:valid "start=2018-09-07;";
+	dcterms:creator "Kaushik";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+            ogit:id
+            ogit:name
+	);
+    ogit:indexed-attributes (
+        ogit:name
+    );
+	ogit:allowed (
+			[ ogit.MRO.Aviation:overhaul  ogit.MRO.Aviation:Aircraft ]
+	);
+.
