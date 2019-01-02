@@ -23,7 +23,7 @@ ogit.Knowledge:AcquisitionRoom
     ogit:indexed-attributes (
 
     );
-	ogit:allowed (
-			[ ogit:contains  ogit:Comment ]
-	);
+    ogit:allowed (
+            [ ogit:contains  ogit:Comment ]
+    );
 .
