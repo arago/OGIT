@@ -1,0 +1,14 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
+
+ogit.Accounting:has
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "has";
+	dcterms:description "Indicates if an entity has another entity.";
+	dcterms:valid "start=2018-12-12;";
+	dcterms:creator "Viktor Voss";
+.
