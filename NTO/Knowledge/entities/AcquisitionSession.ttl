@@ -36,9 +36,10 @@ ogit.Knowledge:AcquisitionSession
     ogit:indexed-attributes (
 
     );
-	ogit:allowed (
-			[ ogit:contains  ogit:Comment ]
-			[ ogit:defines  ogit.Automation:KnowledgeItem ]
-			[ ogit:defines  ogit.Knowledge:Step ]
-	);
+    ogit:allowed (
+            [ ogit:contains  ogit:Comment ]
+            [ ogit:contains  ogit.Knowledge:AcquisitionRoom ]
+            [ ogit:defines  ogit.Automation:KnowledgeItem ]
+            [ ogit:defines  ogit.Knowledge:Step ]
+    );
 .
