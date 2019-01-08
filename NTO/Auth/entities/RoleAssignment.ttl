@@ -32,5 +32,6 @@ ogit.Auth:RoleAssignment
         [ ogit.Auth:assigns  ogit.Auth:Role ]
         [ ogit.Auth:assigns  ogit.Auth:Team ]
         [ ogit.Auth:assigns  ogit.Auth:DataSet ]
+        [ ogit.Auth:belongs  ogit.Auth:Organization ]
 	);
 .
