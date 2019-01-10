@@ -17,7 +17,6 @@ ogit.Accounting:FinancialStatement
 	);
 	ogit:optional-attributes (
             ogit:currency
-            ogit:language
             ogit.Accounting:template
             ogit.Accounting:periods
             ogit.Accounting:primaryReportingPeriod
