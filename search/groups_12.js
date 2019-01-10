@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['rank',['rank',['../group__httpwwwpurlorgogitAccountingrank.html',1,'']]],
   ['restricted',['restricted',['../group__httpwwwpurlorgogitAuthrestricted.html',1,'']]],
   ['role',['Role',['../group__httpwwwpurlorgogitAuthRole.html',1,'']]],
   ['roleassignment',['RoleAssignment',['../group__httpwwwpurlorgogitAuthRoleAssignment.html',1,'']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['entities',['Entities',['../group__Accounting__entities.html',1,'']]],
   ['entities',['Entities',['../group__Auth__entities.html',1,'']]],
   ['entities',['Entities',['../group__Automation__entities.html',1,'']]],
   ['entities',['Entities',['../group__BusinessProcess__entities.html',1,'']]],
@@ -31,8 +32,8 @@ var searchData=
   ['executesautomationplan',['executesAutomationPlan',['../group__httpwwwpurlorgogitOSLC-automationexecutesAutomationPlan.html',1,'']]],
   ['error',['Error',['../group__httpwwwpurlorgogitOSLC-coreError.html',1,'']]],
   ['executes',['executes',['../group__httpwwwpurlorgogitOSLC-coreexecutes.html',1,'']]],
-  ['extendederror',['extendedError',['../group__httpwwwpurlorgogitOSLC-coreextendedError.html',1,'']]],
   ['extendederror',['ExtendedError',['../group__httpwwwpurlorgogitOSLC-coreExtendedError.html',1,'']]],
+  ['extendederror',['extendedError',['../group__httpwwwpurlorgogitOSLC-coreextendedError.html',1,'']]],
   ['elementfrom',['elementFrom',['../group__httpwwwpurlorgogitOSLC-crtvelementFrom.html',1,'']]],
   ['elementto',['elementTo',['../group__httpwwwpurlorgogitOSLC-crtvelementTo.html',1,'']]],
   ['effortmetric',['EffortMetric',['../group__httpwwwpurlorgogitOSLC-emsEffortMetric.html',1,'']]],

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['businessprocess',['BusinessProcess',['../group__BusinessProcess.html',1,'']]],
+  ['balance',['balance',['../group__httpwwwpurlorgogitAccountingbalance.html',1,'']]],
   ['belongs',['belongs',['../group__httpwwwpurlorgogitAuthbelongs.html',1,'']]],
   ['basicconfigid',['basicConfigId',['../group__httpwwwpurlorgogitAutomationbasicConfigId.html',1,'']]],
   ['brand',['brand',['../group__httpwwwpurlorgogitAutomationbrand.html',1,'']]],
@@ -22,8 +23,8 @@ var searchData=
   ['bay',['Bay',['../group__httpwwwpurlorgogitMROAviationBay.html',1,'']]],
   ['blockstestexecutionrecord',['blocksTestExecutionRecord',['../group__httpwwwpurlorgogitOSLC-changeblocksTestExecutionRecord.html',1,'']]],
   ['baseline',['Baseline',['../group__httpwwwpurlorgogitOSLC-emsBaseline.html',1,'']]],
-  ['baselinelist',['BaselineList',['../group__httpwwwpurlorgogitOSLC-emsBaselineList.html',1,'']]],
   ['baselinelist',['baselineList',['../group__httpwwwpurlorgogitOSLC-emsbaselineList.html',1,'']]],
+  ['baselinelist',['BaselineList',['../group__httpwwwpurlorgogitOSLC-emsBaselineList.html',1,'']]],
   ['bufferpoolhits',['BufferPoolHits',['../group__httpwwwpurlorgogitOSLC-perfmonBufferPoolHits.html',1,'']]],
   ['bufferpoolmetrics',['BufferPoolMetrics',['../group__httpwwwpurlorgogitOSLC-perfmonBufferPoolMetrics.html',1,'']]],
   ['blockedbychangerequest',['blockedByChangeRequest',['../group__httpwwwpurlorgogitOSLC-qmblockedByChangeRequest.html',1,'']]]
