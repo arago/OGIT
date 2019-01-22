@@ -40,5 +40,6 @@ ogit.Auth:Organization
 			[ ogit:produces  ogit.Project:Project ]
 			[ ogit:produces  ogit.Survey:Iteration ]
 			[ ogit:generates  ogit:Timeseries ]
+                        [ ogit:concludes  ogit:Contract ]
 	);
 .
