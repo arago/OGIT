@@ -67,6 +67,7 @@ ogit.Auth:Account
 			[ ogit:consumes  ogit.Project:Milestone ]
 			[ ogit:consumes  ogit.Project:Project ]
 			[ ogit:supervises  ogit.Project:Project ]
+                        [ ogit:supervises  ogit:Contract]
 			[ ogit:produces  ogit.Project:Milestone ]
 			[ ogit:produces  ogit.Project:Project ]
 			[ ogit:supports  ogit.Project:Milestone ]
