@@ -72,6 +72,7 @@ ogit.Auth:Account
 			[ ogit:produces  ogit.Project:Project ]
 			[ ogit:supports  ogit.Project:Milestone ]
 			[ ogit:supports  ogit.Project:Project ]
+                        [ ogit:defines  ogit.UserMeta:Filter ]
 			[ ogit:repliedWith  ogit.Survey:Reply ]
 	);
 .
