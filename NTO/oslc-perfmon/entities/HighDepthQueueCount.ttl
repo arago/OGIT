@@ -11,7 +11,7 @@ ogit.OSLC-perfmon:HighDepthQueueCount
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "HighDepthQueueCount";
 	ogit:original <http://open-services.net/ns/perfmon#HighDepthQueueCount>;
-	dcterms:description "";
+	dcterms:description "TODO";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2016-09-22;";
 	dcterms:creator "OGIT Importer";
