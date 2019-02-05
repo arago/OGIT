@@ -15,6 +15,7 @@
 @prefix ogit.Automation:		<http://www.purl.org/ogit/Automation/> .
 @prefix ogit.Forum:				<http://www.purl.org/ogit/Forum/> .
 @prefix ogit:					<http://www.purl.org/ogit/> .
+@prefix ogit.UserMeta:          <http://www.purl.org/ogit/UserMeta/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix ogit.Auth.Account:      <http://www.purl.org/ogit/Auth/Account/> .
@@ -72,6 +73,7 @@ ogit.Auth:Account
 			[ ogit:produces  ogit.Project:Project ]
 			[ ogit:supports  ogit.Project:Milestone ]
 			[ ogit:supports  ogit.Project:Project ]
+                        [ ogit:defines  ogit.UserMeta:Filter ]
 			[ ogit:repliedWith  ogit.Survey:Reply ]
 	);
 .
