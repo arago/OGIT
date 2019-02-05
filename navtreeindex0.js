@@ -143,7 +143,7 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAuthApplicationReview.html":[0,1,1,3],
 "group__httpwwwpurlorgogitAuthApplicationparent.html":[0,27,0,151],
 "group__httpwwwpurlorgogitAuthApplicationstatus.html":[0,27,0,191],
-"group__httpwwwpurlorgogitAuthApplicationtype.html":[0,27,0,204],
+"group__httpwwwpurlorgogitAuthApplicationtype.html":[0,27,0,206],
 "group__httpwwwpurlorgogitAuthApplicationurls.html":[0,27,0,212],
 "group__httpwwwpurlorgogitAuthDataScope.html":[0,1,1,4],
 "group__httpwwwpurlorgogitAuthDataSet.html":[0,1,1,5],
