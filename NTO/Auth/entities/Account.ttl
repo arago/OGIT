@@ -46,6 +46,7 @@ ogit.Auth:Account
           ogit:email
           ogit.Auth.Account:acceptedPrivacy
           ogit.Auth.Account:acceptedTerms
+          ogit.Auth.Account:acceptedProjectTerms
           ogit.Auth.Account:allowCookies
           ogit.Auth.Account:statusReason	
 	);
