@@ -22,5 +22,6 @@ ogit.Accounting:CompanyEntity
     ogit:allowed (
 			[ ogit.Accounting:has  ogit.Accounting:ConfigItem ]
 			[ ogit:generates  ogit.Accounting:FinancialStatement ]
+			[ ogit:belongs  ogit:Organization ]
 	);
 .
