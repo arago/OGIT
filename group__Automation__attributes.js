@@ -88,6 +88,7 @@ var group__Automation__attributes =
     [ "systemClass", "group__httpwwwpurlorgogitAutomationsystemClass.html", null ],
     [ "systemType", "group__httpwwwpurlorgogitAutomationsystemType.html", null ],
     [ "tcpPort", "group__httpwwwpurlorgogitAutomationtcpPort.html", null ],
+    [ "todo", "group__httpwwwpurlorgogitAutomationtodo.html", null ],
     [ "virtualMachineName", "group__httpwwwpurlorgogitAutomationvirtualMachineName.html", null ],
     [ "virtualSystemName", "group__httpwwwpurlorgogitAutomationvirtualSystemName.html", null ],
     [ "virtualSystemType", "group__httpwwwpurlorgogitAutomationvirtualSystemType.html", null ],

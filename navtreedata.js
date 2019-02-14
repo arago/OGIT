@@ -8,10 +8,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "group__Accounting.html",
-"group__httpwwwpurlorgogitAutomationprocessingNode.html",
-"group__httpwwwpurlorgogitOSLC-automationParameterInstance.html",
-"group__httpwwwpurlorgogitOSLC-emsseeAlsoEstimation.html",
-"group__httpwwwpurlorgogitcategory.html"
+"group__httpwwwpurlorgogitAutomationportNumberListener.html",
+"group__httpwwwpurlorgogitOSLC-automationAutomationRequest.html",
+"group__httpwwwpurlorgogitOSLC-emsscale.html",
+"group__httpwwwpurlorgogitcapacity.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

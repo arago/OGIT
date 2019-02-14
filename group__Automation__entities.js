@@ -15,5 +15,6 @@ var group__Automation__entities =
     [ "MARSModelTemplate", "group__httpwwwpurlorgogitAutomationMARSModelTemplate.html", null ],
     [ "MARSNode", "group__httpwwwpurlorgogitAutomationMARSNode.html", "group__httpwwwpurlorgogitAutomationMARSNode" ],
     [ "MARSNodeTemplate", "group__httpwwwpurlorgogitAutomationMARSNodeTemplate.html", null ],
-    [ "Trigger", "group__httpwwwpurlorgogitAutomationTrigger.html", null ]
+    [ "Trigger", "group__httpwwwpurlorgogitAutomationTrigger.html", null ],
+    [ "Variable", "group__httpwwwpurlorgogitAutomationVariable.html", null ]
 ];
