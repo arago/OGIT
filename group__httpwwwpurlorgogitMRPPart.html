@@ -81,7 +81,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitMRPPart.html'
 </div><!--header-->
 <div class="contents">
 <h1>ogit/MRP/Part </h1>
-<p>TODO.</p>
+<p>a part or material</p>
 <ul>
 <li>id: <a href="http://www.purl.org/ogit/MRP/Part">http://www.purl.org/ogit/MRP/Part</a></li>
 <li>valid-from: Fri Sep 07 00:00:00 UTC 2018</li>
@@ -90,16 +90,33 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitMRPPart.html'
 <li>parent: ogit/Node</li>
 </ul>
 <h2>attributes </h2>
+<ul>
+<li>optional:<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitMRPindustryStandard.html">ogit/MRP/industryStandard</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitMRPpartNumber.html">ogit/MRP/partNumber</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitdescription.html">ogit/description</a></li>
+</ul>
+</li>
+</ul>
+<h2>attributes (base) </h2>
+<ul>
+<li>optional:<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitMRPindustryStandard.html">ogit/MRP/industryStandard</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitMRPpartNumber.html">ogit/MRP/partNumber</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitdescription.html">ogit/description</a></li>
+</ul>
+</li>
+</ul>
 <h2>incoming edges </h2>
 <ul>
 <li><a class="el" href="group__httpwwwpurlorgogitMRPmanufacture.html">ogit/MRP/manufacture</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitMRPManufacturer.html">ogit/MRP/Manufacturer</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitbelongs.html">ogit/belongs</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitMRPDisposet.html">ogit/MRP/Disposet</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitCatalog.html">ogit/Catalog</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitMRPVorgang.html">ogit/MRP/Vorgang</a></li>
 </ul>
 <h2>outgoing edges </h2>
 <ul>
-<li><a class="el" href="group__httpwwwpurlorgogitMROAviationisPartOf.html">ogit/MRO/Aviation/isPartOf</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMROAviationComponent.html">ogit/MRO/Aviation/Component</a></li>
-<li><a class="el" href="group__httpwwwpurlorgogitMROAviationsuit.html">ogit/MRO/Aviation/suit</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMROAviationAircraftType.html">ogit/MRO/Aviation/AircraftType</a> <hr/>
+<li><a class="el" href="group__httpwwwpurlorgogitcomplies.html">ogit/complies</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitMRPNormItem.html">ogit/MRP/NormItem</a> <hr/>
 </li>
 </ul>
 </div><!-- contents -->
@@ -107,7 +124,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitMRPPart.html'
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 14 2019 10:06:13 by
+    <li class="footer">Generated on Tue Feb 19 2019 11:40:16 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
