@@ -1,0 +1,14 @@
+@prefix ogit.MRP:	        <http://www.purl.org/ogit/MRP/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MRP:minimumRemainingShelfLife
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "minimumRemainingShelfLife";
+        dcterms:description "minimal remaining shelf life at delivery";
+        dcterms:valid "start=2019-02-18;";
+        dcterms:creator "Christian Schulz";
+.
