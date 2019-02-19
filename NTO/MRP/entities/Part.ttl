@@ -24,5 +24,6 @@ ogit.MRP:Part
     );
 	ogit:allowed (
 			[ ogit:complies  ogit.MRP:NormItem ]
+			[ ogit:consistsOf  ogit.MRP:Part ]
 	);
 .
