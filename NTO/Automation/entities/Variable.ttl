@@ -1,0 +1,33 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Automation:Variable
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Variable";
+	dcterms:description "Variable definition to be used in KnowledegeItem";
+	dcterms:valid "start=2015-02-09;";
+	dcterms:creator "Kaushik Gondaliya";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	    ogit:_id
+	    ogit:name
+		ogit:description
+		ogit:accessControl
+        ogit.Automation:todo
+        ogit:creator
+
+	);
+	ogit:optional-attributes (
+        ogit:_tags
+	);
+	ogit:indexed-attributes (
+	);
+	ogit:allowed (
+
+	);
+.

@@ -20,5 +20,6 @@ ogit.Accounting:DDTarget
         );
     ogit:allowed (
 			[ ogit:belongs  ogit:Organization ]
+			[ ogit:generates  ogit.Accounting:FinancialStatement ]
 	);
 .

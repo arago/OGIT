@@ -1,0 +1,41 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.MRP:              <http://www.purl.org/ogit/MRP/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.MRP:NormItem
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "NormItem";
+	dcterms:description "an MRP relevant definition of a norm";
+	dcterms:valid "start=2019-02-18;";
+	dcterms:creator "Christian Schulz";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+		ogit:description
+		ogit:name
+		ogit.MRP:genericNorm
+		ogit.MRP:specificNorm
+		ogit.MRP:kindOfMaterialGeneric
+		ogit.MRP:kindOfMaterialDetailed
+		ogit.MRP:tempMax
+		ogit.MRP:tempMin
+		ogit.MRP:tempRef
+		ogit.MRP:totalShelfLife
+		ogit.MRP:unitOfShelfLife
+		ogit.MRP:minimumRemainingShelfLife
+		ogit.MRP:kzTCond
+		ogit.MRP:roomConditions
+		ogit.MRP:containerConditions
+		ogit.MRP:actionPeriod1
+		ogit.MRP:actionPeriod2
+	);
+    ogit:indexed-attributes (
+    );
+	ogit:allowed (
+	);
+.
