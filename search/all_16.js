@@ -24,6 +24,8 @@ var searchData=
   ['validatesrequirement',['validatesRequirement',['../group__httpwwwpurlorgogitOSLC-qmvalidatesRequirement.html',1,'']]],
   ['validatesrequirementcollection',['validatesRequirementCollection',['../group__httpwwwpurlorgogitOSLC-qmvalidatesRequirementCollection.html',1,'']]],
   ['validatedby',['validatedBy',['../group__httpwwwpurlorgogitOSLC-reqmanvalidatedBy.html',1,'']]],
+  ['vertexsearchcount',['vertexSearchCount',['../group__httpwwwpurlorgogitPTFvertexSearchCount.html',1,'']]],
+  ['vertexsearchfull',['vertexSearchFull',['../group__httpwwwpurlorgogitPTFvertexSearchFull.html',1,'']]],
   ['validfor',['validFor',['../group__httpwwwpurlorgogitvalidFor.html',1,'']]],
   ['validfrom',['validFrom',['../group__httpwwwpurlorgogitvalidFrom.html',1,'']]],
   ['validto',['validTo',['../group__httpwwwpurlorgogitvalidTo.html',1,'']]],

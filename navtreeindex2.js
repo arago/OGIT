@@ -1,10 +1,13 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitNetworkSimpleDevice.html":[0,13,0,19],
+"group__httpwwwpurlorgogitNetworkSlot.html":[0,13,0,20],
+"group__httpwwwpurlorgogitNetworkSubnet.html":[0,13,0,21],
 "group__httpwwwpurlorgogitNetworkSwitch.html":[0,13,0,22],
 "group__httpwwwpurlorgogitNetworkVLAN.html":[0,13,0,23],
 "group__httpwwwpurlorgogitNetworkWifiAccessPoint.html":[0,13,0,24],
-"group__httpwwwpurlorgogitNote.html":[0,27,1,31],
-"group__httpwwwpurlorgogitNotification.html":[0,27,1,32],
+"group__httpwwwpurlorgogitNote.html":[0,28,1,31],
+"group__httpwwwpurlorgogitNotification.html":[0,28,1,32],
 "group__httpwwwpurlorgogitOSLC-archLinkType.html":[0,14,0,0],
 "group__httpwwwpurlorgogitOSLC-archResource.html":[0,14,0,1],
 "group__httpwwwpurlorgogitOSLC-assetArtifact.html":[0,15,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitOSLC-emsmap.html":[0,20,2,18],
 "group__httpwwwpurlorgogitOSLC-emsmapping.html":[0,20,2,19],
 "group__httpwwwpurlorgogitOSLC-emsmeasureCell.html":[0,20,2,20],
-"group__httpwwwpurlorgogitOSLC-emsmeasureColumn.html":[0,20,2,21],
-"group__httpwwwpurlorgogitOSLC-emsmeasureDistributionCell.html":[0,20,2,22],
-"group__httpwwwpurlorgogitOSLC-emsmeasurementList.html":[0,20,2,23],
-"group__httpwwwpurlorgogitOSLC-emsmemberBaseline.html":[0,20,2,24]
+"group__httpwwwpurlorgogitOSLC-emsmeasureColumn.html":[0,20,2,21]
 };

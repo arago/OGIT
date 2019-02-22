@@ -59,6 +59,8 @@ var searchData=
   ['isclosed',['isClosed',['../group__httpwwwpurlorgogitOSLC-emsisClosed.html',1,'']]],
   ['implementedby',['implementedBy',['../group__httpwwwpurlorgogitOSLC-reqmanimplementedBy.html',1,'']]],
   ['invoice',['Invoice',['../group__httpwwwpurlorgogitPriceInvoice.html',1,'']]],
+  ['iamawsmachines',['iamAwsMachines',['../group__httpwwwpurlorgogitPTFiamAwsMachines.html',1,'']]],
+  ['issuescnt',['issuesCnt',['../group__httpwwwpurlorgogitPTFissuesCnt.html',1,'']]],
   ['implementationplan',['implementationPlan',['../group__httpwwwpurlorgogitServiceManagementimplementationPlan.html',1,'']]],
   ['incident',['Incident',['../group__httpwwwpurlorgogitServiceManagementIncident.html',1,'']]],
   ['incidentstatus',['incidentStatus',['../group__httpwwwpurlorgogitServiceManagementincidentStatus.html',1,'']]],

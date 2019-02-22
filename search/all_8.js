@@ -18,5 +18,8 @@ var searchData=
   ['high',['high',['../group__httpwwwpurlorgogitOSLC-emshigh.html',1,'']]],
   ['heapmemoryused',['HeapMemoryUsed',['../group__httpwwwpurlorgogitOSLC-perfmonHeapMemoryUsed.html',1,'']]],
   ['highdepthqueuecount',['HighDepthQueueCount',['../group__httpwwwpurlorgogitOSLC-perfmonHighDepthQueueCount.html',1,'']]],
-  ['hosteddatabases',['HostedDatabases',['../group__httpwwwpurlorgogitOSLC-perfmonHostedDatabases.html',1,'']]]
+  ['hosteddatabases',['HostedDatabases',['../group__httpwwwpurlorgogitOSLC-perfmonHostedDatabases.html',1,'']]],
+  ['hirotopology',['HiroTopology',['../group__httpwwwpurlorgogitPTFHiroTopology.html',1,'']]],
+  ['hirovsn',['hiroVsn',['../group__httpwwwpurlorgogitPTFhiroVsn.html',1,'']]],
+  ['hottest',['hotTest',['../group__httpwwwpurlorgogitPTFhotTest.html',1,'']]]
 ];

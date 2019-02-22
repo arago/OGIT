@@ -24,6 +24,7 @@ var modules =
     [ "OSLC-perfmon", "group__OSLC-perfmon.html", "group__OSLC-perfmon" ],
     [ "OSLC-qm", "group__OSLC-qm.html", "group__OSLC-qm" ],
     [ "OSLC-reqman", "group__OSLC-reqman.html", "group__OSLC-reqman" ],
+    [ "PTF", "group__PTF.html", "group__PTF" ],
     [ "Price", "group__Price.html", "group__Price" ],
     [ "Project", "group__Project.html", "group__Project" ],
     [ "RDDL", "group__RDDL.html", "group__RDDL" ],
