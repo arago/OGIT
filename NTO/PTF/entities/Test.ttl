@@ -1,0 +1,36 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.PTF:               <http://www.purl.org/ogit/PTF/> .
+
+ogit.PTF:Test
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Test";
+	dcterms:description "Describes most important input and output entities of each test outcome.";
+	dcterms:valid "start=2019-01-22;";
+	dcterms:creator "TGotwig";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	    ogit:name
+		ogit.PTF:duration
+		ogit.PTF:startTime
+        ogit.PTF:endTime
+	);
+	ogit:optional-attributes (
+		ogit.PTF:hotTest
+		ogit.PTF:kisCnt
+		ogit.PTF:issuesCnt
+		ogit.PTF:graphNodesCnt
+		ogit.PTF:linksCnt
+		ogit.PTF:callCnt
+		ogit.PTF:clientCnt
+		ogit.PTF:vertexSearchFull
+		ogit.PTF:vertexSearchCount
+	);
+	ogit:indexed-attributes (
+	);
+	ogit:allowed (
+		[ ogit:relates  ogit.PTF:HiroTopology ]
+	);
+.
