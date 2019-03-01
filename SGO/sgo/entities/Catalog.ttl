@@ -39,6 +39,7 @@ ogit:Catalog
 	);
 	ogit:allowed (
 			[ ogit:contains  ogit:CatalogItem ]
+			[ ogit:contains  ogit:Catalog ]
 			[ ogit:contains  ogit.MRP:NormItem ]
 			[ ogit:contains  ogit.MRP:Part ]
 			[ ogit:validFor  ogit:Region ]
