@@ -1,0 +1,1 @@
+[OSLC](http://open-services.net/) is a collection of specifications for software integration. This module contains entities for [asset management](http://open-services.net/specifications/asset-management-2.0).

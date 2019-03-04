@@ -1,0 +1,1 @@
+[OSLC](http://open-services.net/) is a collection of specifications for software integration. This module contains entities for [reconciliation management](http://open-services.net/specifications/reconciliation-2.0).
