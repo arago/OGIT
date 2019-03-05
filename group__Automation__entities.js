@@ -13,7 +13,7 @@ var group__Automation__entities =
     [ "MAID", "group__httpwwwpurlorgogitAutomationMAID.html", null ],
     [ "MARSModel", "group__httpwwwpurlorgogitAutomationMARSModel.html", null ],
     [ "MARSModelTemplate", "group__httpwwwpurlorgogitAutomationMARSModelTemplate.html", null ],
-    [ "MARSNode", "group__httpwwwpurlorgogitAutomationMARSNode.html", "group__httpwwwpurlorgogitAutomationMARSNode" ],
+    [ "MARSNode", "group__httpwwwpurlorgogitAutomationMARSNode.html", null ],
     [ "MARSNodeTemplate", "group__httpwwwpurlorgogitAutomationMARSNodeTemplate.html", null ],
     [ "Trigger", "group__httpwwwpurlorgogitAutomationTrigger.html", null ],
     [ "Variable", "group__httpwwwpurlorgogitAutomationVariable.html", null ]

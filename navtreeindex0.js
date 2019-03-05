@@ -147,7 +147,7 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAuthApplication.html":[0,1,1,2],
 "group__httpwwwpurlorgogitAuthApplicationReview.html":[0,1,1,3],
 "group__httpwwwpurlorgogitAuthApplicationparent.html":[0,28,0,153],
-"group__httpwwwpurlorgogitAuthApplicationstatus.html":[0,28,0,192],
+"group__httpwwwpurlorgogitAuthApplicationstatus.html":[0,28,0,193],
 "group__httpwwwpurlorgogitAuthApplicationtype.html":[0,28,0,208],
 "group__httpwwwpurlorgogitAuthApplicationurls.html":[0,28,0,214],
 "group__httpwwwpurlorgogitAuthDataScope.html":[0,1,1,4],
@@ -183,7 +183,6 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAutomationMARSModel.html":[0,2,1,11],
 "group__httpwwwpurlorgogitAutomationMARSModelTemplate.html":[0,2,1,12],
 "group__httpwwwpurlorgogitAutomationMARSNode.html":[0,2,1,13],
-"group__httpwwwpurlorgogitAutomationMARSNode.html#ModelAPI":[0,2,1,13,0],
 "group__httpwwwpurlorgogitAutomationMARSNodeTemplate.html":[0,2,1,14],
 "group__httpwwwpurlorgogitAutomationTrigger.html":[0,2,1,15],
 "group__httpwwwpurlorgogitAutomationVariable.html":[0,2,1,16],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAutomationosKey.html":[0,2,0,59],
 "group__httpwwwpurlorgogitAutomationosLicense.html":[0,2,0,60],
 "group__httpwwwpurlorgogitAutomationosManufacturer.html":[0,2,0,61],
-"group__httpwwwpurlorgogitAutomationosName.html":[0,2,0,62]
+"group__httpwwwpurlorgogitAutomationosName.html":[0,2,0,62],
+"group__httpwwwpurlorgogitAutomationosServicePack.html":[0,2,0,63]
 };

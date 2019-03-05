@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"group__httpwwwpurlorgogitAutomationosServicePack.html":[0,2,0,63],
 "group__httpwwwpurlorgogitAutomationosVersion.html":[0,2,0,64],
 "group__httpwwwpurlorgogitAutomationpatchNumber.html":[0,2,0,65],
 "group__httpwwwpurlorgogitAutomationportNumber.html":[0,2,0,66],
@@ -150,10 +149,10 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitLicenseToken.html":[0,28,1,28],
 "group__httpwwwpurlorgogitLocation.html":[0,28,1,29],
 "group__httpwwwpurlorgogitMARSApplication.html":[0,11,0,0],
-"group__httpwwwpurlorgogitMARSApplicationclass.html":[0,28,0,57],
-"group__httpwwwpurlorgogitMARSApplicationsubClass.html":[0,28,0,198],
+"group__httpwwwpurlorgogitMARSApplicationclass.html":[0,28,0,53],
+"group__httpwwwpurlorgogitMARSApplicationsubClass.html":[0,28,0,197],
 "group__httpwwwpurlorgogitMARSMachine.html":[0,11,0,1],
-"group__httpwwwpurlorgogitMARSMachineclass.html":[0,28,0,55],
+"group__httpwwwpurlorgogitMARSMachineclass.html":[0,28,0,54],
 "group__httpwwwpurlorgogitMARSMachinecpuArch.html":[0,28,0,66],
 "group__httpwwwpurlorgogitMARSMachinedistroName.html":[0,28,0,76],
 "group__httpwwwpurlorgogitMARSMachinekernel.html":[0,28,0,115],
@@ -169,14 +168,14 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitMARSNetworkport.html":[0,28,0,159],
 "group__httpwwwpurlorgogitMARSNetworkprotocol.html":[0,28,0,167],
 "group__httpwwwpurlorgogitMARSResource.html":[0,11,0,2],
-"group__httpwwwpurlorgogitMARSResourceclass.html":[0,28,0,53],
+"group__httpwwwpurlorgogitMARSResourceclass.html":[0,28,0,55],
 "group__httpwwwpurlorgogitMARSSoftware.html":[0,11,0,3],
 "group__httpwwwpurlorgogitMARSSoftwareclass.html":[0,28,0,56],
 "group__httpwwwpurlorgogitMARSSoftwareinstallPath.html":[0,28,0,94],
 "group__httpwwwpurlorgogitMARSSoftwareinstanceId.html":[0,28,0,98],
 "group__httpwwwpurlorgogitMARSSoftwarelogPath.html":[0,28,0,130],
 "group__httpwwwpurlorgogitMARSSoftwareserviceName.html":[0,28,0,184],
-"group__httpwwwpurlorgogitMARSSoftwaresubClass.html":[0,28,0,197],
+"group__httpwwwpurlorgogitMARSSoftwaresubClass.html":[0,28,0,198],
 "group__httpwwwpurlorgogitMROAviationAircraft.html":[0,28,1,1],
 "group__httpwwwpurlorgogitMROAviationAircraftType.html":[0,28,1,2],
 "group__httpwwwpurlorgogitMROAviationAirport.html":[0,28,1,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitNetworkPort.html":[0,13,0,15],
 "group__httpwwwpurlorgogitNetworkPortChannel.html":[0,13,0,16],
 "group__httpwwwpurlorgogitNetworkRouter.html":[0,13,0,17],
-"group__httpwwwpurlorgogitNetworkShelf.html":[0,13,0,18]
+"group__httpwwwpurlorgogitNetworkShelf.html":[0,13,0,18],
+"group__httpwwwpurlorgogitNetworkSimpleDevice.html":[0,13,0,19]
 };
