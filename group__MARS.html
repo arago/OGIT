@@ -89,12 +89,27 @@ Modules</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h1>Representing MARS in OGIT ontology</h1>
+<h2>Overview</h2>
+<p>All definition in the <em>ogit/MARS</em> namespace aim to have a proper modelling of <a href="https:///github.com/arago/MARS-Schema">MARS Nodes</a> as graph data.</p>
+<p>Those definitions will obsolete</p>
+<p><a href="https://github.com/arago/MARS-Schema/blob/master/schemas/MARSSchema2015.xsd">MARS XML Schema</a> Modelling of MARS nodes in the <a href="../Automation/">Automation NTO</a></p>
+<h2>Transition to MARS NTO</h2>
+<h3>Entity Mappings</h3>
+<p>instead of just one entity type <code>ogit/Automation/MARSNode</code> there are now four:</p>
+<p><code>ogit/MARS/Application</code> <code>ogit/MARS/Resource</code> <code>ogit/MARS/Software</code> <code>ogit/MARS/Machine</code></p>
+<h3>Attribute Mappings</h3>
+<p>general remarks:</p>
+<p><code>/NodeID</code>, <code>/ID</code> is supposed to be stored in <code>ogit/_xid</code> (user provided indentifiers) <code>/NodeName</code> is mapped to <code>ogit/name</code> <code>/NodeType</code> is mapped to <code>ogit/_type</code> (one of the four entity types) the following attributes from <code>ogit/Automation/MARSNode</code> become obsolete: <code>ogit/Automation/marsNodeFormalRepresentation</code> <code>ogit/Automation/marsNodeType</code> (replaced by <code>ogit/_type</code>) a few attributes from <code>ogit/Automation</code> NTO have been reused attributes from SGO or other NTOs have been reused when appropriate the following attributes were added without having a corresponding definition in MARS XML Schema: <code>ogit/url</code> for "Software" and "Resource" <code>ogit/serialNumber</code> for "Software" <code>ogit/Automation/lifecycle</code> only a subset of attributes defined by MARS XML Schema is mapped to <em>ontology defined attributes</em>. All others will remain "free attributes" the following <em>classification attributes</em> have a predefined list of allowed values: ApplicationClass, ApplicationSubClass ResourceClass MachineClass the values of <em>classification attributes</em> for Software MARS nodes are not validated, yet</p>
+<p>The full mapping is defined here.</p>
+<h3>Verb Mappings</h3>
+<p><code>ogit/Automation/MARSNode -ogit/relates-&gt; ogit/Automation/MARSNode</code> is replaced by: <code>ogit/MARS/Application -ogit/dependsOn-&gt; ogit/MARS/Resource</code> <code>ogit/MARS/Resource -ogit/dependsOn-&gt; ogit/MARS/Software</code> <code>ogit/MARS/Software -ogit/dependsOn-&gt; ogit/MARS/Machine</code> most relationships for <code>ogit/Automation/MARSNode</code> are also allowed for <code>ogit/MARS/*</code>: everything from the <code>ogit/ServiceManagement</code> NTO relations to objects with secondary data: <code>ogit/Timeseries</code>, <code>ogit/Attachment</code>, ... when appropriate the new mappings are only for specific MARS nodes, e.g. only <code>ogit/MARS/Application</code> some relationships for <code>ogit/Automation/MARSNode</code> were not duplicated for <code>ogit/MARS/*</code> (at least not yet): most relationships between <code>ogit/Automation/MARSNode</code> and other entities from <code>ogit/Automation</code> NTO </p>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 5 2019 11:39:12 by
+    <li class="footer">Generated on Tue Mar 5 2019 11:45:11 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

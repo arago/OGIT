@@ -89,12 +89,47 @@ Modules</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>All elements for the cost model are in the Cost NTO and can be found in OGIT under „ogit/Cost“.</p>
+<p>The cost model defines the cost structure of a vendor through a hierarchy of cost elements.</p>
+<p>Planning templates describe assumptions about how many instances of a certain service with a certain parameterization the vendor will have to operate. Applying a price function to the cost model yields the price model.</p>
+<h4>Cost element for a Service</h4>
+<p>There are three levels of cost elements:</p>
+<p>Top level, e.g. „Microsoft for MicProject in EU“ Middle level, e.g. „OS Hosting“, „CPU“, „Memory“ Bottom level, e.g. „HR“, „Licensing“, „Housing“, „Depreciation“</p>
+<p>Between the different levels, for each cost element there could be two types of edges:</p>
+<p>Incoming outgoing</p>
+<p>Each type of edge could have two types of connections:</p>
+<p>consistsOf contributesTo</p>
+<p>A service, e.g. DBHosting has associated to it different types of costs. Let’s call each one of them a cost element.</p>
+<p>Each cost element could have an incoming and an outgoing edge, which connects it to another cost element and contains it’s weight indicating how much it contributes/consists in relation to another cost element.</p>
+<p>E.g.: from the picture below we can understand that the CPU cost is consisting in 30% of HR cost. 5% of the HR cost contribute to the CPU costs.</p>
+<div class="image">
+<img src="cost.png" alt="cost.png"/>
+<div class="caption">
+cost</div></div>
+<p>Since currently in OGIT there are no edges with weights, the following approach to represent it through entities was taken:</p>
+<div class="image">
+<img src="cost1.png" alt="cost1.png"/>
+<div class="caption">
+cost</div></div>
+ <h4>Cost Model Ontology</h4>
+<p>Each service offering is to be offered for a service with attributes defined for certain values or ranges. E.g.: price defined for Memory of size 14188 – 1572864.</p>
+<p>Within one order, it could be specified the ordering of a service with attributes containing the concrete values of a range.</p>
+<p>An implementation template consists of some interconnected MARS-Nodes.</p>
+<p>Together with the values specified by the offering and the order it becomes a concrete implementation.</p>
+<p>A <em>Planning Template</em> is an estimated planning of cost elements referring to:</p>
+<ul>
+<li>A. an Implementation Template,</li>
+<li>B. Planning Parameter with estimated average parameters for an order and concrete value of a parameter for an Offering and the planned number of service instances (volume attribute of entity PlanningTemplate.</li>
+<li>C. A PlanningTemplate will consist of a recursive set of sub-templates, connected through the edge has, where each one of them will represent a service.</li>
+</ul>
+<p>As there could be some services that don’t have any parameters, the additional edge plansCostFor from PlanningTemplate to Service is required.</p>
+<p>A Planning Parameter will contain a concrete value of a Parameter and the statistics derived from the expected distribution as attributes. </p>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 5 2019 11:39:12 by
+    <li class="footer">Generated on Tue Mar 5 2019 11:45:11 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -12,6 +12,7 @@ var modules =
     [ "Forum", "group__Forum.html", "group__Forum" ],
     [ "Knowledge", "group__Knowledge.html", "group__Knowledge" ],
     [ "MARS", "group__MARS.html", "group__MARS" ],
+    [ "MRO", "group__MRO.html", null ],
     [ "MRP", "group__MRP.html", "group__MRP" ],
     [ "Network", "group__Network.html", "group__Network" ],
     [ "OSLC-arch", "group__OSLC-arch.html", "group__OSLC-arch" ],
