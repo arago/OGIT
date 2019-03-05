@@ -1,0 +1,1 @@
+[OSLC](http://open-services.net/) is a collection of specifications for software integration. This module contains entities for [change management](http://open-services.net/specifications/change-management-2.0).
