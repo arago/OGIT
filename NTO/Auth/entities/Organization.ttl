@@ -27,9 +27,9 @@ ogit.Auth:Organization
 	ogit:optional-attributes (
             ogit:isInternal
 	);
-  ogit:indexed-attributes (
-
-  );
+	ogit:indexed-attributes (
+		ogit:name
+	);
 	ogit:history (
 	);
 	ogit:allowed (
