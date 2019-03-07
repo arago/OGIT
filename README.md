@@ -40,6 +40,17 @@ The following links provide more information on OGIT and GraphIT.
 * [OGIT documentation](https://arago.github.io/OGIT/) for all elements of the OGIT ontology
 * [GraphIT developer resources](https://docs.hiro.arago.co) (free registration required)
 
+### namespace specific Documentation
+* Requirements
+  + install pdflatex (for MAC run :  brew cask install mactex)
+  + install graphviz (for MAC run :  brew cask install graphviz)
+
+* Run the following script to generate the documentation. Replace the namespacename with the name of the namespace(for ex. MRP, Accouting, Auth etc.) you want to create the documentation.  
+````
+sh namespace.sh namespacename
+````
+* It will generate the pdf and png files which can be found under folder with namespacename (for ex. MRP, Accounting etc). 
+* For Example, **sh namespace.sh mrp** will generate the documentation for MRP namepsace under **MRP folder**.
 ## Updating the Local GraphIT Ontology
 
 Once OGIT master branch is updated, the changes are automatically built and pushed every hour to
