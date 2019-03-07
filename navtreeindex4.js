@@ -53,7 +53,7 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitcheckedOutAt.html":[0,29,0,50],
 "group__httpwwwpurlorgogitciType.html":[0,29,0,51],
 "group__httpwwwpurlorgogitcity.html":[0,29,0,52],
-"group__httpwwwpurlorgogitclass.html":[0,29,0,57],
+"group__httpwwwpurlorgogitclass.html":[0,29,0,54],
 "group__httpwwwpurlorgogitclosedAt.html":[0,29,0,58],
 "group__httpwwwpurlorgogitcloses.html":[0,29,2,14],
 "group__httpwwwpurlorgogitcomment.html":[0,29,0,59],
