@@ -1,0 +1,20 @@
+@prefix owl:             <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.OSCL-asset: <http://www.purl.org/ogit/OSLC-asset/> .
+@prefix ogit:            <http://www.purl.org/ogit/> .
+@prefix dcterms:         <http://purl.org/dc/terms/> .
+@prefix rdfs:            <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:             <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:             <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ogit.OSCL-asset:relationshipType
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "relationshipType";
+	ogit:original <http://open-services.net/ns/asset#relationshipType>;
+	dcterms:description "The type of this relationship from the perspective of the oslc_asset:relatedAsset resource based on values defined by the service provider. This specification does not define the resource for this property, however it should contain a dcterms:title property.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-22;";
+	dcterms:creator "OGIT Importer";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+.

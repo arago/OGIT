@@ -1,0 +1,35 @@
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix ogit:          <http://www.purl.org/ogit/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogit.OSLC-ems: <http://www.purl.org/ogit/OSLC-ems/> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+
+ogit.OSLC-ems:UniformDistribution
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "UniformDistribution";
+	ogit:original <http://open-services.net/ns/ems#UniformDistribution>;
+	dcterms:description """
+A <em>uniform distribution</em> is a probability distribution that is evenly spread between
+a <em>high</em> and a <em>low</em> value.
+The high value is given by <a href=\"#high\"><code>ems:high</code></a>.
+The low value is given by <a href=\"#low\"><code>ems:low</code></a>.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-22;";
+	dcterms:creator "OGIT Importer";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:allowed (
+	);
+.
