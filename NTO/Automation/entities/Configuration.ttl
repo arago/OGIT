@@ -26,12 +26,13 @@ ogit.Automation:Configuration
 
 	);
 	ogit:optional-attributes (
-		
+
 	);
 	ogit:indexed-attributes (
-		
+
 	);
 	ogit:allowed (
+			[ ogit:uses  ogit.Automation:ActionHandler ]
 			[ ogit:uses  ogit.Automation:KIRanking ]
 			[ ogit:uses  ogit.Automation:KnowledgePool ]
 	);

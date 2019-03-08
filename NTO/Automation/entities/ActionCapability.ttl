@@ -1,0 +1,33 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Automation:ActionCapability
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "ActionCapability";
+	dcterms:description """Defines, what capability action handler provides. For example: remote execution. Capabilities are
+	separated from actual action handlers. Because different acton handler can implement the same capability. For example:
+	remote execution can be implemented with SSH for Linux or PsExec for Windows. Capability shouldn't know the implementation
+	details.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2019-03-08;";
+	dcterms:creator "dr@arago.de";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:name
+        ogit:description
+	);
+	ogit:optional-attributes (
+		ogit.Automation:parameters
+	);
+	ogit:indexed-attributes (
+
+	);
+	ogit:allowed (
+
+	);
+.
