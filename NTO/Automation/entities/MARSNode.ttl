@@ -153,7 +153,6 @@ describe the business view of the IT environment.""";
 			[ ogit:locatedIn  ogit:Location ]
 			[ ogit:locatedIn  ogit:Region ]
 			[ ogit:affects  ogit.ServiceManagement:Service ]
-			[ ogit:affects  ogit.BusinessProcess:BusinessProcess ]
 			[ ogit:affects  ogit.Automation:MARSNode ]
 			[ ogit:runsOn  ogit.Automation:MARSNode ]
 	);
