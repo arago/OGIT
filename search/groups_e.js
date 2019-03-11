@@ -26,5 +26,6 @@ var searchData=
   ['networkmetrics',['NetworkMetrics',['../group__httpwwwpurlorgogitOSLC-perfmonNetworkMetrics.html',1,'']]],
   ['namespace',['Namespace',['../group__httpwwwpurlorgogitRDDLNamespace.html',1,'']]],
   ['nature',['nature',['../group__httpwwwpurlorgogitRDDLnature.html',1,'']]],
+  ['network',['Network',['../group__MARS__Network.html',1,'']]],
   ['network',['Network',['../group__Network.html',1,'']]]
 ];

@@ -2,6 +2,7 @@ var searchData=
 [
   ['verbs',['Verbs',['../group__Accounting__verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__Auth__verbs.html',1,'']]],
+  ['verbs',['Verbs',['../group__Aviation__verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__Factory__verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__Forum__verbs.html',1,'']]],
   ['vertexrule',['vertexRule',['../group__httpwwwpurlorgogitAuthvertexRule.html',1,'']]],
@@ -47,6 +48,5 @@ var searchData=
   ['verbs',['Verbs',['../group__OSLC-qm__verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__OSLC-reqman__verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__RDDL__verbs.html',1,'']]],
-  ['verbs',['Verbs',['../group__SGO__verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__UserMeta__verbs.html',1,'']]]
 ];

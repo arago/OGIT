@@ -34,8 +34,8 @@ var searchData=
   ['range',['range',['../group__httpwwwpurlorgogitOSLC-corerange.html',1,'']]],
   ['readonly',['readOnly',['../group__httpwwwpurlorgogitOSLC-corereadOnly.html',1,'']]],
   ['rel',['rel',['../group__httpwwwpurlorgogitOSLC-corerel.html',1,'']]],
-  ['resourceshape',['ResourceShape',['../group__httpwwwpurlorgogitOSLC-coreResourceShape.html',1,'']]],
   ['resourceshape',['resourceShape',['../group__httpwwwpurlorgogitOSLC-coreresourceShape.html',1,'']]],
+  ['resourceshape',['ResourceShape',['../group__httpwwwpurlorgogitOSLC-coreResourceShape.html',1,'']]],
   ['resourcetype',['resourceType',['../group__httpwwwpurlorgogitOSLC-coreresourceType.html',1,'']]],
   ['responseinfo',['ResponseInfo',['../group__httpwwwpurlorgogitOSLC-coreResponseInfo.html',1,'']]],
   ['results',['results',['../group__httpwwwpurlorgogitOSLC-coreresults.html',1,'']]],
@@ -62,8 +62,8 @@ var searchData=
   ['range',['range',['../group__httpwwwpurlorgogitrange.html',1,'']]],
   ['rates',['rates',['../group__httpwwwpurlorgogitrates.html',1,'']]],
   ['rating',['Rating',['../group__httpwwwpurlorgogitRating.html',1,'']]],
-  ['resource',['Resource',['../group__httpwwwpurlorgogitRDDLResource.html',1,'']]],
   ['resource',['resource',['../group__httpwwwpurlorgogitRDDLresource.html',1,'']]],
+  ['resource',['Resource',['../group__httpwwwpurlorgogitRDDLResource.html',1,'']]],
   ['readby',['readBy',['../group__httpwwwpurlorgogitreadBy.html',1,'']]],
   ['reason',['reason',['../group__httpwwwpurlorgogitreason.html',1,'']]],
   ['receives',['receives',['../group__httpwwwpurlorgogitreceives.html',1,'']]],
@@ -95,5 +95,6 @@ var searchData=
   ['resolvedintime',['resolvedInTime',['../group__httpwwwpurlorgogitServiceManagementresolvedInTime.html',1,'']]],
   ['rootcause',['rootCause',['../group__httpwwwpurlorgogitServiceManagementrootCause.html',1,'']]],
   ['reply',['Reply',['../group__httpwwwpurlorgogitSurveyReply.html',1,'']]],
+  ['resource',['Resource',['../group__MARS__Resource.html',1,'']]],
   ['rddl',['RDDL',['../group__RDDL.html',1,'']]]
 ];
