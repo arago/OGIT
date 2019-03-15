@@ -26,6 +26,8 @@ ogit.Accounting:LineItem
         );
     ogit:allowed (
 			[ ogit.Accounting:maps  ogit.Accounting:CategoryItem ]
+	    [ ogit:contains  ogit.Accounting:LineItem ]
+	    [ ogit:generates  ogit.Accounting:LineItem ]
 	);
 
 .
