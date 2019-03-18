@@ -28,7 +28,7 @@ var searchData=
   ['shortid',['ShortId',['../group__httpwwwpurlorgogitForumShortId.html',1,'']]],
   ['step',['Step',['../group__httpwwwpurlorgogitKnowledgeStep.html',1,'']]],
   ['subclass',['subClass',['../group__httpwwwpurlorgogitMARSApplicationsubClass.html',1,'']]],
-  ['software',['Software',['../group__httpwwwpurlorgogitMARSSoftware.html',1,'']]],
+  ['software',['Software',['../group__httpwwwpurlorgogitMARSSoftware.html',1,'(Global Namespace)'],['../group__Software.html',1,'(Global Namespace)']]],
   ['servicename',['serviceName',['../group__httpwwwpurlorgogitMARSSoftwareserviceName.html',1,'']]],
   ['subclass',['subClass',['../group__httpwwwpurlorgogitMARSSoftwaresubClass.html',1,'']]],
   ['suit',['suit',['../group__httpwwwpurlorgogitMROAviationsuit.html',1,'']]],
@@ -121,7 +121,6 @@ var searchData=
   ['software',['Software',['../group__MARS__Software.html',1,'']]],
   ['servicemanagement',['ServiceManagement',['../group__ServiceManagement.html',1,'']]],
   ['sgo',['SGO',['../group__SGO.html',1,'']]],
-  ['software',['Software',['../group__Software.html',1,'']]],
   ['statistics',['Statistics',['../group__Statistics.html',1,'']]],
   ['survey',['Survey',['../group__Survey.html',1,'']]]
 ];
