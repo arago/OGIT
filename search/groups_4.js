@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['data',['Data',['../group__Data.html',1,'']]],
   ['datacenter',['Datacenter',['../group__Datacenter.html',1,'']]],
   ['dataprocessing',['DataProcessing',['../group__DataProcessing.html',1,'']]],
   ['ddtarget',['DDTarget',['../group__httpwwwpurlorgogitAccountingDDTarget.html',1,'']]],
@@ -51,12 +52,12 @@ var searchData=
   ['deployedto',['deployedTo',['../group__httpwwwpurlorgogitOSLC-crtvdeployedTo.html',1,'']]],
   ['dimension',['dimension',['../group__httpwwwpurlorgogitOSLC-emsdimension.html',1,'']]],
   ['dimension',['Dimension',['../group__httpwwwpurlorgogitOSLC-emsDimension.html',1,'']]],
-  ['dimensioncell',['dimensionCell',['../group__httpwwwpurlorgogitOSLC-emsdimensionCell.html',1,'']]],
   ['dimensioncell',['DimensionCell',['../group__httpwwwpurlorgogitOSLC-emsDimensionCell.html',1,'']]],
-  ['dimensioncolumn',['dimensionColumn',['../group__httpwwwpurlorgogitOSLC-emsdimensionColumn.html',1,'']]],
+  ['dimensioncell',['dimensionCell',['../group__httpwwwpurlorgogitOSLC-emsdimensionCell.html',1,'']]],
   ['dimensioncolumn',['DimensionColumn',['../group__httpwwwpurlorgogitOSLC-emsDimensionColumn.html',1,'']]],
-  ['dimensionmember',['DimensionMember',['../group__httpwwwpurlorgogitOSLC-emsDimensionMember.html',1,'']]],
+  ['dimensioncolumn',['dimensionColumn',['../group__httpwwwpurlorgogitOSLC-emsdimensionColumn.html',1,'']]],
   ['dimensionmember',['dimensionMember',['../group__httpwwwpurlorgogitOSLC-emsdimensionMember.html',1,'']]],
+  ['dimensionmember',['DimensionMember',['../group__httpwwwpurlorgogitOSLC-emsDimensionMember.html',1,'']]],
   ['distribution',['distribution',['../group__httpwwwpurlorgogitOSLC-emsdistribution.html',1,'']]],
   ['diskmetrics',['DiskMetrics',['../group__httpwwwpurlorgogitOSLC-perfmonDiskMetrics.html',1,'']]],
   ['diskspaceovercommitamount',['DiskSpaceOverCommitAmount',['../group__httpwwwpurlorgogitOSLC-perfmonDiskSpaceOverCommitAmount.html',1,'']]],
@@ -65,5 +66,5 @@ var searchData=
   ['dbawsmachines',['dbAwsMachines',['../group__httpwwwpurlorgogitPTFdbAwsMachines.html',1,'']]],
   ['dummy',['Dummy',['../group__httpwwwpurlorgogitPTFDummy.html',1,'']]],
   ['duration',['duration',['../group__httpwwwpurlorgogitPTFduration.html',1,'']]],
-  ['data',['Data',['../group__httpwwwpurlorgogitSoftwareData.html',1,'(Global Namespace)'],['../group__Data.html',1,'(Global Namespace)']]]
+  ['data',['Data',['../group__httpwwwpurlorgogitSoftwareData.html',1,'']]]
 ];
