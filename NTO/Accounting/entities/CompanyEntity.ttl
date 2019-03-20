@@ -23,5 +23,6 @@ ogit.Accounting:CompanyEntity
 			[ ogit.Accounting:has  ogit.Accounting:ConfigItem ]
 			[ ogit:generates  ogit.Accounting:FinancialStatement ]
 			[ ogit:belongs  ogit:Organization ]
+	    		[ ogit:contains  ogit.Accounting:CompanySpecificCategorization ]
 	);
 .
