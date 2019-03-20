@@ -3,26 +3,23 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Accounting:CompanyEntity
+ogit.Accounting:CompanySpecificCategorization
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "CompanyEntity";
-	dcterms:description "For example: Group, Legal Entity...";
+	rdfs:label "LineItem";
+	dcterms:description "Categorization Map for Categorizing Line Items";
 	dcterms:valid "start=2018-12-05;";
-	dcterms:creator "Viktor Voss";
+	dcterms:creator "Gibson Xavier";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
-            ogit.Accounting:accountingStandard
 	);
-    ogit:indexed-attributes (
-    );
+        ogit:indexed-attributes (
+        );
     ogit:allowed (
-			[ ogit.Accounting:has  ogit.Accounting:ConfigItem ]
-			[ ogit:generates  ogit.Accounting:FinancialStatement ]
-			[ ogit:belongs  ogit:Organization ]
-	    		[ ogit:contains  ogit.Accounting:CompanySpecificCategorization ]
+	    [ ogit:contains  ogit.Accounting:CompanyEntity ]
 	);
+
 .
