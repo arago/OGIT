@@ -28,6 +28,7 @@ ogit.Accounting:LineItem
 			[ ogit.Accounting:maps  ogit.Accounting:CategoryItem ]
 	    [ ogit:contains  ogit.Accounting:LineItem ]
 	    [ ogit:generates  ogit.Accounting:LineItem ]
+	    [ ogit.Accounting:contributesTo  ogit.Accounting:FinancialStatement ]
 	);
 
 .
