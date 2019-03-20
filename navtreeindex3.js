@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitOSLC-emspredicts.html":[0,20,2,33],
 "group__httpwwwpurlorgogitOSLC-emspredictsTable.html":[0,20,2,34],
 "group__httpwwwpurlorgogitOSLC-emspredictsWbs.html":[0,20,2,35],
 "group__httpwwwpurlorgogitOSLC-emsprobability.html":[0,20,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogit__reader.html":[0,28,60],
 "group__httpwwwpurlorgogit__scope.html":[0,28,61],
 "group__httpwwwpurlorgogit__source.html":[0,28,62],
-"group__httpwwwpurlorgogit__tags.html":[0,28,63],
-"group__httpwwwpurlorgogit__type.html":[0,28,64]
+"group__httpwwwpurlorgogit__tags.html":[0,28,63]
 };

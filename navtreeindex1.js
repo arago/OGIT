@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitAutomationlicenseName.html":[0,2,0,47],
 "group__httpwwwpurlorgogitAutomationlicenseType.html":[0,2,0,48],
 "group__httpwwwpurlorgogitAutomationlifecycle.html":[0,2,0,49],
 "group__httpwwwpurlorgogitAutomationlogLevel.html":[0,2,0,50],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitOSLC-assetArtifact.html":[0,15,0,0],
 "group__httpwwwpurlorgogitOSLC-assetAsset.html":[0,15,0,1],
 "group__httpwwwpurlorgogitOSLC-assetartifact.html":[0,15,1,0],
-"group__httpwwwpurlorgogitOSLC-assetcategorization.html":[0,15,1,1],
-"group__httpwwwpurlorgogitOSLC-assetguid.html":[0,15,1,2]
+"group__httpwwwpurlorgogitOSLC-assetcategorization.html":[0,15,1,1]
 };

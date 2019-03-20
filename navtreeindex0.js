@@ -123,10 +123,11 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAccountingAccountNumber.html":[0,0,0,0],
 "group__httpwwwpurlorgogitAccountingCategoryItem.html":[0,0,1,0],
 "group__httpwwwpurlorgogitAccountingCompanyEntity.html":[0,0,1,1],
-"group__httpwwwpurlorgogitAccountingConfigItem.html":[0,0,1,2],
-"group__httpwwwpurlorgogitAccountingDDTarget.html":[0,0,1,3],
-"group__httpwwwpurlorgogitAccountingFinancialStatement.html":[0,0,1,4],
-"group__httpwwwpurlorgogitAccountingLineItem.html":[0,0,1,5],
+"group__httpwwwpurlorgogitAccountingCompanySpecificCategorization.html":[0,0,1,2],
+"group__httpwwwpurlorgogitAccountingConfigItem.html":[0,0,1,3],
+"group__httpwwwpurlorgogitAccountingDDTarget.html":[0,0,1,4],
+"group__httpwwwpurlorgogitAccountingFinancialStatement.html":[0,0,1,5],
+"group__httpwwwpurlorgogitAccountingLineItem.html":[0,0,1,6],
 "group__httpwwwpurlorgogitAccountingNAOCategorizations.html":[0,0,0,1],
 "group__httpwwwpurlorgogitAccountingTrialBalanceTargetAccountByNumber.html":[0,0,0,2],
 "group__httpwwwpurlorgogitAccountingaccountingStandard.html":[0,0,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAutomationknowledgeItemId.html":[0,2,0,43],
 "group__httpwwwpurlorgogitAutomationknowledgeItemSyntaxVersion.html":[0,2,0,44],
 "group__httpwwwpurlorgogitAutomationknowledgeItemTier.html":[0,2,0,45],
-"group__httpwwwpurlorgogitAutomationlicenseAvailability.html":[0,2,0,46],
-"group__httpwwwpurlorgogitAutomationlicenseName.html":[0,2,0,47]
+"group__httpwwwpurlorgogitAutomationlicenseAvailability.html":[0,2,0,46]
 };
