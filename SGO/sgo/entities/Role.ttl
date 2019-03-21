@@ -33,5 +33,6 @@ ogit:Role
 	ogit:allowed (
 			[ ogit:manages  ogit.ServiceManagement:Service ]
 			[ ogit:reports  ogit:Role ]
+			[ ogit:contains  ogit.HR.Recruiting:SkillGroup ]
 	);
 .
