@@ -1,1 +1,27 @@
+@prefix ogit.HR.Recruiting:     <http://www.purl.org/ogit/HR/Recruiting/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
 
+ogit.HR.Recruiting:Recruiter
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Recruiter";
+  dcterms:description "One who recruits";
+  dcterms:valid "start=2019-03-21;";
+  dcterms:creator "Florian Fluegel";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+  );
+  ogit:optional-attributes (
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+    [ ogit.HR.Recruiting:worksFor  ogit:Organization ]
+    [ ogit.HR.Recruiting:recruitsFor  ogit:Role ]
+    [ ogit:reviews  ogit.HR.Recruiting:Resume ]
+  );
+
+.
