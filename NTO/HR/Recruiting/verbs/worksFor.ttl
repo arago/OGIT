@@ -9,7 +9,7 @@ ogit.HR.Recruiting:worksFor
   a owl:ObjectProperty;
   rdfs:subPropertyOf ogit:Verb;
   rdfs:label "worksFor";
-  dcterms:description "Indicates if someone works for an organization";
+  dcterms:description "Indicates if someone works for someone else";
   dcterms:valid "start=2019-03-21;";
   dcterms:creator "Florian Fluegel";
 .
