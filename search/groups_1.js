@@ -59,6 +59,8 @@ var searchData=
   ['availability',['availability',['../group__httpwwwpurlorgogitavailability.html',1,'']]],
   ['availablein',['availableIn',['../group__httpwwwpurlorgogitavailableIn.html',1,'']]],
   ['award',['Award',['../group__httpwwwpurlorgogitForumAward.html',1,'']]],
+  ['applicant',['Applicant',['../group__httpwwwpurlorgogitHRRecruitingApplicant.html',1,'']]],
+  ['appliesfor',['appliesFor',['../group__httpwwwpurlorgogitHRRecruitingappliesFor.html',1,'']]],
   ['acquisitionroom',['AcquisitionRoom',['../group__httpwwwpurlorgogitKnowledgeAcquisitionRoom.html',1,'']]],
   ['acquisitionsession',['AcquisitionSession',['../group__httpwwwpurlorgogitKnowledgeAcquisitionSession.html',1,'']]],
   ['application',['Application',['../group__httpwwwpurlorgogitMARSApplication.html',1,'']]],
@@ -118,6 +120,7 @@ var searchData=
   ['attributes',['Attributes',['../group__PTF__attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__RDDL__attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__Resource__attributes.html',1,'']]],
+  ['attributes',['Attributes',['../group__RPA__attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__ServiceManagement__attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__Software__attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__Version__attributes.html',1,'']]]

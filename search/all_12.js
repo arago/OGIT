@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['recruiting',['Recruiting',['../group__HR__Recruiting.html',1,'']]],
   ['rank',['rank',['../group__httpwwwpurlorgogitAccountingrank.html',1,'']]],
   ['restricted',['restricted',['../group__httpwwwpurlorgogitAuthrestricted.html',1,'']]],
   ['role',['Role',['../group__httpwwwpurlorgogitAuthRole.html',1,'']]],
@@ -16,6 +17,9 @@ var searchData=
   ['reply',['Reply',['../group__httpwwwpurlorgogitForumReply.html',1,'']]],
   ['review',['Review',['../group__httpwwwpurlorgogitForumReview.html',1,'']]],
   ['role',['Role',['../group__httpwwwpurlorgogitForumRole.html',1,'']]],
+  ['recruiter',['Recruiter',['../group__httpwwwpurlorgogitHRRecruitingRecruiter.html',1,'']]],
+  ['recruitsfor',['recruitsFor',['../group__httpwwwpurlorgogitHRRecruitingrecruitsFor.html',1,'']]],
+  ['resume',['Resume',['../group__httpwwwpurlorgogitHRRecruitingResume.html',1,'']]],
   ['ram',['ram',['../group__httpwwwpurlorgogitMARSMachineram.html',1,'']]],
   ['resource',['Resource',['../group__httpwwwpurlorgogitMARSResource.html',1,'']]],
   ['references',['references',['../group__httpwwwpurlorgogitMROAviationreferences.html',1,'']]],
@@ -33,8 +37,8 @@ var searchData=
   ['range',['range',['../group__httpwwwpurlorgogitOSLC-corerange.html',1,'']]],
   ['readonly',['readOnly',['../group__httpwwwpurlorgogitOSLC-corereadOnly.html',1,'']]],
   ['rel',['rel',['../group__httpwwwpurlorgogitOSLC-corerel.html',1,'']]],
-  ['resourceshape',['ResourceShape',['../group__httpwwwpurlorgogitOSLC-coreResourceShape.html',1,'']]],
   ['resourceshape',['resourceShape',['../group__httpwwwpurlorgogitOSLC-coreresourceShape.html',1,'']]],
+  ['resourceshape',['ResourceShape',['../group__httpwwwpurlorgogitOSLC-coreResourceShape.html',1,'']]],
   ['resourcetype',['resourceType',['../group__httpwwwpurlorgogitOSLC-coreresourceType.html',1,'']]],
   ['responseinfo',['ResponseInfo',['../group__httpwwwpurlorgogitOSLC-coreResponseInfo.html',1,'']]],
   ['results',['results',['../group__httpwwwpurlorgogitOSLC-coreresults.html',1,'']]],
@@ -61,8 +65,8 @@ var searchData=
   ['range',['range',['../group__httpwwwpurlorgogitrange.html',1,'']]],
   ['rates',['rates',['../group__httpwwwpurlorgogitrates.html',1,'']]],
   ['rating',['Rating',['../group__httpwwwpurlorgogitRating.html',1,'']]],
-  ['resource',['Resource',['../group__httpwwwpurlorgogitRDDLResource.html',1,'']]],
   ['resource',['resource',['../group__httpwwwpurlorgogitRDDLresource.html',1,'']]],
+  ['resource',['Resource',['../group__httpwwwpurlorgogitRDDLResource.html',1,'']]],
   ['readby',['readBy',['../group__httpwwwpurlorgogitreadBy.html',1,'']]],
   ['reason',['reason',['../group__httpwwwpurlorgogitreason.html',1,'']]],
   ['receives',['receives',['../group__httpwwwpurlorgogitreceives.html',1,'']]],
@@ -85,6 +89,9 @@ var searchData=
   ['revision',['revision',['../group__httpwwwpurlorgogitrevision.html',1,'']]],
   ['risk',['risk',['../group__httpwwwpurlorgogitrisk.html',1,'']]],
   ['role',['Role',['../group__httpwwwpurlorgogitRole.html',1,'']]],
+  ['robot',['Robot',['../group__httpwwwpurlorgogitRPARobot.html',1,'']]],
+  ['roboticenvironment',['RoboticEnvironment',['../group__httpwwwpurlorgogitRPARoboticEnvironment.html',1,'']]],
+  ['roboticsystem',['RoboticSystem',['../group__httpwwwpurlorgogitRPARoboticSystem.html',1,'']]],
   ['runson',['runsOn',['../group__httpwwwpurlorgogitrunsOn.html',1,'']]],
   ['report',['Report',['../group__httpwwwpurlorgogitServiceManagementReport.html',1,'']]],
   ['reportedsource',['reportedSource',['../group__httpwwwpurlorgogitServiceManagementreportedSource.html',1,'']]],
@@ -95,5 +102,6 @@ var searchData=
   ['rootcause',['rootCause',['../group__httpwwwpurlorgogitServiceManagementrootCause.html',1,'']]],
   ['reply',['Reply',['../group__httpwwwpurlorgogitSurveyReply.html',1,'']]],
   ['resource',['Resource',['../group__MARS__Resource.html',1,'']]],
-  ['rddl',['RDDL',['../group__RDDL.html',1,'']]]
+  ['rddl',['RDDL',['../group__RDDL.html',1,'']]],
+  ['rpa',['RPA',['../group__RPA.html',1,'']]]
 ];
