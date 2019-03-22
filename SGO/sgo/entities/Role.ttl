@@ -5,6 +5,7 @@
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.HR.Recruiting:     <http://www.purl.org/ogit/HR/Recruiting/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -33,5 +34,6 @@ ogit:Role
 	ogit:allowed (
 			[ ogit:manages  ogit.ServiceManagement:Service ]
 			[ ogit:reports  ogit:Role ]
+			[ ogit:contains  ogit.HR.Recruiting:SkillGroup ]
 	);
 .

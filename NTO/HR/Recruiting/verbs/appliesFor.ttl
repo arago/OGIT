@@ -1,0 +1,15 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.HR.Recruiting:     <http://www.purl.org/ogit/HR/Recruiting/> .
+@prefix ogit.HR:                <http://www.purl.org/ogit/HR/> .
+
+ogit.HR.Recruiting:appliesFor
+  a owl:ObjectProperty;
+  rdfs:subPropertyOf ogit:Verb;
+  rdfs:label "appliesFor";
+  dcterms:description "Indicates if someone applied for something";
+  dcterms:valid "start=2019-03-21;";
+  dcterms:creator "Florian Fluegel";
+.
