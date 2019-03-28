@@ -25,6 +25,7 @@ var searchData=
   ['expiresat',['expiresAt',['../group__httpwwwpurlorgogitexpiresAt.html',1,'']]],
   ['extends',['extends',['../group__httpwwwpurlorgogitextends.html',1,'']]],
   ['externalid',['externalId',['../group__httpwwwpurlorgogitexternalId.html',1,'']]],
+  ['education',['Education',['../group__httpwwwpurlorgogitHRRecruitingEducation.html',1,'']]],
   ['executesautomationplan',['executesAutomationPlan',['../group__httpwwwpurlorgogitOSLC-automationexecutesAutomationPlan.html',1,'']]],
   ['error',['Error',['../group__httpwwwpurlorgogitOSLC-coreError.html',1,'']]],
   ['executes',['executes',['../group__httpwwwpurlorgogitOSLC-coreexecutes.html',1,'']]],
