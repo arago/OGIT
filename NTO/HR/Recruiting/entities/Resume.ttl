@@ -21,6 +21,8 @@ ogit.HR.Recruiting:Resume
   ogit:allowed (
     [ ogit:relates  ogit:Role ]
     [ ogit:contains  ogit.HR.Recruiting:SkillGroup ]
+    [ ogit:contains  ogit.HR.Recruiting:Skill ]
+    [ ogit:contains  ogit.HR.Recruiting:Education ]
   );
 
 .

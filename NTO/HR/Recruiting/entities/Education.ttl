@@ -2,15 +2,14 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Auth:  <http://www.purl.org/ogit/Auth/> .
 
-ogit.HR.Recruiting:Recruiter
+ogit.HR.Recruiting:Education
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "Recruiter";
-  dcterms:description "One who recruits";
+  rdfs:label "Education";
+  dcterms:description "qualification awarded to students upon successful completion of a course or study";
   dcterms:valid "start=2019-03-21;";
-  dcterms:creator "Florian Fluegel";
+  dcterms:creator "Kaushik Gondaliya";
   ogit:scope "NTO";
   ogit:parent "http://www.purl.org/ogit/Node";
   ogit:mandatory-attributes (
@@ -20,10 +19,7 @@ ogit.HR.Recruiting:Recruiter
   ogit:indexed-attributes (
   );
   ogit:allowed (
-    [ ogit.HR.Recruiting:worksFor  ogit:Organization ]
-    [ ogit.HR.Recruiting:recruitsFor  ogit:Role ]
-    [ ogit:reviews  ogit.HR.Recruiting:Resume ]
-    [ ogit:has  ogit.Auth:Account ]
+
   );
 
 .
