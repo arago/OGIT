@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['subtype',['subtype',['../group__httpwwwpurlorgogitAccountingsubtype.html',1,'']]],
   ['statusreason',['statusReason',['../group__httpwwwpurlorgogitAuthAccountstatusReason.html',1,'']]],
   ['status',['status',['../group__httpwwwpurlorgogitAuthApplicationstatus.html',1,'']]],
   ['senddata',['sendData',['../group__httpwwwpurlorgogitAutomationsendData.html',1,'']]],
@@ -110,8 +109,8 @@ var searchData=
   ['soxclass',['soxClass',['../group__httpwwwpurlorgogitsoxClass.html',1,'']]],
   ['specifies',['specifies',['../group__httpwwwpurlorgogitspecifies.html',1,'']]],
   ['startedat',['startedAt',['../group__httpwwwpurlorgogitstartedAt.html',1,'']]],
-  ['status',['Status',['../group__httpwwwpurlorgogitStatus.html',1,'']]],
   ['status',['status',['../group__httpwwwpurlorgogitstatus.html',1,'']]],
+  ['status',['Status',['../group__httpwwwpurlorgogitStatus.html',1,'']]],
   ['streetaddress',['streetAddress',['../group__httpwwwpurlorgogitstreetAddress.html',1,'']]],
   ['subcategory',['subCategory',['../group__httpwwwpurlorgogitsubCategory.html',1,'']]],
   ['subject',['subject',['../group__httpwwwpurlorgogitsubject.html',1,'']]],

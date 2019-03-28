@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['periods',['periods',['../group__httpwwwpurlorgogitAccountingperiods.html',1,'']]],
-  ['primaryreportingperiod',['primaryReportingPeriod',['../group__httpwwwpurlorgogitAccountingprimaryReportingPeriod.html',1,'']]],
   ['parent',['parent',['../group__httpwwwpurlorgogitAuthApplicationparent.html',1,'']]],
   ['patchnumber',['patchNumber',['../group__httpwwwpurlorgogitAutomationpatchNumber.html',1,'']]],
   ['portnumber',['portNumber',['../group__httpwwwpurlorgogitAutomationportNumber.html',1,'']]],
