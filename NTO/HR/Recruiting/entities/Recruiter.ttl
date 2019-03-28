@@ -22,6 +22,7 @@ ogit.HR.Recruiting:Recruiter
     [ ogit.HR.Recruiting:worksFor  ogit:Organization ]
     [ ogit.HR.Recruiting:recruitsFor  ogit:Role ]
     [ ogit:reviews  ogit.HR.Recruiting:Resume ]
+    [ ogit:complies  ogit.Auth:Account ]
   );
 
 .
