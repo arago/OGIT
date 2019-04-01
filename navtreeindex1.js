@@ -108,9 +108,11 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitHRRecruitingApplicant.html":[0,8,0,0,0],
 "group__httpwwwpurlorgogitHRRecruitingEducation.html":[0,8,0,0,1],
 "group__httpwwwpurlorgogitHRRecruitingRecruiter.html":[0,8,0,0,2],
-"group__httpwwwpurlorgogitHRRecruitingResume.html":[0,8,0,0,3],
-"group__httpwwwpurlorgogitHRRecruitingSkill.html":[0,8,0,0,4],
-"group__httpwwwpurlorgogitHRRecruitingSkillGroup.html":[0,8,0,0,5],
+"group__httpwwwpurlorgogitHRRecruitingRelevance.html":[0,8,0,0,3],
+"group__httpwwwpurlorgogitHRRecruitingResume.html":[0,8,0,0,4],
+"group__httpwwwpurlorgogitHRRecruitingScore.html":[0,8,0,0,5],
+"group__httpwwwpurlorgogitHRRecruitingSkill.html":[0,8,0,0,6],
+"group__httpwwwpurlorgogitHRRecruitingSkillGroup.html":[0,8,0,0,7],
 "group__httpwwwpurlorgogitHRRecruitingappliesFor.html":[0,8,0,1,0],
 "group__httpwwwpurlorgogitHRRecruitingrecruitsFor.html":[0,8,0,1,1],
 "group__httpwwwpurlorgogitHRRecruitingsubmits.html":[0,8,0,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitOSLC-assetsize.html":[0,15,1,5],
 "group__httpwwwpurlorgogitOSLC-assetstate.html":[0,15,1,6],
 "group__httpwwwpurlorgogitOSLC-assettag.html":[0,15,1,7],
-"group__httpwwwpurlorgogitOSLC-assetversion.html":[0,15,1,8],
-"group__httpwwwpurlorgogitOSLC-automationAutomationPlan.html":[0,16,1,0],
-"group__httpwwwpurlorgogitOSLC-automationAutomationRequest.html":[0,16,1,1]
+"group__httpwwwpurlorgogitOSLC-assetversion.html":[0,15,1,8]
 };

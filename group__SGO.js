@@ -243,6 +243,7 @@ var group__SGO =
     [ "postalCode", "group__httpwwwpurlorgogitpostalCode.html", null ],
     [ "powerConsumption", "group__httpwwwpurlorgogitpowerConsumption.html", null ],
     [ "precedes", "group__httpwwwpurlorgogitprecedes.html", null ],
+    [ "prioritizes", "group__httpwwwpurlorgogitprioritizes.html", null ],
     [ "priority", "group__httpwwwpurlorgogitpriority.html", null ],
     [ "produces", "group__httpwwwpurlorgogitproduces.html", null ],
     [ "productOrderNumber", "group__httpwwwpurlorgogitproductOrderNumber.html", null ],

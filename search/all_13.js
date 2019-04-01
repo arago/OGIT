@@ -25,6 +25,7 @@ var searchData=
   ['storageinventory',['StorageInventory',['../group__httpwwwpurlorgogitFactoryStorageInventory.html',1,'']]],
   ['storagetank',['StorageTank',['../group__httpwwwpurlorgogitFactoryStorageTank.html',1,'']]],
   ['shortid',['ShortId',['../group__httpwwwpurlorgogitForumShortId.html',1,'']]],
+  ['score',['Score',['../group__httpwwwpurlorgogitHRRecruitingScore.html',1,'']]],
   ['skill',['Skill',['../group__httpwwwpurlorgogitHRRecruitingSkill.html',1,'']]],
   ['skillgroup',['SkillGroup',['../group__httpwwwpurlorgogitHRRecruitingSkillGroup.html',1,'']]],
   ['submits',['submits',['../group__httpwwwpurlorgogitHRRecruitingsubmits.html',1,'']]],

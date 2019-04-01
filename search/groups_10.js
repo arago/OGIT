@@ -80,6 +80,7 @@ var searchData=
   ['priceamount',['priceAmount',['../group__httpwwwpurlorgogitPricepriceAmount.html',1,'']]],
   ['pricespecification',['PriceSpecification',['../group__httpwwwpurlorgogitPricePriceSpecification.html',1,'']]],
   ['pricetimeunit',['priceTimeUnit',['../group__httpwwwpurlorgogitPricepriceTimeUnit.html',1,'']]],
+  ['prioritizes',['prioritizes',['../group__httpwwwpurlorgogitprioritizes.html',1,'']]],
   ['priority',['priority',['../group__httpwwwpurlorgogitpriority.html',1,'']]],
   ['produces',['produces',['../group__httpwwwpurlorgogitproduces.html',1,'']]],
   ['product',['Product',['../group__httpwwwpurlorgogitProduct.html',1,'']]],
