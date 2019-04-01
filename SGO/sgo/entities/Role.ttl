@@ -34,9 +34,7 @@ ogit:Role
 	ogit:allowed (
 			[ ogit:manages  ogit.ServiceManagement:Service ]
 			[ ogit:reports  ogit:Role ]
-			[ ogit:contains  ogit.HR.Recruiting:SkillGroup ]
-			[ ogit:requires  ogit.HR.Recruiting:Skill ]
-			[ ogit:desires  ogit.HR.Recruiting:Skill ]
+			[ ogit:uses  ogit.HR.Recruiting:Relevance ]
 			[ ogit:requires  ogit.HR.Recruiting:Education ]
 			[ ogit:desires  ogit.HR.Recruiting:Education ]
 	);

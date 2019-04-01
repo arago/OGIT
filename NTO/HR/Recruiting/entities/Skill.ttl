@@ -20,6 +20,7 @@ ogit.HR.Recruiting:Skill
   ogit:indexed-attributes (
   );
   ogit:allowed (
+  [ ogit:belongs  ogit.HR.Recruiting:SkillGroup ]
   );
 
 .
