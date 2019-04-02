@@ -20,6 +20,7 @@ var searchData=
   ['recruitsfor',['recruitsFor',['../group__httpwwwpurlorgogitHRRecruitingrecruitsFor.html',1,'']]],
   ['relevance',['Relevance',['../group__httpwwwpurlorgogitHRRecruitingRelevance.html',1,'']]],
   ['resume',['Resume',['../group__httpwwwpurlorgogitHRRecruitingResume.html',1,'']]],
+  ['roletitle',['RoleTitle',['../group__httpwwwpurlorgogitHRRecruitingRoleTitle.html',1,'']]],
   ['ram',['ram',['../group__httpwwwpurlorgogitMARSMachineram.html',1,'']]],
   ['resource',['Resource',['../group__httpwwwpurlorgogitMARSResource.html',1,'']]],
   ['references',['references',['../group__httpwwwpurlorgogitMROAviationreferences.html',1,'']]],

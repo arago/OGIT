@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitOSLC-assettag.html":[0,15,1,7],
+"group__httpwwwpurlorgogitOSLC-assetversion.html":[0,15,1,8],
 "group__httpwwwpurlorgogitOSLC-automationAutomationPlan.html":[0,16,1,0],
 "group__httpwwwpurlorgogitOSLC-automationAutomationRequest.html":[0,16,1,1],
 "group__httpwwwpurlorgogitOSLC-automationAutomationResult.html":[0,16,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitOSLC-emspredictsTable.html":[0,20,2,34],
 "group__httpwwwpurlorgogitOSLC-emspredictsWbs.html":[0,20,2,35],
 "group__httpwwwpurlorgogitOSLC-emsprobability.html":[0,20,0,9],
-"group__httpwwwpurlorgogitOSLC-emsproject.html":[0,20,2,36],
-"group__httpwwwpurlorgogitOSLC-emsprojectList.html":[0,20,2,37],
-"group__httpwwwpurlorgogitOSLC-emsquantile.html":[0,20,2,38]
+"group__httpwwwpurlorgogitOSLC-emsproject.html":[0,20,2,36]
 };

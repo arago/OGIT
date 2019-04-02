@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogit__scope.html":[0,29,62],
+"group__httpwwwpurlorgogit__source.html":[0,29,63],
 "group__httpwwwpurlorgogit__tags.html":[0,29,64],
 "group__httpwwwpurlorgogit__type.html":[0,29,65],
 "group__httpwwwpurlorgogit__v-id.html":[0,29,67],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogittype.html":[0,29,308],
 "group__httpwwwpurlorgogitunit.html":[0,29,309],
 "group__httpwwwpurlorgogitupdateCount.html":[0,29,310],
-"group__httpwwwpurlorgogitupdates.html":[0,29,311],
-"group__httpwwwpurlorgogiturgency.html":[0,29,312],
-"group__httpwwwpurlorgogituri.html":[0,29,313]
+"group__httpwwwpurlorgogitupdates.html":[0,29,311]
 };

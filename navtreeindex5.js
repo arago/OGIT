@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogiturgency.html":[0,29,312],
+"group__httpwwwpurlorgogituri.html":[0,29,313],
 "group__httpwwwpurlorgogiturl.html":[0,29,314],
 "group__httpwwwpurlorgogituses.html":[0,29,315],
 "group__httpwwwpurlorgogitutilizes.html":[0,29,316],
