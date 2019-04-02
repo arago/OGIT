@@ -3,13 +3,13 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.HR.Recruiting:Resume
+ogit.HR.Recruiting:WorkHistory
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "Resume";
-  dcterms:description "A summary of education, employment experiences and qualifications";
+  rdfs:label "WorkHistory";
+  dcterms:description "contains previous work history for the resume";
   dcterms:valid "start=2019-03-21;";
-  dcterms:creator "Florian Fluegel";
+  dcterms:creator "Kaushik Gondaliya";
   ogit:scope "NTO";
   ogit:parent "http://www.purl.org/ogit/Node";
   ogit:mandatory-attributes (
@@ -19,10 +19,7 @@ ogit.HR.Recruiting:Resume
   ogit:indexed-attributes (
   );
   ogit:allowed (
-    [ ogit:has  ogit.HR.Recruiting:Score ]
-    [ ogit:contains  ogit.HR.Recruiting:Skill ]
-    [ ogit:contains  ogit.HR.Recruiting:Education ]
-    [ ogit:contains  ogit.HR.Recruiting:WorkHistory ]
+    [ ogit:contains  ogit.HR.Recruiting:RoleTitle ]
   );
 
 .
