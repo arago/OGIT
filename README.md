@@ -42,8 +42,9 @@ The following links provide more information on OGIT and GraphIT.
 
 ### namespace specific Documentation
 * Requirements
-  + install pdflatex (for MAC run :  brew cask install mactex)
-  + install graphviz (for MAC run :  brew cask install graphviz)
+  + install pdflatex (on macOS run: `brew cask install mactex`)
+  + install graphviz (on macOS run: `brew install graphviz`)
+  + install doxygen (on macOS run: `brew install doxygen`)
 
 * Run the following script to generate the documentation. Replace the namespacename with the name of the namespace(for ex. MRP, Accouting, Auth etc.) you want to create the documentation.  
 ````
