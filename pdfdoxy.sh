@@ -4,8 +4,12 @@ dir0=downloads
 ldir=pdf
 rm -rf $dir0
 mkdir $dir0
+cp -r bin/bootstrap-4.0.0/* $dir0/
 OUTPUT="index.html"
-echo '<table style="">' > $dir0/$OUTPUT
+#htmlheader=$(cat bin/bootstrap-4.0.0/indexHeader.html)
+#htmlfooter=$(cat bin/bootstrap-4.0.0/indexFooter.html)
+cat bin/bootstrap-4.0.0/indexHeader.html > $dir0/$OUTPUT
+echo '<table style="">' >> $dir0/$OUTPUT
 echo '<tr>' >> $dir0/$OUTPUT
 echo '<th>Namespace</th>' >> $dir0/$OUTPUT
 echo '<th>PDF Files</th>' >> $dir0/$OUTPUT
@@ -47,5 +51,7 @@ for d in */ ; do
 	cd ../NTO
 
 done
+rm -rf ../tmp
 cd ..
 echo '</table>' >> $dir0/$OUTPUT
+cat bin/bootstrap-4.0.0/indexFooter.html >> $dir0/$OUTPUT
