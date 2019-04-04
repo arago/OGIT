@@ -1,7 +1,8 @@
 #!/bin/sh
 
 dir0=downloads
-ldir=pdf
+pdfdir=pdf
+tmpdir=tmppdf
 rm -rf $dir0
 mkdir $dir0
 cp -r bin/bootstrap-4.0.0/* $dir0/
@@ -26,16 +27,16 @@ for d in */ ; do
 	#if [ "$target" != "Auth" ]; then
 #		continue
 #	fi
-	rm -rf ../tmp
-	mkdir ../tmp
-	cp ../$ldir/* ../tmp
-	echo '{\Large '$target'}' >> ../tmp/titletext.tex
-	java -jar ../bin/ogit-tools-jar-with-dependencies.jar -input ../ -output ../tmp/$target".java" -inputformat ttl -outputformat latex -filter $target
-	java -jar ../bin/ogit-tools-jar-with-dependencies.jar -input ../ -output ../tmp/ -inputformat ttl -outputformat dot -filter $target
+	rm -rf ../$tmpdir
+	mkdir ../$tmpdir
+	cp ../$pdfdir/* ../$tmpdir
+	echo '{\Large '$target'}' >> ../$tmpdir/titletext.tex
+	java -jar ../bin/ogit-tools-jar-with-dependencies.jar -input ../ -output ../$tmpdir/$target".java" -inputformat ttl -outputformat latex -filter $target
+	java -jar ../bin/ogit-tools-jar-with-dependencies.jar -input ../ -output ../$tmpdir/ -inputformat ttl -outputformat dot -filter $target
 	
-	#echo '/// @defgroup' $target $target | cat - ../tmp/$target".java" > temp && mv temp ../tmp/$target".java"
-	yes | cp $target/"README.md" ../tmp/$target".md"
-	cd ../tmp/
+	#echo '/// @defgroup' $target $target | cat - ../$tmpdir/$target".java" > temp && mv temp ../$tmpdir/$target".java"
+	yes | cp $target/"README.md" ../$tmpdir/$target".md"
+	cd ../$tmpdir/
 	dot -Tpng ontology.dot > ontology.png
 	doxygen ogit-doxyfile
 	cd latex/
@@ -51,7 +52,7 @@ for d in */ ; do
 	cd ../NTO
 
 done
-rm -rf ../tmp
+rm -rf ../$tmpdir
 cd ..
 echo '</table>' >> $dir0/$OUTPUT
 cat bin/bootstrap-4.0.0/indexFooter.html >> $dir0/$OUTPUT
