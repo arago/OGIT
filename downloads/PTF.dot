@@ -1,0 +1,5 @@
+digraph OGIT_ontology {
+   "ogit/PTF/Dummy" -> "ogit/PTF/Dummy" [label="ogit/relates    "];
+   "ogit/PTF/HiroTopology" -> "ogit/PTF/Test" [label="ogit/relates    "];
+   "ogit/PTF/Test" -> "ogit/PTF/HiroTopology" [label="ogit/relates    "];
+}

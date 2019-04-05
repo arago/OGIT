@@ -1,0 +1,54 @@
+digraph OGIT_ontology {
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/Estimate" -> "ogit/OSLC-ems/MeasureDistribution" [label="ogit/OSLC-ems/predicts    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/Mapping" -> "ogit/OSLC-ems/DimensionMember" [label="ogit/OSLC-ems/to    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/Service" -> "ogit/OSLC-ems/ProjectList" [label="ogit/OSLC-ems/projectList    "];
+   "ogit/OSLC-ems/QuantileFunction" -> "ogit/OSLC-ems/Quantile" [label="ogit/OSLC-ems/quantile    "];
+   "ogit/OSLC-ems/Service" -> "ogit/OSLC-ems/ScenarioList" [label="ogit/OSLC-ems/scenarioList    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/Measure" -> "ogit/OSLC-ems/UnitOfMeasure" [label="ogit/OSLC-ems/unitOfMeasure    "];
+   "ogit/OSLC-ems/ScenarioList" -> "ogit/OSLC-ems/Scenario" [label="ogit/OSLC-ems/memberScenario    "];
+   "ogit/OSLC-ems/Estimate" -> "ogit/OSLC-ems/FactDistributionTable" [label="ogit/OSLC-ems/predictsTable    "];
+   "ogit/OSLC-ems/BaselineList" -> "ogit/OSLC-ems/Baseline" [label="ogit/OSLC-ems/memberBaseline    "];
+   "ogit/OSLC-ems/Scenario" -> "ogit/OSLC-ems/WorkBreakdownStructure" [label="ogit/OSLC-ems/assumesWbs    "];
+   "ogit/OSLC-ems/CumulativeDistributionFunction" -> "ogit/OSLC-ems/CdfPoint" [label="ogit/OSLC-ems/cdfPoint    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/Scenario" -> "ogit/OSLC-ems/Scenario" [label="ogit/OSLC-ems/extendsScenario    "];
+   "ogit/OSLC-ems/Project" -> "ogit/OSLC-ems/Baseline" [label="ogit/OSLC-ems/currentBaseline    "];
+   "ogit/OSLC-ems/ProjectList" -> "ogit/OSLC-ems/Project" [label="ogit/OSLC-ems/memberProject    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/Service" -> "ogit/OSLC-ems/BaselineList" [label="ogit/OSLC-ems/baselineList    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/Estimate" -> "ogit/OSLC-ems/WorkBreakdownStructure" [label="ogit/OSLC-ems/predictsWbs    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/Map" -> "ogit/OSLC-ems/Mapping" [label="ogit/OSLC-ems/mapping    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/MeasurementList" -> "ogit/OSLC-ems/Measurement" [label="ogit/OSLC-ems/memberMeasurement    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/Service" -> "ogit/OSLC-ems/MeasurementList" [label="ogit/OSLC-ems/measurementList    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-ems/WorkBreakdownStructure" -> "ogit/OSLC-ems/WbsFormat" [label="ogit/OSLC-ems/wbsFormat    "];
+   "ogit/OSLC-ems/Service" -> "ogit/OSLC-ems/EstimateList" [label="ogit/OSLC-ems/estimateList    "];
+   "ogit/OSLC-ems/Scenario" -> "ogit/OSLC-ems/MeasureDistribution" [label="ogit/OSLC-ems/assumes    "];
+   "ogit/OSLC-ems/Scenario" -> "ogit/OSLC-ems/FactDistributionTable" [label="ogit/OSLC-ems/assumesTable    "];
+}

@@ -1,0 +1,8 @@
+digraph OGIT_ontology {
+   "ogit/Factory/ProductionLine" -> "ogit/Factory/Machine" [label="ogit/contains    "];
+   "ogit/Factory/Factory" -> "ogit/Factory/ProductionLine" [label="ogit/Factory/hasAl    "];
+   "ogit/Factory/Factory" -> "ogit/Location" [label="ogit/locatedIn    "];
+   "ogit/Factory/ProductionLine" -> "ogit/Product" [label="ogit/produces    "];
+   "ogit/Factory/Factory" -> "ogit/Factory/StorageInventory" [label="ogit/uses    "];
+   "ogit/Factory/Factory" -> "ogit/Factory/StorageTank" [label="ogit/uses    "];
+}

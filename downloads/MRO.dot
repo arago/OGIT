@@ -1,0 +1,27 @@
+digraph OGIT_ontology {
+   "ogit/MRO/Aviation/MPD" -> "ogit/MRO/Aviation/MPD" [label="ogit/MRO/Aviation/conflictsWith    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/MRO/Aviation/Capability" -> "ogit/Person" [label="ogit/MRO/Aviation/suppliedBy    "];
+   "ogit/MRO/Aviation/Workstation" -> "ogit/MRO/Aviation/Aircraft" [label="ogit/worksOn    "];
+   "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/AircraftType" [label="ogit/MRO/Aviation/linksTo    "];
+   "ogit/MRO/Aviation/MPD" -> "ogit/MRO/Aviation/MPD" [label="ogit/includes    "];
+   "ogit/MRO/Aviation/Layover" -> "ogit/MRO/Aviation/Aircraft" [label="ogit/MRO/Aviation/overhaul    "];
+   "ogit/MRO/Aviation/MPD" -> "ogit/MRO/Aviation/MPD" [label="ogit/MRO/Aviation/alternatesWith    "];
+   "ogit/MRO/Aviation/Aircraft" -> "ogit/Location" [label="ogit/locatedIn    "];
+   "ogit/MRO/Aviation/Aircraft" -> "ogit/MRO/Aviation/Bay" [label="ogit/locatedIn    "];
+   "ogit/MRO/Aviation/Airport" -> "ogit/Location" [label="ogit/locatedIn    "];
+   "ogit/MRO/Aviation/Workstation" -> "ogit/MRO/Aviation/Bay" [label="ogit/locatedIn    "];
+   "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/Component" [label="ogit/affects    "];
+   "ogit/MRO/Aviation/AircraftType" -> "ogit/MRO/Aviation/Aircraft" [label="ogit/MRO/Aviation/characterize    "];
+   "ogit/MRO/Aviation/MPD" -> "ogit/MRO/Aviation/MPD" [label="ogit/requires    "];
+   "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/Capability" [label="ogit/requires    "];
+   "ogit/Organization" -> "ogit/MRO/Aviation/Aircraft" [label="ogit/owns    "];
+   "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/Workstation" [label="ogit/MRO/Aviation/performedAt    "];
+   "ogit/MRO/Aviation/Bay" -> "ogit/MRO/Aviation/Facility" [label="ogit/belongs    "];
+   "ogit/MRP/Workshop" -> "ogit/MRO/Aviation/Facility" [label="ogit/belongs    "];
+   "ogit/MRO/Aviation/MPD" -> "ogit/MRO/Aviation/MPD" [label="ogit/MRO/Aviation/references    "];
+   "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/MPD" [label="ogit/MRO/Aviation/references    "];
+   "ogit/MRO/Aviation/Component" -> "ogit/MRO/Aviation/AircraftType" [label="ogit/MRO/Aviation/suit    "];
+   "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/Layover" [label="ogit/relates    "];
+   "ogit/Organization" -> "ogit/MRO/Aviation/Layover" [label="ogit/MRO/Aviation/orders    "];
+}

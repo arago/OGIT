@@ -1,0 +1,25 @@
+digraph OGIT_ontology {
+   "ogit/Software/Application" -> "ogit/Software/SoftwareComponent" [label="ogit/contains    "];
+   "ogit/Software/SoftwareComponent" -> "ogit/Software/SoftwareComponent" [label="ogit/contains    "];
+   "ogit/Organization" -> "ogit/Software/Application" [label="ogit/manages    "];
+   "ogit/Person" -> "ogit/Software/Application" [label="ogit/manages    "];
+   "ogit/Software/Application" -> "ogit/Timeseries" [label="ogit/generates    "];
+   "ogit/Software/Application" -> "ogit/Notification" [label="ogit/sends    "];
+   "ogit/Software/Connector" -> "ogit/ServiceManagement/ChangeRequest" [label="ogit/creates    "];
+   "ogit/Software/Connector" -> "ogit/ConfigurationItem" [label="ogit/creates    "];
+   "ogit/Software/Connector" -> "ogit/Event" [label="ogit/creates    "];
+   "ogit/Software/Connector" -> "ogit/ServiceManagement/Incident" [label="ogit/creates    "];
+   "ogit/Software/Application" -> "ogit/ServiceManagement/SLA" [label="ogit/complies    "];
+   "ogit/Software/SoftwareComponent" -> "ogit/Software/SoftwareComponent" [label="ogit/connects    "];
+   "ogit/Automation/MARSNode" -> "ogit/Software/Application" [label="ogit/corresponds    "];
+   "ogit/Person" -> "ogit/Software/Application" [label="ogit/installs    "];
+   "ogit/Software/SoftwareConnection" -> "ogit/Software/Data" [label="ogit/transfers    "];
+   "ogit/Software/SoftwareConnection" -> "ogit/Network/NetworkLink" [label="ogit/transfers    "];
+   "ogit/ServiceManagement/Service" -> "ogit/Software/Application" [label="ogit/implements    "];
+   "ogit/Person" -> "ogit/Software/Application" [label="ogit/owns    "];
+   "ogit/Software/Application" -> "ogit/Organization" [label="ogit/belongs    "];
+   "ogit/Software/SoftwareComponent" -> "ogit/Automation/MARSNode" [label="ogit/uses    "];
+   "ogit/Software/SoftwareConnection" -> "ogit/Software/SoftwareComponent" [label="ogit/uses    "];
+   "ogit/Person" -> "ogit/Software/Application" [label="ogit/uses    "];
+   "ogit/Software/Application" -> "ogit/License" [label="ogit/relates    "];
+}

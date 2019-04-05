@@ -1,0 +1,15 @@
+digraph OGIT_ontology {
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/Automation/KnowledgeItem" -> "ogit/OSLC-crtv/ServiceInstance" [label="ogit/deployedTo    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-crtv/ServiceInstance" -> "ogit/MARS/Machine" [label="ogit/OSLC-crtv/runsOn    "];
+   "ogit/OSLC-crtv/ServiceInstance" -> "ogit/Automation/MARSNode" [label="ogit/OSLC-crtv/runsOn    "];
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+   "ogit/OSLC-crtv/ServiceInstance" -> "ogit/Automation/KnowledgePool" [label="ogit/uses    "];
+   "ogit/Person" -> "ogit/OSLC-crtv/ServiceInstance" [label="ogit/uses    "];
+}

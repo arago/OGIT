@@ -1,0 +1,7 @@
+digraph OGIT_ontology {
+   "ogit/Automation/MARSNode" -> "ogit/Data/Log" [label="ogit/generates    "];
+   "ogit/MARS/Application" -> "ogit/Data/Log" [label="ogit/generates    "];
+   "ogit/MARS/Machine" -> "ogit/Data/Log" [label="ogit/generates    "];
+   "ogit/MARS/Resource" -> "ogit/Data/Log" [label="ogit/generates    "];
+   "ogit/MARS/Software" -> "ogit/Data/Log" [label="ogit/generates    "];
+}

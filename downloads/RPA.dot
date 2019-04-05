@@ -1,0 +1,7 @@
+digraph OGIT_ontology {
+   "ogit/RPA/Robot" -> "ogit/RPA/RoboticEnvironment" [label="ogit/RPA/Operates    "];
+   "ogit/RPA/Robot" -> "ogit/RPA/Object" [label="ogit/belongs    "];
+   "ogit/RPA/Robot" -> "ogit/RPA/Controller" [label="ogit/consistsOf    "];
+   "ogit/RPA/Robot" -> "ogit/RPA/Sensor" [label="ogit/consistsOf    "];
+   "ogit/RPA/Robot" -> "ogit/RPA/RoboticSystem" [label="ogit/isPartOf    "];
+}

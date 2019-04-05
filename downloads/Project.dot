@@ -1,0 +1,28 @@
+digraph OGIT_ontology {
+   "ogit/Person" -> "ogit/Project/Project" [label="ogit/manages    "];
+   "ogit/Auth/Account" -> "ogit/Project/Milestone" [label="ogit/supports    "];
+   "ogit/Auth/Account" -> "ogit/Project/Project" [label="ogit/supports    "];
+   "ogit/Auth/Organization" -> "ogit/Project/Project" [label="ogit/supports    "];
+   "ogit/Organization" -> "ogit/Project/Project" [label="ogit/supports    "];
+   "ogit/Person" -> "ogit/Project/Milestone" [label="ogit/supports    "];
+   "ogit/Person" -> "ogit/Project/Project" [label="ogit/supports    "];
+   "ogit/Auth/Account" -> "ogit/Project/Project" [label="ogit/supervises    "];
+   "ogit/Person" -> "ogit/Project/Project" [label="ogit/supervises    "];
+   "ogit/Auth/Account" -> "ogit/Project/Milestone" [label="ogit/consumes    "];
+   "ogit/Auth/Account" -> "ogit/Project/Project" [label="ogit/consumes    "];
+   "ogit/Auth/Organization" -> "ogit/Project/Project" [label="ogit/consumes    "];
+   "ogit/Organization" -> "ogit/Project/Project" [label="ogit/consumes    "];
+   "ogit/Person" -> "ogit/Project/Milestone" [label="ogit/consumes    "];
+   "ogit/Person" -> "ogit/Project/Project" [label="ogit/consumes    "];
+   "ogit/Auth/Account" -> "ogit/Project/Milestone" [label="ogit/produces    "];
+   "ogit/Auth/Account" -> "ogit/Project/Project" [label="ogit/produces    "];
+   "ogit/Auth/Organization" -> "ogit/Project/Project" [label="ogit/produces    "];
+   "ogit/Organization" -> "ogit/Project/Project" [label="ogit/produces    "];
+   "ogit/Person" -> "ogit/Project/Milestone" [label="ogit/produces    "];
+   "ogit/Person" -> "ogit/Project/Project" [label="ogit/produces    "];
+   "ogit/Project/Milestone" -> "ogit/Project/Project" [label="ogit/belongs    "];
+   "ogit/Survey/Iteration" -> "ogit/Project/Milestone" [label="ogit/belongs    "];
+   "ogit/Survey/Iteration" -> "ogit/Project/Project" [label="ogit/belongs    "];
+   "ogit/Survey/Survey" -> "ogit/Project/Milestone" [label="ogit/belongs    "];
+   "ogit/Survey/Survey" -> "ogit/Project/Project" [label="ogit/belongs    "];
+}

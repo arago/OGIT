@@ -1,0 +1,3 @@
+digraph OGIT_ontology {
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+}

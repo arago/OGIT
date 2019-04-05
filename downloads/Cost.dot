@@ -1,0 +1,17 @@
+digraph OGIT_ontology {
+   "ogit/Cost/CostDistribution" -> "ogit/Cost/CostElement" [label="ogit/contains    "];
+   "ogit/Cost/PlanningTemplate" -> "ogit/Cost/PlanningTemplate" [label="ogit/contains    "];
+   "ogit/ServiceManagement/Offering" -> "ogit/Cost/CostElement" [label="ogit/contains    "];
+   "ogit/Cost/PlanningParameter" -> "ogit/Parameter" [label="ogit/specifies    "];
+   "ogit/Cost/Budget" -> "ogit/Cost/CostElement" [label="ogit/covers    "];
+   "ogit/Parameter" -> "ogit/Cost/CostElement" [label="ogit/describes    "];
+   "ogit/Cost/CostElement" -> "ogit/Cost/CostDistribution" [label="ogit/contributes    "];
+   "ogit/Automation/MARSNode" -> "ogit/Cost/CostElement" [label="ogit/associates    "];
+   "ogit/Automation/MARSNodeTemplate" -> "ogit/Cost/CostElement" [label="ogit/associates    "];
+   "ogit/Asset" -> "ogit/Cost/CostElement" [label="ogit/associates    "];
+   "ogit/Person" -> "ogit/Cost/Budget" [label="ogit/uses    "];
+   "ogit/Cost/PlanningTemplate" -> "ogit/Automation/MARSModelTemplate" [label="ogit/plans    "];
+   "ogit/Cost/PlanningTemplate" -> "ogit/Cost/CostElement" [label="ogit/plans    "];
+   "ogit/Organization" -> "ogit/Cost/Budget" [label="ogit/plans    "];
+   "ogit/Cost/PlanningParameter" -> "ogit/Cost/PlanningTemplate" [label="ogit/assumes    "];
+}

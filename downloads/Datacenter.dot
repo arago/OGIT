@@ -1,0 +1,35 @@
+digraph OGIT_ontology {
+   "ogit/Datacenter/Building" -> "ogit/Datacenter/Datacenter" [label="ogit/contains    "];
+   "ogit/Datacenter/Building" -> "ogit/Datacenter/Room" [label="ogit/contains    "];
+   "ogit/Datacenter/Rack" -> "ogit/Datacenter/Sensor" [label="ogit/contains    "];
+   "ogit/Datacenter/Rack" -> "ogit/Datacenter/PowerDistributionUnit" [label="ogit/contains    "];
+   "ogit/Datacenter/Rack" -> "ogit/Device" [label="ogit/contains    "];
+   "ogit/Datacenter/Room" -> "ogit/Datacenter/Rack" [label="ogit/contains    "];
+   "ogit/Datacenter/Room" -> "ogit/Datacenter/Cooling" [label="ogit/contains    "];
+   "ogit/Datacenter/Room" -> "ogit/Datacenter/Sensor" [label="ogit/contains    "];
+   "ogit/Datacenter/Room" -> "ogit/Datacenter/Section" [label="ogit/contains    "];
+   "ogit/Datacenter/Section" -> "ogit/Datacenter/Sensor" [label="ogit/contains    "];
+   "ogit/Datacenter/Section" -> "ogit/Datacenter/Rack" [label="ogit/contains    "];
+   "ogit/Device" -> "ogit/Datacenter/Sensor" [label="ogit/contains    "];
+   "ogit/Organization" -> "ogit/Datacenter/Room" [label="ogit/manages    "];
+   "ogit/Organization" -> "ogit/Datacenter/Rack" [label="ogit/manages    "];
+   "ogit/Organization" -> "ogit/Datacenter/Datacenter" [label="ogit/manages    "];
+   "ogit/Organization" -> "ogit/Datacenter/Cooling" [label="ogit/manages    "];
+   "ogit/Organization" -> "ogit/Datacenter/Building" [label="ogit/manages    "];
+   "ogit/Person" -> "ogit/Datacenter/Room" [label="ogit/manages    "];
+   "ogit/Person" -> "ogit/Datacenter/Rack" [label="ogit/manages    "];
+   "ogit/Person" -> "ogit/Datacenter/Datacenter" [label="ogit/manages    "];
+   "ogit/Person" -> "ogit/Datacenter/Cooling" [label="ogit/manages    "];
+   "ogit/Person" -> "ogit/Datacenter/Building" [label="ogit/manages    "];
+   "ogit/Datacenter/Server" -> "ogit/Timeseries" [label="ogit/generates    "];
+   "ogit/Asset" -> "ogit/Datacenter/Rack" [label="ogit/describes    "];
+   "ogit/Asset" -> "ogit/Datacenter/PowerDistributionUnit" [label="ogit/describes    "];
+   "ogit/Asset" -> "ogit/Datacenter/Cooling" [label="ogit/describes    "];
+   "ogit/Device" -> "ogit/Datacenter/PowerDistributionUnit" [label="ogit/connects    "];
+   "ogit/Device" -> "ogit/Datacenter/UPS" [label="ogit/connects    "];
+   "ogit/Datacenter/Datacenter" -> "ogit/Location" [label="ogit/locatedIn    "];
+   "ogit/Datacenter/Server" -> "ogit/Device" [label="ogit/corresponds    "];
+   "ogit/Datacenter/Storage" -> "ogit/Device" [label="ogit/corresponds    "];
+   "ogit/Datacenter/UPS" -> "ogit/Device" [label="ogit/corresponds    "];
+   "ogit/ConfigurationItem" -> "ogit/Datacenter/Server" [label="ogit/relates    "];
+}

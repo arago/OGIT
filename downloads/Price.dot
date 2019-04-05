@@ -1,0 +1,5 @@
+digraph OGIT_ontology {
+   "ogit/Price/Invoice" -> "ogit/ServiceManagement/Order" [label="ogit/bills    "];
+   "ogit/ServiceManagement/Report" -> "ogit/Price/Invoice" [label="ogit/generates    "];
+   "ogit/Parameter" -> "ogit/Price/PriceSpecification" [label="ogit/specifies    "];
+}

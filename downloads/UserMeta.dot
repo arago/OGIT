@@ -1,0 +1,9 @@
+digraph OGIT_ontology {
+   "ogit/Auth/Account" -> "ogit/UserMeta/Filter" [label="ogit/defines    "];
+   "ogit/Person" -> "ogit/UserMeta/Filter" [label="ogit/defines    "];
+   "ogit/UserMeta/Game" -> "ogit/UserMeta/Question" [label="ogit/UserMeta/asks    "];
+   "ogit/Person" -> "ogit/UserMeta/Preferences" [label="ogit/likes    "];
+   "ogit/Person" -> "ogit/UserMeta/Game" [label="ogit/UserMeta/loses    "];
+   "ogit/Person" -> "ogit/UserMeta/Game" [label="ogit/UserMeta/plays    "];
+   "ogit/Person" -> "ogit/UserMeta/Game" [label="ogit/UserMeta/wins    "];
+}
