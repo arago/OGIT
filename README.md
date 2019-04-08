@@ -38,6 +38,7 @@ The following links provide more information on OGIT and GraphIT.
 (Pages updated on daily basis)
 
 * [OGIT documentation](https://arago.github.io/OGIT/) for all elements of the OGIT ontology
+* [OGIT namespace documentation](https://arago.github.io/OGIT/)- documentation as PDF and Diagram for each namespace of the OGIT ontology
 * [GraphIT developer resources](https://docs.hiro.arago.co) (free registration required)
 
 ### namespace specific Documentation
