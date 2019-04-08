@@ -1,6 +1,6 @@
 digraph OGIT_ontology {
- graph [ rankdir= LR,compound=true 
-fontsize = 36,
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
 fontcolor= dodgerblue3,label = "\n\n\nNamespace: MRP, \n 04/08/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
@@ -25,9 +25,7 @@ edge [  color="gray81"];
    "ogit/MRP/Disposet" -> "ogit/MRP/PSG" [label="   ogit/belongs    "];
    "ogit/MRP/Workshop" -> "ogit/MRO/Aviation/Facility" [label="   ogit/belongs    "];
    "ogit/MRP/Workshop" -> "ogit/Organization" [label="   ogit/belongs    "];
-   "ogit/MRP/Part" -> "ogit/MRP/Part" [label="   ogit/consistsOf  
-  "];
    "ogit/MRP/Manufacturer" -> "ogit/Organization" [label="   ogit/relates    "];
-   "ogit/MRP/Threshold" -> "ogit/MRP/Threshold" [label="   ogit/relates  
-  "];
+   "ogit/MRP/Threshold" -> "ogit/MRP/Threshold" [label="   ogit/relates    "];
+   "ogit/MRP/Part" -> "ogit/MRP/Part" [label="   ogit/consistsOf    "];
 }

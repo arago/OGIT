@@ -1,6 +1,6 @@
 digraph OGIT_ontology {
- graph [ rankdir= LR,compound=true 
-fontsize = 36,
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
 fontcolor= dodgerblue3,label = "\n\n\nNamespace: Forum, \n 04/08/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
@@ -11,8 +11,6 @@ edge [  color="gray81"];
    "ogit/Forum/Profile" -> "ogit/Forum/KnowledgeItemHistory" [label="   ogit/endorses    "];
    "ogit/Forum/Profile" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/endorses    "];
    "ogit/Forum/Post" -> "ogit/Forum/Profile" [label="   ogit/Forum/mentions    "];
-   "ogit/Forum/Profile" -> "ogit/Forum/Profile" [label="   ogit/Forum/mentions  
-  "];
    "ogit/Forum/Reply" -> "ogit/Forum/Profile" [label="   ogit/Forum/mentions    "];
    "ogit/Comment" -> "ogit/Forum/Profile" [label="   ogit/Forum/mentions    "];
    "ogit/Forum/KnowledgeBundle" -> "ogit/Automation/AutomationIssue" [label="   ogit/contains    "];
@@ -41,10 +39,6 @@ edge [  color="gray81"];
    "ogit/Forum/ShortId" -> "ogit/Automation/KnowledgeItem" [label="   ogit/specifies    "];
    "ogit/Forum/ShortId" -> "ogit/Forum/Post" [label="   ogit/specifies    "];
    "ogit/Forum/Profile" -> "ogit/Forum/Invite" [label="   ogit/accepts    "];
-   "ogit/Forum/Award" -> "ogit/Forum/Award" [label="   ogit/precedes  
-  "];
-   "ogit/Forum/FeedEntry" -> "ogit/Forum/FeedEntry" [label="   ogit/precedes  
-  "];
    "ogit/Forum/Profile" -> "ogit/Forum/Review" [label="   ogit/creates    "];
    "ogit/Forum/Profile" -> "ogit/Forum/WorkflowTemplate" [label="   ogit/creates    "];
    "ogit/Forum/Profile" -> "ogit/Forum/KnowledgeBundleHistory" [label="   ogit/creates    "];
@@ -62,8 +56,6 @@ edge [  color="gray81"];
    "ogit/Forum/Profile" -> "ogit/Comment" [label="   ogit/creates    "];
    "ogit/Forum/Profile" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/creates    "];
    "ogit/Forum/Group" -> "ogit/Forum/Role" [label="   ogit/associates    "];
-   "ogit/Forum/KnowledgeItemHistory" -> "ogit/Forum/KnowledgeItemHistory" [label="   ogit/associates  
-  "];
    "ogit/Forum/Group" -> "ogit/Forum/WorkflowStep" [label="   ogit/moderates    "];
    "ogit/Forum/Profile" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/moderates    "];
    "ogit/Forum/Profile" -> "ogit/Forum/Topic" [label="   ogit/moderates    "];
@@ -80,8 +72,6 @@ edge [  color="gray81"];
    "ogit/Forum/KnowledgeBundle" -> "ogit/Forum/Topic" [label="   ogit/connects    "];
    "ogit/Forum/KnowledgeBundle" -> "ogit/Comment" [label="   ogit/connects    "];
    "ogit/Forum/KnowledgeBundle" -> "ogit/Forum/Reply" [label="   ogit/connects    "];
-   "ogit/Forum/KnowledgeBundle" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/connects  
-  "];
    "ogit/Forum/KnowledgeBundle" -> "ogit/Automation/KnowledgeItem" [label="   ogit/connects    "];
    "ogit/Forum/KnowledgeBundle" -> "ogit/Forum/Post" [label="   ogit/connects    "];
    "ogit/Forum/KnowledgeBundle" -> "ogit/Hyperlink" [label="   ogit/connects    "];
@@ -92,8 +82,6 @@ edge [  color="gray81"];
    "ogit/Forum/KnowledgeItemHistory" -> "ogit/Comment" [label="   ogit/connects    "];
    "ogit/Forum/KnowledgeItemHistory" -> "ogit/Forum/Reply" [label="   ogit/connects    "];
    "ogit/Forum/KnowledgeItemHistory" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/connects    "];
-   "ogit/Forum/KnowledgeItemHistory" -> "ogit/Forum/KnowledgeItemHistory" [label="   ogit/connects  
-  "];
    "ogit/Forum/KnowledgeItemHistory" -> "ogit/Forum/Post" [label="   ogit/connects    "];
    "ogit/Forum/KnowledgeItemHistory" -> "ogit/Hyperlink" [label="   ogit/connects    "];
    "ogit/Forum/Post" -> "ogit/Forum/WorkflowStep" [label="   ogit/connects    "];
@@ -104,15 +92,11 @@ edge [  color="gray81"];
    "ogit/Forum/Post" -> "ogit/Forum/Reply" [label="   ogit/connects    "];
    "ogit/Forum/Post" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/connects    "];
    "ogit/Forum/Post" -> "ogit/Automation/KnowledgeItem" [label="   ogit/connects    "];
-   "ogit/Forum/Post" -> "ogit/Forum/Post" [label="   ogit/connects  
-  "];
    "ogit/Forum/Post" -> "ogit/Hyperlink" [label="   ogit/connects    "];
    "ogit/Forum/Reply" -> "ogit/Forum/KnowledgeItemHistory" [label="   ogit/connects    "];
    "ogit/Forum/Reply" -> "ogit/Forum/Profile" [label="   ogit/connects    "];
    "ogit/Forum/Reply" -> "ogit/Forum/Topic" [label="   ogit/connects    "];
    "ogit/Forum/Reply" -> "ogit/Comment" [label="   ogit/connects    "];
-   "ogit/Forum/Reply" -> "ogit/Forum/Reply" [label="   ogit/connects  
-  "];
    "ogit/Forum/Reply" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/connects    "];
    "ogit/Forum/Reply" -> "ogit/Automation/KnowledgeItem" [label="   ogit/connects    "];
    "ogit/Forum/Reply" -> "ogit/Forum/Post" [label="   ogit/connects    "];
@@ -147,8 +131,6 @@ edge [  color="gray81"];
    "ogit/Forum/Configuration" -> "ogit/Forum/Profile" [label="   ogit/configures    "];
    "ogit/Forum/Reply" -> "ogit/Attachment" [label="   ogit/responds    "];
    "ogit/Forum/Reply" -> "ogit/Forum/Rating" [label="   ogit/responds    "];
-   "ogit/Forum/Reply" -> "ogit/Forum/Reply" [label="   ogit/responds  
-  "];
    "ogit/Forum/Reply" -> "ogit/Forum/WorkflowStep" [label="   ogit/responds    "];
    "ogit/Forum/Reply" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/responds    "];
    "ogit/Forum/Reply" -> "ogit/Forum/Post" [label="   ogit/responds    "];
@@ -172,8 +154,6 @@ edge [  color="gray81"];
    "ogit/Forum/Workflow" -> "ogit/Organization" [label="   ogit/belongs    "];
    "ogit/Forum/WorkflowTemplate" -> "ogit/Organization" [label="   ogit/belongs    "];
    "ogit/Forum/Profile" -> "ogit/Forum/FeedEntry" [label="   ogit/subscribes    "];
-   "ogit/Forum/Profile" -> "ogit/Forum/Profile" [label="   ogit/subscribes  
-  "];
    "ogit/Forum/Profile" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/subscribes    "];
    "ogit/Forum/Profile" -> "ogit/Forum/Post" [label="   ogit/subscribes    "];
    "ogit/Forum/Profile" -> "ogit/Forum/Topic" [label="   ogit/subscribes    "];
@@ -204,4 +184,11 @@ edge [  color="gray81"];
    "ogit/Forum/Reply" -> "ogit/Forum/Post" [label="   ogit/relates    "];
    "ogit/Forum/Reply" -> "ogit/Forum/KnowledgeItemHistory" [label="   ogit/relates    "];
    "ogit/Forum/Profile" -> "ogit/Forum/Award" [label="   ogit/wins    "];
+   "ogit/Forum/KnowledgeItemHistory" -> "ogit/Forum/KnowledgeItemHistory" [label="   ogit/associates, \n ogit/connects    "];
+   "ogit/Forum/KnowledgeBundle" -> "ogit/Forum/KnowledgeBundle" [label="   ogit/connects    "];
+   "ogit/Forum/Award" -> "ogit/Forum/Award" [label="   ogit/precedes    "];
+   "ogit/Forum/Profile" -> "ogit/Forum/Profile" [label="   ogit/Forum/mentions, \n ogit/subscribes    "];
+   "ogit/Forum/Reply" -> "ogit/Forum/Reply" [label="   ogit/connects, \n ogit/responds    "];
+   "ogit/Forum/FeedEntry" -> "ogit/Forum/FeedEntry" [label="   ogit/precedes    "];
+   "ogit/Forum/Post" -> "ogit/Forum/Post" [label="   ogit/connects    "];
 }

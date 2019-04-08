@@ -1,6 +1,6 @@
 digraph OGIT_ontology {
- graph [ rankdir= LR,compound=true 
-fontsize = 36,
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
 fontcolor= dodgerblue3,label = "\n\n\nNamespace: ServiceManagement, \n 04/08/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
@@ -48,11 +48,7 @@ edge [  color="gray81"];
    "ogit/ServiceManagement/Report" -> "ogit/Price/Invoice" [label="   ogit/generates    "];
    "ogit/ServiceManagement/Service" -> "ogit/ServiceManagement/Report" [label="   ogit/generates    "];
    "ogit/ServiceManagement/Offering" -> "ogit/Automation/MARSModelTemplate" [label="   ogit/specifies    "];
-   "ogit/ServiceManagement/Service" -> "ogit/ServiceManagement/Service" [label="   ogit/calls  
-  "];
    "ogit/ServiceManagement/Incident" -> "ogit/Task" [label="   ogit/opens    "];
-   "ogit/ServiceManagement/Problem" -> "ogit/ServiceManagement/Problem" [label="   ogit/opens  
-  "];
    "ogit/ServiceManagement/Service" -> "ogit/ServiceManagement/Ticket" [label="   ogit/opens    "];
    "ogit/ServiceManagement/Service" -> "ogit/ServiceManagement/Incident" [label="   ogit/opens    "];
    "ogit/Person" -> "ogit/ServiceManagement/SubTask" [label="   ogit/opens    "];
@@ -64,10 +60,6 @@ edge [  color="gray81"];
    "ogit/Parameter" -> "ogit/ServiceManagement/SLA" [label="   ogit/describes    "];
    "ogit/Parameter" -> "ogit/ServiceManagement/Service" [label="   ogit/describes    "];
    "ogit/Parameter" -> "ogit/ServiceManagement/Offering" [label="   ogit/describes    "];
-   "ogit/ServiceManagement/ApprovalTask" -> "ogit/ServiceManagement/ApprovalTask" [label="   ogit/precedes  
-  "];
-   "ogit/ServiceManagement/SubTask" -> "ogit/ServiceManagement/SubTask" [label="   ogit/precedes  
-  "];
    "ogit/ServiceManagement/Report" -> "ogit/ServiceManagement/Service" [label="   ogit/creates    "];
    "ogit/Software/Connector" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/creates    "];
    "ogit/Software/Connector" -> "ogit/ServiceManagement/Incident" [label="   ogit/creates    "];
@@ -128,11 +120,7 @@ edge [  color="gray81"];
    "ogit/ServiceManagement/Ticket" -> "ogit/MARS/Machine" [label="   ogit/affects    "];
    "ogit/ServiceManagement/Ticket" -> "ogit/Automation/MARSNode" [label="   ogit/affects    "];
    "ogit/ServiceManagement/Action" -> "ogit/ServiceManagement/Service" [label="   ogit/requires    "];
-   "ogit/ServiceManagement/Action" -> "ogit/ServiceManagement/Action" [label="   ogit/requires  
-  "];
    "ogit/ServiceManagement/Action" -> "ogit/CatalogItem" [label="   ogit/requires    "];
-   "ogit/ServiceManagement/Service" -> "ogit/ServiceManagement/Service" [label="   ogit/requires  
-  "];
    "ogit/ServiceManagement/Service" -> "ogit/ServiceManagement/Action" [label="   ogit/requires    "];
    "ogit/CatalogItem" -> "ogit/ServiceManagement/Service" [label="   ogit/requires    "];
    "ogit/CatalogItem" -> "ogit/ServiceManagement/Action" [label="   ogit/requires    "];
@@ -146,24 +134,14 @@ edge [  color="gray81"];
    "ogit/Person" -> "ogit/ServiceManagement/Problem" [label="   ogit/updates    "];
    "ogit/Person" -> "ogit/ServiceManagement/Incident" [label="   ogit/updates    "];
    "ogit/Person" -> "ogit/ServiceManagement/SubTask" [label="   ogit/updates    "];
-   "ogit/ServiceManagement/ChangeRequest" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/causes  
-  "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/ServiceManagement/Order" [label="   ogit/causes    "];
    "ogit/ServiceManagement/Incident" -> "ogit/ServiceManagement/Problem" [label="   ogit/causes    "];
-   "ogit/ServiceManagement/Incident" -> "ogit/ServiceManagement/Incident" [label="   ogit/causes  
-  "];
    "ogit/ServiceManagement/Incident" -> "ogit/Event" [label="   ogit/causes    "];
    "ogit/ServiceManagement/Incident" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/causes    "];
    "ogit/ServiceManagement/Incident" -> "ogit/ServiceManagement/Order" [label="   ogit/causes    "];
    "ogit/ServiceManagement/Order" -> "ogit/ServiceManagement/Ticket" [label="   ogit/causes    "];
    "ogit/ServiceManagement/Order" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/causes    "];
-   "ogit/ServiceManagement/Order" -> "ogit/ServiceManagement/Order" [label="   ogit/causes  
-  "];
-   "ogit/ServiceManagement/Problem" -> "ogit/ServiceManagement/Problem" [label="   ogit/causes  
-  "];
    "ogit/ServiceManagement/Problem" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/causes    "];
-   "ogit/ServiceManagement/Ticket" -> "ogit/ServiceManagement/Ticket" [label="   ogit/causes  
-  "];
    "ogit/Person" -> "ogit/ServiceManagement/Service" [label="   ogit/owns    "];
    "ogit/Person" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/closes    "];
    "ogit/Person" -> "ogit/ServiceManagement/Order" [label="   ogit/closes    "];
@@ -187,8 +165,6 @@ edge [  color="gray81"];
    "ogit/Comment" -> "ogit/ServiceManagement/Ticket" [label="   ogit/belongs    "];
    "ogit/Person" -> "ogit/ServiceManagement/Problem" [label="   ogit/reports    "];
    "ogit/Person" -> "ogit/ServiceManagement/Incident" [label="   ogit/reports    "];
-   "ogit/ServiceManagement/ChangeRequest" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/uses  
-  "];
    "ogit/ServiceManagement/Report" -> "ogit/Timeseries" [label="   ogit/uses    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/MARS/Machine" [label="   ogit/reportedOn    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/MARS/Software" [label="   ogit/reportedOn    "];
@@ -218,8 +194,6 @@ edge [  color="gray81"];
    "ogit/Policy" -> "ogit/ServiceManagement/Service" [label="   ogit/governs    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/ServiceManagement/Problem" [label="   ogit/relates    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/ServiceManagement/Incident" [label="   ogit/relates    "];
-   "ogit/ServiceManagement/ChangeRequest" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/relates  
-  "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/ServiceManagement/Order" [label="   ogit/relates    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/MARS/Machine" [label="   ogit/relates    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/MARS/Software" [label="   ogit/relates    "];
@@ -227,18 +201,12 @@ edge [  color="gray81"];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/MARS/Application" [label="   ogit/relates    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/Automation/MARSNode" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Incident" -> "ogit/ServiceManagement/Problem" [label="   ogit/relates    "];
-   "ogit/ServiceManagement/Incident" -> "ogit/ServiceManagement/Incident" [label="   ogit/relates  
-  "];
    "ogit/ServiceManagement/Incident" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Order" -> "ogit/ServiceManagement/Ticket" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Order" -> "ogit/ServiceManagement/Problem" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Order" -> "ogit/ServiceManagement/Incident" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Order" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/relates    "];
-   "ogit/ServiceManagement/Order" -> "ogit/ServiceManagement/Order" [label="   ogit/relates  
-  "];
    "ogit/ServiceManagement/Order" -> "ogit/Contract" [label="   ogit/relates    "];
-   "ogit/ServiceManagement/Problem" -> "ogit/ServiceManagement/Problem" [label="   ogit/relates  
-  "];
    "ogit/ServiceManagement/Problem" -> "ogit/ServiceManagement/Incident" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Problem" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Problem" -> "ogit/ServiceManagement/Order" [label="   ogit/relates    "];
@@ -247,9 +215,16 @@ edge [  color="gray81"];
    "ogit/ServiceManagement/Report" -> "ogit/MARS/Resource" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Report" -> "ogit/MARS/Application" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Report" -> "ogit/Automation/MARSNode" [label="   ogit/relates    "];
-   "ogit/ServiceManagement/Ticket" -> "ogit/ServiceManagement/Ticket" [label="   ogit/relates  
-  "];
    "ogit/Event" -> "ogit/ServiceManagement/Order" [label="   ogit/relates    "];
    "ogit/Event" -> "ogit/ServiceManagement/Incident" [label="   ogit/relates    "];
    "ogit/ServiceManagement/Offering" -> "ogit/Region" [label="   ogit/availableIn    "];
+   "ogit/ServiceManagement/ChangeRequest" -> "ogit/ServiceManagement/ChangeRequest" [label="   ogit/causes, \n ogit/uses, \n ogit/relates    "];
+   "ogit/ServiceManagement/Action" -> "ogit/ServiceManagement/Action" [label="   ogit/requires    "];
+   "ogit/ServiceManagement/Problem" -> "ogit/ServiceManagement/Problem" [label="   ogit/opens, \n ogit/causes, \n ogit/relates    "];
+   "ogit/ServiceManagement/ApprovalTask" -> "ogit/ServiceManagement/ApprovalTask" [label="   ogit/precedes    "];
+   "ogit/ServiceManagement/Service" -> "ogit/ServiceManagement/Service" [label="   ogit/calls, \n ogit/requires    "];
+   "ogit/ServiceManagement/Order" -> "ogit/ServiceManagement/Order" [label="   ogit/causes, \n ogit/relates    "];
+   "ogit/ServiceManagement/SubTask" -> "ogit/ServiceManagement/SubTask" [label="   ogit/precedes    "];
+   "ogit/ServiceManagement/Incident" -> "ogit/ServiceManagement/Incident" [label="   ogit/causes, \n ogit/relates    "];
+   "ogit/ServiceManagement/Ticket" -> "ogit/ServiceManagement/Ticket" [label="   ogit/causes, \n ogit/relates    "];
 }
