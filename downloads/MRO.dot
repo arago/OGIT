@@ -1,6 +1,10 @@
 digraph OGIT_ontology {
+ graph [ rankdir= LR,fontsize = 36,
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: MRO, \n 04/08/2019"];
+node[shape=polygon];
+edge [  color="gray81"];
+
    "ogit/MRO/Aviation/MPD" -> "ogit/MRO/Aviation/MPD" [label="ogit/MRO/Aviation/conflictsWith    "];
-"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
    "ogit/MRO/Aviation/Capability" -> "ogit/Person" [label="ogit/MRO/Aviation/suppliedBy    "];
    "ogit/MRO/Aviation/Workstation" -> "ogit/MRO/Aviation/Aircraft" [label="ogit/worksOn    "];
    "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/AircraftType" [label="ogit/MRO/Aviation/linksTo    "];

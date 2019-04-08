@@ -1,9 +1,8 @@
 digraph OGIT_ontology {
-"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
-"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
-"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
-"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
-"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
-"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+ graph [ rankdir= LR,fontsize = 36,
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: OSLC-reqman, \n 04/08/2019"];
+node[shape=polygon];
+edge [  color="gray81"];
+
 "No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
 }
