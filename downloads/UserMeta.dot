@@ -1,14 +1,15 @@
 digraph OGIT_ontology {
- graph [ rankdir= LR,fontsize = 36,
+ graph [ rankdir= LR,compound=true 
+fontsize = 36,
 fontcolor= dodgerblue3,label = "\n\n\nNamespace: UserMeta, \n 04/08/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
 
-   "ogit/Auth/Account" -> "ogit/UserMeta/Filter" [label="ogit/defines    "];
-   "ogit/Person" -> "ogit/UserMeta/Filter" [label="ogit/defines    "];
-   "ogit/UserMeta/Game" -> "ogit/UserMeta/Question" [label="ogit/UserMeta/asks    "];
-   "ogit/Person" -> "ogit/UserMeta/Preferences" [label="ogit/likes    "];
-   "ogit/Person" -> "ogit/UserMeta/Game" [label="ogit/UserMeta/loses    "];
-   "ogit/Person" -> "ogit/UserMeta/Game" [label="ogit/UserMeta/plays    "];
-   "ogit/Person" -> "ogit/UserMeta/Game" [label="ogit/UserMeta/wins    "];
+   "ogit/Auth/Account" -> "ogit/UserMeta/Filter" [label="   ogit/defines    "];
+   "ogit/Person" -> "ogit/UserMeta/Filter" [label="   ogit/defines    "];
+   "ogit/UserMeta/Game" -> "ogit/UserMeta/Question" [label="   ogit/UserMeta/asks    "];
+   "ogit/Person" -> "ogit/UserMeta/Preferences" [label="   ogit/likes    "];
+   "ogit/Person" -> "ogit/UserMeta/Game" [label="   ogit/UserMeta/loses    "];
+   "ogit/Person" -> "ogit/UserMeta/Game" [label="   ogit/UserMeta/plays    "];
+   "ogit/Person" -> "ogit/UserMeta/Game" [label="   ogit/UserMeta/wins    "];
 }
