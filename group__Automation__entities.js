@@ -1,5 +1,8 @@
 var group__Automation__entities =
 [
+    [ "ActionApplicability", "group__httpwwwpurlorgogitAutomationActionApplicability.html", null ],
+    [ "ActionCapability", "group__httpwwwpurlorgogitAutomationActionCapability.html", null ],
+    [ "ActionHandler", "group__httpwwwpurlorgogitAutomationActionHandler.html", null ],
     [ "AutomationIssue", "group__httpwwwpurlorgogitAutomationAutomationIssue.html", "group__httpwwwpurlorgogitAutomationAutomationIssue" ],
     [ "Configuration", "group__httpwwwpurlorgogitAutomationConfiguration.html", null ],
     [ "DynamicEngineData", "group__httpwwwpurlorgogitAutomationDynamicEngineData.html", null ],

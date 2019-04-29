@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Automation, \n 04/16/2019"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Automation, \n 04/29/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -85,8 +85,11 @@ edge [  color="gray81"];
    "ogit/Event" -> "ogit/Automation/MARSNode" [label="   ogit/affects    "];
    "ogit/OSLC-crtv/ServiceInstance" -> "ogit/Automation/MARSNode" [label="   ogit/OSLC-crtv/runsOn    "];
    "ogit/Automation/MARSModel" -> "ogit/ServiceManagement/Order" [label="   ogit/implements    "];
+   "ogit/Automation/ActionApplicability" -> "ogit/Automation/ActionCapability" [label="   ogit/provides    "];
+   "ogit/Automation/ActionHandler" -> "ogit/Automation/ActionApplicability" [label="   ogit/provides    "];
    "ogit/Organization" -> "ogit/Automation/MARSNode" [label="   ogit/owns    "];
    "ogit/Attachment" -> "ogit/Automation/MARSNode" [label="   ogit/belongs    "];
+   "ogit/Automation/Configuration" -> "ogit/Automation/ActionHandler" [label="   ogit/uses    "];
    "ogit/Automation/Configuration" -> "ogit/Automation/KIRanking" [label="   ogit/uses    "];
    "ogit/Automation/Configuration" -> "ogit/Automation/KnowledgePool" [label="   ogit/uses    "];
    "ogit/Automation/KnowledgePool" -> "ogit/Automation/KnowledgeItem" [label="   ogit/uses    "];

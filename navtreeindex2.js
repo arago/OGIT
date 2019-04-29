@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitOSLC-assetcategorization.html":[0,15,1,1],
+"group__httpwwwpurlorgogitOSLC-assetguid.html":[0,15,1,2],
+"group__httpwwwpurlorgogitOSLC-assetmodel.html":[0,15,1,3],
+"group__httpwwwpurlorgogitOSLC-assetrelationshipType.html":[0,15,1,4],
+"group__httpwwwpurlorgogitOSLC-assetsize.html":[0,15,1,5],
+"group__httpwwwpurlorgogitOSLC-assetstate.html":[0,15,1,6],
 "group__httpwwwpurlorgogitOSLC-assettag.html":[0,15,1,7],
 "group__httpwwwpurlorgogitOSLC-assetversion.html":[0,15,1,8],
 "group__httpwwwpurlorgogitOSLC-automationAutomationPlan.html":[0,16,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitOSLC-emsnumberOfQuantiles.html":[0,20,0,7],
 "group__httpwwwpurlorgogitOSLC-emsnumericValue.html":[0,20,0,8],
 "group__httpwwwpurlorgogitOSLC-emsobserves.html":[0,20,2,30],
-"group__httpwwwpurlorgogitOSLC-emsobservesTable.html":[0,20,2,31],
-"group__httpwwwpurlorgogitOSLC-emsobservesWbs.html":[0,20,2,32],
-"group__httpwwwpurlorgogitOSLC-emspredicts.html":[0,20,2,33],
-"group__httpwwwpurlorgogitOSLC-emspredictsTable.html":[0,20,2,34],
-"group__httpwwwpurlorgogitOSLC-emspredictsWbs.html":[0,20,2,35],
-"group__httpwwwpurlorgogitOSLC-emsprobability.html":[0,20,0,9],
-"group__httpwwwpurlorgogitOSLC-emsproject.html":[0,20,2,36]
+"group__httpwwwpurlorgogitOSLC-emsobservesTable.html":[0,20,2,31]
 };

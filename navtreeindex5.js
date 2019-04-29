@@ -1,5 +1,11 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogittransfers.html":[0,29,306],
+"group__httpwwwpurlorgogittriggers.html":[0,29,307],
+"group__httpwwwpurlorgogittype.html":[0,29,308],
+"group__httpwwwpurlorgogitunit.html":[0,29,309],
+"group__httpwwwpurlorgogitupdateCount.html":[0,29,310],
+"group__httpwwwpurlorgogitupdates.html":[0,29,311],
 "group__httpwwwpurlorgogiturgency.html":[0,29,312],
 "group__httpwwwpurlorgogituri.html":[0,29,313],
 "group__httpwwwpurlorgogiturl.html":[0,29,314],

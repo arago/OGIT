@@ -1,5 +1,11 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogit__modified-by-app.html":[0,29,57],
+"group__httpwwwpurlorgogit__modified-by.html":[0,29,56],
+"group__httpwwwpurlorgogit__modified-on.html":[0,29,58],
+"group__httpwwwpurlorgogit__organization.html":[0,29,59],
+"group__httpwwwpurlorgogit__owner.html":[0,29,60],
+"group__httpwwwpurlorgogit__reader.html":[0,29,61],
 "group__httpwwwpurlorgogit__scope.html":[0,29,62],
 "group__httpwwwpurlorgogit__source.html":[0,29,63],
 "group__httpwwwpurlorgogit__tags.html":[0,29,64],
@@ -243,11 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogittimestamp.html":[0,29,302],
 "group__httpwwwpurlorgogittitle.html":[0,29,303],
 "group__httpwwwpurlorgogittoken.html":[0,29,304],
-"group__httpwwwpurlorgogittracks.html":[0,29,305],
-"group__httpwwwpurlorgogittransfers.html":[0,29,306],
-"group__httpwwwpurlorgogittriggers.html":[0,29,307],
-"group__httpwwwpurlorgogittype.html":[0,29,308],
-"group__httpwwwpurlorgogitunit.html":[0,29,309],
-"group__httpwwwpurlorgogitupdateCount.html":[0,29,310],
-"group__httpwwwpurlorgogitupdates.html":[0,29,311]
+"group__httpwwwpurlorgogittracks.html":[0,29,305]
 };
