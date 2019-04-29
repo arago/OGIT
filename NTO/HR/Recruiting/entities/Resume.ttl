@@ -22,6 +22,7 @@ ogit.HR.Recruiting:Resume
     [ ogit:has  ogit.HR.Recruiting:Score ]
     [ ogit:contains  ogit.HR.Recruiting:Skill ]
     [ ogit:contains  ogit.HR.Recruiting:Education ]
+    [ ogit:contains  ogit.HR.Recruiting:WorkHistory ]
   );
 
 .
