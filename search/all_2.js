@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['balance',['balance',['../group__httpwwwpurlorgogitAccountingbalance.html',1,'']]],
   ['belongs',['belongs',['../group__httpwwwpurlorgogitAuthbelongs.html',1,'']]],
   ['basicconfigid',['basicConfigId',['../group__httpwwwpurlorgogitAutomationbasicConfigId.html',1,'']]],
   ['brand',['brand',['../group__httpwwwpurlorgogitAutomationbrand.html',1,'']]],
