@@ -11,15 +11,19 @@ ogit.PTF:HiroTopology
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		ogit.PTF:hiroVsn
-		ogit.PTF:revProxyAwsMachines
-		ogit.PTF:iamAwsMachines
-		ogit.PTF:graphAwsMachines
-		ogit.PTF:engineAwsMachines
-		ogit.PTF:dbAwsMachines
 	);
 	ogit:optional-attributes (
-            
+		ogit.PTF:hiroVsn
+		ogit.PTF:revProxyAwsMachineType
+		ogit.PTF:revProxyAwsMachineCnt
+		ogit.PTF:iamAwsMachineType
+		ogit.PTF:iamAwsMachineCnt
+		ogit.PTF:graphAwsMachineType
+		ogit.PTF:graphAwsMachineCnt
+		ogit.PTF:engineAwsMachineType
+		ogit.PTF:engineAwsMachineCnt
+		ogit.PTF:dbAwsMachineType
+		ogit.PTF:dbAwsMachineCnt
 	);
 	ogit:indexed-attributes (
 		ogit:name

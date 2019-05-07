@@ -4,11 +4,11 @@
 @prefix ogit.PTF:               <http://www.purl.org/ogit/PTF/> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.PTF:engineAwsMachines
+ogit.PTF:iamAwsMachineCnt
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "engineAwsMachines";
-	dcterms:description "A list of all engine machine-modell names which were used.";
+	rdfs:label "iamAwsMachineCnt";
+	dcterms:description "Amount of iam-machines inside a cluster or all-in-one HIRO.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2019-02-19;";
 	dcterms:creator "Thomas Gotwig";
