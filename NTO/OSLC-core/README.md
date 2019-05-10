@@ -1,0 +1,1 @@
+[OSLC](http://open-services.net/) is a collection of specifications for software integration. This module contains entities for [the OSLC core model](http://open-services.net/specifications/core-2.0).

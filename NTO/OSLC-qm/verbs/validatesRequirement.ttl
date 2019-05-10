@@ -1,0 +1,20 @@
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:      <http://purl.org/dc/terms/> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.OSLC-qm: <http://www.purl.org/ogit/OSLC-qm/> .
+@prefix ogit:         <http://www.purl.org/ogit/> .
+
+ogit.OSLC-qm:validatesRequirement
+	a owl:ObjectProperty;
+	rdfs:subPropertyOf ogit:Verb;
+	rdfs:label "validatesRequirement";
+	ogit:original <http://open-services.net/ns/qm#validatesRequirement>;
+	dcterms:description "Requirement that is validated by the Test Case. It is likely that the target resource will be an oslc_rm:Requirement but that is not necessarily the case.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2016-09-22;";
+	dcterms:creator "OGIT Importer";
+	ogit:hide "false";
+	ogit:cardinality "many2many";
+.

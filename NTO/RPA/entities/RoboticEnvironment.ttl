@@ -1,0 +1,26 @@
+@prefix ogit.RPA:        <http://www.purl.org/ogit/RPA/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.RPA:RoboticEnvironment
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "RoboticEnvironment";
+	dcterms:description "An known environment to Robot where its operates.";
+	dcterms:valid "start=2019-03-21;";
+	dcterms:creator "Kaushik Gondaliya";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+
+	);
+	ogit:optional-attributes (
+
+	);
+    ogit:indexed-attributes (
+    );
+    ogit:allowed (
+
+	);
+.

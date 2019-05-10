@@ -1,0 +1,25 @@
+@prefix ogit.HR.Recruiting:     <http://www.purl.org/ogit/HR/Recruiting/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.HR.Recruiting:Education
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Education";
+  dcterms:description "qualification awarded to students upon successful completion of a course or study";
+  dcterms:valid "start=2019-03-21;";
+  dcterms:creator "Kaushik Gondaliya";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+  );
+  ogit:optional-attributes (
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+
+  );
+
+.
