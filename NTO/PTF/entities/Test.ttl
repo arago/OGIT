@@ -13,11 +13,11 @@ ogit.PTF:Test
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
 	    ogit:name
-		ogit.PTF:duration
 		ogit.PTF:startTime
-        ogit.PTF:endTime
 	);
 	ogit:optional-attributes (
+		ogit.PTF:duration
+		ogit.PTF:endTime
 		ogit.PTF:hotTest
 		ogit.PTF:kisCnt
 		ogit.PTF:issuesCnt
