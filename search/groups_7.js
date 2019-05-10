@@ -9,7 +9,8 @@ var searchData=
   ['grain',['Grain',['../group__httpwwwpurlorgogitOSLC-emsGrain.html',1,'']]],
   ['grain',['grain',['../group__httpwwwpurlorgogitOSLC-emsgrain.html',1,'']]],
   ['garbagecollectionrequests',['GarbageCollectionRequests',['../group__httpwwwpurlorgogitOSLC-perfmonGarbageCollectionRequests.html',1,'']]],
-  ['graphawsmachines',['graphAwsMachines',['../group__httpwwwpurlorgogitPTFgraphAwsMachines.html',1,'']]],
+  ['graphawsmachinecnt',['graphAwsMachineCnt',['../group__httpwwwpurlorgogitPTFgraphAwsMachineCnt.html',1,'']]],
+  ['graphawsmachinetype',['graphAwsMachineType',['../group__httpwwwpurlorgogitPTFgraphAwsMachineType.html',1,'']]],
   ['graphnodescnt',['graphNodesCnt',['../group__httpwwwpurlorgogitPTFgraphNodesCnt.html',1,'']]],
   ['granularity',['granularity',['../group__httpwwwpurlorgogitServiceManagementgranularity.html',1,'']]],
   ['game',['Game',['../group__httpwwwpurlorgogitUserMetaGame.html',1,'']]]

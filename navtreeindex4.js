@@ -1,5 +1,10 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogit__deleted-on.html":[0,29,51],
+"group__httpwwwpurlorgogit__edge__id.html":[0,29,52],
+"group__httpwwwpurlorgogit__graphtype.html":[0,29,53],
+"group__httpwwwpurlorgogit__id.html":[0,29,54],
+"group__httpwwwpurlorgogit__is-deleted.html":[0,29,55],
 "group__httpwwwpurlorgogit__modified-by-app.html":[0,29,57],
 "group__httpwwwpurlorgogit__modified-by.html":[0,29,56],
 "group__httpwwwpurlorgogit__modified-on.html":[0,29,58],
@@ -244,10 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitsubscribes.html":[0,29,297],
 "group__httpwwwpurlorgogitsummary.html":[0,29,298],
 "group__httpwwwpurlorgogitsupervises.html":[0,29,299],
-"group__httpwwwpurlorgogitsupports.html":[0,29,300],
-"group__httpwwwpurlorgogittaskLog.html":[0,29,301],
-"group__httpwwwpurlorgogittimestamp.html":[0,29,302],
-"group__httpwwwpurlorgogittitle.html":[0,29,303],
-"group__httpwwwpurlorgogittoken.html":[0,29,304],
-"group__httpwwwpurlorgogittracks.html":[0,29,305]
+"group__httpwwwpurlorgogitsupports.html":[0,29,300]
 };
