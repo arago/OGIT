@@ -5,7 +5,7 @@
 
 ogit.Advertising:Creative
   a rdfs:Class;
-  rdfs:subClassOf obit:entity;
+  rdfs:subClassOf ogit:entity;
   rdfs:label "Creative";
   dcterms:description "The ad content";
   dcterms:valid "start=2019-05-10;";
