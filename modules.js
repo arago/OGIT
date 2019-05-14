@@ -1,5 +1,6 @@
 var modules =
 [
+    [ "Advertising", "group__Advertising.html", "group__Advertising" ],
     [ "Auth", "group__Auth.html", "group__Auth" ],
     [ "Automation", "group__Automation.html", "group__Automation" ],
     [ "Cost", "group__Cost.html", "group__Cost" ],

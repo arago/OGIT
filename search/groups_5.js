@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['entities',['Entities',['../group__Advertising__entities.html',1,'']]],
   ['entities',['Entities',['../group__Auth__entities.html',1,'']]],
   ['entities',['Entities',['../group__Automation__entities.html',1,'']]],
   ['entities',['Entities',['../group__Aviation__entities.html',1,'']]],

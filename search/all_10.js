@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['platform',['Platform',['../group__httpwwwpurlorgogitAdvertisingPlatform.html',1,'']]],
   ['parent',['parent',['../group__httpwwwpurlorgogitAuthApplicationparent.html',1,'']]],
   ['patchnumber',['patchNumber',['../group__httpwwwpurlorgogitAutomationpatchNumber.html',1,'']]],
   ['portnumber',['portNumber',['../group__httpwwwpurlorgogitAutomationportNumber.html',1,'']]],
