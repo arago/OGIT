@@ -6,7 +6,7 @@
 
 ogit.Advertising:Campaign
   a rdfs:Class;
-  rdfs:subClassOf ogit:entity;
+  rdfs:subClassOf ogit:Entity;
   rdfs:label "Campaign";
   dcterms:description "An advertising campaign";
   dcterms:valid "start=2019-05-10;";
