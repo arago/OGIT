@@ -1,0 +1,26 @@
+@prefix ogit.Advertising:       <http://www.purl.org/ogit/Advertising/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Advertising:Platform
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "RoleTitle";
+  dcterms:description "Platform or application on which a Campaign is run";
+  dcterms:valid "start=2019-05-10;";
+  dcterms:creator "Patrick Williamson";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+  );
+  ogit:optional-attributes (
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+    [ ogit:contains   ogit.Advertising:Campaign ]
+    [ ogit:contains   ogit.Advertising:Advertiser ]
+  );
+
+.
