@@ -20,7 +20,7 @@ ogit.Advertising:Advertiser
   ogit:indexed-attributes (
   );
   ogit:allowed (
-  [ ogit:contains   ogit.Advertiser:Campaign ]
+    [ ogit:contains   ogit.Advertising:Campaign ]
   );
 
 .

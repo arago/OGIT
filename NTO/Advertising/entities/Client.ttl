@@ -19,7 +19,7 @@ ogit.Advertising:Client
   ogit:indexed-attributes (
   );
   ogit:allowed (
-    [ ogit:owns  ogit.Advertiing:MediaPlan ]
+    [ ogit:owns  ogit.Advertising:MediaPlan ]
   );
 
 .

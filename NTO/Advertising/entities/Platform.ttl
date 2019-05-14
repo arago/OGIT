@@ -19,8 +19,8 @@ ogit.Advertising:Platform
   ogit:indexed-attributes (
   );
   ogit:allowed (
-    [ ogit:contains   ogit:Advertising.Campaign ]
-    [ ogit:contains   ogit:Advertising.Advertiser ]
+    [ ogit:contains   ogit.Advertising:Campaign ]
+    [ ogit:contains   ogit.Advertising:Advertiser ]
   );
 
 .
