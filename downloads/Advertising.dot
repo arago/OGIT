@@ -1,22 +1,26 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 05/23/2019"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 06/03/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/Advertising/Advertiser" -> "ogit/Advertising/Campaign" [label="   ogit/contains    "];
-   "ogit/Advertising/Platform" -> "ogit/Advertising/Campaign" [label="   ogit/contains    "];
    "ogit/Advertising/Platform" -> "ogit/Advertising/Advertiser" [label="   ogit/contains    "];
    "ogit/Advertising/CampaignManager" -> "ogit/Advertising/MediaPlan" [label="   ogit/manages    "];
+   "ogit/Advertising/CampaignManager" -> "ogit/Advertising/Campaign" [label="   ogit/manages    "];
+   "ogit/Advertising/Platform" -> "ogit/Advertising/Campaign" [label="   ogit/hosts    "];
+   "ogit/Advertising/Platform" -> "ogit/Advertising/InsertionOrder" [label="   ogit/hosts    "];
    "ogit/Advertising/CampaignManager" -> "ogit/Advertising/Platform" [label="   ogit/supervises    "];
    "ogit/Advertising/Campaign" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/Advertising/InsertionOrder" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/Advertising/LineItem" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/Advertising/MediaPlan" -> "ogit/Advertising/Campaign" [label="   ogit/includes    "];
-   "ogit/Advertising/Creative" -> "ogit/Advertising/Campaign" [label="   ogit/associates    "];
    "ogit/Advertising/Client" -> "ogit/Advertising/MediaPlan" [label="   ogit/owns    "];
+   "ogit/Advertising/Client" -> "ogit/Advertising/Campaign" [label="   ogit/owns    "];
+   "ogit/Advertising/InsertionOrder" -> "ogit/Advertising/Creative" [label="   ogit/uses    "];
    "ogit/Advertising/LineItem" -> "ogit/Advertising/Creative" [label="   ogit/uses    "];
    "ogit/Advertising/Campaign" -> "ogit/Advertising/InsertionOrder" [label="   ogit/consistsOf    "];
+   "ogit/Advertising/Campaign" -> "ogit/Advertising/Creative" [label="   ogit/consistsOf    "];
    "ogit/Advertising/InsertionOrder" -> "ogit/Advertising/LineItem" [label="   ogit/consistsOf    "];
 }
