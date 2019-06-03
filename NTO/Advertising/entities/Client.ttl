@@ -15,11 +15,15 @@ ogit.Advertising:Client
   ogit:mandatory-attributes (
   );
   ogit:optional-attributes (
+    ogit:description
+    ogit:name
+    ogit:type
   );
   ogit:indexed-attributes (
   );
   ogit:allowed (
     [ ogit:owns  ogit.Advertising:MediaPlan ]
+    [ ogit:owns  ogit.Advertising:Campaign ]
   );
 
 .

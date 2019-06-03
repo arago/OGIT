@@ -15,6 +15,9 @@ ogit.Advertising:MediaPlan
   ogit:mandatory-attributes (
   );
   ogit:optional-attributes (
+    ogit:description
+    ogit:name
+    ogit:type
   );
   ogit:indexed-attributes (
   );
