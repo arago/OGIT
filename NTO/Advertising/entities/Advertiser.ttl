@@ -16,6 +16,9 @@ ogit.Advertising:Advertiser
   );
   ogit:optional-attributes (
     ogit:category
+    ogit:description
+    ogit:name
+    ogit:type
   );
   ogit:indexed-attributes (
   );

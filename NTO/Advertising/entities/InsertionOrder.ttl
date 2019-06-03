@@ -15,12 +15,16 @@ ogit.Advertising:InsertionOrder
   ogit:mandatory-attributes (
   );
   ogit:optional-attributes (
+    ogit:description
+    ogit:name
+    ogit:type
   );
   ogit:indexed-attributes (
   );
   ogit:allowed (
     [ ogit:consistsOf  ogit.Advertising:LineItem ]
     [ ogit:generates   ogit:Timeseries ]
+    [ ogit:uses        ogit.Advertising:Creative ]
   );
 
 .
