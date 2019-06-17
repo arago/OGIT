@@ -32,6 +32,7 @@ IssueCondition is processed first.""";
 		ogit:creationTime
 		ogit.Automation:isDeployed
 		ogit.Automation:deployStatus
+    ogit.Automation:webhook
 	);
 	ogit:indexed-attributes (
 		ogit:subject
