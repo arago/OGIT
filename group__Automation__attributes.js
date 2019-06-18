@@ -96,5 +96,6 @@ var group__Automation__attributes =
     [ "virtualSystemName", "group__httpwwwpurlorgogitAutomationvirtualSystemName.html", null ],
     [ "virtualSystemType", "group__httpwwwpurlorgogitAutomationvirtualSystemType.html", null ],
     [ "webServer", "group__httpwwwpurlorgogitAutomationwebServer.html", null ],
+    [ "webhook", "group__httpwwwpurlorgogitAutomationwebhook.html", null ],
     [ "weightMap", "group__httpwwwpurlorgogitAutomationweightMap.html", null ]
 ];

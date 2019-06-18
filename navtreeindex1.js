@@ -43,7 +43,8 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitAutomationvirtualSystemName.html":[0,2,0,93],
 "group__httpwwwpurlorgogitAutomationvirtualSystemType.html":[0,2,0,94],
 "group__httpwwwpurlorgogitAutomationwebServer.html":[0,2,0,95],
-"group__httpwwwpurlorgogitAutomationweightMap.html":[0,2,0,96],
+"group__httpwwwpurlorgogitAutomationwebhook.html":[0,2,0,96],
+"group__httpwwwpurlorgogitAutomationweightMap.html":[0,2,0,97],
 "group__httpwwwpurlorgogitBatteryState.html":[0,30,4],
 "group__httpwwwpurlorgogitCatalog.html":[0,30,5],
 "group__httpwwwpurlorgogitCatalogItem.html":[0,30,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitNetworkPortChannel.html":[0,14,0,16],
 "group__httpwwwpurlorgogitNetworkRouter.html":[0,14,0,17],
 "group__httpwwwpurlorgogitNetworkShelf.html":[0,14,0,18],
-"group__httpwwwpurlorgogitNetworkSimpleDevice.html":[0,14,0,19],
-"group__httpwwwpurlorgogitNetworkSlot.html":[0,14,0,20]
+"group__httpwwwpurlorgogitNetworkSimpleDevice.html":[0,14,0,19]
 };

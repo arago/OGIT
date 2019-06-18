@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogitsoxClass.html":[0,30,289],
 "group__httpwwwpurlorgogitspecifies.html":[0,30,290],
 "group__httpwwwpurlorgogitstartedAt.html":[0,30,291],
 "group__httpwwwpurlorgogitstatus.html":[0,30,292],
