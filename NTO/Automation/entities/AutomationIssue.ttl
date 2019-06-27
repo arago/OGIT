@@ -50,6 +50,8 @@ IssueCondition is processed first.""";
 		ogit:creationTime
 		ogit.Automation:isDeployed
 		ogit.Automation:deployStatus
+		ogit.Automation:parentIssue
+		ogit.Automation:suspendUntil
     ogit.Automation:webhook
 	);
 	ogit:indexed-attributes (
