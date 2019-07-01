@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitNetworkRouter.html":[0,14,0,17],
+"group__httpwwwpurlorgogitNetworkShelf.html":[0,14,0,18],
+"group__httpwwwpurlorgogitNetworkSimpleDevice.html":[0,14,0,19],
 "group__httpwwwpurlorgogitNetworkSlot.html":[0,14,0,20],
 "group__httpwwwpurlorgogitNetworkSubnet.html":[0,14,0,21],
 "group__httpwwwpurlorgogitNetworkSwitch.html":[0,14,0,22],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitOSLC-emslambda.html":[0,21,0,4],
 "group__httpwwwpurlorgogitOSLC-emslow.html":[0,21,0,5],
 "group__httpwwwpurlorgogitOSLC-emsmap.html":[0,21,2,18],
-"group__httpwwwpurlorgogitOSLC-emsmapping.html":[0,21,2,19],
-"group__httpwwwpurlorgogitOSLC-emsmeasureCell.html":[0,21,2,20],
-"group__httpwwwpurlorgogitOSLC-emsmeasureColumn.html":[0,21,2,21],
-"group__httpwwwpurlorgogitOSLC-emsmeasureDistributionCell.html":[0,21,2,22]
+"group__httpwwwpurlorgogitOSLC-emsmapping.html":[0,21,2,19]
 };

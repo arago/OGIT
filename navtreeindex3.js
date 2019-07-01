@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitOSLC-emsmeasureCell.html":[0,21,2,20],
+"group__httpwwwpurlorgogitOSLC-emsmeasureColumn.html":[0,21,2,21],
+"group__httpwwwpurlorgogitOSLC-emsmeasureDistributionCell.html":[0,21,2,22],
 "group__httpwwwpurlorgogitOSLC-emsmeasurementList.html":[0,21,2,23],
 "group__httpwwwpurlorgogitOSLC-emsmemberBaseline.html":[0,21,2,24],
 "group__httpwwwpurlorgogitOSLC-emsmemberEstimate.html":[0,21,2,25],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitTimeseries.html":[0,30,43],
 "group__httpwwwpurlorgogitUserMetaFilter.html":[0,35,0,0],
 "group__httpwwwpurlorgogitUserMetaGame.html":[0,35,0,1],
-"group__httpwwwpurlorgogitUserMetaPreferences.html":[0,35,0,2],
-"group__httpwwwpurlorgogitUserMetaQuestion.html":[0,35,0,3],
-"group__httpwwwpurlorgogitUserMetaasks.html":[0,35,1,0],
-"group__httpwwwpurlorgogitUserMetaloses.html":[0,35,1,1]
+"group__httpwwwpurlorgogitUserMetaPreferences.html":[0,35,0,2]
 };

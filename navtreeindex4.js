@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitUserMetaQuestion.html":[0,35,0,3],
+"group__httpwwwpurlorgogitUserMetaasks.html":[0,35,1,0],
+"group__httpwwwpurlorgogitUserMetaloses.html":[0,35,1,1],
 "group__httpwwwpurlorgogitUserMetaplays.html":[0,35,1,2],
 "group__httpwwwpurlorgogitUserMetawins.html":[0,35,1,3],
 "group__httpwwwpurlorgogitVcard.html":[0,30,44],
@@ -246,8 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitserviceContract.html":[0,30,282],
 "group__httpwwwpurlorgogitseverity.html":[0,30,283],
 "group__httpwwwpurlorgogitshortDescription.html":[0,30,284],
-"group__httpwwwpurlorgogitsize.html":[0,30,285],
-"group__httpwwwpurlorgogitsolves.html":[0,30,286],
-"group__httpwwwpurlorgogitsourceId.html":[0,30,287],
-"group__httpwwwpurlorgogitsourceTable.html":[0,30,288]
+"group__httpwwwpurlorgogitsize.html":[0,30,285]
 };
