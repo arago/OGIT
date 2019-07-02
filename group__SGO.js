@@ -254,6 +254,7 @@ var group__SGO =
     [ "purchasedAt", "group__httpwwwpurlorgogitpurchasedAt.html", null ],
     [ "question", "group__httpwwwpurlorgogitquestion.html", null ],
     [ "range", "group__httpwwwpurlorgogitrange.html", null ],
+    [ "rank", "group__httpwwwpurlorgogitrank.html", null ],
     [ "rates", "group__httpwwwpurlorgogitrates.html", null ],
     [ "readBy", "group__httpwwwpurlorgogitreadBy.html", null ],
     [ "reason", "group__httpwwwpurlorgogitreason.html", null ],

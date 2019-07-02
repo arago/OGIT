@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitAutomationlicenseType.html":[0,2,0,49],
+"group__httpwwwpurlorgogitAutomationlifecycle.html":[0,2,0,50],
+"group__httpwwwpurlorgogitAutomationlogLevel.html":[0,2,0,51],
 "group__httpwwwpurlorgogitAutomationmaidFormalRepresentation.html":[0,2,0,52],
 "group__httpwwwpurlorgogitAutomationmandatoryParameters.html":[0,2,0,53],
 "group__httpwwwpurlorgogitAutomationmarsNodeFormalRepresentation.html":[0,2,0,54],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitNetworkNetworkFabric.html":[0,14,0,10],
 "group__httpwwwpurlorgogitNetworkNetworkFilter.html":[0,14,0,11],
 "group__httpwwwpurlorgogitNetworkNetworkInterface.html":[0,14,0,12],
-"group__httpwwwpurlorgogitNetworkNetworkLink.html":[0,14,0,13],
-"group__httpwwwpurlorgogitNetworkNetworkSetting.html":[0,14,0,14],
-"group__httpwwwpurlorgogitNetworkPort.html":[0,14,0,15],
-"group__httpwwwpurlorgogitNetworkPortChannel.html":[0,14,0,16]
+"group__httpwwwpurlorgogitNetworkNetworkLink.html":[0,14,0,13]
 };

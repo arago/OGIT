@@ -31,6 +31,7 @@ var modules =
     [ "RDDL", "group__RDDL.html", "group__RDDL" ],
     [ "RPA", "group__RPA.html", "group__RPA" ],
     [ "SGO", "group__SGO.html", "group__SGO" ],
+    [ "Schedule", "group__Schedule.html", "group__Schedule" ],
     [ "ServiceManagement", "group__ServiceManagement.html", "group__ServiceManagement" ],
     [ "Software", "group__Software.html", "group__Software" ],
     [ "Statistics", "group__Statistics.html", "group__Statistics" ],
