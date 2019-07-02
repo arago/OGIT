@@ -1,0 +1,15 @@
+@prefix ogit.Schedule:     <http://www.purl.org/ogit/Schedule/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Schedule:isOrganizer
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "isOrganizer";
+        dcterms:description "Boolean indicating whether an attendee is the organizer of a calendar event.";
+        dcterms:valid "start=2019-07-02;";
+        dcterms:creator "Marek Meyer";
+       	ogit:validation-parameter "true,false";
+.

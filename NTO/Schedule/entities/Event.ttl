@@ -1,0 +1,31 @@
+@prefix ogit.Schedule:     <http://www.purl.org/ogit/Schedule/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Schedule:Event
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Event";
+  dcterms:description "An event planned or occuring as part of a calendar.";
+  dcterms:valid "start=2019-07-02;";
+  dcterms:creator "Marek Meyer";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+    ogit.Schedule:startTime
+    ogit.Schedule:endTime
+  );
+  ogit:optional-attributes (
+    ogit:subType
+    ogit:title
+    ogit:description
+    ogit.Schedule:location
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+    [ ogit:has  ogit.Schedule:Attendee ]
+  );
+
+.

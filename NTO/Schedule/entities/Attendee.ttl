@@ -1,0 +1,30 @@
+@prefix ogit.Schedule:     <http://www.purl.org/ogit/Schedule/> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Schedule:Attendee
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Attendee";
+  dcterms:description "An attendee of a calendar event.";
+  dcterms:valid "start=2019-07-02;";
+  dcterms:creator "Marek Meyer";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+    ogit:name
+  );
+  ogit:optional-attributes (
+    ogit:email
+    ogit.Schedule:attendanceStatus
+    ogit.Schedule:isOrganizer
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+    [ ogit:has  ogit.Auth:Account ]
+  );
+
+.
