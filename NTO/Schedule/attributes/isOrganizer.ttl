@@ -12,4 +12,5 @@ ogit.Schedule:isOrganizer
         dcterms:valid "start=2019-07-02;";
         dcterms:creator "Marek Meyer";
        	ogit:validation-parameter "true,false";
+	ogit:validation-type "fixed";
 .

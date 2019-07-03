@@ -11,5 +11,6 @@ ogit.Schedule:attendanceStatus
         dcterms:description "Status of event attendence.";
         dcterms:valid "start=2019-07-02;";
         dcterms:creator "Marek Meyer";
-		ogit:validation-parameter "accepted,declined,tentative,noResponse";
+	ogit:validation-parameter "accepted,declined,tentative,noResponse";
+	ogit:validation-type "fixed";
 .
