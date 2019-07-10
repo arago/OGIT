@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Automation, \n 07/03/2019"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Automation, \n 07/10/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -97,6 +97,7 @@ edge [  color="gray81"];
    "ogit/MARS/Resource" -> "ogit/Automation/Configuration" [label="   ogit/uses    "];
    "ogit/OSLC-crtv/ServiceInstance" -> "ogit/Automation/KnowledgePool" [label="   ogit/uses    "];
    "ogit/Software/SoftwareComponent" -> "ogit/Automation/MARSNode" [label="   ogit/uses    "];
+   "ogit/Auth/Resource" -> "ogit/Automation/Configuration" [label="   ogit/uses    "];
    "ogit/Cost/PlanningTemplate" -> "ogit/Automation/MARSModelTemplate" [label="   ogit/plans    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/Automation/MARSNode" [label="   ogit/reportedOn    "];
    "ogit/ServiceManagement/Incident" -> "ogit/Automation/MARSNode" [label="   ogit/reportedOn    "];

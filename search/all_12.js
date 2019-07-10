@@ -1,6 +1,7 @@
 var searchData=
 [
   ['recruiting',['Recruiting',['../group__HR__Recruiting.html',1,'']]],
+  ['resource',['Resource',['../group__httpwwwpurlorgogitAuthResource.html',1,'']]],
   ['restricted',['restricted',['../group__httpwwwpurlorgogitAuthrestricted.html',1,'']]],
   ['role',['Role',['../group__httpwwwpurlorgogitAuthRole.html',1,'']]],
   ['roleassignment',['RoleAssignment',['../group__httpwwwpurlorgogitAuthRoleAssignment.html',1,'']]],
@@ -22,7 +23,6 @@ var searchData=
   ['resume',['Resume',['../group__httpwwwpurlorgogitHRRecruitingResume.html',1,'']]],
   ['roletitle',['RoleTitle',['../group__httpwwwpurlorgogitHRRecruitingRoleTitle.html',1,'']]],
   ['ram',['ram',['../group__httpwwwpurlorgogitMARSMachineram.html',1,'']]],
-  ['resource',['Resource',['../group__httpwwwpurlorgogitMARSResource.html',1,'']]],
   ['references',['references',['../group__httpwwwpurlorgogitMROAviationreferences.html',1,'']]],
   ['roomconditions',['roomConditions',['../group__httpwwwpurlorgogitMRProomConditions.html',1,'']]],
   ['router',['Router',['../group__httpwwwpurlorgogitNetworkRouter.html',1,'']]],

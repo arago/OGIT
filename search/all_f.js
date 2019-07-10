@@ -41,6 +41,7 @@ var searchData=
   ['object',['Object',['../group__httpwwwpurlorgogitRPAObject.html',1,'']]],
   ['odometry',['Odometry',['../group__httpwwwpurlorgogitRPAOdometry.html',1,'']]],
   ['operates',['Operates',['../group__httpwwwpurlorgogitRPAOperates.html',1,'']]],
+  ['openitem',['OpenItem',['../group__httpwwwpurlorgogitSalesDistributionOpenItem.html',1,'']]],
   ['offering',['Offering',['../group__httpwwwpurlorgogitServiceManagementOffering.html',1,'']]],
   ['order',['Order',['../group__httpwwwpurlorgogitServiceManagementOrder.html',1,'']]],
   ['ogit_20ontology',['OGIT Ontology',['../index.html',1,'']]],
