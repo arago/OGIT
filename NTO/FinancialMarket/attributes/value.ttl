@@ -1,0 +1,14 @@
+@prefix ogit.FinancialMarket:     <http://www.purl.org/ogit/FinancialMarket/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.FinancialMarket:value
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "value";
+        dcterms:description "The financial value of a financial instrument or investment. It is recommended to always specify a currency in addition to the value.";
+        dcterms:valid "start=2019-07-10;";
+        dcterms:creator "Marek Meyer";
+.

@@ -1,0 +1,28 @@
+@prefix ogit.FinancialMarket:     <http://www.purl.org/ogit/FinancialMarket/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.FinancialMarket:Investment
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Investment";
+  dcterms:description "An investment into a financial instrument.";
+  dcterms:valid "start=2019-07-10;";
+  dcterms:creator "Marek Meyer";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+  );
+  ogit:optional-attributes (
+  	ogit.FinancialMarket:acquisitionDate
+  	ogit.FinancialMarket:amount
+  	ogit.FinancialMarket:value
+  	ogit.FinancialMarket:currency
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+	[ ogit:contains ogit.FinancialMarket:FinancialInstrument ]
+  );
+.
