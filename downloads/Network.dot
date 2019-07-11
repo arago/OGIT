@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Network, \n 07/10/2019"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Network, \n 07/11/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -16,7 +16,6 @@ edge [  color="gray81"];
    "ogit/Network/NetworkFabric" -> "ogit/Network/NetworkCard" [label="   ogit/contains    "];
    "ogit/Network/Shelf" -> "ogit/Network/Slot" [label="   ogit/contains    "];
    "ogit/Network/SimpleDevice" -> "ogit/Network/Port" [label="   ogit/contains    "];
-   "ogit/Auth/Machine" -> "ogit/Network/NetworkInterface" [label="   ogit/contains    "];
    "ogit/Person" -> "ogit/Network/WifiAccessPoint" [label="   ogit/manages    "];
    "ogit/Person" -> "ogit/Network/VLAN" [label="   ogit/manages    "];
    "ogit/Person" -> "ogit/Network/Switch" [label="   ogit/manages    "];

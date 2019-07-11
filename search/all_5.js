@@ -56,6 +56,7 @@ var searchData=
   ['externalticketid',['externalTicketId',['../group__httpwwwpurlorgogitServiceManagementexternalTicketId.html',1,'']]],
   ['externalticketsource',['externalTicketSource',['../group__httpwwwpurlorgogitServiceManagementexternalTicketSource.html',1,'']]],
   ['entities',['Entities',['../group__Knowledge__entities.html',1,'']]],
+  ['entities',['Entities',['../group__MARS__entities.html',1,'']]],
   ['entities',['Entities',['../group__MRP__entities.html',1,'']]],
   ['entities',['Entities',['../group__Network__entities.html',1,'']]],
   ['entities',['Entities',['../group__OSLC-arch__entities.html',1,'']]],
