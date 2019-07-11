@@ -1,12 +1,12 @@
 @prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms:        <http://purl.org/dc/terms/> .
 @prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
-@prefix ogit.OSCL-core: <http://www.purl.org/ogit/OSLC-core/> .
+@prefix ogit.OSLC-core: <http://www.purl.org/ogit/OSLC-core/> .
 @prefix owl:            <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit:           <http://www.purl.org/ogit/> .
 
-ogit.OSCL-core:oauthRequestTokenURI
+ogit.OSLC-core:oauthRequestTokenURI
 	a owl:ObjectProperty;
 	rdfs:subPropertyOf ogit:Verb;
 	rdfs:label "oauthRequestTokenURI";

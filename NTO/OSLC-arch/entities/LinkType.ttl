@@ -1,12 +1,12 @@
 @prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms:        <http://purl.org/dc/terms/> .
-@prefix ogit.OSCL-arch: <http://www.purl.org/ogit/OSLC-arch/> .
+@prefix ogit.OSLC-arch: <http://www.purl.org/ogit/OSLC-arch/> .
 @prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl:            <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit:           <http://www.purl.org/ogit/> .
 
-ogit.OSCL-arch:LinkType
+ogit.OSLC-arch:LinkType
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Link Type";
