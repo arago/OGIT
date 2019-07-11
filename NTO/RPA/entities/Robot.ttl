@@ -7,9 +7,9 @@ ogit.RPA:Robot
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Robot";
-	dcterms:description "A robot is a machine—especially one programmable by a computer— capable of carrying out a complex series of actions automatically.
+	dcterms:description """A robot is a machine—especially one programmable by a computer— capable of carrying out a complex series of actions automatically.
 	                        Robots can be guided by an external control device or the control may be embedded within.
-	                        Robots are machines designed to perform a task with no regard to how they look.";
+	                        Robots are machines designed to perform a task with no regard to how they look.""";
 	dcterms:valid "start=2019-03-21;";
 	dcterms:creator "Kaushik Gondaliya";
 	ogit:scope "NTO";
