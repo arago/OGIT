@@ -7,8 +7,8 @@ ogit.RPA:Sensor
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Sensor";
-	dcterms:description "Sensor is a device, module, or subsystem whose purpose is to detect events or changes in its environment and send the information to other electronics, frequently a computer processor.
-	                    example sensors are Lasser Scanner, Camera etc.";
+	dcterms:description """Sensor is a device, module, or subsystem whose purpose is to detect events or changes in its environment and send the information to other electronics, frequently a computer processor.
+	                    example sensors are Lasser Scanner, Camera etc.""";
 	dcterms:valid "start=2019-03-21;";
 	dcterms:creator "Kaushik Gondaliya";
 	ogit:scope "NTO";
