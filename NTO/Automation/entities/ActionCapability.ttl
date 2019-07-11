@@ -8,8 +8,8 @@ ogit.Automation:ActionCapability
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "ActionCapability";
-	dcterms:description "Defines the capability of an action handler, such
-	as remote execution via ssh.";
+	dcterms:description """Defines the capability of an action handler, such
+	as remote execution via ssh.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2019-04-01;";
 	dcterms:creator "Oday Jubran";

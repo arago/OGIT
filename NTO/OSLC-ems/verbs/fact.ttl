@@ -15,7 +15,7 @@ ogit.OSLC-ems:fact
 This property links a fact table to its fact rows.
 In general, a fact table will have many fact rows.
 If the fact table has an
-<a href=#tableSource\"><code>ems:tableSource</code></a> property,
+<a href=\"#tableSource\"><code>ems:tableSource</code></a> property,
 then the rows of the fact table MUST be a copy of the data values received in the response of
 an HTTP GET request of the URL of the remote table source.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/

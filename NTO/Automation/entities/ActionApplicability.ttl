@@ -8,8 +8,8 @@ ogit.Automation:ActionApplicability
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "ActionApplicability";
-	dcterms:description "Defines the applicability of an action handler, such
-	as `on ogit/_id`.";
+	dcterms:description """Defines the applicability of an action handler, such
+	as `on ogit/_id`.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2019-04-01;";
 	dcterms:creator "Oday Jubran";
