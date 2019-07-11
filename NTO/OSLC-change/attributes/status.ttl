@@ -1,12 +1,12 @@
 @prefix owl:          <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
-@prefix ogit.OSLC-cm: <http://www.purl.org/ogit/OSLC-change/> .
+@prefix ogit.OSLC-change: <http://www.purl.org/ogit/OSLC-change/> .
 @prefix dcterms:      <http://purl.org/dc/terms/> .
 @prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit:         <http://www.purl.org/ogit/> .
 
-ogit.OSLC-cm:status
+ogit.OSLC-change:status
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "status";

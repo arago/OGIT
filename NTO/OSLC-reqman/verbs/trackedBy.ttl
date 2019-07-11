@@ -4,7 +4,7 @@
 @prefix rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd:              <http://www.w3.org/2001/XMLSchema#> .
 @prefix ogit:             <http://www.purl.org/ogit/> .
-@prefix ogit.OSCL-core:   <http://www.purl.org/ogit/OSLC-core/> .
+@prefix ogit.OSLC-core:   <http://www.purl.org/ogit/OSLC-core/> .
 @prefix dcterms:          <http://purl.org/dc/terms/> .
 
 ogit.OSLC-reqman:trackedBy
