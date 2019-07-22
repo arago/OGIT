@@ -56,6 +56,7 @@ var group__Automation__attributes =
     [ "mandatoryParameters", "group__httpwwwpurlorgogitAutomationmandatoryParameters.html", null ],
     [ "marsNodeFormalRepresentation", "group__httpwwwpurlorgogitAutomationmarsNodeFormalRepresentation.html", null ],
     [ "marsNodeType", "group__httpwwwpurlorgogitAutomationmarsNodeType.html", null ],
+    [ "maxIdleTime", "group__httpwwwpurlorgogitAutomationmaxIdleTime.html", null ],
     [ "memory", "group__httpwwwpurlorgogitAutomationmemory.html", null ],
     [ "middlewareType", "group__httpwwwpurlorgogitAutomationmiddlewareType.html", null ],
     [ "moveToProductionAt", "group__httpwwwpurlorgogitAutomationmoveToProductionAt.html", null ],

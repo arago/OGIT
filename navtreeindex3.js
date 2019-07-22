@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitOSLC-emsassumesWbs.html":[0,22,2,2],
 "group__httpwwwpurlorgogitOSLC-emsbaselineList.html":[0,22,2,3],
 "group__httpwwwpurlorgogitOSLC-emscdfPoint.html":[0,22,2,4],
 "group__httpwwwpurlorgogitOSLC-emscurrentBaseline.html":[0,22,2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitServiceManagementService.html":[0,34,1,9],
 "group__httpwwwpurlorgogitServiceManagementSubTask.html":[0,34,1,10],
 "group__httpwwwpurlorgogitServiceManagementTicket.html":[0,34,1,11],
-"group__httpwwwpurlorgogitServiceManagementallowedForNewBusiness.html":[0,34,0,0],
-"group__httpwwwpurlorgogitServiceManagementapprovalStatus.html":[0,34,0,1]
+"group__httpwwwpurlorgogitServiceManagementallowedForNewBusiness.html":[0,34,0,0]
 };
