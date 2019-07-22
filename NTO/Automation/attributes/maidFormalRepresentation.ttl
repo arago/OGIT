@@ -8,7 +8,7 @@ ogit.Automation:maidFormalRepresentation
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "maidFormalRepresentation";
-	dcterms:description "Contains a MAID in XML representation defined by MAIDSchema.";
+	dcterms:description "Obsolete attribute. Not used for HIRO >=6. Contains a MAID in XML representation defined by MAIDSchema.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";

@@ -4,12 +4,12 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Automation:marsNodeFormalRepresentation
+ogit.Automation:maxIdleTime
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "marsNodeFormalRepresentation";
-	dcterms:description "Obsolete attribute. Not used for HIRO >=6. Contains MARS in XML representation defined by MARSSchema2013.";
+	rdfs:label "maxIdleTime";
+	dcterms:description "Sets the maximum idle time of an AutomationIssue. HIRO Engine internally manages the idle time for each AutomationIssue. Whenever a KnowledgeItem gets applied it is reset to zero. If maximum idle time is reached the AutomationIssue is regarded as 'cannot be processed anymore until more knowledge is provided'";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2015-05-21;";
-	dcterms:creator "Peter Larem";
+	dcterms:valid "start=2019-07-22;";
+	dcterms:creator "fotto@arago.de";
 .
