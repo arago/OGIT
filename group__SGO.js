@@ -35,6 +35,7 @@ var group__SGO =
     [ "Question", "group__httpwwwpurlorgogitQuestion.html", null ],
     [ "Rating", "group__httpwwwpurlorgogitRating.html", null ],
     [ "Region", "group__httpwwwpurlorgogitRegion.html", null ],
+    [ "Relevance", "group__httpwwwpurlorgogitRelevance.html", null ],
     [ "Role", "group__httpwwwpurlorgogitRole.html", null ],
     [ "Schema", "group__httpwwwpurlorgogitSchema.html", null ],
     [ "Series", "group__httpwwwpurlorgogitSeries.html", null ],

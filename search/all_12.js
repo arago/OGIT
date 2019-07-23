@@ -77,6 +77,7 @@ var searchData=
   ['region',['Region',['../group__httpwwwpurlorgogitRegion.html',1,'']]],
   ['rejects',['rejects',['../group__httpwwwpurlorgogitrejects.html',1,'']]],
   ['relates',['relates',['../group__httpwwwpurlorgogitrelates.html',1,'']]],
+  ['relevance',['Relevance',['../group__httpwwwpurlorgogitRelevance.html',1,'']]],
   ['repliedwith',['repliedWith',['../group__httpwwwpurlorgogitrepliedWith.html',1,'']]],
   ['reportedat',['reportedAt',['../group__httpwwwpurlorgogitreportedAt.html',1,'']]],
   ['reportedon',['reportedOn',['../group__httpwwwpurlorgogitreportedOn.html',1,'']]],

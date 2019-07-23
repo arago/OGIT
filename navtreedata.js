@@ -11,8 +11,8 @@ var NAVTREEINDEX =
 "group__httpwwwpurlorgogitAutomationknowledgeItemFormalRepresentation.html",
 "group__httpwwwpurlorgogitMRPspecificNorm.html",
 "group__httpwwwpurlorgogitOSLC-emsassumesWbs.html",
-"group__httpwwwpurlorgogitServiceManagementapprovalStatus.html",
-"group__httpwwwpurlorgogitowns.html"
+"group__httpwwwpurlorgogitServiceManagementallowedForNewBusiness.html",
+"group__httpwwwpurlorgogitotherPhone.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
