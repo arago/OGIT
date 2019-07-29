@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitAutomationissueType.html":[0,2,0,42],
 "group__httpwwwpurlorgogitAutomationknowledgeItemFormalRepresentation.html":[0,2,0,43],
 "group__httpwwwpurlorgogitAutomationknowledgeItemId.html":[0,2,0,44],
 "group__httpwwwpurlorgogitAutomationknowledgeItemSyntaxVersion.html":[0,2,0,45],
@@ -166,9 +167,10 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitHRRecruitingworksFor.html":[0,10,0,1,3],
 "group__httpwwwpurlorgogitHyperlink.html":[0,31,17],
 "group__httpwwwpurlorgogitInstallation.html":[0,31,18],
-"group__httpwwwpurlorgogitKnowledgeAcquisitionRoom.html":[0,11,0,0],
-"group__httpwwwpurlorgogitKnowledgeAcquisitionSession.html":[0,11,0,1],
-"group__httpwwwpurlorgogitKnowledgeStep.html":[0,11,0,2],
+"group__httpwwwpurlorgogitKnowledgeAcquisitionRoom.html":[0,11,1,0],
+"group__httpwwwpurlorgogitKnowledgeAcquisitionSession.html":[0,11,1,1],
+"group__httpwwwpurlorgogitKnowledgeStep.html":[0,11,1,2],
+"group__httpwwwpurlorgogitKnowledgearchived.html":[0,11,0,0],
 "group__httpwwwpurlorgogitLicense.html":[0,31,19],
 "group__httpwwwpurlorgogitLicenseRequest.html":[0,31,20],
 "group__httpwwwpurlorgogitLicenseToken.html":[0,31,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitMRPkzTCond.html":[0,14,0,7],
 "group__httpwwwpurlorgogitMRPmanufacture.html":[0,14,2,2],
 "group__httpwwwpurlorgogitMRPminimumRemainingShelfLife.html":[0,14,0,8],
-"group__httpwwwpurlorgogitMRPpartNumber.html":[0,14,0,9],
-"group__httpwwwpurlorgogitMRPperforms.html":[0,14,2,3],
-"group__httpwwwpurlorgogitMRProomConditions.html":[0,14,0,10]
+"group__httpwwwpurlorgogitMRPpartNumber.html":[0,14,0,9]
 };

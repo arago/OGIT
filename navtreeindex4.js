@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitServiceManagementSubTask.html":[0,34,1,10],
+"group__httpwwwpurlorgogitServiceManagementTicket.html":[0,34,1,11],
 "group__httpwwwpurlorgogitServiceManagementallowedForNewBusiness.html":[0,34,0,0],
 "group__httpwwwpurlorgogitServiceManagementapprovalStatus.html":[0,34,0,1],
 "group__httpwwwpurlorgogitServiceManagementchangeStatus.html":[0,34,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitonVertex.html":[0,31,227],
 "group__httpwwwpurlorgogitopenedAt.html":[0,31,228],
 "group__httpwwwpurlorgogitopens.html":[0,31,229],
-"group__httpwwwpurlorgogitoperation.html":[0,31,230],
-"group__httpwwwpurlorgogitoperationalStatus.html":[0,31,231],
-"group__httpwwwpurlorgogitorderedAt.html":[0,31,232]
+"group__httpwwwpurlorgogitoperation.html":[0,31,230]
 };

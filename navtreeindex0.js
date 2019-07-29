@@ -40,7 +40,8 @@ var NAVTREEINDEX0 =
 "group__HR.html":[0,10],
 "group__HR__Recruiting.html":[0,10,0],
 "group__Knowledge.html":[0,11],
-"group__Knowledge__entities.html":[0,11,0],
+"group__Knowledge__attributes.html":[0,11,0],
+"group__Knowledge__entities.html":[0,11,1],
 "group__MARS.html":[0,12],
 "group__MARS__Application.html":[0,12,0],
 "group__MARS__Machine.html":[0,12,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAutomationinstallCount.html":[0,2,0,38],
 "group__httpwwwpurlorgogitAutomationinstallPath.html":[0,2,0,39],
 "group__httpwwwpurlorgogitAutomationisDeployed.html":[0,2,0,40],
-"group__httpwwwpurlorgogitAutomationissueFormalRepresentation.html":[0,2,0,41],
-"group__httpwwwpurlorgogitAutomationissueType.html":[0,2,0,42]
+"group__httpwwwpurlorgogitAutomationissueFormalRepresentation.html":[0,2,0,41]
 };
