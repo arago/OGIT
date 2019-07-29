@@ -1,0 +1,16 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+
+ogit.Knowledge:archived
+    a owl:DatatypeProperty;
+    rdfs:subPropertyOf ogit:Attribute;
+    rdfs:label "archived";
+    dcterms:description "Boolean indicating whether the session is archived or not";
+    dcterms:valid "start=2019-07-26;";
+    dcterms:creator "Vitaly Teremasov";
+    ogit:validation-parameter "true,false";
+    ogit:validation-type "fixed";
+.
