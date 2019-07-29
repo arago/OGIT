@@ -33,7 +33,7 @@ ogit.Knowledge:AcquisitionSession
     ogit:optional-attributes (
         ogit:title
         ogit:description
-        ogit:archived
+        ogit.Knowledge:archived
     );
     ogit:indexed-attributes (
         ogit:title
