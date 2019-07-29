@@ -31,10 +31,13 @@ ogit.Knowledge:AcquisitionSession
 
     );
     ogit:optional-attributes (
-
+        ogit:title
+        ogit:description
+        ogit.Knowledge:archived
     );
     ogit:indexed-attributes (
-
+        ogit:title
+        ogit:description
     );
     ogit:allowed (
             [ ogit:contains  ogit:Comment ]
