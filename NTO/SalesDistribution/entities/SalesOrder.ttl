@@ -17,6 +17,7 @@ ogit.SalesDistribution:SalesOrder
   );
   ogit:optional-attributes (
     ogit.SalesDistribution:salesOrderId
+    ogit.SalesDistribution:orderDate
     ogit.SalesDistribution:amount
     ogit:currency
     ogit:description
