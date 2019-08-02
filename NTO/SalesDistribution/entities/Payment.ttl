@@ -25,5 +25,6 @@ ogit.SalesDistribution:Payment
   ogit:indexed-attributes (
   );
   ogit:allowed (
+	[ ogit:belongs  ogit.SalesDistribution:SalesOrder ]  
   );
 .
