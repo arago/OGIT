@@ -13,7 +13,6 @@ ogit.SalesDistribution:Payment
   ogit:scope "NTO";
   ogit:parent "http://www.purl.org/ogit/Node";
   ogit:mandatory-attributes (
-    ogit:name
   );
   ogit:optional-attributes (
     ogit.SalesDistribution:amount
@@ -25,5 +24,6 @@ ogit.SalesDistribution:Payment
   ogit:indexed-attributes (
   );
   ogit:allowed (
+	[ ogit:belongs  ogit.SalesDistribution:SalesOrder ]  
   );
 .
