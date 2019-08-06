@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: SalesDistribution, \n 07/29/2019"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: SalesDistribution, \n 08/06/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -15,6 +15,8 @@ edge [  color="gray81"];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/Payment" [label="   ogit/provides    "];
    "ogit/SalesDistribution/Customer" -> "ogit/MARS/Application" [label="   ogit/belongs    "];
    "ogit/SalesDistribution/OpenItem" -> "ogit/SalesDistribution/Payment" [label="   ogit/belongs    "];
+   "ogit/SalesDistribution/Payment" -> "ogit/SalesDistribution/SalesOrder" [label="   ogit/belongs    "];
+   "ogit/SalesDistribution/SalesOrder" -> "ogit/MARS/Application" [label="   ogit/belongs    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/Delivery" [label="   ogit/receives    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/Invoice" [label="   ogit/receives    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/OpenItem" [label="   ogit/has    "];

@@ -223,9 +223,10 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitSalesDistributiondeliveryId.html":[0,32,0,2],
 "group__httpwwwpurlorgogitSalesDistributioninvoiceDate.html":[0,32,0,3],
 "group__httpwwwpurlorgogitSalesDistributioninvoiceId.html":[0,32,0,4],
-"group__httpwwwpurlorgogitSalesDistributionsalesOrderId.html":[0,32,0,5],
-"group__httpwwwpurlorgogitSalesDistributiontransactionDate.html":[0,32,0,6],
-"group__httpwwwpurlorgogitSalesDistributionvalueDate.html":[0,32,0,7],
+"group__httpwwwpurlorgogitSalesDistributionorderDate.html":[0,32,0,5],
+"group__httpwwwpurlorgogitSalesDistributionsalesOrderId.html":[0,32,0,6],
+"group__httpwwwpurlorgogitSalesDistributiontransactionDate.html":[0,32,0,7],
+"group__httpwwwpurlorgogitSalesDistributionvalueDate.html":[0,32,0,8],
 "group__httpwwwpurlorgogitScheduleActivity.html":[0,33,1,0],
 "group__httpwwwpurlorgogitScheduleAttendee.html":[0,33,1,1],
 "group__httpwwwpurlorgogitScheduleCalendar.html":[0,33,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitServiceManagementOrder.html":[0,34,1,5],
 "group__httpwwwpurlorgogitServiceManagementProblem.html":[0,34,1,6],
 "group__httpwwwpurlorgogitServiceManagementReport.html":[0,34,1,7],
-"group__httpwwwpurlorgogitServiceManagementSLA.html":[0,34,1,8],
-"group__httpwwwpurlorgogitServiceManagementService.html":[0,34,1,9]
+"group__httpwwwpurlorgogitServiceManagementSLA.html":[0,34,1,8]
 };

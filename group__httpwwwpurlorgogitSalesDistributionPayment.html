@@ -91,10 +91,6 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitSalesDistribu
 </ul>
 <h2>attributes </h2>
 <ul>
-<li>mandatory:<ul>
-<li><a class="el" href="group__httpwwwpurlorgogitname.html">ogit/name</a></li>
-</ul>
-</li>
 <li>optional:<ul>
 <li><a class="el" href="group__httpwwwpurlorgogitSalesDistributionamount.html">ogit/SalesDistribution/amount</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitSalesDistributiontransactionDate.html">ogit/SalesDistribution/transactionDate</a></li>
@@ -127,7 +123,11 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitSalesDistribu
 <h2>incoming edges </h2>
 <ul>
 <li><a class="el" href="group__httpwwwpurlorgogitbelongs.html">ogit/belongs</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitSalesDistributionOpenItem.html">ogit/SalesDistribution/OpenItem</a></li>
-<li><a class="el" href="group__httpwwwpurlorgogitprovides.html">ogit/provides</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitSalesDistributionCustomer.html">ogit/SalesDistribution/Customer</a> <hr/>
+<li><a class="el" href="group__httpwwwpurlorgogitprovides.html">ogit/provides</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitSalesDistributionCustomer.html">ogit/SalesDistribution/Customer</a></li>
+</ul>
+<h2>outgoing edges </h2>
+<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitbelongs.html">ogit/belongs</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitSalesDistributionSalesOrder.html">ogit/SalesDistribution/SalesOrder</a> <hr/>
 </li>
 </ul>
 </div><!-- contents -->
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitSalesDistribu
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 29 2019 10:38:02 by
+    <li class="footer">Generated on Tue Aug 6 2019 11:12:17 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
