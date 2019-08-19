@@ -20,6 +20,7 @@ ogit:Timeseries
 		ogit:name
 		ogit:description
 		ogit:instance
+		ogit:isMutable
 	);
 	ogit:indexed-attributes (
 		ogit:name
