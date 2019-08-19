@@ -12,7 +12,7 @@ ogit.Data:Log
 	dcterms:valid "start=2017-06-14;";
 	dcterms:creator "stravlos@arago.de";
 	ogit:scope "NTO";
-	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 
 	);

@@ -22,7 +22,7 @@ whenever there is a Schema describing/restricting the entity's content there wil
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	ogit:scope "SGO";
-	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:parent ogit:Node;
 	ogit:hide "true";
 	ogit:mandatory-attributes (
 		ogit:ontologyScope

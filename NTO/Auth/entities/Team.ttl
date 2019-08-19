@@ -18,7 +18,7 @@ ogit.Auth:Team
 	ogit:admin-contact "arago GmbH";
 	ogit:tech-contact "arago GmbH";
 	ogit:scope "NTO";
-	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
         ogit:name
 	);

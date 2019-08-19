@@ -16,7 +16,7 @@ ogit.MRO.Aviation:Layover
 	dcterms:valid "start=2018-09-07;";
 	dcterms:creator "Kaushik";
 	ogit:scope "NTO";
-	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
