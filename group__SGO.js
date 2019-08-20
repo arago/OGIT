@@ -46,6 +46,7 @@ var group__SGO =
     [ "TermsAndConditions", "group__httpwwwpurlorgogitTermsAndConditions.html", null ],
     [ "Timeseries", "group__httpwwwpurlorgogitTimeseries.html", null ],
     [ "Vcard", "group__httpwwwpurlorgogitVcard.html", null ],
+    [ "_c-id", "group__httpwwwpurlorgogit__c-id.html", null ],
     [ "_content", "group__httpwwwpurlorgogit__content.html", null ],
     [ "_created-on", "group__httpwwwpurlorgogit__created-on.html", null ],
     [ "_creator", "group__httpwwwpurlorgogit__creator.html", null ],
