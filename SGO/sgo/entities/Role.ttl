@@ -19,7 +19,7 @@ ogit:Role
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	ogit:scope "SGO";
-	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:parent ogit:Node;
 	ogit:any-attributes "true";
 	ogit:mandatory-attributes (
 		ogit:name

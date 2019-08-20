@@ -13,7 +13,7 @@ ogit.Statistics:AutomationFamily
 	dcterms:valid "start=2016-03-07;";
 	dcterms:creator "Liudmyla Nechepurenko";
 	ogit:scope "NTO";
-	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 		ogit:name
 	);

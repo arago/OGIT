@@ -13,7 +13,7 @@ ogit.Knowledge:AcquisitionRoom
     dcterms:valid "start=2019-01-03;";
     dcterms:creator "arabtsau@klika-tech.com";
     ogit:scope "NTO";
-    ogit:parent "http://www.purl.org/ogit/Node";
+    ogit:parent ogit:Node;
     ogit:mandatory-attributes (
 
     );
