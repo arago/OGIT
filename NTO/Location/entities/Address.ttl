@@ -1,0 +1,30 @@
+@prefix ogit.Location:                   <http://www.purl.org/ogit/Location/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Location:Address
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Address";
+  dcterms:description "A street address.";
+  dcterms:valid "start=2019-08-23;";
+  dcterms:creator "Marek Meyer";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+    ogit:name
+  );
+  ogit:optional-attributes (
+    ogit.Location:streetName
+    ogit.Location:streetNumber
+    ogit.Location:city
+    ogit.Location:zipCode
+    ogit.Location:country
+    ogit.Location:state
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+  );
+.
