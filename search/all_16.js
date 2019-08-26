@@ -9,6 +9,8 @@ var searchData=
   ['virtualmachinename',['virtualMachineName',['../group__httpwwwpurlorgogitAutomationvirtualMachineName.html',1,'']]],
   ['virtualsystemname',['virtualSystemName',['../group__httpwwwpurlorgogitAutomationvirtualSystemName.html',1,'']]],
   ['virtualsystemtype',['virtualSystemType',['../group__httpwwwpurlorgogitAutomationvirtualSystemType.html',1,'']]],
+  ['vendor',['Vendor',['../group__httpwwwpurlorgogitFinancialAccountingAccountsPayableVendor.html',1,'']]],
+  ['valuedate',['valueDate',['../group__httpwwwpurlorgogitFinancialAccountingvalueDate.html',1,'']]],
   ['value',['value',['../group__httpwwwpurlorgogitFinancialMarketvalue.html',1,'']]],
   ['vorgang',['Vorgang',['../group__httpwwwpurlorgogitMRPVorgang.html',1,'']]],
   ['vlan',['VLAN',['../group__httpwwwpurlorgogitNetworkVLAN.html',1,'']]],

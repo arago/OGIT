@@ -1,0 +1,11 @@
+digraph OGIT_ontology {
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Location, \n 08/26/2019"];
+node[shape=polygon];
+edge [  color="gray81"];
+
+   "ogit/FinancialAccounting/OrganizationalUnit" -> "ogit/Location/Address" [label="   ogit/receives    "];
+   "ogit/FinancialAccounting/AccountsPayable/Vendor" -> "ogit/Location/Address" [label="   ogit/has    "];
+   "ogit/FinancialAccounting/OrganizationalUnit" -> "ogit/Location/Address" [label="   ogit/has    "];
+}

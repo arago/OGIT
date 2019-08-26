@@ -45,5 +45,6 @@ var searchData=
   ['location',['location',['../group__httpwwwpurlorgogitSchedulelocation.html',1,'']]],
   ['lefttime',['leftTime',['../group__httpwwwpurlorgogitServiceManagementleftTime.html',1,'']]],
   ['licensetokenstatus',['licenseTokenStatus',['../group__httpwwwpurlorgogitServiceManagementlicenseTokenStatus.html',1,'']]],
-  ['loses',['loses',['../group__httpwwwpurlorgogitUserMetaloses.html',1,'']]]
+  ['loses',['loses',['../group__httpwwwpurlorgogitUserMetaloses.html',1,'']]],
+  ['location',['Location',['../group__Location.html',1,'']]]
 ];
