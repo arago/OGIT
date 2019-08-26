@@ -24,7 +24,7 @@ ogit.Automation:DynamicEngineData
 	dcterms:valid "start=2015-06-25;";
 	dcterms:creator "Miroslaw Glusiuk";
 	ogit:scope "NTO";
-	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 		
 	);
