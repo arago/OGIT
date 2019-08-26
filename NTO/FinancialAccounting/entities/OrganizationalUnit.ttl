@@ -8,7 +8,7 @@ ogit.FinancialAccounting:OrganizationalUnit
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
   rdfs:label "OrganizationalUnit";
-  dcterms:description "An organization unit within a company.";
+  dcterms:description "An organizational unit within a company.";
   dcterms:valid "start=2019-08-23;";
   dcterms:creator "Marek Meyer";
   ogit:scope "NTO";
