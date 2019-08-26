@@ -1,0 +1,31 @@
+@prefix ogit.FinancialAccounting:     <http://www.purl.org/ogit/FinancialAccounting/> .
+@prefix ogit.Location:                   <http://www.purl.org/ogit/Location/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.FinancialAccounting:OrganizationalUnit
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "OrganizationalUnit";
+  dcterms:description "An organizational unit within a company.";
+  dcterms:valid "start=2019-08-23;";
+  dcterms:creator "Marek Meyer";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+    ogit:name
+  );
+  ogit:optional-attributes (
+    ogit.FinancialAccounting:companyCode
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+	[ ogit:isPartOf  ogit.FinancialAccounting:Company ]
+	[ ogit:corresponds  ogit:Organization ]
+	[ ogit:has  ogit.Location:Address ]
+	[ ogit:receives  ogit.Location:Address ]
+
+  );
+.
