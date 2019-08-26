@@ -1,4 +1,4 @@
 var group__Auth__Account =
 [
-    [ "Attributes", "group__Account__attributes.html", "group__Account__attributes" ]
+    [ "Attributes", "group__Auth__Account____attributes.html", "group__Auth__Account____attributes" ]
 ];

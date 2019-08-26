@@ -1,5 +1,5 @@
 var group__SalesDistribution =
 [
-    [ "Attributes", "group__SalesDistribution__attributes.html", "group__SalesDistribution__attributes" ],
-    [ "Entities", "group__SalesDistribution__entities.html", "group__SalesDistribution__entities" ]
+    [ "Attributes", "group__SalesDistribution____attributes.html", "group__SalesDistribution____attributes" ],
+    [ "Entities", "group__SalesDistribution____entities.html", "group__SalesDistribution____entities" ]
 ];

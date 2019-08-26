@@ -1,4 +1,4 @@
 var group__MARS__Resource =
 [
-    [ "Attributes", "group__Resource__attributes.html", "group__Resource__attributes" ]
+    [ "Attributes", "group__MARS__Resource____attributes.html", "group__MARS__Resource____attributes" ]
 ];

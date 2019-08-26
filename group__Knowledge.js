@@ -1,5 +1,5 @@
 var group__Knowledge =
 [
-    [ "Attributes", "group__Knowledge__attributes.html", "group__Knowledge__attributes" ],
-    [ "Entities", "group__Knowledge__entities.html", "group__Knowledge__entities" ]
+    [ "Attributes", "group__Knowledge____attributes.html", "group__Knowledge____attributes" ],
+    [ "Entities", "group__Knowledge____entities.html", "group__Knowledge____entities" ]
 ];

@@ -1,11 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"group__httpwwwpurlorgogitlicenseId.html":[0,33,202],
-"group__httpwwwpurlorgogitlicenseKey.html":[0,33,203],
-"group__httpwwwpurlorgogitlicenseRequestStatus.html":[0,33,204],
-"group__httpwwwpurlorgogitlicenseType.html":[0,33,205],
-"group__httpwwwpurlorgogitlikes.html":[0,33,206],
-"group__httpwwwpurlorgogitlistedAt.html":[0,33,207],
 "group__httpwwwpurlorgogitlocatedIn.html":[0,33,208],
 "group__httpwwwpurlorgogitlocked.html":[0,33,209],
 "group__httpwwwpurlorgogitmacAddress.html":[0,33,210],

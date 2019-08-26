@@ -1,5 +1,5 @@
 var group__OSLC_reqman =
 [
-    [ "Entities", "group__OSLC-reqman__entities.html", "group__OSLC-reqman__entities" ],
-    [ "Verbs", "group__OSLC-reqman__verbs.html", "group__OSLC-reqman__verbs" ]
+    [ "Entities", "group__OSLC-reqman____entities.html", "group__OSLC-reqman____entities" ],
+    [ "Verbs", "group__OSLC-reqman____verbs.html", "group__OSLC-reqman____verbs" ]
 ];

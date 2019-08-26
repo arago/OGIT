@@ -1,4 +1,4 @@
 var group__Survey =
 [
-    [ "Entities", "group__Survey__entities.html", "group__Survey__entities" ]
+    [ "Entities", "group__Survey____entities.html", "group__Survey____entities" ]
 ];

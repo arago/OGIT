@@ -1,6 +1,6 @@
 var group__RDDL =
 [
-    [ "Attributes", "group__RDDL__attributes.html", "group__RDDL__attributes" ],
-    [ "Entities", "group__RDDL__entities.html", "group__RDDL__entities" ],
-    [ "Verbs", "group__RDDL__verbs.html", "group__RDDL__verbs" ]
+    [ "Attributes", "group__RDDL____attributes.html", "group__RDDL____attributes" ],
+    [ "Entities", "group__RDDL____entities.html", "group__RDDL____entities" ],
+    [ "Verbs", "group__RDDL____verbs.html", "group__RDDL____verbs" ]
 ];

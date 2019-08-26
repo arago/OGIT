@@ -1,4 +1,4 @@
 var group__MARS__Network =
 [
-    [ "Attributes", "group__Network__attributes.html", "group__Network__attributes" ]
+    [ "Attributes", "group__MARS__Network____attributes.html", "group__MARS__Network____attributes" ]
 ];

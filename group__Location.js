@@ -1,5 +1,5 @@
 var group__Location =
 [
-    [ "Attributes", "group__Location__attributes.html", "group__Location__attributes" ],
-    [ "Entities", "group__Location__entities.html", "group__Location__entities" ]
+    [ "Attributes", "group__Location____attributes.html", "group__Location____attributes" ],
+    [ "Entities", "group__Location____entities.html", "group__Location____entities" ]
 ];

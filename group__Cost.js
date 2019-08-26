@@ -1,4 +1,4 @@
 var group__Cost =
 [
-    [ "Entities", "group__Cost__entities.html", "group__Cost__entities" ]
+    [ "Entities", "group__Cost____entities.html", "group__Cost____entities" ]
 ];

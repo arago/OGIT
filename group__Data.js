@@ -1,5 +1,5 @@
 var group__Data =
 [
-    [ "Attributes", "group__Data__attributes.html", "group__Data__attributes" ],
-    [ "Entities", "group__Data__entities.html", "group__Data__entities" ]
+    [ "Attributes", "group__Data____attributes.html", "group__Data____attributes" ],
+    [ "Entities", "group__Data____entities.html", "group__Data____entities" ]
 ];

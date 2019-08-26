@@ -1,5 +1,5 @@
 var group__PTF =
 [
-    [ "Attributes", "group__PTF__attributes.html", "group__PTF__attributes" ],
-    [ "Entities", "group__PTF__entities.html", "group__PTF__entities" ]
+    [ "Attributes", "group__PTF____attributes.html", "group__PTF____attributes" ],
+    [ "Entities", "group__PTF____entities.html", "group__PTF____entities" ]
 ];

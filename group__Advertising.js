@@ -1,4 +1,4 @@
 var group__Advertising =
 [
-    [ "Entities", "group__Advertising__entities.html", "group__Advertising__entities" ]
+    [ "Entities", "group__Advertising____entities.html", "group__Advertising____entities" ]
 ];

@@ -1,4 +1,4 @@
 var group__Auth__Application =
 [
-    [ "Attributes", "group__Application__attributes.html", "group__Application__attributes" ]
+    [ "Attributes", "group__Auth__Application____attributes.html", "group__Auth__Application____attributes" ]
 ];
