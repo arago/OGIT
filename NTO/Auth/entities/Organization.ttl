@@ -26,6 +26,7 @@ ogit.Auth:Organization
 	);
 	ogit:optional-attributes (
             ogit:isInternal
+            ogit:status	
 	);
 	ogit:indexed-attributes (
 		ogit:name
