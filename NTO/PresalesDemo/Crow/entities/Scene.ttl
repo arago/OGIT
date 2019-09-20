@@ -1,0 +1,29 @@
+@prefix ogit.PresalesDemo.Crow:     <http://www.purl.org/ogit/PresalesDemo/Crow/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.PresalesDemo.Crow:Scene
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Scene";
+  dcterms:description "The scene representation of the Crow Presales demo.";
+  dcterms:valid "start=2019-09-20;";
+  dcterms:creator "Marek Meyer";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+    ogit:name
+  );
+  ogit:optional-attributes (
+    ogit:id  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+	[ ogit:has  ogit.PresalesDemo.Crow:Food ]
+	[ ogit:has  ogit.PresalesDemo.Crow:Tree ]
+	[ ogit:has  ogit.PresalesDemo.Crow:Street ]
+	[ ogit:has  ogit.PresalesDemo.Crow:Crossing ]
+	[ ogit:has  ogit.PresalesDemo.Crow:Sidewalk ]
+  );
+.
