@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['usermeta',['UserMeta',['../group__UserMeta.html',1,'']]]
+  ['justification',['justification',['../group__httpwwwpurlorgogitjustification.html',1,'']]]
 ];
