@@ -1,0 +1,26 @@
+@prefix ogit.Examples.Crow:     <http://www.purl.org/ogit/Examples/Crow/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Examples.Crow:Crossing
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Crossing";
+  dcterms:description "A pedestrian crossing with a traffic light.";
+  dcterms:valid "start=2019-09-20;";
+  dcterms:creator "Marek Meyer";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+  );
+  ogit:optional-attributes (
+    ogit.Examples.Crow:carLightStatus  
+    ogit.Examples.Crow:pedestrianLightStatus  
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+	[ ogit:isPartOf  ogit.Examples.Crow:Street ]
+  );
+.
