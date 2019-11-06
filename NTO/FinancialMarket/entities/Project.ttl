@@ -3,12 +3,12 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.FinancialMarket:FinancialInstrument
+ogit.FinancialMarket:Project
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "FinancialInstrument";
-  dcterms:description "A financial instrument issued by corporation in the context of financial markets.";
-  dcterms:valid "start=2019-07-10;";
+  rdfs:label "Project";
+  dcterms:description "A project which acts on the financial markets (e.g. to receive loans).";
+  dcterms:valid "start=2019-11-06;";
   dcterms:creator "Marek Meyer";
   ogit:scope "NTO";
   ogit:parent ogit:Node;
@@ -16,16 +16,10 @@ ogit.FinancialMarket:FinancialInstrument
     ogit:name
   );
   ogit:optional-attributes (
-    ogit:currency
-    ogit.FinancialMarket:ISIN
-    ogit.FinancialMarket:issueDate
-    ogit.FinancialMarket:maturityDate
+	ogit:description
   );
   ogit:indexed-attributes (
   );
   ogit:allowed (
-	[ ogit:listedAt ogit.FinancialMarket:Exchange ]
-	[ ogit:belongs ogit.FinancialMarket:FinancialInstrumentCategory ]
-	[ ogit:defines ogit.FinancialMarket:Contract ]
   );
 .
