@@ -1,17 +1,36 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: FinancialMarket, \n 11/01/2019"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: FinancialMarket, \n 11/08/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
 
+   "ogit/FinancialMarket/Contract" -> "ogit/FinancialMarket/Project" [label="   ogit/soldTo    "];
+   "ogit/FinancialMarket/Contract" -> "ogit/FinancialMarket/Corporation" [label="   ogit/soldTo    "];
    "ogit/FinancialMarket/Index" -> "ogit/FinancialMarket/FinancialInstrument" [label="   ogit/contains    "];
    "ogit/FinancialMarket/Investment" -> "ogit/FinancialMarket/FinancialInstrument" [label="   ogit/contains    "];
+   "ogit/FinancialMarket/Portfolio" -> "ogit/FinancialMarket/FinancialInstrument" [label="   ogit/contains    "];
+   "ogit/FinancialMarket/Portfolio" -> "ogit/FinancialMarket/Contract" [label="   ogit/contains    "];
+   "ogit/FinancialMarket/FinancialInstrument" -> "ogit/FinancialMarket/Contract" [label="   ogit/defines    "];
+   "ogit/FinancialMarket/Corporation" -> "ogit/Location/Address" [label="   ogit/locatedAt    "];
+   "ogit/FinancialMarket/Protection" -> "ogit/Location/Address" [label="   ogit/locatedAt    "];
+   "ogit/FinancialMarket/LineOfBusiness" -> "ogit/FinancialMarket/Contract" [label="   ogit/sells    "];
    "ogit/FinancialMarket/Exchange" -> "ogit/FinancialMarket/Country" [label="   ogit/locatedIn    "];
    "ogit/FinancialMarket/Index" -> "ogit/FinancialMarket/Country" [label="   ogit/locatedIn    "];
    "ogit/FinancialMarket/Investor" -> "ogit/FinancialMarket/Country" [label="   ogit/locatedIn    "];
    "ogit/FinancialMarket/Corporation" -> "ogit/Organization" [label="   ogit/corresponds    "];
+   "ogit/FinancialMarket/LineOfBusiness" -> "ogit/Organization" [label="   ogit/corresponds    "];
    "ogit/FinancialMarket/Corporation" -> "ogit/FinancialMarket/FinancialInstrument" [label="   ogit/issues    "];
    "ogit/FinancialMarket/FinancialInstrument" -> "ogit/FinancialMarket/Exchange" [label="   ogit/listedAt    "];
    "ogit/FinancialMarket/Investor" -> "ogit/FinancialMarket/Investment" [label="   ogit/owns    "];
+   "ogit/FinancialMarket/LineOfBusiness" -> "ogit/FinancialMarket/Portfolio" [label="   ogit/owns    "];
+   "ogit/FinancialMarket/FinancialInstrument" -> "ogit/FinancialMarket/FinancialInstrumentCategory" [label="   ogit/belongs    "];
+   "ogit/FinancialMarket/Protection" -> "ogit/FinancialMarket/ProtectionType" [label="   ogit/belongs    "];
+   "ogit/FinancialMarket/Contract" -> "ogit/Timeseries" [label="   ogit/reports    "];
+   "ogit/FinancialMarket/Corporation" -> "ogit/Timeseries" [label="   ogit/reports    "];
+   "ogit/FinancialMarket/Protection" -> "ogit/Timeseries" [label="   ogit/reports    "];
+   "ogit/FinancialMarket/Contract" -> "ogit/FinancialMarket/Corporation" [label="   ogit/FinancialMarket/securedBy    "];
+   "ogit/FinancialMarket/LineOfBusiness" -> "ogit/FinancialMarket/FinancialInstrumentCategory" [label="   ogit/has    "];
+   "ogit/FinancialMarket/LineOfBusiness" -> "ogit/FinancialMarket/Corporation" [label="   ogit/isPartOf    "];
+   "ogit/FinancialMarket/Corporation" -> "ogit/FinancialMarket/Corporation" [label="   ogit/isPartOf    "];
 }
