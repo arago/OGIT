@@ -29,6 +29,10 @@ ogit.FinancialMarket:Corporation
   ogit:allowed (
 	[ ogit:corresponds  ogit:Organization ]
 	[ ogit:issues ogit.FinancialMarket:FinancialInstrument ]
+	[ ogit.FinancialMarket:credits ogit.FinancialMarket:Contract ]
+	[ ogit.FinancialMarket:brokers ogit.FinancialMarket:Contract ]
+	[ ogit.FinancialMarket:services ogit.FinancialMarket:Contract ]
+	[ ogit:provides ogit.FinancialMarket:Protection ]
 	[ ogit:reports ogit:Timeseries ]
 	[ ogit:isPartOf ogit.FinancialMarket:Corporation ]
 	[ ogit:locatedAt ogit.Location:Address ]
