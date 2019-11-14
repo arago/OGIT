@@ -28,6 +28,6 @@ ogit.FinancialMarket:Contract
 	[ ogit:reports ogit:Timeseries ]
 	[ ogit:soldTo ogit.FinancialMarket:Project ]
 	[ ogit:soldTo ogit.FinancialMarket:Corporation ]
-	[ ogit.FinancialMarket:securedBy ogit.FinancialMarket:Corporation ]
+	[ ogit.FinancialMarket:securedBy ogit.FinancialMarket:Protection ]
   );
 .
