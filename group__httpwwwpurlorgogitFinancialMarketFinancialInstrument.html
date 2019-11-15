@@ -127,11 +127,16 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitFinancialMark
 <ul>
 <li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitFinancialMarketIndex.html">ogit/FinancialMarket/Index</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitFinancialMarketInvestment.html">ogit/FinancialMarket/Investment</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitFinancialMarketPortfolio.html">ogit/FinancialMarket/Portfolio</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitissues.html">ogit/issues</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitFinancialMarketCorporation.html">ogit/FinancialMarket/Corporation</a></li>
 </ul>
 <h2>outgoing edges </h2>
 <ul>
-<li><a class="el" href="group__httpwwwpurlorgogitlistedAt.html">ogit/listedAt</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketExchange.html">ogit/FinancialMarket/Exchange</a> <hr/>
+<li><a class="el" href="group__httpwwwpurlorgogitbelongs.html">ogit/belongs</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketFinancialInstrumentCategory.html">ogit/FinancialMarket/FinancialInstrumentCategory</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitdefines.html">ogit/defines</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketContract.html">ogit/FinancialMarket/Contract</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitlistedAt.html">ogit/listedAt</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketExchange.html">ogit/FinancialMarket/Exchange</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitreferences.html">ogit/references</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketIndex.html">ogit/FinancialMarket/Index</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitreports.html">ogit/reports</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitTimeseries.html">ogit/Timeseries</a> <hr/>
 </li>
 </ul>
 </div><!-- contents -->
@@ -139,7 +144,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitFinancialMark
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 23 2019 07:37:06 by
+    <li class="footer">Generated on Fri Nov 15 2019 12:03:28 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

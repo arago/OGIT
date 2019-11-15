@@ -2,6 +2,7 @@ var searchData=
 [
   ['verbs',['Verbs',['../group__Auth____verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__Factory____verbs.html',1,'']]],
+  ['verbs',['Verbs',['../group__FinancialMarket____verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__Forum____verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__HR__Recruiting____verbs.html',1,'']]],
   ['vertexrule',['vertexRule',['../group__httpwwwpurlorgogitAuthvertexRule.html',1,'']]],

@@ -95,6 +95,15 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitFinancialMark
 <li><a class="el" href="group__httpwwwpurlorgogitname.html">ogit/name</a></li>
 </ul>
 </li>
+<li>optional:<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitFinancialMarketdefaultDate.html">ogit/FinancialMarket/defaultDate</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitFinancialMarketdefaultStatus.html">ogit/FinancialMarket/defaultStatus</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitFinancialMarketenterpriseSize.html">ogit/FinancialMarket/enterpriseSize</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitFinancialMarketlegalEntityIdentifier.html">ogit/FinancialMarket/legalEntityIdentifier</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitFinancialMarketlegalForm.html">ogit/FinancialMarket/legalForm</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitFinancialMarketnationalIdentifier.html">ogit/FinancialMarket/nationalIdentifier</a></li>
+</ul>
+</li>
 </ul>
 <h2>attributes (base) </h2>
 <ul>
@@ -116,10 +125,23 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitFinancialMark
 </ul>
 </li>
 </ul>
+<h2>incoming edges </h2>
+<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitisPartOf.html">ogit/isPartOf</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitFinancialMarketCorporation.html">ogit/FinancialMarket/Corporation</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitisPartOf.html">ogit/isPartOf</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitFinancialMarketLineOfBusiness.html">ogit/FinancialMarket/LineOfBusiness</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitsoldTo.html">ogit/soldTo</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitFinancialMarketContract.html">ogit/FinancialMarket/Contract</a></li>
+</ul>
 <h2>outgoing edges </h2>
 <ul>
+<li><a class="el" href="group__httpwwwpurlorgogitFinancialMarketbrokers.html">ogit/FinancialMarket/brokers</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketContract.html">ogit/FinancialMarket/Contract</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitFinancialMarketcredits.html">ogit/FinancialMarket/credits</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketContract.html">ogit/FinancialMarket/Contract</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitFinancialMarketservices.html">ogit/FinancialMarket/services</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketContract.html">ogit/FinancialMarket/Contract</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitcorresponds.html">ogit/corresponds</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitOrganization.html">ogit/Organization</a></li>
-<li><a class="el" href="group__httpwwwpurlorgogitissues.html">ogit/issues</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketFinancialInstrument.html">ogit/FinancialMarket/FinancialInstrument</a> <hr/>
+<li><a class="el" href="group__httpwwwpurlorgogitisPartOf.html">ogit/isPartOf</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketCorporation.html">ogit/FinancialMarket/Corporation</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitissues.html">ogit/issues</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketFinancialInstrument.html">ogit/FinancialMarket/FinancialInstrument</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitlocatedAt.html">ogit/locatedAt</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitLocationAddress.html">ogit/Location/Address</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitprovides.html">ogit/provides</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitFinancialMarketProtection.html">ogit/FinancialMarket/Protection</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitreports.html">ogit/reports</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitTimeseries.html">ogit/Timeseries</a> <hr/>
 </li>
 </ul>
 </div><!-- contents -->
@@ -127,7 +149,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitFinancialMark
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 23 2019 07:37:06 by
+    <li class="footer">Generated on Fri Nov 15 2019 12:03:28 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
