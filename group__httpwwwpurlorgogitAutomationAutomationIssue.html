@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AutoPilotIssue</title>
+<title>AutomationIssue</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -77,9 +77,87 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitAutomationAut
 
 <div class="header">
   <div class="headertitle">
-<div class="title">AutoPilotIssue</div>  </div>
+<div class="title">AutomationIssue<div class="ingroups"><a class="el" href="group__Automation.html">Automation</a> &raquo; <a class="el" href="group__Automation____entities.html">Entities</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+<h1>ogit/Automation/AutomationIssue </h1>
+<p>Dynamic information exists within an automation engine in the form of Issues otherwise referred to as Task or Situational Data. From the technical perspective an Issue is a number of attributes (Key/Value tuples) with unique names. From the logical point of view Issues contain information about the change of states on a system. Issues can be injected into an automation engine from external systems e.g. Monitoring or result from the execution of a Knowledge Item. By comparing an Issue with the Issue Condition of a Knowledge Item an automation engine decides which Knowledge Items are are processed in which order. If multiple Knowledge Items can be applied to an Issue the KI with the more precisely defined IssueCondition is processed first.</p>
+<ul>
+<li>id: <a href="http://www.purl.org/ogit/Automation/AutomationIssue">http://www.purl.org/ogit/Automation/AutomationIssue</a></li>
+<li>valid-from: Thu May 21 00:00:00 UTC 2015</li>
+<li>creator: Peter Larem</li>
+<li>scope: NTO</li>
+<li>parent: ogit/Node</li>
+</ul>
+<h2>attributes </h2>
+<ul>
+<li>optional:<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationdeployStatus.html">ogit/Automation/deployStatus</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationisDeployed.html">ogit/Automation/isDeployed</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationissueFormalRepresentation.html">ogit/Automation/issueFormalRepresentation</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationissueType.html">ogit/Automation/issueType</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationmaxIdleTime.html">ogit/Automation/maxIdleTime</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationoriginNode.html">ogit/Automation/originNode</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationparentIssue.html">ogit/Automation/parentIssue</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationprocessingNode.html">ogit/Automation/processingNode</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationprocessingTimestamp.html">ogit/Automation/processingTimestamp</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationsuspendUntil.html">ogit/Automation/suspendUntil</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitAutomationwebhook.html">ogit/Automation/webhook</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcreationTime.html">ogit/creationTime</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitmodificationTime.html">ogit/modificationTime</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitstatus.html">ogit/status</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitsubject.html">ogit/subject</a></li>
+</ul>
+</li>
+</ul>
+<h2>attributes (base) </h2>
+<ul>
+<li>mandatory:<ul>
+<li><a class="el" href="group__httpwwwpurlorgogit__content.html">ogit/_content</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__created-on.html">ogit/_created-on</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__creator.html">ogit/_creator</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__deleted-on.html">ogit/_deleted-on</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__edge__id.html">ogit/_edge_id</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__graphtype.html">ogit/_graphtype</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__id.html">ogit/_id</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__is-deleted.html">ogit/_is-deleted</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__modified-by.html">ogit/_modified-by</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__modified-on.html">ogit/_modified-on</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__owner.html">ogit/_owner</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__tags.html">ogit/_tags</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__type.html">ogit/_type</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogit__version.html">ogit/_version</a></li>
+</ul>
+</li>
+</ul>
+<h2>incoming edges </h2>
+<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitconnects.html">ogit/connects</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitForumWorkflow.html">ogit/Forum/Workflow</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitForumKnowledgeBundle.html">ogit/Forum/KnowledgeBundle</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitForumKnowledgeBundleHistory.html">ogit/Forum/KnowledgeBundleHistory</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcorresponds.html">ogit/corresponds</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitServiceManagementChangeRequest.html">ogit/ServiceManagement/ChangeRequest</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcorresponds.html">ogit/corresponds</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitServiceManagementIncident.html">ogit/ServiceManagement/Incident</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcorresponds.html">ogit/corresponds</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitServiceManagementProblem.html">ogit/ServiceManagement/Problem</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcorresponds.html">ogit/corresponds</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitServiceManagementSubTask.html">ogit/ServiceManagement/SubTask</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcorresponds.html">ogit/corresponds</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitServiceManagementTicket.html">ogit/ServiceManagement/Ticket</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcorresponds.html">ogit/corresponds</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitEvent.html">ogit/Event</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcreates.html">ogit/creates</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitForumProfile.html">ogit/Forum/Profile</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitForumFeedEntry.html">ogit/Forum/FeedEntry</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitworksOn.html">ogit/worksOn</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitAutomationKnowledgeItem.html">ogit/Automation/KnowledgeItem</a></li>
+</ul>
+<h2>outgoing edges </h2>
+<ul>
+<li><a class="el" href="group__httpwwwpurlorgogitassociates.html">ogit/associates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitQuestion.html">ogit/Question</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitTask.html">ogit/Task</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAutomationDynamicEngineData.html">ogit/Automation/DynamicEngineData</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitcontains.html">ogit/contains</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAutomationItem.html">ogit/Automation/Item</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitgenerates.html">ogit/generates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitTimeseries.html">ogit/Timeseries</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitgenerates.html">ogit/generates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAutomationHistory.html">ogit/Automation/History</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitKnowledgeAcquisitionSession.html">ogit/Knowledge/AcquisitionSession</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitrelates.html">ogit/relates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAutomationMARSNode.html">ogit/Automation/MARSNode</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitworksOn.html">ogit/worksOn</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAutomationMARSNode.html">ogit/Automation/MARSNode</a> <hr/>
+</li>
+</ul>
 
 
 <h3><a id="IssueAPI"></a>Issue Processing</h3><div class="textblock">An issue is a formalized version of a task that is injected into aAE (AutoPilot Engine) via the Issue API. Such a task can be a change request, incident ticket, event, and so on.The aAE will try to get the job done with the help of the Knowledge Items. An issue always contains all the information that describes the task and that has been accumulated up to now in the processing.An issue can be in different states. The following picture shows the possible state transitions: </p><div class="image">
@@ -90,7 +168,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitAutomationAut
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 15 2019 13:08:39 by
+    <li class="footer">Generated on Fri Nov 15 2019 13:31:14 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
