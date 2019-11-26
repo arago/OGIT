@@ -1,0 +1,26 @@
+@prefix ogit.Credit:            <http://www.purl.org/ogit/FinancialMarket/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Credit:EconomicActivity
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "EconomicActivity";
+  dcterms:description "A category of economic activities in the context of Credit.";
+  dcterms:valid "start=2019-11-25;";
+  dcterms:creator "Ola Irgens Kylling";
+  ogit:scope "NTO";
+  ogit:parent ogit:Node;
+  ogit:mandatory-attributes (
+    ogit:id
+  );
+  ogit:optional-attributes (
+    ogit:title
+    ogit:description
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+  );
+.

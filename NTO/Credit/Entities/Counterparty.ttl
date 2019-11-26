@@ -1,0 +1,53 @@
+@prefix ogit.Credit:            <http://www.purl.org/ogit/Credit/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Credit.Counterparty
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Counterparty";
+  dcterms:description "A counterparty in a credit transaction.";
+  dcterms:valid "start=2019-11-25;";
+  dcterms:creator "Ola Irgens Kylling";
+  ogit:scope "NTO";
+  ogit:parent ogit:Node;
+  ogit:mandatory-attributes (
+    ogit:id
+    ogit:name
+    ogit:validFrom
+  );
+  ogit:optional-attributes (
+    ogit:validTo
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+    [ ogit:follows ogit.Credit:Counterparty ]
+    [ ogit:corresponds ogit.Credit:Counterparty ]
+    [ ogit:reports ogit.Credit:CounterpartyMutable ]
+    [ ogit.Credit:hasImmediateParent ogit.Credit:Counterparty ]
+    [ ogit.Credit:hasUltimateParent ogit.Credit:Counterparty ]
+    [ ogit.Credit:hasHeadOffice ogit.Credit:Counterparty ]
+    [ ogit.Credit:originates  ogit.Credit:Instrument ]
+    [ ogit.Credit:services  ogit.Credit:Instrument ]
+    [ ogit.Credit:credits  ogit.Credit:Instrument ]
+    [ ogit.Credit:debts  ogit.Credit:Instrument ]
+    [ ogit:belongs ogit.Credit:EconomicActivity ]
+    [ ogit:provides  ogit.Credit:Protection ]
+    [ ogit:locatedAt ogit.Location:Address ]
+    [ ogit:has ogit.Credit:JointLiability ]
+    [ ogit.Credit:observes ogit.Credit:CounterpartyMutable ]
+    [ ogit.Credit:observes ogit.Credit:InstrumentMutable ]
+    [ ogit.Credit:observes ogit.Credit:ProtectionMutable ]
+    [ ogit:reports ogit.Credit:CounterpartyMutable ]
+    [ ogit.Credit:observes ogit.Credit:Instrument ]
+    [ ogit.Credit:observes ogit.Credit:Protection ]
+    [ ogit:reports ogit.Credit:ProtectionMutable ]
+    [ ogit:reports ogit.Credit:InstrumentMutable ]
+    [ ogit.Credit:observes ogit.Credit:Contract ]
+    [ ogit:reports ogit.Credit:Instrument ]
+    [ ogit:reports ogit.Credit:Protection ]
+    [ ogit:reports ogit.Credit:Contract ]
+  );
+.

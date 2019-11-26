@@ -1,0 +1,27 @@
+@prefix ogit.Credit:            <http://www.purl.org/ogit/Credit/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Credit:InstrumentMutable
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "InstrumentMutable";
+  dcterms:description "Mutable data for an instrument";
+  dcterms:valid "start=2019-11-25;";
+  dcterms:creator "Ola Irgens Kylling";
+  ogit:scope "NTO";
+  ogit:parent ogit:Node;
+  ogit:mandatory-attributes (
+    ogit:id
+    ogit:validFrom
+  );
+  ogit:optional-attributes (
+    ogit:validTo
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+	[ ogit:follows  ogit.Credit:InstrumentMutable ]
+  );
+.
