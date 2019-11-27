@@ -8,7 +8,7 @@ ogit.Credit:Contract
   rdfs:subClassOf ogit:Entity;
   rdfs:label "Contract";
   dcterms:description "A contract, representing a deal, for a loan";
-  dcterms:valid "start=2019-11-25;";
+  dcterms:valid "start=2019-11-27;";
   dcterms:creator "Ola Irgens Kylling";
   ogit:scope "NTO";
   ogit:parent ogit:Node;
@@ -22,7 +22,7 @@ ogit.Credit:Contract
   ogit:indexed-attributes (
   );
   ogit:allowed (
-	[ ogit:has ogit.Credit:Instrument]
-	[ ogit:has ogit.Credit:Purpose]
+    [ ogit:has ogit.Credit:Instrument]
+    [ ogit:has ogit.Credit:Purpose]
   );
 .

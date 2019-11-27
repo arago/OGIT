@@ -8,7 +8,7 @@ ogit.Credit:Instrument
   rdfs:subClassOf ogit:Entity;
   rdfs:label "Instrument";
   dcterms:description "An instrument issued by corporation in the context of credit.";
-  dcterms:valid "start=2019-11-25;";
+  dcterms:valid "start=2019-11-27;";
   dcterms:creator "Ola Irgens Kylling";
   ogit:scope "NTO";
   ogit:parent ogit:Node;

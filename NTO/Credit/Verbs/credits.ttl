@@ -10,6 +10,6 @@ ogit.Credit:credits
 	rdfs:label "credits";
 	dcterms:description """This relationship indicates that an entity is the creditor for an instrument.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2019-11-25;";
+	dcterms:valid "start=2019-11-27;";
 	dcterms:creator "Ola Irgens Kylling";
 .

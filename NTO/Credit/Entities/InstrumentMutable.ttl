@@ -8,7 +8,7 @@ ogit.Credit:InstrumentMutable
   rdfs:subClassOf ogit:Entity;
   rdfs:label "InstrumentMutable";
   dcterms:description "Mutable data for an instrument";
-  dcterms:valid "start=2019-11-25;";
+  dcterms:valid "start=2019-11-27;";
   dcterms:creator "Ola Irgens Kylling";
   ogit:scope "NTO";
   ogit:parent ogit:Node;
@@ -22,6 +22,6 @@ ogit.Credit:InstrumentMutable
   ogit:indexed-attributes (
   );
   ogit:allowed (
-	[ ogit:follows  ogit.Credit:InstrumentMutable ]
+    [ ogit:follows  ogit.Credit:InstrumentMutable ]
   );
 .

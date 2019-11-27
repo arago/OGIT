@@ -8,7 +8,7 @@ ogit.Credit:ProtectionMutable
   rdfs:subClassOf ogit:Entity;
   rdfs:label "ProtectionMutable";
   dcterms:description "Mutable data for a protection for a loan";
-  dcterms:valid "start=2019-11-25;";
+  dcterms:valid "start=2019-11-27;";
   dcterms:creator "Ola Irgens Kylling";
   ogit:scope "NTO";
   ogit:parent ogit:Node;
@@ -22,6 +22,6 @@ ogit.Credit:ProtectionMutable
   ogit:indexed-attributes (
   );
   ogit:allowed (
-	[ ogit:follows  ogit.Credit:ProtectionMutable ]
+    [ ogit:follows  ogit.Credit:ProtectionMutable ]
   );
 .
