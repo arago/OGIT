@@ -19,6 +19,7 @@ ogit.CustomerSupport:Comment
                                   ogit:id  # external entity based unique id
                                   ogit.CustomerSupport:remoteUrl
                                   ogit.CustomerSupport:remoteType
+                                  ogit.CustomerSupport:remoteId
                                   ogit:type  # text or voice
                                   ogit:content  # plain text
                                   ogit.CustomerSupport:htmlContent

@@ -19,6 +19,7 @@ ogit.CustomerSupport:Organization
                                   ogit:id  # external entity based unique id
                                   ogit.CustomerSupport:remoteUrl
                                   ogit.CustomerSupport:remoteType
+                                  ogit.CustomerSupport:remoteId
                                   ogit:name
                                   ogit.CustomerSupport:domainNames
                                   ogit.CustomerSupport:details
