@@ -4,6 +4,7 @@ var modules =
     [ "Auth", "group__Auth.html", "group__Auth" ],
     [ "Automation", "group__Automation.html", "group__Automation" ],
     [ "Cost", "group__Cost.html", "group__Cost" ],
+    [ "Credit", "group__Credit.html", "group__Credit" ],
     [ "Data", "group__Data.html", "group__Data" ],
     [ "DataProcessing", "group__DataProcessing.html", "group__DataProcessing" ],
     [ "Datacenter", "group__Datacenter.html", "group__Datacenter" ],

@@ -1,0 +1,42 @@
+digraph OGIT_ontology {
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Credit, \n 12/04/2019"];
+node[shape=polygon];
+edge [  color="gray81"];
+
+   "ogit/Credit/Protection" -> "ogit/Credit/Instrument" [label="   ogit/Credit/secures    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Instrument" [label="   ogit/Credit/debts    "];
+   "ogit/Credit/Counterparty" -> "ogit/Location/Address" [label="   ogit/locatedAt    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/CounterpartyMutable" [label="   ogit/Credit/observes    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/InstrumentMutable" [label="   ogit/Credit/observes    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/ProtectionMutable" [label="   ogit/Credit/observes    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Instrument" [label="   ogit/Credit/observes    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Protection" [label="   ogit/Credit/observes    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Contract" [label="   ogit/Credit/observes    "];
+   "ogit/Credit/JointLiability" -> "ogit/Credit/Instrument" [label="   ogit/connects    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Instrument" [label="   ogit/Credit/credits    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Protection" [label="   ogit/provides    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Instrument" [label="   ogit/Credit/originates    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Instrument" [label="   ogit/Credit/services    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/EconomicActivity" [label="   ogit/belongs    "];
+   "ogit/Credit/Instrument" -> "ogit/Credit/InstrumentType" [label="   ogit/belongs    "];
+   "ogit/Credit/Protection" -> "ogit/Credit/ProtectionType" [label="   ogit/belongs    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/CounterpartyMutable" [label="   ogit/reports    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/ProtectionMutable" [label="   ogit/reports    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/InstrumentMutable" [label="   ogit/reports    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Instrument" [label="   ogit/reports    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Protection" [label="   ogit/reports    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Contract" [label="   ogit/reports    "];
+   "ogit/Credit/Instrument" -> "ogit/Credit/InstrumentMutable" [label="   ogit/reports    "];
+   "ogit/Credit/Protection" -> "ogit/Credit/ProtectionMutable" [label="   ogit/reports    "];
+   "ogit/Credit/Contract" -> "ogit/Credit/Instrument" [label="   ogit/has    "];
+   "ogit/Credit/Contract" -> "ogit/Credit/Purpose" [label="   ogit/has    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/JointLiability" [label="   ogit/has    "];
+   "ogit/Credit/Protection" -> "ogit/Credit/Protection" [label="   ogit/follows    "];
+   "ogit/Credit/InstrumentMutable" -> "ogit/Credit/InstrumentMutable" [label="   ogit/follows    "];
+   "ogit/Credit/ProtectionMutable" -> "ogit/Credit/ProtectionMutable" [label="   ogit/follows    "];
+   "ogit/Credit/Instrument" -> "ogit/Credit/Instrument" [label="   ogit/follows    "];
+   "ogit/Credit/Counterparty" -> "ogit/Credit/Counterparty" [label="   ogit/Credit/hasImmediateParent, \n ogit/follows, \n ogit/corresponds, \n ogit/Credit/hasHeadOffice, \n ogit/Credit/hasUltimateParent    "];
+   "ogit/Credit/CounterpartyMutable" -> "ogit/Credit/CounterpartyMutable" [label="   ogit/follows    "];
+}
