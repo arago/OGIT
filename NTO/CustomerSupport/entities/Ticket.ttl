@@ -16,16 +16,16 @@ ogit.CustomerSupport:Ticket
     ogit:parent               ogit:Node ;
     ogit:mandatory-attributes ( ) ;
     ogit:optional-attributes  (
-                                  ogit:id
+                                  ogit:id  # external entity based unique id
                                   ogit.CustomerSupport:remoteUrl
-                                  ogit.CustomerSupport:remoteType  # e.g. Zendesk
-                                  ogit:status
-                                  ogit:type
+                                  ogit.CustomerSupport:remoteType
+                                  ogit:status  # Enum<String> "new", "open", "pending", "hold", "solved", "closed"
+                                  ogit:type  # Enum<String> "problem", "incident", "question", "task"
                                   ogit:summary
-                                  ogit:priority
+                                  ogit:priority  # Enum<String> "urgent", "high", "normal", "low"
                                   ogit.CustomerSupport:recipient
                                   ogit.CustomerSupport:hasIncidents
-                                  ogit:deadline  # dueAt
+                                  ogit:deadline  # due at
                                   ogit.CustomerSupport:allowAttachments
                                   ogit.CustomerSupport:tags
                                   ogit.CustomerSupport:customFieldNames

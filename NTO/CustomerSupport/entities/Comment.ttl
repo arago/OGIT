@@ -16,11 +16,11 @@ ogit.CustomerSupport:Comment
     ogit:parent               ogit:Node ;
     ogit:mandatory-attributes ( ) ;
     ogit:optional-attributes  (
-                                  ogit:id
+                                  ogit:id  # external entity based unique id
                                   ogit.CustomerSupport:remoteUrl
-                                  ogit.CustomerSupport:remoteType  # e.g. Zendesk
-                                  ogit:type
-                                  ogit:content
+                                  ogit.CustomerSupport:remoteType
+                                  ogit:type  # text or voice
+                                  ogit:content  # plain text
                                   ogit.CustomerSupport:htmlContent
                                   ogit.CustomerSupport:public
                                   ogit.CustomerSupport:metadata

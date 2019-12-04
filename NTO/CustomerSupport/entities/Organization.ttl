@@ -16,9 +16,9 @@ ogit.CustomerSupport:Organization
     ogit:parent               ogit:Node ;
     ogit:mandatory-attributes ( ) ;
     ogit:optional-attributes  (
-                                  ogit:id
+                                  ogit:id  # external entity based unique id
                                   ogit.CustomerSupport:remoteUrl
-                                  ogit.CustomerSupport:remoteType  # e.g. Zendesk
+                                  ogit.CustomerSupport:remoteType
                                   ogit:name
                                   ogit.CustomerSupport:domainNames
                                   ogit.CustomerSupport:details

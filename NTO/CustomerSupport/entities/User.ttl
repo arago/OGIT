@@ -18,14 +18,14 @@ ogit.CustomerSupport:User
     ogit:optional-attributes  (
                                   ogit:id
                                   ogit.CustomerSupport:remoteUrl
-                                  ogit.CustomerSupport:remoteType  # e.g. Zendesk
-                                  ogit:status
+                                  ogit.CustomerSupport:remoteType
+                                  ogit:status  # "active:{<Boolean>}"
                                   ogit:name
                                   ogit:email
                                   ogit:phone
                                   ogit.CustomerSupport:details
                                   ogit.CustomerSupport:note
-                                  ogit:alternativeName
+                                  ogit:alternativeName  # alias for chat
                                   ogit.CustomerSupport:signature
                                   ogit.CustomerSupport:locale
                                   ogit.CustomerSupport:timeZone
