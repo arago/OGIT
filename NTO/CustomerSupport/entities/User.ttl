@@ -53,7 +53,7 @@ ogit.CustomerSupport:User
                                   [ ogit:belongs ogit.CustomerSupport:Organization ]
                                   [ ogit:follows ogit.CustomerSupport:Ticket ]
                                   [ ogit.CustomerSupport:collaborates ogit.CustomerSupport:Ticket ]
-                                  [ ogit.CustomerSupport:submitted ogit.CustomerSupport:Ticket ]
+                                  [ ogit.CustomerSupport:submits ogit.CustomerSupport:Ticket ]
                                   [ ogit:requests ogit.CustomerSupport:Ticket ]
                                   [ ogit:creates ogit.CustomerSupport:Comment ]
                               ) ;
