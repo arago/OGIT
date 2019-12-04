@@ -3,7 +3,7 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Credit:CounterparyMutable
+ogit.Credit:CounterpartyMutable
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
   rdfs:label "CounterpartyMutable";
