@@ -54,7 +54,7 @@ ogit.CustomerSupport:User
                                   [ ogit:follows ogit.CustomerSupport:Ticket ]
                                   [ ogit.CustomerSupport:collaborates ogit.CustomerSupport:Ticket ]
                                   [ ogit.CustomerSupport:submitted ogit.CustomerSupport:Ticket ]
-                                  [ ogit.CustomerSupport:requested ogit.CustomerSupport:Ticket ]
+                                  [ ogit:requests ogit.CustomerSupport:Ticket ]
                                   [ ogit:creates ogit.CustomerSupport:Comment ]
                               ) ;
 .

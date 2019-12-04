@@ -38,7 +38,7 @@ ogit.CustomerSupport:Ticket
                                   [ ogit:updates ogit.CustomerSupport:User ]
                                   [ ogit:assignedTo ogit.CustomerSupport:User ]
                                   [ ogit:assignedTo ogit.CustomerSupport:Group ]
-                                  [ ogit.CustomerSupport:associated ogit.CustomerSupport:Organization ]
+                                  [ ogit:associates ogit.CustomerSupport:Organization ]
                                   [ ogit:generates ogit:Timeseries ]
                               ) ;
 .
