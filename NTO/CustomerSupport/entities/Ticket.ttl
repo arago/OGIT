@@ -9,7 +9,7 @@ ogit.CustomerSupport:Ticket
     a                         rdfs:Class ;
     rdfs:subClassOf           ogit:Entity ;
     rdfs:label                "Ticket" ;
-    dcterms:description       """""" ;
+    dcterms:description       """Represents a Customer Support Ticket""" ;
     dcterms:valid             "start=2019-11-15;" ;
     dcterms:creator           "Johannes Harth" ;
     ogit:scope                "NTO" ;

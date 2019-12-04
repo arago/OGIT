@@ -9,7 +9,7 @@ ogit.CustomerSupport:Group
     a                         rdfs:Class ;
     rdfs:subClassOf           ogit:Entity ;
     rdfs:label                "Group" ;
-    dcterms:description       """""" ;
+    dcterms:description       """Represents a collection of entities. E.g. Users.""" ;
     dcterms:valid             "start=2019-11-15;" ;
     dcterms:creator           "Johannes Harth" ;
     ogit:scope                "NTO" ;

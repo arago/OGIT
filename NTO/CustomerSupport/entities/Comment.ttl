@@ -9,7 +9,7 @@ ogit.CustomerSupport:Comment
     a                         rdfs:Class ;
     rdfs:subClassOf           ogit:Entity ;
     rdfs:label                "Comment" ;
-    dcterms:description       """""" ;
+    dcterms:description       """Represents a comment that relates to another entity. They may have attached files with optional thumbnails. E.g. a Ticket.""" ;
     dcterms:valid             "start=2019-11-15;" ;
     dcterms:creator           "Johannes Harth" ;
     ogit:scope                "NTO" ;

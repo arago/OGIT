@@ -9,7 +9,7 @@ ogit.CustomerSupport:User
     a                         rdfs:Class ;
     rdfs:subClassOf           ogit:Entity ;
     rdfs:label                "User" ;
-    dcterms:description       """""" ;
+    dcterms:description       """Represents a person with associated identities, preferences, roles and meta data.""" ;
     dcterms:valid             "start=2019-11-15;" ;
     dcterms:creator           "Johannes Harth" ;
     ogit:scope                "NTO" ;
