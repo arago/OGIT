@@ -25,5 +25,10 @@ ogit.FinancialMarket:FinancialInstrument
   );
   ogit:allowed (
 	[ ogit:listedAt ogit.FinancialMarket:Exchange ]
+	[ ogit:belongs ogit.FinancialMarket:FinancialInstrumentCategory ]
+	[ ogit:defines ogit.FinancialMarket:Contract ]
+	[ ogit:reports ogit:Timeseries ]
+	[ ogit:references ogit.FinancialMarket:Index ]
+	
   );
 .

@@ -1,27 +1,33 @@
 @prefix ogit.FinancialMarket:     <http://www.purl.org/ogit/FinancialMarket/> .
+@prefix ogit.Location: 		    <http://www.purl.org/ogit/Location/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.FinancialMarket:Index
+ogit.FinancialMarket:Protection
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "Index";
-  dcterms:description "A financial index the context of financial markets.";
-  dcterms:valid "start=2019-07-10;";
+  rdfs:label "Protection";
+  dcterms:description "A protection (e.g. security) for financial contracts in the context of financial markets.";
+  dcterms:valid "start=2019-11-06;";
   dcterms:creator "Marek Meyer";
   ogit:scope "NTO";
   ogit:parent ogit:Node;
   ogit:mandatory-attributes (
-    ogit:name
+    ogit:id
   );
   ogit:optional-attributes (
+	ogit:title
+	ogit:description
+	ogit:currency
+	ogit:value
+	ogit.FinancialMarket:thirdPartyPriorityClaims
   );
   ogit:indexed-attributes (
   );
   ogit:allowed (
-	[ ogit:locatedIn ogit.FinancialMarket:Country ]
-	[ ogit:contains ogit.FinancialMarket:FinancialInstrument ]
+	[ ogit:belongs ogit.FinancialMarket:ProtectionType ]
+	[ ogit:locatedAt ogit.Location:Address ]
 	[ ogit:reports ogit:Timeseries ]
   );
 .

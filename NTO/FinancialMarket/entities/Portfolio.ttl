@@ -3,12 +3,12 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.FinancialMarket:Index
+ogit.FinancialMarket:Portfolio
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "Index";
-  dcterms:description "A financial index the context of financial markets.";
-  dcterms:valid "start=2019-07-10;";
+  rdfs:label "Portfolio";
+  dcterms:description "A portfolio of financial instruments in the context of financial markets.";
+  dcterms:valid "start=2019-11-06;";
   dcterms:creator "Marek Meyer";
   ogit:scope "NTO";
   ogit:parent ogit:Node;
@@ -16,12 +16,12 @@ ogit.FinancialMarket:Index
     ogit:name
   );
   ogit:optional-attributes (
+	ogit:description
   );
   ogit:indexed-attributes (
   );
   ogit:allowed (
-	[ ogit:locatedIn ogit.FinancialMarket:Country ]
 	[ ogit:contains ogit.FinancialMarket:FinancialInstrument ]
-	[ ogit:reports ogit:Timeseries ]
+	[ ogit:contains ogit.FinancialMarket:Contract ]
   );
 .

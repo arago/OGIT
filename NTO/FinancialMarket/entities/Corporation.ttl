@@ -1,4 +1,5 @@
 @prefix ogit.FinancialMarket:     <http://www.purl.org/ogit/FinancialMarket/> .
+@prefix ogit.Location:     <http://www.purl.org/ogit/Location/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -16,11 +17,24 @@ ogit.FinancialMarket:Corporation
     ogit:name
   );
   ogit:optional-attributes (
+  	ogit.FinancialMarket:legalEntityIdentifier
+  	ogit.FinancialMarket:nationalIdentifier
+	ogit.FinancialMarket:legalForm
+	ogit.FinancialMarket:enterpriseSize
+	ogit.FinancialMarket:defaultStatus
+	ogit.FinancialMarket:defaultDate
   );
   ogit:indexed-attributes (
   );
   ogit:allowed (
 	[ ogit:corresponds  ogit:Organization ]
 	[ ogit:issues ogit.FinancialMarket:FinancialInstrument ]
+	[ ogit.FinancialMarket:credits ogit.FinancialMarket:Contract ]
+	[ ogit.FinancialMarket:brokers ogit.FinancialMarket:Contract ]
+	[ ogit.FinancialMarket:services ogit.FinancialMarket:Contract ]
+	[ ogit:provides ogit.FinancialMarket:Protection ]
+	[ ogit:reports ogit:Timeseries ]
+	[ ogit:isPartOf ogit.FinancialMarket:Corporation ]
+	[ ogit:locatedAt ogit.Location:Address ]
   );
 .
