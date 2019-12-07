@@ -1,6 +1,7 @@
 var searchData=
 [
   ['governingcontract',['governingContract',['../group__httpwwwpurlorgogitAutomationgoverningContract.html',1,'']]],
+  ['group',['Group',['../group__httpwwwpurlorgogitCustomerSupportGroup.html',1,'']]],
   ['group',['Group',['../group__httpwwwpurlorgogitForumGroup.html',1,'']]],
   ['generates',['generates',['../group__httpwwwpurlorgogitgenerates.html',1,'']]],
   ['governs',['governs',['../group__httpwwwpurlorgogitgoverns.html',1,'']]],

@@ -15,6 +15,8 @@ var searchData=
   ['protectionmutable',['ProtectionMutable',['../group__httpwwwpurlorgogitCreditProtectionMutable.html',1,'']]],
   ['protectiontype',['ProtectionType',['../group__httpwwwpurlorgogitCreditProtectionType.html',1,'']]],
   ['purpose',['Purpose',['../group__httpwwwpurlorgogitCreditPurpose.html',1,'']]],
+  ['privatecommentsonly',['privateCommentsOnly',['../group__httpwwwpurlorgogitCustomerSupportprivateCommentsOnly.html',1,'']]],
+  ['public',['public',['../group__httpwwwpurlorgogitCustomerSupportpublic.html',1,'']]],
   ['powerdistributionunit',['PowerDistributionUnit',['../group__httpwwwpurlorgogitDatacenterPowerDistributionUnit.html',1,'']]],
   ['parameters',['parameters',['../group__httpwwwpurlorgogitDataProcessingparameters.html',1,'']]],
   ['program',['Program',['../group__httpwwwpurlorgogitDataProcessingProgram.html',1,'']]],

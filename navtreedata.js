@@ -8,11 +8,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "group__Advertising.html",
-"group__httpwwwpurlorgogitAutomationdomain.html",
-"group__httpwwwpurlorgogitLicense.html",
-"group__httpwwwpurlorgogitOSLC-crtvPath.html",
-"group__httpwwwpurlorgogitPTFissuesCnt.html",
-"group__httpwwwpurlorgogitemail.html"
+"group__httpwwwpurlorgogitAutomationdeployStatus.html",
+"group__httpwwwpurlorgogitForumInvite.html",
+"group__httpwwwpurlorgogitOSLC-corehintWidth.html",
+"group__httpwwwpurlorgogitOSLC-qmblockedByChangeRequest.html",
+"group__httpwwwpurlorgogitciType.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
