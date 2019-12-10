@@ -15,28 +15,30 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Factory:Factory
+ogit.Factory:Component
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Factory";
-	dcterms:description "A factory in a producing company.";
-	dcterms:valid "start=2018-10-19;";
-	dcterms:creator "Kaushik";
+	rdfs:label "Component";
+	dcterms:description "A machinery or equipment component of a factory.";
+	dcterms:valid "start=2019-12-10;";
+	dcterms:creator "Marek Meyer";
 	ogit:scope "NTO";
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 		
 	);
 	ogit:optional-attributes (
-
+		ogit:name
+		ogit:description
+		ogit:subType
+		ogit:status
+		ogit.Factory:equipmentNumber
 	);
 	ogit:indexed-attributes (
 		
 	);
 	ogit:allowed (
-			[ ogit:uses  ogit.Factory:StorageInventory ]
-			[ ogit:uses  ogit.Factory:StorageTank ]
-			[ ogit:locatedIn  ogit:Location ]
-			[ ogit.Factory:hasAl  ogit.Factory:ProductionLine ]
+			[ ogit:contains  ogit.Factory:Component ]
+			[ ogit:corresponds  ogit.Factory:Component ]
 	);
 .

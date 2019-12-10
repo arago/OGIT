@@ -1,0 +1,14 @@
+@prefix ogit.Factory:   		<http://www.purl.org/ogit/Factory/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Factory:equipmentNumber
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "equipmentNumber";
+        dcterms:description "A unique identifier of a piece of equipment.";
+        dcterms:valid "start=2019-12-10;";
+        dcterms:creator "Marek Meyer";
+.

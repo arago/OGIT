@@ -1,29 +1,32 @@
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
-@prefix ogit.Factory:   		<http://www.purl.org/ogit/Factory/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Factory:ProductionLine
+ogit.Factory:Plant
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "ProductionLine";
-	dcterms:description "TODO.";
-	dcterms:valid "start=2018-10-19;";
-	dcterms:creator "Kaushik";
+	rdfs:label "Plant";
+	dcterms:description "A manufacturing plant, which may consist of multiple machinery and equipment components.";
+	dcterms:valid "start=2019-12-10;";
+	dcterms:creator "Marek Meyer";
 	ogit:scope "NTO";
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 		
 	);
 	ogit:optional-attributes (
-
+		ogit:name
+		ogit:description
+		ogit:status
 	);
 	ogit:indexed-attributes (
 		
 	);
 	ogit:allowed (
-			[ ogit:contains  ogit.Factory:Machine ]
-			[ ogit:produces  ogit:Product ]
+			[ ogit:belongs  ogit.Factory:Factory ]
+			[ ogit:contains  ogit.Factory:Component ]
+			[ ogit:locatedAt  ogit:Location ]
 	);
 .
