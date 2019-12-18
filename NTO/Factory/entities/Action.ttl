@@ -1,0 +1,37 @@
+@prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Factory:Action
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Action";
+	dcterms:description "An action performed at a machine or component of a manufacturing plant.";
+	dcterms:valid "start=2019-12-10;";
+	dcterms:creator "Marek Meyer";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		
+	);
+	ogit:optional-attributes (
+		ogit:name
+		ogit:description
+		ogit:subType
+		ogit:duration
+		ogit:durationUnit
+		ogit:frequency
+		
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:allowed (
+			[ ogit:affects  ogit.Factory:Component ]
+			[ ogit:affects  ogit.Factory:Machine ]
+			[ ogit:responds  ogit.Factory:Failure ]
+			[ ogit:requires  ogit.Factory:Action ]
+	);
+.
