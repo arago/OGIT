@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitAutomationdefaultSigma.html":[0,2,0,25],
 "group__httpwwwpurlorgogitAutomationdeployStatus.html":[0,2,0,26],
 "group__httpwwwpurlorgogitAutomationdeployToEngine.html":[0,2,0,27],
 "group__httpwwwpurlorgogitAutomationdiskCount.html":[0,2,0,28],
@@ -191,12 +192,17 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitExamplesCrowfoodKcal.html":[0,9,0,0,3],
 "group__httpwwwpurlorgogitExamplesCrowfoodType.html":[0,9,0,0,4],
 "group__httpwwwpurlorgogitExamplesCrowpedestrianLightStatus.html":[0,9,0,0,5],
-"group__httpwwwpurlorgogitFactoryFactory.html":[0,10,0,0],
-"group__httpwwwpurlorgogitFactoryMachine.html":[0,10,0,1],
-"group__httpwwwpurlorgogitFactoryProductionLine.html":[0,10,0,2],
-"group__httpwwwpurlorgogitFactoryStorageInventory.html":[0,10,0,3],
-"group__httpwwwpurlorgogitFactoryStorageTank.html":[0,10,0,4],
-"group__httpwwwpurlorgogitFactoryhasAl.html":[0,10,1,0],
+"group__httpwwwpurlorgogitFactoryAction.html":[0,10,1,0],
+"group__httpwwwpurlorgogitFactoryComponent.html":[0,10,1,1],
+"group__httpwwwpurlorgogitFactoryFactory.html":[0,10,1,2],
+"group__httpwwwpurlorgogitFactoryFailure.html":[0,10,1,3],
+"group__httpwwwpurlorgogitFactoryMachine.html":[0,10,1,4],
+"group__httpwwwpurlorgogitFactoryPlant.html":[0,10,1,5],
+"group__httpwwwpurlorgogitFactoryProductionLine.html":[0,10,1,6],
+"group__httpwwwpurlorgogitFactoryStorageInventory.html":[0,10,1,7],
+"group__httpwwwpurlorgogitFactoryStorageTank.html":[0,10,1,8],
+"group__httpwwwpurlorgogitFactoryequipmentNumber.html":[0,10,0,0],
+"group__httpwwwpurlorgogitFactoryhasAl.html":[0,10,2,0],
 "group__httpwwwpurlorgogitFinancialAccountingAccountsPayableInvoice.html":[0,11,0,0,0],
 "group__httpwwwpurlorgogitFinancialAccountingAccountsPayableInvoiceLineItem.html":[0,11,0,0,1],
 "group__httpwwwpurlorgogitFinancialAccountingAccountsPayablePayment.html":[0,11,0,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitFinancialMarketnationalIdentifier.html":[0,12,0,11],
 "group__httpwwwpurlorgogitFinancialMarketsecuredBy.html":[0,12,2,2],
 "group__httpwwwpurlorgogitFinancialMarketservices.html":[0,12,2,3],
-"group__httpwwwpurlorgogitFinancialMarketthirdPartyPriorityClaims.html":[0,12,0,12],
-"group__httpwwwpurlorgogitFinancialMarketvalue.html":[0,12,0,13],
-"group__httpwwwpurlorgogitForumAward.html":[0,13,1,0],
-"group__httpwwwpurlorgogitForumBanner.html":[0,13,1,1],
-"group__httpwwwpurlorgogitForumConfiguration.html":[0,13,1,2],
-"group__httpwwwpurlorgogitForumFeedEntry.html":[0,13,1,3],
-"group__httpwwwpurlorgogitForumGroup.html":[0,13,1,4]
+"group__httpwwwpurlorgogitFinancialMarketthirdPartyPriorityClaims.html":[0,12,0,12]
 };

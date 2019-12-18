@@ -36,8 +36,9 @@ var NAVTREEINDEX0 =
 "group__Examples__Crow____attributes.html":[0,9,0,0],
 "group__Examples__Crow____entities.html":[0,9,0,1],
 "group__Factory.html":[0,10],
-"group__Factory____entities.html":[0,10,0],
-"group__Factory____verbs.html":[0,10,1],
+"group__Factory____attributes.html":[0,10,0],
+"group__Factory____entities.html":[0,10,1],
+"group__Factory____verbs.html":[0,10,2],
 "group__FinancialAccounting.html":[0,11],
 "group__FinancialAccounting__AccountsPayable.html":[0,11,0],
 "group__FinancialAccounting__AccountsPayable____entities.html":[0,11,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAutomationdataPrivacy.html":[0,2,0,21],
 "group__httpwwwpurlorgogitAutomationdatabaseSchema.html":[0,2,0,22],
 "group__httpwwwpurlorgogitAutomationdatabaseServer.html":[0,2,0,23],
-"group__httpwwwpurlorgogitAutomationdefaultRank.html":[0,2,0,24],
-"group__httpwwwpurlorgogitAutomationdefaultSigma.html":[0,2,0,25]
+"group__httpwwwpurlorgogitAutomationdefaultRank.html":[0,2,0,24]
 };

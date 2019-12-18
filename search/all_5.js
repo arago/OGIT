@@ -34,6 +34,7 @@ var searchData=
   ['expiresat',['expiresAt',['../group__httpwwwpurlorgogitexpiresAt.html',1,'']]],
   ['extends',['extends',['../group__httpwwwpurlorgogitextends.html',1,'']]],
   ['externalid',['externalId',['../group__httpwwwpurlorgogitexternalId.html',1,'']]],
+  ['equipmentnumber',['equipmentNumber',['../group__httpwwwpurlorgogitFactoryequipmentNumber.html',1,'']]],
   ['economicactivity',['EconomicActivity',['../group__httpwwwpurlorgogitFinancialMarketEconomicActivity.html',1,'']]],
   ['enterprisesize',['enterpriseSize',['../group__httpwwwpurlorgogitFinancialMarketenterpriseSize.html',1,'']]],
   ['exchange',['Exchange',['../group__httpwwwpurlorgogitFinancialMarketExchange.html',1,'']]],

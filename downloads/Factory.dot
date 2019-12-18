@@ -1,14 +1,24 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Factory, \n 12/07/2019"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Factory, \n 12/18/2019"];
 node[shape=polygon];
 edge [  color="gray81"];
 
+   "ogit/Factory/Plant" -> "ogit/Factory/Component" [label="   ogit/contains    "];
    "ogit/Factory/ProductionLine" -> "ogit/Factory/Machine" [label="   ogit/contains    "];
    "ogit/Factory/Factory" -> "ogit/Factory/ProductionLine" [label="   ogit/Factory/hasAl    "];
+   "ogit/Factory/Plant" -> "ogit/Location" [label="   ogit/locatedAt    "];
    "ogit/Factory/Factory" -> "ogit/Location" [label="   ogit/locatedIn    "];
+   "ogit/Factory/Action" -> "ogit/Factory/Component" [label="   ogit/affects    "];
+   "ogit/Factory/Action" -> "ogit/Factory/Machine" [label="   ogit/affects    "];
+   "ogit/Factory/Failure" -> "ogit/Factory/Component" [label="   ogit/affects    "];
+   "ogit/Factory/Action" -> "ogit/Factory/Failure" [label="   ogit/responds    "];
    "ogit/Factory/ProductionLine" -> "ogit/Product" [label="   ogit/produces    "];
+   "ogit/Factory/Plant" -> "ogit/Factory/Factory" [label="   ogit/belongs    "];
    "ogit/Factory/Factory" -> "ogit/Factory/StorageInventory" [label="   ogit/uses    "];
    "ogit/Factory/Factory" -> "ogit/Factory/StorageTank" [label="   ogit/uses    "];
+   "ogit/Factory/Action" -> "ogit/Factory/Action" [label="   ogit/requires    "];
+   "ogit/Factory/Component" -> "ogit/Factory/Component" [label="   ogit/contains, \n ogit/corresponds    "];
+   "ogit/Factory/Failure" -> "ogit/Factory/Failure" [label="   ogit/causes    "];
 }

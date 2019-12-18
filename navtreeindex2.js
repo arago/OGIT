@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitFinancialMarketvalue.html":[0,12,0,13],
+"group__httpwwwpurlorgogitForumAward.html":[0,13,1,0],
+"group__httpwwwpurlorgogitForumBanner.html":[0,13,1,1],
+"group__httpwwwpurlorgogitForumConfiguration.html":[0,13,1,2],
+"group__httpwwwpurlorgogitForumFeedEntry.html":[0,13,1,3],
+"group__httpwwwpurlorgogitForumGroup.html":[0,13,1,4],
 "group__httpwwwpurlorgogitForumInvite.html":[0,13,1,5],
 "group__httpwwwpurlorgogitForumKnowledgeBundle.html":[0,13,1,6],
 "group__httpwwwpurlorgogitForumKnowledgeBundleHistory.html":[0,13,1,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitOSLC-coredefaultValue.html":[0,25,0,1],
 "group__httpwwwpurlorgogitOSLC-coredescribes.html":[0,25,2,5],
 "group__httpwwwpurlorgogitOSLC-coredetails.html":[0,25,2,6],
-"group__httpwwwpurlorgogitOSLC-corediscussedBy.html":[0,25,2,7],
-"group__httpwwwpurlorgogitOSLC-coredomain.html":[0,25,2,8],
-"group__httpwwwpurlorgogitOSLC-coreexecutes.html":[0,25,2,9],
-"group__httpwwwpurlorgogitOSLC-coreextendedError.html":[0,25,2,10],
-"group__httpwwwpurlorgogitOSLC-corefutureAction.html":[0,25,2,11],
-"group__httpwwwpurlorgogitOSLC-corehidden.html":[0,25,0,2],
-"group__httpwwwpurlorgogitOSLC-corehintHeight.html":[0,25,0,3]
+"group__httpwwwpurlorgogitOSLC-corediscussedBy.html":[0,25,2,7]
 };
