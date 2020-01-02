@@ -1,0 +1,14 @@
+@prefix ogit.RL:        		<http://www.purl.org/ogit/RL/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.RL:state
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "state";
+	dcterms:description "Specifies the state of the issue for Reinforcement Learning.";
+	dcterms:valid "start=2020-01-02;";
+	dcterms:creator "Rudi Schäfer";
+.
