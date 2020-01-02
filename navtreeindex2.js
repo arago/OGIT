@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitFinancialMarketthirdPartyPriorityClaims.html":[0,12,0,12],
 "group__httpwwwpurlorgogitFinancialMarketvalue.html":[0,12,0,13],
 "group__httpwwwpurlorgogitForumAward.html":[0,13,1,0],
 "group__httpwwwpurlorgogitForumBanner.html":[0,13,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitOSLC-corecreationFactory.html":[0,25,2,4],
 "group__httpwwwpurlorgogitOSLC-coredefaultValue.html":[0,25,0,1],
 "group__httpwwwpurlorgogitOSLC-coredescribes.html":[0,25,2,5],
-"group__httpwwwpurlorgogitOSLC-coredetails.html":[0,25,2,6],
-"group__httpwwwpurlorgogitOSLC-corediscussedBy.html":[0,25,2,7]
+"group__httpwwwpurlorgogitOSLC-coredetails.html":[0,25,2,6]
 };
