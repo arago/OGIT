@@ -35,6 +35,7 @@ var modules =
     [ "Price", "group__Price.html", "group__Price" ],
     [ "Project", "group__Project.html", "group__Project" ],
     [ "RDDL", "group__RDDL.html", "group__RDDL" ],
+    [ "RL", "group__RL.html", "group__RL" ],
     [ "RPA", "group__RPA.html", "group__RPA" ],
     [ "SGO", "group__SGO.html", "group__SGO" ],
     [ "SalesDistribution", "group__SalesDistribution.html", "group__SalesDistribution" ],

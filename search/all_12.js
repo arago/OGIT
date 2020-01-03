@@ -116,5 +116,6 @@ var searchData=
   ['reply',['Reply',['../group__httpwwwpurlorgogitSurveyReply.html',1,'']]],
   ['resource',['Resource',['../group__MARS__Resource.html',1,'']]],
   ['rddl',['RDDL',['../group__RDDL.html',1,'']]],
+  ['rl',['RL',['../group__RL.html',1,'']]],
   ['rpa',['RPA',['../group__RPA.html',1,'']]]
 ];

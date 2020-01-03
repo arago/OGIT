@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitOSLC-coredescribes.html":[0,25,2,5],
+"group__httpwwwpurlorgogitOSLC-coredetails.html":[0,25,2,6],
 "group__httpwwwpurlorgogitOSLC-corediscussedBy.html":[0,25,2,7],
 "group__httpwwwpurlorgogitOSLC-coredomain.html":[0,25,2,8],
 "group__httpwwwpurlorgogitOSLC-coreexecutes.html":[0,25,2,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitOSLC-perfmonVirtualMemoryUsed.html":[0,28,1,47],
 "group__httpwwwpurlorgogitOSLC-perfmonVirtualizationMetrics.html":[0,28,1,48],
 "group__httpwwwpurlorgogitOSLC-perfmonVmCpuReady.html":[0,28,1,49],
-"group__httpwwwpurlorgogitOSLC-perfmonavailabilityStatus.html":[0,28,0,0],
-"group__httpwwwpurlorgogitOSLC-perfmonmobilityEnabled.html":[0,28,0,1],
-"group__httpwwwpurlorgogitOSLC-perfmonprocess.html":[0,28,2,0]
+"group__httpwwwpurlorgogitOSLC-perfmonavailabilityStatus.html":[0,28,0,0]
 };

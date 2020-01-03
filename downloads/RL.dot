@@ -1,0 +1,9 @@
+digraph OGIT_ontology {
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: RL, \n 01/03/2020"];
+node[shape=polygon];
+edge [  color="gray81"];
+
+"No connection between entities" [fontcolor = "red",color="red", shape="polygon"]
+}
