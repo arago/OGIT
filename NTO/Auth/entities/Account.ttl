@@ -4,6 +4,7 @@
 @prefix ogit.Auth:             <http://www.purl.org/ogit/Auth/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
 @prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.SaaS:              <http://www.purl.org/ogit/SaaS/> .
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
 @prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
@@ -63,6 +64,7 @@ ogit.Auth:Account
 			[ ogit:provides  ogit:Rating ]
 			[ ogit.Auth:assumes  ogit.Auth:Role ]
 			[ ogit.Auth:uses  ogit.Auth:Application ]
+			[ ogit.Auth:uses  ogit.SaaS:ComponentInstance ]
 			[ ogit.Auth:consents  ogit.Auth:Application ]
 			[ ogit.Auth:isMemberOf  ogit.Auth:Organization ]
 			[ ogit.Auth:isMemberOf  ogit.Auth:Team ]
