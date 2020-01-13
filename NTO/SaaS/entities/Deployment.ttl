@@ -1,4 +1,5 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.SaaS:              <http://www.purl.org/ogit/SaaS> .
 @prefix ogit.Version:           <http://www.purl.org/ogit/Version/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -16,13 +17,12 @@ ogit.SaaS:Deployment
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
 	    ogit:id
-	    # status: values to be specified
-            ogit.status
+            ogit:status
 	);
 	ogit:optional-attributes (
 	    # sourceId: logical ref to DeploymentTemplate
 	    ogit:sourceId
-	    ogit.comment
+	    ogit:comment
 	);
         ogit:indexed-attributes (
             ogit:id
