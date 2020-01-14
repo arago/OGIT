@@ -1,0 +1,31 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.SaaS:              <http://www.purl.org/ogit/SaaS/> .
+@prefix ogit.Version:           <http://www.purl.org/ogit/Version/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.SaaS:ComponentInstance
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "ComponentInstance";
+	dcterms:description "An instance of a Component within a Deployment";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2020-01-14;";
+	dcterms:creator "FCO";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+	    ogit:id
+	);
+	ogit:optional-attributes (
+	    # sourceId: ref to ConfigurationTemplate
+	    ogit:sourceId
+	);
+        ogit:indexed-attributes (
+            ogit:id
+        );
+	ogit:allowed (
+		[ ogit:generates ogit:Timeseries ]
+	);
+.
