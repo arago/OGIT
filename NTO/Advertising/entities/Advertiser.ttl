@@ -24,6 +24,7 @@ ogit.Advertising:Advertiser
   );
   ogit:allowed (
     [ ogit:contains   ogit.Advertising:Campaign ]
+    [ ogit:contains   ogit.Advertising:InsertionOrder ]
   );
 
 .
