@@ -1,0 +1,31 @@
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Accounting:FinancialStatement
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "FinancialStatement";
+	dcterms:description "For example: Trial Balance...";
+	dcterms:valid "start=2018-12-05;";
+	dcterms:creator "Viktor Voss";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+            ogit.Accounting:subtype
+	);
+	ogit:optional-attributes (
+            ogit:currency
+            ogit:language
+            ogit.Accounting:template
+            ogit.Accounting:periods
+            ogit.Accounting:primaryReportingPeriod
+	);
+        ogit:indexed-attributes (
+        );
+    ogit:allowed (
+			[ ogit:contains  ogit.Accounting:LineItem ]
+			[ ogit:contains  ogit.Accounting:CategoryItem ]
+	);
+.
