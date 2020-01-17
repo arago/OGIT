@@ -1,0 +1,30 @@
+@prefix ogit.Accounting:        <http://www.purl.org/ogit/Accounting/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Accounting:CategoryItem
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "CategoryItem";
+	dcterms:description "Category Item is a Financial Statement Item";
+	dcterms:valid "start=2018-12-05;";
+	dcterms:creator "Viktor Voss";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+            ogit.Accounting:subtype
+	);
+	ogit:optional-attributes (
+            ogit:id
+            ogit:name
+            ogit.Accounting:rank
+            ogit.Accounting:balance
+	);
+    ogit:indexed-attributes (
+    );
+    ogit:allowed (
+			[ ogit.Accounting:contributesTo  ogit.Accounting:FinancialStatement ]
+			[ ogit.Accounting:includes  ogit.Accounting:CategoryItem ]
+	);
+.
