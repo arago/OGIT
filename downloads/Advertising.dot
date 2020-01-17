@@ -1,11 +1,12 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 01/03/2020"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 01/17/2020"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/Advertising/Advertiser" -> "ogit/Advertising/Campaign" [label="   ogit/contains    "];
+   "ogit/Advertising/Advertiser" -> "ogit/Advertising/InsertionOrder" [label="   ogit/contains    "];
    "ogit/Advertising/Platform" -> "ogit/Advertising/Advertiser" [label="   ogit/contains    "];
    "ogit/Advertising/CampaignManager" -> "ogit/Advertising/MediaPlan" [label="   ogit/manages    "];
    "ogit/Advertising/CampaignManager" -> "ogit/Advertising/Campaign" [label="   ogit/manages    "];

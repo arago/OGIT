@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['periods',['periods',['../group__httpwwwpurlorgogitAccountingperiods.html',1,'']]],
+  ['primaryreportingperiod',['primaryReportingPeriod',['../group__httpwwwpurlorgogitAccountingprimaryReportingPeriod.html',1,'']]],
   ['platform',['Platform',['../group__httpwwwpurlorgogitAdvertisingPlatform.html',1,'']]],
   ['parent',['parent',['../group__httpwwwpurlorgogitAuthApplicationparent.html',1,'']]],
   ['parentissue',['parentIssue',['../group__httpwwwpurlorgogitAutomationparentIssue.html',1,'']]],
@@ -47,8 +49,8 @@ var searchData=
   ['partofdiscussion',['partOfDiscussion',['../group__httpwwwpurlorgogitOSLC-corepartOfDiscussion.html',1,'']]],
   ['prefix',['prefix',['../group__httpwwwpurlorgogitOSLC-coreprefix.html',1,'']]],
   ['prefixbase',['prefixBase',['../group__httpwwwpurlorgogitOSLC-coreprefixBase.html',1,'']]],
-  ['prefixdefinition',['PrefixDefinition',['../group__httpwwwpurlorgogitOSLC-corePrefixDefinition.html',1,'']]],
   ['prefixdefinition',['prefixDefinition',['../group__httpwwwpurlorgogitOSLC-coreprefixDefinition.html',1,'']]],
+  ['prefixdefinition',['PrefixDefinition',['../group__httpwwwpurlorgogitOSLC-corePrefixDefinition.html',1,'']]],
   ['preview',['Preview',['../group__httpwwwpurlorgogitOSLC-corePreview.html',1,'']]],
   ['property',['Property',['../group__httpwwwpurlorgogitOSLC-coreProperty.html',1,'']]],
   ['property',['property',['../group__httpwwwpurlorgogitOSLC-coreproperty.html',1,'']]],

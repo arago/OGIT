@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Auth, \n 01/03/2020"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Auth, \n 01/17/2020"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -47,6 +47,7 @@ edge [  color="gray81"];
    "ogit/Auth/Account" -> "ogit/Auth/Organization" [label="   ogit/Auth/isMemberOf    "];
    "ogit/Auth/Account" -> "ogit/Auth/Team" [label="   ogit/Auth/isMemberOf    "];
    "ogit/Auth/Account" -> "ogit/Auth/Application" [label="   ogit/Auth/uses    "];
+   "ogit/Auth/Account" -> "ogit/SaaS/ComponentInstance" [label="   ogit/Auth/uses    "];
    "ogit/Auth/Account" -> "ogit/Survey/Reply" [label="   ogit/repliedWith    "];
    "ogit/HR/Recruiting/Recruiter" -> "ogit/Auth/Account" [label="   ogit/has    "];
    "ogit/Schedule/Attendee" -> "ogit/Auth/Account" [label="   ogit/has    "];

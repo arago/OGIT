@@ -1,6 +1,7 @@
 var searchData=
 [
   ['recruiting',['Recruiting',['../group__HR__Recruiting.html',1,'']]],
+  ['rank',['rank',['../group__httpwwwpurlorgogitAccountingrank.html',1,'']]],
   ['restricted',['restricted',['../group__httpwwwpurlorgogitAuthrestricted.html',1,'']]],
   ['role',['Role',['../group__httpwwwpurlorgogitAuthRole.html',1,'']]],
   ['roleassignment',['RoleAssignment',['../group__httpwwwpurlorgogitAuthRoleAssignment.html',1,'']]],
@@ -75,8 +76,8 @@ var searchData=
   ['rank',['rank',['../group__httpwwwpurlorgogitrank.html',1,'']]],
   ['rates',['rates',['../group__httpwwwpurlorgogitrates.html',1,'']]],
   ['rating',['Rating',['../group__httpwwwpurlorgogitRating.html',1,'']]],
-  ['resource',['Resource',['../group__httpwwwpurlorgogitRDDLResource.html',1,'']]],
   ['resource',['resource',['../group__httpwwwpurlorgogitRDDLresource.html',1,'']]],
+  ['resource',['Resource',['../group__httpwwwpurlorgogitRDDLResource.html',1,'']]],
   ['readby',['readBy',['../group__httpwwwpurlorgogitreadBy.html',1,'']]],
   ['reason',['reason',['../group__httpwwwpurlorgogitreason.html',1,'']]],
   ['receives',['receives',['../group__httpwwwpurlorgogitreceives.html',1,'']]],

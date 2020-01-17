@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Accounting, \n 05/02/2019"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Accounting, \n 01/17/2020"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -10,6 +10,7 @@ edge [  color="gray81"];
    "ogit/Accounting/FinancialStatement" -> "ogit/Accounting/LineItem" [label="   ogit/contains    "];
    "ogit/Accounting/FinancialStatement" -> "ogit/Accounting/CategoryItem" [label="   ogit/contains    "];
    "ogit/Accounting/CompanyEntity" -> "ogit/Accounting/FinancialStatement" [label="   ogit/generates    "];
+   "ogit/Accounting/CompanyEntity" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/Accounting/DDTarget" -> "ogit/Accounting/FinancialStatement" [label="   ogit/generates    "];
    "ogit/Accounting/CategoryItem" -> "ogit/Accounting/FinancialStatement" [label="   ogit/Accounting/contributesTo    "];
    "ogit/Accounting/LineItem" -> "ogit/Accounting/FinancialStatement" [label="   ogit/Accounting/contributesTo    "];
@@ -17,6 +18,8 @@ edge [  color="gray81"];
    "ogit/Accounting/CompanyEntity" -> "ogit/Organization" [label="   ogit/belongs    "];
    "ogit/Accounting/DDTarget" -> "ogit/Organization" [label="   ogit/belongs    "];
    "ogit/Accounting/CompanyEntity" -> "ogit/Accounting/ConfigItem" [label="   ogit/Accounting/has    "];
+   "ogit/Accounting/CompanyEntity" -> "ogit/Relevance" [label="   ogit/has    "];
    "ogit/Accounting/CategoryItem" -> "ogit/Accounting/CategoryItem" [label="   ogit/Accounting/includes    "];
+   "ogit/Accounting/CompanyEntity" -> "ogit/Accounting/CompanyEntity" [label="   ogit/corresponds    "];
    "ogit/Accounting/LineItem" -> "ogit/Accounting/LineItem" [label="   ogit/contains, \n ogit/generates    "];
 }

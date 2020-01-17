@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['naocategorizations',['NAOCategorizations',['../group__httpwwwpurlorgogitAccountingNAOCategorizations.html',1,'']]],
   ['note',['note',['../group__httpwwwpurlorgogitCustomerSupportnote.html',1,'']]],
   ['nationalidentifier',['nationalIdentifier',['../group__httpwwwpurlorgogitFinancialMarketnationalIdentifier.html',1,'']]],
   ['normitem',['NormItem',['../group__httpwwwpurlorgogitMRPNormItem.html',1,'']]],

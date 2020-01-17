@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['template',['template',['../group__httpwwwpurlorgogitAccountingtemplate.html',1,'']]],
+  ['trialbalancetargetaccountbynumber',['TrialBalanceTargetAccountByNumber',['../group__httpwwwpurlorgogitAccountingTrialBalanceTargetAccountByNumber.html',1,'']]],
   ['type',['type',['../group__httpwwwpurlorgogitAuthAccounttype.html',1,'']]],
   ['type',['type',['../group__httpwwwpurlorgogitAuthApplicationtype.html',1,'']]],
   ['team',['Team',['../group__httpwwwpurlorgogitAuthTeam.html',1,'']]],

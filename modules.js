@@ -1,5 +1,6 @@
 var modules =
 [
+    [ "Accounting", "group__Accounting.html", "group__Accounting" ],
     [ "Advertising", "group__Advertising.html", "group__Advertising" ],
     [ "Auth", "group__Auth.html", "group__Auth" ],
     [ "Automation", "group__Automation.html", "group__Automation" ],
@@ -38,6 +39,7 @@ var modules =
     [ "RL", "group__RL.html", "group__RL" ],
     [ "RPA", "group__RPA.html", "group__RPA" ],
     [ "SGO", "group__SGO.html", "group__SGO" ],
+    [ "SaaS", "group__SaaS.html", "group__SaaS" ],
     [ "SalesDistribution", "group__SalesDistribution.html", "group__SalesDistribution" ],
     [ "Schedule", "group__Schedule.html", "group__Schedule" ],
     [ "ServiceManagement", "group__ServiceManagement.html", "group__ServiceManagement" ],
