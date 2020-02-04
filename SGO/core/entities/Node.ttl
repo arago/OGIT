@@ -28,7 +28,7 @@ top level of the SGO.""";
 		ogit:_version
 		ogit:_content
 		ogit:_tags
-		ogit:_edge_id
+		ogit:_edge-id
 	);
 	ogit:optional-attributes (
 
