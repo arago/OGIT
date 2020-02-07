@@ -1,0 +1,26 @@
+@prefix ogit.Audit:        <http://www.purl.org/ogit/Audit/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Audit:Batch
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Batch";
+	dcterms:description "A batch of samples to audit.";
+	dcterms:valid "start=2020-02-07;";
+	dcterms:creator "Marek Meyer";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+            ogit:title
+	);
+    ogit:indexed-attributes (
+    );
+    ogit:allowed (
+			[ ogit:contains  ogit.Audit:Sample ]
+			[ ogit:has  ogit:Attachment ]
+	);
+.
