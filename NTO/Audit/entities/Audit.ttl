@@ -1,0 +1,27 @@
+@prefix ogit.Audit:        <http://www.purl.org/ogit/Audit/> .
+@prefix ogit.FinancialAccounting:     <http://www.purl.org/ogit/FinancialAccounting/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Audit:Audit
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Audit";
+	dcterms:description "A specific audit project.";
+	dcterms:valid "start=2020-02-07;";
+	dcterms:creator "Marek Meyer";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+            ogit:title
+	);
+    ogit:indexed-attributes (
+    );
+    ogit:allowed (
+			[ ogit:contains  ogit.Audit:Batch ]
+			[ ogit:affects  ogit.FinancialAccounting:Company ]
+	);
+.
