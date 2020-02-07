@@ -1,0 +1,32 @@
+@prefix ogit.Documents:        <http://www.purl.org/ogit/Documents/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Documents:GenericDocument
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Document";
+	dcterms:description "A spreadsheet document.";
+	dcterms:valid "start=2020-02-07;";
+	dcterms:creator "Marek Meyer";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+            ogit:name
+            ogit:version
+            ogit:type
+            ogit:creationTime
+            ogit:modificationTime
+						ogit.Documents:rows
+						ogit.Documents:headers
+	);
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+		[ ogit:represents  ogit:Attachment ]
+		[ ogit:generates  ogit:Attachment ]
+	);
+.

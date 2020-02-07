@@ -1,0 +1,14 @@
+@prefix ogit.Documents:        <http://www.purl.org/ogit/Documents/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Documents:headers
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "headers";
+	dcterms:description "Contains the list of column headers of a spreadsheet.";
+	dcterms:valid "start=2020-02-07;";
+	dcterms:creator "Marek Meyer";
+.
