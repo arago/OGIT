@@ -3,10 +3,10 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Documents:GenericDocument
+ogit.Documents:Spreadsheet
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Document";
+	rdfs:label "Spreadsheet";
 	dcterms:description "A spreadsheet document.";
 	dcterms:valid "start=2020-02-07;";
 	dcterms:creator "Marek Meyer";
