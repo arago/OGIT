@@ -19,6 +19,7 @@ var searchData=
   ['rackunit',['rackUnit',['../group__httpwwwpurlorgogitDatacenterrackUnit.html',1,'']]],
   ['room',['Room',['../group__httpwwwpurlorgogitDatacenterRoom.html',1,'']]],
   ['roomid',['roomId',['../group__httpwwwpurlorgogitDatacenterroomId.html',1,'']]],
+  ['rows',['rows',['../group__httpwwwpurlorgogitDocumentsrows.html',1,'']]],
   ['rates',['rates',['../group__httpwwwpurlorgogitForumrates.html',1,'']]],
   ['rating',['Rating',['../group__httpwwwpurlorgogitForumRating.html',1,'']]],
   ['reply',['Reply',['../group__httpwwwpurlorgogitForumReply.html',1,'']]],

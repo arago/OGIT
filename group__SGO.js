@@ -54,7 +54,7 @@ var group__SGO =
     [ "_deleted-by", "group__httpwwwpurlorgogit__deleted-by.html", null ],
     [ "_deleted-by-app", "group__httpwwwpurlorgogit__deleted-by-app.html", null ],
     [ "_deleted-on", "group__httpwwwpurlorgogit__deleted-on.html", null ],
-    [ "_edge_id", "group__httpwwwpurlorgogit__edge__id.html", null ],
+    [ "_edge-id", "group__httpwwwpurlorgogit__edge-id.html", null ],
     [ "_graphtype", "group__httpwwwpurlorgogit__graphtype.html", null ],
     [ "_id", "group__httpwwwpurlorgogit__id.html", null ],
     [ "_is-deleted", "group__httpwwwpurlorgogit__is-deleted.html", null ],

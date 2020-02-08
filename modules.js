@@ -2,6 +2,7 @@ var modules =
 [
     [ "Accounting", "group__Accounting.html", "group__Accounting" ],
     [ "Advertising", "group__Advertising.html", "group__Advertising" ],
+    [ "Audit", "group__Audit.html", "group__Audit" ],
     [ "Auth", "group__Auth.html", "group__Auth" ],
     [ "Automation", "group__Automation.html", "group__Automation" ],
     [ "Cost", "group__Cost.html", "group__Cost" ],
@@ -10,6 +11,7 @@ var modules =
     [ "Data", "group__Data.html", "group__Data" ],
     [ "DataProcessing", "group__DataProcessing.html", "group__DataProcessing" ],
     [ "Datacenter", "group__Datacenter.html", "group__Datacenter" ],
+    [ "Documents", "group__Documents.html", "group__Documents" ],
     [ "Examples", "group__Examples.html", "group__Examples" ],
     [ "Factory", "group__Factory.html", "group__Factory" ],
     [ "FinancialAccounting", "group__FinancialAccounting.html", "group__FinancialAccounting" ],

@@ -1,0 +1,12 @@
+digraph OGIT_ontology {
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Documents, \n 02/08/2020"];
+node[shape=polygon];
+edge [  color="gray81"];
+
+   "ogit/Audit/Sample" -> "ogit/Documents/Document" [label="   ogit/contains    "];
+   "ogit/Documents/Spreadsheet" -> "ogit/Attachment" [label="   ogit/generates    "];
+   "ogit/Documents/Spreadsheet" -> "ogit/Attachment" [label="   ogit/represents    "];
+   "ogit/Documents/Document" -> "ogit/Attachment" [label="   ogit/consistsOf    "];
+}

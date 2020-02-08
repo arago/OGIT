@@ -8,7 +8,7 @@ var searchData=
   ['_5fdeleted_2dby',['_deleted-by',['../group__httpwwwpurlorgogit__deleted-by.html',1,'']]],
   ['_5fdeleted_2dby_2dapp',['_deleted-by-app',['../group__httpwwwpurlorgogit__deleted-by-app.html',1,'']]],
   ['_5fdeleted_2don',['_deleted-on',['../group__httpwwwpurlorgogit__deleted-on.html',1,'']]],
-  ['_5fedge_5fid',['_edge_id',['../group__httpwwwpurlorgogit__edge__id.html',1,'']]],
+  ['_5fedge_2did',['_edge-id',['../group__httpwwwpurlorgogit__edge-id.html',1,'']]],
   ['_5fgraphtype',['_graphtype',['../group__httpwwwpurlorgogit__graphtype.html',1,'']]],
   ['_5fid',['_id',['../group__httpwwwpurlorgogit__id.html',1,'']]],
   ['_5fis_2ddeleted',['_is-deleted',['../group__httpwwwpurlorgogit__is-deleted.html',1,'']]],

@@ -9,6 +9,7 @@ var searchData=
   ['hasultimateparent',['hasUltimateParent',['../group__httpwwwpurlorgogitCredithasUltimateParent.html',1,'']]],
   ['hasincidents',['hasIncidents',['../group__httpwwwpurlorgogitCustomerSupporthasIncidents.html',1,'']]],
   ['htmlcontent',['htmlContent',['../group__httpwwwpurlorgogitCustomerSupporthtmlContent.html',1,'']]],
+  ['headers',['headers',['../group__httpwwwpurlorgogitDocumentsheaders.html',1,'']]],
   ['hasal',['hasAl',['../group__httpwwwpurlorgogitFactoryhasAl.html',1,'']]],
   ['has',['has',['../group__httpwwwpurlorgogithas.html',1,'']]],
   ['hiddenby',['hiddenBy',['../group__httpwwwpurlorgogithiddenBy.html',1,'']]],
