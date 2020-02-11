@@ -29,5 +29,6 @@ ogit.SaaS:Deployment
         );
 	ogit:allowed (
 		[ ogit:contains ogit.SaaS:ComponentInstance ]
+		[ ogit:contains ogit.SaaS:Deployment ]
 	);
 .
