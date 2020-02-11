@@ -23,11 +23,13 @@ ogit.SaaS:Deployment
 	    # sourceId: logical ref to DeploymentTemplate
 	    ogit:sourceId
 	    ogit:comment
+	    ogit:status
 	);
         ogit:indexed-attributes (
             ogit:id
         );
 	ogit:allowed (
 		[ ogit:contains ogit.SaaS:ComponentInstance ]
+		[ ogit:contains ogit.SaaS:Deployment ]
 	);
 .
