@@ -21,6 +21,7 @@ ogit.SaaS:ComponentInstance
 	ogit:optional-attributes (
 	    # sourceId: ref to ConfigurationTemplate
 	    ogit:sourceId
+	    ogit:status
 	);
         ogit:indexed-attributes (
             ogit:id
