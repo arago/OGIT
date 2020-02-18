@@ -6,7 +6,7 @@
 ogit:manufacturer
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "model";
+	rdfs:label "manufacturer";
 	dcterms:description "Manufacturer of a device or component.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-07-27;";

@@ -7,7 +7,7 @@
 ogit.DataProcessing:state
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "DataProcessingState";
+	rdfs:label "state";
 	dcterms:description "The state of the program: idle, started, stopped";
 	dcterms:valid "start=2017-02-28;";
 	dcterms:creator "Oday Jubran";

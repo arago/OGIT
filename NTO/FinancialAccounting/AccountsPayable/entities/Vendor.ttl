@@ -7,7 +7,7 @@
 ogit.FinancialAccounting.AccountsPayable:Vendor
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "Customer";
+  rdfs:label "Vendor";
   dcterms:description "A vendor in the accounts payable process.";
   dcterms:valid "start=2019-08-23;";
   dcterms:creator "Marek Meyer";

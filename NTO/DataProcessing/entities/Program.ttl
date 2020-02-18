@@ -6,7 +6,7 @@
 ogit.DataProcessing:Program
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "DataProcessingProgram";
+	rdfs:label "Program";
 	dcterms:description """The program is used for creating data streams,
 		and applying transformations to them.""";
 	dcterms:valid "start=2017-02-28;";

@@ -6,7 +6,7 @@
 ogit.Advertising:Platform
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "RoleTitle";
+  rdfs:label "Platform";
   dcterms:description "Platform or application on which a Campaign is run";
   dcterms:valid "start=2019-05-10;";
   dcterms:creator "Patrick Williamson";
