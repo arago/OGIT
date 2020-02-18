@@ -6,7 +6,7 @@
 ogit.SalesDistribution:DeliveryItem
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "Customer";
+  rdfs:label "DeliveryItem";
   dcterms:description "An individual item contained in a delivery in the sales and distribution process.";
   dcterms:valid "start=2019-07-10;";
   dcterms:creator "Marek Meyer";

@@ -7,7 +7,7 @@
 ogit.FinancialMarket:nationalIdentifier
         a owl:DatatypeProperty;
         rdfs:subPropertyOf ogit:Attribute;
-        rdfs:label "issueDate";
+        rdfs:label "nationalIdentifier";
         dcterms:description "A unique nationally defined identifier for a corporation.";
         dcterms:valid "start=2019-11-06;";
         dcterms:creator "Marek Meyer";

@@ -7,7 +7,7 @@
 ogit.DataProcessing:query
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "DataProcessingQuery";
+	rdfs:label "query";
 	dcterms:description "The query of the input data stream";
 	dcterms:valid "start=2017-02-27;";
 	dcterms:creator "Oday Jubran";

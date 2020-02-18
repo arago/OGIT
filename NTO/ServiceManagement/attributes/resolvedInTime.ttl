@@ -7,7 +7,7 @@
 ogit.ServiceManagement:resolvedInTime
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "resolvedAt";
+	rdfs:label "resolvedInTime";
 	dcterms:description "Information about a ticket being solved in the time excepted.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";

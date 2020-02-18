@@ -6,7 +6,7 @@
 ogit.Accounting:CompanySpecificCategorization
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "LineItem";
+	rdfs:label "CompanySpecificCategorization";
 	dcterms:description "Categorization Map for Categorizing Line Items";
 	dcterms:valid "start=2018-12-05;";
 	dcterms:creator "Gibson Xavier";

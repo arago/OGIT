@@ -7,7 +7,7 @@
 ogit.DataProcessing:queryType
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "DataProcessingQueryType";
+	rdfs:label "queryType";
 	dcterms:description "Type of the query of the input data stream";
 	dcterms:valid "start=2017-02-27;";
 	dcterms:creator "Oday Jubran";
