@@ -19,7 +19,7 @@ ogit.ML:TrainedModel
     ogit:status
     ogit:attachmentID
     ogit.ML:trainedFrom
-    ogit.ML:requirement
+    ogit.ML:requirements
     ogit.ML:meta
     ogit.ML:trainingSummary
   );

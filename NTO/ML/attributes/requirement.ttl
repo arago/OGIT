@@ -4,10 +4,10 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.ML:requirement
+ogit.ML:requirements
         a owl:DatatypeProperty;
         rdfs:subPropertyOf ogit:Attribute;
-        rdfs:label "requirement";
+        rdfs:label "requirements";
         dcterms:description "required information such as name and Version of the machine learning Frameworks, z.B. keras+tensorflow 1.20";
         dcterms:valid "start=2020-02-19;";
         dcterms:creator "Kaushik Gondaliya";
