@@ -1,0 +1,32 @@
+@prefix ogit.ML:                   <http://www.purl.org/ogit/ML/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.ML:PredictionModel
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "PredictionModel";
+  dcterms:description "trained Prediction model which can be used by client directly.";
+  dcterms:valid "start=2020-02-18;";
+  dcterms:creator "Kaushik Gondaliya";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+    ogit:name
+  );
+  ogit:optional-attributes (
+    ogit:description
+    ogit.ML:attributesSchema
+    ogit.ML:activeVersion
+    ogit.ML:endpoint
+
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+    [ ogit:generates  ogit:Timeseries ]
+    [ ogit:uses  ogit.ML:TrainedModel ]
+    [ ogit:has  ogit.ML:TrainingData ]
+  );
+.

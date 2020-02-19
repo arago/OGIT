@@ -1,0 +1,14 @@
+@prefix ogit.ML:     <http://www.purl.org/ogit/ML/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.ML:attributesSchema
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "attributesSchema";
+        dcterms:description "Information about attributes of training data, for example, How many columns, which type (String/Interger)";
+        dcterms:valid "start=2020-02-19;";
+        dcterms:creator "Kaushik Gondaliya";
+.

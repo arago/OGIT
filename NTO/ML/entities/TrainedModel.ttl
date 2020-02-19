@@ -1,0 +1,32 @@
+@prefix ogit.ML:                   <http://www.purl.org/ogit/ML/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.ML:TrainedModel
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "TrainedModel";
+  dcterms:description "Trained machine learning model.";
+  dcterms:valid "start=2020-02-18;";
+  dcterms:creator "Kaushik Gondaliya";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+    ogit:name
+  );
+  ogit:optional-attributes (
+    ogit:status
+    ogit:attachmentID
+    ogit.ML:trainedFrom
+    ogit.ML:requirements
+    ogit.ML:meta
+    ogit.ML:trainingSummary
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+    [ ogit:contains  ogit:Attachment ]
+    [ ogit.ML:trainedOn  ogit.ML:TrainingData ]
+  );
+.
