@@ -1,0 +1,14 @@
+@prefix ogit.ML:     <http://www.purl.org/ogit/ML/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.ML:trainData
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "trainData";
+        dcterms:description "if training data < 10Mb, it can be stored directly in this attribute (for Example as JSON). Attachment can be used for larger amount of training data. However, one of the trainData or attachmentID should be used, not both";
+        dcterms:valid "start=2020-02-19;";
+        dcterms:creator "Kaushik Gondaliya";
+.
