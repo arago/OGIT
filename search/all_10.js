@@ -35,6 +35,7 @@ var searchData=
   ['profile',['Profile',['../group__httpwwwpurlorgogitForumProfile.html',1,'']]],
   ['port',['port',['../group__httpwwwpurlorgogitMARSNetworkport.html',1,'']]],
   ['protocol',['protocol',['../group__httpwwwpurlorgogitMARSNetworkprotocol.html',1,'']]],
+  ['predictionmodel',['PredictionModel',['../group__httpwwwpurlorgogitMLPredictionModel.html',1,'']]],
   ['performedat',['performedAt',['../group__httpwwwpurlorgogitMROAviationperformedAt.html',1,'']]],
   ['part',['Part',['../group__httpwwwpurlorgogitMRPPart.html',1,'']]],
   ['partnumber',['partNumber',['../group__httpwwwpurlorgogitMRPpartNumber.html',1,'']]],

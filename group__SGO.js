@@ -87,6 +87,7 @@ var group__SGO =
     [ "assignedTo", "group__httpwwwpurlorgogitassignedTo.html", null ],
     [ "associates", "group__httpwwwpurlorgogitassociates.html", null ],
     [ "assumes", "group__httpwwwpurlorgogitassumes.html", null ],
+    [ "attachmentID", "group__httpwwwpurlorgogitattachmentID.html", null ],
     [ "availability", "group__httpwwwpurlorgogitavailability.html", null ],
     [ "availableIn", "group__httpwwwpurlorgogitavailableIn.html", null ],
     [ "belongs", "group__httpwwwpurlorgogitbelongs.html", null ],

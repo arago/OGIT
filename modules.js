@@ -21,6 +21,7 @@ var modules =
     [ "Knowledge", "group__Knowledge.html", "group__Knowledge" ],
     [ "Location", "group__Location.html", "group__Location" ],
     [ "MARS", "group__MARS.html", "group__MARS" ],
+    [ "ML", "group__ML.html", "group__ML" ],
     [ "MRO", "group__MRO.html", "group__MRO" ],
     [ "MRP", "group__MRP.html", "group__MRP" ],
     [ "Network", "group__Network.html", "group__Network" ],
