@@ -37,9 +37,6 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 		ogit:type
 		ogit:sourceTable
 		ogit:creator
-		ogit:createdAt
-		ogit:lastUpdatedBy
-		ogit:lastUpdatedAt
 		ogit:content
 		ogit:size
 		ogit:accessControl
