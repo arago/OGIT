@@ -15,7 +15,7 @@ ogit.Audit:Batch
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
-            ogit:name
+            ogit:title
 	);
     ogit:indexed-attributes (
     );
