@@ -34,10 +34,14 @@ ogit.Knowledge:AcquisitionSession
         ogit:title
         ogit:description
         ogit.Knowledge:archived
+        ogit.Knowledge:group
+        ogit.Knowledge:subGroup
     );
     ogit:indexed-attributes (
         ogit:title
         ogit:description
+        ogit.Knowledge:group
+        ogit.Knowledge:subGroup
     );
     ogit:allowed (
             [ ogit:contains  ogit:Comment ]
