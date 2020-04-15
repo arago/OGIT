@@ -24,6 +24,7 @@ ogit.Advertising:LineItem
   ogit:allowed (
     [ ogit:uses       ogit.Advertising:Creative   ]
     [ ogit:generates  ogit:Timeseries ]
+    [ ogit:generates  ogit.Documents:Spreadsheet ]
   );
 
 .
