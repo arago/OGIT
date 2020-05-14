@@ -26,6 +26,7 @@ ogit.Auth:AccountProfile
           ogit.Auth.Account:displayName
           ogit.Auth.Account:acceptedEmails
           ogit.Auth.Account:defaultScope
+          ogit.Auth.Account:defaultTeam
           ogit:firstName
           ogit:lastName
 	);
