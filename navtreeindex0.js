@@ -221,9 +221,10 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAuthAccountacceptedTerms.html":[0,3,0,0,3],
 "group__httpwwwpurlorgogitAuthAccountallowCookies.html":[0,3,0,0,4],
 "group__httpwwwpurlorgogitAuthAccountdefaultScope.html":[0,3,0,0,5],
-"group__httpwwwpurlorgogitAuthAccountdisplayName.html":[0,3,0,0,6],
-"group__httpwwwpurlorgogitAuthAccountstatusReason.html":[0,3,0,0,7],
-"group__httpwwwpurlorgogitAuthAccounttype.html":[0,3,0,0,8],
+"group__httpwwwpurlorgogitAuthAccountdefaultTeam.html":[0,3,0,0,6],
+"group__httpwwwpurlorgogitAuthAccountdisplayName.html":[0,3,0,0,7],
+"group__httpwwwpurlorgogitAuthAccountstatusReason.html":[0,3,0,0,8],
+"group__httpwwwpurlorgogitAuthAccounttype.html":[0,3,0,0,9],
 "group__httpwwwpurlorgogitAuthApplication.html":[0,3,3,2],
 "group__httpwwwpurlorgogitAuthApplicationReview.html":[0,3,3,3],
 "group__httpwwwpurlorgogitAuthApplicationparent.html":[0,3,1,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAuthisMemberOf.html":[0,3,4,4],
 "group__httpwwwpurlorgogitAuthrestricted.html":[0,3,2,3],
 "group__httpwwwpurlorgogitAuthuses.html":[0,3,4,5],
-"group__httpwwwpurlorgogitAuthvertexRule.html":[0,3,2,4],
-"group__httpwwwpurlorgogitAutomationActionApplicability.html":[0,4,1,0]
+"group__httpwwwpurlorgogitAuthvertexRule.html":[0,3,2,4]
 };

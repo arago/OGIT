@@ -7,6 +7,7 @@ var searchData=
   ['ddtarget',['DDTarget',['../group__httpwwwpurlorgogitAccountingDDTarget.html',1,'']]],
   ['detailedcategories',['detailedCategories',['../group__httpwwwpurlorgogitAccountingdetailedCategories.html',1,'']]],
   ['defaultscope',['defaultScope',['../group__httpwwwpurlorgogitAuthAccountdefaultScope.html',1,'']]],
+  ['defaultteam',['defaultTeam',['../group__httpwwwpurlorgogitAuthAccountdefaultTeam.html',1,'']]],
   ['displayname',['displayName',['../group__httpwwwpurlorgogitAuthAccountdisplayName.html',1,'']]],
   ['datascope',['DataScope',['../group__httpwwwpurlorgogitAuthDataScope.html',1,'']]],
   ['dataset',['DataSet',['../group__httpwwwpurlorgogitAuthDataSet.html',1,'']]],
