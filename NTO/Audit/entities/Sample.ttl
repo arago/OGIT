@@ -16,8 +16,9 @@ ogit.Audit:Sample
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
+            ogit:name
             ogit:title
-						ogit:creationTime
+            ogit:creationTime
 	);
     ogit:indexed-attributes (
     );
