@@ -1,4 +1,4 @@
-![Logo](/docs/images/OGIT_Logo.jpg)
+![Logo](/docs/images/OGIT_Logo.jpg) 
 # Welcome to the _Open Graph of IT_ Ontology
 
 ## Overview
