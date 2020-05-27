@@ -27,5 +27,6 @@ ogit.OSLC-arch:LinkType
 		
 	);
 	ogit:allowed (
+		
 	);
 .
