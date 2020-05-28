@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 03/05/2020"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 05/28/2020"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -15,7 +15,9 @@ edge [  color="gray81"];
    "ogit/Advertising/CampaignManager" -> "ogit/Advertising/Platform" [label="   ogit/supervises    "];
    "ogit/Advertising/Campaign" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/Advertising/InsertionOrder" -> "ogit/Timeseries" [label="   ogit/generates    "];
+   "ogit/Advertising/InsertionOrder" -> "ogit/Documents/Spreadsheet" [label="   ogit/generates    "];
    "ogit/Advertising/LineItem" -> "ogit/Timeseries" [label="   ogit/generates    "];
+   "ogit/Advertising/LineItem" -> "ogit/Documents/Spreadsheet" [label="   ogit/generates    "];
    "ogit/Advertising/MediaPlan" -> "ogit/Advertising/Campaign" [label="   ogit/includes    "];
    "ogit/Advertising/Client" -> "ogit/Advertising/MediaPlan" [label="   ogit/owns    "];
    "ogit/Advertising/Client" -> "ogit/Advertising/Campaign" [label="   ogit/owns    "];
