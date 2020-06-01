@@ -1,6 +1,6 @@
 ![Logo](/docs/images/OGIT_Logo.jpg)
 # Welcome to the _Open Graph of IT_ Ontology
-
+  
 ## Overview
 
 _Open Graph of IT_ (OGIT) aims to build a semantic representation of all IT and its interaction with business processes and people.
