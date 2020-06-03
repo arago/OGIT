@@ -58,5 +58,6 @@ ogit:Comment
 			[ ogit:connects  ogit.Forum:Post ]
 			[ ogit:connects  ogit:Hyperlink ]
 			[ ogit.Forum:mentions  ogit.Forum:Profile ]
+			[ ogit:seenBy  ogit.Auth:Account ]
 	);
 .
