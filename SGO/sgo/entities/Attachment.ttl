@@ -66,5 +66,6 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 			[ ogit:belongs  ogit.ServiceManagement:Order ]
                         [ ogit:belongs  ogit.Auth:AccountProfile ]
                         [ ogit:belongs  ogit.Factory:Plant ]
+                        [ ogit:belongs  ogit.SaaS:ComponentInstance ]
 	);
 .
