@@ -9,6 +9,7 @@ edge [  color="gray81"];
    "ogit/SaaS/DeploymentTemplate" -> "ogit/SaaS/ConfigurationTemplate" [label="   ogit/contains    "];
    "ogit/SaaS/ComponentInstance" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/SaaS/ConfigurationTemplate" -> "ogit/SaaS/Component" [label="   ogit/configures    "];
+   "ogit/Attachment" -> "ogit/SaaS/ComponentInstance" [label="   ogit/belongs    "];
    "ogit/Auth/Account" -> "ogit/SaaS/ComponentInstance" [label="   ogit/Auth/uses    "];
    "ogit/SaaS/Deployment" -> "ogit/SaaS/Deployment" [label="   ogit/contains    "];
 }
