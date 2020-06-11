@@ -1,0 +1,29 @@
+@prefix ogit.Mobile: <http://www.purl.org/ogit/Mobile/> .
+@prefix ogit:                 <http://www.purl.org/ogit/> .
+@prefix dcterms:              <http://purl.org/dc/terms/> .
+@prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.Mobile:Encounter
+    a                         rdfs:Class ;
+    rdfs:subClassOf           ogit:Entity ;
+    rdfs:label                "Encounter" ;
+    dcterms:description       """Defined connection between applications.""" ;
+    dcterms:valid             "start=2020-03-15;" ;
+    dcterms:creator           "Kaushik Gondaliya" ;
+    ogit:scope                "NTO" ;
+    ogit:parent               ogit:Node ;
+    ogit:mandatory-attributes ( ) ;
+    ogit:optional-attributes  (
+                                ogit.Mobile:time
+                                ogit.Mobile:duration
+                                ogit.Mobile:movementType
+                                ogit.Mobile:distance
+                                ogit.Mobile:category
+                                ogit.Mobile:criticality
+                                ogit.Mobile:riskScore
+                              ) ;
+    ogit:indexed-attributes   ( ) ;
+    ogit:allowed              (
+
+                              ) ;
+.
