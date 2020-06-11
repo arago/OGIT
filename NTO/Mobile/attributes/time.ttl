@@ -1,0 +1,14 @@
+@prefix ogit.Mobile: <http://www.purl.org/ogit/Mobile/> .
+@prefix ogit:                 <http://www.purl.org/ogit/> .
+@prefix dcterms:              <http://purl.org/dc/terms/> .
+@prefix owl:                  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.Mobile:time
+    a                   owl:DatatypeProperty ;
+    rdfs:subPropertyOf  ogit:Attribute ;
+    rdfs:label          "time" ;
+    dcterms:description """Time when connection started.""" ;
+    dcterms:valid       "start=2020-03-16;" ;
+    dcterms:creator     "Kaushik Gondaliya" ;
+.
