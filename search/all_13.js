@@ -54,6 +54,7 @@ var searchData=
   ['servicename',['serviceName',['../group__httpwwwpurlorgogitMARSSoftwareserviceName.html',1,'']]],
   ['subclass',['subClass',['../group__httpwwwpurlorgogitMARSSoftwaresubClass.html',1,'']]],
   ['size',['size',['../group__httpwwwpurlorgogitMLsize.html',1,'']]],
+  ['subline',['subline',['../group__httpwwwpurlorgogitMobilesubline.html',1,'']]],
   ['suit',['suit',['../group__httpwwwpurlorgogitMROAviationsuit.html',1,'']]],
   ['suppliedby',['suppliedBy',['../group__httpwwwpurlorgogitMROAviationsuppliedBy.html',1,'']]],
   ['specificnorm',['specificNorm',['../group__httpwwwpurlorgogitMRPspecificNorm.html',1,'']]],

@@ -1,0 +1,11 @@
+digraph OGIT_ontology {
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Mobile, \n 06/12/2020"];
+node[shape=polygon];
+edge [  color="gray81"];
+
+   "ogit/Mobile/AppInstance" -> "ogit/Timeseries" [label="   ogit/generates    "];
+   "ogit/Mobile/AppInstance" -> "ogit/Mobile/Encounter" [label="   ogit/has    "];
+   "ogit/Mobile/AppInstance" -> "ogit/Auth/Account" [label="   ogit/has    "];
+}

@@ -15,6 +15,7 @@ var searchData=
   ['hiddenby',['hiddenBy',['../group__httpwwwpurlorgogithiddenBy.html',1,'']]],
   ['hosts',['hosts',['../group__httpwwwpurlorgogithosts.html',1,'']]],
   ['hyperlink',['Hyperlink',['../group__httpwwwpurlorgogitHyperlink.html',1,'']]],
+  ['headline',['headline',['../group__httpwwwpurlorgogitMobileheadline.html',1,'']]],
   ['historicised',['historicised',['../group__httpwwwpurlorgogitMRPhistoricised.html',1,'']]],
   ['hascontribution',['hasContribution',['../group__httpwwwpurlorgogitOSLC-automationhasContribution.html',1,'']]],
   ['hidden',['hidden',['../group__httpwwwpurlorgogitOSLC-corehidden.html',1,'']]],

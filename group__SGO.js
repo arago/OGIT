@@ -121,6 +121,7 @@ var group__SGO =
     [ "conformsTo", "group__httpwwwpurlorgogitconformsTo.html", null ],
     [ "connectorId", "group__httpwwwpurlorgogitconnectorId.html", null ],
     [ "connects", "group__httpwwwpurlorgogitconnects.html", null ],
+    [ "consentLevel", "group__httpwwwpurlorgogitconsentLevel.html", null ],
     [ "consistsOf", "group__httpwwwpurlorgogitconsistsOf.html", null ],
     [ "consumes", "group__httpwwwpurlorgogitconsumes.html", null ],
     [ "contact", "group__httpwwwpurlorgogitcontact.html", null ],
@@ -342,5 +343,6 @@ var group__SGO =
     [ "webPage", "group__httpwwwpurlorgogitwebPage.html", null ],
     [ "weight", "group__httpwwwpurlorgogitweight.html", null ],
     [ "wins", "group__httpwwwpurlorgogitwins.html", null ],
-    [ "worksOn", "group__httpwwwpurlorgogitworksOn.html", null ]
+    [ "worksOn", "group__httpwwwpurlorgogitworksOn.html", null ],
+    [ "zipCode", "group__httpwwwpurlorgogitzipCode.html", null ]
 ];

@@ -24,6 +24,7 @@ var modules =
     [ "ML", "group__ML.html", "group__ML" ],
     [ "MRO", "group__MRO.html", "group__MRO" ],
     [ "MRP", "group__MRP.html", "group__MRP" ],
+    [ "Mobile", "group__Mobile.html", "group__Mobile" ],
     [ "Network", "group__Network.html", "group__Network" ],
     [ "OSLC-arch", "group__OSLC-arch.html", "group__OSLC-arch" ],
     [ "OSLC-asset", "group__OSLC-asset.html", "group__OSLC-asset" ],

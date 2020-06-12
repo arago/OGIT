@@ -33,6 +33,8 @@ var searchData=
   ['ram',['ram',['../group__httpwwwpurlorgogitMARSMachineram.html',1,'']]],
   ['resource',['Resource',['../group__httpwwwpurlorgogitMARSResource.html',1,'']]],
   ['requirements',['requirements',['../group__httpwwwpurlorgogitMLrequirements.html',1,'']]],
+  ['registrationtype',['registrationType',['../group__httpwwwpurlorgogitMobileregistrationType.html',1,'']]],
+  ['riskscore',['riskScore',['../group__httpwwwpurlorgogitMobileriskScore.html',1,'']]],
   ['references',['references',['../group__httpwwwpurlorgogitMROAviationreferences.html',1,'']]],
   ['roomconditions',['roomConditions',['../group__httpwwwpurlorgogitMRProomConditions.html',1,'']]],
   ['router',['Router',['../group__httpwwwpurlorgogitNetworkRouter.html',1,'']]],

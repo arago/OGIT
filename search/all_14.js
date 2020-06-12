@@ -24,6 +24,7 @@ var searchData=
   ['trainedon',['trainedOn',['../group__httpwwwpurlorgogitMLtrainedOn.html',1,'']]],
   ['trainingdata',['TrainingData',['../group__httpwwwpurlorgogitMLTrainingData.html',1,'']]],
   ['trainingsummary',['trainingSummary',['../group__httpwwwpurlorgogitMLtrainingSummary.html',1,'']]],
+  ['time',['time',['../group__httpwwwpurlorgogitMobiletime.html',1,'']]],
   ['task',['Task',['../group__httpwwwpurlorgogitMROAviationTask.html',1,'']]],
   ['tempmax',['tempMax',['../group__httpwwwpurlorgogitMRPtempMax.html',1,'']]],
   ['tempmin',['tempMin',['../group__httpwwwpurlorgogitMRPtempMin.html',1,'']]],
