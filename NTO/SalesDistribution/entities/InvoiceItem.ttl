@@ -17,6 +17,7 @@ ogit.SalesDistribution:InvoiceItem
   ogit:optional-attributes (
     ogit.SalesDistribution:amount 
     ogit:currency
+    ogit:name
   );
   ogit:indexed-attributes (
   );
