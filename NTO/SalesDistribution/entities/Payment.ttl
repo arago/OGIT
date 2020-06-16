@@ -20,6 +20,7 @@ ogit.SalesDistribution:Payment
     ogit.SalesDistribution:valueDate
     ogit:currency
     ogit:description
+    ogit:name
   );
   ogit:indexed-attributes (
   );
