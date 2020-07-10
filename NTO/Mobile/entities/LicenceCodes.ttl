@@ -1,0 +1,27 @@
+@prefix ogit.Mobile: <http://www.purl.org/ogit/Mobile/> .
+@prefix ogit:                 <http://www.purl.org/ogit/> .
+@prefix dcterms:              <http://purl.org/dc/terms/> .
+@prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+
+ogit.Mobile:LicenceCodes
+    a                         rdfs:Class ;
+    rdfs:subClassOf           ogit:Entity ;
+    rdfs:label                "LicenceCodes" ;
+    dcterms:description       """Unique Licence Codes which is used for mobile app activation.""" ;
+    dcterms:valid             "start=2020-07-09;" ;
+    dcterms:creator           "Kaushik Gondaliya" ;
+    ogit:scope                "NTO" ;
+    ogit:parent               ogit:Node ;
+    ogit:mandatory-attributes (
+                                ogit.Mobile:licenceCode
+    ) ;
+    ogit:optional-attributes  (
+                                ogit.Mobile:activationTime
+                                ogit.Mobile:deactivationTime
+                              ) ;
+    ogit:indexed-attributes   ( ) ;
+    ogit:allowed              (
+                                  [ ogit:activates  ogit.Mobile:AppInstance ]
+                              ) ;
+.

@@ -1,0 +1,14 @@
+@prefix ogit.Mobile: <http://www.purl.org/ogit/Mobile/> .
+@prefix ogit:                 <http://www.purl.org/ogit/> .
+@prefix dcterms:              <http://purl.org/dc/terms/> .
+@prefix owl:                  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.Mobile:lastActive
+    a                   owl:DatatypeProperty ;
+    rdfs:subPropertyOf  ogit:Attribute ;
+    rdfs:label          "lastActive" ;
+    dcterms:description """the last day when app was used.""" ;
+    dcterms:valid       "start=2020-07-09;" ;
+    dcterms:creator     "Kaushik Gondaliya" ;
+.
