@@ -15,8 +15,8 @@ ogit.Mobile:HeathInfo
     ogit:parent               ogit:Node ;
     ogit:mandatory-attributes ( ) ;
     ogit:optional-attributes  (
-                                ogit.Mobile:lastActive
                                 ogit.Mobile:healthStatus
+                                ogit.Mobile:licenceCode
                               ) ;
     ogit:indexed-attributes   ( ) ;
     ogit:allowed              (

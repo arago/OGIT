@@ -17,8 +17,11 @@ ogit.Mobile:LicenceCodes
                                 ogit.Mobile:licenceCode
     ) ;
     ogit:optional-attributes  (
+                                ogit.Mobile:licenceCode
+                                ogit.Mobile:licenceCodeLabel
                                 ogit.Mobile:activationTime
                                 ogit.Mobile:deactivationTime
+
                               ) ;
     ogit:indexed-attributes   ( ) ;
     ogit:allowed              (
