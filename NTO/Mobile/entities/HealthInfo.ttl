@@ -17,6 +17,9 @@ ogit.Mobile:HealthInfo
     ogit:optional-attributes  (
                                 ogit.Mobile:healthStatus
                                 ogit.Mobile:licenceCode
+                                ogit.Mobile:label
+                                ogit.Mobile:healthStatusUpdateTime
+
                               ) ;
     ogit:indexed-attributes   ( ) ;
     ogit:allowed              (

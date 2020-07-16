@@ -19,7 +19,6 @@ ogit.Mobile:AppInstance
                                 ogit:description
                                 ogit.Mobile:appVersion
                                 ogit.Mobile:osVersion
-                                ogit.Mobile:deviceType
                                 ogit:consentLevel
                                 ogit.Mobile:appPermissions
                                 ogit.Mobile:firebaseToken

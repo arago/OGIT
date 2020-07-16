@@ -4,11 +4,11 @@
 @prefix owl:                  <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
 
-ogit.Mobile:licenceCodeLabel
+ogit.Mobile:healthStatusUpdateTime
     a                   owl:DatatypeProperty ;
     rdfs:subPropertyOf  ogit:Attribute ;
-    rdfs:label          "licenceCodeLabel" ;
-    dcterms:description """label for licence code.""" ;
+    rdfs:label          "healthStatusUpdateTime" ;
+    dcterms:description """last time when health status was updated. UTC timestamp format""" ;
     dcterms:valid       "start=2020-07-09;" ;
     dcterms:creator     "Kaushik Gondaliya" ;
 .
