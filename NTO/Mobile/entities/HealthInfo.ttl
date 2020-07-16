@@ -4,10 +4,10 @@
 @prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 
-ogit.Mobile:HeathInfo
+ogit.Mobile:HealthInfo
     a                         rdfs:Class ;
     rdfs:subClassOf           ogit:Entity ;
-    rdfs:label                "HeathInfo" ;
+    rdfs:label                "HealthInfo" ;
     dcterms:description       """information regarding app instance.""" ;
     dcterms:valid             "start=2020-07-09;" ;
     dcterms:creator           "Kaushik Gondaliya" ;
