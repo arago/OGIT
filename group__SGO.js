@@ -75,6 +75,7 @@ var group__SGO =
     [ "accepts", "group__httpwwwpurlorgogitaccepts.html", null ],
     [ "accessControl", "group__httpwwwpurlorgogitaccessControl.html", null ],
     [ "acknowledgeState", "group__httpwwwpurlorgogitacknowledgeState.html", null ],
+    [ "activates", "group__httpwwwpurlorgogitactivates.html", null ],
     [ "addressLocality", "group__httpwwwpurlorgogitaddressLocality.html", null ],
     [ "affects", "group__httpwwwpurlorgogitaffects.html", null ],
     [ "alerts", "group__httpwwwpurlorgogitalerts.html", null ],
