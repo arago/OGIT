@@ -56,9 +56,6 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 	ogit:indexed-attributes (
 		ogit:name
 		ogit:description
-		ogit:_creator
-		ogit:_modified-by
-		ogit:_owner
 	);
 	ogit:allowed (
 			[ ogit:relates  ogit.Automation:MARSNodeTemplate ]
