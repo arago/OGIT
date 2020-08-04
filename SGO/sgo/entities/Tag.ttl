@@ -1,17 +1,16 @@
-@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Automation:Tag
+ogit:Tag
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Tag";
-	dcterms:description "An Automation Tag is a customer defined tag for an KI to help sort and filter Knowledge";
+	dcterms:description "An Tag is a customer defined tag to help filter data";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2020-08-04;";
 	dcterms:creator "Ben Neal";
-	ogit:scope "NTO";
+	ogit:scope "SGO";
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 		ogit:name
