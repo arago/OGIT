@@ -23,6 +23,6 @@ ogit:Tag
 
 	);
 	ogit:allowed (
-		[ ogit:describes  ogit:Automation:KnowledgeItem ]
+		[ ogit:describes  ogit.Automation:KnowledgeItem ]
 	);
 .
