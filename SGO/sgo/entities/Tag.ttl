@@ -1,5 +1,4 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
-@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
@@ -23,6 +22,6 @@ ogit:Tag
 
 	);
 	ogit:allowed (
-		[ ogit:describes  ogit.Automation:KnowledgeItem ]
+
 	);
 .
