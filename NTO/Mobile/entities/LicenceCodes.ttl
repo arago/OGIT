@@ -23,9 +23,9 @@ ogit.Mobile:LicenceCodes
                                 ogit.Mobile:deactivationTime
                                 ogit.Mobile:deviceType
                                 ogit.Mobile:lastActive
+                                ogit.Mobile:isActive
                               ) ;
     ogit:indexed-attributes   ( ) ;
     ogit:allowed              (
-                                  [ ogit:activates  ogit.Mobile:AppInstance ]
                               ) ;
 .

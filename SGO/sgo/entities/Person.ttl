@@ -26,6 +26,7 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Mobile: <http://www.purl.org/ogit/Mobile/> .
 
 ogit:Person
 	a rdfs:Class;
@@ -162,5 +163,8 @@ ogit:Person
 			[ ogit.UserMeta:plays  ogit.UserMeta:Game ]
 			[ ogit.UserMeta:loses  ogit.UserMeta:Game ]
 			[ ogit.UserMeta:wins  ogit.UserMeta:Game ]
+			[ ogit:uses  ogit.Mobile:AppInstance ]
+			[ ogit:uses  ogit.Mobile:LicenceCodes ]
+			[ ogit:has  ogit.Mobile:HealthInfo ]
 	);
 .

@@ -19,10 +19,10 @@ ogit.Mobile:HealthInfo
                                 ogit.Mobile:licenceCode
                                 ogit.Mobile:label
                                 ogit.Mobile:healthStatusUpdateTime
+                                ogit.Mobile:deviceType
 
                               ) ;
     ogit:indexed-attributes   ( ) ;
     ogit:allowed              (
-                                  [ ogit:uses  ogit.Mobile:AppInstance ]
                               ) ;
 .
