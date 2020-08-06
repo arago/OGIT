@@ -24,6 +24,7 @@ ogit.Mobile:AppInstance
                                 ogit.Mobile:firebaseToken
                                 ogit.Mobile:registrationType
                                 ogit.Mobile:lastActive
+                                ogit.Mobile:deviceType
                               ) ;
     ogit:indexed-attributes   ( ) ;
     ogit:allowed              (
