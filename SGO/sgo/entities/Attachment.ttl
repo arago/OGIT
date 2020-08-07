@@ -40,6 +40,9 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 		ogit:creator
 		ogit:content
 		ogit:size
+		ogit:lastUpdatedAt
+		ogit:createdAt
+		ogit:lastUpdatedBy
 		ogit:accessControl
 	);
 	ogit:indexed-attributes (
