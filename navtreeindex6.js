@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"group__httpwwwpurlorgogitoperation.html":[0,42,238],
 "group__httpwwwpurlorgogitoperationalStatus.html":[0,42,239],
 "group__httpwwwpurlorgogitorderedAt.html":[0,42,240],
 "group__httpwwwpurlorgogitotherPhone.html":[0,42,241],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogitServiceManagementeventMessage.html":[0,46,0,5],
 "group__httpwwwpurlorgogitServiceManagementeventNodeId.html":[0,46,0,6],
 "group__httpwwwpurlorgogitServiceManagementexternalTicketId.html":[0,46,0,7],
 "group__httpwwwpurlorgogitServiceManagementexternalTicketSource.html":[0,46,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitonAttribute.html":[0,42,234],
 "group__httpwwwpurlorgogitonVertex.html":[0,42,235],
 "group__httpwwwpurlorgogitopenedAt.html":[0,42,236],
-"group__httpwwwpurlorgogitopens.html":[0,42,237],
-"group__httpwwwpurlorgogitoperation.html":[0,42,238]
+"group__httpwwwpurlorgogitopens.html":[0,42,237]
 };

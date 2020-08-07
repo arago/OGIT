@@ -18,6 +18,7 @@ var group__Mobile____attributes =
     [ "headline", "group__httpwwwpurlorgogitMobileheadline.html", null ],
     [ "healthStatus", "group__httpwwwpurlorgogitMobilehealthStatus.html", null ],
     [ "healthStatusUpdateTime", "group__httpwwwpurlorgogitMobilehealthStatusUpdateTime.html", null ],
+    [ "isActive", "group__httpwwwpurlorgogitMobileisActive.html", null ],
     [ "label", "group__httpwwwpurlorgogitMobilelabel.html", null ],
     [ "lastActive", "group__httpwwwpurlorgogitMobilelastActive.html", null ],
     [ "licenceCode", "group__httpwwwpurlorgogitMobilelicenceCode.html", null ],
