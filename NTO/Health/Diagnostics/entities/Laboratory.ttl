@@ -1,10 +1,10 @@
 @prefix ogit:			<http://www.purl.org/ogit/> .
-@prefix ogit.Diagnostic:        <http://www.purl.org/ogit/Diagnostic/> .
+@prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Diagnostic:Laboratory
+ogit.Health.Diagnostics:Laboratory
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Laboratory";

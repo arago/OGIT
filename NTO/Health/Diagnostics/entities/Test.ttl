@@ -1,15 +1,15 @@
 @prefix ogit:			<http://www.purl.org/ogit/> .
-@prefix ogit.Diagnostic:        <http://www.purl.org/ogit/Diagnostic/> .
+@prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
 @prefix ogit.Mobile:            <http://www.purl.org/ogit/Mobile/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Diagnostic:Anamnesis
+ogit.Health.Diagnostics:Test
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Anamnesis";
-	dcterms:description "Anamnesis (Demographics)";
+	rdfs:label "Test";
+	dcterms:description "Test";
 	dcterms:valid "start=2020-08-14;";
 	dcterms:creator "Viktor Voss";
 	ogit:scope "NTO";
@@ -18,9 +18,15 @@ ogit.Diagnostic:Anamnesis
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
-                ogit.Diagnostic:symptoms
-                ogit.Diagnostic:appID
+                ogit.Health.Diagnostics:testResult
+                ogit.Health.Diagnostics:errorCode
+                ogit.Health.Diagnostics:sensorID
+                ogit.Health.Diagnostics:sensorHubID
+                ogit.Health.Diagnostics:appID
                 ogit.Mobile:appVersion
+                ogit.Health.Diagnostics:firmwareVersion
+                ogit.Health.Diagnostics:testStartedAt
+                ogit.Health.Diagnostics:testCompletedAt
 	);
 	ogit:indexed-attributes (
 	);
