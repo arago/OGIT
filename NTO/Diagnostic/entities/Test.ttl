@@ -1,0 +1,36 @@
+@prefix ogit:			<http://www.purl.org/ogit/> .
+@prefix ogit.Diagnostic:        <http://www.purl.org/ogit/Diagnostic/> .
+@prefix ogit.Mobile:            <http://www.purl.org/ogit/Mobile/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Diagnostic:Test
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Test";
+	dcterms:description "Test";
+	dcterms:valid "start=2020-08-14;";
+	dcterms:creator "Viktor Voss";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:any-attributes "true";
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+                ogit.Diagnostic:testResult
+                ogit.Diagnostic:errorCode
+                ogit.Diagnostic:sensorID
+                ogit.Diagnostic:sensorHubID
+                ogit.Diagnostic:appID
+                ogit.Mobile:appVersion
+                ogit.Diagnostic:firmwareVersion
+                ogit.Diagnostic:testStartedAt
+                ogit.Diagnostic:testCompletedAt
+                ogit.Diagnostic:testCounter
+	);
+	ogit:indexed-attributes (
+	);
+	ogit:allowed (
+	);
+.
