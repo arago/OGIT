@@ -26,5 +26,7 @@ ogit.Health.Diagnostics:Equipment
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
+                [ ogit.Health.Diagnostics:carryOut  ogit.Health.Diagnostics:Test ]
+                [ ogit.Health.Diagnostics:managedBy ogit:Person ]
 	);
 .

@@ -31,5 +31,8 @@ ogit.Health.Diagnostics:Test
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
+                [ ogit:includes  ogit.Health.Diagnostics:Anamnesis ]
+                [ ogit.Health.Diagnostics:managedBy ogit:Person ]
+                [ ogit:generates  ogit:Attachment ]
 	);
 .
