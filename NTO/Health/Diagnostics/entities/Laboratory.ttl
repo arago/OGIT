@@ -1,0 +1,39 @@
+@prefix ogit:			<http://www.purl.org/ogit/> .
+@prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Health.Diagnostics:Laboratory
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Laboratory";
+	dcterms:description "Test Laboratory";
+	dcterms:valid "start=2020-08-14;";
+	dcterms:creator "Viktor Voss";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:any-attributes "true";
+	ogit:mandatory-attributes (
+		ogit:name
+	);
+	ogit:optional-attributes (
+		ogit:description
+		ogit:function
+		ogit:email
+		ogit:streetAddress
+		ogit:city
+		ogit:country
+		ogit:postalCode
+		ogit:webPage
+		ogit:phone
+	);
+	ogit:indexed-attributes (
+		ogit:name
+		ogit:description
+	);
+	ogit:allowed (
+                [ ogit:performs ogit.Health.Diagnostics:Test ]
+                [ ogit:manages  ogit.Health.Diagnostics:Equipment ]
+	);
+.

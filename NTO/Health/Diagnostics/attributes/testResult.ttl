@@ -1,0 +1,14 @@
+@prefix ogit.Health.Diagnostics:     <http://www.purl.org/ogit/Health/Diagnostics/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Health.Diagnostics:testResult
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "testResult";
+        dcterms:description "Test result (positive, negative, inconclusive).";
+        dcterms:valid "start=2020-08-14;";
+        dcterms:creator "Marek Meyer";
+.

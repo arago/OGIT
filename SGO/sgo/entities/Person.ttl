@@ -21,12 +21,13 @@
 @prefix ogit.Project:           <http://www.purl.org/ogit/Project/> .
 @prefix ogit.Factory:   <http://www.purl.org/ogit/Factory/> .
 @prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit.Mobile: <http://www.purl.org/ogit/Mobile/> .
+@prefix ogit.Health.Diagnostics: <http://www.purl.org/ogit/Health/Diagnostics/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.UserMeta:          <http://www.purl.org/ogit/UserMeta/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Mobile: <http://www.purl.org/ogit/Mobile/> .
 
 ogit:Person
 	a rdfs:Class;
@@ -166,5 +167,7 @@ ogit:Person
 			[ ogit:uses  ogit.Mobile:AppInstance ]
 			[ ogit:uses  ogit.Mobile:LicenceCodes ]
 			[ ogit:has  ogit.Mobile:HealthInfo ]
+                        [ ogit:manages  ogit.Health.Diagnostics:Equipment ]
+                        [ ogit:manages  ogit.Health.Diagnostics:Test ]
 	);
 .

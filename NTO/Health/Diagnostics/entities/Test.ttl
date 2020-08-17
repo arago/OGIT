@@ -1,0 +1,37 @@
+@prefix ogit:			<http://www.purl.org/ogit/> .
+@prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
+@prefix ogit.Mobile:            <http://www.purl.org/ogit/Mobile/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Health.Diagnostics:Test
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Test";
+	dcterms:description "Test";
+	dcterms:valid "start=2020-08-14;";
+	dcterms:creator "Viktor Voss";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:any-attributes "true";
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+                ogit.Health.Diagnostics:testResult
+                ogit.Health.Diagnostics:errorCode
+                ogit.Health.Diagnostics:sensorID
+                ogit.Health.Diagnostics:equipmentID
+                ogit.Health.Diagnostics:appID
+                ogit.Mobile:appVersion
+                ogit.Health.Diagnostics:firmwareVersion
+                ogit.Health.Diagnostics:testStartedAt
+                ogit.Health.Diagnostics:testCompletedAt
+	);
+	ogit:indexed-attributes (
+	);
+	ogit:allowed (
+                [ ogit:includes  ogit.Health.Diagnostics:Anamnesis ]
+                [ ogit:generates  ogit:Attachment ]
+	);
+.
