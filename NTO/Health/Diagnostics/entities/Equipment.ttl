@@ -18,7 +18,7 @@ ogit.Health.Diagnostics:Equipment
 	ogit:mandatory-attributes (
 	);
 	ogit:optional-attributes (
-                ogit.Health.Diagnostics:sensorHubID
+                ogit.Health.Diagnostics:equipmentID
                 ogit.Health.Diagnostics:firmwareVersion
                 ogit.Mobile:deviceModel
                 ogit.Mobile:activationTime
@@ -26,7 +26,6 @@ ogit.Health.Diagnostics:Equipment
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
-                [ ogit.Health.Diagnostics:carryOut  ogit.Health.Diagnostics:Test ]
-                [ ogit.Health.Diagnostics:managedBy ogit:Person ]
+                [ ogit:performs ogit.Health.Diagnostics:Test ]
 	);
 .

@@ -33,7 +33,7 @@ ogit.Health.Diagnostics:Laboratory
 		ogit:description
 	);
 	ogit:allowed (
-                [ ogit.Health.Diagnostics:carryOut  ogit.Health.Diagnostics:Test ]
+                [ ogit:performs ogit.Health.Diagnostics:Test ]
                 [ ogit:manages  ogit.Health.Diagnostics:Equipment ]
 	);
 .

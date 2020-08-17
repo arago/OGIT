@@ -4,11 +4,11 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Health.Diagnostics:sensorHubID
+ogit.Health.Diagnostics:equipmentID
         a owl:DatatypeProperty;
         rdfs:subPropertyOf ogit:Attribute;
-        rdfs:label "sensorHubID";
-        dcterms:description "UDI of Sensor Hub.";
+        rdfs:label "equipmentID";
+        dcterms:description "UDI of an equipment, for example a Sensor Hub.";
         dcterms:valid "start=2020-08-14;";
         dcterms:creator "Marek Meyer";
 .

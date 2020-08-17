@@ -21,7 +21,7 @@ ogit.Health.Diagnostics:Test
                 ogit.Health.Diagnostics:testResult
                 ogit.Health.Diagnostics:errorCode
                 ogit.Health.Diagnostics:sensorID
-                ogit.Health.Diagnostics:sensorHubID
+                ogit.Health.Diagnostics:equipmentID
                 ogit.Health.Diagnostics:appID
                 ogit.Mobile:appVersion
                 ogit.Health.Diagnostics:firmwareVersion
@@ -32,7 +32,6 @@ ogit.Health.Diagnostics:Test
 	);
 	ogit:allowed (
                 [ ogit:includes  ogit.Health.Diagnostics:Anamnesis ]
-                [ ogit.Health.Diagnostics:managedBy ogit:Person ]
                 [ ogit:generates  ogit:Attachment ]
 	);
 .
