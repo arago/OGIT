@@ -13,6 +13,7 @@ var searchData=
   ['legalentityidentifier',['legalEntityIdentifier',['../group__httpwwwpurlorgogitFinancialMarketlegalEntityIdentifier.html',1,'']]],
   ['legalform',['legalForm',['../group__httpwwwpurlorgogitFinancialMarketlegalForm.html',1,'']]],
   ['lineofbusiness',['LineOfBusiness',['../group__httpwwwpurlorgogitFinancialMarketLineOfBusiness.html',1,'']]],
+  ['laboratory',['Laboratory',['../group__httpwwwpurlorgogitHealthDiagnosticsLaboratory.html',1,'']]],
   ['language',['language',['../group__httpwwwpurlorgogitlanguage.html',1,'']]],
   ['lastclearedat',['lastClearedAt',['../group__httpwwwpurlorgogitlastClearedAt.html',1,'']]],
   ['lastname',['lastName',['../group__httpwwwpurlorgogitlastName.html',1,'']]],

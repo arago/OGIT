@@ -18,6 +18,7 @@ var modules =
     [ "FinancialMarket", "group__FinancialMarket.html", "group__FinancialMarket" ],
     [ "Forum", "group__Forum.html", "group__Forum" ],
     [ "HR", "group__HR.html", "group__HR" ],
+    [ "Health", "group__Health.html", "group__Health" ],
     [ "Knowledge", "group__Knowledge.html", "group__Knowledge" ],
     [ "Location", "group__Location.html", "group__Location" ],
     [ "MARS", "group__MARS.html", "group__MARS" ],

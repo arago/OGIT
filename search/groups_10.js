@@ -83,6 +83,7 @@ var searchData=
   ['parametertype',['ParameterType',['../group__httpwwwpurlorgogitParameterType.html',1,'']]],
   ['penalty',['Penalty',['../group__httpwwwpurlorgogitPenalty.html',1,'']]],
   ['pendingchange',['pendingChange',['../group__httpwwwpurlorgogitpendingChange.html',1,'']]],
+  ['performs',['performs',['../group__httpwwwpurlorgogitperforms.html',1,'']]],
   ['person',['Person',['../group__httpwwwpurlorgogitPerson.html',1,'']]],
   ['phone',['phone',['../group__httpwwwpurlorgogitphone.html',1,'']]],
   ['placement',['placement',['../group__httpwwwpurlorgogitplacement.html',1,'']]],

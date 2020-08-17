@@ -1,0 +1,15 @@
+digraph OGIT_ontology {
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Health, \n 08/17/2020"];
+node[shape=polygon];
+edge [  color="gray81"];
+
+   "ogit/Health/Diagnostics/Laboratory" -> "ogit/Health/Diagnostics/Equipment" [label="   ogit/manages    "];
+   "ogit/Person" -> "ogit/Health/Diagnostics/Equipment" [label="   ogit/manages    "];
+   "ogit/Person" -> "ogit/Health/Diagnostics/Test" [label="   ogit/manages    "];
+   "ogit/Health/Diagnostics/Test" -> "ogit/Attachment" [label="   ogit/generates    "];
+   "ogit/Health/Diagnostics/Test" -> "ogit/Health/Diagnostics/Anamnesis" [label="   ogit/includes    "];
+   "ogit/Health/Diagnostics/Equipment" -> "ogit/Health/Diagnostics/Test" [label="   ogit/performs    "];
+   "ogit/Health/Diagnostics/Laboratory" -> "ogit/Health/Diagnostics/Test" [label="   ogit/performs    "];
+}
