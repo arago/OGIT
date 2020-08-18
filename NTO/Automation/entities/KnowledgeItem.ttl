@@ -55,9 +55,9 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 		ogit.Automation:deployStatus
 	);
 	ogit:indexed-attributes (
+		ogit:_tags
 		ogit:name
 		ogit:description
-		ogit:_tags
 		ogit:_creator
 		ogit:_modified-by
 		ogit:_owner
