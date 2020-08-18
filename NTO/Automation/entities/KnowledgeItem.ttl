@@ -48,6 +48,7 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 		ogit:description
 		ogit:changeLog
 		ogit:accessControl
+		ogit:_tags
 		ogit.Automation:knowledgeItemSyntaxVersion
 		ogit.Automation:deployToEngine
 		ogit.Automation:isDeployed
@@ -56,6 +57,7 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 	ogit:indexed-attributes (
 		ogit:name
 		ogit:description
+		ogit:_tags
 		ogit:_creator
 		ogit:_modified-by
 		ogit:_owner
