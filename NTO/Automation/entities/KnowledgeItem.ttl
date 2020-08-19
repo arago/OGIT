@@ -48,12 +48,14 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 		ogit:description
 		ogit:changeLog
 		ogit:accessControl
+		ogit:_tags
 		ogit.Automation:knowledgeItemSyntaxVersion
 		ogit.Automation:deployToEngine
 		ogit.Automation:isDeployed
 		ogit.Automation:deployStatus
 	);
 	ogit:indexed-attributes (
+		ogit:_tags
 		ogit:name
 		ogit:description
 	);
