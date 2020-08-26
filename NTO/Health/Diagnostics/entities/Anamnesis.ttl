@@ -29,6 +29,7 @@ ogit.Health.Diagnostics:Anamnesis
                 ogit.Mobile:osVersion
                 ogit:manufacturer
                 ogit.Mobile:deviceModel
+                ogit:locationAcquisitionTime
                 ogit:locationPrecision
 	);
 	ogit:indexed-attributes (
