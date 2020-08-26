@@ -11,6 +11,7 @@ var group__Mobile____attributes =
     [ "deactivationTime", "group__httpwwwpurlorgogitMobiledeactivationTime.html", null ],
     [ "delivered", "group__httpwwwpurlorgogitMobiledelivered.html", null ],
     [ "deviceModel", "group__httpwwwpurlorgogitMobiledeviceModel.html", null ],
+    [ "devicePlatform", "group__httpwwwpurlorgogitMobiledevicePlatform.html", null ],
     [ "deviceType", "group__httpwwwpurlorgogitMobiledeviceType.html", null ],
     [ "distance", "group__httpwwwpurlorgogitMobiledistance.html", null ],
     [ "duration", "group__httpwwwpurlorgogitMobileduration.html", null ],

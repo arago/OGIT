@@ -171,6 +171,7 @@ var group__SGO =
     [ "forks", "group__httpwwwpurlorgogitforks.html", null ],
     [ "frequency", "group__httpwwwpurlorgogitfrequency.html", null ],
     [ "function", "group__httpwwwpurlorgogitfunction.html", null ],
+    [ "gender", "group__httpwwwpurlorgogitgender.html", null ],
     [ "generates", "group__httpwwwpurlorgogitgenerates.html", null ],
     [ "governs", "group__httpwwwpurlorgogitgoverns.html", null ],
     [ "has", "group__httpwwwpurlorgogithas.html", null ],
@@ -207,6 +208,7 @@ var group__SGO =
     [ "lastScannedAt", "group__httpwwwpurlorgogitlastScannedAt.html", null ],
     [ "lastUpdatedAt", "group__httpwwwpurlorgogitlastUpdatedAt.html", null ],
     [ "lastUpdatedBy", "group__httpwwwpurlorgogitlastUpdatedBy.html", null ],
+    [ "latitude", "group__httpwwwpurlorgogitlatitude.html", null ],
     [ "leads", "group__httpwwwpurlorgogitleads.html", null ],
     [ "leaseContract", "group__httpwwwpurlorgogitleaseContract.html", null ],
     [ "lengthOfReportingPeriod", "group__httpwwwpurlorgogitlengthOfReportingPeriod.html", null ],
@@ -218,7 +220,10 @@ var group__SGO =
     [ "listedAt", "group__httpwwwpurlorgogitlistedAt.html", null ],
     [ "locatedAt", "group__httpwwwpurlorgogitlocatedAt.html", null ],
     [ "locatedIn", "group__httpwwwpurlorgogitlocatedIn.html", null ],
+    [ "locationAcquisitionTime", "group__httpwwwpurlorgogitlocationAcquisitionTime.html", null ],
+    [ "locationPrecision", "group__httpwwwpurlorgogitlocationPrecision.html", null ],
     [ "locked", "group__httpwwwpurlorgogitlocked.html", null ],
+    [ "longitude", "group__httpwwwpurlorgogitlongitude.html", null ],
     [ "macAddress", "group__httpwwwpurlorgogitmacAddress.html", null ],
     [ "maintenanceState", "group__httpwwwpurlorgogitmaintenanceState.html", null ],
     [ "manages", "group__httpwwwpurlorgogitmanages.html", null ],
@@ -348,5 +353,6 @@ var group__SGO =
     [ "weight", "group__httpwwwpurlorgogitweight.html", null ],
     [ "wins", "group__httpwwwpurlorgogitwins.html", null ],
     [ "worksOn", "group__httpwwwpurlorgogitworksOn.html", null ],
+    [ "yearOfBirth", "group__httpwwwpurlorgogityearOfBirth.html", null ],
     [ "zipCode", "group__httpwwwpurlorgogitzipCode.html", null ]
 ];
