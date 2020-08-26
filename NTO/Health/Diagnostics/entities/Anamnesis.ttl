@@ -21,6 +21,16 @@ ogit.Health.Diagnostics:Anamnesis
                 ogit.Health.Diagnostics:symptoms
                 ogit.Health.Diagnostics:appID
                 ogit.Mobile:appVersion
+                ogit:gender
+                ogit:yearOfBirth
+                ogit:latitude
+                ogit:longitude
+                ogit.Mobile:devicePlatform
+                ogit.Mobile:osVersion
+                ogit:manufacturer
+                ogit.Mobile:deviceModel
+                ogit:locationAcquisitionTime
+                ogit:locationPrecision
 	);
 	ogit:indexed-attributes (
 	);

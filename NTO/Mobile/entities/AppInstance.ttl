@@ -25,6 +25,9 @@ ogit.Mobile:AppInstance
                                 ogit.Mobile:registrationType
                                 ogit.Mobile:lastActive
                                 ogit.Mobile:deviceType
+                                ogit:manufacturer
+                                ogit.Mobile:deviceModel
+                                ogit.Mobile:devicePlatform
                               ) ;
     ogit:indexed-attributes   ( ) ;
     ogit:allowed              (
