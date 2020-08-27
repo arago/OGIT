@@ -57,6 +57,7 @@ var searchData=
   ['delivered',['delivered',['../group__httpwwwpurlorgogitMobiledelivered.html',1,'']]],
   ['devicemodel',['deviceModel',['../group__httpwwwpurlorgogitMobiledeviceModel.html',1,'']]],
   ['deviceplatform',['devicePlatform',['../group__httpwwwpurlorgogitMobiledevicePlatform.html',1,'']]],
+  ['devicespecifications',['DeviceSpecifications',['../group__httpwwwpurlorgogitMobileDeviceSpecifications.html',1,'']]],
   ['devicetype',['deviceType',['../group__httpwwwpurlorgogitMobiledeviceType.html',1,'']]],
   ['distance',['distance',['../group__httpwwwpurlorgogitMobiledistance.html',1,'']]],
   ['duration',['duration',['../group__httpwwwpurlorgogitMobileduration.html',1,'']]],

@@ -1,5 +1,7 @@
 var group__Mobile____attributes =
 [
+    [ "RSSIcorrection", "group__httpwwwpurlorgogitMobileRSSIcorrection.html", null ],
+    [ "TXcorrection", "group__httpwwwpurlorgogitMobileTXcorrection.html", null ],
     [ "activationTime", "group__httpwwwpurlorgogitMobileactivationTime.html", null ],
     [ "appPermissions", "group__httpwwwpurlorgogitMobileappPermissions.html", null ],
     [ "appVersion", "group__httpwwwpurlorgogitMobileappVersion.html", null ],
@@ -27,6 +29,7 @@ var group__Mobile____attributes =
     [ "locale", "group__httpwwwpurlorgogitMobilelocale.html", null ],
     [ "message", "group__httpwwwpurlorgogitMobilemessage.html", null ],
     [ "movementType", "group__httpwwwpurlorgogitMobilemovementType.html", null ],
+    [ "osRadio", "group__httpwwwpurlorgogitMobileosRadio.html", null ],
     [ "osVersion", "group__httpwwwpurlorgogitMobileosVersion.html", null ],
     [ "registrationType", "group__httpwwwpurlorgogitMobileregistrationType.html", null ],
     [ "riskScore", "group__httpwwwpurlorgogitMobileriskScore.html", null ],

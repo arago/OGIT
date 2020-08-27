@@ -310,6 +310,7 @@ var group__SGO =
     [ "size", "group__httpwwwpurlorgogitsize.html", null ],
     [ "soldTo", "group__httpwwwpurlorgogitsoldTo.html", null ],
     [ "solves", "group__httpwwwpurlorgogitsolves.html", null ],
+    [ "source", "group__httpwwwpurlorgogitsource.html", null ],
     [ "sourceId", "group__httpwwwpurlorgogitsourceId.html", null ],
     [ "sourceTable", "group__httpwwwpurlorgogitsourceTable.html", null ],
     [ "soxClass", "group__httpwwwpurlorgogitsoxClass.html", null ],

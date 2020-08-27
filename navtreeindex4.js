@@ -1,5 +1,9 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitOSLC-emsScenarioList.html":[0,33,1,41],
+"group__httpwwwpurlorgogitOSLC-emsService.html":[0,33,1,42],
+"group__httpwwwpurlorgogitOSLC-emsSizeMetric.html":[0,33,1,43],
+"group__httpwwwpurlorgogitOSLC-emsTimeMetric.html":[0,33,1,44],
 "group__httpwwwpurlorgogitOSLC-emsTriangularDistribution.html":[0,33,1,45],
 "group__httpwwwpurlorgogitOSLC-emsUniformDistribution.html":[0,33,1,46],
 "group__httpwwwpurlorgogitOSLC-emsUnitOfMeasure.html":[0,33,1,47],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitScheduleEvent.html":[0,46,1,3],
 "group__httpwwwpurlorgogitScheduleSchedule.html":[0,46,1,4],
 "group__httpwwwpurlorgogitScheduleattendanceStatus.html":[0,46,0,0],
-"group__httpwwwpurlorgogitScheduledependencies.html":[0,46,0,1],
-"group__httpwwwpurlorgogitScheduleendTime.html":[0,46,0,2],
-"group__httpwwwpurlorgogitScheduleisOrganizer.html":[0,46,0,3],
-"group__httpwwwpurlorgogitSchedulelocation.html":[0,46,0,4],
-"group__httpwwwpurlorgogitScheduleresources.html":[0,46,0,5]
+"group__httpwwwpurlorgogitScheduledependencies.html":[0,46,0,1]
 };

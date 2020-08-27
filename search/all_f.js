@@ -16,6 +16,7 @@ var searchData=
   ['organization',['Organization',['../group__httpwwwpurlorgogitCustomerSupportOrganization.html',1,'']]],
   ['outputtype',['outputType',['../group__httpwwwpurlorgogitDataProcessingoutputType.html',1,'']]],
   ['organizationalunit',['OrganizationalUnit',['../group__httpwwwpurlorgogitFinancialAccountingOrganizationalUnit.html',1,'']]],
+  ['osradio',['osRadio',['../group__httpwwwpurlorgogitMobileosRadio.html',1,'']]],
   ['osversion',['osVersion',['../group__httpwwwpurlorgogitMobileosVersion.html',1,'']]],
   ['orders',['orders',['../group__httpwwwpurlorgogitMROAviationorders.html',1,'']]],
   ['overhaul',['overhaul',['../group__httpwwwpurlorgogitMROAviationoverhaul.html',1,'']]],
