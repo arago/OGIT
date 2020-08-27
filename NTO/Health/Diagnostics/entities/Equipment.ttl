@@ -27,5 +27,6 @@ ogit.Health.Diagnostics:Equipment
 	);
 	ogit:allowed (
                 [ ogit:performs ogit.Health.Diagnostics:Test ]
+                [ ogit:generates  ogit:Timeseries ]
 	);
 .
