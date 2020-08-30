@@ -95,6 +95,7 @@ var searchData=
   ['activeversion',['activeVersion',['../group__httpwwwpurlorgogitMLactiveVersion.html',1,'']]],
   ['attributesschema',['attributesSchema',['../group__httpwwwpurlorgogitMLattributesSchema.html',1,'']]],
   ['activationtime',['activationTime',['../group__httpwwwpurlorgogitMobileactivationTime.html',1,'']]],
+  ['appconfigmode',['appConfigMode',['../group__httpwwwpurlorgogitMobileappConfigMode.html',1,'']]],
   ['appinstance',['AppInstance',['../group__httpwwwpurlorgogitMobileAppInstance.html',1,'']]],
   ['apppermissions',['appPermissions',['../group__httpwwwpurlorgogitMobileappPermissions.html',1,'']]],
   ['appversion',['appVersion',['../group__httpwwwpurlorgogitMobileappVersion.html',1,'']]],
