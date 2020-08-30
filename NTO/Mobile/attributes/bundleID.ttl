@@ -1,0 +1,14 @@
+@prefix ogit.Mobile: <http://www.purl.org/ogit/Mobile/> .
+@prefix ogit:                 <http://www.purl.org/ogit/> .
+@prefix dcterms:              <http://purl.org/dc/terms/> .
+@prefix owl:                  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.Mobile:bundleID
+    a                   owl:DatatypeProperty ;
+    rdfs:subPropertyOf  ogit:Attribute ;
+    rdfs:label          "bundleID" ;
+    dcterms:description """bundle id of the application, i.e debug, release.""" ;
+    dcterms:valid       "start=2020-08-27;" ;
+    dcterms:creator     "Kaushik Gondaliya" ;
+.
