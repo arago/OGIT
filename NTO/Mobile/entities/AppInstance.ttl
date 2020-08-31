@@ -28,6 +28,7 @@ ogit.Mobile:AppInstance
                                 ogit:manufacturer
                                 ogit.Mobile:deviceModel
                                 ogit.Mobile:devicePlatform
+				ogit.Mobile:deviceCodeName
                                 ogit.Mobile:appConfigMode
                                 ogit.Mobile:bundleID
                                 ogit.Mobile:osRadio
