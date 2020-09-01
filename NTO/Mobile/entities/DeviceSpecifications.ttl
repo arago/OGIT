@@ -19,6 +19,7 @@ ogit.Mobile:DeviceSpecifications
                                 ogit.Mobile:deviceModel
                                 ogit.Mobile:devicePlatform
                                 ogit.Mobile:osRadio
+				ogit.Mobile:deviceCodeName
                                 ogit.Mobile:RSSIcorrection
                                 ogit.Mobile:TXcorrection
                                 ogit:source
