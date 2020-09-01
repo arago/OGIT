@@ -8,7 +8,7 @@ ogit.Mobile:osRadio
     a                   owl:DatatypeProperty ;
     rdfs:subPropertyOf  ogit:Attribute ;
     rdfs:label          "osRadio" ;
-    dcterms:description """internal identifier for mobile phones.""" ;
+    dcterms:description """internal chipset or design identifier for mobile phones.""" ;
     dcterms:valid       "start=2020-08-27;" ;
     dcterms:creator     "Kaushik Gondaliya" ;
 .
