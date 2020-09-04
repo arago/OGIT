@@ -1,0 +1,25 @@
+@prefix ogit.Location:                   <http://www.purl.org/ogit/Location/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Location:NUTSLevel3
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "NUTSLevel3";
+  dcterms:description "A region at the level 3 of the NUTS (Nomenclature of Territorial Units for Statistics) classification, representing a subdivision of a country.";
+  dcterms:valid "start=2020-09-04;";
+  dcterms:creator "Marek Meyer";
+  ogit:scope "NTO";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+    ogit:name
+  );
+  ogit:optional-attributes (
+  );
+  ogit:indexed-attributes (
+  );
+  ogit:allowed (
+	[ ogit:locatedIn  ogit.Location:NUTSLevel2 ]
+  );
+.
