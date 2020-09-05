@@ -1,16 +1,16 @@
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
 
-ogit.Network:NetworkLink
+ogit.Network:NetworkElement
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "NetworkLink";
-	dcterms:description "A Network Link represents a logical connection between interfaces, elements, or sites.";
-	dcterms:valid "start=2015-05-21;";
-	dcterms:creator "Peter Larem";
+	rdfs:label "NetworkElement";
+	dcterms:description "A Network Element represents a manageable entity in a network. either a single physical device or a group of devices.";
+	dcterms:valid "start=2020-09-04;";
+	dcterms:creator "Marek Meyer";
 	ogit:scope "NTO";
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
@@ -18,15 +18,13 @@ ogit.Network:NetworkLink
 	);
 	ogit:optional-attributes (
 		ogit:id
+		ogit:name
 		ogit:subType
-		ogit:capacity
 	);
 	ogit:indexed-attributes (
 		
 	);
 	ogit:allowed (
-			[ ogit:connects  ogit.Network:NetworkInterface ]
-			[ ogit:connects  ogit.Network:NetworkElement ]
-			[ ogit:connects  ogit.Network:Site ]
+			[ ogit:locatedAt ogit.Network:Site ]
 	);
 .
