@@ -55,6 +55,7 @@ var searchData=
   ['defaultgateway',['defaultGateway',['../group__httpwwwpurlorgogitMARSNetworkdefaultGateway.html',1,'']]],
   ['deactivationtime',['deactivationTime',['../group__httpwwwpurlorgogitMobiledeactivationTime.html',1,'']]],
   ['delivered',['delivered',['../group__httpwwwpurlorgogitMobiledelivered.html',1,'']]],
+  ['devicecodename',['deviceCodeName',['../group__httpwwwpurlorgogitMobiledeviceCodeName.html',1,'']]],
   ['devicemodel',['deviceModel',['../group__httpwwwpurlorgogitMobiledeviceModel.html',1,'']]],
   ['deviceplatform',['devicePlatform',['../group__httpwwwpurlorgogitMobiledevicePlatform.html',1,'']]],
   ['devicespecifications',['DeviceSpecifications',['../group__httpwwwpurlorgogitMobileDeviceSpecifications.html',1,'']]],

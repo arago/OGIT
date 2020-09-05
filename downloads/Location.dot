@@ -1,13 +1,16 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Location, \n 08/30/2020"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Location, \n 09/05/2020"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/Credit/Counterparty" -> "ogit/Location/Address" [label="   ogit/locatedAt    "];
    "ogit/FinancialMarket/Corporation" -> "ogit/Location/Address" [label="   ogit/locatedAt    "];
    "ogit/FinancialMarket/Protection" -> "ogit/Location/Address" [label="   ogit/locatedAt    "];
+   "ogit/Location/NUTSLevel2" -> "ogit/Location/NUTSLevel1" [label="   ogit/locatedIn    "];
+   "ogit/Location/NUTSLevel3" -> "ogit/Location/NUTSLevel2" [label="   ogit/locatedIn    "];
+   "ogit/Network/Site" -> "ogit/Location/NUTSLevel3" [label="   ogit/locatedIn    "];
    "ogit/FinancialAccounting/OrganizationalUnit" -> "ogit/Location/Address" [label="   ogit/receives    "];
    "ogit/FinancialAccounting/AccountsPayable/Vendor" -> "ogit/Location/Address" [label="   ogit/has    "];
    "ogit/FinancialAccounting/OrganizationalUnit" -> "ogit/Location/Address" [label="   ogit/has    "];

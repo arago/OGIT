@@ -124,6 +124,9 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitLicenseToken.html":[0,43,21],
 "group__httpwwwpurlorgogitLocation.html":[0,43,22],
 "group__httpwwwpurlorgogitLocationAddress.html":[0,20,1,0],
+"group__httpwwwpurlorgogitLocationNUTSLevel1.html":[0,20,1,1],
+"group__httpwwwpurlorgogitLocationNUTSLevel2.html":[0,20,1,2],
+"group__httpwwwpurlorgogitLocationNUTSLevel3.html":[0,20,1,3],
 "group__httpwwwpurlorgogitLocationcity.html":[0,20,0,0],
 "group__httpwwwpurlorgogitLocationcountry.html":[0,20,0,1],
 "group__httpwwwpurlorgogitLocationstate.html":[0,20,0,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitMobilectaType.html":[0,25,0,11],
 "group__httpwwwpurlorgogitMobiledeactivationTime.html":[0,25,0,12],
 "group__httpwwwpurlorgogitMobiledelivered.html":[0,25,0,13],
-"group__httpwwwpurlorgogitMobiledeviceModel.html":[0,25,0,14],
-"group__httpwwwpurlorgogitMobiledevicePlatform.html":[0,25,0,15],
-"group__httpwwwpurlorgogitMobiledeviceType.html":[0,25,0,16],
-"group__httpwwwpurlorgogitMobiledistance.html":[0,25,0,17]
+"group__httpwwwpurlorgogitMobiledeviceCodeName.html":[0,25,0,14]
 };
