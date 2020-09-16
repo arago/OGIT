@@ -1,5 +1,12 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitOSLC-emsMeasurement.html":[0,33,1,26],
+"group__httpwwwpurlorgogitOSLC-emsMeasurementList.html":[0,33,1,27],
+"group__httpwwwpurlorgogitOSLC-emsMetric.html":[0,33,1,28],
+"group__httpwwwpurlorgogitOSLC-emsNormalDistribution.html":[0,33,1,29],
+"group__httpwwwpurlorgogitOSLC-emsPointEstimate.html":[0,33,1,30],
+"group__httpwwwpurlorgogitOSLC-emsPoissonDistribution.html":[0,33,1,31],
+"group__httpwwwpurlorgogitOSLC-emsProbabilityDistribution.html":[0,33,1,32],
 "group__httpwwwpurlorgogitOSLC-emsProcessMetric.html":[0,33,1,33],
 "group__httpwwwpurlorgogitOSLC-emsProductivityMetric.html":[0,33,1,34],
 "group__httpwwwpurlorgogitOSLC-emsProject.html":[0,33,1,35],
@@ -242,12 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitSalesDistributionPayment.html":[0,45,1,6],
 "group__httpwwwpurlorgogitSalesDistributionSalesOrder.html":[0,45,1,7],
 "group__httpwwwpurlorgogitSalesDistributionSalesOrderItem.html":[0,45,1,8],
-"group__httpwwwpurlorgogitSalesDistributionamount.html":[0,45,0,0],
-"group__httpwwwpurlorgogitSalesDistributioncustomerId.html":[0,45,0,1],
-"group__httpwwwpurlorgogitSalesDistributiondeliveryId.html":[0,45,0,2],
-"group__httpwwwpurlorgogitSalesDistributioninvoiceDate.html":[0,45,0,3],
-"group__httpwwwpurlorgogitSalesDistributioninvoiceId.html":[0,45,0,4],
-"group__httpwwwpurlorgogitSalesDistributionorderDate.html":[0,45,0,5],
-"group__httpwwwpurlorgogitSalesDistributionsalesOrderId.html":[0,45,0,6],
-"group__httpwwwpurlorgogitSalesDistributiontransactionDate.html":[0,45,0,7]
+"group__httpwwwpurlorgogitSalesDistributionamount.html":[0,45,0,0]
 };

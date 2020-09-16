@@ -18,6 +18,8 @@ var searchData=
   ['building',['Building',['../group__httpwwwpurlorgogitDatacenterBuilding.html',1,'']]],
   ['brokers',['brokers',['../group__httpwwwpurlorgogitFinancialMarketbrokers.html',1,'']]],
   ['banner',['Banner',['../group__httpwwwpurlorgogitForumBanner.html',1,'']]],
+  ['batterylevel',['batteryLevel',['../group__httpwwwpurlorgogitHealthDiagnosticsbatteryLevel.html',1,'']]],
+  ['birthyearrange',['birthyearRange',['../group__httpwwwpurlorgogitHealthDiagnosticsbirthyearRange.html',1,'']]],
   ['bindaddress',['bindAddress',['../group__httpwwwpurlorgogitMARSNetworkbindAddress.html',1,'']]],
   ['bundleid',['bundleID',['../group__httpwwwpurlorgogitMobilebundleID.html',1,'']]],
   ['bay',['Bay',['../group__httpwwwpurlorgogitMROAviationBay.html',1,'']]],

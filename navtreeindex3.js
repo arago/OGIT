@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitMobilecriticality.html":[0,25,0,8],
+"group__httpwwwpurlorgogitMobilecta.html":[0,25,0,9],
+"group__httpwwwpurlorgogitMobilectaTarget.html":[0,25,0,10],
+"group__httpwwwpurlorgogitMobilectaType.html":[0,25,0,11],
+"group__httpwwwpurlorgogitMobiledeactivationTime.html":[0,25,0,12],
+"group__httpwwwpurlorgogitMobiledelivered.html":[0,25,0,13],
+"group__httpwwwpurlorgogitMobiledeviceCodeName.html":[0,25,0,14],
 "group__httpwwwpurlorgogitMobiledeviceModel.html":[0,25,0,15],
 "group__httpwwwpurlorgogitMobiledevicePlatform.html":[0,25,0,16],
 "group__httpwwwpurlorgogitMobiledeviceType.html":[0,25,0,17],
@@ -242,12 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitOSLC-emsMeasureCell.html":[0,33,1,22],
 "group__httpwwwpurlorgogitOSLC-emsMeasureColumn.html":[0,33,1,23],
 "group__httpwwwpurlorgogitOSLC-emsMeasureDistribution.html":[0,33,1,24],
-"group__httpwwwpurlorgogitOSLC-emsMeasureDistributionCell.html":[0,33,1,25],
-"group__httpwwwpurlorgogitOSLC-emsMeasurement.html":[0,33,1,26],
-"group__httpwwwpurlorgogitOSLC-emsMeasurementList.html":[0,33,1,27],
-"group__httpwwwpurlorgogitOSLC-emsMetric.html":[0,33,1,28],
-"group__httpwwwpurlorgogitOSLC-emsNormalDistribution.html":[0,33,1,29],
-"group__httpwwwpurlorgogitOSLC-emsPointEstimate.html":[0,33,1,30],
-"group__httpwwwpurlorgogitOSLC-emsPoissonDistribution.html":[0,33,1,31],
-"group__httpwwwpurlorgogitOSLC-emsProbabilityDistribution.html":[0,33,1,32]
+"group__httpwwwpurlorgogitOSLC-emsMeasureDistributionCell.html":[0,33,1,25]
 };

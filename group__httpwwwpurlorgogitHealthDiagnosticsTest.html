@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitHealthDiagnos
 <li><a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticsequipmentID.html">ogit/Health/Diagnostics/equipmentID</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticserrorCode.html">ogit/Health/Diagnostics/errorCode</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticsfirmwareVersion.html">ogit/Health/Diagnostics/firmwareVersion</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticsliquidContactTime.html">ogit/Health/Diagnostics/liquidContactTime</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticssensorID.html">ogit/Health/Diagnostics/sensorID</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticstestCompletedAt.html">ogit/Health/Diagnostics/testCompletedAt</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticstestResult.html">ogit/Health/Diagnostics/testResult</a></li>
@@ -126,14 +127,17 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitHealthDiagnos
 </ul>
 <h2>incoming edges </h2>
 <ul>
+<li><a class="el" href="group__httpwwwpurlorgogitconnects.html">ogit/connects</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitMobileAppInstance.html">ogit/Mobile/AppInstance</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitmanages.html">ogit/manages</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitPerson.html">ogit/Person</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitperforms.html">ogit/performs</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticsEquipment.html">ogit/Health/Diagnostics/Equipment</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitperforms.html">ogit/performs</a> &lt;= <a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticsLaboratory.html">ogit/Health/Diagnostics/Laboratory</a></li>
 </ul>
 <h2>outgoing edges </h2>
 <ul>
+<li><a class="el" href="group__httpwwwpurlorgogitdescribes.html">ogit/describes</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitPerson.html">ogit/Person</a></li>
 <li><a class="el" href="group__httpwwwpurlorgogitgenerates.html">ogit/generates</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitAttachment.html">ogit/Attachment</a></li>
-<li><a class="el" href="group__httpwwwpurlorgogitincludes.html">ogit/includes</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticsAnamnesis.html">ogit/Health/Diagnostics/Anamnesis</a> <hr/>
+<li><a class="el" href="group__httpwwwpurlorgogitincludes.html">ogit/includes</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticsAnamnesis.html">ogit/Health/Diagnostics/Anamnesis</a></li>
+<li><a class="el" href="group__httpwwwpurlorgogitincludes.html">ogit/includes</a> =&gt; <a class="el" href="group__httpwwwpurlorgogitHealthDiagnosticsDemographics.html">ogit/Health/Diagnostics/Demographics</a> <hr/>
 </li>
 </ul>
 </div><!-- contents -->
@@ -141,7 +145,7 @@ $(document).ready(function(){initNavTree('group__httpwwwpurlorgogitHealthDiagnos
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Sep 5 2020 11:37:42 by
+    <li class="footer">Generated on Wed Sep 16 2020 21:29:13 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

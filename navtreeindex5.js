@@ -1,5 +1,12 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogitSalesDistributioncustomerId.html":[0,45,0,1],
+"group__httpwwwpurlorgogitSalesDistributiondeliveryId.html":[0,45,0,2],
+"group__httpwwwpurlorgogitSalesDistributioninvoiceDate.html":[0,45,0,3],
+"group__httpwwwpurlorgogitSalesDistributioninvoiceId.html":[0,45,0,4],
+"group__httpwwwpurlorgogitSalesDistributionorderDate.html":[0,45,0,5],
+"group__httpwwwpurlorgogitSalesDistributionsalesOrderId.html":[0,45,0,6],
+"group__httpwwwpurlorgogitSalesDistributiontransactionDate.html":[0,45,0,7],
 "group__httpwwwpurlorgogitSalesDistributionvalueDate.html":[0,45,0,8],
 "group__httpwwwpurlorgogitScheduleActivity.html":[0,46,1,0],
 "group__httpwwwpurlorgogitScheduleAttendee.html":[0,46,1,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitisPartOf.html":[0,43,195],
 "group__httpwwwpurlorgogitisRoot.html":[0,43,196],
 "group__httpwwwpurlorgogitisSupported.html":[0,43,197],
-"group__httpwwwpurlorgogitisValid.html":[0,43,198],
-"group__httpwwwpurlorgogitissues.html":[0,43,199],
-"group__httpwwwpurlorgogitjustification.html":[0,43,200],
-"group__httpwwwpurlorgogitlanguage.html":[0,43,201],
-"group__httpwwwpurlorgogitlastClearedAt.html":[0,43,202],
-"group__httpwwwpurlorgogitlastName.html":[0,43,203],
-"group__httpwwwpurlorgogitlastOccurredAt.html":[0,43,204],
-"group__httpwwwpurlorgogitlastScannedAt.html":[0,43,205]
+"group__httpwwwpurlorgogitisValid.html":[0,43,198]
 };
