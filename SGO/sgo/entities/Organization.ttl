@@ -35,6 +35,7 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
 
 ogit:Organization
 	a rdfs:Class;
@@ -133,5 +134,6 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 			[ ogit:produces  ogit.Survey:Iteration ]
 			[ ogit:produces  ogit.Project:Project ]
 			[ ogit.MRO.Aviation:orders  ogit.MRO.Aviation:Layover ]
+			[ ogit:manages  ogit.Health.Diagnostics:Equipment ]
 	);
 .

@@ -22,6 +22,9 @@ ogit.Health.Diagnostics:Equipment
                 ogit.Health.Diagnostics:firmwareVersion
                 ogit.Mobile:deviceModel
                 ogit.Mobile:activationTime
+                ogit.Health.Diagnostics:batteryLevel
+                ogit.Health.Diagnostics:equipmentState
+                ogit.Health.Diagnostics:equipmentStateChangeTime
 	);
 	ogit:indexed-attributes (
 	);

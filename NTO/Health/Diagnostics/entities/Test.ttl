@@ -27,11 +27,14 @@ ogit.Health.Diagnostics:Test
                 ogit.Health.Diagnostics:firmwareVersion
                 ogit.Health.Diagnostics:testStartedAt
                 ogit.Health.Diagnostics:testCompletedAt
+                ogit.Health.Diagnostics:liquidContactTime
 	);
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
                 [ ogit:includes  ogit.Health.Diagnostics:Anamnesis ]
+                [ ogit:includes  ogit.Health.Diagnostics:Demographics]
                 [ ogit:generates  ogit:Attachment ]
+                [ ogit:describes ogit:Person]
 	);
 .
