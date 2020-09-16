@@ -3,6 +3,7 @@
 @prefix dcterms:              <http://purl.org/dc/terms/> .
 @prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
+@prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
 
 ogit.Mobile:AppInstance
     a                         rdfs:Class ;
@@ -38,5 +39,9 @@ ogit.Mobile:AppInstance
                                   [ ogit:generates  ogit:Timeseries ]
                                   [ ogit:has ogit.Mobile:Encounter]
                                   [ ogit:has ogit.Auth:Account]
+                                  [ ogit:generates  ogit.Health.Diagnostics:Demographics ]
+                                  [ ogit:connects  ogit.Health.Diagnostics:Test ]
+                                  [ ogit:belongs  ogit:Organization ]
+
                               ) ;
 .
