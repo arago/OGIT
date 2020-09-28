@@ -1,4 +1,5 @@
 @prefix ogit.Schedule:     <http://www.purl.org/ogit/Schedule/> .
+@prefix ogit.Location:     <http://www.purl.org/ogit/Location/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -26,6 +27,7 @@ ogit.Schedule:Event
   );
   ogit:allowed (
     [ ogit:has  ogit.Schedule:Attendee ]
+    [ ogit:locatedAt  ogit.Location:Address ]
   );
 
 .

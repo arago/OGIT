@@ -15,12 +15,14 @@ ogit.SalesDistribution:Payment
   ogit:mandatory-attributes (
   );
   ogit:optional-attributes (
+    ogit.SalesDistribution:transactionId
     ogit.SalesDistribution:amount
     ogit.SalesDistribution:transactionDate
     ogit.SalesDistribution:valueDate
     ogit:currency
     ogit:description
     ogit:name
+    ogit:status
   );
   ogit:indexed-attributes (
   );
