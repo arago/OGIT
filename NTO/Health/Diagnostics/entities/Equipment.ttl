@@ -30,6 +30,7 @@ ogit.Health.Diagnostics:Equipment
 	);
 	ogit:allowed (
                 [ ogit:performs ogit.Health.Diagnostics:Test ]
+                [ ogit:belongs ogit.Health.Diagnostics:TestStation ]
                 [ ogit:generates  ogit:Timeseries ]
 	);
 .
