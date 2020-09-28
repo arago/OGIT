@@ -165,5 +165,6 @@ ogit:Person
             [ ogit:manages  ogit.Health.Diagnostics:Test ]
             [ ogit:registeredAt  ogit.Location:Address ]
 			[ ogit:creates  ogit.SalesDistribution:SalesOrder ]
+            [ ogit:uses  ogit.Health.Diagnostics:TestStation ]
 	);
 .
