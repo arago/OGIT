@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogitSalesDistributionSalesOrderItem.html":[0,45,1,8],
+"group__httpwwwpurlorgogitSalesDistributionamount.html":[0,45,0,0],
 "group__httpwwwpurlorgogitSalesDistributioncustomerId.html":[0,45,0,1],
 "group__httpwwwpurlorgogitSalesDistributiondeliveryId.html":[0,45,0,2],
 "group__httpwwwpurlorgogitSalesDistributioninvoiceDate.html":[0,45,0,3],
@@ -7,7 +9,8 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitSalesDistributionorderDate.html":[0,45,0,5],
 "group__httpwwwpurlorgogitSalesDistributionsalesOrderId.html":[0,45,0,6],
 "group__httpwwwpurlorgogitSalesDistributiontransactionDate.html":[0,45,0,7],
-"group__httpwwwpurlorgogitSalesDistributionvalueDate.html":[0,45,0,8],
+"group__httpwwwpurlorgogitSalesDistributiontransactionId.html":[0,45,0,8],
+"group__httpwwwpurlorgogitSalesDistributionvalueDate.html":[0,45,0,9],
 "group__httpwwwpurlorgogitScheduleActivity.html":[0,46,1,0],
 "group__httpwwwpurlorgogitScheduleAttendee.html":[0,46,1,1],
 "group__httpwwwpurlorgogitScheduleCalendar.html":[0,46,1,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitisCritical.html":[0,43,192],
 "group__httpwwwpurlorgogitisInternal.html":[0,43,193],
 "group__httpwwwpurlorgogitisMutable.html":[0,43,194],
-"group__httpwwwpurlorgogitisPartOf.html":[0,43,195],
-"group__httpwwwpurlorgogitisRoot.html":[0,43,196],
-"group__httpwwwpurlorgogitisSupported.html":[0,43,197],
-"group__httpwwwpurlorgogitisValid.html":[0,43,198]
+"group__httpwwwpurlorgogitisPartOf.html":[0,43,195]
 };

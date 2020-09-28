@@ -90,6 +90,7 @@ var searchData=
   ['receivesfrom',['receivesFrom',['../group__httpwwwpurlorgogitreceivesFrom.html',1,'']]],
   ['references',['references',['../group__httpwwwpurlorgogitreferences.html',1,'']]],
   ['region',['Region',['../group__httpwwwpurlorgogitRegion.html',1,'']]],
+  ['registeredat',['registeredAt',['../group__httpwwwpurlorgogitregisteredAt.html',1,'']]],
   ['rejects',['rejects',['../group__httpwwwpurlorgogitrejects.html',1,'']]],
   ['relates',['relates',['../group__httpwwwpurlorgogitrelates.html',1,'']]],
   ['relevance',['Relevance',['../group__httpwwwpurlorgogitRelevance.html',1,'']]],

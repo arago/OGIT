@@ -8,5 +8,6 @@ var group__SalesDistribution____attributes =
     [ "orderDate", "group__httpwwwpurlorgogitSalesDistributionorderDate.html", null ],
     [ "salesOrderId", "group__httpwwwpurlorgogitSalesDistributionsalesOrderId.html", null ],
     [ "transactionDate", "group__httpwwwpurlorgogitSalesDistributiontransactionDate.html", null ],
+    [ "transactionId", "group__httpwwwpurlorgogitSalesDistributiontransactionId.html", null ],
     [ "valueDate", "group__httpwwwpurlorgogitSalesDistributionvalueDate.html", null ]
 ];

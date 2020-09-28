@@ -4,5 +4,6 @@ var group__Health__Diagnostics____entities =
     [ "Demographics", "group__httpwwwpurlorgogitHealthDiagnosticsDemographics.html", null ],
     [ "Equipment", "group__httpwwwpurlorgogitHealthDiagnosticsEquipment.html", null ],
     [ "Laboratory", "group__httpwwwpurlorgogitHealthDiagnosticsLaboratory.html", null ],
-    [ "Test", "group__httpwwwpurlorgogitHealthDiagnosticsTest.html", null ]
+    [ "Test", "group__httpwwwpurlorgogitHealthDiagnosticsTest.html", null ],
+    [ "TestStation", "group__httpwwwpurlorgogitHealthDiagnosticsTestStation.html", null ]
 ];

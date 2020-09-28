@@ -14,6 +14,7 @@ var group__Mobile____attributes =
     [ "ctaType", "group__httpwwwpurlorgogitMobilectaType.html", null ],
     [ "deactivationTime", "group__httpwwwpurlorgogitMobiledeactivationTime.html", null ],
     [ "delivered", "group__httpwwwpurlorgogitMobiledelivered.html", null ],
+    [ "deviceCode", "group__httpwwwpurlorgogitMobiledeviceCode.html", null ],
     [ "deviceCodeName", "group__httpwwwpurlorgogitMobiledeviceCodeName.html", null ],
     [ "deviceModel", "group__httpwwwpurlorgogitMobiledeviceModel.html", null ],
     [ "devicePlatform", "group__httpwwwpurlorgogitMobiledevicePlatform.html", null ],

@@ -30,6 +30,7 @@ var searchData=
   ['operationalstatus',['operationalStatus',['../group__httpwwwpurlorgogitoperationalStatus.html',1,'']]],
   ['orderedat',['orderedAt',['../group__httpwwwpurlorgogitorderedAt.html',1,'']]],
   ['organization',['Organization',['../group__httpwwwpurlorgogitOrganization.html',1,'']]],
+  ['organizes',['organizes',['../group__httpwwwpurlorgogitorganizes.html',1,'']]],
   ['outputparameter',['outputParameter',['../group__httpwwwpurlorgogitOSLC-automationoutputParameter.html',1,'']]],
   ['oauthaccesstokenuri',['oauthAccessTokenURI',['../group__httpwwwpurlorgogitOSLC-coreoauthAccessTokenURI.html',1,'']]],
   ['oauthconfiguration',['OAuthConfiguration',['../group__httpwwwpurlorgogitOSLC-coreOAuthConfiguration.html',1,'']]],

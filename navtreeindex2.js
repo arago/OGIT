@@ -104,6 +104,7 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitHealthDiagnosticsEquipment.html":[0,18,0,1,2],
 "group__httpwwwpurlorgogitHealthDiagnosticsLaboratory.html":[0,18,0,1,3],
 "group__httpwwwpurlorgogitHealthDiagnosticsTest.html":[0,18,0,1,4],
+"group__httpwwwpurlorgogitHealthDiagnosticsTestStation.html":[0,18,0,1,5],
 "group__httpwwwpurlorgogitHealthDiagnosticsappID.html":[0,18,0,0,0],
 "group__httpwwwpurlorgogitHealthDiagnosticsbatteryLevel.html":[0,18,0,0,1],
 "group__httpwwwpurlorgogitHealthDiagnosticsbirthyearRange.html":[0,18,0,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitMobileappConfigMode.html":[0,25,0,3],
 "group__httpwwwpurlorgogitMobileappPermissions.html":[0,25,0,4],
 "group__httpwwwpurlorgogitMobileappVersion.html":[0,25,0,5],
-"group__httpwwwpurlorgogitMobilebundleID.html":[0,25,0,6],
-"group__httpwwwpurlorgogitMobilecategory.html":[0,25,0,7]
+"group__httpwwwpurlorgogitMobilebundleID.html":[0,25,0,6]
 };
