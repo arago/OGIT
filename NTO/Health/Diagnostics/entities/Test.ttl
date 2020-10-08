@@ -35,6 +35,7 @@ ogit.Health.Diagnostics:Test
                 [ ogit:includes  ogit.Health.Diagnostics:Anamnesis ]
                 [ ogit:includes  ogit.Health.Diagnostics:Demographics]
                 [ ogit:generates  ogit:Attachment ]
+                [ ogit:generates  ogit:Timeseries ]
                 [ ogit:describes ogit:Person]
 	);
 .
