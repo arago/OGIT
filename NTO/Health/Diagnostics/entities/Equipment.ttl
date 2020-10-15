@@ -25,6 +25,7 @@ ogit.Health.Diagnostics:Equipment
                 ogit.Health.Diagnostics:batteryLevel
                 ogit.Health.Diagnostics:equipmentState
                 ogit.Health.Diagnostics:equipmentStateChangeTime
+                ogit.Health.Diagnostics:batteryState
 	);
 	ogit:indexed-attributes (
 	);
