@@ -2,6 +2,7 @@ var group__Health__Diagnostics____attributes =
 [
     [ "appID", "group__httpwwwpurlorgogitHealthDiagnosticsappID.html", null ],
     [ "batteryLevel", "group__httpwwwpurlorgogitHealthDiagnosticsbatteryLevel.html", null ],
+    [ "batteryState", "group__httpwwwpurlorgogitHealthDiagnosticsbatteryState.html", null ],
     [ "birthyearRange", "group__httpwwwpurlorgogitHealthDiagnosticsbirthyearRange.html", null ],
     [ "equipmentID", "group__httpwwwpurlorgogitHealthDiagnosticsequipmentID.html", null ],
     [ "equipmentState", "group__httpwwwpurlorgogitHealthDiagnosticsequipmentState.html", null ],
