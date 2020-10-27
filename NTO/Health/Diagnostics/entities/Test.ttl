@@ -28,6 +28,8 @@ ogit.Health.Diagnostics:Test
                 ogit.Health.Diagnostics:testStartedAt
                 ogit.Health.Diagnostics:testCompletedAt
                 ogit.Health.Diagnostics:liquidContactTime
+                ogit.Health.Diagnostics:testMethod
+                ogit.Health.Diagnostics:testDate
 	);
 	ogit:indexed-attributes (
 	);
