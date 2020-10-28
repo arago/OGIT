@@ -14,6 +14,8 @@ var group__Health__Diagnostics____attributes =
     [ "symptoms", "group__httpwwwpurlorgogitHealthDiagnosticssymptoms.html", null ],
     [ "testCompletedAt", "group__httpwwwpurlorgogitHealthDiagnosticstestCompletedAt.html", null ],
     [ "testCounter", "group__httpwwwpurlorgogitHealthDiagnosticstestCounter.html", null ],
+    [ "testDate", "group__httpwwwpurlorgogitHealthDiagnosticstestDate.html", null ],
+    [ "testMethod", "group__httpwwwpurlorgogitHealthDiagnosticstestMethod.html", null ],
     [ "testResult", "group__httpwwwpurlorgogitHealthDiagnosticstestResult.html", null ],
     [ "testStartedAt", "group__httpwwwpurlorgogitHealthDiagnosticstestStartedAt.html", null ]
 ];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitOSLC-emsMeasure.html":[0,33,1,21],
+"group__httpwwwpurlorgogitOSLC-emsMeasureCell.html":[0,33,1,22],
 "group__httpwwwpurlorgogitOSLC-emsMeasureColumn.html":[0,33,1,23],
 "group__httpwwwpurlorgogitOSLC-emsMeasureDistribution.html":[0,33,1,24],
 "group__httpwwwpurlorgogitOSLC-emsMeasureDistributionCell.html":[0,33,1,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitSalesDistributionDelivery.html":[0,45,1,1],
 "group__httpwwwpurlorgogitSalesDistributionDeliveryItem.html":[0,45,1,2],
 "group__httpwwwpurlorgogitSalesDistributionInvoice.html":[0,45,1,3],
-"group__httpwwwpurlorgogitSalesDistributionInvoiceItem.html":[0,45,1,4],
-"group__httpwwwpurlorgogitSalesDistributionOpenItem.html":[0,45,1,5],
-"group__httpwwwpurlorgogitSalesDistributionPayment.html":[0,45,1,6]
+"group__httpwwwpurlorgogitSalesDistributionInvoiceItem.html":[0,45,1,4]
 };

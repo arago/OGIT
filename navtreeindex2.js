@@ -119,8 +119,10 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitHealthDiagnosticssymptoms.html":[0,18,0,0,11],
 "group__httpwwwpurlorgogitHealthDiagnosticstestCompletedAt.html":[0,18,0,0,12],
 "group__httpwwwpurlorgogitHealthDiagnosticstestCounter.html":[0,18,0,0,13],
-"group__httpwwwpurlorgogitHealthDiagnosticstestResult.html":[0,18,0,0,14],
-"group__httpwwwpurlorgogitHealthDiagnosticstestStartedAt.html":[0,18,0,0,15],
+"group__httpwwwpurlorgogitHealthDiagnosticstestDate.html":[0,18,0,0,14],
+"group__httpwwwpurlorgogitHealthDiagnosticstestMethod.html":[0,18,0,0,15],
+"group__httpwwwpurlorgogitHealthDiagnosticstestResult.html":[0,18,0,0,16],
+"group__httpwwwpurlorgogitHealthDiagnosticstestStartedAt.html":[0,18,0,0,17],
 "group__httpwwwpurlorgogitHyperlink.html":[0,43,17],
 "group__httpwwwpurlorgogitInstallation.html":[0,43,18],
 "group__httpwwwpurlorgogitKnowledgeAcquisitionRoom.html":[0,19,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitMobileRSSIcorrection.html":[0,25,0,0],
 "group__httpwwwpurlorgogitMobileTXcorrection.html":[0,25,0,1],
 "group__httpwwwpurlorgogitMobileactivationTime.html":[0,25,0,2],
-"group__httpwwwpurlorgogitMobileappConfigMode.html":[0,25,0,3],
-"group__httpwwwpurlorgogitMobileappPermissions.html":[0,25,0,4],
-"group__httpwwwpurlorgogitMobileappVersion.html":[0,25,0,5]
+"group__httpwwwpurlorgogitMobileappConfigMode.html":[0,25,0,3]
 };

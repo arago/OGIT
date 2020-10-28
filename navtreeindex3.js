@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitMobileappPermissions.html":[0,25,0,4],
+"group__httpwwwpurlorgogitMobileappVersion.html":[0,25,0,5],
 "group__httpwwwpurlorgogitMobilebundleID.html":[0,25,0,6],
 "group__httpwwwpurlorgogitMobilecategory.html":[0,25,0,7],
 "group__httpwwwpurlorgogitMobilecriticality.html":[0,25,0,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitOSLC-emsGrain.html":[0,33,1,17],
 "group__httpwwwpurlorgogitOSLC-emsHead.html":[0,33,1,18],
 "group__httpwwwpurlorgogitOSLC-emsMap.html":[0,33,1,19],
-"group__httpwwwpurlorgogitOSLC-emsMapping.html":[0,33,1,20],
-"group__httpwwwpurlorgogitOSLC-emsMeasure.html":[0,33,1,21],
-"group__httpwwwpurlorgogitOSLC-emsMeasureCell.html":[0,33,1,22]
+"group__httpwwwpurlorgogitOSLC-emsMapping.html":[0,33,1,20]
 };

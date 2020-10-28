@@ -21,6 +21,8 @@ var searchData=
   ['test',['Test',['../group__httpwwwpurlorgogitHealthDiagnosticsTest.html',1,'']]],
   ['testcompletedat',['testCompletedAt',['../group__httpwwwpurlorgogitHealthDiagnosticstestCompletedAt.html',1,'']]],
   ['testcounter',['testCounter',['../group__httpwwwpurlorgogitHealthDiagnosticstestCounter.html',1,'']]],
+  ['testdate',['testDate',['../group__httpwwwpurlorgogitHealthDiagnosticstestDate.html',1,'']]],
+  ['testmethod',['testMethod',['../group__httpwwwpurlorgogitHealthDiagnosticstestMethod.html',1,'']]],
   ['testresult',['testResult',['../group__httpwwwpurlorgogitHealthDiagnosticstestResult.html',1,'']]],
   ['teststartedat',['testStartedAt',['../group__httpwwwpurlorgogitHealthDiagnosticstestStartedAt.html',1,'']]],
   ['teststation',['TestStation',['../group__httpwwwpurlorgogitHealthDiagnosticsTestStation.html',1,'']]],

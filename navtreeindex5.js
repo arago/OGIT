@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogitSalesDistributionOpenItem.html":[0,45,1,5],
+"group__httpwwwpurlorgogitSalesDistributionPayment.html":[0,45,1,6],
 "group__httpwwwpurlorgogitSalesDistributionSalesOrder.html":[0,45,1,7],
 "group__httpwwwpurlorgogitSalesDistributionSalesOrderItem.html":[0,45,1,8],
 "group__httpwwwpurlorgogitSalesDistributionamount.html":[0,45,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitinvites.html":[0,43,189],
 "group__httpwwwpurlorgogitinvoiceNumber.html":[0,43,190],
 "group__httpwwwpurlorgogitipAddress.html":[0,43,191],
-"group__httpwwwpurlorgogitisCritical.html":[0,43,192],
-"group__httpwwwpurlorgogitisInternal.html":[0,43,193],
-"group__httpwwwpurlorgogitisMutable.html":[0,43,194]
+"group__httpwwwpurlorgogitisCritical.html":[0,43,192]
 };
