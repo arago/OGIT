@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Knowledge, \n 10/28/2020"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Knowledge, \n 11/14/2020"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -10,6 +10,8 @@ edge [  color="gray81"];
    "ogit/Knowledge/AcquisitionSession" -> "ogit/Knowledge/AcquisitionRoom" [label="   ogit/contains    "];
    "ogit/Knowledge/AcquisitionSession" -> "ogit/Automation/KnowledgeItem" [label="   ogit/defines    "];
    "ogit/Knowledge/AcquisitionSession" -> "ogit/Knowledge/Step" [label="   ogit/defines    "];
+   "ogit/Auth/Team" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/rejects    "];
    "ogit/Forum/WorkflowStep" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/connects    "];
+   "ogit/Auth/Team" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/approves    "];
    "ogit/Automation/AutomationIssue" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/relates    "];
 }
