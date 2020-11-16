@@ -9,6 +9,7 @@ var group__SGO =
     [ "CatalogItem", "group__httpwwwpurlorgogitCatalogItem.html", null ],
     [ "Certificate", "group__httpwwwpurlorgogitCertificate.html", null ],
     [ "Comment", "group__httpwwwpurlorgogitComment.html", null ],
+    [ "Configuration", "group__httpwwwpurlorgogitConfiguration.html", null ],
     [ "ConfigurationItem", "group__httpwwwpurlorgogitConfigurationItem.html", null ],
     [ "Contract", "group__httpwwwpurlorgogitContract.html", null ],
     [ "Course", "group__httpwwwpurlorgogitCourse.html", null ],
