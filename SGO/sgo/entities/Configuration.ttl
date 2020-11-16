@@ -1,0 +1,27 @@
+@prefix ogit:					<http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:Configuration
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Configuration";
+	dcterms:description "An entity reflects individual configuration for an instance";
+	dcterms:valid "start=2020-11-15;";
+	dcterms:creator "Kaushik Gondaliya";
+	ogit:scope "SGO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+
+	);
+	ogit:optional-attributes (
+	);
+
+	ogit:indexed-attributes (
+	);
+
+	ogit:allowed (
+	);
+.
