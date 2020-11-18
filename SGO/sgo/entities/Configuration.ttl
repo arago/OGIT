@@ -17,6 +17,9 @@ ogit:Configuration
 
 	);
 	ogit:optional-attributes (
+	    ogit:id
+	    ogit:name
+	    ogit:description
 	);
 
 	ogit:indexed-attributes (
