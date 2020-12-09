@@ -26,7 +26,11 @@ ogit.Mobile:LicenceCodes
                                 ogit.Mobile:lastActive
                                 ogit.Mobile:isActive
                               ) ;
-    ogit:indexed-attributes   ( ) ;
+    ogit:indexed-attributes   ( 
+                                ogit.Mobile:licenceCode
+                                ogit.Mobile:deviceCode
+                                ogit.Mobile:label
+                              ) ;
     ogit:allowed              (
                               ) ;
 .
