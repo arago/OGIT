@@ -22,7 +22,10 @@ ogit.Mobile:HealthInfo
                                 ogit.Mobile:deviceType
 
                               ) ;
-    ogit:indexed-attributes   ( ) ;
+    ogit:indexed-attributes   ( 
+                                ogit.Mobile:licenceCode
+                                ogit.Mobile:label
+                              ) ;
     ogit:allowed              (
                               ) ;
 .
