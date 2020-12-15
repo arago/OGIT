@@ -1,19 +1,24 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: SalesDistribution, \n 12/09/2020"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: SalesDistribution, \n 12/15/2020"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/SalesDistribution/Delivery" -> "ogit/SalesDistribution/DeliveryItem" [label="   ogit/contains    "];
    "ogit/SalesDistribution/Invoice" -> "ogit/SalesDistribution/InvoiceItem" [label="   ogit/contains    "];
    "ogit/SalesDistribution/SalesOrder" -> "ogit/SalesDistribution/SalesOrderItem" [label="   ogit/contains    "];
+   "ogit/SalesDistribution/Shipment" -> "ogit/SalesDistribution/ShipmentItem" [label="   ogit/contains    "];
+   "ogit/SalesDistribution/SalesOrder" -> "ogit/Procurement/ProductionOrder" [label="   ogit/triggers    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/SalesOrder" [label="   ogit/creates    "];
    "ogit/Person" -> "ogit/SalesDistribution/SalesOrder" [label="   ogit/creates    "];
    "ogit/SalesDistribution/DeliveryItem" -> "ogit/SalesDistribution/InvoiceItem" [label="   ogit/corresponds    "];
+   "ogit/SalesDistribution/DeliveryItem" -> "ogit/SalesDistribution/ShipmentItem" [label="   ogit/corresponds    "];
    "ogit/SalesDistribution/InvoiceItem" -> "ogit/SalesDistribution/OpenItem" [label="   ogit/corresponds    "];
    "ogit/SalesDistribution/SalesOrderItem" -> "ogit/SalesDistribution/DeliveryItem" [label="   ogit/corresponds    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/Payment" [label="   ogit/provides    "];
+   "ogit/SalesDistribution/SalesOrder" -> "ogit/SalesDistribution/Delivery" [label="   ogit/causes    "];
+   "ogit/SalesDistribution/SalesOrder" -> "ogit/SalesDistribution/Invoice" [label="   ogit/causes    "];
    "ogit/SalesDistribution/Customer" -> "ogit/MARS/Application" [label="   ogit/belongs    "];
    "ogit/SalesDistribution/OpenItem" -> "ogit/SalesDistribution/Payment" [label="   ogit/belongs    "];
    "ogit/SalesDistribution/Payment" -> "ogit/SalesDistribution/SalesOrder" [label="   ogit/belongs    "];

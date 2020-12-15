@@ -163,6 +163,7 @@ var searchData=
   ['attributes',['Attributes',['../group__OSLC-ems____attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__OSLC-perfmon____attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__Price____attributes.html',1,'']]],
+  ['attributes',['Attributes',['../group__Procurement____attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__PTF____attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__RDDL____attributes.html',1,'']]],
   ['attributes',['Attributes',['../group__RL____attributes.html',1,'']]],

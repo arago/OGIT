@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitMobileRSSIcorrection.html":[0,25,0,0],
+"group__httpwwwpurlorgogitMobileTXcorrection.html":[0,25,0,1],
+"group__httpwwwpurlorgogitMobileactivationTime.html":[0,25,0,2],
 "group__httpwwwpurlorgogitMobileappConfigMode.html":[0,25,0,3],
 "group__httpwwwpurlorgogitMobileappPermissions.html":[0,25,0,4],
 "group__httpwwwpurlorgogitMobileappVersion.html":[0,25,0,5],
@@ -64,8 +67,8 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitNetworkSwitch.html":[0,26,0,24],
 "group__httpwwwpurlorgogitNetworkVLAN.html":[0,26,0,25],
 "group__httpwwwpurlorgogitNetworkWifiAccessPoint.html":[0,26,0,26],
-"group__httpwwwpurlorgogitNote.html":[0,43,24],
-"group__httpwwwpurlorgogitNotification.html":[0,43,25],
+"group__httpwwwpurlorgogitNote.html":[0,44,24],
+"group__httpwwwpurlorgogitNotification.html":[0,44,25],
 "group__httpwwwpurlorgogitOSLC-archLinkType.html":[0,27,0,0],
 "group__httpwwwpurlorgogitOSLC-archResource.html":[0,27,0,1],
 "group__httpwwwpurlorgogitOSLC-assetArtifact.html":[0,28,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitOSLC-emsFactDistributionTable.html":[0,33,1,13],
 "group__httpwwwpurlorgogitOSLC-emsFactTable.html":[0,33,1,14],
 "group__httpwwwpurlorgogitOSLC-emsFinancialMetric.html":[0,33,1,15],
-"group__httpwwwpurlorgogitOSLC-emsFormat.html":[0,33,1,16],
-"group__httpwwwpurlorgogitOSLC-emsGrain.html":[0,33,1,17],
-"group__httpwwwpurlorgogitOSLC-emsHead.html":[0,33,1,18],
-"group__httpwwwpurlorgogitOSLC-emsMap.html":[0,33,1,19]
+"group__httpwwwpurlorgogitOSLC-emsFormat.html":[0,33,1,16]
 };

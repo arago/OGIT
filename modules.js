@@ -39,6 +39,7 @@ var modules =
     [ "OSLC-reqman", "group__OSLC-reqman.html", "group__OSLC-reqman" ],
     [ "PTF", "group__PTF.html", "group__PTF" ],
     [ "Price", "group__Price.html", "group__Price" ],
+    [ "Procurement", "group__Procurement.html", "group__Procurement" ],
     [ "Project", "group__Project.html", "group__Project" ],
     [ "RDDL", "group__RDDL.html", "group__RDDL" ],
     [ "RL", "group__RL.html", "group__RL" ],

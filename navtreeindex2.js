@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitExamplesCrowfoodKcal.html":[0,12,0,0,3],
+"group__httpwwwpurlorgogitExamplesCrowfoodType.html":[0,12,0,0,4],
+"group__httpwwwpurlorgogitExamplesCrowpedestrianLightStatus.html":[0,12,0,0,5],
 "group__httpwwwpurlorgogitFactoryAction.html":[0,13,1,0],
 "group__httpwwwpurlorgogitFactoryComponent.html":[0,13,1,1],
 "group__httpwwwpurlorgogitFactoryFactory.html":[0,13,1,2],
@@ -124,16 +127,16 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitHealthDiagnosticstestMethod.html":[0,18,0,0,15],
 "group__httpwwwpurlorgogitHealthDiagnosticstestResult.html":[0,18,0,0,16],
 "group__httpwwwpurlorgogitHealthDiagnosticstestStartedAt.html":[0,18,0,0,17],
-"group__httpwwwpurlorgogitHyperlink.html":[0,43,18],
-"group__httpwwwpurlorgogitInstallation.html":[0,43,19],
+"group__httpwwwpurlorgogitHyperlink.html":[0,44,18],
+"group__httpwwwpurlorgogitInstallation.html":[0,44,19],
 "group__httpwwwpurlorgogitKnowledgeAcquisitionRoom.html":[0,19,1,0],
 "group__httpwwwpurlorgogitKnowledgeAcquisitionSession.html":[0,19,1,1],
 "group__httpwwwpurlorgogitKnowledgeStep.html":[0,19,1,2],
 "group__httpwwwpurlorgogitKnowledgearchived.html":[0,19,0,0],
-"group__httpwwwpurlorgogitLicense.html":[0,43,20],
-"group__httpwwwpurlorgogitLicenseRequest.html":[0,43,21],
-"group__httpwwwpurlorgogitLicenseToken.html":[0,43,22],
-"group__httpwwwpurlorgogitLocation.html":[0,43,23],
+"group__httpwwwpurlorgogitLicense.html":[0,44,20],
+"group__httpwwwpurlorgogitLicenseRequest.html":[0,44,21],
+"group__httpwwwpurlorgogitLicenseToken.html":[0,44,22],
+"group__httpwwwpurlorgogitLocation.html":[0,44,23],
 "group__httpwwwpurlorgogitLocationAddress.html":[0,20,1,0],
 "group__httpwwwpurlorgogitLocationNUTSLevel1.html":[0,20,1,1],
 "group__httpwwwpurlorgogitLocationNUTSLevel2.html":[0,20,1,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitMobileHealthInfo.html":[0,25,1,3],
 "group__httpwwwpurlorgogitMobileLicenceCodes.html":[0,25,1,4],
 "group__httpwwwpurlorgogitMobileMessage.html":[0,25,1,5],
-"group__httpwwwpurlorgogitMobileMsgTemplate.html":[0,25,1,6],
-"group__httpwwwpurlorgogitMobileRSSIcorrection.html":[0,25,0,0],
-"group__httpwwwpurlorgogitMobileTXcorrection.html":[0,25,0,1],
-"group__httpwwwpurlorgogitMobileactivationTime.html":[0,25,0,2]
+"group__httpwwwpurlorgogitMobileMsgTemplate.html":[0,25,1,6]
 };
