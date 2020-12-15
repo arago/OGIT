@@ -1,4 +1,5 @@
 @prefix ogit.SalesDistribution:     <http://www.purl.org/ogit/SalesDistribution/> .
+@prefix ogit.Procurement:     <http://www.purl.org/ogit/Procurement/> .
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -28,6 +29,10 @@ ogit.SalesDistribution:SalesOrder
   );
   ogit:allowed (
 	[ ogit:contains  ogit.SalesDistribution:SalesOrderItem ]
+	[ ogit:causes  ogit.SalesDistribution:Delivery ]
+	[ ogit:causes  ogit.SalesDistribution:Invoice ]
+	[ ogit:triggers  ogit.Procurement:ProductionOrder ]
+	[ ogit:triggers  ogit.Procurement:ProductionOrder ]
 	[ ogit:belongs  ogit.MARS:Application ]
   );
 .

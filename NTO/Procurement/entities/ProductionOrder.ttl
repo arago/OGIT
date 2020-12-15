@@ -1,25 +1,24 @@
-@prefix ogit.SalesDistribution:     <http://www.purl.org/ogit/SalesDistribution/> .
+@prefix ogit.Procurement:     <http://www.purl.org/ogit/Procurement/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.SalesDistribution:DeliveryItem
+ogit.Procurement:ProductionOrder
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "DeliveryItem";
-  dcterms:description "An individual item contained in a delivery in the sales and distribution process.";
-  dcterms:valid "start=2019-07-10;";
+  rdfs:label "ProductionOrder";
+  dcterms:description "A production order in the procurement process.";
+  dcterms:valid "start=2020-12-15;";
   dcterms:creator "Marek Meyer";
   ogit:scope "NTO";
   ogit:parent ogit:Node;
   ogit:mandatory-attributes (
   );
   ogit:optional-attributes (
+    ogit.Procurement:productionOrderId
   );
   ogit:indexed-attributes (
   );
   ogit:allowed (
-	[ ogit:corresponds  ogit.SalesDistribution:InvoiceItem ]  
-	[ ogit:corresponds  ogit.SalesDistribution:ShipmentItem ]  
   );
 .
