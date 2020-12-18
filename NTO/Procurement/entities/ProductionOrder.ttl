@@ -16,8 +16,12 @@ ogit.Procurement:ProductionOrder
   );
   ogit:optional-attributes (
     ogit.Procurement:productionOrderId
+    ogit:name
+    ogit:description
   );
   ogit:indexed-attributes (
+    ogit:name
+    ogit:description
   );
   ogit:allowed (
   );

@@ -16,8 +16,12 @@ ogit.Procurement:PurchaseOrder
   );
   ogit:optional-attributes (
     ogit.Procurement:purchaseOrderId
+    ogit:name
+    ogit:description
   );
   ogit:indexed-attributes (
+    ogit:name
+    ogit:description
   );
   ogit:allowed (
 	[ ogit:contains  ogit.Procurement:PurchaseOrderItem ]

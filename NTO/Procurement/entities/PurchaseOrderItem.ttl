@@ -15,8 +15,12 @@ ogit.Procurement:PurchaseOrderItem
   ogit:mandatory-attributes (
   );
   ogit:optional-attributes (
+    ogit:name
+    ogit:description
   );
   ogit:indexed-attributes (
+    ogit:name
+    ogit:description
   );
   ogit:allowed (
   );

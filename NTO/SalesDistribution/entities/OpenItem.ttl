@@ -18,6 +18,7 @@ ogit.SalesDistribution:OpenItem
     ogit.SalesDistribution:amount 
     ogit:currency
     ogit:name
+    ogit:description
   );
   ogit:indexed-attributes (
   );

@@ -15,8 +15,12 @@ ogit.SalesDistribution:Equipment
   ogit:mandatory-attributes (
   );
   ogit:optional-attributes (
+    ogit:description
+    ogit:name
   );
   ogit:indexed-attributes (
+    ogit:description
+    ogit:name
   );
   ogit:allowed (
   );
