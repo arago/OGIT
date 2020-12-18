@@ -17,8 +17,14 @@ ogit.SalesDistribution:Invoice
   ogit:optional-attributes (
     ogit.SalesDistribution:invoiceId
     ogit.SalesDistribution:invoiceDate
+    ogit:description
+    ogit:name
   );
   ogit:indexed-attributes (
+    ogit.SalesDistribution:invoiceId
+    ogit.SalesDistribution:invoiceDate
+    ogit:description
+    ogit:name
   );
   ogit:allowed (
 	[ ogit:contains  ogit.SalesDistribution:InvoiceItem ]

@@ -16,8 +16,12 @@ ogit.SalesDistribution:Delivery
   );
   ogit:optional-attributes (
     ogit.SalesDistribution:deliveryId
+    ogit:description
+    ogit:name
   );
   ogit:indexed-attributes (
+    ogit:description
+    ogit:name
   );
   ogit:allowed (
 	[ ogit:contains  ogit.SalesDistribution:DeliveryItem ]
