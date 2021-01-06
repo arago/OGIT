@@ -27,6 +27,7 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
 	ogit:scope "SGO";
+	ogit:blob "true";
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 		
