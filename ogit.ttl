@@ -187,3 +187,8 @@ ogit:validation-parameter
 ogit:hide
 	a owl:DatatypeProperty;
 	rdfs:label "hide" .
+
+ogit:blob
+	a owl:DatatypeProperty;
+	rdfs:label "blob";
+	dcterms:description "`blob` flag to allow different type to be attached with BLOB. Use it as ogit:blob true;" .
