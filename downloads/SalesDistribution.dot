@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: SalesDistribution, \n 12/15/2020"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: SalesDistribution, \n 01/08/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
