@@ -30,6 +30,7 @@ ogit.Health.Diagnostics:Test
                 ogit.Health.Diagnostics:liquidContactTime
                 ogit.Health.Diagnostics:testMethod
                 ogit.Health.Diagnostics:testDate
+                ogit.Health.Diagnostics:ICDCode
 	);
 	ogit:indexed-attributes (
 	);
