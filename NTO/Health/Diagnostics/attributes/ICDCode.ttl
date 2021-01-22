@@ -1,0 +1,14 @@
+@prefix ogit.Health.Diagnostics:     <http://www.purl.org/ogit/Health/Diagnostics/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Health.Diagnostics:ICDCode
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "ICDCode";
+        dcterms:description "Code assigned to diagnoses of diseases and other health problems according to ICD (International Classification of Diseases and Related Health Problems). More information at https://icd.who.int/icd11refguide/en/index.html";
+        dcterms:valid "start=2021-01-21;";
+        dcterms:creator "Kaushik Gondaliya";
+.
