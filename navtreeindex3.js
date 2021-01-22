@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitMobileMsgTemplate.html":[0,25,1,6],
 "group__httpwwwpurlorgogitMobileRSSIcorrection.html":[0,25,0,0],
 "group__httpwwwpurlorgogitMobileTXcorrection.html":[0,25,0,1],
 "group__httpwwwpurlorgogitMobileactivationTime.html":[0,25,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitOSLC-emsFactDistribution.html":[0,33,1,12],
 "group__httpwwwpurlorgogitOSLC-emsFactDistributionTable.html":[0,33,1,13],
 "group__httpwwwpurlorgogitOSLC-emsFactTable.html":[0,33,1,14],
-"group__httpwwwpurlorgogitOSLC-emsFinancialMetric.html":[0,33,1,15],
-"group__httpwwwpurlorgogitOSLC-emsFormat.html":[0,33,1,16]
+"group__httpwwwpurlorgogitOSLC-emsFinancialMetric.html":[0,33,1,15]
 };

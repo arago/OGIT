@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogitSaaSComponent.html":[0,45,0,0],
 "group__httpwwwpurlorgogitSaaSComponentInstance.html":[0,45,0,1],
 "group__httpwwwpurlorgogitSaaSConfigurationTemplate.html":[0,45,0,2],
 "group__httpwwwpurlorgogitSaaSDeployment.html":[0,45,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogithiddenBy.html":[0,44,176],
 "group__httpwwwpurlorgogithosts.html":[0,44,177],
 "group__httpwwwpurlorgogitid.html":[0,44,178],
-"group__httpwwwpurlorgogitignores.html":[0,44,179],
-"group__httpwwwpurlorgogitimpact.html":[0,44,180]
+"group__httpwwwpurlorgogitignores.html":[0,44,179]
 };
