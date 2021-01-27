@@ -2,6 +2,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.Automation:         <http://www.purl.org/ogit/Automation/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -35,6 +36,8 @@ ogit.Auth:Team
  [ ogit.Auth:belongs  ogit.Auth:Team ]
  [ ogit.Auth:belongs  ogit.Auth:Organization ]
  [ ogit:approves  ogit.Knowledge:AcquisitionSession ]
+ [ ogit:approves  ogit.Automation:KnowledgeItem ]
  [ ogit:rejects  ogit.Knowledge:AcquisitionSession ]
+ [ ogit:rejects  ogit.Automation:KnowledgeItem ]
 	);
 .
