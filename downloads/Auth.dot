@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Auth, \n 01/22/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Auth, \n 01/27/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -15,6 +15,7 @@ edge [  color="gray81"];
    "ogit/Auth/Team" -> "ogit/Auth/Organization" [label="   ogit/Auth/belongs    "];
    "ogit/Auth/Organization" -> "ogit/Contract" [label="   ogit/concludes    "];
    "ogit/Auth/Team" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/rejects    "];
+   "ogit/Auth/Team" -> "ogit/Automation/KnowledgeItem" [label="   ogit/rejects    "];
    "ogit/Auth/Account" -> "ogit/Project/Milestone" [label="   ogit/supports    "];
    "ogit/Auth/Account" -> "ogit/Project/Project" [label="   ogit/supports    "];
    "ogit/Auth/Organization" -> "ogit/Project/Project" [label="   ogit/supports    "];
@@ -51,6 +52,7 @@ edge [  color="gray81"];
    "ogit/Auth/Account" -> "ogit/SaaS/ComponentInstance" [label="   ogit/Auth/uses    "];
    "ogit/Auth/Account" -> "ogit/Survey/Reply" [label="   ogit/repliedWith    "];
    "ogit/Auth/Team" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/approves    "];
+   "ogit/Auth/Team" -> "ogit/Automation/KnowledgeItem" [label="   ogit/approves    "];
    "ogit/HR/Recruiting/Recruiter" -> "ogit/Auth/Account" [label="   ogit/has    "];
    "ogit/Mobile/AppInstance" -> "ogit/Auth/Account" [label="   ogit/has    "];
    "ogit/Schedule/Attendee" -> "ogit/Auth/Account" [label="   ogit/has    "];

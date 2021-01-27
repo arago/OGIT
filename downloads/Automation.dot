@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Automation, \n 01/22/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Automation, \n 01/27/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -24,6 +24,7 @@ edge [  color="gray81"];
    "ogit/Forum/KnowledgeBundleHistory" -> "ogit/Automation/KnowledgeItem" [label="   ogit/contains    "];
    "ogit/Automation/MAID" -> "ogit/Timeseries" [label="   ogit/defines    "];
    "ogit/Knowledge/AcquisitionSession" -> "ogit/Automation/KnowledgeItem" [label="   ogit/defines    "];
+   "ogit/Auth/Team" -> "ogit/Automation/KnowledgeItem" [label="   ogit/rejects    "];
    "ogit/Automation/AutomationIssue" -> "ogit/Automation/MARSNode" [label="   ogit/worksOn    "];
    "ogit/Automation/KnowledgeItem" -> "ogit/Automation/AutomationIssue" [label="   ogit/worksOn    "];
    "ogit/Automation/MARSNode" -> "ogit/Person" [label="   ogit/assignedTo    "];
@@ -103,6 +104,7 @@ edge [  color="gray81"];
    "ogit/ServiceManagement/Order" -> "ogit/Automation/MARSNode" [label="   ogit/reportedOn    "];
    "ogit/ServiceManagement/Problem" -> "ogit/Automation/MARSNode" [label="   ogit/reportedOn    "];
    "ogit/ServiceManagement/Ticket" -> "ogit/Automation/MARSNode" [label="   ogit/reportedOn    "];
+   "ogit/Auth/Team" -> "ogit/Automation/KnowledgeItem" [label="   ogit/approves    "];
    "ogit/Forum/Profile" -> "ogit/Automation/KnowledgeItem" [label="   ogit/Forum/downloads    "];
    "ogit/Environment" -> "ogit/Automation/MARSNode" [label="   ogit/consistsOf    "];
    "ogit/Automation/AutomationIssue" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/relates    "];
