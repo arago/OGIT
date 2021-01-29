@@ -32,7 +32,7 @@ ogit.SalesDistribution:SalesOrder
 	[ ogit:causes  ogit.SalesDistribution:Delivery ]
 	[ ogit:causes  ogit.SalesDistribution:Invoice ]
 	[ ogit:triggers  ogit.Procurement:ProductionOrder ]
-	[ ogit:triggers  ogit.Procurement:ProductionOrder ]
+	[ ogit:triggers  ogit.Procurement:PurchaseOrder ]
 	[ ogit:belongs  ogit.MARS:Application ]
   );
 .

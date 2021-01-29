@@ -25,5 +25,6 @@ ogit.SalesDistribution:Delivery
   );
   ogit:allowed (
 	[ ogit:contains  ogit.SalesDistribution:DeliveryItem ]
+	[ ogit:assignedTo  ogit.SalesDistribution:Shipment ]
   );
 .
