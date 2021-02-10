@@ -1,0 +1,30 @@
+@prefix ogit.MARS:              	<http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Datacenter.Virtual:	<http://www.purl.org/ogit/Datacenter/Virtual/> .
+@prefix owl:                    	<http://www.w3.org/2002/07/owl#> .
+@prefix ogit:                   	<http://www.purl.org/ogit/> .
+@prefix rdfs:                   	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                	<http://purl.org/dc/terms/> .
+
+ogit.Datacenter.Virtual:ResourcePool
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "ResourcePool";
+	dcterms:description "This entity represents a resource pool in virtual datacenter.";
+	dcterms:valid "start=2021-02-10;";
+	dcterms:creator "Marek Meyer";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		ogit:name
+	);
+	ogit:optional-attributes (
+
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:allowed (
+			[ ogit:belongs  ogit.Datacenter.Virtual:Cluster ]
+			[ ogit:belongs  ogit.Datacenter.Virtual:ResourcePool ]
+	);
+.
