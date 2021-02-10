@@ -10,6 +10,7 @@ var searchData=
   ['entities',['Entities',['../group__CustomerSupport____entities.html',1,'']]],
   ['entities',['Entities',['../group__Data____entities.html',1,'']]],
   ['entities',['Entities',['../group__Datacenter____entities.html',1,'']]],
+  ['entities',['Entities',['../group__Datacenter__Virtual____entities.html',1,'']]],
   ['entities',['Entities',['../group__DataProcessing____entities.html',1,'']]],
   ['entities',['Entities',['../group__Documents____entities.html',1,'']]],
   ['examples',['Examples',['../group__Examples.html',1,'']]],

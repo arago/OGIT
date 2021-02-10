@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitAuthTeam.html":[0,3,3,11],
+"group__httpwwwpurlorgogitAuth__iam-domain.html":[0,3,2,0],
 "group__httpwwwpurlorgogitAuthallowedTypes.html":[0,3,2,1],
 "group__httpwwwpurlorgogitAuthassigns.html":[0,3,4,0],
 "group__httpwwwpurlorgogitAuthassumes.html":[0,3,4,1],
@@ -226,6 +228,10 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitDatacenterServer.html":[0,10,1,8],
 "group__httpwwwpurlorgogitDatacenterStorage.html":[0,10,1,9],
 "group__httpwwwpurlorgogitDatacenterUPS.html":[0,10,1,10],
+"group__httpwwwpurlorgogitDatacenterVirtualCluster.html":[0,10,2,0,0],
+"group__httpwwwpurlorgogitDatacenterVirtualDatacenter.html":[0,10,2,0,1],
+"group__httpwwwpurlorgogitDatacenterVirtualPhysicalHost.html":[0,10,2,0,2],
+"group__httpwwwpurlorgogitDatacenterVirtualResourcePool.html":[0,10,2,0,3],
 "group__httpwwwpurlorgogitDatacenterdatacenterId.html":[0,10,0,0],
 "group__httpwwwpurlorgogitDatacentermoveProductionDate.html":[0,10,0,1],
 "group__httpwwwpurlorgogitDatacenterrackId.html":[0,10,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitEvent.html":[0,44,17],
 "group__httpwwwpurlorgogitExamplesCrowCrossing.html":[0,12,0,1,0],
 "group__httpwwwpurlorgogitExamplesCrowFood.html":[0,12,0,1,1],
-"group__httpwwwpurlorgogitExamplesCrowScene.html":[0,12,0,1,2],
-"group__httpwwwpurlorgogitExamplesCrowSidewalk.html":[0,12,0,1,3],
-"group__httpwwwpurlorgogitExamplesCrowStreet.html":[0,12,0,1,4],
-"group__httpwwwpurlorgogitExamplesCrowTree.html":[0,12,0,1,5],
-"group__httpwwwpurlorgogitExamplesCrowapproachingCars.html":[0,12,0,0,0],
-"group__httpwwwpurlorgogitExamplesCrowcarLightStatus.html":[0,12,0,0,1],
-"group__httpwwwpurlorgogitExamplesCrowfoodAccessible.html":[0,12,0,0,2]
+"group__httpwwwpurlorgogitExamplesCrowScene.html":[0,12,0,1,2]
 };

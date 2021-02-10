@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Datacenter, \n 01/29/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Datacenter, \n 02/10/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -27,6 +27,9 @@ edge [  color="gray81"];
    "ogit/Person" -> "ogit/Datacenter/Datacenter" [label="   ogit/manages    "];
    "ogit/Person" -> "ogit/Datacenter/Cooling" [label="   ogit/manages    "];
    "ogit/Person" -> "ogit/Datacenter/Building" [label="   ogit/manages    "];
+   "ogit/Datacenter/Virtual/Cluster" -> "ogit/Datacenter/Virtual/PhysicalHost" [label="   ogit/runsOn    "];
+   "ogit/MARS/Machine" -> "ogit/Datacenter/Virtual/Cluster" [label="   ogit/runsOn    "];
+   "ogit/MARS/Machine" -> "ogit/Datacenter/Virtual/ResourcePool" [label="   ogit/runsOn    "];
    "ogit/Datacenter/Server" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/Asset" -> "ogit/Datacenter/Rack" [label="   ogit/describes    "];
    "ogit/Asset" -> "ogit/Datacenter/PowerDistributionUnit" [label="   ogit/describes    "];
@@ -37,5 +40,8 @@ edge [  color="gray81"];
    "ogit/Datacenter/Server" -> "ogit/Device" [label="   ogit/corresponds    "];
    "ogit/Datacenter/Storage" -> "ogit/Device" [label="   ogit/corresponds    "];
    "ogit/Datacenter/UPS" -> "ogit/Device" [label="   ogit/corresponds    "];
+   "ogit/Datacenter/Virtual/Cluster" -> "ogit/Datacenter/Virtual/Datacenter" [label="   ogit/belongs    "];
+   "ogit/Datacenter/Virtual/ResourcePool" -> "ogit/Datacenter/Virtual/Cluster" [label="   ogit/belongs    "];
    "ogit/ConfigurationItem" -> "ogit/Datacenter/Server" [label="   ogit/relates    "];
+   "ogit/Datacenter/Virtual/ResourcePool" -> "ogit/Datacenter/Virtual/ResourcePool" [label="   ogit/belongs    "];
 }

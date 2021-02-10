@@ -35,6 +35,8 @@ var NAVTREEINDEX0 =
 "group__Data____attributes.html":[0,8,0],
 "group__Data____entities.html":[0,8,1],
 "group__Datacenter.html":[0,10],
+"group__Datacenter__Virtual.html":[0,10,2],
+"group__Datacenter__Virtual____entities.html":[0,10,2,0],
 "group__Datacenter____attributes.html":[0,10,0],
 "group__Datacenter____entities.html":[0,10,1],
 "group__Documents.html":[0,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAuthOrgDomain.html":[0,3,3,7],
 "group__httpwwwpurlorgogitAuthOrganization.html":[0,3,3,8],
 "group__httpwwwpurlorgogitAuthRole.html":[0,3,3,9],
-"group__httpwwwpurlorgogitAuthRoleAssignment.html":[0,3,3,10],
-"group__httpwwwpurlorgogitAuthTeam.html":[0,3,3,11],
-"group__httpwwwpurlorgogitAuth__iam-domain.html":[0,3,2,0]
+"group__httpwwwpurlorgogitAuthRoleAssignment.html":[0,3,3,10]
 };

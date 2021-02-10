@@ -1,11 +1,13 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: MARS, \n 01/29/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: MARS, \n 02/10/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/MARS/Machine" -> "ogit/Network/NetworkInterface" [label="   ogit/contains    "];
+   "ogit/MARS/Machine" -> "ogit/Datacenter/Virtual/Cluster" [label="   ogit/runsOn    "];
+   "ogit/MARS/Machine" -> "ogit/Datacenter/Virtual/ResourcePool" [label="   ogit/runsOn    "];
    "ogit/MARS/Application" -> "ogit/Data/Log" [label="   ogit/generates    "];
    "ogit/MARS/Application" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/MARS/Machine" -> "ogit/Data/Log" [label="   ogit/generates    "];
