@@ -1,0 +1,65 @@
+{
+  "sdf": {
+    "id": "event",
+    "entities": {
+      "event": {
+        "type": "ogit/Automation/AutomationIssue",
+        "presence": "root",
+        "attributes": {
+          "ogit/Automation/originNode": "originNode",
+          "ogit/status": "hiroStatus",
+          "ogit/subject": "subject",
+          "/category": "category",
+          "/certainty": "certainty",
+          "/description": "description",
+          "/expiresAt": "expiresAt",
+          "/firstOccurredAt": "firstOccurredAt",
+          "/impact": "impact",
+          "/instance": "instance",
+          "/isRoot": "isRoot",
+          "/name": "eventName",
+          "/occurenceCount": "occurenceCount",
+          "/openedAt": "openedAt",
+          "/priority": "priority",
+          "/reportedSource": "reportedSource",
+          "/resource": "resource",
+          "/severity": "severity",
+          "/sourceId": "sourceId",
+          "/sourceStatus": "sourceStatus",
+          "/sourceid": "eventId",
+          "/summary": "summary",
+          "/type": "type",
+          "/urgency": "urgency"
+        },
+        "constants": {
+          "/actual_type": "EventType"
+        },
+        "initializers": {
+          "/ProcessIssue": "process_me"
+        },
+        "volatile-attributes": [
+          "hiroStatus"
+        ]
+      },
+      "worklog": {
+        "type": "ogit/Timeseries",
+        "presence": "optional",
+        "cache-size": 5,
+        "attributes": {
+          "$timeseries": "worklog"
+        },
+        "constants": {
+          "ogit/name": "History",
+          "/TimeseriesType": "Issue History"
+        }
+      }
+    },
+    "verbs": [
+      {
+        "from": "event",
+        "to": "worklog",
+        "id": "ogit/generates"
+      }
+    ]
+  }
+}

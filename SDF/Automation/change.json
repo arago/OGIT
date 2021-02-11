@@ -1,0 +1,82 @@
+{
+  "sdf": {
+    "id": "change",
+    "entities": {
+      "change": {
+        "type": "ogit/Automation/AutomationIssue",
+        "presence": "root",
+        "attributes": {
+          "ogit/Automation/originNode": "originNode",
+          "ogit/Automation/issueType": "issueType",
+          "ogit/status": "hiroStatus",
+          "/changeStatus": "sourceStatus",
+          "/openedAt": "openedAt",
+          "ogit/subject": "subject",
+          "/assignedGroup": "assignee",
+          "/description": "description",
+          "/impact": "impact",
+          "/justification": "justification",
+          "/priority": "priority",
+          "/resolutionCode": "resolutionCode",
+          "/risk": "risk",
+          "/scheduledEndAt": "scheduledEndAt",
+          "/scheduledFinishAt": "scheduledFinishAt",
+          "/scheduledStartAt": "scheduledStartAt",
+          "/startedAt": "startedAt",
+          "/summary": "summary",
+          "/targetFinishAt": "targetFinishAt",
+          "/targetStartAt": "targetStartAt",
+          "/urgency": "urgency",
+          "ogit/Automation/deployStatus": "closeNotes"
+        },
+        "constants": {
+          "/actual_type": "ChangeType"
+        },
+        "initializers": {
+          "/ProcessIssue": "process_me"
+        },
+        "volatile-attributes": [
+          "hiroStatus"
+        ]
+      },
+      "worklog": {
+        "type": "ogit/Timeseries",
+        "presence": "optional",
+        "cache-size": 5,
+        "attributes": {
+          "$timeseries": "worklog"
+        },
+        "constants": {
+          "ogit/name": "History",
+          "/TimeseriesType": "Issue History"
+        }
+      },
+      "comments": {
+        "type": "ogit/Timeseries",
+        "presence": "optional",
+        "cache-size": 5,
+        "cache-target": "parent",
+        "cache-attribute": "/response",
+        "attributes": {
+          "$timeseries": "comments"
+        },
+        "constants": {
+          "ogit/name": "UserComment",
+          "/TimeseriesType": "UserComment"
+        }
+      }
+    },
+    "verbs": [
+      {
+        "from": "change",
+        "to": "worklog",
+        "id": "ogit/generates"
+      },
+      {
+        "from": "change",
+        "to": "comments",
+        "id": "ogit/generates"
+      }
+    ]
+  }
+}

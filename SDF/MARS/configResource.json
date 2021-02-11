@@ -1,0 +1,43 @@
+{
+  "sdf": {
+    "id": "configResource",
+    "scope": "in",
+    "entities": {
+      "resource": {
+        "type": "ogit/MARS/Resource",
+        "presence": "root",
+        "attributes": {
+          "ogit/name": "name",
+          "ogit/MARS/Resource/class": "resourceClass",
+          "ogit/Automation/automationState": "automationState",
+          "ogit/Automation/lifecycle": "lifecycle",
+          "ogit/Automation/serviceStatus": "status",
+          "ogit/url": "url"
+        },
+        "constants": {
+          "ogit/Automation/marsNodeType": "Resource"
+        }
+      },
+      "software": {
+        "type": "configSoftware",
+        "presence": "many"
+      },
+      "application": {
+        "type": "configApplication",
+        "presence": "many"
+      }
+    },
+    "verbs": [
+      {
+        "from": "software",
+        "id": "ogit/dependsOn",
+        "to": "resource"
+      },
+      {
+        "from": "resource",
+        "id": "ogit/dependsOn",
+        "to": "application"
+      }
+    ]
+  }
+}
