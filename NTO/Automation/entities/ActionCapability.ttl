@@ -22,6 +22,7 @@ ogit.Automation:ActionCapability
 	);
 	ogit:optional-attributes (
 		ogit.Automation:optionalParameters
+		ogit.Automation:resultParameters
 	);
 	ogit:indexed-attributes (
 
