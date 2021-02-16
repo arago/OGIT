@@ -78,6 +78,7 @@ var group__Automation____attributes =
     [ "projectName", "group__httpwwwpurlorgogitAutomationprojectName.html", null ],
     [ "rankMap", "group__httpwwwpurlorgogitAutomationrankMap.html", null ],
     [ "rankingType", "group__httpwwwpurlorgogitAutomationrankingType.html", null ],
+    [ "resultParameters", "group__httpwwwpurlorgogitAutomationresultParameters.html", null ],
     [ "sendData", "group__httpwwwpurlorgogitAutomationsendData.html", null ],
     [ "sendHistory", "group__httpwwwpurlorgogitAutomationsendHistory.html", null ],
     [ "serialNumber", "group__httpwwwpurlorgogitAutomationserialNumber.html", null ],

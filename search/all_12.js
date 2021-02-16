@@ -7,6 +7,7 @@ var searchData=
   ['roleassignment',['RoleAssignment',['../group__httpwwwpurlorgogitAuthRoleAssignment.html',1,'']]],
   ['rankingtype',['rankingType',['../group__httpwwwpurlorgogitAutomationrankingType.html',1,'']]],
   ['rankmap',['rankMap',['../group__httpwwwpurlorgogitAutomationrankMap.html',1,'']]],
+  ['resultparameters',['resultParameters',['../group__httpwwwpurlorgogitAutomationresultParameters.html',1,'']]],
   ['recipient',['recipient',['../group__httpwwwpurlorgogitCustomerSupportrecipient.html',1,'']]],
   ['remoteid',['remoteId',['../group__httpwwwpurlorgogitCustomerSupportremoteId.html',1,'']]],
   ['remotetype',['remoteType',['../group__httpwwwpurlorgogitCustomerSupportremoteType.html',1,'']]],
