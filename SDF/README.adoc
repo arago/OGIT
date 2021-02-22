@@ -1,0 +1,839 @@
+= SDF
+:toc:
+
+SDF (Simple Difference Format) is the JSON format used to express domain objects, or rather, express _changes_ to domain objects. As a domain object is a graph of vertices and edges, another way to think about the SDF format is that it expresses changes to be applied to a graph to yield a new version of it. Changes that can be expressed by the SDF format are:
+
+  - a vertex is created
+  - an attribute of a vertex is assigned
+  - an attribute of a vertex is removed
+  - an edge between two vertices is added
+  - an edge between two vertices is removed
+  - create or update an attachment
+  - append to a timeserie
+
+The SDF format is additionally designed such that resending information that already exists in the graph will not cause any changes.
+
+The SDF format is capable of describing differences on any type of graph, but to do so a description of the type of graph has to be given. This description say what type each vertex has, how they can connect, what attributes each vertex has, and how the attributes are mapped to JSON fields. Such a description defines a _type_ of SDF, as it describes a specific _type_ of graph and how it maps to and from JSON. In the following text we refer to this as the _SDF type_. When we talk about an instance of a JSON that comply to an SDF type, we call this an _SDF message_.
+
+== Domain Objects
+Domain Objects are high-level domain-specific objects, such as _Incident_, _House_, etc, rather than low-level vertices and edges. In other words, a domain object is a sub-graph of the HIRO graph expressed as a JSON object. Domain objects are identified by an identifier that is guaranteed by the client to be unique on the client's side. Through this identifier, objects can be created/updated, read, and deleted. 
+
+
+== Example
+anchor:sdf-example[SDF example]
+
+Let's now make the concepts more concrete by an example, which should give an intuitive understanding of how SDF definitions maps to graph types, and how graph types maps to SDF definitions. Consider the following graph type:
+----------------------------------------------------------------------------------------------------------
+
+             +-------------------+ ogit/likes (zero or more)
+             | ogit/Person       |--------+
+             |  - ogit/firstName |        |
+             |  - ogit/lastName  |        |
+             |  - ogit/email     |<-------+
+             +-------------------+
+
+----------------------------------------------------------------------------------------------------------
+which describes a person in terms of his or her first name, last name, and email, and which people the person likes. Note that a person can like zero or more other people. We define the following SDF to create, update, and read, such graphs:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    entities:
+        person:
+            type: ogit/Person
+            presence: root
+            attributes:
+                    ogit/firstName: firstName
+                    ogit/lastName: lastName
+                    ogit/email: email
+        friends:
+            type: ogit/Person
+            presence: many
+            attributes:
+                ogit/firstName: firstName
+                ogit/lastName: lastName
+                ogit/email: email
+    verbs:
+        - {id: ogit/likes, from: person, to: friends}
+----------------------------------------------------------------------------------------------------------
+
+Let's go through this from the top and down. First, we give the SDF type a unique identifier, `PersonSDF`. Second, we enumerate all entities and their properties (more on this below). Here we have two entities of the type `ogit/Person`, of which `person` is the root. Third, all the possible verbs (edges, connections) between the entities are enumerated (here, only one). We will go through the details of each of these three sections later.
+
+The ontology is used to determine which attributes of an entity that is mandatory. For the `ogit/Person` type, only `ogit/email` is mandatory. Thus in the following examples, we're always providing the `email` field when writing a domain object of `PersonSDF` type. 
+
+Let's now see the smallest possible example of an SDF of this type:
+----------------------------------------------------------------------------------------------------------
+{                                   //
+  "$type": "PersonSDF",             // +-------------------------+
+  "email": "ada@q.de"               // | ogit/Person (p-01)      |
+                                    // |  - ogit/email: ada@q.de |
+}                                   // +-------------------------+
+----------------------------------------------------------------------------------------------------------
+By passing this to the Domain Object REST API by doing `PUT /views/default/objects/p-01`, the graph structure (in this case a single vertex) on the right is created. The type of the SDF is given in the `$type` field, here `PersonSDF` which corresponds to the `id` field in the SDF definition above (line 2 of the definition). The remainding JSON fields (here one), are the attributes to be set on the created/updated vertex.
+
+The ontology say that `ogit/Person` requires the `ogit/email` attribute, thus the field `email` in the above JSON is required while `firstName` and `lastName` is optional.
+
+To connect this vertex to another, we can (for `PersonSDF`) use the `friends` field; this field is defined to hold vertices that are connected to the root vertex (`person`) by the `ogit/likes` verb (see the SDF definition above). A non-null entry means to connect two vertices. For example, to connect `p-01` with `p-02` we do:
+----------------------------------------------------------------------------------------------------------
+{                                   // +-------------------------+
+  "$type": "PersonSDF",             // | ogit/Person (p-01)      |--+
+  "email": "ada@q.de",              // |  - ogit/email: ada@q.de |  | ogit/likes
+  "friends": { "p-02": {            // +-------------------------+  v
+      "email": "bob@q.de"           //              +-------------------------+
+    }                               //              | ogit/Person (p-02)      |
+  }                                 //              |  - ogit/email: bob@q.de |
+}                                   //              +-------------------------+
+----------------------------------------------------------------------------------------------------------
+
+To disconnect two vertices, we simply set an entry in `friends` to null. For example, assuming `p-01` is connected to `p-02` by `ogit/likes` (as depicted above), we can remove this connection with the following SDF:
+----------------------------------------------------------------------------------------------------------
+{                                   //
+  "$type": "PersonSDF",             // +-------------------------+
+  "email": "ada@q.de",              // | ogit/Person (p-01)      |
+  "friends": { "p-02": null }       // |  - ogit/email: ada@q.de |
+                                    // +-------------------------+
+}                                   //
+----------------------------------------------------------------------------------------------------------
+which result in the graph depicted above on the right. Of course, as `friends` is a JSON object there can be any number of entries in the `friends` field, in other words, any number of connections can be added or removed in one message.
+
+As we've seen earlier, not every JSON field is used for connecting vertices, some are used for setting attributes of vertices. However, in addition to those field that are explicitly enumerated under `attributes`, we can also set free attributes on an `ogit/Person` vertex using this SDF type. Free attributes are attributes on vertices that start with a forward slash (`/`). To set a free attribute through an SDF, simply assign a JSON field of the same name as the free attribute. For example:
+
+----------------------------------------------------------------------------------------------------------
+{                                   //
+  "$type": "PersonSDF",             // +--------------------+
+  "ogit/email": "bob@q.de",         // | ogit/Person (p-01) |
+  "/height: "173cm"                 // |  - /height: 173cm  |
+                                    // +--------------------+
+}                                   //
+----------------------------------------------------------------------------------------------------------
+Any number of free attributes can be set in this manner. See <<free-attributes>> for more information.
+
+== Entities section
+
+The `entities` section of an SDF definition enumerates all entities that the SDF can create and their properties. Each entry under `entities` corresponds to zero or more vertices in the graph, depending it's definition and the actual content of the SDF message. However, there will always be a single vertex in the graph for the root entity.
+
+The `entities` section is a map from entity name to it's properties (type, etc.). The entity name is used in the `verb` section to refer to this particular entity.
+
+The type of an entity is either an entity type defined in the ontology, e.g., `ogit/Person`, or an SDF type. For example:
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    entities:
+        person:
+            type: ogit/Person
+            presence: root
+            flatten: true
+            attributes:
+                ... # Elided for brevity
+        employer:
+            type: ogit/Organization
+            presence: optional
+            flatten: false
+            attributes:
+                ... # Elided for brevity
+        friends:
+            type: PersonSDF # Reference to an SDF type
+            presence: many
+            flatten: false
+    verbs:
+        ... # Elided for brevity
+----------------------------------------------------------------------------------------------------------
+Here, we define one entities, `person` (the root) of type `ogit/Person`, `employer` of type `ogit/Organization`, and `friends` of type `PersonSDF`. If an entity's type is an SDF type (such as `PersonSDF`), then this entity corresponds to the entire subgraph defined by that SDF type.
+
+=== Type property
+The `type` property of an entity is either the name of an OGIT entity type defined in the ontology, or the name of an SDF type. In the first case, then the entity corresponds to a vertex of that OGIT type. In the second case, this entity corresponds to a root vertex of a graph of the type corresponding to the named SDF type.
+
+=== Presence property
+The `presence` property is one of `root`, `mandatory`, `optional`, and `many`. The value `root` means that the entitiy is the root vertex of the graph that corresponds to this SDF type, it has otherwise the same meaning as `mandatory`. The value `mandatory` means that the entity corresponds to exactly one vertex in the graph. The value `optional` means that the entity corresponds to zero or one vertices in the graph. The value `many` means that the entity corresponds to zero or more vertices in the graph.
+
+=== Attributes section
+anchor:attributes-section[Attributes section]
+
+The `attributes` section of an SDF definition describes how attributes are mapped between fields in an SDF message and attributes on vertices in it's corresponding graph. There is one entry for each attribute to be mapped. For example:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    entities:
+        person:
+            type: ogit/Person
+            attributes:
+                ogit/email: email
+        employer:
+            ... # Elided for brevity
+        friends:
+            ... # Elided for brevity
+----------------------------------------------------------------------------------------------------------
+Here, the JSON field `email` is mapped to the `ogit/email` attribute of the `person` entity.
+
+An attribute is mandatory, meaning it must be present in an SDF message, if it's mandatory in the ontology. A non-mandatory attribute can be made mandatory using the <<mandatory-attributes>> property.
+
+==== Synchronized attributes
+In addition to those attributes enumerated under `attributes`, any number of free attributes can be set (see <<free-attributes>>) in an SDF message going to HIRO. However, _only_ attributes enumerated under `attributes` will be sent back from HIRO as part of an SDF message synchronizing changes. Thus, to make a free attribute be part of an SDF message going back from HIRO, it must be part of `attributes` as follows:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    entities:
+        person:
+            type: ogit/Person
+            attributes:
+                ogit/email: email
+                /height: /height # expicitly mapped free attributes are synchronized back
+----------------------------------------------------------------------------------------------------------
+
+
+Alternatively if all free attributes initialy created by the doapi in a vertex should be send back from HIRO the attribute `free-attributes` can be set to `synched` as follows: 
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: task
+    entities:
+        automationTask:
+            type: ogit/Automation/AutomationIssue
+            free-attributes: synched
+            attributes:
+                ogit/Automation/originNode: originNode
+----------------------------------------------------------------------------------------------------------
+
+=== Constants section
+
+There are situations when every instance of an entity has the same value of an attribute. For example, consider the following definition where we say that every person has her fax number disconnected:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    root: person
+    entities:
+        person:
+            type: ogit/Person
+            presence: root
+            attributes:
+                ogit/email: email
+            constants:
+                ogit/fax: disconnected
+    verbs: []
+----------------------------------------------------------------------------------------------------------
+
+The content of `constants` does not change how the SDF messages look, only what information that is passed to HIRO when vertices are created and updated. For example:
+
+----------------------------------------------------------------------------------------------------------
+{                                   //
+  "$type": "PersonSDF",             // +---------------------------+
+  "email: "ada@q.de"                // | ogit/Person (p-01)        |
+                                    // |  - ogit/email: ada@q.de   |
+                                    // |  - ogit/fax: disconnected |
+                                    // +---------------------------+
+}                                   //
+----------------------------------------------------------------------------------------------------------
+
+
+=== Initializers section
+
+There are situations when an instance of an entity requires a attribute to be created initially for every instance. The initializers` work as the `constants` but are only set in the vertex, when it is created initially. For example, the todo variable in an AutomationIssue should be created in every instance, but only when the AutomationIssue is initially created and not when the AutomationIssue is updated by the connector. 
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: ticketSDF
+    root: ticket
+    entities:
+        ticket:
+            type: ogit/Automation/AutomationIssue
+            presence: root
+            attributes:
+                ogit/Automation/originNode: originNode,
+                /IssueSubject: issueSubject
+                ogit/status": hiro-status
+            initializers:
+                /ProcessIssue: process_me
+    verbs: []
+----------------------------------------------------------------------------------------------------------
+
+The content of `initializers` does not change how the SDF messages look, only what information that is passed to HIRO when vertices are created. 
+
+
+
+=== Free-attributes property
+The `free-attributes` property determines if the entity may contain free attributes in addition to those explicitly mapped in the `attributes` and `constant` sections (default value is `allowed`). Any field in a JSON message that starts with a forward slash (`/`) is considered to be a free attribute, and is mapped to an OGIT attribute of the same name.
+
+For example, with `free-attributes` being `allowed`:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    entities:
+        person:
+            type: ogit/Person
+            presence: root
+            attributes:
+                ogit/email: email
+            free-attributes: allowed # Set explicitly to allowed for illustrative purposes
+    verbs:
+        ... # Elided for brevity
+----------------------------------------------------------------------------------------------------------
+
+an SDF message of this type is allowed to contain free attributes. For example:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+{
+  "$type": "PersonSDF",
+  "email": "ada@q.de",
+  "/favouriteFruit": "Apple"
+}
+----------------------------------------------------------------------------------------------------------
+
+where `/favouriteFruit` is the free attribute and will be mapped to the attribute `/favouriteFruit` on the OGIT vertex with id `p-01`. On the other hand, if `free-attributes` is `disallowed`, then the Domain Object REST API would reply with a validation error.
+
+See <<free-attributes>> for more information.
+
+For `ogit/Automation/AutomationIssue` vertices the attribute `free-attributes` can also be set to `synched`. All free attributes written by the Domain Object REST API to the `ogit/Automation/AutomationIssue` vertex will be synchronozied if the the vertex is changed in HIRO.  
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: task
+    entities:
+        automationTask:
+            type: ogit/Automation/AutomationIssue
+            free-attributes: synched
+            attributes:
+                ogit/Automation/originNode: originNode
+----------------------------------------------------------------------------------------------------------
+
+an SDF message of this type is allowed to contain free attributes. For example:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+{
+  "$type": "task",
+  "originNode": "startNodeId",
+  "/taskStatus": "start"
+}
+----------------------------------------------------------------------------------------------------------
+
+If the `/taskStatus` is changed by HIRO to "in work" the Domain Object API will send an update
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+{
+  "$type": "task",
+  "originNode": "startNodeId",
+  "/taskStatus": "in work"
+}
+----------------------------------------------------------------------------------------------------------
+
+
+== Mandatory-attributes property
+anchor:mandatory-attributes[mandatory attributes]
+The `mandatory-attributes` value is a list of attribute names that is forced to be mandatory even though they are optional (or free) in the ontology.
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    root: person
+    entities:
+        person:
+            type: ogit/Person
+            presence: root
+            attributes:
+                ogit/title: title
+            mandatory-attributes: [title]
+----------------------------------------------------------------------------------------------------------
+
+Here, the attribuet `title` will be required to be present in all SDF messages of this type.
+
+
+== Volatile-attributes property
+Normally, if an attributes is assigned twice in the HIRO graph rapid succession in, only the last assignment will be seen on `/views/default/updates`. However, for some type of attributes you need to see all assignments. To achieve this, use the `volatile-attributes` attribute in the SDF definition. For example:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    root: person
+    entities:
+        person:
+            type: ogit/Person
+            presence: root
+            attributes:
+                /state: state
+            volatile-attributes: [state]
+----------------------------------------------------------------------------------------------------------
+
+Here, every change to the attribute `state` will be seen on `/views/default/updates`.
+
+
+== Verbs section
+
+The `verbs` section of an SDF definition describes how entities are connected. Every entity much be reachable from the root entity. More specifically, every entity must be connected to at least one mandatory entity that is either the root entity or connected to the root entity through a sequence of mandatory entities.
+
+This might seem overly constrained, but it is required to enforce that an SDF message cannot create a disconnected graph (a graph where at least one vertex cannot be reached from the root vertex). Other than this requirement, any verb can connect any two entitites as long at the ontology allows it.
+
+For example:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    root: person
+    entities:
+        person:
+            ... # Elided for brevity
+        employer:
+            ... # Elided for brevity
+        friends:
+            ... # Elided for brevity
+    verbs:
+        - {from: person, id: ogit/likes, to: friends}
+        - {from: employer, id: ogit/employs, to: person}
+    ... # Elided for brevity
+----------------------------------------------------------------------------------------------------------
+
+A verb consists of the following properties:
+
+** `id`, the OGIT name of the verb type.
+** `from`, the entity name (which must be defined in the `entities` section) of the vertex the verb point from.
+** `to`, the entity name (which must be defined in the `entities` section) of the vertex the verb point to.
+
+
+== Timeseries entity
+
+There is a special OGIT type called `ogit/Timeseries` which, in addition to named attributes, holds an append-only list of timestamped values. In an SDF definition, entities of this type has a special attribute `$timeseries`. This attribute can be mapped to any JSON field, just like any other attribute, but it is mapped in the graph to a timeseries rather than an attribute on a vertex. Below is an example of this:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    root: person
+    entities:
+        person:
+            ... # Elided for brevity
+        temperature:
+            type: ogit/Timeseries
+            presence: mandatory
+            attributes:
+                $timeseries: temperature
+            constants:
+                ogit/unit: celcius
+    verbs:
+        - {id: ogit/tracks, from: person, to: temperature}
+
+----------------------------------------------------------------------------------------------------------
+
+Given this SDF definition, we can send some time series data as follows:
+----------------------------------------------------------------------------------------------------------
+{                                                  // +-------------------------+
+  "$type": "PersonSDF",                            // | ogit/Person             |--+
+  "email: "ada@q.de",                              // |  - ogit/email: ada@q.de |  | ogit/tracks
+  "temperature": [                                 // +-------------------------+  v
+      {"timestamp": 1534762312, "value": "37.3"},  //               +------------------------+
+      {"timestamp": 1534797689, "value": "37.2"}   //               | ogit/Timeseries        |
+  ]                                                //               |   - ogit/unit: celcius |
+                                                   //               |------------------------|
+                                                   //               | 1534762312: "37.3"     |
+                                                   //               | 1534797689: "37.2"     |
+}                                                  //               +------------------------+
+----------------------------------------------------------------------------------------------------------
+
+where the `ogit/Timeseries` vertex contains the data sent in the `temperature` JSON field.
+
+
+=== Timestamp unit
+
+The unit of the timestamp is by default milliseconds, but can be configured using the `timestamp-unit` property. Legal values are `ms` and `s`, for milliseconds and seconds since 1st of January 1970, respectively. For example:
+
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    root: person
+    entities:
+        person:
+            ... # Elided for brevity
+        temperature:
+            type: ogit/Timeseries
+            presence: mandatory
+            timestamp-unit: s
+            attributes:
+                $timeseries: temperature
+            constants:
+                ogit/unit: celcius
+    verbs:
+        - {id: ogit/tracks, from: person, to: temperature}
+
+----------------------------------------------------------------------------------------------------------
+
+Given this SDF definition, we can send some time series data as follows:
+----------------------------------------------------------------------------------------------------------
+{                                                  // +-------------------------+
+  "$type": "PersonSDF",                            // | ogit/Person             |--+
+  "email: "ada@q.de",                              // |  - ogit/email: ada@q.de |  | ogit/tracks
+  "temperature": [                                 // +-------------------------+  v
+      {"timestamp": 1534762, "value": "37.3"},     //               +------------------------+
+      {"timestamp": 1534797, "value": "37.2"}      //               | ogit/Timeseries        |
+  ]                                                //               |   - ogit/unit: celcius |
+                                                   //               |------------------------|
+                                                   //               | 1534762000: "37.3"     |
+                                                   //               | 1534797000: "37.2"     |
+}                                                  //               +------------------------+
+----------------------------------------------------------------------------------------------------------
+
+Notice that the timestamps stored in the HIRO graph (right-hand side in the figure above) have been scaled by 1000 as the timeseries timestamps in the graph is always in milliseconds. 
+
+
+=== Caching
+
+In addition to simply writing values to the timeseries, the last _N_ values can be written to the list-valued attribute `/cache` in the _ogit/Timeseries_ vertex itself. The vertex attribute where to store the values to the timeseries can be explicitly set by `cache-attribute`. With `cache-target` the relative path (self|parent) in which vertex to store the values to the timeseries can be defined. To enable caching, the constant `cache-size` property is given a value greater than zero or `cache-target` or `cache-attribute` are set explicitly, e.g., 
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonSDF
+    root: person
+    entities:
+        person:
+            type: ogit/Person
+            ... # Elided for brevity
+        temperature:
+            type: ogit/Timeseries
+            presence: mandatory
+            cache-size: 5 # The maximum number of elements to keep in the cache-attribute attribute
+            cache-attribute: "/cache" # The attribute to store the cache - default: /cache
+            cache-target: self # in wich vertex to store the cache (self|parent) - default: self 
+            attributes:
+                $timeseries: temperature
+            constants:
+                ogit/unit: celcius
+    verbs:
+        - {id: ogit/tracks, from: person, to: temperature}
+
+----------------------------------------------------------------------------------------------------------
+
+Writing the same domain object as above results in a vertex that looks like:
+---------------------------------------------
+{
+  ... # Elided for brevity
+  "ogit\/_type": "ogit\/Timeseries",
+  "/cache": [
+    {
+      "created": 1560340102657,
+      "value": "37.3"
+    },
+    {
+      "created": 1560340102657,
+      "value": "37.2"
+    }
+  ],
+}
+---------------------------------------------
+
+
+With `cache-attribute` set to `parent` the domain object as above results in a vertex that looks like:
+---------------------------------------------
+{
+  ... # Elided for brevity
+  "ogit\/_type": "ogit\/Person",
+  "/cache": [
+    {
+      "created": 1560340102657,
+      "value": "37.3"
+    },
+    {
+      "created": 1560340102657,
+      "value": "37.2"
+    }
+  ],
+}
+---------------------------------------------
+
+== Attachment entity
+
+The OGIT type called `ogit/Attachment` is given special treatment. In an SDF definition, entities of this type has a special attribute `$attachment`. This attribute can be mapped to any JSON field, just like any other attribute, but it is mapped in the graph to an attachment rather than an attribute on a vertex. Below is an example of this:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: OrganizationSDF
+    root: org
+    entities:
+        org:
+            type: ogit/Organization
+            presence: root
+            attributes:
+                ogit/name: orgName
+        attachment:
+            type: ogit/Attachment
+            presence: mandatory
+            attributes:
+                $attachment: data
+    verbs:
+        - {id: ogit/belongs, from: org, to: attachment}
+
+
+----------------------------------------------------------------------------------------------------------
+
+Attachment data can be any kind of binary data, thus as SDF messages are JSON the data is base-64 encoded. For example, in the JSON below we send the text `This is the attachment` in the `data` field:
+----------------------------------------------------------------------------------------------------------
+{                                                    // +----------------------------+ ogit/belongs
+  "$type": "OrganizationSDF",                        // | ogit/Organization (org-01) |--+ 
+  "name: "Ada Corp.",                                // |  - ogit/name: Ada Corp.    |  |
+    "attachment": {                                  // +----------------------------+  v
+      "att-01": {                                    //            +------------------------+
+        "data": "VGhpcyBpcyB0aGUgYXR0YWNobWVudA=="   //            | ogit/Attachment        |
+    }                                                //            |------------------------|
+  }                                                  //            | This is the attachment |
+}                                                    //            +------------------------+
+----------------------------------------------------------------------------------------------------------
+
+where the `ogit/Attachment` vertex contains the data sent in the `data` JSON field base-64 decoded. Note that attachment data can only be sent to HIRO, it is never part of the SDF sent from HIRO to a external system.
+
+
+
+
+== AutomationIssue entity
+
+When defining a view to map to an `ogit/Automation/AutomationIssue`, the following attributes have to be taken into account.
+
+=== Special attributes for an AutomationIssue
+
+==== originNode
+
+The HIRO Engine can process an `ogit/Automation/AutomationIssue` only when the AutomationIssue is linked to an `automation model` in the HIRO Graph. The `automation model` describes the environment for which `automation tasks` should be handled by HIRO. Each `ogit/Automation/AutomationIssue` has to be linked to a starting vertex. This is done by setting the `ogit/Automation/originNode`.   
+
+The `ogit/Automation/originNode` attribute of each `ogit/Automation/AutomationIssue` vertex stores the internal id (`ogit/_id`) of a vertex belonging to the automation model. The Domain Object API do not expose the internal id, but instead uses external id (`ogit/_xid` with a configurable prefix). This means that any value given to an SDF field mapped to `ogit/Automation/originNode` should be given external id, and the Domain Object API will automatically translate this to/from the internal id as required by the HIRO Graph.
+
+As an example, consider the following SDF definition:
+....
+  {"type": "ogit/Automation/AutomationIssue",
+   "id": "AutomationIssue",
+   "presence": "root",
+    "attributes": {
+      "ogit/Automation/originNode": "originNode",
+      ...
+     },
+     ...
+   }
+....
+and the following SDF message of this type
+....
+  {"$type": "AutomationIssue",
+   "originNode": "machine-001"
+  }
+....
+Here, the Domain Object API will query the graph for `machine-001` to get the internal id for the vertex, and then store `{"ogit/Automation/originNode": <internal id>, ...}` in the HIRO Graph. Similarly, when the Domain Object API emits an update, the reversed translation (from internal id to external id) will be performed.
+
+
+==== Process Issue
+
+An `ogit/Automation/AutomationIssue` needs to have at least one `todo` variable to be processed by the HIRO Engine.
+A way to ensure that the AutomationIssue contains an `todo` variable is to set `/ProcessIssue` in the initializers section of the view definition. Initializers are only used when writing to the vertex when the vertex, in this case the ogit/Automation/AutomationIssue, is initially created. In other words, when updating an existing vertex the initializers are not used.
+
+Example:
+....
+  "initializers":{
+    "/ProcessIssue":"process_me"
+  }
+....
+
+==== Issue Subject
+
+The attribute `ogit/subject` defines how the title of the AutomationIssue is represented in the frontend.
+
+Example:
+....
+  "attributes": {
+    "ogit/subject": "issueSubject"
+  }
+....
+
+
+==== Status
+
+The `ogit/Automation/AutomationIssue` uses the `ogit/status` to track the current status of the AutomationIssue.
+To be able to see if the AutomationIssue is processed correctly in the `\updates` stream, the `ogit/status` has to be defined in the view.
+To make sure that each status change is send, the `hiro-status` should be set as a `volatile-attribute`.
+In the beginning of the automation the `ogit/status` switches to `PROCESSING`.
+
+Example:
+....
+
+  "attributes": {
+    "ogit/status": "hiro-status"
+  },
+  "volatile-attributes": [
+    "hiro-status"
+  ]
+
+....
+
+==== Deploy status
+
+Defining the `ogit/Automation/deployStatus` for the `ogit/Automation/AutomationIssue` enables tracking the deploy status in the `/updates` endpoint on the Domain Object REST API.
+If an error occurs while deploying the AutomationIssue to the HIRO Engine, this error will be visible in the `deployStatus`.
+When an AutomationIssue is successfully created, the `ogit/Automation/deployStatus` switches to `deployed`.
+
+Example:
+....
+
+  "attributes": {
+    "ogit/Automation/deployStatus":"hiro-deployStatus"
+  }
+....
+
+
+==== Issue History
+
+To get the steps performed by HIRO the `Issue History` has to be part of the view definition.
+The following example will map each entry in the `Issue History` as a `worklog` message in the `\updates` endpoint on the Domain Object REST API.
+
+Example:
+....
+"entities": {
+
+  "worklog": {
+    "type": "ogit/Timeseries",
+    "presence": "optional",
+    "attributes": {
+      "$timeseries": "worklog"
+    },
+    "constants": {
+      "ogit/name": "History",
+      "/TimeseriesType": "Issue History"
+    }
+  }
+}
+....
+
+=== Full view for an AutomationIssue
+
+The following example contains all special attributes for an `ogit/Automation/AutomationIssue`:
+
+....
+{
+  "sdf": {
+    "id": "sampleAutomationTask",
+    "entities": {
+      "automationTask": {
+        "type": "ogit/Automation/AutomationIssue",
+        "presence": "root",
+        "attributes": {
+          "/IssueSubject": "issueSubject",
+          "ogit/Automation/originNode": "originNode",
+          "ogit/status": "hiro-status",
+          "ogit/Automation/deployStatus": "hiro-deployStatus"
+        },
+        "constants": {
+          "/actual_type": "automationTask"
+        },
+        "initializers": {
+          "/ProcessIssue": "process_me"
+        },
+        "volatile-attributes": [
+          "hiro-status"
+        ]
+      },
+      "worklog": {
+        "type": "ogit/Timeseries",
+        "presence": "optional",
+        "attributes": {
+          "$timeseries": "worklog"
+        },
+        "constants": {
+          "ogit/name": "History",
+          "/TimeseriesType": "Issue History"
+        }
+      },
+      "comments": {
+        "attributes": {
+          "$timeseries": "comments"
+        },
+        "cache-attribute": "/comments",
+        "cache-size": 5,
+        "cache-target": "parent",
+        "constants": {
+          "/TimeseriesType": "UserComment",
+          "ogit/name": "UserComment"
+        },
+        "presence": "optional",
+        "type": "ogit/Timeseries"
+      }
+    },
+    "verbs": [
+      {
+        "from": "sampleAutomationTask",
+        "id": "ogit/generates",
+        "to": "worklog"
+      },
+      {
+        "from": "sampleAutomationTask",
+        "id": "ogit/generates",
+        "to": "comments"
+      }
+    ]
+  }
+}
+....
+
+
+== Free attributes
+anchor:free-attributes[free attributes]
+
+Vertices in HIRO may, in addition to mandatory and optional attributes, contain _free attributes_. The name of a free attribute must start with a forward slash (`/`). Recall that to set a mandatory or optional attribute of a vertex through an SDF message, its SDF definition must explicitly say how this attribute is mapped to a JSON field (see <<attributes-section>>). On the other hand, to set a free attribute the SDF message needs only to contain a JSON field with the same name as the free attribute.
+
+When a vertex is updated in a graph, this change will be synchronized back through an SDF (if there is an appropriate SDF definition for this vertex type). At this point, only attributes of the vertex that have been explicitly enumerated under the <<attributes-section>> will be synchronized back. The implication is that free attributes must be enumerated under the attribute section to be synchronized back.
+
+== Writing an SDF definition
+
+When writing an SDF definition it is recomended to start with an existing ontology, meaning, you know how the graph(s) the SDF definition should map to looks. Focus on that the SDF definition captures the ontology correctly.
+
+Start by defining the entities, their types, and how they connect. This should be possible by looking at either the ontology or some example graphs. After this, for each entity, write the `presence` property. Finally, write the `attributes` section by starting with the `$id` attribute.
+
+Now try to write some SDF messages following the SDF definition you have and see if the names of attributes and entities makes sense or if they need to be renamed to make the meaning clearer.
+
+Optionally, consider using the `json-path` property to reshape SDF message to make them easier to work with.
+
+== Inheritance
+
+An SDF definition can inherit from another SDF definition by letting the root entity reference another SDF definition, rather than an OGIT entity type. Additional attributes and constatns can be added to the root type. For example:
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: PersonBaseSDF
+    entities:
+        person:
+            type: ogit/Person
+            presence: root
+            attributes:
+                ogit/firstName: firstName
+                ogit/lastName: lastName
+                ogit/email: email
+    verbs: []
+- sdf:
+    id: PersonSDF
+    entities:
+        person:
+            type: PersonBaseSDF
+            presence: root
+            attributes:
+                ogit/title: title
+        friends:
+            type: ogit/Person
+            presence: many
+            attributes:
+                ogit/firstName: firstName
+                ogit/lastName: lastName
+    verbs:
+        - {id: ogit/likes, from: person, to: friends}
+
+----------------------------------------------------------------------------------------------------------
