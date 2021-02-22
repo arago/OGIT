@@ -1,37 +1,20 @@
 {
   "sdf": {
-    "id": "configSoftware",
     "scope": "in",
-    "entities": {
-      "software": {
-        "type": "ogit/MARS/Software",
-        "presence": "root",
-        "attributes": {
-          "ogit/name": "name",
-          "ogit/MARS/Software/class": "softwareClass",
-          "ogit/MARS/Software/subClass": "softwareSubClass",
-          "ogit/Automation/automationState": "automationState",
-          "ogit/Automation/lifecycle": "lifecycle",
-          "ogit/Automation/serviceStatus": "status",
-          "ogit/MARS/Network/bindAddress": "networkBindAddress",
-          "ogit/MARS/Network/port": "networkPort",
-          "ogit/MARS/Network/protocol": "networkProtocol",
-          "ogit/MARS/Software/installPath": "installPath",
-          "ogit/MARS/Software/instanceId": "instanceId",
-          "ogit/MARS/Software/logPath": "logPath",
-          "ogit/MARS/Software/serviceName": "serviceName",
-          "ogit/Version/major": "versionMajor",
-          "ogit/Version/minor": "versionMinor",
-          "ogit/Version/patch": "versionPatch",
-          "ogit/endOfWarranty": "endOfWarranty",
-          "ogit/serialNumber": "serialNumber",
-          "ogit/url": "url",
-          "ogit/vendor": "vendor"
-        },
-        "constants": {
-          "ogit/Automation/marsNodeType": "Software"
-        }
+    "verbs": [
+      {
+        "to": "machine",
+        "from": "software",
+        "id": "ogit/dependsOn"
       },
+      {
+        "to": "resource",
+        "from": "software",
+        "id": "ogit/dependsOn"
+      }
+    ],
+    "id": "configSoftware",
+    "entities": {
       "machine": {
         "type": "configMachine",
         "presence": "many"
@@ -39,19 +22,36 @@
       "resource": {
         "type": "configResource",
         "presence": "many"
-      }
-    },
-    "verbs": [
-      {
-        "from": "software",
-        "id": "ogit/dependsOn",
-        "to": "machine"
       },
-      {
-        "from": "software",
-        "id": "ogit/dependsOn",
-        "to": "resource"
+      "software": {
+        "attributes": {
+          "ogit/Automation/lifecycle": "lifecycle",
+          "ogit/MARS/Software/installPath": "installPath",
+          "ogit/MARS/Network/bindAddress": "networkBindAddress",
+          "ogit/Version/major": "versionMajor",
+          "ogit/endOfWarranty": "endOfWarranty",
+          "ogit/MARS/Software/logPath": "logPath",
+          "ogit/MARS/Network/protocol": "networkProtocol",
+          "ogit/MARS/Network/port": "networkPort",
+          "ogit/vendor": "vendor",
+          "ogit/name": "name",
+          "ogit/MARS/Software/subClass": "softwareSubClass",
+          "ogit/MARS/Software/instanceId": "instanceId",
+          "ogit/MARS/Software/class": "softwareClass",
+          "ogit/Version/minor": "versionMinor",
+          "ogit/serialNumber": "serialNumber",
+          "ogit/Automation/automationState": "automationState",
+          "ogit/MARS/Software/serviceName": "serviceName",
+          "ogit/url": "url",
+          "ogit/Version/patch": "versionPatch",
+          "ogit/Automation/serviceStatus": "status"
+        },
+        "type": "ogit/MARS/Software",
+        "constants": {
+          "ogit/Automation/marsNodeType": "Software"
+        },
+        "presence": "root"
       }
-    ]
+    }
   }
 }

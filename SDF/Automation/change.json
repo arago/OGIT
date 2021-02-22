@@ -1,82 +1,81 @@
 {
   "sdf": {
-    "id": "change",
     "entities": {
-      "change": {
-        "type": "ogit/Automation/AutomationIssue",
-        "presence": "root",
-        "attributes": {
-          "ogit/Automation/originNode": "originNode",
-          "ogit/Automation/issueType": "issueType",
-          "ogit/status": "hiroStatus",
-          "/changeStatus": "sourceStatus",
-          "/openedAt": "openedAt",
-          "ogit/subject": "subject",
-          "/assignedGroup": "assignee",
-          "/description": "description",
-          "/impact": "impact",
-          "/justification": "justification",
-          "/priority": "priority",
-          "/resolutionCode": "resolutionCode",
-          "/risk": "risk",
-          "/scheduledEndAt": "scheduledEndAt",
-          "/scheduledFinishAt": "scheduledFinishAt",
-          "/scheduledStartAt": "scheduledStartAt",
-          "/startedAt": "startedAt",
-          "/summary": "summary",
-          "/targetFinishAt": "targetFinishAt",
-          "/targetStartAt": "targetStartAt",
-          "/urgency": "urgency",
-          "ogit/Automation/deployStatus": "closeNotes"
-        },
-        "constants": {
-          "/actual_type": "ChangeType"
-        },
-        "initializers": {
-          "/ProcessIssue": "process_me"
-        },
-        "volatile-attributes": [
-          "hiroStatus"
-        ]
-      },
       "worklog": {
-        "type": "ogit/Timeseries",
-        "presence": "optional",
-        "cache-size": 5,
         "attributes": {
           "$timeseries": "worklog"
         },
+        "type": "ogit/Timeseries",
         "constants": {
-          "ogit/name": "History",
-          "/TimeseriesType": "Issue History"
-        }
+          "/TimeseriesType": "Issue History",
+          "ogit/name": "History"
+        },
+        "cache-size": 5,
+        "presence": "optional"
       },
       "comments": {
-        "type": "ogit/Timeseries",
-        "presence": "optional",
-        "cache-size": 5,
         "cache-target": "parent",
-        "cache-attribute": "/response",
+        "presence": "optional",
+        "cache-attribute": "/comments",
+        "cache-size": 5,
         "attributes": {
           "$timeseries": "comments"
         },
+        "type": "ogit/Timeseries",
         "constants": {
-          "ogit/name": "UserComment",
-          "/TimeseriesType": "UserComment"
+          "/TimeseriesType": "UserComment",
+          "ogit/name": "UserComment"
+        }
+      },
+      "change": {
+        "volatile-attributes": [
+          "hiroStatus"
+        ],
+        "presence": "root",
+        "initializers": {
+          "/ProcessIssue": "process_me"
+        },
+        "attributes": {
+          "/startedAt": "startedAt",
+          "/targetFinishAt": "targetFinishAt",
+          "/priority": "priority",
+          "/risk": "risk",
+          "/openedAt": "openedAt",
+          "/summary": "summary",
+          "/changeStatus": "sourceStatus",
+          "/scheduledFinishAt": "scheduledFinishAt",
+          "/scheduledEndAt": "scheduledEndAt",
+          "/urgency": "urgency",
+          "/resolutionCode": "resolutionCode",
+          "/targetStartAt": "targetStartAt",
+          "ogit/status": "hiroStatus",
+          "/impact": "impact",
+          "/description": "description",
+          "ogit/subject": "subject",
+          "/assignedGroup": "assignee",
+          "ogit/Automation/deployStatus": "closeNotes",
+          "ogit/Automation/originNode": "originNode",
+          "/justification": "justification",
+          "/scheduledStartAt": "scheduledStartAt"
+        },
+        "type": "ogit/Automation/AutomationIssue",
+        "constants": {
+          "ogit/Automation/issueType": "change"
         }
       }
     },
     "verbs": [
       {
-        "from": "change",
         "to": "worklog",
+        "from": "change",
         "id": "ogit/generates"
       },
       {
-        "from": "change",
         "to": "comments",
+        "from": "change",
         "id": "ogit/generates"
       }
-    ]
+    ],
+    "id": "change"
   }
 }
