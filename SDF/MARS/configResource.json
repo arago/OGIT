@@ -1,43 +1,43 @@
 {
   "sdf": {
-    "id": "configResource",
     "scope": "in",
+    "verbs": [
+      {
+        "to": "resource",
+        "from": "software",
+        "id": "ogit/dependsOn"
+      },
+      {
+        "to": "application",
+        "from": "resource",
+        "id": "ogit/dependsOn"
+      }
+    ],
+    "id": "configResource",
     "entities": {
+      "application": {
+        "type": "configApplication",
+        "presence": "many"
+      },
       "resource": {
-        "type": "ogit/MARS/Resource",
-        "presence": "root",
         "attributes": {
-          "ogit/name": "name",
-          "ogit/MARS/Resource/class": "resourceClass",
-          "ogit/Automation/automationState": "automationState",
           "ogit/Automation/lifecycle": "lifecycle",
-          "ogit/Automation/serviceStatus": "status",
-          "ogit/url": "url"
+          "ogit/MARS/Resource/class": "resourceClass",
+          "ogit/name": "name",
+          "ogit/Automation/automationState": "automationState",
+          "ogit/url": "url",
+          "ogit/Automation/serviceStatus": "status"
         },
+        "type": "ogit/MARS/Resource",
         "constants": {
           "ogit/Automation/marsNodeType": "Resource"
-        }
+        },
+        "presence": "root"
       },
       "software": {
         "type": "configSoftware",
         "presence": "many"
-      },
-      "application": {
-        "type": "configApplication",
-        "presence": "many"
       }
-    },
-    "verbs": [
-      {
-        "from": "software",
-        "id": "ogit/dependsOn",
-        "to": "resource"
-      },
-      {
-        "from": "resource",
-        "id": "ogit/dependsOn",
-        "to": "application"
-      }
-    ]
+    }
   }
 }
