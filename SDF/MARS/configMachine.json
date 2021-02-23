@@ -1,0 +1,50 @@
+{
+  "sdf": {
+    "scope": "in",
+    "verbs": [
+      {
+        "to": "machine",
+        "from": "software",
+        "id": "ogit/dependsOn"
+      }
+    ],
+    "id": "configMachine",
+    "entities": {
+      "machine": {
+        "attributes": {
+          "ogit/MARS/Machine/distroName": "distroName",
+          "ogit/name": "name",
+          "ogit/MARS/Network/ipVersion": "networkIpVersion",
+          "ogit/Automation/automationState": "automationState",
+          "ogit/MARS/Machine/class": "systemType",
+          "ogit/Automation/lifecycle": "lifecycle",
+          "ogit/MARS/Network/interfaceMAC": "networkInterfaceMAC",
+          "ogit/MARS/Machine/cpuArch": "cpuArch",
+          "ogit/Version/minor": "versionMinor",
+          "ogit/MARS/Network/interfaceIP": "networkInterfaceIP",
+          "ogit/MARS/Network/defaultGateway": "networkDefaultGateway",
+          "ogit/Version/patch": "versionPatch",
+          "ogit/serialNumber": "serialNumber",
+          "ogit/MARS/Machine/kernel": "kernel",
+          "ogit/vendor": "vendor",
+          "ogit/MARS/Network/interfacePrefixLength": "netwrokInterfacePrefixLength",
+          "ogit/endOfWarranty": "endOfWarranty",
+          "ogit/MARS/Network/fqdn": "fqdn",
+          "ogit/MARS/Network/interfaceName": "networkInterfaceName",
+          "ogit/Automation/serviceStatus": "status",
+          "ogit/Version/major": "versionMajor",
+          "ogit/MARS/Machine/ram": "memory"
+        },
+        "type": "ogit/MARS/Machine",
+        "constants": {
+          "ogit/Automation/marsNodeType": "Machine"
+        },
+        "presence": "root"
+      },
+      "software": {
+        "type": "configSoftware",
+        "presence": "many"
+      }
+    }
+  }
+}

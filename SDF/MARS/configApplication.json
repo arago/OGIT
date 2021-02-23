@@ -1,0 +1,34 @@
+{
+  "sdf": {
+    "scope": "in",
+    "verbs": [
+      {
+        "to": "application",
+        "from": "resource",
+        "id": "ogit/dependsOn"
+      }
+    ],
+    "id": "configApplication",
+    "entities": {
+      "application": {
+        "attributes": {
+          "ogit/Automation/lifecycle": "lifecycle",
+          "ogit/name": "name",
+          "ogit/MARS/Application/class": "applicationClass",
+          "ogit/Automation/automationState": "automationState",
+          "ogit/MARS/Application/subClass": "applicationSubClass",
+          "ogit/Automation/serviceStatus": "status"
+        },
+        "type": "ogit/MARS/Application",
+        "constants": {
+          "ogit/Automation/marsNodeType": "Application"
+        },
+        "presence": "root"
+      },
+      "resource": {
+        "type": "configResource",
+        "presence": "many"
+      }
+    }
+  }
+}

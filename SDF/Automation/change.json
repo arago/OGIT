@@ -1,0 +1,81 @@
+{
+  "sdf": {
+    "entities": {
+      "worklog": {
+        "attributes": {
+          "$timeseries": "worklog"
+        },
+        "type": "ogit/Timeseries",
+        "constants": {
+          "/TimeseriesType": "Issue History",
+          "ogit/name": "History"
+        },
+        "cache-size": 5,
+        "presence": "optional"
+      },
+      "comments": {
+        "cache-target": "parent",
+        "presence": "optional",
+        "cache-attribute": "/comments",
+        "cache-size": 5,
+        "attributes": {
+          "$timeseries": "comments"
+        },
+        "type": "ogit/Timeseries",
+        "constants": {
+          "/TimeseriesType": "UserComment",
+          "ogit/name": "UserComment"
+        }
+      },
+      "change": {
+        "volatile-attributes": [
+          "hiroStatus"
+        ],
+        "presence": "root",
+        "initializers": {
+          "/ProcessIssue": "process_me"
+        },
+        "attributes": {
+          "/startedAt": "startedAt",
+          "/targetFinishAt": "targetFinishAt",
+          "/priority": "priority",
+          "/risk": "risk",
+          "/openedAt": "openedAt",
+          "/summary": "summary",
+          "/changeStatus": "sourceStatus",
+          "/scheduledFinishAt": "scheduledFinishAt",
+          "/scheduledEndAt": "scheduledEndAt",
+          "/urgency": "urgency",
+          "/resolutionCode": "resolutionCode",
+          "/targetStartAt": "targetStartAt",
+          "ogit/status": "hiroStatus",
+          "/impact": "impact",
+          "/description": "description",
+          "ogit/subject": "subject",
+          "/assignedGroup": "assignee",
+          "ogit/Automation/deployStatus": "closeNotes",
+          "ogit/Automation/originNode": "originNode",
+          "/justification": "justification",
+          "/scheduledStartAt": "scheduledStartAt"
+        },
+        "type": "ogit/Automation/AutomationIssue",
+        "constants": {
+          "ogit/Automation/issueType": "change"
+        }
+      }
+    },
+    "verbs": [
+      {
+        "to": "worklog",
+        "from": "change",
+        "id": "ogit/generates"
+      },
+      {
+        "to": "comments",
+        "from": "change",
+        "id": "ogit/generates"
+      }
+    ],
+    "id": "change"
+  }
+}

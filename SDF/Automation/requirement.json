@@ -1,0 +1,73 @@
+{
+  "sdf": {
+    "entities": {
+      "requirement": {
+        "volatile-attributes": [
+          "hiroStatus"
+        ],
+        "presence": "root",
+        "initializers": {
+          "/ProcessIssue": "process_me"
+        },
+        "attributes": {
+          "/targetFinishAt": "targetFinishAt",
+          "/priority": "priority",
+          "/openedAt": "openedAt",
+          "ogit/Automation/deployStatus": "closeNotes",
+          "ogit/status": "hiroStatus",
+          "/impact": "impact",
+          "/description": "description",
+          "ogit/subject": "subject",
+          "/assignedGroup": "assignee",
+          "/sourceStatus": "sourceStatus",
+          "ogit/Automation/originNode": "originNode",
+          "/targetStartAt": "targetStartAt"
+        },
+        "type": "ogit/Automation/AutomationIssue",
+        "constants": {
+          "ogit/Automation/issueType": "requirement"
+        },
+        "free-attributes": "synched"
+      },
+      "worklog": {
+        "attributes": {
+          "$timeseries": "worklog"
+        },
+        "type": "ogit/Timeseries",
+        "constants": {
+          "/TimeseriesType": "Issue History",
+          "ogit/name": "History"
+        },
+        "cache-size": 5,
+        "presence": "optional"
+      },
+      "comments": {
+        "cache-target": "parent",
+        "presence": "optional",
+        "cache-attribute": "/comments",
+        "cache-size": 5,
+        "attributes": {
+          "$timeseries": "comments"
+        },
+        "type": "ogit/Timeseries",
+        "constants": {
+          "/TimeseriesType": "UserComment",
+          "ogit/name": "UserComment"
+        }
+      }
+    },
+    "verbs": [
+      {
+        "to": "worklog",
+        "from": "requirement",
+        "id": "ogit/generates"
+      },
+      {
+        "to": "comments",
+        "from": "requirement",
+        "id": "ogit/generates"
+      }
+    ],
+    "id": "requirement"
+  }
+}
