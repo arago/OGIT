@@ -1,6 +1,13 @@
 {
   "sdf": {
     "entities": {
+      "attachment": {
+        "attributes": {
+          "$attachment": "data"
+        },
+        "presence": "many",
+        "type": "ogit/Attachment"
+      },
       "worklog": {
         "attributes": {
           "$timeseries": "worklog"
@@ -58,6 +65,11 @@
         "to": "worklog",
         "from": "event",
         "id": "ogit/generates"
+      },
+      {
+        "to": "event",
+        "id": "ogit/belongs",
+        "from": "attachment"
       }
     ],
     "id": "event"
