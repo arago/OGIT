@@ -1,6 +1,13 @@
 {
   "sdf": {
     "entities": {
+      "attachment": {
+        "attributes": {
+          "$attachment": "data"
+        },
+        "presence": "many",
+        "type": "ogit/Attachment"
+      },
       "requirement": {
         "volatile-attributes": [
           "hiroStatus"
@@ -66,6 +73,11 @@
         "to": "comments",
         "from": "requirement",
         "id": "ogit/generates"
+      },
+      {
+        "to": "requirement",
+        "id": "ogit/belongs",
+        "from": "attachment"
       }
     ],
     "id": "requirement"
