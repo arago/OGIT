@@ -59,6 +59,7 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 			[ ogit:belongs  ogit.MARS:Resource ]
 			[ ogit:belongs  ogit.MARS:Application ]
 			[ ogit:belongs  ogit.Automation:MARSNode ]
+			[ ogit:belongs  ogit.Automation:AutomationIssue ]
 			[ ogit:belongs  ogit:Contract ]
 			[ ogit:belongs  ogit:License ]
 			[ ogit:belongs  ogit.ServiceManagement:Ticket ]
