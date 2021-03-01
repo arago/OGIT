@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Automation, \n 02/19/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Automation, \n 03/01/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -90,6 +90,7 @@ edge [  color="gray81"];
    "ogit/Automation/ActionHandler" -> "ogit/Automation/ActionApplicability" [label="   ogit/provides    "];
    "ogit/Organization" -> "ogit/Automation/MARSNode" [label="   ogit/owns    "];
    "ogit/Attachment" -> "ogit/Automation/MARSNode" [label="   ogit/belongs    "];
+   "ogit/Attachment" -> "ogit/Automation/AutomationIssue" [label="   ogit/belongs    "];
    "ogit/Automation/Configuration" -> "ogit/Automation/ActionHandler" [label="   ogit/uses    "];
    "ogit/Automation/Configuration" -> "ogit/Automation/KIRanking" [label="   ogit/uses    "];
    "ogit/Automation/Configuration" -> "ogit/Automation/KnowledgePool" [label="   ogit/uses    "];
