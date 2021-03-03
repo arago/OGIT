@@ -2,6 +2,7 @@
   "sdf": {
     "entities": {
       "attachment": {
+        "attachment-list-attribute": "/Attachment_xids",
         "attributes": {
           "ogit/name": "name",
           "ogit/url": "url",
