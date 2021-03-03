@@ -3,6 +3,12 @@
     "entities": {
       "attachment": {
         "attributes": {
+          "ogit/name": "name",
+          "ogit/url": "url",
+          "ogit/type": "type",
+          "ogit/sourceTable": "sourceTable",
+          "ogit/size": "size",
+          "/upload_date":"upload_date",
           "$attachment": "data"
         },
         "presence": "many",
