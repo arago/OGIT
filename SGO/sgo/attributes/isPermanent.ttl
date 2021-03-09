@@ -3,10 +3,10 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit:isImmutable
+ogit:isPermanent
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "isImmutable";
+	rdfs:label "isPermanent";
 	dcterms:description """
 		If value equals \"true\" vertex and its secondary data (timeseries values) can not be updated or deleted.
 		E.g. after a service is provisioned.
