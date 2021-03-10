@@ -45,6 +45,7 @@ var searchData=
   ['isinternal',['isInternal',['../group__httpwwwpurlorgogitisInternal.html',1,'']]],
   ['ismutable',['isMutable',['../group__httpwwwpurlorgogitisMutable.html',1,'']]],
   ['ispartof',['isPartOf',['../group__httpwwwpurlorgogitisPartOf.html',1,'']]],
+  ['ispermanent',['isPermanent',['../group__httpwwwpurlorgogitisPermanent.html',1,'']]],
   ['isroot',['isRoot',['../group__httpwwwpurlorgogitisRoot.html',1,'']]],
   ['issues',['issues',['../group__httpwwwpurlorgogitissues.html',1,'']]],
   ['issupported',['isSupported',['../group__httpwwwpurlorgogitisSupported.html',1,'']]],

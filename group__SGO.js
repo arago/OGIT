@@ -197,6 +197,7 @@ var group__SGO =
     [ "isInternal", "group__httpwwwpurlorgogitisInternal.html", null ],
     [ "isMutable", "group__httpwwwpurlorgogitisMutable.html", null ],
     [ "isPartOf", "group__httpwwwpurlorgogitisPartOf.html", null ],
+    [ "isPermanent", "group__httpwwwpurlorgogitisPermanent.html", null ],
     [ "isRoot", "group__httpwwwpurlorgogitisRoot.html", null ],
     [ "isSupported", "group__httpwwwpurlorgogitisSupported.html", null ],
     [ "isValid", "group__httpwwwpurlorgogitisValid.html", null ],
