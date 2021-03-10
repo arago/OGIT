@@ -21,6 +21,7 @@ ogit:Timeseries
 		ogit:description
 		ogit:instance
 		ogit:isMutable
+		ogit:isPermanent
 	);
 	ogit:indexed-attributes (
 		ogit:name
