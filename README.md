@@ -28,7 +28,7 @@ Find out more about OGIT using the following links.
 * [High level use cases](https://github.com/arago/OGIT/wiki/High-level-use-cases)
 * [Contributing to the ontology](https://github.com/arago/OGIT/wiki/Contributing)
 * [Contributing to the SDF](https://github.com/arago/OGIT/tree/master/SDF)
-* 
+
 ## GraphIT Documentation
 
 There is an application called [GraphIT](https://graphit.co) that allows you to
