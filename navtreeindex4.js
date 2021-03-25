@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitOSLC-emsDimensionMember.html":[0,33,1,7],
+"group__httpwwwpurlorgogitOSLC-emsEffortMetric.html":[0,33,1,8],
 "group__httpwwwpurlorgogitOSLC-emsEstimate.html":[0,33,1,9],
 "group__httpwwwpurlorgogitOSLC-emsEstimateList.html":[0,33,1,10],
 "group__httpwwwpurlorgogitOSLC-emsFact.html":[0,33,1,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitRLtotalReward.html":[0,42,0,1],
 "group__httpwwwpurlorgogitRPAController.html":[0,43,1,0],
 "group__httpwwwpurlorgogitRPAObject.html":[0,43,1,1],
-"group__httpwwwpurlorgogitRPAOdometry.html":[0,43,0,0],
-"group__httpwwwpurlorgogitRPAOperates.html":[0,43,2,0],
-"group__httpwwwpurlorgogitRPARobot.html":[0,43,1,2]
+"group__httpwwwpurlorgogitRPAOdometry.html":[0,43,0,0]
 };

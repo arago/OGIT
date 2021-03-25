@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"group__httpwwwpurlorgogitfunction.html":[0,44,171],
+"group__httpwwwpurlorgogitgender.html":[0,44,172],
 "group__httpwwwpurlorgogitgenerates.html":[0,44,173],
 "group__httpwwwpurlorgogitgoverns.html":[0,44,174],
 "group__httpwwwpurlorgogithas.html":[0,44,175],

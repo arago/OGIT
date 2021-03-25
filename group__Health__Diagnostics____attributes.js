@@ -13,6 +13,7 @@ var group__Health__Diagnostics____attributes =
     [ "liquidContactTime", "group__httpwwwpurlorgogitHealthDiagnosticsliquidContactTime.html", null ],
     [ "sensorID", "group__httpwwwpurlorgogitHealthDiagnosticssensorID.html", null ],
     [ "symptoms", "group__httpwwwpurlorgogitHealthDiagnosticssymptoms.html", null ],
+    [ "temperature", "group__httpwwwpurlorgogitHealthDiagnosticstemperature.html", null ],
     [ "testCompletedAt", "group__httpwwwpurlorgogitHealthDiagnosticstestCompletedAt.html", null ],
     [ "testCounter", "group__httpwwwpurlorgogitHealthDiagnosticstestCounter.html", null ],
     [ "testDate", "group__httpwwwpurlorgogitHealthDiagnosticstestDate.html", null ],

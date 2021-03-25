@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogitRPAOperates.html":[0,43,2,0],
+"group__httpwwwpurlorgogitRPARobot.html":[0,43,1,2],
 "group__httpwwwpurlorgogitRPARoboticEnvironment.html":[0,43,1,3],
 "group__httpwwwpurlorgogitRPARoboticSystem.html":[0,43,1,4],
 "group__httpwwwpurlorgogitRPASensor.html":[0,43,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitfirstOccurredAt.html":[0,44,167],
 "group__httpwwwpurlorgogitfollows.html":[0,44,168],
 "group__httpwwwpurlorgogitforks.html":[0,44,169],
-"group__httpwwwpurlorgogitfrequency.html":[0,44,170],
-"group__httpwwwpurlorgogitfunction.html":[0,44,171],
-"group__httpwwwpurlorgogitgender.html":[0,44,172]
+"group__httpwwwpurlorgogitfrequency.html":[0,44,170]
 };

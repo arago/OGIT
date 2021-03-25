@@ -10,10 +10,10 @@ var NAVTREEINDEX =
 "group__Accounting.html",
 "group__httpwwwpurlorgogitAuthTeam.html",
 "group__httpwwwpurlorgogitExamplesCrowScene.html",
-"group__httpwwwpurlorgogitMRPunitOfShelfLife.html",
-"group__httpwwwpurlorgogitOSLC-emsEstimate.html",
-"group__httpwwwpurlorgogitRPARoboticEnvironment.html",
-"group__httpwwwpurlorgogitgenerates.html"
+"group__httpwwwpurlorgogitMRPtempRef.html",
+"group__httpwwwpurlorgogitOSLC-emsDimensionMember.html",
+"group__httpwwwpurlorgogitRPAOperates.html",
+"group__httpwwwpurlorgogitfunction.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

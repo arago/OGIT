@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Health, \n 03/17/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Health, \n 03/25/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -23,4 +23,5 @@ edge [  color="gray81"];
    "ogit/Mobile/AppInstance" -> "ogit/Health/Diagnostics/Test" [label="   ogit/connects    "];
    "ogit/Health/Diagnostics/Equipment" -> "ogit/Health/Diagnostics/TestStation" [label="   ogit/belongs    "];
    "ogit/Person" -> "ogit/Health/Diagnostics/TestStation" [label="   ogit/uses    "];
+   "ogit/Health/Diagnostics/Biomarker" -> "ogit/Person" [label="   ogit/relates    "];
 }
