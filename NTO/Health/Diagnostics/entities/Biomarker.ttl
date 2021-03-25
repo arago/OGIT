@@ -1,0 +1,28 @@
+@prefix ogit:			<http://www.purl.org/ogit/> .
+@prefix ogit.Health.Diagnostics:        <http://www.purl.org/ogit/Health/Diagnostics/> .
+@prefix ogit.Mobile:            <http://www.purl.org/ogit/Mobile/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Health.Diagnostics:Biomarker
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Biomarker";
+	dcterms:description "Biomarker (biological marker) is a measurable indicator of some biological state or condition";
+	dcterms:valid "start=2021-03-25;";
+	dcterms:creator "Kaushik Gondaliya";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:any-attributes "true";
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+        ogit.Health.Diagnostics:temperature
+	);
+	ogit:indexed-attributes (
+	);
+	ogit:allowed (
+	     [ ogit:relates ogit:Person ]
+	);
+.
