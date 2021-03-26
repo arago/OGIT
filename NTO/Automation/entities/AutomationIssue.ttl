@@ -38,6 +38,7 @@ IssueCondition is processed first.""";
 		ogit.Automation:deployStatus
 		ogit.Automation:parentIssue
 		ogit.Automation:suspendUntil
+		ogit.Automation:resumeOn
 		ogit.Automation:maxIdleTime
     	ogit.Automation:webhook
     	ogit.RL:state
