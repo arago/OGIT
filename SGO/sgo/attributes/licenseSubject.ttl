@@ -1,0 +1,13 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:licenseSubject
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "licenseSubject";
+	dcterms:description "Distinguished Name (DN) used in the HIRO platform for sure identification of instances and licenses.";
+	dcterms:valid "start=2021-03-26;";
+	dcterms:creator "Viktor Voss";
+.
