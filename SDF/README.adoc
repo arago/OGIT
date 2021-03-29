@@ -597,8 +597,34 @@ Attachment data can be any kind of binary data, thus as SDF messages are JSON th
 
 where the `ogit/Attachment` vertex contains the data sent in the `data` JSON field base-64 decoded. Note that attachment data can only be sent to HIRO, it is never part of the SDF sent from HIRO to a external system.
 
+=== Attachment list
+
+It can be beneficial to have store the `ogit/_xids` of the attachments linked to a vertex in the vertex itself. This can be done by defining the `attachment-list-attribute` attribute in the view.
+
+[source,yaml]
+----------------------------------------------------------------------------------------------------------
+- sdf:
+    id: OrganizationSDF
+    root: org
+    entities:
+        org:
+            type: ogit/Organization
+            presence: root
+            attributes:
+                ogit/name: orgName
+        attachment:
+            type: ogit/Attachment
+            presence: mandatory
+            attachment-list-attribute: /Attachment_xids
+            attributes:
+                $attachment: data
+    verbs:
+        - {id: ogit/belongs, from: org, to: attachment}
 
 
+----------------------------------------------------------------------------------------------------------
+
+The organization has an attribute `/Attachment_xids` containing the list of `ogit/_xid`s of the attachments by this view.
 
 == AutomationIssue entity
 
