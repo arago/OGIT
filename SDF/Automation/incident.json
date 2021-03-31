@@ -25,6 +25,7 @@
         },
         "attributes": {
           "/priority": "priority",
+	  "sourceId": "sourceId",
           "/openedAt": "openedAt",
           "/summary": "summary",
           "/urgency": "urgency",
