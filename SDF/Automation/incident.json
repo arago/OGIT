@@ -25,7 +25,7 @@
         },
         "attributes": {
           "/priority": "priority",
-	  "sourceId": "sourceId",
+          "/sourceId": "sourceId",
           "/openedAt": "openedAt",
           "/summary": "summary",
           "/urgency": "urgency",
@@ -42,7 +42,8 @@
         "type": "ogit/Automation/AutomationIssue",
         "constants": {
           "ogit/Automation/issueType": "incident"
-        }
+        },
+        "free-attributes": "synched"
       },
       "worklog": {
         "attributes": {

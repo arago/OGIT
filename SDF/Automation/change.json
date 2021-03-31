@@ -76,7 +76,8 @@
         "type": "ogit/Automation/AutomationIssue",
         "constants": {
           "ogit/Automation/issueType": "change"
-        }
+        },
+        "free-attributes": "synched"
       }
     },
     "verbs": [

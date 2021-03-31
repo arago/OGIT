@@ -64,7 +64,8 @@
         "type": "ogit/Automation/AutomationIssue",
         "constants": {
           "ogit/Automation/issueType": "event"
-        }
+        },
+        "free-attributes": "synched"
       }
     },
     "verbs": [

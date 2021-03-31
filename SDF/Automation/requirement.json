@@ -26,7 +26,7 @@
         "attributes": {
           "/targetFinishAt": "targetFinishAt",
           "/priority": "priority",
-	  "sourceId": "sourceId",
+	  "/sourceId": "sourceId",
           "/openedAt": "openedAt",
           "ogit/Automation/deployStatus": "closeNotes",
           "ogit/status": "hiroStatus",
