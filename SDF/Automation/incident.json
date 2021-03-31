@@ -42,7 +42,8 @@
         "type": "ogit/Automation/AutomationIssue",
         "constants": {
           "ogit/Automation/issueType": "incident"
-        }
+        },
+        "free-attributes": "synched"
       },
       "worklog": {
         "attributes": {
