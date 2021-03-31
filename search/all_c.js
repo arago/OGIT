@@ -31,6 +31,7 @@ var searchData=
   ['licensekey',['licenseKey',['../group__httpwwwpurlorgogitlicenseKey.html',1,'']]],
   ['licenserequest',['LicenseRequest',['../group__httpwwwpurlorgogitLicenseRequest.html',1,'']]],
   ['licenserequeststatus',['licenseRequestStatus',['../group__httpwwwpurlorgogitlicenseRequestStatus.html',1,'']]],
+  ['licensesubject',['licenseSubject',['../group__httpwwwpurlorgogitlicenseSubject.html',1,'']]],
   ['licensetoken',['LicenseToken',['../group__httpwwwpurlorgogitLicenseToken.html',1,'']]],
   ['licensetype',['licenseType',['../group__httpwwwpurlorgogitlicenseType.html',1,'']]],
   ['likes',['likes',['../group__httpwwwpurlorgogitlikes.html',1,'']]],

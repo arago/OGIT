@@ -217,6 +217,7 @@ var group__SGO =
     [ "licenseId", "group__httpwwwpurlorgogitlicenseId.html", null ],
     [ "licenseKey", "group__httpwwwpurlorgogitlicenseKey.html", null ],
     [ "licenseRequestStatus", "group__httpwwwpurlorgogitlicenseRequestStatus.html", null ],
+    [ "licenseSubject", "group__httpwwwpurlorgogitlicenseSubject.html", null ],
     [ "licenseType", "group__httpwwwpurlorgogitlicenseType.html", null ],
     [ "likes", "group__httpwwwpurlorgogitlikes.html", null ],
     [ "listedAt", "group__httpwwwpurlorgogitlistedAt.html", null ],
