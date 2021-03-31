@@ -53,6 +53,7 @@
           "/startedAt": "startedAt",
           "/targetFinishAt": "targetFinishAt",
           "/priority": "priority",
+	  "/sourceId": "sourceId",
           "/risk": "risk",
           "/openedAt": "openedAt",
           "/summary": "summary",
