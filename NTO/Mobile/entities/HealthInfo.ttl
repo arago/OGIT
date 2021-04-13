@@ -27,6 +27,6 @@ ogit.Mobile:HealthInfo
                                 ogit.Mobile:label
                               ) ;
     ogit:allowed              (
-                                  [ ogit:generates  ogit:Timeseries ]
+                                  [ ogit:generates  ogit:Timeseries1 ]
                               ) ;
 .
