@@ -9,6 +9,6 @@ ogit.Documents:documentNumber
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "documentNumber";
 	dcterms:description "Contains the number of a document.";
-	dcterms:valid "start=2020-04-16;";
+	dcterms:valid "start=2021-04-16;";
 	dcterms:creator "Marek Meyer";
 .
