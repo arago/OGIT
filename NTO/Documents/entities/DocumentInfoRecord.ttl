@@ -1,0 +1,32 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Documents:              <http://www.purl.org/ogit/Documents/> .
+@prefix ogit.PLM:              <http://www.purl.org/ogit/PLM/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.Documents:DocumentInfoRecord
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "DocumentInfoRecord";
+	dcterms:description "This entity represents a document info record, e.g. in an ERP system.";
+	dcterms:valid "start=2021-04-16;";
+	dcterms:creator "Marek Meyer";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+	);
+	ogit:optional-attributes (
+		ogit.Documents:documentNumber
+		ogit.Documents:documentType
+		ogit.Documents:documentPart
+		ogit.Documents:documentVersion
+		ogit:name
+		ogit:description
+	);
+    ogit:indexed-attributes (
+    );
+	ogit:allowed (
+			[ ogit:specifies ogit.PLM:Product ]
+	);
+.
