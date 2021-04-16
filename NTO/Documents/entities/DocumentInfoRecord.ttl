@@ -28,5 +28,7 @@ ogit.Documents:DocumentInfoRecord
     );
 	ogit:allowed (
 			[ ogit:specifies ogit.PLM:Product ]
+			[ ogit:consistsOf  ogit:Attachment ]
+			
 	);
 .
