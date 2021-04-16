@@ -8,7 +8,7 @@ ogit.Documents:documentPart
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "documentPart";
-	dcterms:description "Contains the part of a document.";
+	dcterms:description "Contains the part identifier of a document - in case of documents split into multiple parts.";
 	dcterms:valid "start=2021-04-16;";
 	dcterms:creator "Marek Meyer";
 .
