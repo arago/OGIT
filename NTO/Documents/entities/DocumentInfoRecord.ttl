@@ -19,7 +19,7 @@ ogit.Documents:DocumentInfoRecord
 	ogit:optional-attributes (
 		ogit.Documents:documentNumber
 		ogit.Documents:documentType
-		ogit.Documents:documentPart
+		ogit.Documents:documentPartId
 		ogit.Documents:documentVersion
 		ogit:name
 		ogit:description

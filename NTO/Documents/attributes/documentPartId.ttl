@@ -4,10 +4,10 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Documents:documentPart
+ogit.Documents:documentPartId
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "documentPart";
+	rdfs:label "documentPartId";
 	dcterms:description "Contains the part identifier of a document - in case of documents split into multiple parts.";
 	dcterms:valid "start=2021-04-16;";
 	dcterms:creator "Marek Meyer";
