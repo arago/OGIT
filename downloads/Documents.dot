@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Documents, \n 04/14/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Documents, \n 04/19/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -9,6 +9,8 @@ edge [  color="gray81"];
    "ogit/Advertising/InsertionOrder" -> "ogit/Documents/Spreadsheet" [label="   ogit/generates    "];
    "ogit/Advertising/LineItem" -> "ogit/Documents/Spreadsheet" [label="   ogit/generates    "];
    "ogit/Documents/Spreadsheet" -> "ogit/Attachment" [label="   ogit/generates    "];
+   "ogit/Documents/DocumentInfoRecord" -> "ogit/PLM/Product" [label="   ogit/specifies    "];
    "ogit/Documents/Spreadsheet" -> "ogit/Attachment" [label="   ogit/represents    "];
    "ogit/Documents/Document" -> "ogit/Attachment" [label="   ogit/consistsOf    "];
+   "ogit/Documents/DocumentInfoRecord" -> "ogit/Attachment" [label="   ogit/consistsOf    "];
 }

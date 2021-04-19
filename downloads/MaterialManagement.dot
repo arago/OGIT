@@ -1,0 +1,10 @@
+digraph OGIT_ontology {
+ graph [ rankdir= LR,pad=1 
+fontsize = 18,
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: MaterialManagement, \n 04/19/2021"];
+node[shape=polygon];
+edge [  color="gray81"];
+
+   "ogit/PLM/BillOfMaterial" -> "ogit/MaterialManagement/Material" [label="   ogit/contains    "];
+   "ogit/PLM/Product" -> "ogit/MaterialManagement/Material" [label="   ogit/madeOf    "];
+}

@@ -31,5 +31,6 @@ var searchData=
   ['baselinelist',['baselineList',['../group__httpwwwpurlorgogitOSLC-emsbaselineList.html',1,'']]],
   ['bufferpoolhits',['BufferPoolHits',['../group__httpwwwpurlorgogitOSLC-perfmonBufferPoolHits.html',1,'']]],
   ['bufferpoolmetrics',['BufferPoolMetrics',['../group__httpwwwpurlorgogitOSLC-perfmonBufferPoolMetrics.html',1,'']]],
-  ['blockedbychangerequest',['blockedByChangeRequest',['../group__httpwwwpurlorgogitOSLC-qmblockedByChangeRequest.html',1,'']]]
+  ['blockedbychangerequest',['blockedByChangeRequest',['../group__httpwwwpurlorgogitOSLC-qmblockedByChangeRequest.html',1,'']]],
+  ['billofmaterial',['BillOfMaterial',['../group__httpwwwpurlorgogitPLMBillOfMaterial.html',1,'']]]
 ];

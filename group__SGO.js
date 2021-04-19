@@ -228,6 +228,7 @@ var group__SGO =
     [ "locked", "group__httpwwwpurlorgogitlocked.html", null ],
     [ "longitude", "group__httpwwwpurlorgogitlongitude.html", null ],
     [ "macAddress", "group__httpwwwpurlorgogitmacAddress.html", null ],
+    [ "madeOf", "group__httpwwwpurlorgogitmadeOf.html", null ],
     [ "maintenanceState", "group__httpwwwpurlorgogitmaintenanceState.html", null ],
     [ "manages", "group__httpwwwpurlorgogitmanages.html", null ],
     [ "manufacturer", "group__httpwwwpurlorgogitmanufacturer.html", null ],
