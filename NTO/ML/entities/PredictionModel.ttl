@@ -19,6 +19,7 @@ ogit.ML:PredictionModel
     ogit:description
     ogit.ML:attributesSchema
     ogit.ML:activeVersion
+    ogit.ML:activeModel
     ogit.ML:endpoint
 
   );
