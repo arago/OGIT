@@ -1,5 +1,6 @@
 var group__ML____attributes =
 [
+    [ "activeModel", "group__httpwwwpurlorgogitMLactiveModel.html", null ],
     [ "activeVersion", "group__httpwwwpurlorgogitMLactiveVersion.html", null ],
     [ "attributesSchema", "group__httpwwwpurlorgogitMLattributesSchema.html", null ],
     [ "endpoint", "group__httpwwwpurlorgogitMLendpoint.html", null ],
