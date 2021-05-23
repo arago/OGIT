@@ -15,14 +15,14 @@ ogit.SaaS:Integration
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		ogit:label # User defined label for Integration
+		ogit:name # User defined label for Integration
 		ogit:type # Reference type from ogit.SaaS:IntegrationType
 	);
 	ogit:optional-attributes (
 		ogit:description
 	);
 	ogit:indexed-attributes (
-		ogit:label
+		ogit:name
 	);
 	ogit:allowed (
 		[ ogit:uses ogit.SaaS:IntegrationType ]
