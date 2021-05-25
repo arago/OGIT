@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"group__httpwwwpurlorgogitendOfWarranty.html":[0,46,156],
+"group__httpwwwpurlorgogitendorses.html":[0,46,157],
 "group__httpwwwpurlorgogitenumValues.html":[0,46,158],
 "group__httpwwwpurlorgogitexpirationDate.html":[0,46,159],
 "group__httpwwwpurlorgogitexpiresAt.html":[0,46,160],

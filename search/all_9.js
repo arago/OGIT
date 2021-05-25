@@ -79,6 +79,8 @@ var searchData=
   ['iamawsmachinecnt',['iamAwsMachineCnt',['../group__httpwwwpurlorgogitPTFiamAwsMachineCnt.html',1,'']]],
   ['iamawsmachinetype',['iamAwsMachineType',['../group__httpwwwpurlorgogitPTFiamAwsMachineType.html',1,'']]],
   ['issuescnt',['issuesCnt',['../group__httpwwwpurlorgogitPTFissuesCnt.html',1,'']]],
+  ['integration',['Integration',['../group__httpwwwpurlorgogitSaaSIntegration.html',1,'']]],
+  ['integrationtype',['IntegrationType',['../group__httpwwwpurlorgogitSaaSIntegrationType.html',1,'']]],
   ['invoice',['Invoice',['../group__httpwwwpurlorgogitSalesDistributionInvoice.html',1,'']]],
   ['invoicedate',['invoiceDate',['../group__httpwwwpurlorgogitSalesDistributioninvoiceDate.html',1,'']]],
   ['invoiceid',['invoiceId',['../group__httpwwwpurlorgogitSalesDistributioninvoiceId.html',1,'']]],

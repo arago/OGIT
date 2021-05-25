@@ -27,6 +27,8 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitSaaSConfigurationTemplate.html":[0,47,0,2],
 "group__httpwwwpurlorgogitSaaSDeployment.html":[0,47,0,3],
 "group__httpwwwpurlorgogitSaaSDeploymentTemplate.html":[0,47,0,4],
+"group__httpwwwpurlorgogitSaaSIntegration.html":[0,47,0,5],
+"group__httpwwwpurlorgogitSaaSIntegrationType.html":[0,47,0,6],
 "group__httpwwwpurlorgogitSalesDistributionCustomer.html":[0,48,1,0],
 "group__httpwwwpurlorgogitSalesDistributionDelivery.html":[0,48,1,1],
 "group__httpwwwpurlorgogitSalesDistributionDeliveryItem.html":[0,48,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitdurationUnit.html":[0,46,152],
 "group__httpwwwpurlorgogiteffort.html":[0,46,153],
 "group__httpwwwpurlorgogitemail.html":[0,46,154],
-"group__httpwwwpurlorgogitemploys.html":[0,46,155],
-"group__httpwwwpurlorgogitendOfWarranty.html":[0,46,156],
-"group__httpwwwpurlorgogitendorses.html":[0,46,157]
+"group__httpwwwpurlorgogitemploys.html":[0,46,155]
 };

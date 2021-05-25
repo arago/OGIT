@@ -13,7 +13,7 @@ var NAVTREEINDEX =
 "group__httpwwwpurlorgogitMRPkzTCond.html",
 "group__httpwwwpurlorgogitOSLC-crtvshortHostName.html",
 "group__httpwwwpurlorgogitProjectMilestone.html",
-"group__httpwwwpurlorgogitenumValues.html"
+"group__httpwwwpurlorgogitendOfWarranty.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
