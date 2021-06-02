@@ -24,6 +24,7 @@ ogit.ML:PredictionModel
 
   );
   ogit:indexed-attributes (
+    ogit:name
   );
   ogit:allowed (
     [ ogit:generates  ogit:Timeseries ]
