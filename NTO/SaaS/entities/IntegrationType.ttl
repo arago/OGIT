@@ -1,0 +1,28 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Version:           <http://www.purl.org/ogit/Version/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.SaaS:              <http://www.purl.org/ogit/SaaS/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.SaaS:IntegrationType
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "IntegrationType";
+	dcterms:description "Type of HIRO integration. Used for defining required configurations.";
+	dcterms:valid "start=2021-05-18;";
+	dcterms:creator "dcassidy@arago.co";
+	ogit:scope "NTO";
+	ogit:parent "http://www.purl.org/ogit/Node";
+	ogit:mandatory-attributes (
+		ogit:name				
+	);
+	ogit:optional-attributes (
+		ogit:description
+	);
+	ogit:indexed-attributes (
+		ogit:name
+	);
+	ogit:allowed (
+	);
+.

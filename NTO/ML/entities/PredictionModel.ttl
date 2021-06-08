@@ -19,10 +19,12 @@ ogit.ML:PredictionModel
     ogit:description
     ogit.ML:attributesSchema
     ogit.ML:activeVersion
+    ogit.ML:activeModel
     ogit.ML:endpoint
 
   );
   ogit:indexed-attributes (
+    ogit:name
   );
   ogit:allowed (
     [ ogit:generates  ogit:Timeseries ]
