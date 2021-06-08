@@ -20,7 +20,7 @@ ogit.SaaS:ActionHandler
 	);
 	ogit:optional-attributes (
 		ogit:description
-		ogit:configuration
+		ogit.SaaS:configuration
 		ogit.SaaS:handlerType
 		ogit.SaaS:handlerFunction
 		ogit.SaaS:authenticationMethod
