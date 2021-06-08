@@ -5,30 +5,31 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.SaaS:Integration
+ogit.SaaS:ActionHandler
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "Integration";
-	dcterms:description "External integrations for HIRO";
-	dcterms:valid "start=2021-05-18;";
-	dcterms:creator "dcassidy@arago.co";
+	rdfs:label "ActionHandler";
+	dcterms:description "Configuration of an action handler for HIRO integrations. Used for defining required configurations.";
+	dcterms:valid "start=2021-06-08;";
+	dcterms:creator "Marek Meyer";
 	ogit:scope "NTO";
 	ogit:parent "http://www.purl.org/ogit/Node";
 	ogit:mandatory-attributes (
-		ogit:name # User defined label for Integration
-		ogit:type # Reference type from ogit.SaaS:IntegrationType
+		ogit:name
+		ogit.SaaS:active
 	);
 	ogit:optional-attributes (
 		ogit:description
+		ogit:configuration
+		ogit.SaaS:handlerType
+		ogit.SaaS:handlerFunction
+		ogit.SaaS:authenticationMethod
+		ogit.SaaS:credentialsReference
+		ogit.SaaS:outboundCredentialsReference
 	);
 	ogit:indexed-attributes (
 		ogit:name
 	);
 	ogit:allowed (
-		[ ogit:uses ogit.SaaS:IntegrationType ]
-		[ ogit:uses ogit.SaaS:Webhook ]
-		[ ogit:uses ogit.SaaS:EventHandler ]
-		[ ogit:uses ogit.SaaS:ActionHandler ]
-		[ ogit:uses ogit:Configuration ]
 	);
 .
