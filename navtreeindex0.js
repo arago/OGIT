@@ -168,7 +168,8 @@ var NAVTREEINDEX0 =
 "group__RPA____verbs.html":[0,45,2],
 "group__SGO.html":[0,46],
 "group__SaaS.html":[0,47],
-"group__SaaS____entities.html":[0,47,0],
+"group__SaaS____attributes.html":[0,47,0],
+"group__SaaS____entities.html":[0,47,1],
 "group__SalesDistribution.html":[0,48],
 "group__SalesDistribution____attributes.html":[0,48,0],
 "group__SalesDistribution____entities.html":[0,48,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAuthApplicationtype.html":[0,3,1,0,2],
 "group__httpwwwpurlorgogitAuthApplicationurls.html":[0,3,1,0,3],
 "group__httpwwwpurlorgogitAuthConfiguration.html":[0,3,3,4],
-"group__httpwwwpurlorgogitAuthDataScope.html":[0,3,3,5],
-"group__httpwwwpurlorgogitAuthDataSet.html":[0,3,3,6]
+"group__httpwwwpurlorgogitAuthDataScope.html":[0,3,3,5]
 };

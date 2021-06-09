@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitAuthDataSet.html":[0,3,3,6],
 "group__httpwwwpurlorgogitAuthOrgDomain.html":[0,3,3,7],
 "group__httpwwwpurlorgogitAuthOrganization.html":[0,3,3,8],
 "group__httpwwwpurlorgogitAuthRole.html":[0,3,3,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitDocumentsDocument.html":[0,11,1,0],
 "group__httpwwwpurlorgogitDocumentsDocumentInfoRecord.html":[0,11,1,1],
 "group__httpwwwpurlorgogitDocumentsSpreadsheet.html":[0,11,1,2],
-"group__httpwwwpurlorgogitDocumentsdocumentNumber.html":[0,11,0,0],
-"group__httpwwwpurlorgogitDocumentsdocumentPartId.html":[0,11,0,1]
+"group__httpwwwpurlorgogitDocumentsdocumentNumber.html":[0,11,0,0]
 };

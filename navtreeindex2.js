@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"group__httpwwwpurlorgogitDocumentsdocumentPartId.html":[0,11,0,1],
 "group__httpwwwpurlorgogitDocumentsdocumentType.html":[0,11,0,2],
 "group__httpwwwpurlorgogitDocumentsdocumentVersion.html":[0,11,0,3],
 "group__httpwwwpurlorgogitDocumentsheaders.html":[0,11,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__httpwwwpurlorgogitMRPgenericNorm.html":[0,24,0,3],
 "group__httpwwwpurlorgogitMRPhistoricised.html":[0,24,2,1],
 "group__httpwwwpurlorgogitMRPindustryStandard.html":[0,24,0,4],
-"group__httpwwwpurlorgogitMRPkindOfMaterialDetailed.html":[0,24,0,5],
-"group__httpwwwpurlorgogitMRPkindOfMaterialGeneric.html":[0,24,0,6]
+"group__httpwwwpurlorgogitMRPkindOfMaterialDetailed.html":[0,24,0,5]
 };

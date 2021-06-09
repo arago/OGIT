@@ -34,5 +34,7 @@ var searchData=
   ['hosteddatabases',['HostedDatabases',['../group__httpwwwpurlorgogitOSLC-perfmonHostedDatabases.html',1,'']]],
   ['hirotopology',['HiroTopology',['../group__httpwwwpurlorgogitPTFHiroTopology.html',1,'']]],
   ['hirovsn',['hiroVsn',['../group__httpwwwpurlorgogitPTFhiroVsn.html',1,'']]],
-  ['hottest',['hotTest',['../group__httpwwwpurlorgogitPTFhotTest.html',1,'']]]
+  ['hottest',['hotTest',['../group__httpwwwpurlorgogitPTFhotTest.html',1,'']]],
+  ['handlerfunction',['handlerFunction',['../group__httpwwwpurlorgogitSaaShandlerFunction.html',1,'']]],
+  ['handlertype',['handlerType',['../group__httpwwwpurlorgogitSaaShandlerType.html',1,'']]]
 ];

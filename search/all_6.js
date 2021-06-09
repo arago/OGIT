@@ -47,6 +47,7 @@ var searchData=
   ['failuremetrics',['FailureMetrics',['../group__httpwwwpurlorgogitOSLC-perfmonFailureMetrics.html',1,'']]],
   ['factor',['factor',['../group__httpwwwpurlorgogitPricefactor.html',1,'']]],
   ['factortarget',['factorTarget',['../group__httpwwwpurlorgogitPricefactorTarget.html',1,'']]],
+  ['filterexpression',['filterExpression',['../group__httpwwwpurlorgogitSaaSfilterExpression.html',1,'']]],
   ['fallbackplan',['fallbackPlan',['../group__httpwwwpurlorgogitServiceManagementfallbackPlan.html',1,'']]],
   ['filter',['Filter',['../group__httpwwwpurlorgogitUserMetaFilter.html',1,'']]]
 ];
