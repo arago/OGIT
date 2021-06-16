@@ -1,11 +1,12 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: SaaS, \n 06/09/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: SaaS, \n 06/16/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/SaaS/Deployment" -> "ogit/SaaS/ComponentInstance" [label="   ogit/contains    "];
+   "ogit/SaaS/Deployment" -> "ogit/SaaS/Integration" [label="   ogit/contains    "];
    "ogit/SaaS/DeploymentTemplate" -> "ogit/SaaS/ConfigurationTemplate" [label="   ogit/contains    "];
    "ogit/SaaS/ComponentInstance" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/SaaS/ConfigurationTemplate" -> "ogit/SaaS/Component" [label="   ogit/configures    "];
