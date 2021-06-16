@@ -161,6 +161,7 @@ ogit:Person
 			[ ogit:uses  ogit.Mobile:AppInstance ]
 			[ ogit:uses  ogit.Mobile:LicenceCodes ]
 			[ ogit:has  ogit.Mobile:HealthInfo ]
+			[ ogit:has  ogit.Mobile:Encounter]
             [ ogit:manages  ogit.Health.Diagnostics:Equipment ]
             [ ogit:manages  ogit.Health.Diagnostics:Test ]
             [ ogit:registeredAt  ogit.Location:Address ]
