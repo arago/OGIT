@@ -1,0 +1,14 @@
+@prefix ogit.ML:     <http://www.purl.org/ogit/ML/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit.ML:classifierName
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "classifierName";
+        dcterms:description "name of a classifier";
+        dcterms:valid "start=2021-06-16;";
+        dcterms:creator "Philipp Pelchmann";
+.
