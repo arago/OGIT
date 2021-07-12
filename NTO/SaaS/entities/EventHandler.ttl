@@ -22,7 +22,10 @@ ogit.SaaS:EventHandler
 		ogit:description
 		ogit.SaaS:eventMode
 		ogit.SaaS:filterExpression
+		ogit.SaaS:scopes
 		ogit.SaaS:handlerFunction
+		ogit.SaaS:messageQueueType
+		ogit.SaaS:messageQueueName
 		ogit.SaaS:credentialsReference
 	);
 	ogit:indexed-attributes (
