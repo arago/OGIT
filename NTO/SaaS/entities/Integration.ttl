@@ -17,6 +17,7 @@ ogit.SaaS:Integration
 	ogit:mandatory-attributes (
 		ogit:name # User defined label for Integration
 		ogit:type # Reference type from ogit.SaaS:IntegrationType
+		ogit:id
 	);
 	ogit:optional-attributes (
 		ogit:description
