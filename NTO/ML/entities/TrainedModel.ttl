@@ -18,6 +18,7 @@ ogit.ML:TrainedModel
   );
   ogit:optional-attributes (
     ogit:status
+    ogit:version
     ogit:attachmentID
     ogit.ML:trainedFrom
     ogit.ML:requirements
