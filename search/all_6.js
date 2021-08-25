@@ -29,6 +29,7 @@ var searchData=
   ['function',['function',['../group__httpwwwpurlorgogitfunction.html',1,'']]],
   ['firmwareversion',['firmwareVersion',['../group__httpwwwpurlorgogitHealthDiagnosticsfirmwareVersion.html',1,'']]],
   ['fqdn',['fqdn',['../group__httpwwwpurlorgogitMARSNetworkfqdn.html',1,'']]],
+  ['feedback',['Feedback',['../group__httpwwwpurlorgogitMLFeedback.html',1,'']]],
   ['firebasetoken',['firebaseToken',['../group__httpwwwpurlorgogitMobilefirebaseToken.html',1,'']]],
   ['facility',['Facility',['../group__httpwwwpurlorgogitMROAviationFacility.html',1,'']]],
   ['fchba',['FCHBA',['../group__httpwwwpurlorgogitNetworkFCHBA.html',1,'']]],

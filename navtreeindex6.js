@@ -1,5 +1,13 @@
 var NAVTREEINDEX6 =
 {
+"group__httpwwwpurlorgogitcreatedAt.html":[0,46,135],
+"group__httpwwwpurlorgogitcreates.html":[0,46,136],
+"group__httpwwwpurlorgogitcreationTime.html":[0,46,137],
+"group__httpwwwpurlorgogitcreator.html":[0,46,138],
+"group__httpwwwpurlorgogitcurrency.html":[0,46,139],
+"group__httpwwwpurlorgogitdeadline.html":[0,46,140],
+"group__httpwwwpurlorgogitdefines.html":[0,46,141],
+"group__httpwwwpurlorgogitdeliveredAt.html":[0,46,142],
 "group__httpwwwpurlorgogitdeliversTo.html":[0,46,143],
 "group__httpwwwpurlorgogitdependsOn.html":[0,46,144],
 "group__httpwwwpurlorgogitdeployedTo.html":[0,46,145],

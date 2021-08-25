@@ -8,5 +8,8 @@ var group__SaaS____attributes =
     [ "filterExpression", "group__httpwwwpurlorgogitSaaSfilterExpression.html", null ],
     [ "handlerFunction", "group__httpwwwpurlorgogitSaaShandlerFunction.html", null ],
     [ "handlerType", "group__httpwwwpurlorgogitSaaShandlerType.html", null ],
-    [ "outboundCredentialsReference", "group__httpwwwpurlorgogitSaaSoutboundCredentialsReference.html", null ]
+    [ "messageQueueName", "group__httpwwwpurlorgogitSaaSmessageQueueName.html", null ],
+    [ "messageQueueType", "group__httpwwwpurlorgogitSaaSmessageQueueType.html", null ],
+    [ "outboundCredentialsReference", "group__httpwwwpurlorgogitSaaSoutboundCredentialsReference.html", null ],
+    [ "scopes", "group__httpwwwpurlorgogitSaaSscopes.html", null ]
 ];
