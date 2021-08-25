@@ -21,6 +21,7 @@ ogit.Advertising:InsertionOrder
     ogit:type
   );
   ogit:indexed-attributes (
+    ogit:name
   );
   ogit:allowed (
     [ ogit:consistsOf  ogit.Advertising:LineItem ]
