@@ -52,6 +52,7 @@ ogit:Person
 		ogit:sourceId
 		ogit:status
 		ogit:position
+		ogit:passportNumber
 	);
 	ogit:indexed-attributes (
 		ogit:firstName
