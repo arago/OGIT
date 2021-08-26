@@ -13,6 +13,7 @@ ogit.Health.Diagnostics:Test
 	dcterms:valid "start=2020-08-14;";
 	dcterms:creator "Viktor Voss";
 	ogit:scope "NTO";
+	ogit:blob "true";
 	ogit:parent ogit:Node;
 	ogit:any-attributes "true";
 	ogit:mandatory-attributes (
@@ -31,6 +32,7 @@ ogit.Health.Diagnostics:Test
                 ogit.Health.Diagnostics:testMethod
                 ogit.Health.Diagnostics:testDate
                 ogit.Health.Diagnostics:ICDCode
+                ogit.Health.Diagnostics:laboratoryName
 	);
 	ogit:indexed-attributes (
 	);
