@@ -255,6 +255,7 @@ var group__SGO =
     [ "organizes", "group__httpwwwpurlorgogitorganizes.html", null ],
     [ "otherPhone", "group__httpwwwpurlorgogitotherPhone.html", null ],
     [ "owns", "group__httpwwwpurlorgogitowns.html", null ],
+    [ "passportNumber", "group__httpwwwpurlorgogitpassportNumber.html", null ],
     [ "pendingChange", "group__httpwwwpurlorgogitpendingChange.html", null ],
     [ "performs", "group__httpwwwpurlorgogitperforms.html", null ],
     [ "phone", "group__httpwwwpurlorgogitphone.html", null ],

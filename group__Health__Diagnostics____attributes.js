@@ -10,6 +10,7 @@ var group__Health__Diagnostics____attributes =
     [ "equipmentStateChangeTime", "group__httpwwwpurlorgogitHealthDiagnosticsequipmentStateChangeTime.html", null ],
     [ "errorCode", "group__httpwwwpurlorgogitHealthDiagnosticserrorCode.html", null ],
     [ "firmwareVersion", "group__httpwwwpurlorgogitHealthDiagnosticsfirmwareVersion.html", null ],
+    [ "laboratoryName", "group__httpwwwpurlorgogitHealthDiagnosticslaboratoryName.html", null ],
     [ "liquidContactTime", "group__httpwwwpurlorgogitHealthDiagnosticsliquidContactTime.html", null ],
     [ "sensorID", "group__httpwwwpurlorgogitHealthDiagnosticssensorID.html", null ],
     [ "symptoms", "group__httpwwwpurlorgogitHealthDiagnosticssymptoms.html", null ],

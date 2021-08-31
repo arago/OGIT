@@ -14,6 +14,7 @@ var searchData=
   ['legalform',['legalForm',['../group__httpwwwpurlorgogitFinancialMarketlegalForm.html',1,'']]],
   ['lineofbusiness',['LineOfBusiness',['../group__httpwwwpurlorgogitFinancialMarketLineOfBusiness.html',1,'']]],
   ['laboratory',['Laboratory',['../group__httpwwwpurlorgogitHealthDiagnosticsLaboratory.html',1,'']]],
+  ['laboratoryname',['laboratoryName',['../group__httpwwwpurlorgogitHealthDiagnosticslaboratoryName.html',1,'']]],
   ['liquidcontacttime',['liquidContactTime',['../group__httpwwwpurlorgogitHealthDiagnosticsliquidContactTime.html',1,'']]],
   ['language',['language',['../group__httpwwwpurlorgogitlanguage.html',1,'']]],
   ['lastclearedat',['lastClearedAt',['../group__httpwwwpurlorgogitlastClearedAt.html',1,'']]],
