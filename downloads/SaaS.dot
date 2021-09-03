@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: SaaS, \n 08/31/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: SaaS, \n 09/03/2021"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -17,5 +17,6 @@ edge [  color="gray81"];
    "ogit/SaaS/Integration" -> "ogit/SaaS/ActionHandler" [label="   ogit/uses    "];
    "ogit/SaaS/Integration" -> "ogit/Configuration" [label="   ogit/uses    "];
    "ogit/Auth/Account" -> "ogit/SaaS/ComponentInstance" [label="   ogit/Auth/uses    "];
+   "ogit/SaaS/IntegrationType" -> "ogit/Attachment" [label="   ogit/has    "];
    "ogit/SaaS/Deployment" -> "ogit/SaaS/Deployment" [label="   ogit/contains    "];
 }
