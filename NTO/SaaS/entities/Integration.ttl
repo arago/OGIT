@@ -21,6 +21,7 @@ ogit.SaaS:Integration
 	);
 	ogit:optional-attributes (
 		ogit:description
+		ogit.SaaS:credentialsReference
 	);
 	ogit:indexed-attributes (
 		ogit:name
