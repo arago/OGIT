@@ -26,6 +26,9 @@ ogit.Advertising:LineItem
     [ ogit:uses       ogit.Advertising:Creative   ]
     [ ogit:generates  ogit:Timeseries ]
     [ ogit:generates  ogit.Documents:Spreadsheet ]
+    [ ogit:consistsOf  ogit.Advertising:BudgetSegment ]
+    [ ogit:uses       ogit.Advertising:BidAdjustmentGroup   ]
+    [ ogit:uses       ogit.Advertising:BidAdjustment   ]
   );
 
 .

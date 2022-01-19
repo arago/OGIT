@@ -4,31 +4,28 @@
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 @prefix ogit.Documents:        <http://www.purl.org/ogit/Documents/> .
 
-ogit.Advertising:InsertionOrder
+ogit.Advertising:Deal
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "InsertionOrder";
-  dcterms:description "The individual order or purchase to be sent out to a publisher";
-  dcterms:valid "start=2019-05-10;";
-  dcterms:creator "Patrick Williamson";
+  rdfs:label "Deal";
+  dcterms:description "An advertising deal on a demand side platform.";
+  dcterms:valid "start=2022-01-19;";
+  dcterms:creator "Marek Meyer";
   ogit:scope "NTO";
   ogit:parent ogit:Node;
   ogit:mandatory-attributes (
   );
   ogit:optional-attributes (
-    ogit:description
+	ogit:id
     ogit:name
+    ogit:description
     ogit:type
   );
   ogit:indexed-attributes (
     ogit:name
   );
   ogit:allowed (
-    [ ogit:consistsOf  ogit.Advertising:LineItem ]
-    [ ogit:generates   ogit:Timeseries ]
-    [ ogit:uses        ogit.Advertising:Creative ]
-    [ ogit:generates   ogit.Documents:Spreadsheet ]
-    [ ogit:consistsOf  ogit.Advertising:BudgetSegment ]
+    [ ogit:generates  ogit.Documents:Spreadsheet ]
   );
 
 .
