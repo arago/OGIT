@@ -25,6 +25,7 @@ ogit.Advertising:Platform
     [ ogit:hosts   ogit.Advertising:Campaign ]
     [ ogit:hosts   ogit.Advertising:InsertionOrder ]
     [ ogit:contains   ogit.Advertising:Advertiser ]
+    [ ogit:hosts   ogit.Advertising:TargetingDimension ]
   );
 
 .
