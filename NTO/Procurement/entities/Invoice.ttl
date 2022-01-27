@@ -27,5 +27,6 @@ ogit.Procurement:Invoice
     ogit:name
   );
   ogit:allowed (
+	[ ogit:contains  ogit.Procurement:PurchaseOrderItem ]
   );
 .
