@@ -1,5 +1,13 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogitPriceInvoice.html":[0,40,1,0],
+"group__httpwwwpurlorgogitPricePriceSpecification.html":[0,40,1,1],
+"group__httpwwwpurlorgogitPricediscreteValue.html":[0,40,0,0],
+"group__httpwwwpurlorgogitPricefactor.html":[0,40,0,1],
+"group__httpwwwpurlorgogitPricefactorTarget.html":[0,40,0,2],
+"group__httpwwwpurlorgogitPricepriceAmount.html":[0,40,0,3],
+"group__httpwwwpurlorgogitPricepriceTimeUnit.html":[0,40,0,4],
+"group__httpwwwpurlorgogitPricetargetAttribute.html":[0,40,0,5],
 "group__httpwwwpurlorgogitPricetimeUnitSeconds.html":[0,40,0,6],
 "group__httpwwwpurlorgogitProcurementProductionOrder.html":[0,41,1,0],
 "group__httpwwwpurlorgogitProcurementPurchaseOrder.html":[0,41,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitconformsTo.html":[0,46,122],
 "group__httpwwwpurlorgogitconnectorId.html":[0,46,123],
 "group__httpwwwpurlorgogitconnects.html":[0,46,124],
-"group__httpwwwpurlorgogitconsentLevel.html":[0,46,125],
-"group__httpwwwpurlorgogitconsistsOf.html":[0,46,126],
-"group__httpwwwpurlorgogitconsumes.html":[0,46,127],
-"group__httpwwwpurlorgogitcontact.html":[0,46,128],
-"group__httpwwwpurlorgogitcontains.html":[0,46,129],
-"group__httpwwwpurlorgogitcontent.html":[0,46,130],
-"group__httpwwwpurlorgogitcontributes.html":[0,46,131],
-"group__httpwwwpurlorgogitcorresponds.html":[0,46,132],
-"group__httpwwwpurlorgogitcountry.html":[0,46,133]
+"group__httpwwwpurlorgogitconsentLevel.html":[0,46,125]
 };

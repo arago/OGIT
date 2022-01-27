@@ -1,21 +1,21 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Datacenter, \n 09/03/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Datacenter, \n 01/27/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
-   "ogit/Datacenter/Building" -> "ogit/Datacenter/Datacenter" [label="   ogit/contains    "];
-   "ogit/Datacenter/Building" -> "ogit/Datacenter/Room" [label="   ogit/contains    "];
-   "ogit/Datacenter/Rack" -> "ogit/Datacenter/Sensor" [label="   ogit/contains    "];
-   "ogit/Datacenter/Rack" -> "ogit/Datacenter/PowerDistributionUnit" [label="   ogit/contains    "];
-   "ogit/Datacenter/Rack" -> "ogit/Device" [label="   ogit/contains    "];
+   "ogit/Datacenter/Section" -> "ogit/Datacenter/Sensor" [label="   ogit/contains    "];
+   "ogit/Datacenter/Section" -> "ogit/Datacenter/Rack" [label="   ogit/contains    "];
    "ogit/Datacenter/Room" -> "ogit/Datacenter/Rack" [label="   ogit/contains    "];
    "ogit/Datacenter/Room" -> "ogit/Datacenter/Cooling" [label="   ogit/contains    "];
    "ogit/Datacenter/Room" -> "ogit/Datacenter/Sensor" [label="   ogit/contains    "];
    "ogit/Datacenter/Room" -> "ogit/Datacenter/Section" [label="   ogit/contains    "];
-   "ogit/Datacenter/Section" -> "ogit/Datacenter/Sensor" [label="   ogit/contains    "];
-   "ogit/Datacenter/Section" -> "ogit/Datacenter/Rack" [label="   ogit/contains    "];
+   "ogit/Datacenter/Rack" -> "ogit/Datacenter/Sensor" [label="   ogit/contains    "];
+   "ogit/Datacenter/Rack" -> "ogit/Datacenter/PowerDistributionUnit" [label="   ogit/contains    "];
+   "ogit/Datacenter/Rack" -> "ogit/Device" [label="   ogit/contains    "];
+   "ogit/Datacenter/Building" -> "ogit/Datacenter/Datacenter" [label="   ogit/contains    "];
+   "ogit/Datacenter/Building" -> "ogit/Datacenter/Room" [label="   ogit/contains    "];
    "ogit/Device" -> "ogit/Datacenter/Sensor" [label="   ogit/contains    "];
    "ogit/Organization" -> "ogit/Datacenter/Room" [label="   ogit/manages    "];
    "ogit/Organization" -> "ogit/Datacenter/Rack" [label="   ogit/manages    "];

@@ -1,5 +1,13 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitOSLC-crtvfileName.html":[0,33,0,1],
+"group__httpwwwpurlorgogitOSLC-crtvfqdn.html":[0,33,0,2],
+"group__httpwwwpurlorgogitOSLC-crtvhostid.html":[0,33,0,3],
+"group__httpwwwpurlorgogitOSLC-crtvinstancePath.html":[0,33,0,4],
+"group__httpwwwpurlorgogitOSLC-crtvipAddress.html":[0,33,0,5],
+"group__httpwwwpurlorgogitOSLC-crtvmodel.html":[0,33,0,6],
+"group__httpwwwpurlorgogitOSLC-crtvname.html":[0,33,0,7],
+"group__httpwwwpurlorgogitOSLC-crtvobservationTime.html":[0,33,0,8],
 "group__httpwwwpurlorgogitOSLC-crtvoccursBefore.html":[0,33,0,9],
 "group__httpwwwpurlorgogitOSLC-crtvparentServiceInstance.html":[0,33,2,6],
 "group__httpwwwpurlorgogitOSLC-crtvportNumber.html":[0,33,0,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitParameterType.html":[0,46,28],
 "group__httpwwwpurlorgogitPenalty.html":[0,46,29],
 "group__httpwwwpurlorgogitPerson.html":[0,46,30],
-"group__httpwwwpurlorgogitPolicy.html":[0,46,31],
-"group__httpwwwpurlorgogitPriceInvoice.html":[0,40,1,0],
-"group__httpwwwpurlorgogitPricePriceSpecification.html":[0,40,1,1],
-"group__httpwwwpurlorgogitPricediscreteValue.html":[0,40,0,0],
-"group__httpwwwpurlorgogitPricefactor.html":[0,40,0,1],
-"group__httpwwwpurlorgogitPricefactorTarget.html":[0,40,0,2],
-"group__httpwwwpurlorgogitPricepriceAmount.html":[0,40,0,3],
-"group__httpwwwpurlorgogitPricepriceTimeUnit.html":[0,40,0,4],
-"group__httpwwwpurlorgogitPricetargetAttribute.html":[0,40,0,5]
+"group__httpwwwpurlorgogitPolicy.html":[0,46,31]
 };

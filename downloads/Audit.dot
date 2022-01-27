@@ -1,13 +1,13 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Audit, \n 09/03/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Audit, \n 01/27/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/Audit/Audit" -> "ogit/Audit/Batch" [label="   ogit/contains    "];
-   "ogit/Audit/Batch" -> "ogit/Audit/Sample" [label="   ogit/contains    "];
    "ogit/Audit/Sample" -> "ogit/Documents/Document" [label="   ogit/contains    "];
+   "ogit/Audit/Batch" -> "ogit/Audit/Sample" [label="   ogit/contains    "];
    "ogit/Audit/Audit" -> "ogit/FinancialAccounting/Company" [label="   ogit/affects    "];
    "ogit/Audit/Batch" -> "ogit/Attachment" [label="   ogit/has    "];
 }

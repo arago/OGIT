@@ -1,5 +1,12 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitAuthApplicationReview.html":[0,3,3,3],
+"group__httpwwwpurlorgogitAuthApplicationparent.html":[0,3,1,0,0],
+"group__httpwwwpurlorgogitAuthApplicationstatus.html":[0,3,1,0,1],
+"group__httpwwwpurlorgogitAuthApplicationtype.html":[0,3,1,0,2],
+"group__httpwwwpurlorgogitAuthApplicationurls.html":[0,3,1,0,3],
+"group__httpwwwpurlorgogitAuthConfiguration.html":[0,3,3,4],
+"group__httpwwwpurlorgogitAuthDataScope.html":[0,3,3,5],
 "group__httpwwwpurlorgogitAuthDataSet.html":[0,3,3,6],
 "group__httpwwwpurlorgogitAuthOrgDomain.html":[0,3,3,7],
 "group__httpwwwpurlorgogitAuthOrganization.html":[0,3,3,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitDatacentermoveProductionDate.html":[0,10,0,1],
 "group__httpwwwpurlorgogitDatacenterrackId.html":[0,10,0,2],
 "group__httpwwwpurlorgogitDatacenterrackUnit.html":[0,10,0,3],
-"group__httpwwwpurlorgogitDatacenterroomId.html":[0,10,0,4],
-"group__httpwwwpurlorgogitDatacentersectionId.html":[0,10,0,5],
-"group__httpwwwpurlorgogitDatatimeToLive.html":[0,8,0,0],
-"group__httpwwwpurlorgogitDevice.html":[0,46,14],
-"group__httpwwwpurlorgogitDocumentsDocument.html":[0,11,1,0],
-"group__httpwwwpurlorgogitDocumentsDocumentInfoRecord.html":[0,11,1,1],
-"group__httpwwwpurlorgogitDocumentsSpreadsheet.html":[0,11,1,2],
-"group__httpwwwpurlorgogitDocumentsdocumentNumber.html":[0,11,0,0]
+"group__httpwwwpurlorgogitDatacenterroomId.html":[0,10,0,4]
 };

@@ -1,6 +1,9 @@
 var searchData=
 [
   ['balance',['balance',['../group__httpwwwpurlorgogitAccountingbalance.html',1,'']]],
+  ['bidadjustment',['BidAdjustment',['../group__httpwwwpurlorgogitAdvertisingBidAdjustment.html',1,'']]],
+  ['bidadjustmentgroup',['BidAdjustmentGroup',['../group__httpwwwpurlorgogitAdvertisingBidAdjustmentGroup.html',1,'']]],
+  ['budgetsegment',['BudgetSegment',['../group__httpwwwpurlorgogitAdvertisingBudgetSegment.html',1,'']]],
   ['batch',['Batch',['../group__httpwwwpurlorgogitAuditBatch.html',1,'']]],
   ['belongs',['belongs',['../group__httpwwwpurlorgogitAuthbelongs.html',1,'']]],
   ['basicconfigid',['basicConfigId',['../group__httpwwwpurlorgogitAutomationbasicConfigId.html',1,'']]],

@@ -1,21 +1,21 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Network, \n 09/03/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Network, \n 01/27/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
-   "ogit/Automation/MARSNode" -> "ogit/Network/NetworkInterface" [label="   ogit/contains    "];
-   "ogit/MARS/Machine" -> "ogit/Network/NetworkInterface" [label="   ogit/contains    "];
-   "ogit/Network/NIC" -> "ogit/Network/MACAddress" [label="   ogit/contains    "];
+   "ogit/Network/Shelf" -> "ogit/Network/Slot" [label="   ogit/contains    "];
    "ogit/Network/NetworkCard" -> "ogit/Network/Port" [label="   ogit/contains    "];
-   "ogit/Network/NetworkEnclosure" -> "ogit/Network/Shelf" [label="   ogit/contains    "];
    "ogit/Network/NetworkEndpoint" -> "ogit/Network/NetworkInterface" [label="   ogit/contains    "];
    "ogit/Network/NetworkEndpoint" -> "ogit/Network/FCHBA" [label="   ogit/contains    "];
+   "ogit/Network/NetworkEnclosure" -> "ogit/Network/Shelf" [label="   ogit/contains    "];
    "ogit/Network/NetworkFabric" -> "ogit/Network/SimpleDevice" [label="   ogit/contains    "];
    "ogit/Network/NetworkFabric" -> "ogit/Network/NetworkCard" [label="   ogit/contains    "];
-   "ogit/Network/Shelf" -> "ogit/Network/Slot" [label="   ogit/contains    "];
+   "ogit/Network/NIC" -> "ogit/Network/MACAddress" [label="   ogit/contains    "];
    "ogit/Network/SimpleDevice" -> "ogit/Network/Port" [label="   ogit/contains    "];
+   "ogit/Automation/MARSNode" -> "ogit/Network/NetworkInterface" [label="   ogit/contains    "];
+   "ogit/MARS/Machine" -> "ogit/Network/NetworkInterface" [label="   ogit/contains    "];
    "ogit/Person" -> "ogit/Network/WifiAccessPoint" [label="   ogit/manages    "];
    "ogit/Person" -> "ogit/Network/VLAN" [label="   ogit/manages    "];
    "ogit/Person" -> "ogit/Network/Switch" [label="   ogit/manages    "];
@@ -51,19 +51,19 @@ edge [  color="gray81"];
    "ogit/Network/Port" -> "ogit/Network/NIC" [label="   ogit/connects    "];
    "ogit/Network/Port" -> "ogit/Network/FCHBA" [label="   ogit/connects    "];
    "ogit/Network/Site" -> "ogit/Location/NUTSLevel3" [label="   ogit/locatedIn    "];
-   "ogit/Network/FCHBA" -> "ogit/Asset" [label="   ogit/corresponds    "];
-   "ogit/Network/NIC" -> "ogit/Asset" [label="   ogit/corresponds    "];
-   "ogit/Network/NetworkCard" -> "ogit/Asset" [label="   ogit/corresponds    "];
-   "ogit/Network/NetworkEnclosure" -> "ogit/Asset" [label="   ogit/corresponds    "];
-   "ogit/Network/NetworkEndpoint" -> "ogit/Asset" [label="   ogit/corresponds    "];
-   "ogit/Network/NetworkFabric" -> "ogit/Asset" [label="   ogit/corresponds    "];
    "ogit/Network/Shelf" -> "ogit/Asset" [label="   ogit/corresponds    "];
+   "ogit/Network/FCHBA" -> "ogit/Asset" [label="   ogit/corresponds    "];
+   "ogit/Network/NetworkCard" -> "ogit/Asset" [label="   ogit/corresponds    "];
+   "ogit/Network/NetworkEndpoint" -> "ogit/Asset" [label="   ogit/corresponds    "];
+   "ogit/Network/NetworkEnclosure" -> "ogit/Asset" [label="   ogit/corresponds    "];
+   "ogit/Network/NetworkFabric" -> "ogit/Asset" [label="   ogit/corresponds    "];
+   "ogit/Network/NIC" -> "ogit/Asset" [label="   ogit/corresponds    "];
    "ogit/Network/SimpleDevice" -> "ogit/Asset" [label="   ogit/corresponds    "];
    "ogit/Software/SoftwareConnection" -> "ogit/Network/NetworkLink" [label="   ogit/transfers    "];
    "ogit/Network/IPAddress" -> "ogit/Network/Subnet" [label="   ogit/belongs    "];
-   "ogit/Network/Port" -> "ogit/Network/VLAN" [label="   ogit/belongs    "];
    "ogit/Network/PortChannel" -> "ogit/Network/Port" [label="   ogit/belongs    "];
+   "ogit/Network/Port" -> "ogit/Network/VLAN" [label="   ogit/belongs    "];
    "ogit/Network/IPAddress" -> "ogit/Network/NetworkInterface" [label="   ogit/relates    "];
-   "ogit/Network/Port" -> "ogit/Network/NetworkInterface" [label="   ogit/relates    "];
    "ogit/Network/PortChannel" -> "ogit/Network/NetworkInterface" [label="   ogit/relates    "];
+   "ogit/Network/Port" -> "ogit/Network/NetworkInterface" [label="   ogit/relates    "];
 }

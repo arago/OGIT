@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Project, \n 09/03/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Project, \n 01/27/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -27,8 +27,8 @@ edge [  color="gray81"];
    "ogit/Person" -> "ogit/Project/Milestone" [label="   ogit/produces    "];
    "ogit/Person" -> "ogit/Project/Project" [label="   ogit/produces    "];
    "ogit/Project/Milestone" -> "ogit/Project/Project" [label="   ogit/belongs    "];
-   "ogit/Survey/Iteration" -> "ogit/Project/Milestone" [label="   ogit/belongs    "];
-   "ogit/Survey/Iteration" -> "ogit/Project/Project" [label="   ogit/belongs    "];
    "ogit/Survey/Survey" -> "ogit/Project/Milestone" [label="   ogit/belongs    "];
    "ogit/Survey/Survey" -> "ogit/Project/Project" [label="   ogit/belongs    "];
+   "ogit/Survey/Iteration" -> "ogit/Project/Milestone" [label="   ogit/belongs    "];
+   "ogit/Survey/Iteration" -> "ogit/Project/Project" [label="   ogit/belongs    "];
 }

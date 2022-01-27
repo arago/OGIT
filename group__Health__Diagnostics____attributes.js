@@ -12,6 +12,7 @@ var group__Health__Diagnostics____attributes =
     [ "firmwareVersion", "group__httpwwwpurlorgogitHealthDiagnosticsfirmwareVersion.html", null ],
     [ "laboratoryName", "group__httpwwwpurlorgogitHealthDiagnosticslaboratoryName.html", null ],
     [ "liquidContactTime", "group__httpwwwpurlorgogitHealthDiagnosticsliquidContactTime.html", null ],
+    [ "sampleCollectionMethod", "group__httpwwwpurlorgogitHealthDiagnosticssampleCollectionMethod.html", null ],
     [ "sensorID", "group__httpwwwpurlorgogitHealthDiagnosticssensorID.html", null ],
     [ "symptoms", "group__httpwwwpurlorgogitHealthDiagnosticssymptoms.html", null ],
     [ "temperature", "group__httpwwwpurlorgogitHealthDiagnosticstemperature.html", null ],

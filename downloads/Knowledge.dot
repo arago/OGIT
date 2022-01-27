@@ -1,13 +1,13 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Knowledge, \n 09/03/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Knowledge, \n 01/27/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
-   "ogit/Knowledge/AcquisitionRoom" -> "ogit/Comment" [label="   ogit/contains    "];
    "ogit/Knowledge/AcquisitionSession" -> "ogit/Comment" [label="   ogit/contains    "];
    "ogit/Knowledge/AcquisitionSession" -> "ogit/Knowledge/AcquisitionRoom" [label="   ogit/contains    "];
+   "ogit/Knowledge/AcquisitionRoom" -> "ogit/Comment" [label="   ogit/contains    "];
    "ogit/Knowledge/AcquisitionSession" -> "ogit/Automation/KnowledgeItem" [label="   ogit/defines    "];
    "ogit/Knowledge/AcquisitionSession" -> "ogit/Knowledge/Step" [label="   ogit/defines    "];
    "ogit/Auth/Team" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/rejects    "];

@@ -1,12 +1,12 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Cost, \n 09/03/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Cost, \n 01/27/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
-   "ogit/Cost/CostDistribution" -> "ogit/Cost/CostElement" [label="   ogit/contains    "];
    "ogit/ServiceManagement/Offering" -> "ogit/Cost/CostElement" [label="   ogit/contains    "];
+   "ogit/Cost/CostDistribution" -> "ogit/Cost/CostElement" [label="   ogit/contains    "];
    "ogit/Cost/PlanningParameter" -> "ogit/Parameter" [label="   ogit/specifies    "];
    "ogit/Cost/Budget" -> "ogit/Cost/CostElement" [label="   ogit/covers    "];
    "ogit/Parameter" -> "ogit/Cost/CostElement" [label="   ogit/describes    "];

@@ -1,12 +1,12 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Factory, \n 09/03/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Factory, \n 01/27/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
-   "ogit/Factory/Plant" -> "ogit/Factory/Component" [label="   ogit/contains    "];
    "ogit/Factory/ProductionLine" -> "ogit/Factory/Machine" [label="   ogit/contains    "];
+   "ogit/Factory/Plant" -> "ogit/Factory/Component" [label="   ogit/contains    "];
    "ogit/Catalog" -> "ogit/Factory/Plant" [label="   ogit/contains    "];
    "ogit/Factory/Factory" -> "ogit/Factory/ProductionLine" [label="   ogit/Factory/hasAl    "];
    "ogit/Factory/Plant" -> "ogit/Location" [label="   ogit/locatedAt    "];

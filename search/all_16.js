@@ -9,6 +9,7 @@ var searchData=
   ['verbs',['Verbs',['../group__FinancialMarket____verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__Forum____verbs.html',1,'']]],
   ['verbs',['Verbs',['../group__HR__Recruiting____verbs.html',1,'']]],
+  ['vendor',['Vendor',['../group__httpwwwpurlorgogitAdvertisingVendor.html',1,'']]],
   ['vertexrule',['vertexRule',['../group__httpwwwpurlorgogitAuthvertexRule.html',1,'']]],
   ['variable',['Variable',['../group__httpwwwpurlorgogitAutomationVariable.html',1,'']]],
   ['virtualmachinename',['virtualMachineName',['../group__httpwwwpurlorgogitAutomationvirtualMachineName.html',1,'']]],

@@ -1,20 +1,20 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: FinancialAccounting, \n 09/03/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: FinancialAccounting, \n 01/27/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/FinancialAccounting/AccountsPayable/Invoice" -> "ogit/FinancialAccounting/AccountsPayable/InvoiceLineItem" [label="   ogit/contains    "];
-   "ogit/FinancialAccounting/AccountsPayable/Vendor" -> "ogit/Organization" [label="   ogit/corresponds    "];
-   "ogit/FinancialAccounting/Company" -> "ogit/Organization" [label="   ogit/corresponds    "];
    "ogit/FinancialAccounting/OrganizationalUnit" -> "ogit/Organization" [label="   ogit/corresponds    "];
+   "ogit/FinancialAccounting/Company" -> "ogit/Organization" [label="   ogit/corresponds    "];
+   "ogit/FinancialAccounting/AccountsPayable/Vendor" -> "ogit/Organization" [label="   ogit/corresponds    "];
    "ogit/FinancialAccounting/AccountsPayable/Vendor" -> "ogit/FinancialAccounting/AccountsPayable/Invoice" [label="   ogit/issues    "];
    "ogit/Audit/Audit" -> "ogit/FinancialAccounting/Company" [label="   ogit/affects    "];
    "ogit/FinancialAccounting/AccountsPayable/Payment" -> "ogit/FinancialAccounting/AccountsPayable/Invoice" [label="   ogit/belongs    "];
    "ogit/FinancialAccounting/OrganizationalUnit" -> "ogit/Location/Address" [label="   ogit/receives    "];
-   "ogit/FinancialAccounting/AccountsPayable/Invoice" -> "ogit/Attachment" [label="   ogit/has    "];
-   "ogit/FinancialAccounting/AccountsPayable/Vendor" -> "ogit/Location/Address" [label="   ogit/has    "];
    "ogit/FinancialAccounting/OrganizationalUnit" -> "ogit/Location/Address" [label="   ogit/has    "];
+   "ogit/FinancialAccounting/AccountsPayable/Vendor" -> "ogit/Location/Address" [label="   ogit/has    "];
+   "ogit/FinancialAccounting/AccountsPayable/Invoice" -> "ogit/Attachment" [label="   ogit/has    "];
    "ogit/FinancialAccounting/OrganizationalUnit" -> "ogit/FinancialAccounting/Company" [label="   ogit/isPartOf    "];
 }

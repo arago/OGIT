@@ -1,30 +1,30 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: SalesDistribution, \n 09/03/2021"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: SalesDistribution, \n 01/27/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
-   "ogit/SalesDistribution/Delivery" -> "ogit/SalesDistribution/DeliveryItem" [label="   ogit/contains    "];
-   "ogit/SalesDistribution/Invoice" -> "ogit/SalesDistribution/InvoiceItem" [label="   ogit/contains    "];
    "ogit/SalesDistribution/SalesOrder" -> "ogit/SalesDistribution/SalesOrderItem" [label="   ogit/contains    "];
    "ogit/SalesDistribution/Shipment" -> "ogit/SalesDistribution/ShipmentItem" [label="   ogit/contains    "];
+   "ogit/SalesDistribution/Invoice" -> "ogit/SalesDistribution/InvoiceItem" [label="   ogit/contains    "];
+   "ogit/SalesDistribution/Delivery" -> "ogit/SalesDistribution/DeliveryItem" [label="   ogit/contains    "];
    "ogit/SalesDistribution/SalesOrder" -> "ogit/Procurement/ProductionOrder" [label="   ogit/triggers    "];
    "ogit/SalesDistribution/SalesOrder" -> "ogit/Procurement/PurchaseOrder" [label="   ogit/triggers    "];
    "ogit/SalesDistribution/Delivery" -> "ogit/SalesDistribution/Shipment" [label="   ogit/assignedTo    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/SalesOrder" [label="   ogit/creates    "];
    "ogit/Person" -> "ogit/SalesDistribution/SalesOrder" [label="   ogit/creates    "];
+   "ogit/SalesDistribution/InvoiceItem" -> "ogit/SalesDistribution/OpenItem" [label="   ogit/corresponds    "];
    "ogit/SalesDistribution/DeliveryItem" -> "ogit/SalesDistribution/InvoiceItem" [label="   ogit/corresponds    "];
    "ogit/SalesDistribution/DeliveryItem" -> "ogit/SalesDistribution/ShipmentItem" [label="   ogit/corresponds    "];
-   "ogit/SalesDistribution/InvoiceItem" -> "ogit/SalesDistribution/OpenItem" [label="   ogit/corresponds    "];
    "ogit/SalesDistribution/SalesOrderItem" -> "ogit/SalesDistribution/DeliveryItem" [label="   ogit/corresponds    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/Payment" [label="   ogit/provides    "];
    "ogit/SalesDistribution/SalesOrder" -> "ogit/SalesDistribution/Delivery" [label="   ogit/causes    "];
    "ogit/SalesDistribution/SalesOrder" -> "ogit/SalesDistribution/Invoice" [label="   ogit/causes    "];
+   "ogit/SalesDistribution/SalesOrder" -> "ogit/MARS/Application" [label="   ogit/belongs    "];
+   "ogit/SalesDistribution/Payment" -> "ogit/SalesDistribution/SalesOrder" [label="   ogit/belongs    "];
    "ogit/SalesDistribution/Customer" -> "ogit/MARS/Application" [label="   ogit/belongs    "];
    "ogit/SalesDistribution/OpenItem" -> "ogit/SalesDistribution/Payment" [label="   ogit/belongs    "];
-   "ogit/SalesDistribution/Payment" -> "ogit/SalesDistribution/SalesOrder" [label="   ogit/belongs    "];
-   "ogit/SalesDistribution/SalesOrder" -> "ogit/MARS/Application" [label="   ogit/belongs    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/Delivery" [label="   ogit/receives    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/Invoice" [label="   ogit/receives    "];
    "ogit/SalesDistribution/Customer" -> "ogit/SalesDistribution/OpenItem" [label="   ogit/has    "];
