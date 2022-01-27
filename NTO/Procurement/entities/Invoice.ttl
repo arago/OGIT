@@ -3,29 +3,29 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.Procurement:PurchaseOrder
+ogit.Procurement:Invoice
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
-  rdfs:label "PurchaseOrder";
-  dcterms:description "A purchase order in the procurement process.";
-  dcterms:valid "start=2020-12-15;";
+  rdfs:label "Invoice";
+  dcterms:description "An invoice for a purchase order.";
+  dcterms:valid "start=20221-01-27;";
   dcterms:creator "Marek Meyer";
   ogit:scope "NTO";
   ogit:parent ogit:Node;
   ogit:mandatory-attributes (
   );
   ogit:optional-attributes (
-    ogit.Procurement:purchaseOrderId
-    ogit:name
+    ogit.Procurement:invoiceId
+    ogit.Procurement:invoiceDate
     ogit:description
+    ogit:name
   );
   ogit:indexed-attributes (
-    ogit:name
+    ogit.Procurement:invoiceId
+    ogit.Procurement:invoiceDate
     ogit:description
+    ogit:name
   );
   ogit:allowed (
-	[ ogit:contains  ogit.Procurement:PurchaseOrderItem ]
-	[ ogit:causes  ogit.Procurement:GoodsReceived ]
-	[ ogit:causes  ogit.Procurement:Invoice ]
   );
 .
