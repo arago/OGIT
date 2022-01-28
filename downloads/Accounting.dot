@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Accounting, \n 01/27/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Accounting, \n 01/28/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -12,8 +12,8 @@ edge [  color="gray81"];
    "ogit/Accounting/CompanyEntity" -> "ogit/Accounting/FinancialStatement" [label="   ogit/generates    "];
    "ogit/Accounting/CompanyEntity" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/Accounting/DDTarget" -> "ogit/Accounting/FinancialStatement" [label="   ogit/generates    "];
-   "ogit/Accounting/LineItem" -> "ogit/Accounting/FinancialStatement" [label="   ogit/Accounting/contributesTo    "];
    "ogit/Accounting/CategoryItem" -> "ogit/Accounting/FinancialStatement" [label="   ogit/Accounting/contributesTo    "];
+   "ogit/Accounting/LineItem" -> "ogit/Accounting/FinancialStatement" [label="   ogit/Accounting/contributesTo    "];
    "ogit/Accounting/LineItem" -> "ogit/Accounting/CategoryItem" [label="   ogit/Accounting/maps    "];
    "ogit/Accounting/CompanyEntity" -> "ogit/Organization" [label="   ogit/belongs    "];
    "ogit/Accounting/DDTarget" -> "ogit/Organization" [label="   ogit/belongs    "];

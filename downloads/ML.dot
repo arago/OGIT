@@ -1,12 +1,12 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: ML, \n 01/27/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: ML, \n 01/28/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
-   "ogit/ML/TrainingData" -> "ogit/Attachment" [label="   ogit/contains    "];
    "ogit/ML/TrainedModel" -> "ogit/Attachment" [label="   ogit/contains    "];
+   "ogit/ML/TrainingData" -> "ogit/Attachment" [label="   ogit/contains    "];
    "ogit/ML/PredictionModel" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/ML/TrainedModel" -> "ogit/ML/TrainingData" [label="   ogit/ML/trainedOn    "];
    "ogit/ML/PredictionModel" -> "ogit/ML/TrainedModel" [label="   ogit/uses    "];

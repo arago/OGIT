@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Survey, \n 01/27/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Survey, \n 01/28/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -11,13 +11,13 @@ edge [  color="gray81"];
    "ogit/Organization" -> "ogit/Survey/Iteration" [label="   ogit/consumes    "];
    "ogit/Auth/Organization" -> "ogit/Survey/Iteration" [label="   ogit/produces    "];
    "ogit/Organization" -> "ogit/Survey/Iteration" [label="   ogit/produces    "];
-   "ogit/Survey/Survey" -> "ogit/Organization" [label="   ogit/belongs    "];
-   "ogit/Survey/Survey" -> "ogit/Project/Milestone" [label="   ogit/belongs    "];
-   "ogit/Survey/Survey" -> "ogit/Project/Project" [label="   ogit/belongs    "];
-   "ogit/Survey/Reply" -> "ogit/Survey/Iteration" [label="   ogit/belongs    "];
    "ogit/Survey/Iteration" -> "ogit/Project/Milestone" [label="   ogit/belongs    "];
    "ogit/Survey/Iteration" -> "ogit/Project/Project" [label="   ogit/belongs    "];
    "ogit/Survey/Iteration" -> "ogit/Survey/Survey" [label="   ogit/belongs    "];
+   "ogit/Survey/Reply" -> "ogit/Survey/Iteration" [label="   ogit/belongs    "];
+   "ogit/Survey/Survey" -> "ogit/Organization" [label="   ogit/belongs    "];
+   "ogit/Survey/Survey" -> "ogit/Project/Milestone" [label="   ogit/belongs    "];
+   "ogit/Survey/Survey" -> "ogit/Project/Project" [label="   ogit/belongs    "];
    "ogit/Auth/Account" -> "ogit/Survey/Reply" [label="   ogit/repliedWith    "];
    "ogit/Person" -> "ogit/Survey/Reply" [label="   ogit/repliedWith    "];
    "ogit/Person" -> "ogit/Survey/Iteration" [label="   ogit/relates    "];

@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Software, \n 01/27/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Software, \n 01/28/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -22,8 +22,8 @@ edge [  color="gray81"];
    "ogit/ServiceManagement/Service" -> "ogit/Software/Application" [label="   ogit/implements    "];
    "ogit/Person" -> "ogit/Software/Application" [label="   ogit/owns    "];
    "ogit/Software/Application" -> "ogit/Organization" [label="   ogit/belongs    "];
-   "ogit/Software/SoftwareConnection" -> "ogit/Software/SoftwareComponent" [label="   ogit/uses    "];
    "ogit/Software/SoftwareComponent" -> "ogit/Automation/MARSNode" [label="   ogit/uses    "];
+   "ogit/Software/SoftwareConnection" -> "ogit/Software/SoftwareComponent" [label="   ogit/uses    "];
    "ogit/Person" -> "ogit/Software/Application" [label="   ogit/uses    "];
    "ogit/Software/Application" -> "ogit/License" [label="   ogit/relates    "];
    "ogit/Software/SoftwareComponent" -> "ogit/Software/SoftwareComponent" [label="   ogit/contains, \n ogit/connects    "];

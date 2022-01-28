@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Health, \n 01/27/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Health, \n 01/28/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -9,15 +9,15 @@ edge [  color="gray81"];
    "ogit/Organization" -> "ogit/Health/Diagnostics/Equipment" [label="   ogit/manages    "];
    "ogit/Person" -> "ogit/Health/Diagnostics/Equipment" [label="   ogit/manages    "];
    "ogit/Person" -> "ogit/Health/Diagnostics/Test" [label="   ogit/manages    "];
+   "ogit/Health/Diagnostics/Equipment" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/Health/Diagnostics/Test" -> "ogit/Attachment" [label="   ogit/generates    "];
    "ogit/Health/Diagnostics/Test" -> "ogit/Timeseries" [label="   ogit/generates    "];
-   "ogit/Health/Diagnostics/Equipment" -> "ogit/Timeseries" [label="   ogit/generates    "];
    "ogit/Mobile/AppInstance" -> "ogit/Health/Diagnostics/Demographics" [label="   ogit/generates    "];
    "ogit/Health/Diagnostics/TestStation" -> "ogit/Location/Address" [label="   ogit/locatedAt    "];
    "ogit/Health/Diagnostics/Test" -> "ogit/Health/Diagnostics/Anamnesis" [label="   ogit/includes    "];
    "ogit/Health/Diagnostics/Test" -> "ogit/Health/Diagnostics/Demographics" [label="   ogit/includes    "];
-   "ogit/Health/Diagnostics/Laboratory" -> "ogit/Health/Diagnostics/Test" [label="   ogit/performs    "];
    "ogit/Health/Diagnostics/Equipment" -> "ogit/Health/Diagnostics/Test" [label="   ogit/performs    "];
+   "ogit/Health/Diagnostics/Laboratory" -> "ogit/Health/Diagnostics/Test" [label="   ogit/performs    "];
    "ogit/Health/Diagnostics/TestStation" -> "ogit/Health/Diagnostics/Test" [label="   ogit/performs    "];
    "ogit/Health/Diagnostics/Test" -> "ogit/Person" [label="   ogit/describes    "];
    "ogit/Mobile/AppInstance" -> "ogit/Health/Diagnostics/Test" [label="   ogit/connects    "];

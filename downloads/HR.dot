@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: HR, \n 01/27/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: HR, \n 01/28/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -17,10 +17,10 @@ edge [  color="gray81"];
    "ogit/Role" -> "ogit/HR/Recruiting/Education" [label="   ogit/requires    "];
    "ogit/HR/Recruiting/Applicant" -> "ogit/Role" [label="   ogit/HR/Recruiting/appliesFor    "];
    "ogit/HR/Recruiting/Recruiter" -> "ogit/HR/Recruiting/Resume" [label="   ogit/reviews    "];
-   "ogit/HR/Recruiting/Skill" -> "ogit/HR/Recruiting/SkillGroup" [label="   ogit/belongs    "];
    "ogit/HR/Recruiting/RoleTitle" -> "ogit/Role" [label="   ogit/belongs    "];
    "ogit/HR/Recruiting/Score" -> "ogit/Role" [label="   ogit/belongs    "];
+   "ogit/HR/Recruiting/Skill" -> "ogit/HR/Recruiting/SkillGroup" [label="   ogit/belongs    "];
    "ogit/Role" -> "ogit/HR/Recruiting/Relevance" [label="   ogit/uses    "];
-   "ogit/HR/Recruiting/Resume" -> "ogit/HR/Recruiting/Score" [label="   ogit/has    "];
    "ogit/HR/Recruiting/Recruiter" -> "ogit/Auth/Account" [label="   ogit/has    "];
+   "ogit/HR/Recruiting/Resume" -> "ogit/HR/Recruiting/Score" [label="   ogit/has    "];
 }

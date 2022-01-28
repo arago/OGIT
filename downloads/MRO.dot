@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: MRO, \n 01/27/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: MRO, \n 01/28/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -18,8 +18,8 @@ edge [  color="gray81"];
    "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/Capability" [label="   ogit/requires    "];
    "ogit/Organization" -> "ogit/MRO/Aviation/Aircraft" [label="   ogit/owns    "];
    "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/Workstation" [label="   ogit/MRO/Aviation/performedAt    "];
-   "ogit/MRP/Workshop" -> "ogit/MRO/Aviation/Facility" [label="   ogit/belongs    "];
    "ogit/MRO/Aviation/Bay" -> "ogit/MRO/Aviation/Facility" [label="   ogit/belongs    "];
+   "ogit/MRP/Workshop" -> "ogit/MRO/Aviation/Facility" [label="   ogit/belongs    "];
    "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/MPD" [label="   ogit/MRO/Aviation/references    "];
    "ogit/MRO/Aviation/Component" -> "ogit/MRO/Aviation/AircraftType" [label="   ogit/MRO/Aviation/suit    "];
    "ogit/MRO/Aviation/Task" -> "ogit/MRO/Aviation/Layover" [label="   ogit/relates    "];

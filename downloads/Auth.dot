@@ -1,18 +1,18 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Auth, \n 01/27/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Auth, \n 01/28/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/Auth/Account" -> "ogit/Subscription" [label="   ogit/manages    "];
    "ogit/Auth/Account" -> "ogit/UserMeta/Filter" [label="   ogit/defines    "];
-   "ogit/Auth/OrgDomain" -> "ogit/Auth/Organization" [label="   ogit/Auth/belongs    "];
+   "ogit/Auth/AccountProfile" -> "ogit/Auth/Account" [label="   ogit/Auth/belongs    "];
    "ogit/Auth/Configuration" -> "ogit/Auth/Organization" [label="   ogit/Auth/belongs    "];
+   "ogit/Auth/DataScope" -> "ogit/Auth/Organization" [label="   ogit/Auth/belongs    "];
+   "ogit/Auth/OrgDomain" -> "ogit/Auth/Organization" [label="   ogit/Auth/belongs    "];
    "ogit/Auth/RoleAssignment" -> "ogit/Auth/Organization" [label="   ogit/Auth/belongs    "];
    "ogit/Auth/Team" -> "ogit/Auth/Organization" [label="   ogit/Auth/belongs    "];
-   "ogit/Auth/AccountProfile" -> "ogit/Auth/Account" [label="   ogit/Auth/belongs    "];
-   "ogit/Auth/DataScope" -> "ogit/Auth/Organization" [label="   ogit/Auth/belongs    "];
    "ogit/Auth/Organization" -> "ogit/Contract" [label="   ogit/concludes    "];
    "ogit/Auth/Team" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/rejects    "];
    "ogit/Auth/Team" -> "ogit/Automation/KnowledgeItem" [label="   ogit/rejects    "];
@@ -43,8 +43,8 @@ edge [  color="gray81"];
    "ogit/Auth/Account" -> "ogit/Project/Project" [label="   ogit/produces    "];
    "ogit/Auth/Organization" -> "ogit/Project/Project" [label="   ogit/produces    "];
    "ogit/Auth/Organization" -> "ogit/Survey/Iteration" [label="   ogit/produces    "];
-   "ogit/Schedule/Calendar" -> "ogit/Auth/Account" [label="   ogit/belongs    "];
    "ogit/Auth/Account" -> "ogit/Person" [label="   ogit/belongs    "];
+   "ogit/Schedule/Calendar" -> "ogit/Auth/Account" [label="   ogit/belongs    "];
    "ogit/Attachment" -> "ogit/Auth/AccountProfile" [label="   ogit/belongs    "];
    "ogit/Auth/Account" -> "ogit/Auth/Organization" [label="   ogit/Auth/isMemberOf    "];
    "ogit/Auth/Account" -> "ogit/Auth/Team" [label="   ogit/Auth/isMemberOf    "];
@@ -53,9 +53,9 @@ edge [  color="gray81"];
    "ogit/Auth/Account" -> "ogit/Survey/Reply" [label="   ogit/repliedWith    "];
    "ogit/Auth/Team" -> "ogit/Knowledge/AcquisitionSession" [label="   ogit/approves    "];
    "ogit/Auth/Team" -> "ogit/Automation/KnowledgeItem" [label="   ogit/approves    "];
-   "ogit/Schedule/Attendee" -> "ogit/Auth/Account" [label="   ogit/has    "];
-   "ogit/Mobile/AppInstance" -> "ogit/Auth/Account" [label="   ogit/has    "];
    "ogit/HR/Recruiting/Recruiter" -> "ogit/Auth/Account" [label="   ogit/has    "];
+   "ogit/Mobile/AppInstance" -> "ogit/Auth/Account" [label="   ogit/has    "];
+   "ogit/Schedule/Attendee" -> "ogit/Auth/Account" [label="   ogit/has    "];
    "ogit/Comment" -> "ogit/Auth/Account" [label="   ogit/seenBy    "];
    "ogit/Auth/Application" -> "ogit/Auth/Application" [label="   ogit/versions    "];
    "ogit/Auth/Team" -> "ogit/Auth/Team" [label="   ogit/Auth/belongs    "];

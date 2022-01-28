@@ -1,12 +1,12 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: MRP, \n 01/27/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: MRP, \n 01/28/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
-   "ogit/MRP/Vorgang" -> "ogit/MRP/Part" [label="   ogit/contains    "];
    "ogit/MRP/Disposet" -> "ogit/Comment" [label="   ogit/contains    "];
+   "ogit/MRP/Vorgang" -> "ogit/MRP/Part" [label="   ogit/contains    "];
    "ogit/Catalog" -> "ogit/MRP/NormItem" [label="   ogit/contains    "];
    "ogit/Catalog" -> "ogit/MRP/Part" [label="   ogit/contains    "];
    "ogit/MRP/Vorgang" -> "ogit/Organization" [label="   ogit/concludes    "];
@@ -16,15 +16,15 @@ edge [  color="gray81"];
    "ogit/MRP/Part" -> "ogit/MRP/NormItem" [label="   ogit/complies    "];
    "ogit/MRP/Workshop" -> "ogit/MRP/Vorgang" [label="   ogit/MRP/performs    "];
    "ogit/MRP/Disposet" -> "ogit/Alert" [label="   ogit/alerts    "];
-   "ogit/MRP/Workshop" -> "ogit/Location" [label="   ogit/locatedIn    "];
    "ogit/MRP/Store" -> "ogit/Location" [label="   ogit/locatedIn    "];
+   "ogit/MRP/Workshop" -> "ogit/Location" [label="   ogit/locatedIn    "];
    "ogit/MRP/Measure" -> "ogit/Timeseries" [label="   ogit/MRP/historicised    "];
    "ogit/MRP/Manufacturer" -> "ogit/MRP/Part" [label="   ogit/MRP/manufacture    "];
    "ogit/MRP/Store" -> "ogit/MRP/Disposet" [label="   ogit/MRP/supply    "];
-   "ogit/MRP/Workshop" -> "ogit/MRO/Aviation/Facility" [label="   ogit/belongs    "];
-   "ogit/MRP/Workshop" -> "ogit/Organization" [label="   ogit/belongs    "];
    "ogit/MRP/Disposet" -> "ogit/MRP/Part" [label="   ogit/belongs    "];
    "ogit/MRP/Disposet" -> "ogit/MRP/PSG" [label="   ogit/belongs    "];
+   "ogit/MRP/Workshop" -> "ogit/MRO/Aviation/Facility" [label="   ogit/belongs    "];
+   "ogit/MRP/Workshop" -> "ogit/Organization" [label="   ogit/belongs    "];
    "ogit/MRP/Manufacturer" -> "ogit/Organization" [label="   ogit/relates    "];
    "ogit/MRP/Threshold" -> "ogit/MRP/Threshold" [label="   ogit/relates    "];
    "ogit/MRP/Part" -> "ogit/MRP/Part" [label="   ogit/consistsOf    "];
