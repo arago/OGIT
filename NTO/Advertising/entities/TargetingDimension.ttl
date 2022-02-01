@@ -25,7 +25,7 @@ ogit.Advertising:TargetingDimension
     ogit:name
   );
   ogit:allowed (
-    [ ogit:contains  ogit.Advertising:Deal ]
+    [ ogit:consistsOf ogit.Advertising:Deal ]
     [ ogit:generates ogit.Documents:Spreadsheet ]
   );
 
