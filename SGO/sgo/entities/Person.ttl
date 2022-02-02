@@ -168,5 +168,7 @@ ogit:Person
             [ ogit:registeredAt  ogit.Location:Address ]
 			[ ogit:creates  ogit.SalesDistribution:SalesOrder ]
             [ ogit:uses  ogit.Health.Diagnostics:TestStation ]
+			[ ogit:uses  	ogit.MARS:Application ]
+			[ ogit:manages  ogit.MARS:Application ]
 	);
 .
