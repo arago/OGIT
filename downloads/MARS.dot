@@ -1,11 +1,12 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: MARS, \n 01/28/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: MARS, \n 02/09/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/MARS/Machine" -> "ogit/Network/NetworkInterface" [label="   ogit/contains    "];
+   "ogit/Person" -> "ogit/MARS/Application" [label="   ogit/manages    "];
    "ogit/MARS/Machine" -> "ogit/Datacenter/Virtual/Cluster" [label="   ogit/runsOn    "];
    "ogit/MARS/Machine" -> "ogit/Datacenter/Virtual/ResourcePool" [label="   ogit/runsOn    "];
    "ogit/MARS/Application" -> "ogit/Data/Log" [label="   ogit/generates    "];
@@ -53,6 +54,7 @@ edge [  color="gray81"];
    "ogit/Attachment" -> "ogit/MARS/Resource" [label="   ogit/belongs    "];
    "ogit/Attachment" -> "ogit/MARS/Application" [label="   ogit/belongs    "];
    "ogit/MARS/Resource" -> "ogit/Automation/Configuration" [label="   ogit/uses    "];
+   "ogit/Person" -> "ogit/MARS/Application" [label="   ogit/uses    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/MARS/Machine" [label="   ogit/reportedOn    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/MARS/Software" [label="   ogit/reportedOn    "];
    "ogit/ServiceManagement/ChangeRequest" -> "ogit/MARS/Resource" [label="   ogit/reportedOn    "];

@@ -1,5 +1,9 @@
 var NAVTREEINDEX6 =
 {
+"group__httpwwwpurlorgogitconformsTo.html":[0,46,122],
+"group__httpwwwpurlorgogitconnectorId.html":[0,46,123],
+"group__httpwwwpurlorgogitconnects.html":[0,46,124],
+"group__httpwwwpurlorgogitconsentLevel.html":[0,46,125],
 "group__httpwwwpurlorgogitconsistsOf.html":[0,46,126],
 "group__httpwwwpurlorgogitconsumes.html":[0,46,127],
 "group__httpwwwpurlorgogitcontact.html":[0,46,128],
