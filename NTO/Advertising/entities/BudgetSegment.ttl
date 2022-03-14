@@ -24,7 +24,7 @@ ogit.Advertising:BudgetSegment
     ogit:name
   );
   ogit:allowed (
-    [ ogit:uses  ogit.Advertising:BudgetSegment ]
+    [ ogit:covers  ogit.Advertising:BudgetSegment ]
   );
 
 .
