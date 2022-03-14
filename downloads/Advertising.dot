@@ -1,7 +1,7 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 03/08/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 03/14/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
@@ -43,4 +43,5 @@ edge [  color="gray81"];
    "ogit/Advertising/InsertionOrder" -> "ogit/Advertising/BudgetSegment" [label="   ogit/consistsOf    "];
    "ogit/Advertising/LineItem" -> "ogit/Advertising/BudgetSegment" [label="   ogit/consistsOf    "];
    "ogit/Advertising/TargetingDimension" -> "ogit/Advertising/Deal" [label="   ogit/consistsOf    "];
+   "ogit/Advertising/BudgetSegment" -> "ogit/Advertising/BudgetSegment" [label="   ogit/covers    "];
 }
