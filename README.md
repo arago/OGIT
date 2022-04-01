@@ -77,7 +77,7 @@ If you have general questions or need support please contact us at <ogit@arago.d
 
 ## License
 
-Please see [LICENSE.md](LICENSE.md) for information about the licensing of OGIT and its components.
+Please see [LICENSE.md](LICENSE.md) for information about the licensing of OGIT and its components..
 
 
 
