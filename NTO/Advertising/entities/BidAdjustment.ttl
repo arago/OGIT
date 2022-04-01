@@ -24,6 +24,7 @@ ogit.Advertising:BidAdjustment
     ogit:name
   );
   ogit:allowed (
+    [ ogit:uses        ogit.Advertising:TargetingDimension ]
     [ ogit:consistsOf        ogit.Advertising:TargetingDimension ]
     [ ogit:contains        ogit.Advertising:TargetingDimension ]
   );
