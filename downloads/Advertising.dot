@@ -1,12 +1,14 @@
 digraph OGIT_ontology {
  graph [ rankdir= LR,pad=1 
 fontsize = 18,
-fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 03/14/2022"];
+fontcolor= dodgerblue3,label = "\n\n\nNamespace: Advertising, \n 04/04/2022"];
 node[shape=polygon];
 edge [  color="gray81"];
 
    "ogit/Advertising/Advertiser" -> "ogit/Advertising/Campaign" [label="   ogit/contains    "];
    "ogit/Advertising/Advertiser" -> "ogit/Advertising/InsertionOrder" [label="   ogit/contains    "];
+   "ogit/Advertising/BidAdjustment" -> "ogit/Advertising/TargetingDimension" [label="   ogit/contains    "];
+   "ogit/Advertising/BidAdjustmentGroup" -> "ogit/Advertising/TargetingDimension" [label="   ogit/contains    "];
    "ogit/Advertising/Platform" -> "ogit/Advertising/Advertiser" [label="   ogit/contains    "];
    "ogit/Advertising/CampaignManager" -> "ogit/Advertising/MediaPlan" [label="   ogit/manages    "];
    "ogit/Advertising/CampaignManager" -> "ogit/Advertising/Campaign" [label="   ogit/manages    "];
@@ -35,6 +37,7 @@ edge [  color="gray81"];
    "ogit/Advertising/LineItem" -> "ogit/Advertising/BidAdjustmentGroup" [label="   ogit/uses    "];
    "ogit/Advertising/LineItem" -> "ogit/Advertising/BidAdjustment" [label="   ogit/uses    "];
    "ogit/Advertising/Publisher" -> "ogit/Advertising/Vendor" [label="   ogit/uses    "];
+   "ogit/Advertising/BidAdjustment" -> "ogit/Advertising/TargetingDimension" [label="   ogit/consistsOf    "];
    "ogit/Advertising/BidAdjustmentGroup" -> "ogit/Advertising/BidAdjustment" [label="   ogit/consistsOf    "];
    "ogit/Advertising/BidAdjustmentGroup" -> "ogit/Advertising/TargetingDimension" [label="   ogit/consistsOf    "];
    "ogit/Advertising/Campaign" -> "ogit/Advertising/InsertionOrder" [label="   ogit/consistsOf    "];
