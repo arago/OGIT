@@ -9,6 +9,6 @@ ogit.RL:qValues
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "Q Value function of learning service";
 	dcterms:description "Specifies the q value of the state/action pairs in Reinforcement Learning.";
-	dcterms:valid "start=2021-11-08;";
+	dcterms:valid "start=2022-04-07;";
 	dcterms:creator "Liudmyla Nechepurenko";
 .

@@ -4,11 +4,11 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.RL:returnSums
+ogit.RL:returnsSum
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "returnSums";
+	rdfs:label "returnsSum";
 	dcterms:description "Specifies the sums of all returns calculated for a specific state/action in Reinforcement Learning.";
-	dcterms:valid "start=2021-11-08;";
+	dcterms:valid "start=2022-04-07;";
 	dcterms:creator "Liudmyla Nechepurenko";
 .
