@@ -9,6 +9,6 @@ ogit.RL:totalRewardsSum
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "totalRewardsSum";
 	dcterms:description "Specifies the sum of all total rewards aquired for a specific state/action in Reinforcement Learning.";
-	dcterms:valid "start=2021-11-08;";
+	dcterms:valid "start=2022-04-07;";
 	dcterms:creator "Liudmyla Nechepurenko";
 .
