@@ -4,11 +4,11 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit.RL:totalReward
+ogit.RL:returnsCount
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "totalReward";
-	dcterms:description "Specifies the total reward of the issue for Reinforcement Learning.";
-	dcterms:valid "start=2020-01-02;";
-	dcterms:creator "Rudi Schäfer";
+	rdfs:label "returnsCount";
+	dcterms:description "Specifies the number of returns calculated for a particular state/action pair in Reinforcement Learning.";
+	dcterms:valid "start=2022-04-07;";
+	dcterms:creator "Liudmyla Nechepurenko";
 .
