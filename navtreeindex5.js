@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"group__httpwwwpurlorgogitPolicy.html":[0,46,31],
 "group__httpwwwpurlorgogitPriceInvoice.html":[0,40,1,0],
 "group__httpwwwpurlorgogitPricePriceSpecification.html":[0,40,1,1],
 "group__httpwwwpurlorgogitPricediscreteValue.html":[0,40,0,0],
@@ -27,8 +28,14 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitRDDLnature.html":[0,43,2,0],
 "group__httpwwwpurlorgogitRDDLpurpose.html":[0,43,0,0],
 "group__httpwwwpurlorgogitRDDLresource.html":[0,43,2,1],
-"group__httpwwwpurlorgogitRLstate.html":[0,44,0,0],
-"group__httpwwwpurlorgogitRLtotalReward.html":[0,44,0,1],
+"group__httpwwwpurlorgogitRLLearningStatistics.html":[0,44,1,0],
+"group__httpwwwpurlorgogitRLgamma.html":[0,44,0,0],
+"group__httpwwwpurlorgogitRLqValues.html":[0,44,0,1],
+"group__httpwwwpurlorgogitRLreturnsCount.html":[0,44,0,2],
+"group__httpwwwpurlorgogitRLreturnsSum.html":[0,44,0,3],
+"group__httpwwwpurlorgogitRLstate.html":[0,44,0,4],
+"group__httpwwwpurlorgogitRLtotalReward.html":[0,44,0,5],
+"group__httpwwwpurlorgogitRLtotalRewardsSum.html":[0,44,0,6],
 "group__httpwwwpurlorgogitRPAController.html":[0,45,1,0],
 "group__httpwwwpurlorgogitRPAObject.html":[0,45,1,1],
 "group__httpwwwpurlorgogitRPAOdometry.html":[0,45,0,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX5 =
 "group__httpwwwpurlorgogitclosedAt.html":[0,46,111],
 "group__httpwwwpurlorgogitcloses.html":[0,46,112],
 "group__httpwwwpurlorgogitcolor.html":[0,46,113],
-"group__httpwwwpurlorgogitcomment.html":[0,46,114],
-"group__httpwwwpurlorgogitcommunicatesWith.html":[0,46,115],
-"group__httpwwwpurlorgogitcompetes.html":[0,46,116],
-"group__httpwwwpurlorgogitcomplies.html":[0,46,117],
-"group__httpwwwpurlorgogitconcludes.html":[0,46,118],
-"group__httpwwwpurlorgogitcondition.html":[0,46,119],
-"group__httpwwwpurlorgogitconfidentiality.html":[0,46,120],
-"group__httpwwwpurlorgogitconfigures.html":[0,46,121]
+"group__httpwwwpurlorgogitcomment.html":[0,46,114]
 };

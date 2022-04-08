@@ -110,6 +110,8 @@ var searchData=
   ['reviews',['reviews',['../group__httpwwwpurlorgogitreviews.html',1,'']]],
   ['revision',['revision',['../group__httpwwwpurlorgogitrevision.html',1,'']]],
   ['risk',['risk',['../group__httpwwwpurlorgogitrisk.html',1,'']]],
+  ['returnscount',['returnsCount',['../group__httpwwwpurlorgogitRLreturnsCount.html',1,'']]],
+  ['returnssum',['returnsSum',['../group__httpwwwpurlorgogitRLreturnsSum.html',1,'']]],
   ['role',['Role',['../group__httpwwwpurlorgogitRole.html',1,'']]],
   ['robot',['Robot',['../group__httpwwwpurlorgogitRPARobot.html',1,'']]],
   ['roboticenvironment',['RoboticEnvironment',['../group__httpwwwpurlorgogitRPARoboticEnvironment.html',1,'']]],

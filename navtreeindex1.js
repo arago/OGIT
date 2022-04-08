@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"group__httpwwwpurlorgogitAuthApplication.html":[0,3,3,2],
 "group__httpwwwpurlorgogitAuthApplicationReview.html":[0,3,3,3],
 "group__httpwwwpurlorgogitAuthApplicationparent.html":[0,3,1,0,0],
 "group__httpwwwpurlorgogitAuthApplicationstatus.html":[0,3,1,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "group__httpwwwpurlorgogitDatacenterdatacenterId.html":[0,10,0,0],
 "group__httpwwwpurlorgogitDatacentermoveProductionDate.html":[0,10,0,1],
 "group__httpwwwpurlorgogitDatacenterrackId.html":[0,10,0,2],
-"group__httpwwwpurlorgogitDatacenterrackUnit.html":[0,10,0,3],
-"group__httpwwwpurlorgogitDatacenterroomId.html":[0,10,0,4]
+"group__httpwwwpurlorgogitDatacenterrackUnit.html":[0,10,0,3]
 };

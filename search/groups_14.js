@@ -71,6 +71,7 @@ var searchData=
   ['timeunitseconds',['timeUnitSeconds',['../group__httpwwwpurlorgogitPricetimeUnitSeconds.html',1,'']]],
   ['test',['Test',['../group__httpwwwpurlorgogitPTFTest.html',1,'']]],
   ['totalreward',['totalReward',['../group__httpwwwpurlorgogitRLtotalReward.html',1,'']]],
+  ['totalrewardssum',['totalRewardsSum',['../group__httpwwwpurlorgogitRLtotalRewardsSum.html',1,'']]],
   ['transactiondate',['transactionDate',['../group__httpwwwpurlorgogitSalesDistributiontransactionDate.html',1,'']]],
   ['transactionid',['transactionId',['../group__httpwwwpurlorgogitSalesDistributiontransactionId.html',1,'']]],
   ['targetfinishat',['targetFinishAt',['../group__httpwwwpurlorgogitServiceManagementtargetFinishAt.html',1,'']]],

@@ -62,6 +62,7 @@ var searchData=
   ['loginrequestfailures',['LoginRequestFailures',['../group__httpwwwpurlorgogitOSLC-perfmonLoginRequestFailures.html',1,'']]],
   ['logused',['LogUsed',['../group__httpwwwpurlorgogitOSLC-perfmonLogUsed.html',1,'']]],
   ['linkscnt',['linksCnt',['../group__httpwwwpurlorgogitPTFlinksCnt.html',1,'']]],
+  ['learningstatistics',['LearningStatistics',['../group__httpwwwpurlorgogitRLLearningStatistics.html',1,'']]],
   ['location',['location',['../group__httpwwwpurlorgogitSchedulelocation.html',1,'']]],
   ['lefttime',['leftTime',['../group__httpwwwpurlorgogitServiceManagementleftTime.html',1,'']]],
   ['licensetokenstatus',['licenseTokenStatus',['../group__httpwwwpurlorgogitServiceManagementlicenseTokenStatus.html',1,'']]],

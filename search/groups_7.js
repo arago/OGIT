@@ -15,6 +15,7 @@ var searchData=
   ['graphawsmachinecnt',['graphAwsMachineCnt',['../group__httpwwwpurlorgogitPTFgraphAwsMachineCnt.html',1,'']]],
   ['graphawsmachinetype',['graphAwsMachineType',['../group__httpwwwpurlorgogitPTFgraphAwsMachineType.html',1,'']]],
   ['graphnodescnt',['graphNodesCnt',['../group__httpwwwpurlorgogitPTFgraphNodesCnt.html',1,'']]],
+  ['gamma',['gamma',['../group__httpwwwpurlorgogitRLgamma.html',1,'']]],
   ['granularity',['granularity',['../group__httpwwwpurlorgogitServiceManagementgranularity.html',1,'']]],
   ['game',['Game',['../group__httpwwwpurlorgogitUserMetaGame.html',1,'']]]
 ];

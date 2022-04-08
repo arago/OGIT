@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"group__httpwwwpurlorgogitOSLC-crtvelementTo.html":[0,33,2,5],
 "group__httpwwwpurlorgogitOSLC-crtvfileName.html":[0,33,0,1],
 "group__httpwwwpurlorgogitOSLC-crtvfqdn.html":[0,33,0,2],
 "group__httpwwwpurlorgogitOSLC-crtvhostid.html":[0,33,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "group__httpwwwpurlorgogitParameter.html":[0,46,27],
 "group__httpwwwpurlorgogitParameterType.html":[0,46,28],
 "group__httpwwwpurlorgogitPenalty.html":[0,46,29],
-"group__httpwwwpurlorgogitPerson.html":[0,46,30],
-"group__httpwwwpurlorgogitPolicy.html":[0,46,31]
+"group__httpwwwpurlorgogitPerson.html":[0,46,30]
 };

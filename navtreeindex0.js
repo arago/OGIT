@@ -162,6 +162,7 @@ var NAVTREEINDEX0 =
 "group__RDDL____verbs.html":[0,43,2],
 "group__RL.html":[0,44],
 "group__RL____attributes.html":[0,44,0],
+"group__RL____entities.html":[0,44,1],
 "group__RPA.html":[0,45],
 "group__RPA____attributes.html":[0,45,0],
 "group__RPA____entities.html":[0,45,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group__httpwwwpurlorgogitAuthAccountdefaultTeam.html":[0,3,0,0,6],
 "group__httpwwwpurlorgogitAuthAccountdisplayName.html":[0,3,0,0,7],
 "group__httpwwwpurlorgogitAuthAccountstatusReason.html":[0,3,0,0,8],
-"group__httpwwwpurlorgogitAuthAccounttype.html":[0,3,0,0,9],
-"group__httpwwwpurlorgogitAuthApplication.html":[0,3,3,2]
+"group__httpwwwpurlorgogitAuthAccounttype.html":[0,3,0,0,9]
 };
