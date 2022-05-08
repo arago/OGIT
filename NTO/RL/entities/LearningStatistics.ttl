@@ -22,7 +22,11 @@ ogit.RL:LearningStatistics
 		
 	);
 	ogit:optional-attributes (
-		
+		ogit.RL:gamma
+		ogit.RL:qValues
+		ogit.RL:returnsCount
+		ogit.RL:returnsSum
+		ogit.RL:totalRewardsSum
 	);
 	ogit:indexed-attributes (
 		
