@@ -11,6 +11,8 @@ var group__ML____attributes =
     [ "meta", "group__httpwwwpurlorgogitMLmeta.html", null ],
     [ "requirements", "group__httpwwwpurlorgogitMLrequirements.html", null ],
     [ "size", "group__httpwwwpurlorgogitMLsize.html", null ],
+    [ "sourceDataFromTime", "group__httpwwwpurlorgogitMLsourceDataFromTime.html", null ],
+    [ "sourceDataToTime", "group__httpwwwpurlorgogitMLsourceDataToTime.html", null ],
     [ "trainData", "group__httpwwwpurlorgogitMLtrainData.html", null ],
     [ "trainedFrom", "group__httpwwwpurlorgogitMLtrainedFrom.html", null ],
     [ "trainingSummary", "group__httpwwwpurlorgogitMLtrainingSummary.html", null ]

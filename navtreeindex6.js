@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"group__httpwwwpurlorgogitcolor.html":[0,46,113],
+"group__httpwwwpurlorgogitcomment.html":[0,46,114],
 "group__httpwwwpurlorgogitcommunicatesWith.html":[0,46,115],
 "group__httpwwwpurlorgogitcompetes.html":[0,46,116],
 "group__httpwwwpurlorgogitcomplies.html":[0,46,117],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "group__httpwwwpurlorgogitwins.html":[0,46,359],
 "group__httpwwwpurlorgogitworksOn.html":[0,46,360],
 "group__httpwwwpurlorgogityearOfBirth.html":[0,46,361],
-"group__httpwwwpurlorgogitzipCode.html":[0,46,362],
-"index.html":[],
-"modules.html":[0]
+"group__httpwwwpurlorgogitzipCode.html":[0,46,362]
 };

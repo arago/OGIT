@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"group__httpwwwpurlorgogitMRPManufacturer.html":[0,24,1,1],
+"group__httpwwwpurlorgogitMRPMeasure.html":[0,24,1,2],
 "group__httpwwwpurlorgogitMRPNormItem.html":[0,24,1,3],
 "group__httpwwwpurlorgogitMRPPSG.html":[0,24,1,4],
 "group__httpwwwpurlorgogitMRPPart.html":[0,24,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "group__httpwwwpurlorgogitOSLC-crtvaddress.html":[0,33,0,0],
 "group__httpwwwpurlorgogitOSLC-crtvassetTag.html":[0,33,2,0],
 "group__httpwwwpurlorgogitOSLC-crtvdbInstance.html":[0,33,2,1],
-"group__httpwwwpurlorgogitOSLC-crtvdependsOn.html":[0,33,2,2],
-"group__httpwwwpurlorgogitOSLC-crtvdeployedTo.html":[0,33,2,3],
-"group__httpwwwpurlorgogitOSLC-crtvelementFrom.html":[0,33,2,4]
+"group__httpwwwpurlorgogitOSLC-crtvdependsOn.html":[0,33,2,2]
 };
