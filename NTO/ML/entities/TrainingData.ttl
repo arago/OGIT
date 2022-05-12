@@ -14,12 +14,16 @@ ogit.ML:TrainingData
   ogit:blob "true";
   ogit:parent "http://www.purl.org/ogit/Node";
   ogit:mandatory-attributes (
+
   );
   ogit:optional-attributes (
     ogit:name
     ogit.ML:size
     ogit:attachmentID
     ogit.ML:trainData
+    ogit:type
+    ogit.ML:sourceDataFromTime
+    ogit.ML:sourceDataToTime
   );
   ogit:indexed-attributes (
   );
