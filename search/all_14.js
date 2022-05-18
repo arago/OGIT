@@ -28,6 +28,8 @@ var searchData=
   ['testresult',['testResult',['../group__httpwwwpurlorgogitHealthDiagnosticstestResult.html',1,'']]],
   ['teststartedat',['testStartedAt',['../group__httpwwwpurlorgogitHealthDiagnosticstestStartedAt.html',1,'']]],
   ['teststation',['TestStation',['../group__httpwwwpurlorgogitHealthDiagnosticsTestStation.html',1,'']]],
+  ['testedon',['testedOn',['../group__httpwwwpurlorgogitMLtestedOn.html',1,'']]],
+  ['testsummary',['testSummary',['../group__httpwwwpurlorgogitMLtestSummary.html',1,'']]],
   ['traindata',['trainData',['../group__httpwwwpurlorgogitMLtrainData.html',1,'']]],
   ['trainedfrom',['trainedFrom',['../group__httpwwwpurlorgogitMLtrainedFrom.html',1,'']]],
   ['trainedmodel',['TrainedModel',['../group__httpwwwpurlorgogitMLTrainedModel.html',1,'']]],

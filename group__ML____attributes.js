@@ -13,6 +13,8 @@ var group__ML____attributes =
     [ "size", "group__httpwwwpurlorgogitMLsize.html", null ],
     [ "sourceDataFromTime", "group__httpwwwpurlorgogitMLsourceDataFromTime.html", null ],
     [ "sourceDataToTime", "group__httpwwwpurlorgogitMLsourceDataToTime.html", null ],
+    [ "testSummary", "group__httpwwwpurlorgogitMLtestSummary.html", null ],
+    [ "testedOn", "group__httpwwwpurlorgogitMLtestedOn.html", null ],
     [ "trainData", "group__httpwwwpurlorgogitMLtrainData.html", null ],
     [ "trainedFrom", "group__httpwwwpurlorgogitMLtrainedFrom.html", null ],
     [ "trainingSummary", "group__httpwwwpurlorgogitMLtrainingSummary.html", null ]
