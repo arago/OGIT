@@ -24,6 +24,8 @@ ogit.ML:TrainedModel
     ogit.ML:requirements
     ogit.ML:meta
     ogit.ML:trainingSummary
+    ogit.ML:testedOn
+    ogit.ML:testSummary
   );
   ogit:indexed-attributes (
   );
