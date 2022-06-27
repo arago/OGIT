@@ -10,7 +10,6 @@ ogit.SaaS:Deployment
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Deployment";
 	dcterms:description "represents a Deployment in any possible state. Will be instantiated from a DeploymentTemplate";
-	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2020-01-14;";
 	dcterms:creator "FCO";
 	ogit:scope "NTO";
@@ -24,6 +23,7 @@ ogit.SaaS:Deployment
 	    ogit:sourceId
 	    ogit:comment
 	    ogit:status
+	    ogit:name
 	);
         ogit:indexed-attributes (
             ogit:id
