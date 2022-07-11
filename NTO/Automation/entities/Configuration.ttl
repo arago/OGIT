@@ -33,7 +33,8 @@ ogit.Automation:Configuration
 	);
 	ogit:allowed (
 			[ ogit:uses ogit.Automation:ActionHandler ]
-			[ ogit:uses  ogit.Automation:KIRanking ]
-			[ ogit:uses  ogit.Automation:KnowledgePool ]
+			[ ogit:uses ogit.Automation:KIRanking ]
+			[ ogit:uses ogit.Automation:KnowledgePool ]
+			[ ogit:generates ogit:Timeseries ]
 	);
 .
