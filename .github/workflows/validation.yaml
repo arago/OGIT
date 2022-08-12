@@ -1,0 +1,29 @@
+name: Validate ontology
+
+on: pull_request
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: validate ontology
+        run: |
+          find . -type f ! -name 'graphit-ontology.*' -name "*.ttl" | xargs java -jar bin/ogit-validator.jar
+#
+#      - name: prepare single ttl file
+#        run: |
+#          sh singleTTL.sh
+#
+#      - name: Publish Asset
+#        uses: softprops/action-gh-release@v1
+#        with:
+#          tag_name: test
+#          files: graphit-ontology.ttl
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
