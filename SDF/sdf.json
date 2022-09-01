@@ -1,0 +1,564 @@
+{
+  "id": "default",
+  "xidPrefix": "CUST_ID:INST_ID:",
+  "sdfDefinition": [
+    {
+      "sdf": {
+        "entities": {
+          "attachment": {
+            "attachment-list-attribute": "/Attachment_xids",
+            "attributes": {
+              "ogit/name": "name",
+              "ogit/url": "url",
+              "ogit/type": "type",
+              "ogit/sourceTable": "sourceTable",
+              "ogit/size": "size",
+              "/upload_date": "upload_date",
+              "$attachment": "data"
+            },
+            "presence": "many",
+            "type": "ogit/Attachment"
+          },
+          "worklog": {
+            "attributes": {
+              "$timeseries": "worklog"
+            },
+            "type": "ogit/Timeseries",
+            "constants": {
+              "/TimeseriesType": "Issue History",
+              "ogit/name": "History"
+            },
+            "cache-size": 5,
+            "presence": "optional"
+          },
+          "comments": {
+            "cache-target": "parent",
+            "presence": "optional",
+            "cache-attribute": "/comments",
+            "cache-size": 5,
+            "attributes": {
+              "$timeseries": "comments"
+            },
+            "type": "ogit/Timeseries",
+            "constants": {
+              "/TimeseriesType": "UserComment",
+              "ogit/name": "UserComment"
+            }
+          },
+          "change": {
+            "volatile-attributes": [
+              "hiroStatus"
+            ],
+            "presence": "root",
+            "initializers": {
+              "/ProcessIssue": "process_me"
+            },
+            "attributes": {
+              "/startedAt": "startedAt",
+              "/targetFinishAt": "targetFinishAt",
+              "/priority": "priority",
+              "/sourceId": "sourceId",
+              "/risk": "risk",
+              "/openedAt": "openedAt",
+              "/summary": "summary",
+              "/changeStatus": "sourceStatus",
+              "/scheduledFinishAt": "scheduledFinishAt",
+              "/scheduledEndAt": "scheduledEndAt",
+              "/urgency": "urgency",
+              "/resolutionCode": "resolutionCode",
+              "/targetStartAt": "targetStartAt",
+              "ogit/status": "hiroStatus",
+              "/impact": "impact",
+              "/description": "description",
+              "ogit/subject": "subject",
+              "/assignedGroup": "assignee",
+              "ogit/Automation/deployStatus": "closeNotes",
+              "ogit/Automation/originNode": "originNode",
+              "/justification": "justification",
+              "/scheduledStartAt": "scheduledStartAt"
+            },
+            "type": "ogit/Automation/AutomationIssue",
+            "constants": {
+              "ogit/Automation/issueType": "change"
+            },
+            "free-attributes": "synched"
+          }
+        },
+        "verbs": [
+          {
+            "to": "worklog",
+            "from": "change",
+            "id": "ogit/generates"
+          },
+          {
+            "to": "comments",
+            "from": "change",
+            "id": "ogit/generates"
+          },
+          {
+            "to": "change",
+            "id": "ogit/belongs",
+            "from": "attachment"
+          }
+        ],
+        "id": "change"
+      }
+    },
+    {
+      "sdf": {
+        "entities": {
+          "attachment": {
+            "attachment-list-attribute": "/Attachment_xids",
+            "attributes": {
+              "ogit/name": "name",
+              "ogit/url": "url",
+              "ogit/type": "type",
+              "ogit/sourceTable": "sourceTable",
+              "ogit/size": "size",
+              "/upload_date": "upload_date",
+              "$attachment": "data"
+            },
+            "presence": "many",
+            "type": "ogit/Attachment"
+          },
+          "worklog": {
+            "attributes": {
+              "$timeseries": "worklog"
+            },
+            "type": "ogit/Timeseries",
+            "constants": {
+              "/TimeseriesType": "Issue History",
+              "ogit/name": "History"
+            },
+            "cache-size": 5,
+            "presence": "optional"
+          },
+          "event": {
+            "volatile-attributes": [
+              "hiroStatus"
+            ],
+            "presence": "root",
+            "initializers": {
+              "/ProcessIssue": "process_me"
+            },
+            "attributes": {
+              "/expiresAt": "expiresAt",
+              "ogit/status": "hiroStatus",
+              "/reportedSource": "reportedSource",
+              "/sourceStatus": "sourceStatus",
+              "/openedAt": "openedAt",
+              "/sourceid": "eventId",
+              "/type": "type",
+              "/description": "description",
+              "/resource": "resource",
+              "/instance": "instance",
+              "ogit/subject": "subject",
+              "/firstOccurredAt": "firstOccurredAt",
+              "/category": "category",
+              "/certainty": "certainty",
+              "/name": "eventName",
+              "/priority": "priority",
+              "/sourceId": "sourceId",
+              "/isRoot": "isRoot",
+              "/severity": "severity",
+              "/urgency": "urgency",
+              "/impact": "impact",
+              "/occurenceCount": "occurenceCount",
+              "/summary": "summary",
+              "ogit/Automation/originNode": "originNode"
+            },
+            "type": "ogit/Automation/AutomationIssue",
+            "constants": {
+              "ogit/Automation/issueType": "event"
+            },
+            "free-attributes": "synched"
+          }
+        },
+        "verbs": [
+          {
+            "to": "worklog",
+            "from": "event",
+            "id": "ogit/generates"
+          },
+          {
+            "to": "event",
+            "id": "ogit/belongs",
+            "from": "attachment"
+          }
+        ],
+        "id": "event"
+      }
+    },
+    {
+      "sdf": {
+        "entities": {
+          "attachment": {
+            "attachment-list-attribute": "/Attachment_xids",
+            "attributes": {
+              "ogit/name": "name",
+              "ogit/url": "url",
+              "ogit/type": "type",
+              "ogit/sourceTable": "sourceTable",
+              "ogit/size": "size",
+              "/upload_date": "upload_date",
+              "$attachment": "data"
+            },
+            "presence": "many",
+            "type": "ogit/Attachment"
+          },
+          "incident": {
+            "volatile-attributes": [
+              "hiroStatus"
+            ],
+            "presence": "root",
+            "initializers": {
+              "/ProcessIssue": "process_me"
+            },
+            "attributes": {
+              "/priority": "priority",
+              "sourceId": "sourceId",
+              "/openedAt": "openedAt",
+              "/summary": "summary",
+              "/urgency": "urgency",
+              "/incidentStatus": "sourceStatus",
+              "ogit/Automation/deployStatus": "closeNotes",
+              "ogit/status": "hiroStatus",
+              "/impact": "impact",
+              "/reportedAt": "reportedAt",
+              "/description": "description",
+              "ogit/subject": "subject",
+              "/assignedGroup": "assignee",
+              "ogit/Automation/originNode": "originNode"
+            },
+            "type": "ogit/Automation/AutomationIssue",
+            "constants": {
+              "ogit/Automation/issueType": "incident"
+            },
+            "free-attributes": "synched"
+          },
+          "worklog": {
+            "attributes": {
+              "$timeseries": "worklog"
+            },
+            "type": "ogit/Timeseries",
+            "constants": {
+              "/TimeseriesType": "Issue History",
+              "ogit/name": "History"
+            },
+            "cache-size": 5,
+            "presence": "optional"
+          },
+          "comments": {
+            "cache-target": "parent",
+            "presence": "optional",
+            "cache-attribute": "/comments",
+            "cache-size": 5,
+            "attributes": {
+              "$timeseries": "comments"
+            },
+            "type": "ogit/Timeseries",
+            "constants": {
+              "/TimeseriesType": "UserComment",
+              "ogit/name": "UserComment"
+            }
+          }
+        },
+        "verbs": [
+          {
+            "to": "worklog",
+            "from": "incident",
+            "id": "ogit/generates"
+          },
+          {
+            "to": "comments",
+            "from": "incident",
+            "id": "ogit/generates"
+          },
+          {
+            "to": "incident",
+            "id": "ogit/belongs",
+            "from": "attachment"
+          }
+        ],
+        "id": "incident"
+      }
+    },
+    {
+      "sdf": {
+        "entities": {
+          "attachment": {
+            "attachment-list-attribute": "/Attachment_xids",
+            "attributes": {
+              "ogit/name": "name",
+              "ogit/url": "url",
+              "ogit/type": "type",
+              "ogit/sourceTable": "sourceTable",
+              "ogit/size": "size",
+              "/upload_date": "upload_date",
+              "$attachment": "data"
+            },
+            "presence": "many",
+            "type": "ogit/Attachment"
+          },
+          "requirement": {
+            "volatile-attributes": [
+              "hiroStatus"
+            ],
+            "presence": "root",
+            "initializers": {
+              "/ProcessIssue": "process_me"
+            },
+            "attributes": {
+              "/targetFinishAt": "targetFinishAt",
+              "/priority": "priority",
+              "sourceId": "sourceId",
+              "/openedAt": "openedAt",
+              "ogit/Automation/deployStatus": "closeNotes",
+              "ogit/status": "hiroStatus",
+              "/impact": "impact",
+              "/description": "description",
+              "ogit/subject": "subject",
+              "/assignedGroup": "assignee",
+              "/sourceStatus": "sourceStatus",
+              "ogit/Automation/originNode": "originNode",
+              "/targetStartAt": "targetStartAt"
+            },
+            "type": "ogit/Automation/AutomationIssue",
+            "constants": {
+              "ogit/Automation/issueType": "requirement"
+            },
+            "free-attributes": "synched"
+          },
+          "worklog": {
+            "attributes": {
+              "$timeseries": "worklog"
+            },
+            "type": "ogit/Timeseries",
+            "constants": {
+              "/TimeseriesType": "Issue History",
+              "ogit/name": "History"
+            },
+            "cache-size": 5,
+            "presence": "optional"
+          },
+          "comments": {
+            "cache-target": "parent",
+            "presence": "optional",
+            "cache-attribute": "/comments",
+            "cache-size": 5,
+            "attributes": {
+              "$timeseries": "comments"
+            },
+            "type": "ogit/Timeseries",
+            "constants": {
+              "/TimeseriesType": "UserComment",
+              "ogit/name": "UserComment"
+            }
+          }
+        },
+        "verbs": [
+          {
+            "to": "worklog",
+            "from": "requirement",
+            "id": "ogit/generates"
+          },
+          {
+            "to": "comments",
+            "from": "requirement",
+            "id": "ogit/generates"
+          },
+          {
+            "to": "requirement",
+            "id": "ogit/belongs",
+            "from": "attachment"
+          }
+        ],
+        "id": "requirement"
+      }
+    },
+    {
+      "sdf": {
+        "scope": "in",
+        "verbs": [
+          {
+            "to": "application",
+            "from": "resource",
+            "id": "ogit/dependsOn"
+          }
+        ],
+        "id": "configApplication",
+        "entities": {
+          "application": {
+            "attributes": {
+              "ogit/Automation/lifecycle": "lifecycle",
+              "ogit/name": "name",
+              "ogit/MARS/Application/class": "applicationClass",
+              "ogit/Automation/automationState": "automationState",
+              "ogit/MARS/Application/subClass": "applicationSubClass",
+              "ogit/Automation/serviceStatus": "status"
+            },
+            "type": "ogit/MARS/Application",
+            "constants": {
+              "ogit/Automation/marsNodeType": "Application"
+            },
+            "presence": "root"
+          },
+          "resource": {
+            "type": "configResource",
+            "presence": "many"
+          }
+        }
+      }
+    },
+    {
+      "sdf": {
+        "scope": "in",
+        "verbs": [
+          {
+            "to": "machine",
+            "from": "software",
+            "id": "ogit/dependsOn"
+          }
+        ],
+        "id": "configMachine",
+        "entities": {
+          "machine": {
+            "attributes": {
+              "ogit/MARS/Machine/distroName": "distroName",
+              "ogit/name": "name",
+              "ogit/MARS/Network/ipVersion": "networkIpVersion",
+              "ogit/Automation/automationState": "automationState",
+              "ogit/MARS/Machine/class": "systemType",
+              "ogit/Automation/lifecycle": "lifecycle",
+              "ogit/MARS/Network/interfaceMAC": "networkInterfaceMAC",
+              "ogit/MARS/Machine/cpuArch": "cpuArch",
+              "ogit/Version/minor": "versionMinor",
+              "ogit/MARS/Network/interfaceIP": "networkInterfaceIP",
+              "ogit/MARS/Network/defaultGateway": "networkDefaultGateway",
+              "ogit/Version/patch": "versionPatch",
+              "ogit/serialNumber": "serialNumber",
+              "ogit/MARS/Machine/kernel": "kernel",
+              "ogit/vendor": "vendor",
+              "ogit/MARS/Network/interfacePrefixLength": "netwrokInterfacePrefixLength",
+              "ogit/endOfWarranty": "endOfWarranty",
+              "ogit/MARS/Network/fqdn": "fqdn",
+              "ogit/MARS/Network/interfaceName": "networkInterfaceName",
+              "ogit/Automation/serviceStatus": "status",
+              "ogit/Version/major": "versionMajor",
+              "ogit/MARS/Machine/ram": "memory"
+            },
+            "type": "ogit/MARS/Machine",
+            "constants": {
+              "ogit/Automation/marsNodeType": "Machine"
+            },
+            "presence": "root"
+          },
+          "software": {
+            "type": "configSoftware",
+            "presence": "many"
+          }
+        }
+      }
+    },
+    {
+      "sdf": {
+        "scope": "in",
+        "verbs": [
+          {
+            "to": "resource",
+            "from": "software",
+            "id": "ogit/dependsOn"
+          },
+          {
+            "to": "application",
+            "from": "resource",
+            "id": "ogit/dependsOn"
+          }
+        ],
+        "id": "configResource",
+        "entities": {
+          "application": {
+            "type": "configApplication",
+            "presence": "many"
+          },
+          "resource": {
+            "attributes": {
+              "ogit/Automation/lifecycle": "lifecycle",
+              "ogit/MARS/Resource/class": "resourceClass",
+              "ogit/name": "name",
+              "ogit/Automation/automationState": "automationState",
+              "ogit/url": "url",
+              "ogit/Automation/serviceStatus": "status"
+            },
+            "type": "ogit/MARS/Resource",
+            "constants": {
+              "ogit/Automation/marsNodeType": "Resource"
+            },
+            "presence": "root"
+          },
+          "software": {
+            "type": "configSoftware",
+            "presence": "many"
+          }
+        }
+      }
+    },
+    {
+      "sdf": {
+        "scope": "in",
+        "verbs": [
+          {
+            "to": "machine",
+            "from": "software",
+            "id": "ogit/dependsOn"
+          },
+          {
+            "to": "resource",
+            "from": "software",
+            "id": "ogit/dependsOn"
+          }
+        ],
+        "id": "configSoftware",
+        "entities": {
+          "machine": {
+            "type": "configMachine",
+            "presence": "many"
+          },
+          "resource": {
+            "type": "configResource",
+            "presence": "many"
+          },
+          "software": {
+            "attributes": {
+              "ogit/Automation/lifecycle": "lifecycle",
+              "ogit/MARS/Software/installPath": "installPath",
+              "ogit/MARS/Network/bindAddress": "networkBindAddress",
+              "ogit/Version/major": "versionMajor",
+              "ogit/endOfWarranty": "endOfWarranty",
+              "ogit/MARS/Software/logPath": "logPath",
+              "ogit/MARS/Network/protocol": "networkProtocol",
+              "ogit/MARS/Network/port": "networkPort",
+              "ogit/vendor": "vendor",
+              "ogit/name": "name",
+              "ogit/MARS/Software/subClass": "softwareSubClass",
+              "ogit/MARS/Software/instanceId": "instanceId",
+              "ogit/MARS/Software/class": "softwareClass",
+              "ogit/Version/minor": "versionMinor",
+              "ogit/serialNumber": "serialNumber",
+              "ogit/Automation/automationState": "automationState",
+              "ogit/MARS/Software/serviceName": "serviceName",
+              "ogit/url": "url",
+              "ogit/Version/patch": "versionPatch",
+              "ogit/Automation/serviceStatus": "status"
+            },
+            "type": "ogit/MARS/Software",
+            "constants": {
+              "ogit/Automation/marsNodeType": "Software"
+            },
+            "presence": "root"
+          }
+        }
+      }
+    }
+  ]
+}
