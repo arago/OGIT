@@ -1,0 +1,32 @@
+@prefix ogit.CustomerSupport:   <http://www.purl.org/ogit/CustomerSupport/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+ogit:Agent
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Agent";
+	dcterms:description "An agent.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2015-05-21;";
+	dcterms:creator "Jens Bartsch";
+	ogit:scope "SGO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+
+	);
+	ogit:optional-attributes (
+		ogit:id
+		ogit:name
+		ogit:description
+	);
+	ogit:indexed-attributes (
+
+	);
+	ogit:allowed (
+		[ ogit:owns ogit.CustomerSupport:ChatSession ]
+		[ ogit:supports ogit:Organization ]
+	);
+.
