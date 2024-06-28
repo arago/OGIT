@@ -37,6 +37,8 @@ ogit.MARS:Application
             ogit.Automation:lifecycle
             ogit.Automation:serviceStatus
             ogit.Automation:marsNodeType
+
+            ogit:tenantId
 	);
         ogit:indexed-attributes (
             ogit:name

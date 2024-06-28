@@ -1,0 +1,31 @@
+on:
+  release:
+    types: [created]
+
+name: Build ontology
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Set env
+      run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+
+    - name: prepare single ttl file
+      run: |
+        sh validate.sh
+        sh singleTTL.sh
+
+    - name: Publish Asset
+      uses: softprops/action-gh-release@v2
+      with:
+        files: graphit-ontology.ttl
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

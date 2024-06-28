@@ -54,6 +54,8 @@ ogit.MARS:Software
             ogit.MARS.Network:port
             ogit.MARS.Network:bindAddress
             ogit.MARS.Network:protocol
+
+            ogit:tenantId
 	);
         ogit:indexed-attributes (
             ogit:name

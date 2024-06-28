@@ -7,6 +7,7 @@
 @prefix ogit.Automation: 	    <http://www.purl.org/ogit/Automation/> .
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.CustomerSupport:   <http://www.purl.org/ogit/CustomerSupport/> .
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix ogit.Auth:              <http://www.purl.org/ogit/Auth/> .
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
@@ -21,8 +22,8 @@ ogit:Attachment
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "Attachment";
-	dcterms:description """This entity defines a file attachment that an IT service, issue, task or a ticket might have. The attachment itself is 
-not saved in GraphIT, instead it contains an external url link for it.""";
+	dcterms:description """This entity defines a file attachment that an other entity might have. The attachment itself maybe
+stored directly in the graph itself or be referenced by an external url link.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-05-21;";
 	dcterms:creator "Peter Larem";
@@ -30,7 +31,7 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 	ogit:blob "true";
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
-		
+
 	);
 	ogit:optional-attributes (
 		ogit:id
@@ -47,7 +48,7 @@ not saved in GraphIT, instead it contains an external url link for it.""";
 		ogit:accessControl
 	);
 	ogit:indexed-attributes (
-		
+
 	);
 	ogit:allowed (
 			[ ogit:belongs  ogit:Comment ]
@@ -70,5 +71,6 @@ not saved in GraphIT, instead it contains an external url link for it.""";
                         [ ogit:belongs  ogit.Auth:AccountProfile ]
                         [ ogit:belongs  ogit.Factory:Plant ]
                         [ ogit:belongs  ogit.SaaS:ComponentInstance ]
+                        [ ogit:belongs  ogit.CustomerSupport:ChatMessage ]
 	);
 .
