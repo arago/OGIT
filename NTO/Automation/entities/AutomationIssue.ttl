@@ -39,6 +39,7 @@ IssueCondition is processed first.""";
 		ogit.Automation:parentIssue
 		ogit.Automation:suspendUntil
 		ogit.Automation:maxIdleTime
+		ogit:tenantId
     	ogit.Automation:webhook
     	ogit.RL:state
     	ogit.RL:totalReward

@@ -50,6 +50,8 @@ ogit.MARS:Machine
             ogit.MARS.Machine:distroName
             ogit.MARS.Machine:kernel
             ogit.MARS.Machine:ram
+
+            ogit:tenantId
 	);
         ogit:indexed-attributes (
             ogit:name
