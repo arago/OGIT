@@ -53,6 +53,7 @@ The ogit/function attribute should be used to tell what kind of grouping an enti
 		ogit:postalCode
 		ogit:businessCategory
 		ogit:webPage
+		ogit:tenantId
 		ogit:sourceId
 		ogit:phone
 	);
