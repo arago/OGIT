@@ -28,5 +28,6 @@ ogit:Agent
 	ogit:allowed (
 		[ ogit:owns ogit.CustomerSupport:ChatSession ]
 		[ ogit:supports ogit:Organization ]
+		[ ogit:belongs ogit:Organization ]
 	);
 .
