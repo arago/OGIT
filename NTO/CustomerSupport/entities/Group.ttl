@@ -26,5 +26,7 @@ ogit.CustomerSupport:Group
                                   ogit:lastUpdatedAt
                               ) ;
     ogit:indexed-attributes   ( ) ;
-    ogit:allowed              ( ) ;
+    ogit:allowed              (
+                                  [ ogit:uses ogit:Product ]
+                              ) ;
 .

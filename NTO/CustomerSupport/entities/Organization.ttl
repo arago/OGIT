@@ -34,5 +34,6 @@ ogit.CustomerSupport:Organization
     ogit:indexed-attributes   ( ) ;
     ogit:allowed              (
                                   [ ogit:employs ogit.CustomerSupport:Group ]
+                                  [ ogit:uses ogit:Product ]
                               ) ;
 .
