@@ -41,6 +41,7 @@ ogit.ServiceManagement:Ticket
 		ogit:openedAt
 		ogit:closedAt
 		ogit:lastUpdatedAt
+		ogit:sourceId
 		ogit.ServiceManagement:sourceStatus
 		ogit.ServiceManagement:externalTicketId
 		ogit.ServiceManagement:reportedSource
