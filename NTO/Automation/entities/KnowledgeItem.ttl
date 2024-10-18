@@ -78,5 +78,6 @@ In that case, the KnowledgeItem executes operations, which serves the exploitati
 			[ ogit:connects  ogit.Automation:KnowledgeItem ]
 			[ ogit:connects  ogit.Forum:Post ]
 			[ ogit:connects  ogit:Hyperlink ]
+			[ ogit:uses ogit.Automation:Variable]
 	);
 .
