@@ -19,7 +19,7 @@ ogit.Automation:DynamicEngineData
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "DynamicEngineData";
-	dcterms:description "Dynamic information exists within the arago Automation Engine (aAE) used to store volatile data about current state of MARSNode or AutomationIssue.";
+	dcterms:description "Dynamic information exists within the HIRO Engine used to store volatile data about current state of MARSNode, AutomationIssue or ServiceManagement Tickets.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2015-06-25;";
 	dcterms:creator "Miroslaw Glusiuk";
@@ -32,11 +32,13 @@ ogit.Automation:DynamicEngineData
 		ogit:creationTime
 		ogit:modificationTime
 		ogit:name
+		ogit:tenantId
 	);
 	ogit:indexed-attributes (
 		
 	);
 	ogit:allowed (
 			[ ogit:contains  ogit.Automation:DynamicEngineData ]
+		        [ ogit:belongs   ogit.ServiceManagement:Ticket ]
 	);
 .
