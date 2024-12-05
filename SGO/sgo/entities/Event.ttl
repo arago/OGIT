@@ -1,5 +1,6 @@
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.Politics:         <http://www.purl.org/ogit/Politics/> .
 @prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
@@ -76,5 +77,6 @@ ogit:Event
 			[ ogit:affects  ogit.MARS:Machine ]
 			[ ogit:affects  ogit.Automation:MARSNode ]
 			[ ogit:alerts  ogit.Auth:Account ]
+			[ ogit:has ogit.Politics:Discussion ]
 	);
 .

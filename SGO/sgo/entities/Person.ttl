@@ -1,6 +1,7 @@
 @prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
 @prefix ogit.Survey:           <http://www.purl.org/ogit/Survey/> .
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit.Politics:          <http://www.purl.org/ogit/Politics/> .
 @prefix ogit.Cost:              <http://www.purl.org/ogit/Cost/> .
 @prefix ogit.Price:             <http://www.purl.org/ogit/Price/> .
 @prefix ogit.OSLC-crtv:         <http://www.purl.org/ogit/OSLC-crtv/> .
@@ -53,6 +54,7 @@ ogit:Person
 		ogit:status
 		ogit:position
 		ogit:passportNumber
+		ogit.Politics:electionBase
 	);
 	ogit:indexed-attributes (
 		ogit:firstName
@@ -170,5 +172,12 @@ ogit:Person
             [ ogit:uses  ogit.Health.Diagnostics:TestStation ]
 			[ ogit:uses  	ogit.MARS:Application ]
 			[ ogit:manages  ogit.MARS:Application ]
+			[ ogit:has  ogit.Politics:Position ]
+			[ ogit:isHolding  ogit.Politics:Discussion ]
+			[ ogit:contributes ogit.Politics:Discussion ]
+			[ ogit:moderates ogit.Politics:Discussion ]
+			[ ogit:isMemberOf  ogit:Organization ]
+			[ ogit:isMemberOf ogit:OrganisationalUnit ]
+			[ ogit:issues ogit.Politics:DisciplinaryMeasure ]
 	);
 .
