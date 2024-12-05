@@ -1,0 +1,20 @@
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.Politics:        <http://www.purl.org/ogit/Politics/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.Politics:Speaker
+    a rdfs:Class;
+    rdfs:subClassOf ogit:Person;
+    rdfs:label "Speaker";
+    dcterms:description "Diese Entität repräsentiert einen Redner, der eine Rede hält.";
+    dcterms:valid       "start=2024-12-05;" ;
+    dcterms:creator     "Semih Can Sancar" ;
+    ogit:mandatory-attributes (
+        ogit:id;
+        ogit:titel;
+        ogit:firstname;
+        ogit:surname
+    );
+.
