@@ -1,0 +1,21 @@
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.Politics:        <http://www.purl.org/ogit/Politics/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.Politics:heldby
+    a owl:ObjectProperty;
+    rdfs:subPropertyOf ogit:Verb;
+    rdfs:label "held by";
+    dcterms:description "Verknüpft eine Rede mit einem Redner.";
+    dcterms:valid       "start=2024-12-05;" ;
+    dcterms:creator     "Semih Can Sancar" ;
+    ogit:cardinality "many2one";
+    ogit:allowed (
+        [
+            ogit:from ogit:Speech;
+            ogit:to ogit:Speaker;
+        ]
+    );
+.
