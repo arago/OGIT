@@ -1,5 +1,6 @@
 @prefix ogit.Survey:            <http://www.purl.org/ogit/Survey/> .
 @prefix ogit.Knowledge:         <http://www.purl.org/ogit/Knowledge/> .
+@prefix ogit.Politics:         <http://www.purl.org/ogit/Politics/> .
 @prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
 @prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
 @prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
@@ -54,6 +55,10 @@ ogit:Event
 		ogit:acknowledgeState
 		ogit:isRoot
 		ogit:sourceId
+		ogit:plannedStartDate
+		ogit:startedAt
+		ogit:endedAt
+		ogit.Politics:legislation
 	);
 	ogit:indexed-attributes (
 		
@@ -67,6 +72,7 @@ ogit:Event
 			[ ogit:relates  ogit.Automation:MARSNode ]
 			[ ogit:relates  ogit.ServiceManagement:Incident ]
 			[ ogit:relates  ogit:Event ]
+			[ ogit:follows ogit:Event ]
 			[ ogit:corresponds  ogit.Automation:AutomationIssue ]
 			[ ogit:affects  ogit:Person ]
 			[ ogit:affects  ogit:ConfigurationItem ]
@@ -76,5 +82,6 @@ ogit:Event
 			[ ogit:affects  ogit.MARS:Machine ]
 			[ ogit:affects  ogit.Automation:MARSNode ]
 			[ ogit:alerts  ogit.Auth:Account ]
+			[ ogit:has ogit.Politics:Discussion ]
 	);
 .
