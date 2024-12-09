@@ -1,0 +1,33 @@
+@prefix ogit.OnlineService: <http://www.purl.org/ogit/OnlineService/> .
+@prefix ogit:                 <http://www.purl.org/ogit/> .
+@prefix dcterms:              <http://purl.org/dc/terms/> .
+@prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit.OnlineService:OnlineService
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "OnlineService";
+	dcterms:description "Represent an OnlineService";
+	dcterms:valid "start=2024-12-09;";
+	dcterms:creator "Erik Wilfling";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		ogit:id				# external unique ID of the OnlineService
+		ogit:name			# Name of the OnlineService
+	);
+	ogit:optional-attributes (
+		ogit:description 	# A description of the OnlineService
+		ogit:jsonContent	# String containing the content in JSON format
+		ogit:version 		# Version of the OnlineService
+	);
+	ogit:indexed-attributes (
+
+	);
+	ogit:allowed (
+		[ ogit:connects  ogit:Organization ]
+		[ ogit:availableIn   ogit:Region] 	#Where you can use the OnlineService
+
+		[ogit:represents ogit.OnlineService:LeiKa] # Each OnlineService should represents a LeiKa
+	);
+.
