@@ -1,0 +1,30 @@
+@prefix ogit.OnlineService: <http://www.purl.org/ogit/OnlineService/> .
+@prefix ogit:                 <http://www.purl.org/ogit/> .
+@prefix dcterms:              <http://purl.org/dc/terms/> .
+@prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+ogit.OnlineService:Reply
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Reply";
+	dcterms:description "Represents an Reply on a annotation.";
+	dcterms:valid "start=2024-11-12;";
+	dcterms:creator "Erik Wilfling";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		ogit:id
+		ogit:comment	# the comment of reply
+	);
+	ogit:optional-attributes (
+		ogit:createdAt  # timestamp of creation
+	);
+	ogit:indexed-attributes (
+
+	);
+	ogit:allowed (
+		[ ogit:responds  ogit.OnlineService:Annotation ]
+		[ ogit:belongs    ogit:Person]
+	);
+.
