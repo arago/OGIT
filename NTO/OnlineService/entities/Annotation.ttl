@@ -21,7 +21,7 @@ ogit.OnlineService:Annotation
 	);
 	ogit:optional-attributes (
 		ogit:createdAt  	# timestamp of creation
-		ogit:jsonContent	# the original content created by teh FrontEnd in JSON format
+		ogit:content	# the original content created by teh FrontEnd
 		
 	);
 	ogit:indexed-attributes (

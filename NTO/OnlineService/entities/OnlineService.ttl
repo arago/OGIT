@@ -18,7 +18,7 @@ ogit.OnlineService:OnlineService
 	);
 	ogit:optional-attributes (
 		ogit:description 	# A description of the OnlineService
-		ogit:jsonContent	# String containing the content in JSON format
+		ogit:content	  	# the content witch is used to build the Online Service
 		ogit:version 		# Version of the OnlineService
 	);
 	ogit:indexed-attributes (
