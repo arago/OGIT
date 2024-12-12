@@ -61,6 +61,7 @@ ogit.ServiceManagement:ChangeRequest
 		
 	);
 	ogit:allowed (
+			[ ogit:belongs  ogit:Person]
 			[ ogit:relates  ogit.ServiceManagement:Problem ]
 			[ ogit:relates  ogit.ServiceManagement:Incident ]
 			[ ogit:relates  ogit.ServiceManagement:ChangeRequest ]
@@ -88,6 +89,7 @@ ogit.ServiceManagement:ChangeRequest
 			[ ogit:affects  ogit:Location ]
 			[ ogit:affects  ogit:ConfigurationItem ]
 			[ ogit:affects  ogit.ServiceManagement:Service ]
+			[ ogit:affects  ogit.OnlineService:OnlineService]
 			[ ogit:affects  ogit:Person ]
 			[ ogit:affects  ogit.MARS:Application ]
 			[ ogit:affects  ogit.MARS:Resource ]

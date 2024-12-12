@@ -41,6 +41,7 @@ ogit:Comment
 	ogit:allowed (
 			[ ogit:responds  ogit.Forum:Rating ]
 			[ ogit:responds  ogit.Forum:Reply ]
+			[ ogit:responds  ogit.OnlineService:Annotation ]
 			[ ogit:belongs  ogit:Event ]
 			[ ogit:belongs  ogit.ServiceManagement:SubTask ]
 			[ ogit:belongs  ogit.ServiceManagement:Ticket ]
@@ -59,5 +60,6 @@ ogit:Comment
 			[ ogit:connects  ogit:Hyperlink ]
 			[ ogit.Forum:mentions  ogit.Forum:Profile ]
 			[ ogit:seenBy  ogit.Auth:Account ]
+			
 	);
 .
