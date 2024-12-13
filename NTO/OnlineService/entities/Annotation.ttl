@@ -17,6 +17,7 @@ ogit.OnlineService:Annotation
 
 	);
 	ogit:optional-attributes (
+		ogit:createdAt	# the date when the annotation was created
 		ogit:content	# the original content created by teh FrontEnd
 		ogit:title		# the title of the Anotation
 		ogit:comment	# the comment of the Anotation
