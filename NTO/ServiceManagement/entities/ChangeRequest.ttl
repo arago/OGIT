@@ -61,7 +61,6 @@ ogit.ServiceManagement:ChangeRequest
 		
 	);
 	ogit:allowed (
-			[ ogit:belongs  ogit:Person]
 			[ ogit:relates  ogit.ServiceManagement:Problem ]
 			[ ogit:relates  ogit.ServiceManagement:Incident ]
 			[ ogit:relates  ogit.ServiceManagement:ChangeRequest ]
