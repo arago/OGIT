@@ -34,6 +34,9 @@ ogit.ServiceManagement:Service
 		ogit:description
 		ogit:name
 		ogit:uri
+		ogit:type 		# Type of the service (e.g. OnlineService)
+		ogit:version 	
+		ogit:content 	
 	);
 	ogit:indexed-attributes (
 		
@@ -50,5 +53,6 @@ ogit.ServiceManagement:Service
 			[ ogit:calls  ogit.ServiceManagement:Service ]
 			[ ogit:complies  ogit.ServiceManagement:SLA ]
 			[ ogit:affects  ogit:Person ]
+			[ ogit:availableIn ogit:Region]
 	);
 .

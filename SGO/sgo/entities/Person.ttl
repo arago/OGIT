@@ -166,6 +166,7 @@ ogit:Person
             [ ogit:manages  ogit.Health.Diagnostics:Equipment ]
             [ ogit:manages  ogit.Health.Diagnostics:Test ]
             [ ogit:registeredAt  ogit.Location:Address ]
+			[ ogit:creates 	ogit:Annotation]
 			[ ogit:creates  ogit.SalesDistribution:SalesOrder ]
             [ ogit:uses  ogit.Health.Diagnostics:TestStation ]
 			[ ogit:uses  	ogit.MARS:Application ]
