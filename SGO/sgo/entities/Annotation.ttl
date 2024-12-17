@@ -1,0 +1,35 @@
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+@prefix ogit:                 <http://www.purl.org/ogit/> .
+@prefix dcterms:              <http://purl.org/dc/terms/> .
+@prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
+
+ogit:Annotation
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "Annotation";
+	dcterms:description "Represents an annotation.";
+	dcterms:valid "start=2024-12-17;";
+	dcterms:creator "Erik Wilfling";
+	ogit:scope "SGO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		ogit:id
+
+	);
+	ogit:optional-attributes (
+		ogit:createdAt	# the date when the annotation was created
+		ogit:creator	# the creator of the annotation
+		ogit:content	# the original content
+		ogit:comment	# the comment of the Anotation
+		ogit:title		# the title of the Anotation
+		ogit:status 	# Status of the annotation (Created, Sent, Commented, ReviewRequested, ReviewCompleted, Closed)
+	);
+	ogit:indexed-attributes (
+
+	);
+	ogit:allowed (
+		[ ogit:contributes  ogit.ServiceManagement:ChangeRequest ]
+		[ ogit:reviews 		ogit.ServiceManagement:Service]
+		[ ogit:assignedTo 	ogit:Person]
+	);
+.
