@@ -28,10 +28,8 @@ ogit:Annotation
 
 	);
 	ogit:allowed (
-		[ ogit:contributes  ogit:ServiceManagement.ChangeRequest ]
-		[ ogit:reviews 		ogit:ServiceManagement.Service]
+		[ ogit:contributes  ogit.ServiceManagement:ChangeRequest ]
+		[ ogit:reviews 		ogit.ServiceManagement:Service]
 		[ ogit:assignedTo 	ogit:Person]
-		[ ogit:reviewedBy 	ogit:Person]
-		[ ogit:approvedBy 	ogit:Person] 
 	);
 .
