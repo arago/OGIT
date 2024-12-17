@@ -41,7 +41,7 @@ ogit:Comment
 	ogit:allowed (
 			[ ogit:responds  ogit.Forum:Rating ]
 			[ ogit:responds  ogit.Forum:Reply ]
-			[ ogit:responds  ogit.OnlineService:Annotation ]
+			[ ogit:responds  ogit:Annotation ]
 			[ ogit:belongs  ogit:Event ]
 			[ ogit:belongs  ogit.ServiceManagement:SubTask ]
 			[ ogit:belongs  ogit.ServiceManagement:Ticket ]
