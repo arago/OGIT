@@ -182,5 +182,8 @@ ogit:Person
 			[ ogit:isMemberOf  ogit:Organization ]
 			[ ogit:isMemberOf ogit:OrganisationalUnit ]
 			[ ogit:issues ogit.Politics:DisciplinaryMeasure ]
+			[ ogit:has ogit.Politics:DisciplinaryMeasure ]
+			[ ogit:has ogit.Politics:Reaction ]
+			[ ogit:has ogit.Politics:Mandate ]
 	);
 .

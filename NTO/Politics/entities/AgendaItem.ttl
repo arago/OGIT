@@ -15,7 +15,10 @@ ogit.Politics:AgendaItem
     ogit:scope                "NTO" ;
     ogit:parent               ogit:Node ;
     ogit:mandatory-attributes (
-        ogit:title;
+        ogit:title
+    );
+    ogit:optional-attributes (
+        ogit:description
     );
     ogit:allowed (
         [ ogit:isPartOf ogit:Event]

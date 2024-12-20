@@ -5,20 +5,20 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 
 
-ogit.Politics:Position
+ogit.Politics:Mandate
     a rdfs:Class;
     rdfs:subClassOf ogit:Entity;
-    rdfs:label "position";
-    dcterms:description "Represents the political Position of a person.";
-    dcterms:valid       "start=2024-12-17;";
-    dcterms:creator     "Semih Can Sancar";
+    rdfs:label "Mandate";
+    dcterms:description "Represents the method or type of political appointment or election by which an individual assumes office, such as direct election or proportional representation.";
+    dcterms:valid       "start=2024-12-20;";
+    dcterms:creator     "Calvin Spolwind";
     ogit:scope                "NTO" ;
     ogit:parent               ogit:Node ;
     ogit:mandatory-attributes (
-        ogit:name
+        ogit:type
     );
-    ogit:optional-attributes (	
-	);
+    ogit:optional-attributes (
+    );
     ogit:allowed (
     );
 .

@@ -55,6 +55,9 @@ ogit:Event
 		ogit:acknowledgeState
 		ogit:isRoot
 		ogit:sourceId
+		ogit:plannedStartDate
+		ogit:startedAt
+		ogit:endedAt
 	);
 	ogit:indexed-attributes (
 		
@@ -68,6 +71,7 @@ ogit:Event
 			[ ogit:relates  ogit.Automation:MARSNode ]
 			[ ogit:relates  ogit.ServiceManagement:Incident ]
 			[ ogit:relates  ogit:Event ]
+			[ ogit:follows ogit:Event ]
 			[ ogit:corresponds  ogit.Automation:AutomationIssue ]
 			[ ogit:affects  ogit:Person ]
 			[ ogit:affects  ogit:ConfigurationItem ]

@@ -20,6 +20,8 @@ ogit.Politics:Discussion
         ogit:message
         ogit:subType
     );
+    ogit:optional-attributes (	
+	);
     ogit:allowed (
         [   ogit:isPartOf ogit.Politics:AgendaItem ]
         [   ogit:triggers ogit.Politics:Reaction ]
