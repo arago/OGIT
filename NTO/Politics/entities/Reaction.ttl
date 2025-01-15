@@ -23,5 +23,6 @@ ogit.Politics:Reaction
     ogit:indexed-attributes (
     );
     ogit:allowed (
+        [ogit:triggers ogit.Politics:DisciplinaryMeasure ]
     );
 .
