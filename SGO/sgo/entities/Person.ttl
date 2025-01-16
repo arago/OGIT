@@ -57,7 +57,7 @@ ogit:Person
 		ogit:profession
 		ogit:birthplace
 		ogit:gender
-		ogit:yearOfBirth
+		ogit:dateOfBirth
 		ogit:dateOfDeath
 		ogit:numberOfChildren
 		ogit:religion
