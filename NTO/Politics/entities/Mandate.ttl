@@ -18,9 +18,14 @@ ogit.Politics:Mandate
         ogit:subType
     );
     ogit:optional-attributes (
+        ogit.Politics:legislation
+        ogit:plannedStartDate
+        ogit:plannedFinishDate
+
     );
     ogit:indexed-attributes (
     );
     ogit:allowed (
+        [ogit:represents ogit.Politics:Party ]
     );
 .

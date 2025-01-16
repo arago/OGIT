@@ -19,6 +19,7 @@ ogit.Politics:Reaction
     );
     ogit:optional-attributes (
         ogit:message
+        ogit:content
     );
     ogit:indexed-attributes (
     );

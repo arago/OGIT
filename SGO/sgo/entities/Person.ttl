@@ -54,6 +54,13 @@ ogit:Person
 		ogit:status
 		ogit:position
 		ogit:passportNumber
+		ogit:profession
+		ogit:birthplace
+		ogit:gender
+		ogit:yearOfBirth
+		ogit:dateOfDeath
+		ogit:numberOfChildren
+		ogit:religion
 	);
 	ogit:indexed-attributes (
 		ogit:firstName
