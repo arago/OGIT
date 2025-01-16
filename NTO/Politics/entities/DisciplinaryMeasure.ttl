@@ -19,10 +19,11 @@ ogit.Politics:DisciplinaryMeasure
     );
     ogit:optional-attributes (
         ogit:message
+        ogit:content
     );
     ogit:indexed-attributes (
     );
     ogit:allowed (
-            [ogit:affects ogit:Person]
+        [ogit:affects ogit:Person]
     );
 .
