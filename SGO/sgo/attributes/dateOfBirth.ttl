@@ -3,11 +3,11 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
 
-ogit:dateOfDeath
+ogit:dateOfBirth
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
-	rdfs:label "dateOfDeath";
-	dcterms:description "The date of death of a person in unix timestamp.";
+	rdfs:label "dateOfBirth";
+	dcterms:description "The date of birth of a person in unix timestamp.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2025-01-16;";
 	dcterms:creator "Semih Can Sancar";
