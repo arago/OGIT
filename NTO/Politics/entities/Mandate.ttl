@@ -26,6 +26,6 @@ ogit.Politics:Mandate
     ogit:indexed-attributes (
     );
     ogit:allowed (
-        [ogit:represents ogit.Politics:Party ]
+        [ogit:represents ogit:Organization ]
     );
 .

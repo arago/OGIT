@@ -7,7 +7,7 @@ ogit:profession
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "profession";
-	dcterms:description "The profession of a person.";
+	dcterms:description "A list of possibly multible professions or a profession of a person.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2025-01-16;";
 	dcterms:creator "Semih Can Sancar";
