@@ -46,6 +46,10 @@ ogit.ServiceManagement:Ticket
 		ogit.ServiceManagement:externalTicketId
 		ogit.ServiceManagement:reportedSource
 		ogit.ServiceManagement:ticketId
+		ogit:subject
+		ogit.ServiceManagement:openedFor
+		ogit.ServiceManagement:cleanSubject
+		ogit.ServiceManagement:cleanDescription
 	);
 	ogit:indexed-attributes (
 		
