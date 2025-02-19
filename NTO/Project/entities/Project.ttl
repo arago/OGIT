@@ -18,7 +18,7 @@ ogit.Project:Project
 
 	);
 	ogit:optional-attributes (
-	    ogit:title
+		ogit:title
 		ogit:category
 		ogit:placement
 		ogit:status
@@ -28,8 +28,9 @@ ogit.Project:Project
 		ogit:finishedAt
 	);
 	ogit:indexed-attributes (
-        ogit:title
+		ogit:title
 	);
 	ogit:allowed (
+		[ ogit:contains ogit:Offer ]
 	);
 .
