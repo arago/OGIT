@@ -55,5 +55,7 @@ ogit:Contract
 			[ ogit:contains  ogit:License ]
 			[ ogit:contains  ogit.ServiceManagement:SLA ]
 			[ ogit:defines  ogit:Penalty ]
+			[ ogit:belongs  ogit:Person ]
+			[ ogit:locatedIn  ogit:Location ]
 	);
 .

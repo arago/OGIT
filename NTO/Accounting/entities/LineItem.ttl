@@ -29,6 +29,8 @@ ogit.Accounting:LineItem
 	    [ ogit:contains  ogit.Accounting:LineItem ]
 	    [ ogit:generates  ogit.Accounting:LineItem ]
 	    [ ogit.Accounting:contributesTo  ogit.Accounting:FinancialStatement ]
+	    [ ogit:contributes  ogit:Contract ]
+	    [ ogit:contributes  ogit:Task ]
 	);
 
 .

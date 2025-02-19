@@ -2,6 +2,8 @@
 .DS_Store
 # for Emacs
 *~
+# for Vim
+*.swp
 # Generated documentation
 docs/doxy.java
 docs/html/
