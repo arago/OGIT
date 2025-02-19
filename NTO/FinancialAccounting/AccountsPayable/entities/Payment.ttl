@@ -26,5 +26,6 @@ ogit.FinancialAccounting.AccountsPayable:Payment
   );
   ogit:allowed (
 	[ ogit:belongs  ogit.FinancialAccounting.AccountsPayable:Invoice ]
+	[ ogit:belongs  ogit:Offer ]
   );
 .
