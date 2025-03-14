@@ -18,7 +18,7 @@ ogit:Feature
 	);
 	ogit:optional-attributes (
         ogit:color
-        ogit:placement
+        ogit:coordinate
 	);
 	ogit:indexed-attributes (
 	);
