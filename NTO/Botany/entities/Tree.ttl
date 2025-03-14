@@ -15,10 +15,9 @@ ogit.Botany:Tree
 	ogit:scope "SGO";
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
-		ogit:id
 	);
 	ogit:optional-attributes (
-
+		ogit:id
 	);
 	ogit:indexed-attributes (		
 	);
