@@ -1,0 +1,35 @@
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit.ServiceManagement:AccountingRule
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "AccountingRule";
+	dcterms:description """Contains rules on how services are to be categorized for billing.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2025-03-18;";
+	dcterms:creator "Jens Bartsch";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+
+	);
+	ogit:optional-attributes (
+		ogit:id
+		ogit:description
+		ogit:category
+		ogit:lowerLimit
+		ogit:upperLimit
+	);
+	ogit:indexed-attributes (
+
+	);
+	ogit:allowed (
+			[ ogit:belongs  ogit.ServiceManagement:Service ]
+			[ ogit:belongs  ogit:CatalogItem ]
+			[ ogit:affects  ogit:Organization ]
+	);
+.
