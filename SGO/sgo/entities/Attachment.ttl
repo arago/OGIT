@@ -69,9 +69,11 @@ stored directly in the graph itself or be referenced by an external url link."""
 			[ ogit:belongs  ogit.ServiceManagement:Incident ]
 			[ ogit:belongs  ogit.ServiceManagement:ChangeRequest ]
 			[ ogit:belongs  ogit.ServiceManagement:Order ]
-                        [ ogit:belongs  ogit.Auth:AccountProfile ]
-                        [ ogit:belongs  ogit.Factory:Plant ]
-                        [ ogit:belongs  ogit.SaaS:ComponentInstance ]
-                        [ ogit:belongs  ogit.CustomerSupport:ChatMessage ]
+			[ ogit:belongs  ogit.Auth:AccountProfile ]
+			[ ogit:belongs  ogit.Factory:Plant ]
+			[ ogit:belongs  ogit.SaaS:ComponentInstance ]
+			[ ogit:belongs  ogit.CustomerSupport:ChatMessage ]
+			[ ogit:belongs ogit.Botany:WoodLog]
+			[ ogit:belongs ogit:Feature ]
 	);
 .
