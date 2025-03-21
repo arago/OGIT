@@ -23,5 +23,6 @@ ogit.Botany:WoodLog
   ogit:allowed (
     [ ogit:has ogit:Feature]
     [ ogit:belongs ogit.Botany:Tree]
+    [ ogit:has ogit:Attachment ]
   );
 .

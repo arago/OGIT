@@ -23,5 +23,6 @@ ogit:Feature
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
+		[ ogit:has ogit:Attachment ]
 	);
 .
