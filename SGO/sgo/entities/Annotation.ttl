@@ -23,6 +23,7 @@ ogit:Annotation
 		ogit:comment	# the comment of the Anotation
 		ogit:title		# the title of the Anotation
 		ogit:status 	# Status of the annotation (Created, Sent, Commented, ReviewRequested, ReviewCompleted, Closed)
+		ogit:reason		# the reason for the annotation status
 	);
 	ogit:indexed-attributes (
 
