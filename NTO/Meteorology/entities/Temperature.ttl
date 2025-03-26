@@ -1,0 +1,26 @@
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix ogit.Meteorology:       <http://www.purl.org/ogit/Meteorology/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+ogit.Meteorology:Temperature
+    a rdfs:Class;
+    rdfs:subClassOf      ogit:Entity;
+    rdfs:label          "Temperature";
+    dcterms:description "Records temperature in Kelvin.";
+    dcterms:valid       "start=2025-03-26;";
+    dcterms:creator     "Paul Brinkmeier";
+    ogit:scope          "NTO" ;
+    ogit:parent         ogit:Node ;
+    ogit:mandatory-attributes (
+        ogit.Meteorology:maxMeasurement
+    );
+    ogit:optional-attributes (
+    );
+    ogit:indexed-attributes (
+    );
+    ogit:allowed (
+    );
+.
