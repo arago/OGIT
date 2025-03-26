@@ -16,9 +16,9 @@ ogit.Meteorology:Weather
     ogit:parent         ogit:Node ;
     ogit:mandatory-attributes (
         ogit:timestamp
+        ogit:source
     );
     ogit:optional-attributes (
-        ogit.Meteorology:weatherStation
     );
     ogit:indexed-attributes (
     );
@@ -29,5 +29,6 @@ ogit.Meteorology:Weather
         [ ogit:has ogit.Meteorology:Temperature ]
         [ ogit:has ogit.Meteorology:AtmosphericPressure ]
         [ ogit:has ogit.Meteorology:Cloudiness ]
+        [ ogit:affects ogit:Event ]
     );
 .
