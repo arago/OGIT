@@ -7,7 +7,7 @@
 
 ogit.Meteorology:Cloudiness
     a rdfs:Class;
-    rdfs:subClassOf      ogit:Entity;
+    rdfs:subClassOf     ogit:Entity;
     rdfs:label          "Cloudiness";
     dcterms:description "Records cloudiness pressure as cloud cover percentage.";
     dcterms:valid       "start=2025-03-26;";

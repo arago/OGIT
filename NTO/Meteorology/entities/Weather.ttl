@@ -5,22 +5,29 @@
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 
 
-ogit.Meteorology:AtmosphericPressure
+ogit.Meteorology:Weather
     a rdfs:Class;
     rdfs:subClassOf     ogit:Entity;
-    rdfs:label          "AtmosphericPressure";
-    dcterms:description "Records atmospheric pressure in Pascal.";
+    rdfs:label          "Weather";
+    dcterms:description "Represents the weather at a specific location on a specific day. The day is identified by a timestamp at 00:00 and the following 24 hour interval.";
     dcterms:valid       "start=2025-03-26;";
     dcterms:creator     "Paul Brinkmeier";
     ogit:scope          "NTO" ;
     ogit:parent         ogit:Node ;
     ogit:mandatory-attributes (
-        ogit.Meteorology:measurement
+        ogit:timestamp
     );
     ogit:optional-attributes (
+        ogit.Meteorology:weatherStation
     );
     ogit:indexed-attributes (
     );
     ogit:allowed (
+        [ ogit:has ogit.Meteorology:Extreme ]
+        [ ogit:has ogit.Meteorology:Sunshine ]
+        [ ogit:has ogit.Meteorology:Precipitation ]
+        [ ogit:has ogit.Meteorology:Temperature ]
+        [ ogit:has ogit.Meteorology:AtmosphericPressure ]
+        [ ogit:has ogit.Meteorology:Cloudiness ]
     );
 .

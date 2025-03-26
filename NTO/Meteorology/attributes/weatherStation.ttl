@@ -4,23 +4,11 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 
-
-ogit.Meteorology:Extreme
-    a rdfs:Class;
-    rdfs:subClassOf     ogit:Entity;
-    rdfs:label          "Extreme";
-    dcterms:description "Represents an extreme weather event.";
+ogit.Meteorology:weatherStation
+    a owl:DatatypeProperty;
+    rdfs:subPropertyOf  ogit:Attribute;
+    rdfs:label          "weatherStation";
+    dcterms:description "Identifier of the station which recorded weather data.";
     dcterms:valid       "start=2025-03-26;";
     dcterms:creator     "Paul Brinkmeier";
-    ogit:scope          "NTO" ;
-    ogit:parent         ogit:Node ;
-    ogit:mandatory-attributes (
-        ogit:subType
-    );
-    ogit:optional-attributes (
-    );
-    ogit:indexed-attributes (
-    );
-    ogit:allowed (
-    );
 .

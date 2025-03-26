@@ -7,7 +7,7 @@
 
 ogit.Meteorology:Precipitation
     a rdfs:Class;
-    rdfs:subClassOf      ogit:Entity;
+    rdfs:subClassOf     ogit:Entity;
     rdfs:label          "Precipitation";
     dcterms:description "Records amount of precipitation in volume per area (liters per square meter).";
     dcterms:valid       "start=2025-03-26;";

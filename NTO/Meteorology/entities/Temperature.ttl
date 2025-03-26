@@ -7,7 +7,7 @@
 
 ogit.Meteorology:Temperature
     a rdfs:Class;
-    rdfs:subClassOf      ogit:Entity;
+    rdfs:subClassOf     ogit:Entity;
     rdfs:label          "Temperature";
     dcterms:description "Records temperature in Kelvin.";
     dcterms:valid       "start=2025-03-26;";
