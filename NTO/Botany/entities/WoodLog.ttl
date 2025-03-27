@@ -17,6 +17,7 @@ ogit.Botany:WoodLog
     ogit:id
   );
   ogit:optional-attributes (
+    ogit:name
   );
   ogit:indexed-attributes (
   );
