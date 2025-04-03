@@ -1,0 +1,29 @@
+on:
+  push:
+
+name: Build and publish documentation
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Create input files for doxygen
+      run: ./doxygenHTML.sh
+
+    - name: Build doxygen
+      uses: mattnotmitt/doxygen-action@1.8.18
+      with:
+        working-directory: docs
+        doxyfile-path: ogit-doxyfile
+
+    - name: List generated files
+      run: ls -l docs/html
+
+    - name: Print index.html
+      run: cat docs/html/index.html
