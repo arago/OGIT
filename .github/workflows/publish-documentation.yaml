@@ -1,7 +1,18 @@
 on:
   push:
 
-name: Build and publish documentation
+name: Build and publish documentation to GitHub Pages
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# concurrency:
+#   group: "pages"
+#     cancel-in-progress: false
 
 jobs:
   publish:
@@ -22,8 +33,24 @@ jobs:
         working-directory: docs
         doxyfile-path: ogit-doxyfile
 
-    - name: List generated files
-      run: ls -l docs/html
+    # Necessary because the action above runs as root
+    # and therefore creates all its files with root:root owner.
+    - name: Copy output files so that their directory is writable
+      run: cp -r docs/html _site
 
-    - name: Print index.html
-      run: cat docs/html/index.html
+    - name: Debug
+      run: |
+        ls -l
+        echo $USER
+        id
+
+    - name: Overwrite with custom styling files
+      run: cp docs/doxygen/* _site
+
+    - name: Upload github-pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: _site
+
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
