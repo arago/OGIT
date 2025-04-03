@@ -1,5 +1,13 @@
 on:
   push:
+    branches:
+      master
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 name: Build and publish documentation to GitHub Pages
 
@@ -8,15 +16,9 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-# concurrency:
-#   group: "pages"
-#     cancel-in-progress: false
-
 jobs:
   publish:
-    name: Publish
+    name: Build and publish documentation
     runs-on: ubuntu-latest
     environment: production
 
@@ -37,12 +39,6 @@ jobs:
     # and therefore creates all its files with root:root owner.
     - name: Copy output files so that their directory is writable
       run: cp -r docs/html _site
-
-    - name: Debug
-      run: |
-        ls -l
-        echo $USER
-        id
 
     - name: Overwrite with custom styling files
       run: cp docs/doxygen/* _site
