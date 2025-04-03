@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#java -jar bin/ogit-tools-jar-with-dependencies.jar -input . -output docs/doxy.java -outputformat dox -inputformat ttl
+java -jar bin/ogit-tools-jar-with-dependencies.jar -input . -output docs/doxy.java -outputformat dox -inputformat ttl
 
 cd NTO
 for d in */ ; do
