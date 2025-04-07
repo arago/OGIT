@@ -13,5 +13,8 @@ docs/rtf/
 docs/searchdata.xml
 docs/xml/
 tmp/
+docs/*.txtdoc
+!docs/overview.txtdoc
+!docs/issue_processing.txtdoc
 # misc
 .idea
