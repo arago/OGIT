@@ -83,5 +83,6 @@ ogit:Event
 			[ ogit:affects  ogit.Automation:MARSNode ]
 			[ ogit:alerts  ogit.Auth:Account ]
 			[ ogit:has ogit.Politics:Discussion ]
+			[ ogit:registers ogit:Organization ]
 	);
 .
