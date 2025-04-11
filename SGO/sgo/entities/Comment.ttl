@@ -38,6 +38,7 @@ ogit:Comment
 		ogit:positionNumber
 		ogit:parentId
 		ogit:type
+		ogit:source
 	);
 	ogit:indexed-attributes (
 		
@@ -49,6 +50,7 @@ ogit:Comment
 			[ ogit:belongs  ogit:Event ]
 			[ ogit:belongs  ogit.ServiceManagement:SubTask ]
 			[ ogit:belongs  ogit.ServiceManagement:Ticket ]
+			[ ogit:belongs  ogit.ServiceManagement:Incident ]
 			[ ogit:connects  ogit.Forum:KnowledgeItemHistory ]
 			[ ogit:connects  ogit:Person ]
 			[ ogit:connects  ogit:Organization ]
