@@ -44,6 +44,9 @@ ogit.ServiceManagement:Incident
 		ogit:assignedGroup
 		ogit:category
 		ogit:reportedAt
+		ogit:source
+		ogit:lastUpdatedAt
+		ogit:lastUpdatedBy
 	);
 	ogit:indexed-attributes (
 		
