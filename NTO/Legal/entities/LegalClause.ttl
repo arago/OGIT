@@ -3,13 +3,14 @@
 @prefix dcterms: 	<http://purl.org/dc/terms/> .
 @prefix ogit:    	<http://www.purl.org/ogit/> .
 @prefix ogit.Legal: <http://www.purl.org/ogit/Legal/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
 
-ogit.Legal:LegalCode
+ogit.Legal:LegalClause
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
-	rdfs:label "LegalCode";
-	dcterms:description """A secondary legislation that is issued by an executive authority, based on the powers granted by a
-	LegalCode. It provides more specific rules on how a law is to be applied or enforced.""";
+	rdfs:label "LegalC";
+	dcterms:description """A distinct element within a legal code or document. Can take the form of articles, 
+	sections, paragraphs, or other structural units depending on the drafting style and jurisdiction.""";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2025-04-09;";
 	dcterms:creator "Daniel Maier";
@@ -17,19 +18,20 @@ ogit.Legal:LegalCode
 	ogit:parent ogit:Node;
 	ogit:mandatory-attributes (
 		ogit:name
-		ogit:id
+		ogit:content
 	);
 	ogit:optional-attributes (
-		ogit.Legal:juristictionCode
-		ogit:content
+		ogit:id
+		ogit:section
 		ogit.Legal:footnote
-		ogit:language
 		ogit:createdAt
+		ogit:lastUpdatedAt
 	);
 	ogit:indexed-attributes (
 	);
 	ogit:allowed (
-			[ ogit:contains  ogit.Legal:LegalNorm ]
-			[ ogit:contains  ogit.Legal:Attachment ]
+			[ ogit:references  ogit.Legal:LegalClause ]
+			[ ogit:references  ogit:Attachment ]
+			[ ogit:causes  ogit.ServiceManagement:Service ]
 	);
 .

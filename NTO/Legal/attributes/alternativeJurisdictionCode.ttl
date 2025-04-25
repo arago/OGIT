@@ -1,0 +1,14 @@
+@prefix rdfs:    	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     	<http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: 	<http://purl.org/dc/terms/> .
+@prefix ogit:    	<http://www.purl.org/ogit/> .
+@prefix ogit.Legal: <http://www.purl.org/ogit/Legal/> .
+
+ogit.Legal:alternativeJuristictionCode
+        a owl:DatatypeProperty;
+        rdfs:subPropertyOf ogit:Attribute;
+        rdfs:label "Alternative legal code abbreviation";
+        dcterms:description "An alternative abbreviation for a legal code, often used internally by specific authorities.";
+        dcterms:valid "start=2025-04-09;";
+        dcterms:creator "Daniel Maier";
+.
