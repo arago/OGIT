@@ -39,6 +39,7 @@ ogit:Comment
 		ogit:parentId
 		ogit:type
 		ogit:source
+		ogit:createdAt
 	);
 	ogit:indexed-attributes (
 		
