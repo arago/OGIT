@@ -17,6 +17,7 @@ ogit:Tag
 	);
 	ogit:optional-attributes (
 		ogit:color
+		ogit:type
 	);
 	ogit:indexed-attributes (
 
