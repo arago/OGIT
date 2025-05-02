@@ -89,5 +89,6 @@ ogit.ServiceManagement:Incident
 			[ ogit:affects  ogit.MARS:Software ]
 			[ ogit:affects  ogit.MARS:Machine ]
 			[ ogit:affects  ogit.Automation:MARSNode ]
+			[ ogit:has ogit:Tag]
 	);
 .
