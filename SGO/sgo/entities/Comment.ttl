@@ -51,6 +51,7 @@ ogit:Comment
 			[ ogit:belongs  ogit:Event ]
 			[ ogit:belongs  ogit.ServiceManagement:SubTask ]
 			[ ogit:belongs  ogit.ServiceManagement:Ticket ]
+			[ ogit:belongs  ogit.ServiceManagement:Alert ]
 			[ ogit:belongs  ogit.ServiceManagement:Incident ]
 			[ ogit:resolves ogit.ServiceManagement:Incident]
 			[ ogit:connects  ogit.Forum:KnowledgeItemHistory ]
