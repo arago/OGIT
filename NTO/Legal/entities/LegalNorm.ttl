@@ -9,8 +9,8 @@ ogit.Legal:LegalNorm
 	a rdfs:Class;
 	rdfs:subClassOf ogit:Entity;
 	rdfs:label "LegalNorm";
-	dcterms:description """A single, structured body of legal text enacted as a unified law or code. It typically consists of multiple
-	clasues or articles and governs a defined legal domain such as civil, criminal, or administrative law.""";
+	dcterms:description "A single, structured body of legal text enacted as a unified law or code. It typically consists of multiple
+	clasues or articles and governs a defined legal domain such as civil, criminal, or administrative law.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
 	dcterms:valid "start=2025-04-09;";
 	dcterms:creator "Daniel Maier";
@@ -28,6 +28,7 @@ ogit.Legal:LegalNorm
 		ogit:language
 		ogit:createdAt
 		ogit:lastUpdatedAt
+		ogit:url
 	);
 	ogit:indexed-attributes (
 	);
