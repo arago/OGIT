@@ -1,0 +1,54 @@
+@prefix ogit.BusinessProcess:   <http://www.purl.org/ogit/BusinessProcess/> .
+@prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix ogit.Datacenter:        <http://www.purl.org/ogit/Datacenter/> .
+@prefix ogit.Software:          <http://www.purl.org/ogit/Software/> .
+@prefix ogit.Forum:             <http://www.purl.org/ogit/Forum/> .
+@prefix ogit.Network:           <http://www.purl.org/ogit/Network/> .
+@prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit.ServiceManagement:SecurityAlert
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "SecurityAlert";
+	dcterms:description "Represents a system-generated notification indicating a potentially relevant or suspicious event, usually triggered by security monitoring tools.";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2025-05-05;";
+	dcterms:creator "Erik Wilfling";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+
+	);
+	ogit:optional-attributes (
+		ogit:id
+		ogit:externalId
+		ogit:title
+		ogit:description
+		ogit:category
+		ogit:severity
+		ogit:uri
+		ogit:createdAt
+		ogit:firstOccurredAt
+		ogit:lastOccurredAt
+		ogit:source
+		ogit:classification
+		ogit.ServiceManagement:sourceStatus
+		ogit.ServiceManagement:determination
+		ogit.ServiceManagement:reportedSource
+		ogit.ServiceManagement:recommendedActions
+		ogit.ServiceManagement:resolvedAt
+		ogit.ServiceManagement:threatName
+	);
+	ogit:indexed-attributes (
+		
+	);
+	ogit:allowed (
+		[ ogit:relates  ogit.ServiceManagement:Incident ]
+	);
+.

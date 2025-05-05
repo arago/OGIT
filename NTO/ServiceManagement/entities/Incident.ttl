@@ -33,6 +33,9 @@ ogit.ServiceManagement:Incident
 	);
 	ogit:optional-attributes (
 		ogit:id
+		ogit:name
+		ogit:description
+		ogit:summary
 		ogit.ServiceManagement:incidentStatus
 		ogit.ServiceManagement:solution
 		ogit.ServiceManagement:resolutionCode
@@ -41,12 +44,17 @@ ogit.ServiceManagement:Incident
 		ogit.ServiceManagement:reportedSource
 		ogit.ServiceManagement:customer
 		ogit.ServiceManagement:task
+		ogit.ServiceManagement:determination
+		ogit:classification
 		ogit:assignedGroup
 		ogit:category
 		ogit:reportedAt
 		ogit:source
 		ogit:lastUpdatedAt
 		ogit:lastUpdatedBy
+		ogit:createdAt
+		ogit:uri
+		ogit:severity
 	);
 	ogit:indexed-attributes (
 		
@@ -81,5 +89,6 @@ ogit.ServiceManagement:Incident
 			[ ogit:affects  ogit.MARS:Software ]
 			[ ogit:affects  ogit.MARS:Machine ]
 			[ ogit:affects  ogit.Automation:MARSNode ]
+			[ ogit:has ogit:Tag]
 	);
 .
