@@ -37,8 +37,8 @@ ogit.ServiceManagement:SecurityAlert
 		ogit:firstOcurrenceAt
 		ogit:lastOcurrenceAt
 		ogit:source
+		ogit:classification
 		ogit.ServiceManagement:sourceStatus
-		ogit.ServiceManagement:classification
 		ogit.ServiceManagement:determination
 		ogit.ServiceManagement:reportedSource
 		ogit.ServiceManagement:recommendedActions

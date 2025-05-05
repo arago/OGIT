@@ -44,8 +44,8 @@ ogit.ServiceManagement:Incident
 		ogit.ServiceManagement:reportedSource
 		ogit.ServiceManagement:customer
 		ogit.ServiceManagement:task
-		ogit.ServiceManagement:classification
 		ogit.ServiceManagement:determination
+		ogit:classification
 		ogit:assignedGroup
 		ogit:category
 		ogit:reportedAt

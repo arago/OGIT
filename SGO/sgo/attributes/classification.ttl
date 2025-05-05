@@ -2,14 +2,13 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
-@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
 
-ogit.ServiceManagement:classification
+ogit:classification
 	a owl:DatatypeProperty;
 	rdfs:subPropertyOf ogit:Attribute;
 	rdfs:label "classification";
-	dcterms:description "Describes the classification assigned to the entity to support organization or decision-making.";
+	dcterms:description "Indicates a classification or label applied to the entity based on its nature, behavior, or context, supporting organizational or analytical use cases.";
 	# For ranges, see http://dublincore.org/documents/dcmi-period/
-	dcterms:valid "start=2025-05-02;";
+	dcterms:valid "start=2025-05-05;";
 	dcterms:creator "Erik Wilfling";
 .
