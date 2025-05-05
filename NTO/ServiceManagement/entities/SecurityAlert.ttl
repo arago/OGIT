@@ -34,8 +34,8 @@ ogit.ServiceManagement:SecurityAlert
 		ogit:severity
 		ogit:uri
 		ogit:createdAt
-		ogit:firstOcurrenceAt
-		ogit:lastOcurrenceAt
+		ogit:firstOcurredAt
+		ogit:lastOcurredAt
 		ogit:source
 		ogit:classification
 		ogit.ServiceManagement:sourceStatus
