@@ -1,0 +1,37 @@
+@prefix rdfs:    	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     	<http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: 	<http://purl.org/dc/terms/> .
+@prefix ogit:    	<http://www.purl.org/ogit/> .
+@prefix ogit.Legal: <http://www.purl.org/ogit/Legal/> .
+@prefix ogit.ServiceManagement: <http://www.purl.org/ogit/ServiceManagement/> .
+
+ogit.Legal:LegalClause
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "LegalC";
+	dcterms:description """A distinct element within a legal code or document. Can take the form of articles, 
+	sections, paragraphs, or other structural units depending on the drafting style and jurisdiction.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2025-04-09;";
+	dcterms:creator "Daniel Maier";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		ogit:name
+		ogit:content
+	);
+	ogit:optional-attributes (
+		ogit:id
+		ogit:section
+		ogit.Legal:footnote
+		ogit:createdAt
+		ogit:lastUpdatedAt
+	);
+	ogit:indexed-attributes (
+	);
+	ogit:allowed (
+			[ ogit:references  ogit.Legal:LegalClause ]
+			[ ogit:references  ogit:Attachment ]
+			[ ogit:causes  ogit.ServiceManagement:Service ]
+	);
+.
