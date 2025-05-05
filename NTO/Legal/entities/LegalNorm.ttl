@@ -34,7 +34,7 @@ ogit.Legal:LegalNorm
 	ogit:allowed (
 		[ ogit:contains  ogit.Legal:LegalClause ]
 		[ ogit:causes  ogit.ServiceManagement:Service ]
-		[ ogit.legal:empowers  ogit:Organization ]
+		[ ogit.Legal:empowers  ogit:Organization ]
 		[ ogit:governs  ogit:Region ]
 	);
 .
