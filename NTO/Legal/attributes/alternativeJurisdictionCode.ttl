@@ -4,7 +4,7 @@
 @prefix ogit:    	<http://www.purl.org/ogit/> .
 @prefix ogit.Legal: <http://www.purl.org/ogit/Legal/> .
 
-ogit.Legal:alternativeJuristictionCode
+ogit.Legal:alternativeJurisdictionCode
         a owl:DatatypeProperty;
         rdfs:subPropertyOf ogit:Attribute;
         rdfs:label "Alternative legal code abbreviation";
