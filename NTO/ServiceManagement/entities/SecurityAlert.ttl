@@ -36,6 +36,7 @@ ogit.ServiceManagement:SecurityAlert
 		ogit:createdAt
 		ogit:firstOccurredAt
 		ogit:lastOccurredAt
+		ogit:lastUpdatedAt
 		ogit:source
 		ogit:classification
 		ogit.ServiceManagement:sourceStatus
