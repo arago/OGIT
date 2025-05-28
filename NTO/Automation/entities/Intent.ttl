@@ -1,0 +1,30 @@
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Automation:        <http://www.purl.org/ogit/Automation/> .
+
+ogit.Automation:Intent
+  a rdfs:Class;
+  rdfs:subClassOf ogit:Entity;
+  rdfs:label "Intent";
+  dcterms:description "The Intent of a KI processing chain";
+  dcterms:valid "start=2025-05-20;";
+  dcterms:creator "Calvin Spolwind";
+  ogit:scope "NTO";
+  ogit:blob "true";
+  ogit:parent "http://www.purl.org/ogit/Node";
+  ogit:mandatory-attributes (
+		ogit:description
+  );
+  ogit:optional-attributes (
+		ogit.Automation:systemVariableNames
+		ogit.Automation:systemVariableValues
+		ogit.Automation:userVariables
+  );
+		ogit:indexed-attributes (
+  );
+  ogit:allowed (
+		[ ogit:has  ogit:Attachment ]
+		[ ogit:utilizes  ogit.Automation:Variable ]
+  );
+.
