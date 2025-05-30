@@ -12,6 +12,7 @@
 @prefix owl:                    <http://www.w3.org/2002/07/owl#> .
 @prefix ogit.MARS:              <http://www.purl.org/ogit/MARS/> .
 @prefix ogit.MRO.Aviation:      <http://www.purl.org/ogit/MRO/Aviation/> .
+@prefix ogit.Forms: 				<http://www.purl.org/ogit/Forms/> .
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
@@ -54,5 +55,6 @@ ogit.ServiceManagement:Service
 			[ ogit:complies  ogit.ServiceManagement:SLA ]
 			[ ogit:affects  ogit:Person ]
 			[ ogit:availableIn ogit:Region]
+			[ ogit:uses ogit.Forms:Form ]
 	);
 .

@@ -1,0 +1,36 @@
+@prefix rdfs:    	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     	<http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: 	<http://purl.org/dc/terms/> .
+@prefix ogit:    	<http://www.purl.org/ogit/> .
+@prefix ogit.Legal: <http://www.purl.org/ogit/Legal/> .
+@prefix ogit.Forms: <http://www.purl.org/ogit/Forms/> .
+
+
+ogit.Forms:FormField
+	a rdfs:Class;
+	rdfs:subClassOf ogit:Entity;
+	rdfs:label "FormField";
+	dcterms:description """A form field that needs to be filled out with information.""";
+	# For ranges, see http://dublincore.org/documents/dcmi-period/
+	dcterms:valid "start=2025-05-30;";
+	dcterms:creator "Semih Can Sancar";
+	ogit:scope "NTO";
+	ogit:parent ogit:Node;
+	ogit:mandatory-attributes (
+		ogit:id
+	);
+	ogit:optional-attributes (
+		ogit:name
+		ogit:version
+		ogit:content
+		ogit:status
+        ogit:description
+        ogit:subType
+	);
+	ogit:indexed-attributes (
+	);
+	ogit:allowed (
+		[ ogit:complies  ogit.Legal:LegalClause ]
+		[ ogit:complies  ogit.Legal:LegalNorm ]
+	);
+.
