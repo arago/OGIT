@@ -29,6 +29,7 @@ ogit.Forms:Form
 	);
 	ogit:allowed (
 		[ ogit:contains  ogit.Forms:FormFieldGroup ]
+		[ ogit:contains  ogit.Forms:FormField ]
 		[ ogit:complies  ogit.Legal:LegalClause ]
 		[ ogit:complies  ogit.Legal:LegalNorm ]
 	);
