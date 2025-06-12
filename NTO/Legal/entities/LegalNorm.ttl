@@ -29,6 +29,7 @@ ogit.Legal:LegalNorm
 		ogit:createdAt
 		ogit:lastUpdatedAt
 		ogit:url
+		ogit:endedAt
 	);
 	ogit:indexed-attributes (
 	);

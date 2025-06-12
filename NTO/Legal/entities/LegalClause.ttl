@@ -26,6 +26,7 @@ ogit.Legal:LegalClause
 		ogit.Legal:footnote
 		ogit:createdAt
 		ogit:lastUpdatedAt
+		ogit:endedAt
 	);
 	ogit:indexed-attributes (
 	);
