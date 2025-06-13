@@ -37,7 +37,8 @@ ogit.ServiceManagement:Service
 		ogit:uri
 		ogit:type 		# Type of the service (e.g. OnlineService)
 		ogit:version 	
-		ogit:content 	
+		ogit:content
+		ogit:email 	
 	);
 	ogit:indexed-attributes (
 		
