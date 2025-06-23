@@ -1,0 +1,17 @@
+@prefix ogit.MARS.Machine:      <http://www.purl.org/ogit/MARS/Machine/> .
+@prefix ogit:                   <http://www.purl.org/ogit/> .
+@prefix owl:                    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms:                <http://purl.org/dc/terms/> .
+
+
+ogit.MARS.Machine:cpuCores
+	a owl:DatatypeProperty;
+	rdfs:subPropertyOf ogit:Attribute;
+	rdfs:label "cpuCores";
+	dcterms:description "Number of CPU cores.";
+	dcterms:valid "start=2025-06-23;";
+	dcterms:creator "jbartsch@almato.com";
+	ogit:validation-type "regex";
+	ogit:validation-parameter "^\\d+$";
+.
