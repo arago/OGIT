@@ -14,5 +14,5 @@ ogit.MARS.Machine:cpuArch
 	dcterms:valid "start=2018-06-01;";
 	dcterms:creator "fotto@arago.de";
 	ogit:validation-type "fixed";
-	ogit:validation-parameter "x86_32,x86_64,Sparc,PowerPC,Itanium,Appliance,MIPS,Alpha,SH-x,StrongARM";
+	ogit:validation-parameter "x86_32,x86_64,Sparc,PowerPC,Itanium,Appliance,MIPS,Alpha,SH-x,StrongARM,arm64";
 .

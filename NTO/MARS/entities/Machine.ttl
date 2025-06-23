@@ -50,6 +50,7 @@ ogit.MARS:Machine
             ogit.MARS.Machine:distroName
             ogit.MARS.Machine:kernel
             ogit.MARS.Machine:ram
+            ogit.MARS.Machine:cpuCores
 
             ogit:tenantId
 	);
